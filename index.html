@@ -46,18 +46,17 @@
     }
 
     .quiz-container {
-    display: none;
-    flex-direction: column;
-    width: 95%;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative; /* 新增 */
-    min-height: calc(100vh - 20px); /* 修改 */
-}
+            display: none;
+            flex-direction: column;
+            width: 95%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            min-height: 100vh;
+        }
 
     .header {
         display: flex;
@@ -208,13 +207,10 @@
         }
     }
         .copyright {
-    position: absolute; /* 新增 */
-    bottom: 0; /* 新增 */
-    width: 100%; /* 新增，確保 copyright 文字寬度一致 */
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 12px;
-    color: #a9a9a9;
+    color: #a9a9a9; /* 淺灰色 */
 }
         
         .copyright a {
