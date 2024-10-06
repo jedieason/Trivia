@@ -201,31 +201,26 @@
     }
 
     /* 響應式設計 */
-/*     @media screen and (max-width: 768px) {
-        .start-title,
-        .quiz-title {
-            font-size: 20px;
-        }
-
-        .start-button,
-        .confirm-button,
-        .next-button {
-            width: 100%;
+    @media screen and (max-width: 768px) {
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
             margin: 0;
         }
-
-        .question-content {
+        .next-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
             font-size: 18px;
+            background-color: white;
+            color: #fc9d38;
+            border: solid 2px #fc9d38;
+            border-radius: 15px;
+            cursor: pointer;
+            align-self: flex-start;
+            transition: all 0.3s ease;
         }
-
-        .option-button {
-            font-size: 16px;
-        }
-
-        .explanation-text {
-            font-size: 16px;
-        }
-    } */
+    }
 </style>
 </head>
 <body>
