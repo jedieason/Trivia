@@ -180,6 +180,7 @@
     }
 
     .next-button {
+        display: block;
         margin-top: 20px;
         padding: 10px 20px;
         font-size: 18px;
@@ -188,11 +189,8 @@
         border: solid 2px #fc9d38;
         border-radius: 15px;
         cursor: pointer;
-        align-self: flex-end;
+        align-self: flex-start;
         transition: all 0.3s ease;
-        position: absolute;
-        right: 20px;
-        bottom: 20px;
     }
 
     .next-button:hover {
@@ -206,19 +204,6 @@
             font-family: Arial, sans-serif;
             background-color: #fff;
             margin: 0;
-        }
-        .next-button {
-            display: block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: white;
-            color: #fc9d38;
-            border: solid 2px #fc9d38;
-            border-radius: 15px;
-            cursor: pointer;
-            align-self: flex-start;
-            transition: all 0.3s ease;
         }
     }
 </style>
