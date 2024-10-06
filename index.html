@@ -318,46 +318,39 @@
         const optionEntries = Object.entries(currentQuestion.options);
         shuffle(optionEntries);
     
-        // 建立原始選項標籤到新標籤的映射
-        // let labelMapping = {};
-        // for (let i = 0; i < originalLabels.length; i++) {
-        //     labelMapping[originalLabels[i]] = optionLabels[i];
-        // }
-        // 建立原始選項標籤到新標籤的映射
-let labelMapping = {};
-for (let i = 0; i < optionEntries.length; i++) {
-    const [originalLabel, text] = optionEntries[i];
-    const newLabel = optionLabels[i];
-    newOptions[newLabel] = text;
-
-    // 建立映射
-    labelMapping[originalLabel] = newLabel;
-
-    // 創建選項按鈕（保持原有代碼）
-    const button = document.createElement('button');
-    button.classList.add('option-button');
-    button.dataset.option = newLabel;
-    button.innerText = `${newLabel}: ${text}`;
-    button.addEventListener('click', selectOption);
-    optionsContainer.appendChild(button);
-
-    if (originalLabel === currentQuestion.answer) {
-        newAnswer = newLabel;
-    }
-}
-
-// 更新題目的選項和答案
-currentQuestion.options = newOptions;
-currentQuestion.answer = newAnswer;
-
-// 如果沒有詳解，設置為 '這題沒有詳解'
-if (!currentQuestion.explanation) {
-    currentQuestion.explanation = '這題沒有詳解';
-}
-
-// 更新詳解中的選項標籤
-currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
-
+        let labelMapping = {};
+        for (let i = 0; i < originalLabels.length; i++) {
+            labelMapping[originalLabels[i]] = optionLabels[i];
+        }
+    
+        // 更新選項
+        const optionsContainer = document.getElementById('options');
+        optionsContainer.innerHTML = '';
+        let newOptions = {};
+        let newAnswer = '';
+        for (let i = 0; i < optionEntries.length; i++) {
+            const [label, text] = optionEntries[i];
+            const newLabel = optionLabels[i];
+            newOptions[newLabel] = text;
+    
+            const button = document.createElement('button');
+            button.classList.add('option-button');
+            button.dataset.option = newLabel;
+            button.innerText = `${newLabel}: ${text}`;
+            button.addEventListener('click', selectOption);
+            optionsContainer.appendChild(button);
+    
+            if (label === currentQuestion.answer) {
+                newAnswer = newLabel;
+            }
+        }
+    
+        // 更新題目的選項和答案
+        currentQuestion.options = newOptions;
+        currentQuestion.answer = newAnswer;
+    
+        // 更新詳解中的選項標籤
+        currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
     }
     
     // 更新詳解中的選項標籤
