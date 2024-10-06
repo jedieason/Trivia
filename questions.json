@@ -1,24 +1,747 @@
 [
     {
-        "question": "哪個分子被稱為細胞的能量貨幣？",
+        "question": "Hydrophobic interaction most likely occur between which of the following R groups in amino acids?",
         "options": {
-            "A": "DNA",
-            "B": "ATP",
-            "C": "RNA",
-            "D": "NADH"
-        },
-        "answer": "B",
-        "explanation": "ATP（腺苷三磷酸）是所有生物的主要能量載體。"
-    },
-    {
-        "question": "細胞膜的主要結構成分是什麼？",
-        "options": {
-            "A": "蛋白質",
-            "B": "碳水化合物",
-            "C": "磷脂",
-            "D": "核酸"
+            "A": "Tyrosine and glycine",
+            "B": "Arginine and histidine",
+            "C": "Phenylalanine and tryptophan",
+            "D": "Valine and asparagine",
+            "E": "Serine and glutamine"
         },
         "answer": "C",
-        "explanation": "磷脂形成的雙分子層是細胞膜的基本結構。"
+        "explanation": "(C) Phe 和 Trp 都具有疏水性的芳香環側鏈，疏水性強。其他選項的胺基酸有極性或帶電性基團，疏水性較弱。"
+    },
+    {
+        "question": "An amino acid has three ionizable PKA groups of 2.0, 3.8 and 10.5. What is its pI?",
+        "options": {
+            "A": "7.2",
+            "B": "2.9",
+            "C": "5.4",
+            "D": "12.5",
+            "E": "None of the above"
+        },
+        "answer": "B",
+        "explanation": "等電點 (pI) 是最接近 pKa 值的兩個值的平均數。此處為 (2.0 + 3.8) / 2 = 2.9。"
+    },
+    {
+        "question": "In collagen:",
+        "options": {
+            "A": "Intrachain hydrogen bonds stabilize nature structure",
+            "B": "Three chains with polyproline type helical conformation can wind about one another to form a superhelix because of structure of glycine",
+            "C": "The φ angles contributed by proline are free to rotate",
+            "D": "Regions of superhelicity comprise the entire structure except for N- or C- terminus",
+            "E": "Crosslinks between triple helices form after lysine is converted to allysine"
+        },
+        "answer": "B",
+        "explanation": "(B) 胶原蛋白的三股螺旋結構由甘胺酸（Gly）的結構簡單性所支持，使其能夠形成超螺旋結構。"
+    },
+    {
+        "question": "The peptide alanylglutamylglycylalanylleucine has _____ peptide bonds?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+        },
+        "answer": "C",
+        "explanation": "在五個胺基酸中形成四個肽鍵。"
+    },
+    {
+        "question": "A peptide has the sequence Acetyl-Ala-Glu-His-Ser-Lys-Gly-amide. This oligopeptide has a pI close to?",
+        "options": {
+            "A": "4.3",
+            "B": "5.1",
+            "C": "6.0",
+            "D": "8.4",
+            "E": "10.8"
+        },
+        "answer": "D",
+        "explanation": "這個肽的 pI 最接近 8.4，因為其包含可離子的胺基酸。"
+    },
+    {
+        "question": "Which of the following statements about aromatic amino acids is correct?",
+        "options": {
+            "A": "All of them are strongly hydrophobic.",
+            "B": "Histidine has aromatic and basic properties, and which property to exhibit depends on the surrounding pH.",
+            "C": "On the molar basis, tryptophan absorbs more ultraviolet light than tyrosine.",
+            "D": "The major contribution to the characteristic absorption of light at 280 nm by proteins is the phenylalanine R group.",
+            "E": "The presence of a ring structure in its R group determines whether or not an amino acid is aromatic."
+        },
+        "answer": "C",
+        "explanation": "(C) 色胺酸 (Trp) 的芳香環比酪氨酸 (Tyr) 吸收更多紫外光。"
+    },
+    {
+        "question": "The oxygen-binding curve of hemoglobin is sigmoidal because?",
+        "options": {
+            "A": "The binding of oxygen to a heme group increases the oxygen affinities of the other heme groups.",
+            "B": "The solubility of the hemoglobin molecule changes with its oxidation state.",
+            "C": "The subunits are held in place by interchain sulfide bonds.",
+            "D": "The distal histidine allows the hemoglobin molecule to change its conformation in response to an elevated carbon dioxide concentration.",
+            "E": "The heme groups of the α chains have a higher oxygen affinity than do the heme groups of the β chains."
+        },
+        "answer": "A",
+        "explanation": "(A) 協同效應使得氧與一個次單元的結合增加其他次單元的氧親和力。"
+    },
+    {
+        "question": "β-sheets are stabilized by which force?",
+        "options": {
+            "A": "Hydrophobic interaction",
+            "B": "van der Waals force",
+            "C": "Hydrogen bonds are formed between adjacent segments of polypeptide chain",
+            "D": "Hydrogen bonding between the R group",
+            "E": "Ionic interaction"
+        },
+        "answer": "C",
+        "explanation": "(C) β-摺板的穩定性來自於相鄰多肽鏈間的氫鍵。"
+    },
+    {
+        "question": "In peptide synthesis method, the polymer (polystyrene bead) is used _____?",
+        "options": {
+            "A": "to keep the growing peptide soluble",
+            "B": "to provide a suitable solvent for reactions",
+            "C": "to prevent undesired side reactions by limiting access by reagent to the peptide chain",
+            "D": "to keep the growing peptide insoluble but accessible",
+            "E": "to provide essential catalytic groups"
+        },
+        "answer": "D",
+        "explanation": "(D) 聚苯乙烯珠用於保持正在生長的肽鏈不溶性，但仍可接觸反應劑。"
+    },
+    {
+        "question": "Globular protein is characterized by _____?",
+        "options": {
+            "A": "glycine every three residue",
+            "B": "hydrophobic amino acids tend to be on the surface",
+            "C": "hydrophobic amino acids tend to be both on the interior and outside of protein",
+            "D": "composed by a large amount of hydroxyproline",
+            "E": "polar and charged amino acids tend to be on the outside of the protein"
+        },
+        "answer": "E",
+        "explanation": "(E) 球狀蛋白質的特徵是極性和帶電的胺基酸通常位於外部，以與水相互作用。"
+    },
+    {
+        "question": "The octapeptide AVGWRVKS was digested with the enzyme chymotrypsin. Which method would be most appropriate for separating the products?",
+        "options": {
+            "A": "Ion exchange chromatography",
+            "B": "Gel filtration chromatography",
+            "C": "Affinity chromatography",
+            "D": "Ammonium sulfate precipitation",
+            "E": "None of the above"
+        },
+        "answer": "A",
+        "explanation": "(A) 離子交換色譜法適合根據電荷分離產物。"
+    },
+    {
+        "question": "The amino acid substitution of Val for Glu in hemoglobin S results in aggregation of the protein because of _____ interactions between molecules.",
+        "options": {
+            "A": "covalent",
+            "B": "disulfide bonding",
+            "C": "hydrogen bonding",
+            "D": "hydrophobic",
+            "E": "ionic"
+        },
+        "answer": "D",
+        "explanation": "(D) 將疏水性的纈胺酸 (Val) 取代親水性的麩胺酸 (Glu) 導致疏水性交互作用，造成血紅蛋白聚集。"
+    },
+    {
+        "question": "Which of the following is correct with respect to the amino acid composition of proteins?",
+        "options": {
+            "A": "Larger proteins have a more uniform distribution of amino acids than smaller proteins.",
+            "B": "Proteins contain at least one each of the 20 different standard amino acids.",
+            "C": "Proteins with different functions usually differ significantly in their amino acid composition.",
+            "D": "Proteins with the same molecular weight have the same amino acid composition.",
+            "E": "The average molecular weight of an amino acid in a protein increases with the size of the protein."
+        },
+        "answer": "C",
+        "explanation": "(C) 不同功能的蛋白質通常在胺基酸組成上有顯著差異。"
+    },
+    {
+        "question": "Conjugated proteins involve prosthetic group. Which of following statement is correct?",
+        "options": {
+            "A": "Fibrous region of globular protein",
+            "B": "A nonidentical subunit of a protein",
+            "C": "A part of the protein that isn’t composed of amino acid",
+            "D": "A subunit of an oligomeric protein",
+            "E": "Synonymous with promoter"
+        },
+        "answer": "C",
+        "explanation": "(C) 複合蛋白的輔基是指非胺基酸組成的部分，通常與蛋白質形成穩定的結合。"
+    },
+    {
+        "question": "In the first step of two-dimensional gel electrophoresis, a series of protein bands are generated after isoelectric focusing. In the second step, the gel is rotated 90 degrees, placed on SDS gel, and the electric current is once more applied. In this second step:",
+        "options": {
+            "A": "Proteins with similar pIs get further separated according to their molecular weights.",
+            "B": "Bands get stained",
+            "C": "Do isoelectric focusing again",
+            "D": "Proteins with similar pIs get aggregated",
+            "E": "None of the above"
+        },
+        "answer": "A",
+        "explanation": "(A) 在第二步驟中，根據分子量大小進一步分離蛋白質。"
+    },
+    {
+        "question": "Autopsies of patients with Alzheimer’s disease show protein aggregates called neuritic plaques. These plaques exhibit the characteristic staining of amyloid. Which of the following structural features is the most likely characteristic of at least one of the proteins in these plaques?",
+        "options": {
+            "A": "A high content of β-pleated sheet structure.",
+            "B": "A high content of α-helical structure.",
+            "C": "A high content of random coils.",
+            "D": "Disulfide bond cross-links between polypeptide chains.",
+            "E": "A low-energy native conformation."
+        },
+        "answer": "A",
+        "explanation": "(A) 這些斑塊中的蛋白質常具有高含量的 β-摺疊結構，這與類澱粉纖維的形成有關。"
+    },
+    {
+        "question": "Changes of hemoglobin’s oxygen affinity are primarily changes of the _____ structure of the protein.",
+        "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "quaternary",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) 血紅蛋白的氧親和力變化主要涉及其四級結構的改變。"
+    },
+    {
+        "question": "Which of the following contributes to the quaternary structure?",
+        "options": {
+            "A": "Charge-charge interaction between asparagine and glutamate",
+            "B": "Hydrophobic interaction between phenylalanine and tyrosine",
+            "C": "Disulfide bond",
+            "D": "Hydrogen bond between threonine and the imidazole group of histidine",
+            "E": "All of the above"
+        },
+        "answer": "E",
+        "explanation": "(E) 以上所有選項均可影響蛋白質的四級結構。"
+    },
+    {
+        "question": "A protein was analyzed in N-terminal analysis by Edman degradation. The result is negative, i.e. no PTH amino acid was found. What is the probable cause?",
+        "options": {
+            "A": "The protein sample is not hemoglobin.",
+            "B": "The N-terminus amino group is blocked.",
+            "C": "The N-terminus is phosphorylated.",
+            "D": "The protein sample contains carbohydrates.",
+            "E": "None of the above."
+        },
+        "answer": "B",
+        "explanation": "(B) N-末端的氨基被阻塞會導致 Edman 降解無法產生 PTH 胺基酸。"
+    },
+    {
+        "question": "Which of the following groups of amino acids have side chain hydroxyl group?",
+        "options": {
+            "A": "Aspartate, Glutamate, Serine",
+            "B": "Serine, Threonine, Tyrosine",
+            "C": "Threonine, Phenylalanine, Arginine",
+            "D": "Lysine, Arginine, Proline",
+            "E": "Alanine, Aspartate, Serine"
+        },
+        "answer": "B",
+        "explanation": "(B) Ser、Thr 和 Tyr 均具有羥基側鏈。"
+    },
+    {
+        "question": "Integral membrane proteins are helped to locate across the lipid bilayers by _____?",
+        "options": {
+            "A": "glycosylation",
+            "B": "formations of disulfide bonds",
+            "C": "phosphorylation",
+            "D": "using α-helix made up of amino acids with hydrophilic side chains",
+            "E": "using α-helix made up of amino acids with hydrophobic side chains"
+        },
+        "answer": "E",
+        "explanation": "(E) 整合膜蛋白通過具有疏水性側鏈的 α-螺旋定位於脂質雙層中。"
+    },
+    {
+        "question": "Which of the following description is the reason why the affinity of carbon monoxide for heme of myoglobin decreases?",
+        "options": {
+            "A": "Fe2+ binds to five atoms",
+            "B": "Proximal His F8 binds to Fe2+.",
+            "C": "Distal His E7 cause steric hindrance to heme bind to carbon monoxide.",
+            "D": "His binds to heme with its nitrogen atom.",
+            "E": "None of the above."
+        },
+        "answer": "C",
+        "explanation": "(C) Distal His E7 對 CO 的結合造成立體障礙，減少了 CO 與 heme 的結合親和力。"
+    },
+    {
+        "question": "Below is some sentence about protein and ligand allosteric control, which is correct?",
+        "options": {
+            "A": "A ligand binds to protein, which affect another ligand bind to the same site.",
+            "B": "A ligand binds to protein, which affect another ligand bind to another site of the protein.",
+            "C": "The bond is covalent.",
+            "D": "Multiple same ligands can bind to the same site.",
+            "E": "Two different ligands can bind to the same site."
+        },
+        "answer": "B",
+        "explanation": "(B) 變構效應是指一個配體結合於蛋白質上後，影響另一配體在不同位置的結合。"
+    },
+    {
+        "question": "After analyzing a protein using ESI/MS, two adjacent peaks were found at 1307.1 and 1413.2. What is the molecular weight of this protein?",
+        "options": {
+            "A": "18950",
+            "B": "17950",
+            "C": "16950",
+            "D": "15950",
+            "E": "None of the above."
+        },
+        "answer": "C",
+        "explanation": "根據質量分析，計算得出分子量約為 16950。"
+    },
+    {
+        "question": "What are ribozymes made of?",
+        "options": {
+            "A": "Single-stranded RNA",
+            "B": "Double-stranded DNA",
+            "C": "Protein",
+            "D": "double stranded RNA",
+            "E": "Polysaccharide"
+        },
+        "answer": "A",
+        "explanation": "(A) Ribozymes 是由單股 RNA 組成的。"
+    },
+    {
+        "question": "Abnormalities in the quantity or catalytic activity of enzyme may be caused by I. presence of venom or toxins II. mutations in the promoter region of an enzyme-recoding gene III. lack prosthetic group IV. excessive increase in body temperature",
+        "options": {
+            "A": "I, II, III",
+            "B": "I, III, IV",
+            "C": "II, III, IV",
+            "D": "I, II, III, IV"
+        },
+        "answer": "D",
+        "explanation": "(D) 所有選項均可能導致酵素的數量或催化活性異常。"
+    },
+    {
+        "question": "The following enzymes catalyze the conversion of two (or more) substrates except for _____?",
+        "options": {
+            "A": "transferase",
+            "B": "isomerase",
+            "C": "hydrolase",
+            "D": "ligand"
+        },
+        "answer": "B",
+        "explanation": "(B) 異構酶 (isomerase) 只改變分子結構，不涉及多個底物。"
+    },
+    {
+        "question": "The amino acid, aspartic acid can perform acid-base catalysis, why?",
+        "options": {
+            "A": "The side group can form hydrogen bond with substrate",
+            "B": "The side group can donate or accept hydrogen ion",
+            "C": "The side group can form coordinate bond with metal ions such as Zn2+ or Mn2+",
+            "D": "The amino group and carboxyl group can donate and accept hydrogen ion respectively"
+        },
+        "answer": "B",
+        "explanation": "(B) 天冬氨酸的側鏈可以捐贈或接受氫離子，進行酸鹼催化。"
+    },
+    {
+        "question": "Which statements regarding coenzymes are false?",
+        "options": {
+            "A": "Coenzymes directly participate in biological reactions.",
+            "B": "Coenzymes act as carriers in biological reactions.",
+            "C": "Many coenzymes are derived from vitamin B.",
+            "D": "Coenzyme can only be used once, and it will be discarded after use.",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) 輔酶可被多次使用，不會在反應後被丟棄。"
+    },
+    {
+        "question": "Which of the following statements regarding the specificity of enzymes is not true?",
+        "options": {
+            "A": "Mutation may alter substrate or product specificity of an enzyme.",
+            "B": "The enzyme of liver detoxification system can deal with multiple substrates.",
+            "C": "For enzymes that are less specific, their active sites are structurally very rigid.",
+            "D": "Some enzymes, such as CRISPR-Cas9, the specificity may be tuned."
+        },
+        "answer": "C",
+        "explanation": "(C) 對於不太專一的酶，它們的活性位通常是靈活的，以適應多種底物。"
+    },
+    {
+        "question": "Which of the statements about Serine protease is not correct?",
+        "options": {
+            "A": "Protein and water are both substrates.",
+            "B": "Using Ping-Pong mechanism.",
+            "C": "It specifically catalyzes the hydrolysis of peptide chains.",
+            "D": "Only serine is highly conserve in the serine protease superfamily."
+        },
+        "answer": "D",
+        "explanation": "(D) Serine protease 超家族中，Asp 和 His 也是重要的保守胺基酸。"
+    },
+    {
+        "question": "Which of the following mechanisms of enzyme regulation is irreversible?",
+        "options": {
+            "I": "Regulate enzyme activity with allosteric regulation",
+            "II": "Passive regulation",
+            "III": "Regulate enzyme activity with proteolytic activation",
+            "IV": "Proteolytic destruction by 26S proteasome pathway",
+            "V": "Regulate enzyme activity with phosphorylation"
+        },
+        "answer": "C",
+        "explanation": "(C) 蛋白酶活化和 26S 蛋白酶體的降解都是不可逆的過程。"
+    },
+    {
+        "question": "Which of the following descriptions about isozymes are correct?",
+        "options": {
+            "I": "Isozymes may be produced from different genes.",
+            "II": "Isozymes may be produced from the same gene.",
+            "III": "Isozymes catalyze the same reactions.",
+            "IV": "Isozymes are evolutionarily unrelated because they have different kinetic processes."
+        },
+        "answer": "A",
+        "explanation": "(A) Isozymes 可以來自不同的基因或同一基因的不同剪接變體。"
+    },
+    {
+        "question": "According to Michaelis-Menten equation, the initial velocity of an enzyme catalyzed reaction for very low [S] can be represented as:",
+        "options": {
+            "A": "kcat[Et][S]/Km",
+            "B": "kcat[ES][S]/Km",
+            "C": "Km[E][S]/Kcat",
+            "D": "kcat[Et]"
+        },
+        "answer": "A",
+        "explanation": "(A) 當底物濃度很低時，反應速率可表示為 kcat[Et][S]/Km。"
+    },
+    {
+        "question": "An allosteric enzyme can switch from low-activity state (T state) to high-activity state (R state). Which of the following statements best describes the changes in kinetic characteristics of the enzyme during T-to-R transition?",
+        "options": {
+            "A": "Km decreases, kcat decreases",
+            "B": "Km increases, kcat decreases",
+            "C": "Km decreases, kcat increases",
+            "D": "Km increases, kcat increases"
+        },
+        "answer": "C",
+        "explanation": "(C) T 到 R 轉變時，Km 會降低，kcat 會增加，這表示酶的親和力提高，活性增強。"
+    },
+    {
+        "question": "When [S] increases from 0.2 Km to 5 Km, the initial velocity of an enzyme catalyzed reaction increased by a factor of _____. (Assuming this enzyme follows the Michaelis-Menton kinetics)",
+        "options": {
+            "A": "3",
+            "B": "5",
+            "C": "8",
+            "D": "10"
+        },
+        "answer": "C",
+        "explanation": "(C) 根據米哈利斯-孟滕方程，初始速度與底物濃度的比例關係會隨著濃度的增加而提高，這裡大約是 8 倍。"
+    },
+    {
+        "question": "In Chondrotin-4-sulfate, the linkages are _____?",
+        "options": {
+            "A": "β-1,3 and β-1,4",
+            "B": "β-1,2 and β-1,4",
+            "C": "α-1,4 and β-1,4",
+            "D": "α-1,2 and β-1,4",
+            "E": "None of the above."
+        },
+        "answer": "C",
+        "explanation": "(C) Chondroitin-4-sulfate 的連結主要是 α-1,4 和 β-1,4。"
+    },
+    {
+        "question": "In keratan sulfate, the linkages are _____?",
+        "options": {
+            "A": "β-1,2 and β-1,3",
+            "B": "β-1,3 and β-1,4",
+            "C": "α-1,4 and β-1,4",
+            "D": "α-1,2 and β-1,4",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) 在角質硫酸中，主要的連結是 α-1,2 和 β-1,4。"
+    },
+    {
+        "question": "In heparin, the linkages are _____?",
+        "options": {
+            "A": "β-1,3 and β-1,4",
+            "B": "β-1,2 and β-1,4",
+            "C": "α-1,4 and α-1,4",
+            "D": "α-1,4 and β-1,4",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) Heparin 的連結主要是 α-1,4 和 β-1,4。"
+    },
+    {
+        "question": "In glycoproteins, the carbohydrate moiety is always attached through the amino acid residues:",
+        "options": {
+            "A": "Asparagine, serine, or threonine.",
+            "B": "Aspartate or glutamate.",
+            "C": "Glutamine or arginine.",
+            "D": "Glycine, alanine, or aspartate.",
+            "E": "Tryptophan, aspartate, or cysteine."
+        },
+        "answer": "A",
+        "explanation": "(A) 醣類在糖蛋白中通常通過天冬酰胺、絲氨酸或蘇氨酸的側鏈連接。"
+    },
+    {
+        "question": "Which of the following is a ketose?",
+        "options": {
+            "A": "Glucose",
+            "B": "Ribulose",
+            "C": "Galactose",
+            "D": "Glyceraldehyde",
+            "E": "None of the above."
+        },
+        "answer": "B",
+        "explanation": "(B) Ribulose 是一種酮糖，因其具有酮基。"
+    },
+    {
+        "question": "Which of the following is an anomeric pair?",
+        "options": {
+            "A": "α-D-glucose and β-L-glucose",
+            "B": "α-D-glucose and β-D-glucose",
+            "C": "D-glucose and D-fructose",
+            "D": "D-glucose and L-fructose"
+        },
+        "answer": "B",
+        "explanation": "(B) α-D-葡萄糖和 β-D-葡萄糖是在同一碳上的立體異構體，因此是同源異構物。"
+    },
+    {
+        "question": "Which of the following enzymes doesn't take part in the metabolism of galactose?",
+        "options": {
+            "A": "Galactokinase",
+            "B": "UDP-Glc-2-epimerase",
+            "C": "UDP-Glc-4-epimerase",
+            "D": "Gal-1-phosphate uridylyltransferase",
+            "E": "None of the above."
+        },
+        "answer": "E",
+        "explanation": "(E) 所有選項均參與半乳糖的代謝過程。"
+    },
+    {
+        "question": "A 36-year-old man is diagnosed with arsenic poisoning. Which enzyme in the TCA cycle will be affected?",
+        "options": {
+            "A": "Citrate synthase",
+            "B": "Malate dehydrogenase",
+            "C": "Aconitase",
+            "D": "α-ketoglutarate dehydrogenase",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) 砷會抑制 α-酮戊二酸脫氫酶的活性，這會影響 TCA 循環。"
+    },
+    {
+        "question": "The rigid component of peptidoglycan is a heteropolymer of alternating β-1,4-linked and _____?",
+        "options": {
+            "A": "N-acetylmannosamine and N-acetylmuramic acid residues.",
+            "B": "N-acetylglucosamine and N-acetylneuraminic acid residues.",
+            "C": "N-acetylmannosamine and N-acetylneuraminic acid residues.",
+            "D": "N-acetylglucosamine and N-acetylmuramic acid residues."
+        },
+        "answer": "D",
+        "explanation": "(D) 肽聚醣的剛性成分由交替的 β-1,4 連接的 N-乙醯葡萄糖胺和 N-乙醯醣酸殘基組成。"
+    },
+    {
+        "question": "What following statement is correct for catabolism in human cells?",
+        "options": {
+            "A": "Catabolism generally undergoes an exergonic reaction for ATP consumption.",
+            "B": "Anabolism comes out an exergonic reaction for ATP consumption.",
+            "C": "Both catabolism and anabolism often contribute to an exergonic reaction in human cells.",
+            "D": "Some catabolism can directly generate ATP.",
+            "E": "None of the above."
+        },
+        "answer": "D",
+        "explanation": "(D) 一些分解代謝過程會直接生成 ATP。"
+    },
+    {
+        "question": "Which of the following enzymes can catalyze the reaction that makes ADP to AMP?",
+        "options": {
+            "A": "Adenylyl cyclase",
+            "B": "Adenylyl kinase",
+            "C": "ADP synthase",
+            "D": "ATP phosphatase",
+            "E": "AMP phosphorylase"
+        },
+        "answer": "A",
+        "explanation": "(A) 腺苷酸環化酶催化 ADP 轉化為 AMP 的反應。"
+    },
+    {
+        "question": "Which of the following enzymes cannot have water as its product?",
+        "options": {
+            "A": "Dehydrogenase",
+            "B": "Oxidase",
+            "C": "Dehydratase",
+            "D": "Peroxidase",
+            "E": "Oxygenase"
+        },
+        "answer": "C",
+        "explanation": "(C) 脫水酶的產品不會有水，因為它催化水分的去除。"
+    },
+    {
+        "question": "Which of the following enzymes can use hydrogen peroxide as substrate directly?",
+        "options": {
+            "A": "Glutathione reductase",
+            "B": "Catalase",
+            "C": "Glutathione synthetase",
+            "D": "Glutathione-S-transferase",
+            "E": "Superoxide dismutase"
+        },
+        "answer": "B",
+        "explanation": "(B) 催化過氧化氫分解的酶是過氧化氫酶 (catalase)。"
+    },
+    {
+        "question": "How many complexes below can generate QH2? (Including regenerate)",
+        "options": {
+            "A": "Complex 1",
+            "B": "Complex 2",
+            "C": "Complex 3",
+            "D": "Complex 4",
+            "E": "Complex 5"
+        },
+        "answer": "C",
+        "explanation": "(C) 複合物 1 和 2 都可以生成 QH2，複合物 3 會再生 QH2。"
+    },
+    {
+        "question": "What compound or biochemical phenomenon cannot be found in glycogen?",
+        "options": {
+            "A": "Tyrosine residue",
+            "B": "Branched polysaccharide chain",
+            "C": "α-1,4 glycosidic bond",
+            "D": "α-1,6 glycosidic bond",
+            "E": "Glucuronic acid"
+        },
+        "answer": "A",
+        "explanation": "(A) 醣原中不含酪氨酸殘基。"
+    },
+    {
+        "question": "What enzyme is suppressed by phosphorylation?",
+        "options": {
+            "A": "Inhibitor-1",
+            "B": "Phosphorylase",
+            "C": "Phosphorylase kinase",
+            "D": "Phosphofructokinase-2",
+            "E": "Insulin receptor"
+        },
+        "answer": "A",
+        "explanation": "(A) 抑制劑 1 透過磷酸化而被抑制。"
+    },
+    {
+        "question": "How many following enzymes can directly generate glucose? I. Glucokinase II. Glucose 6-phospatase III. UDP-glucose pyrophosphorylase IV. Phosphorylase V. Debranching enzyme",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+        },
+        "answer": "B",
+        "explanation": "(B) 只有葡萄糖-6-磷酸酶和磷酸化酶可以直接生成葡萄糖。"
+    },
+    {
+        "question": "Which of the following metabolites can enhance gluconeogenesis?",
+        "options": {
+            "A": "Fructose-2,6-bisphosphate",
+            "B": "Fructose-1,6-bisphosphate",
+            "C": "Glucose-1-phosphate",
+            "D": "Acetyl-CoA",
+            "E": "3-Phosphoglyceride"
+        },
+        "answer": "D",
+        "explanation": "(D) 乙醯輔酶 A 是促進糖異生的重要代謝物。"
+    },
+    {
+        "question": "How many following enzymes do not belong to oxidoreductase? I. Transketolase II. Transaldolase III. Phosphoglucomutase IV. Phosphopentose isomerase V. Cytochrome C oxidase",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+        },
+        "answer": "C",
+        "explanation": "(C) Transketolase、Transaldolase、Phosphoglucomutase 和 Phosphopentose isomerase 不屬於氧化還原酶。"
+    },
+    {
+        "question": "What biological event(s) occurs for insulin signaling to turn on glycogen synthase activity?",
+        "options": {
+            "A": "Insulin-induced GSK3 phosphorylation only",
+            "B": "Insulin-induced PI3K activation only",
+            "C": "Insulin signaling turns on phosphodiesterase and dephosphorylates GSK3",
+            "D": "Insulin signaling inhibits phosphodiesterase and makes GSK3 phosphorylated",
+            "E": "Insulin signaling turns on phosphodiesterase and PKB"
+        },
+        "answer": "C",
+        "explanation": "(C) 胰島素信號通路會啟動磷酸二酯酶並去磷酸化 GSK3，從而啟動肝醣合成酶活性。"
+    },
+    {
+        "question": "Which of the following compound is not found in the physiological processes of glycine biosynthesis?",
+        "options": {
+            "A": "Alanine",
+            "B": "H4 Folate",
+            "C": "Serine",
+            "D": "Choline",
+            "E": "Glutamate"
+        },
+        "answer": "D",
+        "explanation": "(D) 胺基酸甘氨酸的生物合成過程中不涉及膽鹼。"
+    },
+    {
+        "question": "What compound is not required for prolyl hydroxylation in collagen?",
+        "options": {
+            "A": "NADPH",
+            "B": "α-ketoglutarate",
+            "C": "Ascorbate",
+            "D": "Oxygen",
+            "E": "Ferrous iron"
+        },
+        "answer": "A",
+        "explanation": "(A) NADPH 在膠原蛋白的脯氨酸羥基化中並不是必需的化合物。"
+    },
+    {
+        "question": "What amino acid is crucial for the biosynthesis of t-RNA selenocysteine?",
+        "options": {
+            "A": "Cysteine",
+            "B": "Cystine",
+            "C": "Serine",
+            "D": "Alanine",
+            "E": "Glycine"
+        },
+        "answer": "C",
+        "explanation": "(C) 脯氨酸的生物合成過程中，絲氨酸是合成 t-RNA 硒半胱氨酸的關鍵胺基酸。"
+    },
+    {
+        "question": "What is the precursor of δ-Aminolevulinate?",
+        "options": {
+            "A": "Acetyl-CoA and oxaloacetate",
+            "B": "Succinyl-CoA and glycine",
+            "C": "Succinyl-CoA and serine",
+            "D": "Acetyl-CoA and serine",
+            "E": "Succinyl-CoA and cysteine"
+        },
+        "answer": "B",
+        "explanation": "(B) δ-氨基乙酰基合成酶催化琥珀酰輔酶 A 和甘氨酸的反應生成 δ-氨基乙酰酸。"
+    },
+    {
+        "question": "What is the product of Uroporphyrinogen I synthase?",
+        "options": {
+            "A": "NADH",
+            "B": "NAD+",
+            "C": "NADPH",
+            "D": "CO2",
+            "E": "NH3"
+        },
+        "answer": "D",
+        "explanation": "(D) Uroporphyrinogen I synthase 產生的副產物是 CO2。"
+    },
+    {
+        "question": "Which of the following compounds can be generated by fecal flora and oxidization in the air?",
+        "options": {
+            "A": "Coprobilinogen",
+            "B": "Coproporphyrinogen",
+            "C": "Urobilinogen",
+            "D": "Urobilin",
+            "E": "Coproporphyrin"
+        },
+        "answer": "D",
+        "explanation": "(D) 糞膽素是由腸道菌群生成的化合物，並經氧化後形成的膽紅素。"
+    },
+    {
+        "question": "Which kind of modification is required before bilirubin is transported to bile duct?",
+        "options": {
+            "A": "Phosphorylation",
+            "B": "Hydroxylation",
+            "C": "Glycosylation",
+            "D": "Acetylation",
+            "E": "Methylation"
+        },
+        "answer": "C",
+        "explanation": "(C) 胆红素在被转运到胆道之前需要通过糖基化过程提高其水溶性。"
     }
 ]
