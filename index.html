@@ -274,6 +274,7 @@
     }
 
     // 加載新題目
+    // 加載新題目
     function loadNewQuestion() {
         // 重置狀態
         acceptingAnswers = true;
@@ -284,19 +285,26 @@
         document.querySelectorAll('.option-button').forEach(btn => {
             btn.classList.remove('selected', 'correct', 'incorrect');
         });
-
+    
         // 獲取隨機題目
         shuffle(questions);
         currentQuestion = questions[0];
-
+    
         // 更新題目文本
         document.getElementById('question').innerText = currentQuestion.question;
-
-        // 洗牌選項但保持標籤 A, B, C, D
+    
+        // 原始選項對應標籤
+        const originalLabels = Object.keys(currentQuestion.options);
         const optionLabels = ['A', 'B', 'C', 'D', 'E'];
         const optionEntries = Object.entries(currentQuestion.options);
         shuffle(optionEntries);
-
+    
+        // 建立原始選項標籤到新標籤的映射
+        let labelMapping = {};
+        for (let i = 0; i < originalLabels.length; i++) {
+            labelMapping[originalLabels[i]] = optionLabels[i];
+        }
+    
         // 更新選項
         const optionsContainer = document.getElementById('options');
         optionsContainer.innerHTML = '';
@@ -306,23 +314,37 @@
             const [label, text] = optionEntries[i];
             const newLabel = optionLabels[i];
             newOptions[newLabel] = text;
-
+    
             const button = document.createElement('button');
             button.classList.add('option-button');
             button.dataset.option = newLabel;
             button.innerText = `${newLabel}: ${text}`;
             button.addEventListener('click', selectOption);
             optionsContainer.appendChild(button);
-
+    
             if (label === currentQuestion.answer) {
                 newAnswer = newLabel;
             }
         }
-
+    
         // 更新題目的選項和答案
         currentQuestion.options = newOptions;
         currentQuestion.answer = newAnswer;
+    
+        // 更新詳解中的選項標籤
+        currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
     }
+    
+    // 更新詳解中的選項標籤
+    function updateExplanationOptions(explanation, labelMapping) {
+        // 找到所有括號內的選項標籤
+        return explanation.replace(/\((A|B|C|D|E)\)/g, function(match, label) {
+            // 替換為洗牌後的選項標籤
+            let newLabel = labelMapping[label] || label;
+            return `(${newLabel})`;
+        });
+    }
+
 
     // 選擇選項
     function selectOption(event) {
