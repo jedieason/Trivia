@@ -313,7 +313,7 @@
         document.getElementById('question').innerText = currentQuestion.question;
 
         // 洗牌選項但保持標籤 A, B, C, D
-        const optionLabels = ['A', 'B', 'C', 'D'];
+        const optionLabels = ['A', 'B', 'C', 'D', 'E'];
         const optionEntries = Object.entries(currentQuestion.options);
         shuffle(optionEntries);
 
@@ -399,7 +399,7 @@
 
     // 按鍵按下事件（可選）
     document.addEventListener('keydown', function(event) {
-        if (acceptingAnswers && ['A', 'B', 'C', 'D'].includes(event.key.toUpperCase())) {
+        if (acceptingAnswers && ['A', 'B', 'C', 'D', 'E'].includes(event.key.toUpperCase())) {
             const optionButton = document.querySelector(`.option-button[data-option='${event.key.toUpperCase()}']`);
             if (optionButton) {
                 optionButton.click();
