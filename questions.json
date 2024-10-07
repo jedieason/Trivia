@@ -367,27 +367,24 @@
         "explanation": "In the serine protease family, both Asp and His are also highly conserved residues essential for the catalytic mechanism."
     },
     {
-        "question": "Which of the following mechanisms of enzyme regulation is irreversible?",
-        "options": {
-            "I": "Regulate enzyme activity with allosteric regulation",
-            "II": "Passive regulation",
-            "III": "Regulate enzyme activity with proteolytic activation",
-            "IV": "Proteolytic destruction by 26S proteasome pathway",
-            "V": "Regulate enzyme activity with phosphorylation"
-        },
-        "answer": "C",
-        "explanation": "Proteolytic activation and degradation by the 26S proteasome are irreversible processes."
+    "question": "Which of the following mechanisms of enzyme regulation is irreversible?\nI. Regulate enzyme activity with allosteric regulation\nII. Passive regulation\nIII. Regulate enzyme activity with proteolytic activation\nIV. Proteolytic destruction by 26S proteasome pathway\nV. Regulate enzyme activity with phosphorylation",
+    "options": {
+        "A": "I, II, V",
+        "B": "I, IV",
+        "C": "III, IV",
+        "D": "I, II, IV"
+    },
+    "answer": "C",
+    "explanation": "Proteolytic activation and degradation by the 26S proteasome are irreversible processes."
     },
     {
-        "question": "Which of the following descriptions about isozymes are correct?",
-        "options": {
-            "I": "Isozymes may be produced from different genes.",
-            "II": "Isozymes may be produced from the same gene.",
-            "III": "Isozymes catalyze the same reactions.",
-            "IV": "Isozymes are evolutionarily unrelated because they have different kinetic processes."
-        },
-        "answer": "A",
-        "explanation": "Isozymes can arise from different genes or as different splice variants of the same gene, but they catalyze the same reaction."
+    "question": "Which of the following descriptions about isozymes are correct?\nI. Isozymes may be produced from different genes.\nII. Isozymes may be produced from the same gene.\nIII. Isozymes catalyze the same reactions.\nIV. Isozymes are evolutionarily unrelated because they have different kinetic processes.",
+    "options": {
+        "A": "I, II, III",
+        "B": "I, II, IV",
+        "C": "I, III, IV",
+        "D": "II, III, IV"
+    }
     },
     {
         "question": "According to Michaelis-Menten equation, the initial velocity of an enzyme catalyzed reaction for very low [S] can be represented as:",
