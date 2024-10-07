@@ -9,7 +9,7 @@
         /* 樣式設定 */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #fff;
             margin: 0;
         }
         .start-screen {
@@ -197,21 +197,13 @@
         background-color: #fc9d38;
         color: white;
     }
-
-    /* 響應式設計 */
-    @media screen and (max-width: 768px) {
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            margin: 0;
-        }
-    }
+        
         .copyright {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-    color: #a9a9a9; /* 淺灰色 */
-}
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #a9a9a9; /* 淺灰色 */
+        }
         
         .copyright a {
             color: #a9a9a9;
@@ -226,13 +218,13 @@
 <body>
     <!-- 開始畫面 -->
     <div class="start-screen">
-        <div class="start-title">生物化學測驗練習</div>
+        <div class="start-title">生物化學</div>
         <button id="startGame" class="start-button">開始測驗</button>
     </div>
 <!-- 測驗內容 -->
 <div class="quiz-container">
     <div class="header">
-        <div class="quiz-title">生物化學測驗練習</div>
+        <div class="quiz-title">生物化學</div>
     </div>
     <div class="progress">
         <div class="progress-item orange-bg" id="wrongArea">
@@ -292,66 +284,6 @@
         }
     }
 
-    // 加載新題目
-    // 加載新題目
-    // function loadNewQuestion() {
-    //     // 重置狀態
-    //     acceptingAnswers = true;
-    //     selectedOption = null;
-    //     document.getElementById('explanation').style.display = 'none';
-    //     document.getElementById('confirm-btn').disabled = false;
-    //     document.getElementById('confirm-btn').style.display = 'block';
-    //     document.querySelectorAll('.option-button').forEach(btn => {
-    //         btn.classList.remove('selected', 'correct', 'incorrect');
-    //     });
-    
-    //     // 獲取隨機題目
-    //     shuffle(questions);
-    //     currentQuestion = questions[0];
-    
-    //     // 更新題目文本
-    //     document.getElementById('question').innerText = currentQuestion.question;
-    
-    //     // 原始選項對應標籤
-    //     const originalLabels = Object.keys(currentQuestion.options);
-    //     const optionLabels = ['A', 'B', 'C', 'D', 'E'];
-    //     const optionEntries = Object.entries(currentQuestion.options);
-    //     shuffle(optionEntries);
-    
-    //     let labelMapping = {};
-    //     for (let i = 0; i < originalLabels.length; i++) {
-    //         labelMapping[originalLabels[i]] = optionLabels[i];
-    //     }
-    
-    //     // 更新選項
-    //     const optionsContainer = document.getElementById('options');
-    //     optionsContainer.innerHTML = '';
-    //     let newOptions = {};
-    //     let newAnswer = '';
-    //     for (let i = 0; i < optionEntries.length; i++) {
-    //         const [label, text] = optionEntries[i];
-    //         const newLabel = optionLabels[i];
-    //         newOptions[newLabel] = text;
-    
-    //         const button = document.createElement('button');
-    //         button.classList.add('option-button');
-    //         button.dataset.option = newLabel;
-    //         button.innerText = `${newLabel}: ${text}`;
-    //         button.addEventListener('click', selectOption);
-    //         optionsContainer.appendChild(button);
-    
-    //         if (label === currentQuestion.answer) {
-    //             newAnswer = newLabel;
-    //         }
-    //     }
-    
-    //     // 更新題目的選項和答案
-    //     currentQuestion.options = newOptions;
-    //     currentQuestion.answer = newAnswer;
-    
-    //     // 更新詳解中的選項標籤
-    //     currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
-    // }
     function loadNewQuestion() {
     // 重置狀態
     acceptingAnswers = true;
