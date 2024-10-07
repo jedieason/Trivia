@@ -212,6 +212,47 @@
         .copyright a:hover {
             text-decoration: underline;
         }
+
+        /* 模態窗口樣式 */
+        .modal {
+            display: none; /* 預設隱藏 */
+            position: fixed; 
+            z-index: 1000; /* 確保在最上層 */
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 300px;
+            margin: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .modal-confirm-button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #a35555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .modal-confirm-button:hover {
+            background-color: #9a6262;
+        }
+
 </style>
 </head>
 <body>
@@ -247,7 +288,14 @@
         Copyright © 2024 <a href="https://instagram.com/jedieason">Jedieason</a>. All rights reserved.
     </div>
 </div>
-    
+    <!-- 自訂模態窗口 -->
+<div id="customAlert" class="modal">
+    <div class="modal-content">
+        <p>Please choose at least one option</p>
+        <button id="modalConfirmBtn" class="modal-confirm-button">Confirm</button>
+    </div>
+</div>
+
 
 <script>
     let questions = [];
@@ -368,15 +416,35 @@
         selectedOption = event.currentTarget.dataset.option;
     }
 
-    // 確認答案
+    // 取得模態窗口和確認按鈕元素
+    const customAlert = document.getElementById('customAlert');
+    const modalConfirmBtn = document.getElementById('modalConfirmBtn');
+    
+    // 顯示自訂模態窗口
+    function showCustomAlert() {
+        customAlert.style.display = 'flex';
+    }
+    
+    // 隱藏自訂模態窗口
+    function hideCustomAlert() {
+        customAlert.style.display = 'none';
+    }
+    
+    // 當使用者點擊確認按鈕時隱藏模態窗口
+    modalConfirmBtn.addEventListener('click', hideCustomAlert);
+    
+    // 修改 confirmAnswer 函數以使用自訂模態窗口
     function confirmAnswer() {
-        if (!selectedOption) return alert('請選擇一個選項。');
-
+        if (!selectedOption) {
+            showCustomAlert();
+            return;
+        }
+    
         acceptingAnswers = false;
         document.getElementById('confirm-btn').disabled = true;
-
+    
         const selectedBtn = document.querySelector(`.option-button[data-option='${selectedOption}']`);
-
+    
         if (selectedOption === currentQuestion.answer) {
             selectedBtn.classList.add('correct');
             updateCorrect();
@@ -387,12 +455,13 @@
             correctBtn.classList.add('correct');
             updateWrong();
         }
-
+    
         // 顯示解釋
         document.getElementById('explanation-text').innerText = currentQuestion.explanation;
         document.getElementById('explanation').style.display = 'block';
         document.getElementById('confirm-btn').style.display = 'none';
     }
+
 
     // 更新答對數
     function updateCorrect() {
