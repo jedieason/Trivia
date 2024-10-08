@@ -367,17 +367,17 @@
         "explanation": "In the serine protease family, both Asp and His are also highly conserved residues essential for the catalytic mechanism."
     },
     {
-    "question": "Which of the following mechanisms of enzyme regulation is irreversible?\nI. Regulate enzyme activity with allosteric regulation\nII. Passive regulation\nIII. Regulate enzyme activity with proteolytic activation\nIV. Proteolytic destruction by 26S proteasome pathway\nV. Regulate enzyme activity with phosphorylation",
-    "options": {
-        "A": "I, II, V",
-        "B": "I, IV",
-        "C": "III, IV",
-        "D": "I, II, IV"
+        "question": "Which of the following mechanisms of enzyme regulation is irreversible?\nI. Regulate enzyme activity with allosteric regulation\nII. Passive regulation\nIII. Regulate enzyme activity with proteolytic activation\nIV. Proteolytic destruction by 26S proteasome pathway\nV. Regulate enzyme activity with phosphorylation",
+        "options": {
+            "A": "I, II, V",
+            "B": "I, IV",
+            "C": "III, IV",
+            "D": "I, II, IV"
+        },
+        "answer": "C",
+        "explanation": "Proteolytic activation and degradation by the 26S proteasome are irreversible processes."
     },
-    "answer": "C",
-    "explanation": "Proteolytic activation and degradation by the 26S proteasome are irreversible processes."
-    },
-        {
+    {
         “question”: “Which of the following descriptions about isozymes are correct?\nI. Isozymes may be produced from different genes.\nII. Isozymes may be produced from the same gene.\nIII. Isozymes catalyze the same reactions.\nIV. Isozymes are evolutionarily unrelated because they have different kinetic processes.”,
         “options”: {
             “A”: “I, II, III”,
