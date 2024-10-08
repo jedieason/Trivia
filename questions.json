@@ -377,14 +377,16 @@
     "answer": "C",
     "explanation": "Proteolytic activation and degradation by the 26S proteasome are irreversible processes."
     },
-    {
-    "question": "Which of the following descriptions about isozymes are correct?\nI. Isozymes may be produced from different genes.\nII. Isozymes may be produced from the same gene.\nIII. Isozymes catalyze the same reactions.\nIV. Isozymes are evolutionarily unrelated because they have different kinetic processes.",
-    "options": {
-        "A": "I, II, III",
-        "B": "I, II, IV",
-        "C": "I, III, IV",
-        "D": "II, III, IV"
-    }
+        {
+        “question”: “Which of the following descriptions about isozymes are correct?\nI. Isozymes may be produced from different genes.\nII. Isozymes may be produced from the same gene.\nIII. Isozymes catalyze the same reactions.\nIV. Isozymes are evolutionarily unrelated because they have different kinetic processes.”,
+        “options”: {
+            “A”: “I, II, III”,
+            “B”: “I, II, IV”,
+            “C”: “I, III, IV”,
+            “D”: “II, III, IV”
+        },
+        “answer”: “A”,
+        “explanation”: “Isozymes are different molecular forms of an enzyme that catalyze the same chemical reaction. They can be encoded by different genes or be produced from alternative splicing or post-translational modifications of the same gene, making both statements I and II correct. Statement III is also correct because isozymes perform the same catalytic function. However, statement IV is incorrect because isozymes are often evolutionarily related and share structural similarities, despite having different kinetic properties or regulation mechanisms.”
     },
     {
         "question": "According to Michaelis-Menten equation, the initial velocity of an enzyme catalyzed reaction for very low [S] can be represented as:",
