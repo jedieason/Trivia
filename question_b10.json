@@ -1,0 +1,757 @@
+[
+    {
+        "question": "Which statement regarding enzymes is NOT correct?",
+        "options": {
+            "A": "No naturally occurring enzymes are made of carbohydrate.",
+            "B": "No naturally occurring enzymes are made of double-stranded DNA.",
+            "C": "Ribozymes are enzymes made of double-stranded RNA.",
+            "D": "Some enzymes are made of protein-DNA complex."
+        },
+        "answer": "C",
+        "explanation": "(C) Ribozymes are enzymes made of single-stranded RNAs."
+    },
+    {
+        "question": "Which of the followings of catalytic functions can be impaired?",
+        "options": {
+            "A": "I, II",
+            "B": "I, III",
+            "C": "I, III, IV",
+            "D": "II, III, IV"
+        },
+        "answer": "B",
+        "explanation": "(I) Correct. (II) Mutations in the promoter region of enzyme encoding gene may cause abnormalities in the quantity of enzyme produced. (III) Correct. (IV) Substrate concentration affects the rate at which enzymes catalyze reactions, but does not impair catalytic functions of enzymes."
+    },
+    {
+        "question": "The reaction below is most likely catalyzed by________.",
+        "options": {
+            "A": "translocase",
+            "B": "transferase",
+            "C": "lyase",
+            "D": "ligase"
+        },
+        "answer": "A",
+        "explanation": "(A) The enzyme in question is the adenine nucleotide translocator (ANT), which is known to be a translocase. Translocases facilitate the movement of molecules across membranes."
+    },
+    {
+        "question": "Which amino acid can NOT directly involve in acid-base catalysis?",
+        "options": {
+            "A": "Glutamic acid",
+            "B": "Lysine",
+            "C": "Histidine",
+            "D": "Methionine"
+        },
+        "answer": "D",
+        "explanation": "(D) For an amino acid to contribute to acid-base catalysis, it must have an ionizable functional group within its side chain. Methionine does not have this property."
+    },
+    {
+        "question": "Which of the following statements regarding serine protease is not correct?",
+        "options": {
+            "A": "Protein is the only substrate of serine proteases.",
+            "B": "Follows ping-pong mechanism.",
+            "C": "Has oxyanion hole in its active site.",
+            "D": "Must have serine in its active site."
+        },
+        "answer": "A",
+        "explanation": "(A) Serine protease can have substrates other than proteins, such as water."
+    },
+    {
+        "question": "Which of the following description about isozymes are correct?",
+        "options": {
+            "A": "I, III",
+            "B": "I, III, IV",
+            "C": "I, II, III",
+            "D": "I, II, III, IV"
+        },
+        "answer": "C",
+        "explanation": "(I) Isozymes may be produced by different genes. (II) Isozymes may be produced by the same gene through alternative splicing. (III) Isozymes catalyze the same reaction. (IV) Isozymes' active sites are structurally similar, contrary to the statement."
+    },
+    {
+        "question": "Which of the following conditions are true during the assumption of the initial rate?",
+        "options": {
+            "A": "I, II",
+            "B": "II, III",
+            "C": "III, IV",
+            "D": "I, III, IV"
+        },
+        "answer": "C",
+        "explanation": "(I) Incorrect, [S] must be much larger than [E]. (II) Incorrect, [S] does not stay constant as it decreases over time. (III) Correct, [ES] stays constant during steady-state assumption. (IV) Correct, [P] should be near zero initially."
+    },
+    {
+        "question": "According to the Michaelis-Menton equation, what would the initial velocity of enzymatic reaction if the substrate concentration is low?",
+        "options": {
+            "A": "Vmax / Km",
+            "B": "kcat / (Km + [S])",
+            "C": "Vmax [S] / Km",
+            "D": "kcat Vmax / Km"
+        },
+        "answer": "C",
+        "explanation": "(C) When the substrate concentration [S] is much lower than Km, the initial velocity is approximated by the equation V0 = Vmax[S] / Km."
+    },
+    {
+        "question": "When [S] increased from 1Km to 4Km, how many times will the velocity of an enzymatic catalyzed reaction change?",
+        "options": {
+            "A": "1.6",
+            "B": "1.8",
+            "C": "3.0",
+            "D": "4.0"
+        },
+        "answer": "A",
+        "explanation": "(A) When [S] increases from Km to 4Km, the velocity increases from 0.5Vmax to 0.8Vmax, a 1.6-fold increase."
+    },
+    {
+        "question": "Which of the following parameters can be used to compare the specificity of an enzyme toward two competing substrates?",
+        "options": {
+            "A": "kcat / Km",
+            "B": "Km / Vmax",
+            "C": "Km × Vmax",
+            "D": "1 / Km"
+        },
+        "answer": "A",
+        "explanation": "(A) The ratio of kcat/Km is a measure of catalytic efficiency and specificity."
+    },
+    {
+        "question": "Passive regulation is most effective when .",
+        "options": {
+            "A": "[S]>>Km",
+            "B": "[S]<<Km",
+            "C": "[S] ~ Km",
+            "D": "[S] >>1/Km"
+        },
+        "answer": "C",
+        "explanation": "(C) Passive regulation is most effective when the substrate concentration is close to Km, as it provides the best sensitivity to changes in substrate concentration."
+    },
+    {
+        "question": "Which statement is correct?",
+        "options": {
+            "A": "Cells often have its own principle that is out of law of thermodynamics to carry out biochemical process.",
+            "B": "After exergonic reaction, entropy change is the main energy to derive endergonic reaction.",
+            "C": "Exergonic reaction is often accompanied with the consumption of ATP.",
+            "D": "Chemical energy is important to make cells alive."
+        },
+        "answer": "D",
+        "explanation": "(D) Chemical energy, derived from processes like ATP hydrolysis, is crucial for cellular activities."
+    },
+    {
+        "question": "Which of these substances can’t directly donate a high energy phosphate group to ADP to form ATP?",
+        "options": {
+            "A": "Phosphoenolpyruvate",
+            "B": "1,3-bisphosphoglycerate",
+            "C": "Fructose-1,6-bisphosphate",
+            "D": "Creatin phosphate"
+        },
+        "answer": "C",
+        "explanation": "(C) Fructose-1,6-bisphosphate does not directly donate a high-energy phosphate group to ADP but rather goes through further processing in glycolysis."
+    },
+    {
+        "question": "Which of the following enzyme catalyzes AMP to ADP?",
+        "options": {
+            "A": "Adenylyl cyclase",
+            "B": "Adenylyl kinase",
+            "C": "ADP synthase",
+            "D": "AMP phosphorylase"
+        },
+        "answer": "B",
+        "explanation": "(B) Adenylyl kinase is responsible for converting AMP to ADP by transferring a phosphate group."
+    },
+    {
+        "question": "Which of the complexes in electron transport chain can generate QH2?",
+        "options": {
+            "A": "Complex I",
+            "B": "Complex II",
+            "C": "Complex III",
+            "D": "Complex IV"
+        },
+        "answer": "B",
+        "explanation": "(B) Complex II, or succinate dehydrogenase, generates QH2 by transferring electrons from FADH2 to ubiquinone (Q)."
+    },
+    {
+        "question": "Which of the following enzyme can execute hydroxylation?",
+        "options": {
+            "A": "Cytochrome C oxidase",
+            "B": "Cytochrome P450",
+            "C": "Cytochrome C reductase",
+            "D": "Catalase"
+        },
+        "answer": "B",
+        "explanation": "(B) Cytochrome P450 is an enzyme that introduces an oxygen atom into its substrate, executing hydroxylation."
+    },
+    {
+        "question": "What enzyme is able to move a hexasaccharide from an oligosaccharide to the other one?",
+        "options": {
+            "A": "Glucagon",
+            "B": "Glucan transferase",
+            "C": "Branching enzyme",
+            "D": "Debranching enzyme"
+        },
+        "answer": "B",
+        "explanation": "(B) Glucan transferase is responsible for transferring a block of sugar units within oligosaccharides."
+    },
+    {
+        "question": "What enzyme is responsible for cAMP degradation to generate AMP?",
+        "options": {
+            "A": "Acyl-CoA synthase",
+            "B": "Aspartate synthase",
+            "C": "Phospholipase C",
+            "D": "Phosphodiesterase"
+        },
+        "answer": "D",
+        "explanation": "(D) Phosphodiesterase breaks down cAMP into AMP by cleaving the phosphodiester bond."
+    },
+    {
+        "question": "Which of the following enzyme can be directly activated by calcium ion?",
+        "options": {
+            "A": "Phosphofructokinase-1",
+            "B": "Phosphofructokinase-2",
+            "C": "Phosphorylase",
+            "D": "Phosphorylase kinase"
+        },
+        "answer": "D",
+        "explanation": "(D) Phosphorylase kinase is directly activated by calcium ions and is involved in the regulation of glycogen breakdown."
+    },
+    {
+        "question": "Which of the following enzyme can be inhibited by insulin?",
+        "options": {
+            "A": "Phosphodiesterase",
+            "B": "Protein kinase B",
+            "C": "Insulin receptor",
+            "D": "Glycogen synthase",
+            "E": "GSK3"
+        },
+        "answer": "E",
+        "explanation": "(E) Insulin inhibits glycogen synthase kinase-3 (GSK3), thereby increasing glycogen synthesis."
+    },
+    {
+        "question": "Which of the following enzyme cannot be directly regulated by protein kinase A?",
+        "options": {
+            "A": "Phosphorylase kinase",
+            "B": "Inhibitor-1",
+            "C": "PFK-1",
+            "D": "PFK-2",
+            "E": "Glycogen synthase"
+        },
+        "answer": "C",
+        "explanation": "(C) Phosphofructokinase-1 (PFK-1) is not directly regulated by PKA; instead, it is regulated allosterically by ATP and citrate."
+    },
+    {
+        "question": "Which following enzyme deficiency will cause erythrocyte hemolysis?",
+        "options": {
+            "A": "UDP-Glucose dehydrogenase",
+            "B": "Glucose-6-phosphate dehydrogenase",
+            "C": "Succinyl-CoA dehydrogenase",
+            "D": "UDP-Glucose pyrophosphorylase",
+            "E": "6-phosphogluconate dehydrogenase"
+        },
+        "answer": "B",
+        "explanation": "(B) Glucose-6-phosphate dehydrogenase deficiency results in reduced NADPH levels, causing red blood cells to be more susceptible to oxidative stress and hemolysis."
+    },
+    {
+        "question": "Which of the following tissue or organ can perform gluconeogenesis?",
+        "options": {
+            "A": "Bone marrow",
+            "B": "Spleen",
+            "C": "Pancreas",
+            "D": "Kidney",
+            "E": "Muscle"
+        },
+        "answer": "D",
+        "explanation": "(D) Gluconeogenesis occurs mainly in the liver and kidney. These organs have the necessary enzymes to carry out this process."
+    },
+    {
+        "question": "What enzyme can use ammonium ion as one of its substrate?",
+        "options": {
+            "A": "Glutamate dehydrogenase",
+            "B": "Glutaminase",
+            "C": "Aspartate aminotransferase",
+            "D": "Branched-chain α-keto acid dehydrogenase",
+            "E": "Branched-chain dehydrogenase"
+        },
+        "answer": "A",
+        "explanation": "(A) Glutamate dehydrogenase uses ammonium ion (NH4+) as a substrate to form glutamate."
+    },
+    {
+        "question": "What substrate is essential for Methionine synthase to synthesize methionine?",
+        "options": {
+            "A": "SAM",
+            "B": "SAH",
+            "C": "Homocysteine",
+            "D": "Cystathionine",
+            "E": "Cysteine"
+        },
+        "answer": "C",
+        "explanation": "(C) Homocysteine is the direct precursor in the methionine synthase reaction that forms methionine."
+    },
+    {
+        "question": "Which amino acid can be hydroxylated in collagen?",
+        "options": {
+            "A": "Asparagine and Phenylalanine",
+            "B": "Alanine and Phenylalanine",
+            "C": "Tyrosine and Serine",
+            "D": "Asparagine and Glutamine",
+            "E": "Proline and Lysine"
+        },
+        "answer": "E",
+        "explanation": "(E) Hydroxylation of proline and lysine is a key modification in collagen, enhancing its stability."
+    },
+    {
+        "question": "What enzyme is responsible for the formation of hydroxymethylbilane?",
+        "options": {
+            "A": "Uroporphyrinogen I synthase",
+            "B": "Uroporphyrinogen II synthase",
+            "C": "Uroporphyrinogen III synthase",
+            "D": "Uroporphyrinogen decarboxylase",
+            "E": "Protoporphyrinogen oxidase"
+        },
+        "answer": "A",
+        "explanation": "(A) Uroporphyrinogen I synthase catalyzes the formation of hydroxymethylbilane from porphobilinogen."
+    },
+    {
+        "question": "What enzyme is important for heme catabolism?",
+        "options": {
+            "A": "Heme oxidase",
+            "B": "Heme peroxidase",
+            "C": "Heme oxygenase",
+            "D": "Heme phosphorylase",
+            "E": "Heme ferrochelatase"
+        },
+        "answer": "C",
+        "explanation": "(C) Heme oxygenase is the enzyme that breaks down heme into biliverdin, carbon monoxide, and iron."
+    },
+    {
+        "question": "What is the product of the reduction of fecal flora?",
+        "options": {
+            "A": "Uroporphyrinogen",
+            "B": "Coproporphyrinogen",
+            "C": "Uroporphyrin",
+            "D": "Urobilinogen",
+            "E": "Coproporphyrin"
+        },
+        "answer": "D",
+        "explanation": "(D) Fecal flora reduces bilirubin to urobilinogen in the large intestine."
+    },
+    {
+        "question": "The chirality of amino acid is derived from the fact that alpha carbon is?",
+        "options": {
+            "A": "A carboxyl group",
+            "B": "Alpha carbon bonds to 4 different chemical groups",
+            "C": "Amino acids are L form dominant",
+            "D": "R group is attached to the alpha carbon",
+            "E": "The peptide bond couldn’t rotate"
+        },
+        "answer": "B",
+        "explanation": "(B) The chirality of amino acids comes from the alpha carbon being bonded to four distinct groups, making it a chiral center."
+    },
+    {
+        "question": "Which three amino acids are positively charged at neutral pH?",
+        "options": {
+            "A": "K,R,H",
+            "B": "C,R,H",
+            "C": "C,R,K",
+            "D": "R,E,H",
+            "E": "C,R,E"
+        },
+        "answer": "A",
+        "explanation": "(A) Lysine (K), Arginine (R), and Histidine (H) are positively charged at neutral pH."
+    },
+    {
+        "question": "Which of the following statements about cystine is correct?",
+        "options": {
+            "A": "Cystine forms when the -CH2-SH R group is oxidized to form a -CH2-S-S-CH2- disulfide bridge between two cysteines.",
+            "B": "Cystine is an example of a nonstandard amino acid, derived by linking two standard amino acids.",
+            "C": "Cystine is formed by the oxidation of the carboxylic acid group on cysteine.",
+            "D": "Cystine is formed through a peptide linkage between two cysteines.",
+            "E": "Two cystines are released when a -CH2-S-S-CH2- disulfide bridge is reduced to -CH2-SH."
+        },
+        "answer": "A",
+        "explanation": "(A) Cystine is formed through the oxidation of two cysteine residues, creating a disulfide bond."
+    },
+    {
+        "question": "Which of the following is correct with respect to the amino acid composition of proteins?",
+        "options": {
+            "A": "Larger proteins have a more uniform distribution of amino acids than smaller proteins.",
+            "B": "Proteins contain at least one each of the 20 different standard amino acids.",
+            "C": "Proteins with different functions usually differ significantly in their amino acid composition.",
+            "D": "Proteins with the same molecular weight have the same amino acid composition.",
+            "E": "The average molecular weight of an amino acid in a protein increases with the size of the protein."
+        },
+        "answer": "C",
+        "explanation": "(C) Proteins with different functions have distinct amino acid compositions, which contribute to their specific functions."
+    },
+    {
+        "question": "The average molecular weight of the 20 standard amino acids is 138, but biochemists use 110 when estimating the number of amino acids in a protein of known molecular weight. Why?",
+        "options": {
+            "A": "The number 110 is based on the fact that the average molecular weight of a protein is 110,000 with an average of 1,000 amino acids.",
+            "B": "The number 110 reflects the higher proportion of small amino acids in proteins, as well as the loss of water when the peptide bond forms.",
+            "C": "The number 110 reflects the number of amino acids found in the typical small protein, and only small proteins have their molecular weight estimated this way.",
+            "D": "The number 110 takes into account the relatively small size of nonstandard amino acids.",
+            "E": "The number 138 represents the molecular weight of conjugated amino acids."
+        },
+        "answer": "B",
+        "explanation": "(B) The number 110 takes into account the loss of water during peptide bond formation and the higher proportion of smaller amino acids like Glycine and Alanine."
+    },
+    {
+        "question": "The peptide alanylglutamylglycylalanylleucine has:",
+        "options": {
+            "A": "Four peptide bonds",
+            "B": "Two free amino groups",
+            "C": "A disulfide bond",
+            "D": "No free carboxylic groups",
+            "E": "Five peptide bonds"
+        },
+        "answer": "A",
+        "explanation": "(A) The peptide has four peptide bonds linking the five amino acids."
+    },
+    {
+        "question": "In peptide synthesis method, the polymer (polystyrene bead) is used .",
+        "options": {
+            "A": "To keep the growing peptide soluble.",
+            "B": "To provide a suitable “solvent” for reactions.",
+            "C": "To prevent undesired side reactions by limiting access by reagents to the peptide chain.",
+            "D": "To keep the growing peptide insoluble but accessible.",
+            "E": "To provide essential catalytic groups."
+        },
+        "answer": "D",
+        "explanation": "(D) The polystyrene bead keeps the peptide insoluble, allowing easy removal of solvents and byproducts during solid-phase peptide synthesis."
+    },
+    {
+        "question": "A peptide has the sequence Glu-His-Trp-Ser-Gly-Leu-Arg-Pro-Gly. This oligopeptide has a pI close to:",
+        "options": {
+            "A": "4.3",
+            "B": "5.1",
+            "C": "6.0",
+            "D": "7.8",
+            "E": "10.8"
+        },
+        "answer": "B",
+        "explanation": "(B) The isoelectric point (pI) is determined based on the acidic and basic residues present. In this peptide, the acidic Glu and basic His and Arg residues influence the pI value."
+    },
+    {
+        "question": "Which following statement about peptide bond is not true?",
+        "options": {
+            "A": "Peptide bond is free to rotate.",
+            "B": "Peptide bond has partial double bond character.",
+            "C": "Peptide bond is planar.",
+            "D": "All of the above are true."
+        },
+        "answer": "A",
+        "explanation": "(A) Peptide bonds have partial double bond character, which restricts their rotation, making them planar."
+    },
+    {
+        "question": "Which of the following refers to particularly stable arrangements of amino acid residues in a protein that give rise to recurring patterns?",
+        "options": {
+            "A": "Primary structure",
+            "B": "Secondary structure",
+            "C": "Tertiary structure",
+            "D": "Quaternary structure",
+            "E": "None of the above"
+        },
+        "answer": "B",
+        "explanation": "(B) Secondary structure refers to stable, recurring patterns like alpha helices and beta sheets."
+    },
+    {
+        "question": "Which of the following characterize alpha-helix regions of proteins?",
+        "options": {
+            "A": "They all have the same primary structure",
+            "B": "They all formed principally by hydrogen bonds between a carboxyl oxygen atom in one peptide bond and a hydrogen on the amine from a different peptide bond",
+            "C": "They all formed principally by hydrogen bonds between a carboxyl oxygen atom in one peptide bond and the hydrogen atoms on the side chain of another amino acid",
+            "D": "They are formed by hydrogen bonding between two adjacent amino acids in the primary sequence",
+            "E": "They require a high content of proline and glycine"
+        },
+        "answer": "B",
+        "explanation": "(B) Alpha-helices are formed by hydrogen bonds between the backbone carboxyl oxygen of one amino acid and the amide hydrogen of another, typically four residues away."
+    },
+    {
+        "question": "What is a method used to prevent S-S bond interference with protein sequencing procedure?",
+        "options": {
+            "A": "Using a protease specifically used to destroy S-S bonds",
+            "B": "Protecting S-S bonds",
+            "C": "Reducing S-S bonds and preventing reformation",
+            "D": "Removing cysteines from peptides using proteolytic enzymes",
+            "E": "Using peptides with no cysteines"
+        },
+        "answer": "C",
+        "explanation": "(C) Reduction of S-S bonds followed by alkylation prevents their reformation, allowing accurate protein sequencing."
+    },
+    {
+        "question": "A sequence of amino acids in a certain protein is found to be -Ser-Gly-Pro-Gly. The sequence is most probably part of a(n):",
+        "options": {
+            "A": "Antiparallel beta sheet",
+            "B": "Parallel beta sheet",
+            "C": "Alpha helix",
+            "D": "Alpha sheet",
+            "E": "Beta turn"
+        },
+        "answer": "E",
+        "explanation": "(E) The sequence -Ser-Gly-Pro-Gly- is a typical beta turn, which involves the formation of a tight loop stabilized by hydrogen bonds."
+    },
+    {
+        "question": "If we want to separate proteins by affinity chromatography, what should we do to drive out the proteins which have already bound to the column?",
+        "options": {
+            "A": "Elute the column with a series of salt-containing solution, from low concentration to high concentration",
+            "B": "Pour the ligand of the protein into the column",
+            "C": "Change the pH value of the solution",
+            "D": "Let the protein drop off automatically",
+            "E": "None of the above"
+        },
+        "answer": "B",
+        "explanation": "(B) In affinity chromatography, introducing a free ligand competes with the bound protein, allowing it to elute from the column."
+    },
+    {
+        "question": "To determine the isoelectric point of a protein, first establish that a gel:",
+        "options": {
+            "A": "Contains a denaturing detergent that can distribute uniform negative charges over the protein’s surface",
+            "B": "Exhibit a stable pH gradient when ampholytes become distributed in an electric field",
+            "C": "Is washed with an antibody specific to the protein of interest",
+            "D": "Neutralizes all ionic groups on a protein by titrating them with strong base",
+            "E": "Relates the unknown protein to a series of protein markers with known molecular weight"
+        },
+        "answer": "B",
+        "explanation": "(B) The isoelectric point is determined using a pH gradient in isoelectric focusing, where proteins migrate until they reach a pH at which they have no net charge."
+    },
+    {
+        "question": "Which of the following proteins eluted first from the DEAE anion-exchanger column in an elution buffer of pH 8.0?",
+        "options": {
+            "A": "Serum albumin (pI 4.9)",
+            "B": "Pepsin (pI 1.0)",
+            "C": "Myoglobin (pI 7.0)",
+            "D": "α-lactoglobulin (pI 5.8)",
+            "E": "Cytochrome C (pI 10.7)"
+        },
+        "answer": "E",
+        "explanation": "(E) At pH 8.0, proteins with a higher pI are positively charged and elute first from a DEAE column, which binds negatively charged proteins."
+    },
+    {
+        "question": "Which of the following interaction is related to quaternary structure of protein?",
+        "options": {
+            "A": "Ionic interaction",
+            "B": "Disulfide bond",
+            "C": "Hydrophobic interaction",
+            "D": "Hydrogen bond",
+            "E": "All of the above"
+        },
+        "answer": "E",
+        "explanation": "(E) Quaternary structure involves the assembly of multiple subunits held together by various interactions including ionic, disulfide bonds, hydrophobic interactions, and hydrogen bonds."
+    },
+    {
+        "question": "Which of the following description is the reason why the affinity of Carbon monoxide for heme of myoglobin decreases?",
+        "options": {
+            "A": "Fe2+ binds to five atoms",
+            "B": "Proximal His F8 binds to Fe2+",
+            "C": "Distal His E7 causes steric hindrance to heme binding to Carbon monoxide",
+            "D": "His binds to heme with its nitrogen atom",
+            "E": "None of the above"
+        },
+        "answer": "C",
+        "explanation": "(C) The distal histidine (His E7) causes steric hindrance, reducing the binding affinity of carbon monoxide to heme."
+    },
+    {
+        "question": "Which of the following description best defines a protein domain?",
+        "options": {
+            "A": "Supersecondary structure, often shared by proteins that have similar specific functions.",
+            "B": "Repetitive supersecondary structure.",
+            "C": "Folding of the polypeptide such that hydrophilic residues interact with the surrounding water, and hydrophobic residues avoid interaction with water.",
+            "D": "None of the above."
+        },
+        "answer": "A",
+        "explanation": "(A) Protein domains are stable, functional units of a protein that often correlate with specific functions and are shared across different proteins."
+    },
+    {
+        "question": "The molecule 2,3-bisphosphoglycerate (BPG) is present in red blood cells, in which it binds noncovalently to hemoglobin. Which functional groups in hemoglobin can make the strongest noncovalent interactions with BPG at a pH value of 7.0?",
+        "options": {
+            "A": "Sulfhydryl groups",
+            "B": "Alcoholic hydroxyl groups",
+            "C": "Hydrocarbon groups",
+            "D": "Amino groups",
+            "E": "Carboxyl groups"
+        },
+        "answer": "D",
+        "explanation": "(D) BPG binds to hemoglobin through ionic interactions with positively charged amino groups in hemoglobin at physiological pH."
+    },
+    {
+        "question": "Which of the following description best describes myoglobin and a subunit of hemoglobin?",
+        "options": {
+            "A": "They have similar primary structures.",
+            "B": "They have different primary structures and similar tertiary structures.",
+            "C": "They have similar tertiary structures.",
+            "D": "They have similar primary structures and similar tertiary structures.",
+            "E": "They have similar primary structures and different tertiary structures."
+        },
+        "answer": "B",
+        "explanation": "(B) Myoglobin and the hemoglobin subunit have similar tertiary structures due to their similar folding, but their primary sequences are different."
+    },
+    {
+        "question": "What is a prosthetic group of the conjugated protein?",
+        "options": {
+            "A": "A charged domain or motif which can alter its shape.",
+            "B": "The groups that loosely attach to the protein to help perform its function.",
+            "C": "The groups that tightly bind to the protein to help perform its function.",
+            "D": "The place where steroids bind to the protein.",
+            "E": "The place where phosphate groups bind to the protein."
+        },
+        "answer": "C",
+        "explanation": "(C) A prosthetic group is a tightly bound non-polypeptide unit required for the biological activity of some proteins."
+    },
+    {
+        "question": "The amino acid substitution of Val for Glu in hemoglobin S results in aggregation of the protein because of ____ interactions between molecules.",
+        "options": {
+            "A": "Covalent",
+            "B": "Disulfide",
+            "C": "Hydrogen bond",
+            "D": "Hydrophobic",
+            "E": "Ionic"
+        },
+        "answer": "D",
+        "explanation": "(D) The substitution of hydrophobic valine for the negatively charged glutamate results in hydrophobic interactions between hemoglobin S molecules, leading to aggregation."
+    },
+    {
+        "question": "Autopsies of patients with Alzheimer’s disease show protein aggregates called neuritic plaques. These plaques exhibit the characteristic staining of amyloid. Which of the following structural features is the most likely characteristic of at least one of the proteins in these plaques?",
+        "options": {
+            "A": "A high content of beta-pleated sheet structure.",
+            "B": "A high content of alpha-helical structure.",
+            "C": "A high content of random coils.",
+            "D": "Disulfide bond cross-links between polypeptide chains.",
+            "E": "A low-energy native conformation."
+        },
+        "answer": "A",
+        "explanation": "(A) Amyloid plaques are rich in beta-sheet structures, which contribute to their stability and resistance to degradation."
+    },
+    {
+        "question": "Which of the following is not a GAG?",
+        "options": {
+            "A": "Heparin",
+            "B": "Hyaluronan",
+            "C": "Chondroitin sulfate",
+            "D": "Keratan sulfate",
+            "E": "None of the above"
+        },
+        "answer": "E",
+        "explanation": "(E) All the options are glycosaminoglycans (GAGs). They are long unbranched polysaccharides consisting of repeating disaccharide units."
+    },
+    {
+        "question": "Which of the following is an aldopentose?",
+        "options": {
+            "A": "Glucose",
+            "B": "Ribose",
+            "C": "Ribulose",
+            "D": "Fructose",
+            "E": "None of the above"
+        },
+        "answer": "B",
+        "explanation": "(B) Ribose is an aldopentose, a five-carbon sugar with an aldehyde group."
+    },
+    {
+        "question": "What is the linkage form of maltose?",
+        "options": {
+            "A": "Alpha-1,4 linkage",
+            "B": "Alpha-1,2 linkage",
+            "C": "Beta-1,4 linkage",
+            "D": "Beta-1,2 linkage"
+        },
+        "answer": "A",
+        "explanation": "(A) Maltose is composed of two glucose molecules linked by an alpha-1,4-glycosidic bond."
+    },
+    {
+        "question": "What is the linkage of lactose?",
+        "options": {
+            "A": "Beta-1,4",
+            "B": "Beta-1,2",
+            "C": "Alpha-1,4",
+            "D": "Alpha-1,2",
+            "E": "None of above"
+        },
+        "answer": "A",
+        "explanation": "(A) Lactose is made up of glucose and galactose linked by a beta-1,4-glycosidic bond."
+    },
+    {
+        "question": "What is the linkage of amylose?",
+        "options": {
+            "A": "Beta-1,4",
+            "B": "Beta-1,2",
+            "C": "Alpha-1,4",
+            "D": "Alpha-1,2",
+            "E": "None of above"
+        },
+        "answer": "C",
+        "explanation": "(C) Amylose is a polysaccharide with glucose units linked by alpha-1,4-glycosidic bonds."
+    },
+    {
+        "question": "Which molecule donates a phosphogroup to ADP to form ATP during glycolytic pathway?",
+        "options": {
+            "A": "Glucose-6-phosphate",
+            "B": "Phosphoenolpyruvate",
+            "C": "Fructose-6-phosphate",
+            "D": "Fructose-1,6-bisphosphate",
+            "E": "None of above"
+        },
+        "answer": "B",
+        "explanation": "(B) Phosphoenolpyruvate donates a phosphate group to ADP in the final step of glycolysis, forming ATP and pyruvate."
+    },
+    {
+        "question": "In glycolysis, what is the net gain from Fructose, F1-6P(intermediate) to pyruvate?",
+        "options": {
+            "A": "2NAD+ + 2GTP",
+            "B": "2NADH + 2GTP",
+            "C": "2NAD+ + 2ATP",
+            "D": "2NADH + 2ATP"
+        },
+        "answer": "D",
+        "explanation": "(D) The net gain is 2 NADH and 2 ATP from Fructose-1,6-bisphosphate to pyruvate during glycolysis."
+    },
+    {
+        "question": "Which is correct about glycolysis?",
+        "options": {
+            "A": "Fructose-1-phosphate → fructose-1,4-biphosphate",
+            "B": "Fructose-6-phosphate → fructose-2,6-biphosphate",
+            "C": "Fructose-6-phosphate → fructose-1,6-biphosphate",
+            "D": "Galactose → Glucose-6-phosphate"
+        },
+        "answer": "C",
+        "explanation": "(C) In glycolysis, fructose-6-phosphate is converted to fructose-1,6-bisphosphate by the enzyme phosphofructokinase-1."
+    },
+    {
+        "question": "Which of the following enzyme is not involved in fructose metabolism?",
+        "options": {
+            "A": "Triose phosphate isomerase",
+            "B": "Triose kinase",
+            "C": "Hexokinase",
+            "D": "Fructose kinase",
+            "E": "All of the above"
+        },
+        "answer": "E",
+        "explanation": "(E) All of the mentioned enzymes are involved in fructose metabolism at different stages."
+    },
+    {
+        "question": "Which of the following is an anomeric pair?",
+        "options": {
+            "A": "Alpha-D-glucose and beta-L-glucose",
+            "B": "Alpha-D-glucose and beta-D-glucose",
+            "C": "D-glucose and D-fructose",
+            "D": "D-glucose and L-fructose"
+        },
+        "answer": "B",
+        "explanation": "(B) Anomeric pairs differ in the configuration around the anomeric carbon, such as alpha-D-glucose and beta-D-glucose."
+    },
+    {
+        "question": "Cellulose is made up of repeating units of?",
+        "options": {
+            "A": "Beta 1-4 linkage between D-glucose units",
+            "B": "Beta 1-2 linkage between D-glucose units",
+            "C": "Alpha 1-4 linkage between D-glucose units",
+            "D": "Alpha 1-2 linkage between D-glucose units",
+            "E": "None of the above"
+        },
+        "answer": "A",
+        "explanation": "(A) Cellulose consists of D-glucose units linked by beta-1,4-glycosidic bonds, forming a straight-chain structure."
+    },
+    {
+        "question": "The anaerobic conversion of 1 mol glucose to 2 mol of lactose by fermentation is accompanied by a net gain of?",
+        "options": {
+            "A": "2 mol ATP + 1 mol NADH",
+            "B": "2 mol ATP + 2 mol NADH",
+            "C": "2 mol NADH",
+            "D": "2 mol ATP",
+            "E": "None of the above"
+        },
+        "answer": "D",
+        "explanation": "(D) The conversion of glucose to lactose through anaerobic fermentation results in a net gain of 2 mol ATP without producing NADH."
+    }
+]
