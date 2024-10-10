@@ -130,6 +130,94 @@
             background-color: #a35555;
             color: #ffffff;
         }
+        .quiz-container.dark-mode {
+            background-color: #121212;
+        }
+        .quiz-title.dark-mode {
+            color: #ffffff;
+        }
+        .progress-item.dark-mode {
+            background-color: #1e1e1e;
+        }
+        .progress-number-orange.dark-mode {
+            color: #FFA500;
+        }
+        .progress-number-green.dark-mode {
+            color: #4CAF50;
+        }
+        .orange-bg.dark-mode {
+            background-color: #3a3a3a;
+        }
+        .green-bg.dark-mode {
+            background-color: #3a3a3a;
+        }
+        .question-content.dark-mode {
+            color: #ffffff;
+        }
+        .option-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid transparent;
+        }
+        .option-button.dark-mode:hover {
+            background-color: #1b1b1b;
+            border-color: #004896;
+        }
+        .option-button.selected.dark-mode {
+            background-color: #2e2e2e;
+            border-color: #007BFF;
+        }
+        .option-button.correct.dark-mode {
+            background-color: rgba(72, 187, 120, 0.2);
+            border-color: #48BB78;
+            color: #ffffff;
+        }
+        .option-button.incorrect.dark-mode {
+            background-color: rgba(245, 101, 101, 0.2);
+            border-color: #F56565;
+            color: #ffffff;
+        }
+        .confirm-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #a35555;
+        }
+        .confirm-button.dark-mode:hover {
+            background-color: #a35555;
+            color: #ffffff;
+        }
+        .explanation.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        .next-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #fc9d38;
+        }
+        .next-button.dark-mode:hover {
+            background-color: #fc9d38;
+            color: #ffffff;
+        }
+        .copyright.dark-mode {
+            color: #888888;
+        }
+        .copyright.dark-mode a {
+            color: #888888;
+        }
+        .modal-content.dark-mode {
+            background-color: rgba(30,30,30,0.8);
+            color: #ffffff;
+        }
+        .modal-confirm-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #a35555;
+        }
+        .modal-confirm-button.dark-mode:hover {
+            background-color: #a35555;
+            color: #ffffff;
+        }
 
         /* 其他樣式保持不變 */
         .quiz-container {
@@ -141,6 +229,8 @@
             padding: 20px;
             box-sizing: border-box;
             min-height: 100vh;
+            background-color: white; /* 預設淺色模式 */
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .header {
@@ -154,6 +244,7 @@
             font-size: 24px;
             font-weight: bold;
             color: #a35555;
+            transition: color 0.3s ease;
         }
 
         .progress {
@@ -168,32 +259,40 @@
             align-items: center;
             padding: 5px 15px;
             border-radius: 10px;
+            background-color: #FFF3E0; /* 淺色模式 */
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .progress-number-orange {
             font-weight: bold;
             margin-right: 5px;
             color: #FFA500;
+            transition: color 0.3s ease;
         }
 
         .progress-number-green {
             font-weight: bold;
             margin-left: 5px;
             color: #4CAF50;
+            transition: color 0.3s ease;
         }
 
         .orange-bg {
             background-color: #FFF3E0;
+            transition: background-color 0.3s ease;
         }
 
         .green-bg {
             background-color: #E8F5E9;
             margin-left: auto;
+            transition: background-color 0.3s ease;
         }
 
         .question-content {
             font-size: 20px;
             margin-bottom: 20px;
+            color: #000; /* 淺色模式 */
+            transition: color 0.3s ease;
         }
 
         .options {
@@ -259,6 +358,8 @@
             background-color: #f9f9f9;
             border-radius: 5px;
             position: relative;
+            color: #000; /* 淺色模式 */
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .explanation-text {
@@ -289,6 +390,7 @@
             margin-top: 20px;
             font-size: 12px;
             color: #a9a9a9; /* 淺灰色 */
+            transition: color 0.3s ease;
         }
 
         .copyright a {
@@ -313,6 +415,7 @@
             background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
             justify-content: center;
             align-items: center;
+            transition: background-color 0.3s ease;
         }
         
         .modal-content {
@@ -328,6 +431,7 @@
             max-width: 300px;
             margin: auto;
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         
         .modal-confirm-button {
@@ -658,9 +762,36 @@
                 element.classList.toggle('dark-mode');
             });
             document.querySelector('.start-button').classList.toggle('dark-mode');
-            document.querySelectorAll('.quiz-container *').forEach(element => {
-                // 您可以根據需要添加深色模式的其他元素
+            document.querySelector('.quiz-container').classList.toggle('dark-mode');
+            document.querySelector('.quiz-title').classList.toggle('dark-mode');
+            document.querySelectorAll('.progress-item').forEach(element => {
+                element.classList.toggle('dark-mode');
             });
+            document.querySelectorAll('.progress-number-orange').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelectorAll('.progress-number-green').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelectorAll('.orange-bg').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelectorAll('.green-bg').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelector('.question-content').classList.toggle('dark-mode');
+            document.querySelectorAll('.option-button').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelector('.confirm-button').classList.toggle('dark-mode');
+            document.querySelector('.explanation').classList.toggle('dark-mode');
+            document.querySelector('.next-button').classList.toggle('dark-mode');
+            document.querySelector('.copyright').classList.toggle('dark-mode');
+            document.querySelector('.copyright a').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelector('.modal-content').classList.toggle('dark-mode');
+            document.querySelector('.modal-confirm-button').classList.toggle('dark-mode');
 
             if (document.body.classList.contains('dark-mode')) {
                 modeToggle.textContent = 'Switch to light mode';
