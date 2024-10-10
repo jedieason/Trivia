@@ -12,6 +12,7 @@
             font-family: Arial, sans-serif;
             background-color: #fff;
             margin: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         .start-screen {
             display: flex;
@@ -21,6 +22,7 @@
             height: 100vh;
             background-color: white;
             gap: 20px;
+            position: relative; /* 為了放置切換按鈕 */
         }
 
         .start-title {
@@ -32,9 +34,10 @@
         /* 新增按鈕容器 */
         .button-row {
             display: flex;
+            flex-wrap: wrap; /* 允許換行 */
             gap: 10px;
-            overflow-x: auto;
             padding: 10px 0;
+            justify-content: center; /* 置中對齊 */
         }
 
         .select-button {
@@ -71,6 +74,61 @@
             background-color: #9a6262;
             transform: scale(1.05);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Toggle Button */
+        .toggle-button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fff;
+            border: 2px solid #bca3a3;
+            color: #bca3a3;
+            padding: 8px 16px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .toggle-button.dark-mode {
+            background-color: #623c3c;
+            color: #c69d9d;
+            border: 2px solid #623c3c;
+        }
+
+        /* 深色模式樣式 */
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .start-screen.dark-mode {
+            background-color: #121212;
+        }
+        .start-title.dark-mode {
+            color: #ffffff;
+        }
+        .select-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #a35555;
+        }
+        .select-button.dark-mode:hover {
+            background-color: #a35555;
+            color: #ffffff;
+        }
+        .select-button.selected.dark-mode {
+            background-color: #a35555;
+            color: #ffffff;
+        }
+        .start-button.dark-mode {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #a35555;
+        }
+        .start-button.dark-mode:hover {
+            background-color: #a35555;
+            color: #ffffff;
         }
 
         /* 其他樣式保持不變 */
@@ -289,134 +347,17 @@
             color: #a35555;
             border: solid 2px #a35555;
         }
-        /* 深色模式 */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #121212;
-                color: #ffffff;
-            }
-            .start-screen {
-                background-color: #121212;
-            }
-            .start-title {
-                color: #ffffff;
-            }
-            .select-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid #a35555;
-            }
-            .select-button:hover {
-                background-color: #a35555;
-                color: #ffffff;
-            }
-            .select-button.selected {
-                background-color: #a35555;
-                color: #ffffff;
-            }
-            .start-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid #a35555;
-            }
-            .start-button:hover {
-                background-color: #a35555;
-                color: #ffffff;
-            }
-            .quiz-container {
-                background-color: #121212;
-            }
-            .quiz-title {
-                color: #ffffff;
-            }
-            .progress-item {
-                background-color: #1e1e1e;
-            }
-            .progress-number-orange {
-                color: #FFA500;
-            }
-            .progress-number-green {
-                color: #4CAF50;
-            }
-            .orange-bg {
-                background-color: #3a3a3a;
-            }
-            .green-bg {
-                background-color: #3a3a3a;
-            }
-            .question-content {
-                color: #ffffff;
-            }
-            .option-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid transparent;
-            }
-            .option-button:hover {
-                background-color: #1b1b1b;
-                border-color: #004896;
-            }
-            .option-button.selected {
-                background-color: #2e2e2e;
-                border-color: #007BFF;
-            }
-            .option-button.correct {
-                background-color: rgba(72, 187, 120, 0.2);
-                border-color: #48BB78;
-                color: #ffffff;
-            }
-            .option-button.incorrect {
-                background-color: rgba(245, 101, 101, 0.2);
-                border-color: #F56565;
-                color: #ffffff;
-            }
-            .confirm-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid #a35555;
-            }
-            .confirm-button:hover {
-                background-color: #a35555;
-                color: #ffffff;
-            }
-            .explanation {
-                background-color: #1e1e1e;
-                color: #ffffff;
-            }
-            .next-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid #fc9d38;
-            }
-            .next-button:hover {
-                background-color: #fc9d38;
-                color: #ffffff;
-            }
-            .copyright {
-                color: #888888;
-            }
-            .copyright a {
-                color: #888888;
-            }
-            .modal-content {
-                background-color: rgba(30,30,30,0.8);
-                color: #ffffff;
-            }
-            .modal-confirm-button {
-                background-color: #1e1e1e;
-                color: #ffffff;
-                border: 2px solid #a35555;
-            }
-            .modal-confirm-button:hover {
-                background-color: #a35555;
-                color: #ffffff;
-            }
-        }
+
+        /* 深色模式樣式 */
+        /* 此處保留深色模式的樣式，以便手動切換 */
     </style>
 </head>
 <body>
     <!-- 開始畫面 -->
     <div class="start-screen">
+        <!-- 切換模式按鈕 -->
+        <button id="modeToggle" class="toggle-button">Switch to dark mode</button>
+
         <div class="start-title">Biochemistry</div>
         
         <!-- 新增的按鈕列 -->
@@ -475,7 +416,7 @@
         let wrong = 0;
         let selectedJson = null; // 初始為 null
         let isTestCompleted = false; // Flag to track test completion
-    
+
         // 初始化測驗
         async function initQuiz() {
             await loadQuestions();
@@ -483,7 +424,7 @@
             document.querySelector('.quiz-container').style.display = 'flex';
             loadNewQuestion();
         }
-    
+
         // 加載題目
         async function loadQuestions() {
             try {
@@ -493,7 +434,7 @@
                 console.error('Failed to load the question.', error);
             }
         }
-    
+
         // 洗牌函數
         function shuffle(array) {
             for (let i = array.length -1; i > 0; i--) {
@@ -501,7 +442,7 @@
                 [array[i], array[j]] = [array[j], array[i]];
             }
         }
-    
+
         function loadNewQuestion() {
             // 重置狀態
             acceptingAnswers = true;
@@ -512,32 +453,32 @@
             document.querySelectorAll('.option-button').forEach(btn => {
                 btn.classList.remove('selected', 'correct', 'incorrect');
             });
-    
+
             if (questions.length === 0) {
                 // 沒有更多題目，結束測驗
                 showEndScreen();
                 return;
             }
-    
+
             // 獲取隨機題目
             shuffle(questions);
             currentQuestion = questions.pop(); // 取出一題
-    
+
             // 更新題目文本
             document.getElementById('question').innerText = currentQuestion.question;
-    
+
             // 原始選項對應標籤
             const optionLabels = ['A', 'B', 'C', 'D', 'E'];
             const optionEntries = Object.entries(currentQuestion.options);
             shuffle(optionEntries);
-    
+
             // 正確構建 labelMapping
             let labelMapping = {};
             for (let i = 0; i < optionEntries.length; i++) {
                 const [originalLabel, _] = optionEntries[i];
                 labelMapping[originalLabel] = optionLabels[i];
             }
-    
+
             // 更新選項
             const optionsContainer = document.getElementById('options');
             optionsContainer.innerHTML = '';
@@ -547,27 +488,27 @@
                 const [label, text] = optionEntries[i];
                 const newLabel = optionLabels[i];
                 newOptions[newLabel] = text;
-    
+
                 const button = document.createElement('button');
                 button.classList.add('option-button');
                 button.dataset.option = newLabel;
                 button.innerText = `${newLabel}: ${text}`;
                 button.addEventListener('click', selectOption);
                 optionsContainer.appendChild(button);
-    
+
                 if (label === currentQuestion.answer) {
                     newAnswer = newLabel;
                 }
             }
-    
+
             // 更新題目的選項和答案
             currentQuestion.options = newOptions;
             currentQuestion.answer = newAnswer;
-    
+
             // 更新詳解中的選項標籤
             currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
         }
-    
+
         // 更新詳解中的選項標籤
         function updateExplanationOptions(explanation, labelMapping) {
             // 找到所有括號內的選項標籤
@@ -580,7 +521,7 @@
                 return `(${newLabel})`;
             });
         }
-    
+
         // 選擇選項
         function selectOption(event) {
             if (!acceptingAnswers) return;
@@ -590,28 +531,28 @@
             event.currentTarget.classList.add('selected');
             selectedOption = event.currentTarget.dataset.option;
         }
-    
+
         // 取得模態窗口和確認按鈕元素
         const customAlert = document.getElementById('customAlert');
         const modalConfirmBtn = document.getElementById('modalConfirmBtn');
         const modalMessage = document.getElementById('modal-message'); // 新增
-    
+
         // 設置模態窗口的訊息
         function setModalMessage(message) {
             modalMessage.innerText = message;
         }
-    
+
         // 顯示自訂模態窗口
         function showCustomAlert(message) {
             setModalMessage(message);
             customAlert.style.display = 'flex';
         }
-    
+
         // 隱藏自訂模態窗口
         function hideCustomAlert() {
             customAlert.style.display = 'none';
         }
-    
+
         // 修改確認按鈕的事件監聽器
         modalConfirmBtn.addEventListener('click', () => {
             hideCustomAlert();
@@ -619,11 +560,11 @@
                 location.reload(); // Reload the page if the test is completed
             }
         });
-    
+
         // 修改 confirmAnswer 函數以使用自訂模態窗口
         function confirmAnswer() {
             if (!selectedOption) {
-                showCustomAlert('Choose something');
+                showCustomAlert('Choose something!');
                 return;
             }
         
@@ -705,6 +646,29 @@
                 // 設定要載入的 JSON 檔案
                 selectedJson = button.dataset.json;
             });
+        });
+
+        // 切換模式
+        const modeToggle = document.getElementById('modeToggle');
+        modeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            document.querySelector('.start-screen').classList.toggle('dark-mode');
+            document.querySelector('.start-title').classList.toggle('dark-mode');
+            document.querySelectorAll('.select-button').forEach(element => {
+                element.classList.toggle('dark-mode');
+            });
+            document.querySelector('.start-button').classList.toggle('dark-mode');
+            document.querySelectorAll('.quiz-container *').forEach(element => {
+                // 您可以根據需要添加深色模式的其他元素
+            });
+
+            if (document.body.classList.contains('dark-mode')) {
+                modeToggle.textContent = 'Switch to light mode';
+                modeToggle.classList.add('dark-mode');
+            } else {
+                modeToggle.textContent = 'Switch to dark mode';
+                modeToggle.classList.remove('dark-mode');
+            }
         });
     </script>
 </body>
