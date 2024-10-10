@@ -11,6 +11,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #fff;
+            color: #000;
             margin: 0;
         }
         .start-screen {
@@ -289,6 +290,119 @@
             color: #a35555;
             border: solid 2px #a35555;
         }
+
+        /* 深色模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #ffffff;
+            }
+            .start-screen {
+                background-color: #121212;
+            }
+            .start-title {
+                color: #ffffff;
+            }
+            .select-button {
+                background-color: #1e1e1e;
+                color: #ffffff;
+                border: 2px solid #a35555;
+            }
+            .select-button.selected {
+                background-color: #a35555;
+                color: #ffffff;
+            }
+            .start-button {
+                background-color: #a35555;
+                color: #ffffff;
+            }
+            .start-button:hover {
+                background-color: #9a6262;
+            }
+            .quiz-container {
+                background-color: #121212;
+            }
+            .quiz-title {
+                color: #ffffff;
+            }
+            .progress-item {
+                background-color: #1e1e1e;
+            }
+            .progress-number-orange {
+                color: #FFA500;
+            }
+            .progress-number-green {
+                color: #4CAF50;
+            }
+            .orange-bg {
+                background-color: #3a3a3a;
+            }
+            .green-bg {
+                background-color: #3a3a3a;
+            }
+            .question-content {
+                color: #ffffff;
+            }
+            .option-button {
+                background-color: #1e1e1e;
+                color: #ffffff;
+            }
+            .option-button:hover {
+                background-color: #2e2e2e;
+            }
+            .option-button.selected {
+                background-color: #2e2e2e;
+            }
+            .option-button.correct {
+                background-color: #388e3c;
+                color: #ffffff;
+            }
+            .option-button.incorrect {
+                background-color: #d32f2f;
+                color: #ffffff;
+            }
+            .confirm-button {
+                background-color: #a35555;
+                color: #ffffff;
+            }
+            .confirm-button:hover {
+                color: #ffffff;
+                background-color: rgba(0, 0, 0, 0);
+                border: solid 2px #a35555;
+            }
+            .explanation {
+                background-color: #1e1e1e;
+                color: #ffffff;
+            }
+            .next-button {
+                background-color: #a35555;
+                color: #ffffff;
+            }
+            .next-button:hover {
+                background-color: #9a6262;
+            }
+            .copyright {
+                color: #888888;
+            }
+            .copyright a {
+                color: #888888;
+            }
+            .modal-content {
+                background-color: rgba(30,30,30,0.8);
+                color: #ffffff;
+            }
+            .modal-confirm-button {
+                background-color: #a35555;
+                color: #ffffff;
+                border: solid 2px #a35555;
+            }
+            .modal-confirm-button:hover {
+                background-color: rgba(0, 0, 0, 0);
+                color: #ffffff;
+                border: solid 2px #a35555;
+            }
+        }
+
     </style>
 </head>
 <body>
