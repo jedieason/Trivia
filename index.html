@@ -50,6 +50,11 @@
             flex: 0 0 auto;
         }
 
+        .select-button:hover {
+            background-color: #a35555;
+            color: white;
+        }
+
         .select-button.selected {
             background-color: #a35555;
             color: white;
@@ -62,16 +67,15 @@
             font-size: 18px;
             background-color: #a35555;
             color: white;
-            border: none;
+            border: 2px solid #a35555;
             border-radius: 15px;
             cursor: pointer;
             transition: all 0.3s ease;
         }
 
         .start-button:hover {
-            background-color: #9a6262;
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            color: #a35555;
         }
 
         /* 其他樣式保持不變 */
@@ -150,7 +154,7 @@
             font-size: 18px;
             color: #000;
             background-color: #efefef;
-            border: 1px solid transparent;
+            border: 2px solid transparent;
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -158,22 +162,23 @@
         }
 
         .option-button:hover {
-            background-color: #e0f0ff;
+            background-color: white;
+            border-color: #007BFF;
         }
 
         .option-button.selected {
             border-color: #007BFF;
-            background-color: #e0f0ff;
+            background-color: white;
         }
 
         .option-button.correct {
-            background-color: #d4edda;
-            border-color: #28a745;
+            background-color: rgba(72, 187, 120, 0.2);
+            border-color: #48BB78;
         }
 
         .option-button.incorrect {
-            background-color: #f8d7da;
-            border-color: #dc3545;
+            background-color: rgba(245, 101, 101, 0.2);
+            border-color: #F56565;
         }
 
         .confirm-button {
@@ -182,7 +187,7 @@
             font-size: 18px;
             background-color: #a35555;
             color: white;
-            border: solid 2px #a35555;
+            border: 2px solid #a35555;
             border-radius: 15px;
             cursor: pointer;
             align-self: flex-end;
@@ -192,7 +197,6 @@
         .confirm-button:hover {
             background-color: white;
             color: #a35555;
-            border: solid 2px #a35555;
         }
 
         .explanation {
@@ -215,7 +219,7 @@
             font-size: 18px;
             background-color: white;
             color: #fc9d38;
-            border: solid 2px #fc9d38;
+            border: 2px solid #fc9d38;
             border-radius: 15px;
             cursor: pointer;
             align-self: flex-start;
@@ -278,17 +282,15 @@
             background-color: #a35555;
             color: white;
             font-size: 18px;
-            border: none;
+            border: 2px solid #a35555;
             border-radius: 10px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
-            border: solid 2px #a35555;
+            transition: all 0.3s ease;
         }
         
         .modal-confirm-button:hover {
-            background-color: rgba(0, 0, 0, 0);
+            background-color: white;
             color: #a35555;
-            border: solid 2px #a35555;
         }
 
         /* 深色模式 */
@@ -308,16 +310,22 @@
                 color: #ffffff;
                 border: 2px solid #a35555;
             }
+            .select-button:hover {
+                background-color: #a35555;
+                color: #ffffff;
+            }
             .select-button.selected {
                 background-color: #a35555;
                 color: #ffffff;
             }
             .start-button {
-                background-color: #a35555;
+                background-color: #1e1e1e;
                 color: #ffffff;
+                border: 2px solid #a35555;
             }
             .start-button:hover {
-                background-color: #9a6262;
+                background-color: #a35555;
+                color: #ffffff;
             }
             .quiz-container {
                 background-color: #121212;
@@ -346,40 +354,47 @@
             .option-button {
                 background-color: #1e1e1e;
                 color: #ffffff;
+                border: 2px solid transparent;
             }
             .option-button:hover {
                 background-color: #2e2e2e;
+                border-color: #007BFF;
             }
             .option-button.selected {
                 background-color: #2e2e2e;
+                border-color: #007BFF;
             }
             .option-button.correct {
-                background-color: #388e3c;
+                background-color: rgba(72, 187, 120, 0.2);
+                border-color: #48BB78;
                 color: #ffffff;
             }
             .option-button.incorrect {
-                background-color: #d32f2f;
+                background-color: rgba(245, 101, 101, 0.2);
+                border-color: #F56565;
                 color: #ffffff;
             }
             .confirm-button {
-                background-color: #a35555;
+                background-color: #1e1e1e;
                 color: #ffffff;
+                border: 2px solid #a35555;
             }
             .confirm-button:hover {
+                background-color: #a35555;
                 color: #ffffff;
-                background-color: rgba(0, 0, 0, 0);
-                border: solid 2px #a35555;
             }
             .explanation {
                 background-color: #1e1e1e;
                 color: #ffffff;
             }
             .next-button {
-                background-color: #a35555;
+                background-color: #1e1e1e;
                 color: #ffffff;
+                border: 2px solid #fc9d38;
             }
             .next-button:hover {
-                background-color: #9a6262;
+                background-color: #fc9d38;
+                color: #ffffff;
             }
             .copyright {
                 color: #888888;
@@ -392,14 +407,13 @@
                 color: #ffffff;
             }
             .modal-confirm-button {
-                background-color: #a35555;
+                background-color: #1e1e1e;
                 color: #ffffff;
-                border: solid 2px #a35555;
+                border: 2px solid #a35555;
             }
             .modal-confirm-button:hover {
-                background-color: rgba(0, 0, 0, 0);
+                background-color: #a35555;
                 color: #ffffff;
-                border: solid 2px #a35555;
             }
         }
 
