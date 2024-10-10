@@ -11,6 +11,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #fff;
+            color: #000;
             margin: 0;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
@@ -23,12 +24,14 @@
             background-color: white;
             gap: 20px;
             position: relative; /* 為了放置切換按鈕 */
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .start-title {
             font-size: 24px;
             color: #a35555;
             font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         /* 新增按鈕容器 */
@@ -91,130 +94,124 @@
             transition: background-color 0.3s ease, color 0.3s ease;
         }
 
-        .toggle-button.dark-mode {
-            background-color: #623c3c;
-            color: #c69d9d;
-            border: 2px solid #623c3c;
-        }
-
         /* 深色模式樣式 */
         body.dark-mode {
             background-color: #121212;
             color: #ffffff;
         }
-        .start-screen.dark-mode {
+        body.dark-mode .start-screen {
             background-color: #121212;
         }
-        .start-title.dark-mode {
+        body.dark-mode .start-title {
             color: #ffffff;
         }
-        .select-button.dark-mode {
+        body.dark-mode .select-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid #a35555;
         }
-        .select-button.dark-mode:hover {
+        body.dark-mode .select-button:hover {
             background-color: #a35555;
             color: #ffffff;
         }
-        .select-button.selected.dark-mode {
+        body.dark-mode .select-button.selected {
             background-color: #a35555;
             color: #ffffff;
         }
-        .start-button.dark-mode {
+        body.dark-mode .start-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid #a35555;
         }
-        .start-button.dark-mode:hover {
+        body.dark-mode .start-button:hover {
             background-color: #a35555;
             color: #ffffff;
         }
-        .quiz-container.dark-mode {
+        body.dark-mode .quiz-container {
             background-color: #121212;
         }
-        .quiz-title.dark-mode {
+        body.dark-mode .quiz-title {
             color: #ffffff;
         }
-        .progress-item.dark-mode {
+        body.dark-mode .progress-item {
             background-color: #1e1e1e;
         }
-        .progress-number-orange.dark-mode {
+        body.dark-mode .progress-number-orange {
             color: #FFA500;
         }
-        .progress-number-green.dark-mode {
+        body.dark-mode .progress-number-green {
             color: #4CAF50;
         }
-        .orange-bg.dark-mode {
+        body.dark-mode .orange-bg {
             background-color: #3a3a3a;
         }
-        .green-bg.dark-mode {
+        body.dark-mode .green-bg {
             background-color: #3a3a3a;
         }
-        .question-content.dark-mode {
+        body.dark-mode .question-content {
             color: #ffffff;
         }
-        .option-button.dark-mode {
+        body.dark-mode .option-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid transparent;
         }
-        .option-button.dark-mode:hover {
+        body.dark-mode .option-button:hover {
             background-color: #1b1b1b;
             border-color: #004896;
         }
-        .option-button.selected.dark-mode {
+        body.dark-mode .option-button.selected {
             background-color: #2e2e2e;
             border-color: #007BFF;
         }
-        .option-button.correct.dark-mode {
+        body.dark-mode .option-button.correct {
             background-color: rgba(72, 187, 120, 0.2);
             border-color: #48BB78;
             color: #ffffff;
         }
-        .option-button.incorrect.dark-mode {
+        body.dark-mode .option-button.incorrect {
             background-color: rgba(245, 101, 101, 0.2);
             border-color: #F56565;
             color: #ffffff;
         }
-        .confirm-button.dark-mode {
+        body.dark-mode .confirm-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid #a35555;
         }
-        .confirm-button.dark-mode:hover {
+        body.dark-mode .confirm-button:hover {
             background-color: #a35555;
             color: #ffffff;
         }
-        .explanation.dark-mode {
+        body.dark-mode .explanation {
             background-color: #1e1e1e;
             color: #ffffff;
         }
-        .next-button.dark-mode {
+        body.dark-mode .next-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid #fc9d38;
         }
-        .next-button.dark-mode:hover {
+        body.dark-mode .next-button:hover {
             background-color: #fc9d38;
             color: #ffffff;
         }
-        .copyright.dark-mode {
+        body.dark-mode .copyright {
             color: #888888;
         }
-        .copyright.dark-mode a {
+        body.dark-mode .copyright a {
             color: #888888;
         }
-        .modal-content.dark-mode {
+        body.dark-mode .modal-content {
             background-color: rgba(30,30,30,0.8);
             color: #ffffff;
         }
-        .modal-confirm-button.dark-mode {
+        body.dark-mode .modal-confirm-button {
             background-color: #1e1e1e;
             color: #ffffff;
             border: 2px solid #a35555;
         }
-        .modal-confirm-button.dark-mode:hover {
+        body.dark-mode .modal-confirm-button:hover {
             background-color: #a35555;
             color: #ffffff;
         }
@@ -396,6 +393,7 @@
         .copyright a {
             color: #a9a9a9;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
 
         .copyright a:hover {
@@ -452,8 +450,23 @@
             border: solid 2px #a35555;
         }
 
-        /* 深色模式樣式 */
-        /* 此處保留深色模式的樣式，以便手動切換 */
+        /* 深色模式下的模態窗口樣式 */
+        body.dark-mode .modal-content {
+            background-color: rgba(30,30,30,0.8);
+            color: #ffffff;
+        }
+        
+        body.dark-mode .modal-confirm-button {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #a35555;
+        }
+        
+        body.dark-mode .modal-confirm-button:hover {
+            background-color: #a35555;
+            color: #ffffff;
+        }
+
     </style>
 </head>
 <body>
@@ -709,7 +722,7 @@
         // 顯示結束畫面
         function showEndScreen() {
             isTestCompleted = true; // Indicate that the test has been completed
-            showCustomAlert(`Test completed! \nCorrect: ${correct}, Incorrect: ${wrong}.`);
+            showCustomAlert(`Test completed!\nCorrect: ${correct}, Incorrect: ${wrong}.`);
         }
     
         // 事件監聽器
@@ -756,49 +769,17 @@
         const modeToggle = document.getElementById('modeToggle');
         modeToggle.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
-            document.querySelector('.start-screen').classList.toggle('dark-mode');
-            document.querySelector('.start-title').classList.toggle('dark-mode');
-            document.querySelectorAll('.select-button').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelector('.start-button').classList.toggle('dark-mode');
-            document.querySelector('.quiz-container').classList.toggle('dark-mode');
-            document.querySelector('.quiz-title').classList.toggle('dark-mode');
-            document.querySelectorAll('.progress-item').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelectorAll('.progress-number-orange').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelectorAll('.progress-number-green').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelectorAll('.orange-bg').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelectorAll('.green-bg').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelector('.question-content').classList.toggle('dark-mode');
-            document.querySelectorAll('.option-button').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelector('.confirm-button').classList.toggle('dark-mode');
-            document.querySelector('.explanation').classList.toggle('dark-mode');
-            document.querySelector('.next-button').classList.toggle('dark-mode');
-            document.querySelector('.copyright').classList.toggle('dark-mode');
-            document.querySelector('.copyright a').forEach(element => {
-                element.classList.toggle('dark-mode');
-            });
-            document.querySelector('.modal-content').classList.toggle('dark-mode');
-            document.querySelector('.modal-confirm-button').classList.toggle('dark-mode');
 
             if (document.body.classList.contains('dark-mode')) {
                 modeToggle.textContent = 'Switch to light mode';
-                modeToggle.classList.add('dark-mode');
+                modeToggle.style.backgroundColor = '#623c3c';
+                modeToggle.style.color = '#c69d9d';
+                modeToggle.style.borderColor = '#623c3c';
             } else {
                 modeToggle.textContent = 'Switch to dark mode';
-                modeToggle.classList.remove('dark-mode');
+                modeToggle.style.backgroundColor = '#fff';
+                modeToggle.style.color = '#bca3a3';
+                modeToggle.style.borderColor = '#bca3a3';
             }
         });
     </script>
