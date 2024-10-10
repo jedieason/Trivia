@@ -1,0 +1,632 @@
+[
+    {
+        "question": "Which level of protein structure is characterized by the formation of alpha-helices and beta-sheets?",
+        "options": {
+            "A": "Primary structure",
+            "B": "Secondary structure",
+            "C": "Tertiary structure",
+            "D": "Quaternary structure"
+        },
+        "answer": "B",
+        "explanation": "Secondary structure refers to the local folding patterns within a polypeptide chain, primarily alpha-helices and beta-sheets, stabilized by hydrogen bonds between backbone atoms. [1, 2]"
+    },
+    {
+        "question": "Which amino acid is highly likely to disrupt an alpha-helix due to its lack of an N-H group for hydrogen bonding?",
+        "options": {
+            "A": "Glycine",
+            "B": "Proline",
+            "C": "Alanine",
+            "D": "Cysteine"
+        },
+        "answer": "B",
+        "explanation": "Proline's cyclic structure restricts its flexibility and prevents it from participating in the regular hydrogen bonding pattern of an alpha-helix. [1]"
+    },
+    {
+        "question": "What type of protein structure is characterized by completely folded polypeptide chains with a hydrophobic core?",
+        "options": {
+            "A": "Denatured",
+            "B": "Molten globule",
+            "C": "Native",
+            "D": "Fibrous"
+        },
+        "answer": "C",
+        "explanation": "A native protein represents the fully folded and functional conformation, where hydrophobic residues are buried in the interior, forming a stable hydrophobic core. [3]"
+    },
+    {
+        "question": "Which of the following is NOT a type of tertiary protein structure?",
+        "options": {
+            "A": "All alpha",
+            "B": "Alpha/beta",
+            "C": "Beta-turn",
+            "D": "All beta",
+            "E": "Alpha + beta"
+        },
+        "answer": "C",
+        "explanation": "Beta-turns are a type of secondary structure, not tertiary structure. They are short loops that connect beta-strands in a beta-sheet. The other options represent categories of tertiary protein structure based on the arrangement of secondary structural elements. [4]"
+    },
+    {
+        "question": "What distinguishes a domain from a motif?",
+        "options": {
+            "A": "Domains are larger and can fold independently.",
+            "B": "Motifs are larger and have specific functions.",
+            "C": "Domains are composed of multiple motifs.",
+            "D": "Motifs are a type of tertiary structure."
+        },
+        "answer": "A",
+        "explanation": "Domains are independent folding units within a protein that can perform specific functions. They are typically larger than motifs (100-500 amino acids) and have a stable hydrophobic core. Motifs are smaller structural units that may not fold independently and are often found as recurring patterns within domains. [5]"
+    },
+    {
+        "question": "What type of protein interaction is characteristic of a coiled-coil structure?",
+        "options": {
+            "A": "Hydrogen bonding",
+            "B": "Ionic interactions",
+            "C": "Hydrophobic interactions between alpha-helices",
+            "D": "Disulfide bonds"
+        },
+        "answer": "C",
+        "explanation": "Coiled-coils are formed by the tight packing of two or more alpha-helices, driven by hydrophobic interactions between nonpolar residues on the helix surfaces. This interaction creates a left-handed supercoil structure. [6]"
+    },
+    {
+        "question": "According to the Ridge-in-Groove model, which combination of ridges and grooves leads to the formation of globins?",
+        "options": {
+            "A": "i±4n ridge with i±4n groove",
+            "B": "i±4n ridge with i±3n groove",
+            "C": "i±3n ridge with i±3n groove",
+            "D": "Both A and C"
+        },
+        "answer": "D",
+        "explanation": "The Ridge-in-Groove model describes the packing of alpha-helices. Globins are characterized by specific angles of interaction between helices. Both the i±4n ridge fitting into an i±4n groove (approximately -60°) and the i±3n ridge fitting into an i±3n groove (approximately -90°) contribute to the globin structure. [7]"
+    },
+    {
+        "question": "Which amino acid is essential for the tight packing of collagen's triple helix structure due to its small size?",
+        "options": {
+            "A": "Proline",
+            "B": "Glycine",
+            "C": "Hydroxyproline",
+            "D": "Lysine"
+        },
+        "answer": "B",
+        "explanation": "Collagen's triple helix requires glycine at every third position because its small side chain (hydrogen atom) allows for close packing of the three helices. Any larger side chain would create steric hindrance. [8, 9]"
+    },
+    {
+        "question": "What post-translational modification stabilizes collagen's structure by promoting hydrogen bonding between helices?",
+        "options": {
+            "A": "Glycosylation",
+            "B": "Phosphorylation",
+            "C": "Hydroxylation of proline",
+            "D": "Acetylation"
+        },
+        "answer": "C",
+        "explanation": "The hydroxylation of proline residues to hydroxyproline introduces a hydroxyl group that can participate in additional hydrogen bonds, strengthening the interactions between collagen helices. [8]"
+    },
+    {
+        "question": "What type of secondary structure is predominantly involved in the formation of amyloid fibrils?",
+        "options": {
+            "A": "Alpha-helices",
+            "B": "Beta-sheets",
+            "C": "Beta-turns",
+            "D": "Random coils"
+        },
+        "answer": "B",
+        "explanation": "Amyloid fibrils are formed by the aggregation of misfolded proteins, primarily through the stacking of beta-sheets. These beta-sheets form extensive hydrogen bonding networks, creating highly stable and insoluble fibrils. [2]"
+    },
+    {
+        "question": "What is the approximate length of an alpha-helix required to span the hydrophobic core of a lipid membrane (about 30 Å)?",
+        "options": {
+            "A": "10 amino acids",
+            "B": "15 amino acids",
+            "C": "20 amino acids",
+            "D": "25 amino acids"
+        },
+        "answer": "C",
+        "explanation": "An alpha-helix rises approximately 1.5 Å per amino acid residue. To span a 30 Å hydrophobic core, a transmembrane alpha-helix would need about 20 amino acid residues. [10]"
+    },
+    {
+        "question": "Which of the following characteristics is NOT typical of intrinsically disordered proteins?",
+        "options": {
+            "A": "High proportion of polar and charged residues",
+            "B": "Lack of a stable hydrophobic core",
+            "C": "Abundance of cysteine and aromatic residues",
+            "D": "Ability to adopt multiple conformations"
+        },
+        "answer": "C",
+        "explanation": "Intrinsically disordered proteins typically have low contents of cysteine and aromatic residues, which contribute to stable protein structures. The other options are characteristic features of intrinsically disordered proteins. [11]"
+    },
+    {
+        "question": "What cellular phenomenon is often associated with intrinsically disordered proteins forming liquid-liquid phase separation (LLPS)?",
+        "options": {
+            "A": "Protein aggregation",
+            "B": "Formation of membrane-bound organelles",
+            "C": "Creation of distinct biochemical compartments",
+            "D": "DNA replication"
+        },
+        "answer": "C",
+        "explanation": "Intrinsically disordered proteins, through LLPS, can form dynamic, non-membrane-bound compartments within cells. These compartments can concentrate specific molecules and create distinct biochemical environments for various cellular processes. [2]"
+    },
+    {
+        "question": "Which of the following is NOT a major force stabilizing tertiary protein structure?",
+        "options": {
+            "A": "Van der Waals forces",
+            "B": "Hydrogen bonds",
+            "C": "Peptide bonds",
+            "D": "Ionic interactions",
+            "E": "Hydrophobic interactions"
+        },
+        "answer": "C",
+        "explanation": "Peptide bonds are responsible for the primary structure, linking amino acids in a linear chain. The other options are forces involved in stabilizing the three-dimensional folding of a protein. [2, 12]"
+    },
+    {
+        "question": "Which type of model is used to visualize the three-dimensional arrangement of atoms and functional groups in a protein structure?",
+        "options": {
+            "A": "Stick model",
+            "B": "Cartoon model",
+            "C": "Surface model",
+            "D": "Ribbon diagram"
+        },
+        "answer": "A",
+        "explanation": "A stick model represents a protein structure by showing the individual atoms as spheres and the bonds between them as sticks, providing a detailed view of the atomic positions and functional groups. [13]"
+    },
+    {
+        "question": "What experimental technique is commonly used to determine the three-dimensional structure of proteins?",
+        "options": {
+            "A": "Gel electrophoresis",
+            "B": "Mass spectrometry",
+            "C": "Chromatography",
+            "D": "X-ray crystallography"
+        },
+        "answer": "D",
+        "explanation": "X-ray crystallography is a powerful technique that uses the diffraction pattern of X-rays passing through a protein crystal to determine the positions of atoms in the protein molecule. [13]"
+    },
+    {
+        "question": "Which of the following factors can lead to protein denaturation?",
+        "options": {
+            "A": "Extreme pH values",
+            "B": "High temperatures",
+            "C": "Exposure to detergents",
+            "D": "Reducing agents like mercaptoethanol",
+            "E": "All of the above"
+        },
+        "answer": "E",
+        "explanation": "All the listed factors can disrupt the forces stabilizing protein structure, leading to denaturation. Extreme pH alters the charges on amino acid side chains, high temperatures break non-covalent bonds, detergents disrupt hydrophobic interactions, and reducing agents break disulfide bonds. [14]"
+    },
+    {
+        "question": "What is the function of heat shock proteins (Hsps)?",
+        "options": {
+            "A": "To degrade misfolded proteins",
+            "B": "To assist in protein folding",
+            "C": "To transport proteins across membranes",
+            "D": "To regulate gene expression"
+        },
+        "answer": "B",
+        "explanation": "Heat shock proteins act as chaperones, helping proteins fold correctly and preventing the aggregation of misfolded proteins. [15]"
+    },
+    {
+        "question": "Which heat shock protein prevents aggregation of misfolded proteins by binding to short hydrophobic sequences?",
+        "options": {
+            "A": "Hsp10",
+            "B": "Hsp60",
+            "C": "Hsp70",
+            "D": "Hsp90"
+        },
+        "answer": "C",
+        "explanation": "Hsp70 recognizes and binds to short stretches of hydrophobic amino acids exposed in misfolded proteins, preventing their aggregation. [15]"
+    },
+    {
+        "question": "Which heat shock protein provides a protected environment for protein folding within its barrel-shaped structure?",
+        "options": {
+            "A": "Hsp10",
+            "B": "Hsp60",
+            "C": "Hsp70",
+            "D": "Hsp90"
+        },
+        "answer": "B",
+        "explanation": "Hsp60 forms a large complex with a central cavity where misfolded proteins can fold in isolation. The cavity is capped by a lid-like structure (e.g., Hsp10). [15]"
+    },
+    {
+        "question": "What is the role of protein disulfide isomerase (PDI)?",
+        "options": {
+            "A": "To catalyze the formation of peptide bonds",
+            "B": "To break down proteins into amino acids",
+            "C": "To form and rearrange disulfide bonds in proteins",
+            "D": "To transport proteins to the Golgi apparatus"
+        },
+        "answer": "C",
+        "explanation": "PDI facilitates the formation of correct disulfide bonds in proteins by shuffling disulfide bridges until the native conformation is achieved. It breaks incorrect disulfide bonds and promotes the formation of new ones. [15]"
+    },
+    {
+        "question": "Which enzyme catalyzes the interconversion between the cis and trans isomers of proline residues in proteins?",
+        "options": {
+            "A": "Protein disulfide isomerase",
+            "B": "Peptidyl prolyl cis-trans isomerase",
+            "C": "Chaperonin",
+            "D": "Protease"
+        },
+        "answer": "B",
+        "explanation": "Peptidyl prolyl cis-trans isomerases, also known as cyclophilins, facilitate the interconversion of proline residues between their cis and trans isomers, which can be a rate-limiting step in protein folding. [16]"
+    },
+    {
+        "question": "What is the underlying cause of Alzheimer's disease?",
+        "options": {
+            "A": "Accumulation of misfolded amyloid-β protein",
+            "B": "Deficiency in dopamine production",
+            "C": "Mutation in the hemoglobin gene",
+            "D": "Loss of myelin sheath in neurons"
+        },
+        "answer": "A",
+        "explanation": "Alzheimer's disease is characterized by the formation of amyloid plaques in the brain, which are primarily composed of aggregated amyloid-β protein. [17]"
+    },
+    {
+        "question": "What type of protein misfolding is associated with prion diseases?",
+        "options": {
+            "A": "Conversion of alpha-helices to beta-sheets",
+            "B": "Formation of disulfide bonds between proteins",
+            "C": "Loss of glycosylation modifications",
+            "D": "Aggregation of unfolded protein chains"
+        },
+        "answer": "A",
+        "explanation": "Prion diseases are caused by the misfolding of prion protein (PrP), where the normal cellular form (PrPC) with alpha-helices converts into a pathogenic form (PrPSc) enriched in beta-sheets. This conformational change promotes aggregation and leads to the formation of brain lesions. [17]"
+    },
+    {
+        "question": "Which of the following is the general term for non-protein components required for enzyme activity?",
+        "options": {
+            "A": "Substrates",
+            "B": "Cofactors",
+            "C": "Products",
+            "D": "Inhibitors"
+        },
+        "answer": "B",
+        "explanation": "Cofactors are non-protein molecules or ions that are required for the activity of some enzymes. They can be inorganic ions or organic molecules, including coenzymes and prosthetic groups. [18, 19]"
+    },
+    {
+        "question": "What is the main reason why enzymes often require cofactors for catalysis?",
+        "options": {
+            "A": "To increase the enzyme's stability",
+            "B": "To provide additional functional groups for catalysis",
+            "C": "To regulate enzyme activity",
+            "D": "To transport substrates across membranes"
+        },
+        "answer": "B",
+        "explanation": "The 20 standard amino acids have limited chemical diversity in their side chains. Cofactors provide additional functional groups, such as metal ions or organic molecules, that expand the catalytic capabilities of enzymes. [18]"
+    },
+    {
+        "question": "What distinguishes a prosthetic group from a cofactor?",
+        "options": {
+            "A": "Prosthetic groups are organic molecules, while cofactors are inorganic ions.",
+            "B": "Prosthetic groups bind tightly to enzymes, while cofactors bind loosely.",
+            "C": "Prosthetic groups are involved in catalysis, while cofactors are not.",
+            "D": "Prosthetic groups are regenerated during the reaction, while cofactors are not."
+        },
+        "answer": "B",
+        "explanation": "Prosthetic groups are tightly bound, often covalently, to the enzyme and are essential for its activity. Cofactors, in general, can be either tightly or loosely bound and may or may not be directly involved in catalysis. [19, 20]"
+    },
+    {
+        "question": "Which of the following is an example of a prosthetic group?",
+        "options": {
+            "A": "Mg²⁺ ion",
+            "B": "NADH",
+            "C": "Heme group in hemoglobin",
+            "D": "ATP"
+        },
+        "answer": "C",
+        "explanation": "The heme group in hemoglobin is a prosthetic group that is tightly bound to the protein and is essential for oxygen binding. [20, 21]"
+    },
+    {
+        "question": "What is the key characteristic of a coenzyme?",
+        "options": {
+            "A": "It binds irreversibly to the enzyme.",
+            "B": "It does not participate in the chemical reaction.",
+            "C": "It is a metal ion.",
+            "D": "It is regenerated during the reaction cycle."
+        },
+        "answer": "D",
+        "explanation": "Coenzymes are organic molecules that participate in enzymatic reactions, often acting as carriers of chemical groups. Importantly, they are regenerated during the reaction cycle, allowing them to be used repeatedly. [22, 23]"
+    },
+    {
+        "question": "Which of the following is an example of a coenzyme?",
+        "options": {
+            "A": "Zn²⁺ ion in carbonic anhydrase",
+            "B": "Heme group in cytochrome P450",
+            "C": "Coenzyme A (CoA) in acetyl-CoA formation",
+            "D": "Fe²⁺ ion in hemoglobin"
+        },
+        "answer": "C",
+        "explanation": "Coenzyme A (CoA) acts as a carrier of acetyl groups, participating in reactions like acetyl-CoA formation and transfer. It is regenerated during the reactions and can be reused. [22]"
+    },
+    {
+        "question": "What is the term for an enzyme that requires a metal ion for its activity?",
+        "options": {
+            "A": "Holoenzyme",
+            "B": "Apoenzyme",
+            "C": "Metalloenzyme",
+            "D": "Isozyme"
+        },
+        "answer": "C",
+        "explanation": "Metalloenzymes are enzymes that require metal ions as cofactors, either tightly bound as prosthetic groups or loosely bound for activity. [24]"
+    },
+    {
+        "question": "What is the role of the active site of an enzyme?",
+        "options": {
+            "A": "To bind regulatory molecules",
+            "B": "To provide structural support for the enzyme",
+            "C": "To catalyze the chemical reaction",
+            "D": "To transport the enzyme to its cellular location"
+        },
+        "answer": "C",
+        "explanation": "The active site is the region of an enzyme where the substrate binds and the chemical reaction takes place. It provides a specific environment that facilitates catalysis. [25]"
+    },
+    {
+        "question": "Which part of the active site is primarily responsible for the enzyme's specificity?",
+        "options": {
+            "A": "Catalytic subsite",
+            "B": "Binding subsite",
+            "C": "Allosteric site",
+            "D": "Hydrophobic core"
+        },
+        "answer": "B",
+        "explanation": "The binding subsite within the active site is responsible for recognizing and binding the substrate, contributing to the enzyme's specificity. [26]"
+    },
+    {
+        "question": "What is an enzyme family?",
+        "options": {
+            "A": "Enzymes with identical amino acid sequences",
+            "B": "Enzymes that catalyze the same reaction but have different kinetic parameters",
+            "C": "Enzymes that share a common evolutionary origin and catalytic mechanism",
+            "D": "Enzymes that are located in the same cellular compartment"
+        },
+        "answer": "C",
+        "explanation": "An enzyme family consists of enzymes that have evolved from a common ancestor and typically share similarities in their amino acid sequences, three-dimensional structures, and catalytic mechanisms. [27]"
+    },
+    {
+        "question": "What are isozymes?",
+        "options": {
+            "A": "Enzymes with different amino acid sequences but catalyze the same reaction",
+            "B": "Enzymes that catalyze different reactions but have similar structures",
+            "C": "Enzymes that are activated by the same cofactor",
+            "D": "Enzymes that are inhibited by the same molecule"
+        },
+        "answer": "A",
+        "explanation": "Isozymes are different forms of an enzyme that catalyze the same reaction but may have different kinetic properties, regulatory mechanisms, or tissue distributions. [28]"
+    },
+    {
+        "question": "What is the term for the complex formed between an enzyme and its substrate?",
+        "options": {
+            "A": "Transition state",
+            "B": "Enzyme-product complex",
+            "C": "Enzyme-substrate complex",
+            "D": "Activated complex"
+        },
+        "answer": "C",
+        "explanation": "The enzyme-substrate complex (ES complex) is formed when the substrate binds to the active site of the enzyme, initiating the catalytic process. [29]"
+    },
+    {
+        "question": "Does an enzyme affect the equilibrium constant (Keq) of a reaction?",
+        "options": {
+            "A": "Yes, it increases Keq.",
+            "B": "Yes, it decreases Keq.",
+            "C": "No, it does not change Keq.",
+            "D": "It depends on the specific enzyme."
+        },
+        "answer": "C",
+        "explanation": "Enzymes do not change the equilibrium constant (Keq) of a reaction. They accelerate the rate at which equilibrium is reached but do not alter the final equilibrium concentrations of reactants and products. [29]"
+    },
+    {
+        "question": "How do enzymes accelerate chemical reactions?",
+        "options": {
+            "A": "By increasing the energy of the reactants",
+            "B": "By decreasing the energy of the products",
+            "C": "By lowering the activation energy of the reaction",
+            "D": "By changing the equilibrium constant of the reaction"
+        },
+        "answer": "C",
+        "explanation": "Enzymes lower the activation energy (Ea) of a reaction, which is the energy barrier that must be overcome for the reaction to proceed. By lowering Ea, enzymes increase the rate at which reactants are converted to products. [29, 30]"
+    },
+    {
+        "question": "What is the mechanism of catalysis by proximity and orientation effects?",
+        "options": {
+            "A": "Bringing reacting molecules close together and in the correct orientation for reaction",
+            "B": "Altering the charge distribution of the substrate",
+            "C": "Forming a covalent bond between the enzyme and substrate",
+            "D": "Stabilizing the transition state of the reaction"
+        },
+        "answer": "A",
+        "explanation": "Catalysis by proximity and orientation effects enhances reaction rates by increasing the effective concentration of reactants and ensuring they are properly aligned for the reaction to occur. [31]"
+    },
+    {
+        "question": "How does electrostatic catalysis contribute to enzyme activity?",
+        "options": {
+            "A": "By creating a hydrophobic environment in the active site",
+            "B": "By providing acidic or basic groups for proton transfer",
+            "C": "By using the charge distribution of the enzyme to stabilize the transition state",
+            "D": "By forming a covalent bond between the enzyme and substrate"
+        },
+        "answer": "C",
+        "explanation": "The charged residues in the active site of an enzyme create an electrostatic environment that can stabilize the transition state of the reaction, lowering the activation energy. [32]"
+    },
+    {
+        "question": "What is the principle behind acid-base catalysis?",
+        "options": {
+            "A": "Transfer of electrons between the enzyme and substrate",
+            "B": "Formation of a covalent bond between the enzyme and substrate",
+            "C": "Transfer of protons between the enzyme and substrate",
+            "D": "Stabilization of the substrate by hydrophobic interactions"
+        },
+        "answer": "C",
+        "explanation": "In acid-base catalysis, amino acid side chains in the active site act as acids or bases, donating or accepting protons to facilitate the reaction. [33]"
+    },
+    {
+        "question": "Which type of protease uses a catalytic triad consisting of Asp, His, and Ser residues?",
+        "options": {
+            "A": "Aspartic protease",
+            "B": "Cysteine protease",
+            "C": "Serine protease",
+            "D": "Metalloprotease"
+        },
+        "answer": "C",
+        "explanation": "Serine proteases are characterized by a catalytic triad of Asp, His, and Ser residues that work together to hydrolyze peptide bonds. [34, 35]"
+    },
+    {
+        "question": "What is the function of the oxyanion hole in serine proteases?",
+        "options": {
+            "A": "To bind metal ions",
+            "B": "To stabilize the transition state of the reaction",
+            "C": "To provide a hydrophobic environment",
+            "D": "To cleave peptide bonds"
+        },
+        "answer": "B",
+        "explanation": "The oxyanion hole in serine proteases is a region that stabilizes the negatively charged tetrahedral intermediate formed during peptide bond hydrolysis, lowering the activation energy. [36]"
+    },
+    {
+        "question": "Which type of enzymatic reaction mechanism involves the formation of a modified enzyme intermediate?",
+        "options": {
+            "A": "Sequential mechanism",
+            "B": "Random mechanism",
+            "C": "Ping-Pong mechanism",
+            "D": "Allosteric mechanism"
+        },
+        "answer": "C",
+        "explanation": "In a Ping-Pong mechanism, the enzyme undergoes a chemical modification after interacting with the first substrate, forming a modified enzyme intermediate. The second substrate then reacts with the modified enzyme, regenerating the original enzyme form. [37]"
+    },
+    {
+        "question": "What is the purpose of using a coupled enzymatic assay?",
+        "options": {
+            "A": "To measure the concentration of an enzyme",
+            "B": "To determine the equilibrium constant of a reaction",
+            "C": "To monitor the rate of an enzyme-catalyzed reaction indirectly",
+            "D": "To purify an enzyme from a mixture"
+        },
+        "answer": "C",
+        "explanation": "Coupled assays are used when the reaction of interest does not produce a readily detectable signal. A second enzymatic reaction is coupled to the first, where a product of the first reaction serves as a substrate for the second reaction, producing a measurable change. [38]"
+    },
+    {
+        "question": "What is the main principle behind the stabilization of the transition state by enzymes?",
+        "options": {
+            "A": "Enzymes bind more tightly to substrates than to transition states.",
+            "B": "Enzymes lower the energy of both substrates and transition states equally.",
+            "C": "Enzymes bind more tightly to transition states than to substrates.",
+            "D": "Enzymes increase the energy of the transition state."
+        },
+        "answer": "C",
+        "explanation": "Enzymes are designed to bind more tightly to the transition state of a reaction than to the substrate. This preferential binding lowers the activation energy and accelerates the reaction rate. [30]"
+    },
+    {
+        "question": "What is a transition state analog?",
+        "options": {
+            "A": "A molecule that resembles the substrate of an enzyme",
+            "B": "A molecule that resembles the product of an enzyme",
+            "C": "A molecule that resembles the transition state of an enzyme-catalyzed reaction",
+            "D": "A molecule that activates an enzyme"
+        },
+        "answer": "C",
+        "explanation": "A transition state analog is a molecule that is structurally similar to the transition state of an enzyme-catalyzed reaction. It often acts as a potent enzyme inhibitor by binding tightly to the active site. [39]"
+    },
+    {
+        "question": "What is the concept behind the induced fit model of enzyme-substrate interaction?",
+        "options": {
+            "A": "The enzyme and substrate have rigid, complementary structures.",
+            "B": "The enzyme undergoes a conformational change upon substrate binding.",
+            "C": "The substrate changes its shape to fit into the enzyme's active site.",
+            "D": "The enzyme and substrate interact through weak, non-covalent forces."
+        },
+        "answer": "B",
+        "explanation": "The induced fit model proposes that the enzyme's active site is not perfectly complementary to the substrate but undergoes a conformational change upon substrate binding, leading to a more precise fit and enhanced catalytic activity. [39]"
+    },
+    {
+        "question": "What is a catalytic antibody?",
+        "options": {
+            "A": "An antibody that binds to an enzyme and inhibits its activity",
+            "B": "An antibody that catalyzes a chemical reaction",
+            "C": "An antibody that recognizes the transition state of a reaction",
+            "D": "An antibody that is produced in response to an enzyme"
+        },
+        "answer": "B",
+        "explanation": "Catalytic antibodies are antibodies that have been engineered to catalyze specific chemical reactions. They are generated by immunizing animals with transition state analogs, mimicking the transition state of a desired reaction. [39]"
+    },
+    {
+        "question": "How do enzymes alter the reaction pathway to accelerate reactions?",
+        "options": {
+            "A": "By increasing the temperature of the reaction",
+            "B": "By changing the pH of the reaction",
+            "C": "By creating intermediate states with lower activation energies",
+            "D": "By altering the equilibrium constant of the reaction"
+        },
+        "answer": "C",
+        "explanation": "Enzymes often facilitate reactions by introducing intermediate states or steps that have lower activation energies compared to the uncatalyzed reaction. These intermediate states provide alternative pathways for the reaction to proceed more rapidly. [40]"
+    },
+    {
+        "question": "What is the primary function of myoglobin?",
+        "options": {
+            "A": "To transport oxygen in the blood",
+            "B": "To store oxygen in muscle tissue",
+            "C": "To catalyze metabolic reactions",
+            "D": "To provide structural support in muscles"
+        },
+        "answer": "B",
+        "explanation": "Myoglobin is a protein found in muscle cells that binds and stores oxygen, releasing it when oxygen demand increases, such as during exercise. [41]"
+    },
+    {
+        "question": "What is the primary function of hemoglobin?",
+        "options": {
+            "A": "To transport oxygen in the blood",
+            "B": "To store oxygen in muscle tissue",
+            "C": "To catalyze metabolic reactions",
+            "D": "To provide structural support in red blood cells"
+        },
+        "answer": "A",
+        "explanation": "Hemoglobin is the protein in red blood cells responsible for binding oxygen in the lungs and transporting it to tissues throughout the body. [41]"
+    },
+    {
+        "question": "What is the prosthetic group found in both myoglobin and hemoglobin?",
+        "options": {
+            "A": "Iron-sulfur cluster",
+            "B": "Heme group",
+            "C": "Flavin adenine dinucleotide (FAD)",
+            "D": "Nicotinamide adenine dinucleotide (NAD+)"
+        },
+        "answer": "B",
+        "explanation": "Both myoglobin and hemoglobin contain a heme group, which is a porphyrin ring complexed with an iron ion (Fe²⁺). The iron ion is the site of oxygen binding. [21]"
+    },
+    {
+        "question": "How does the binding of oxygen to hemoglobin exhibit cooperativity?",
+        "options": {
+            "A": "The binding of one oxygen molecule increases the affinity of other subunits for oxygen.",
+            "B": "The binding of oxygen to one subunit inhibits the binding of oxygen to other subunits.",
+            "C": "Oxygen binding changes the shape of hemoglobin from a tense (T) state to a relaxed (R) state.",
+            "D": "Both A and C"
+        },
+        "answer": "D",
+        "explanation": "Hemoglobin's cooperative binding of oxygen is a key feature that allows it to efficiently load oxygen in the lungs and unload it in tissues. The binding of one oxygen molecule to a subunit induces conformational changes that increase the affinity of the remaining subunits for oxygen. [42, 43]"
+    },
+    {
+        "question": "What is the role of 2,3-bisphosphoglycerate (BPG) in regulating hemoglobin's oxygen affinity?",
+        "options": {
+            "A": "BPG increases hemoglobin's affinity for oxygen.",
+            "B": "BPG decreases hemoglobin's affinity for oxygen.",
+            "C": "BPG stabilizes the relaxed (R) state of hemoglobin.",
+            "D": "BPG binds to the heme group of hemoglobin."
+        },
+        "answer": "B",
+        "explanation": "BPG binds to the central cavity of hemoglobin in its tense (T) state, stabilizing this conformation and reducing hemoglobin's affinity for oxygen. This promotes oxygen release in tissues where oxygen partial pressure is lower. [44]"
+    },
+    {
+        "question": "What is the molecular basis of sickle cell disease?",
+        "options": {
+            "A": "A mutation in the alpha-globin gene",
+            "B": "A mutation in the beta-globin gene",
+            "C": "A deficiency in heme synthesis",
+            "D": "An excess of 2,3-BPG"
+        },
+        "answer": "B",
+        "explanation": "Sickle cell disease arises from a single amino acid substitution (Glu to Val) in the beta-globin chain of hemoglobin. This mutation leads to the formation of abnormal hemoglobin (HbS), which polymerizes under low oxygen conditions, distorting red blood cells into a sickle shape. [45]"
+    },
+    {
+        "question": "What is the primary biochemical defect in thalassemia?",
+        "options": {
+            "A": "Mutation in the heme group",
+            "B": "Deficiency in iron absorption",
+            "C": "Reduced or absent synthesis of alpha- or beta-globin chains",
+            "D": "Excess production of 2,3-BPG"
+        },
+        "answer": "C",
+        "explanation": "Thalassemia is a group of inherited blood disorders characterized by reduced or absent synthesis of either alpha- or beta-globin chains, which are essential components of hemoglobin. This defect leads to an imbalance in globin chain production, causing ineffective erythropoiesis, anemia, and other related complications."
+    }
+]
