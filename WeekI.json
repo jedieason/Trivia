@@ -1,6 +1,3 @@
-Okay, here are 50 multiple choice questions about amino acids, peptides, and protein structure in the JSON format you requested.
-
-```json
 [
   {
     "question": "Which of the following best describes the defining characteristic of an alpha-amino acid?",
@@ -553,4 +550,3 @@ Okay, here are 50 multiple choice questions about amino acids, peptides, and pro
     "explanation": "ESI uses an electric field to create charged droplets from a sample solution, which then desolvate to produce gas-phase ions for analysis."
   }
 ]
-``` 
