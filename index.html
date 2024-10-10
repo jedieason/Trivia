@@ -11,7 +11,6 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #fff;
-            color: #000;
             margin: 0;
         }
         .start-screen {
@@ -50,11 +49,6 @@
             flex: 0 0 auto;
         }
 
-        .select-button:hover {
-            background-color: #a35555;
-            color: white;
-        }
-
         .select-button.selected {
             background-color: #a35555;
             color: white;
@@ -67,15 +61,16 @@
             font-size: 18px;
             background-color: #a35555;
             color: white;
-            border: 2px solid #a35555;
+            border: none;
             border-radius: 15px;
             cursor: pointer;
             transition: all 0.3s ease;
         }
 
         .start-button:hover {
-            background-color: white;
-            color: #a35555;
+            background-color: #9a6262;
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
         /* 其他樣式保持不變 */
@@ -154,7 +149,7 @@
             font-size: 18px;
             color: #000;
             background-color: #efefef;
-            border: 2px solid transparent;
+            border: 1px solid transparent;
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -162,23 +157,22 @@
         }
 
         .option-button:hover {
-            background-color: white;
-            border-color: #007BFF;
+            background-color: #e0f0ff;
         }
 
         .option-button.selected {
             border-color: #007BFF;
-            background-color: white;
+            background-color: #e0f0ff;
         }
 
         .option-button.correct {
-            background-color: rgba(72, 187, 120, 0.2);
-            border-color: #48BB78;
+            background-color: #d4edda;
+            border-color: #28a745;
         }
 
         .option-button.incorrect {
-            background-color: rgba(245, 101, 101, 0.2);
-            border-color: #F56565;
+            background-color: #f8d7da;
+            border-color: #dc3545;
         }
 
         .confirm-button {
@@ -187,7 +181,7 @@
             font-size: 18px;
             background-color: #a35555;
             color: white;
-            border: 2px solid #a35555;
+            border: solid 2px #a35555;
             border-radius: 15px;
             cursor: pointer;
             align-self: flex-end;
@@ -197,6 +191,7 @@
         .confirm-button:hover {
             background-color: white;
             color: #a35555;
+            border: solid 2px #a35555;
         }
 
         .explanation {
@@ -219,7 +214,7 @@
             font-size: 18px;
             background-color: white;
             color: #fc9d38;
-            border: 2px solid #fc9d38;
+            border: solid 2px #fc9d38;
             border-radius: 15px;
             cursor: pointer;
             align-self: flex-start;
@@ -282,17 +277,18 @@
             background-color: #a35555;
             color: white;
             font-size: 18px;
-            border: 2px solid #a35555;
+            border: none;
             border-radius: 10px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: background-color 0.3s ease;
+            border: solid 2px #a35555;
         }
         
         .modal-confirm-button:hover {
-            background-color: white;
+            background-color: rgba(0, 0, 0, 0);
             color: #a35555;
+            border: solid 2px #a35555;
         }
-
         /* 深色模式 */
         @media (prefers-color-scheme: dark) {
             body {
@@ -357,8 +353,8 @@
                 border: 2px solid transparent;
             }
             .option-button:hover {
-                background-color: #2e2e2e;
-                border-color: #007BFF;
+                background-color: #1b1b1b;
+                border-color: #004896;
             }
             .option-button.selected {
                 background-color: #2e2e2e;
@@ -416,7 +412,6 @@
                 color: #ffffff;
             }
         }
-
     </style>
 </head>
 <body>
