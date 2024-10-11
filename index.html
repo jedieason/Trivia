@@ -783,13 +783,13 @@
             textToCopy += '\nExplanation:\n' + (currentQuestion.explanation || 'No explanation provided.');
         
             // Copy the text to the clipboard
-            navigator.clipboard.writeText(textToCopy).then(function() {
-                // Optional: Provide feedback to the user
-                showCustomAlert('Question copied to clipboard!');
-            }, function(err) {
-                // Fallback in case of an error
-                alert('Could not copy text: ' + err);
-            });
+            // navigator.clipboard.writeText(textToCopy).then(function() {
+            //     // Optional: Provide feedback to the user
+            //     showCustomAlert('Question copied to clipboard!');
+            // }, function(err) {
+            //     // Fallback in case of an error
+            //     alert('Could not copy text: ' + err);
+            // });
         }
 
 
