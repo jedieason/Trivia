@@ -176,17 +176,6 @@
     "explanation": "The -OH group of serine and the -SH group of cysteine are nucleophilic and play vital roles in enzyme activity and protein interactions."
   },
   {
-    "question": "Which amino acids tend to be located on the surface of proteins due to their hydrophilic amide side chains?",
-    "options": {
-      "A": "Asparagine and glutamine",
-      "B": "Serine and threonine",
-      "C": "Phenylalanine and tryptophan",
-      "D": "Lysine and arginine"
-    },
-    "answer": "A",
-    "explanation": "The amide groups in asparagine and glutamine contribute to protein solubility and interactions with the aqueous environment."
-  },
-  {
     "question": "What type of covalent bond is formed between two cysteine residues through oxidation?",
     "options": {
       "A": "Peptide bond",
