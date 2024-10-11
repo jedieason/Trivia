@@ -1,1 +1,112 @@
-
+[
+{
+"question": "What is the primary function of fermentation?",
+"options": {
+"A": "To produce ethanol for alcoholic beverages.",
+"B": "To oxidize NADH to NAD+, ensuring the continuation of glycolysis.",
+"C": "To generate a high yield of ATP under anaerobic conditions.",
+"D": "To break down lactose into glucose and galactose."
+},
+"answer": "B",
+"explanation": "Fermentation plays a crucial role in anaerobic respiration by oxidizing NADH back to NAD+. This process allows glycolysis to continue, even in the absence of oxygen, as NAD+ is a necessary component of the glycolysis pathway."
+},
+{
+"question": "Which enzyme is responsible for the breakdown of lactose into glucose and galactose?",
+"options": {
+"A": "Amylase",
+"B": "Lactase",
+"C": "Galactokinase",
+"D": "Fructokinase"
+},
+"answer": "B",
+"explanation": "Lactase is the enzyme that catalyzes the hydrolysis of lactose, breaking it down into its constituent monosaccharides: glucose and galactose."
+},
+{
+"question": "What is the main distinction between galactosemia and lactose intolerance?",
+"options": {
+"A": "Galactosemia is caused by a deficiency in lactase, while lactose intolerance is caused by a deficiency in galactose metabolism.",
+"B": "Galactosemia involves the accumulation of galactose in the body, while lactose intolerance involves the inability to digest lactose in the small intestine.",
+"C": "Galactosemia primarily affects adults, while lactose intolerance primarily affects infants.",
+"D": "Galactosemia is a common condition, while lactose intolerance is a rare condition."
+},
+"answer": "B",
+"explanation": "Galactosemia is a metabolic disorder characterized by the inability to properly metabolize galactose, leading to its accumulation in the body. In contrast, lactose intolerance is a condition where the enzyme lactase, responsible for breaking down lactose, is deficient or has reduced activity. This leads to the undigested lactose entering the large intestine, causing gastrointestinal symptoms."
+},
+{
+"question": "Which enzyme deficiency in galactose metabolism is the most severe?",
+"options": {
+"A": "Galactokinase deficiency",
+"B": "Gal-1-P uridylyltransferase deficiency",
+"C": "UDP-Gal-4-epimerase deficiency",
+"D": "Lactase deficiency"
+},
+"answer": "B",
+"explanation": "Out of the three enzyme deficiencies involved in galactose metabolism - Galactokinase (GALK1), Gal-1-P uridylyltransferase (GALT), and UDP-Gal-4-epimerase (GALE) - a deficiency in GALT is the most severe. Individuals with GALT deficiency experience severe symptoms even after eliminating galactose from their diet, the reason for which is still unknown."
+},
+{
+"question": "Why can humans convert ethanol to acetaldehyde but not to pyruvate?",
+"options": {
+"A": "Humans lack the enzyme alcohol dehydrogenase.",
+"B": "Humans lack the enzyme pyruvate decarboxylase.",
+"C": "Ethanol conversion to pyruvate requires anaerobic conditions, which are not present in the human body.",
+"D": "The conversion of ethanol to pyruvate is energetically unfavorable in humans."
+},
+"answer": "B",
+"explanation": "Humans possess the enzyme alcohol dehydrogenase, which allows for the conversion of ethanol to acetaldehyde. However, they lack the enzyme pyruvate decarboxylase, which is essential for the subsequent conversion of acetaldehyde to pyruvate."
+},
+{
+"question": "What role does thiamine pyrophosphate (TPP) play in the decarboxylation of pyruvate?",
+"options": {
+"A": "It acts as a coenzyme for the enzyme pyruvate decarboxylase.",
+"B": "It inhibits the activity of alcohol dehydrogenase.",
+"C": "It converts pyruvate to lactate.",
+"D": "It transports pyruvate into the mitochondria."
+},
+"answer": "A",
+"explanation": "Thiamine pyrophosphate (TPP), a derivative of vitamin B1, acts as a coenzyme for pyruvate decarboxylase. Its carbanion acts as a nucleophile, attacking the carbonyl group of pyruvate, facilitating the decarboxylation process."
+},
+{
+"question": "What is the net ATP yield from glycolysis when glucose is derived from glycogen?",
+"options": {
+"A": "1 ATP",
+"B": "2 ATP",
+"C": "3 ATP",
+"D": "4 ATP"
+},
+"answer": "C",
+"explanation": "When glucose is derived from glycogen, the phosphorylation of glucose to glucose-6-phosphate utilizes inorganic phosphate (Pi) instead of ATP. Therefore, during the preparatory phase of glycolysis, only 1 ATP is consumed. This results in a net gain of 3 ATP (4 produced - 1 consumed) from glycolysis."
+},
+{
+"question": "Which of the following enzymes is involved in the metabolism of D-mannose to fructose-6-phosphate?",
+"options": {
+"A": "Galactokinase",
+"B": "Phosphomannose isomerase",
+"C": "Fructokinase",
+"D": "Triose kinase"
+},
+"answer": "B",
+"explanation": "Phosphomannose isomerase is the enzyme that catalyzes the conversion of mannose-6-phosphate to fructose-6-phosphate through an aldose-ketose transformation."
+},
+{
+"question": "What is the fate of pyruvate under aerobic conditions?",
+"options": {
+"A": "It is converted to lactate.",
+"B": "It is converted to ethanol.",
+"C": "It is oxidized to acetyl-CoA and enters the citric acid cycle.",
+"D": "It is stored as glycogen."
+},
+"answer": "C",
+"explanation": "In the presence of oxygen (aerobic conditions), pyruvate undergoes oxidation to acetyl-CoA, releasing carbon dioxide as a byproduct. Acetyl-CoA then enters the citric acid cycle, where it is further oxidized to generate energy."
+},
+{
+"question": "Which type of lactose intolerance is caused by an underlying condition affecting the small intestine and can potentially be resolved by treating the underlying condition?",
+"options": {
+"A": "Primary lactose intolerance",
+"B": "Secondary lactose intolerance",
+"C": "Congenital lactose intolerance",
+"D": "Developmental lactose intolerance"
+},
+"answer": "B",
+"explanation": "Secondary lactose intolerance arises from conditions affecting the small intestine, such as infections or diseases. Unlike other types of lactose intolerance, this type can be reversed if the underlying condition is successfully treated, restoring normal lactase activity."
+}
+]
