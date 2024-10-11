@@ -466,9 +466,13 @@
         /* Container for Next and Copy buttons */
         .explanation-buttons {
             display: flex;
+            justify-content: space-between; /* Distributes space between items */
             align-items: center;
-            gap: 10px; /* Space between Next button and Copy text */
+            width: 100%; /* Ensures the container takes full width */
+            padding: 0 15px; /* Optional: Adds horizontal padding */
+            box-sizing: border-box; /* Ensures padding is included in the width */
         }
+
         
         /* Style for the Copy text */
         .copy-text {
