@@ -1,1 +1,266 @@
-
+[
+  {
+    "question": "Which enzyme is responsible for catalyzing the addition of glucose units to a growing glycogen chain?",
+    "options": {
+      "A": "Glycogenin",
+      "B": "Glycogen phosphorylase",
+      "C": "Glycogen synthase",
+      "D": "Branching enzyme"
+    },
+    "answer": "C",
+    "explanation": "Glycogen synthase is the primary enzyme involved in extending the glycogen chain by forming α1→4 glycosidic linkages between glucose units."
+  },
+  {
+    "question": "What type of bond is formed by glycogen synthase during glycogen synthesis?",
+    "options": {
+      "A": "β1→4 glycosidic bond",
+      "B": "α1→6 glycosidic bond",
+      "C": "Peptide bond",
+      "D": "α1→4 glycosidic bond"
+    },
+    "answer": "D",
+    "explanation": "Glycogen synthase specifically forms α1→4 glycosidic bonds to create the linear chains of glycogen."
+  },
+  {
+    "question": "What is the role of branching enzyme in glycogen synthesis?",
+    "options": {
+      "A": "Initiating glycogen synthesis",
+      "B": "Degrading glycogen",
+      "C": "Creating α1→6 glycosidic bonds",
+      "D": "Converting glucose 1-phosphate to UDP-glucose"
+    },
+    "answer": "C",
+    "explanation": "Branching enzyme introduces α1→6 glycosidic bonds, forming the branch points in the glycogen structure."
+  },
+  {
+    "question": "Why are the branch points in glycogen crucial for its function?",
+    "options": {
+      "A": "They reduce the solubility of glycogen",
+      "B": "They limit the rate of glycogen breakdown",
+      "C": "They provide multiple sites for enzyme action",
+      "D": "They make glycogen more compact for storage"
+    },
+    "answer": "C",
+    "explanation": "The branch points provide numerous non-reducing ends, allowing for faster glycogen synthesis and degradation as multiple enzymes can act simultaneously."
+  },
+  {
+    "question": "What is the primary enzyme responsible for breaking down glycogen?",
+    "options": {
+      "A": "Glycogen synthase",
+      "B": "Debranching enzyme",
+      "C": "Glycogen phosphorylase",
+      "D": "Glucose 6-phosphatase"
+    },
+    "answer": "C",
+    "explanation": "Glycogen phosphorylase catalyzes the phosphorolysis of glycogen, releasing glucose 1-phosphate units from the non-reducing ends."
+  },
+  {
+    "question": "How does glycogen phosphorylase differ from α-amylase in its action on glycogen?",
+    "options": {
+      "A": "Glycogen phosphorylase breaks α1→6 bonds, while α-amylase breaks α1→4 bonds",
+      "B": "Glycogen phosphorylase uses water to cleave bonds, while α-amylase uses phosphate",
+      "C": "Glycogen phosphorylase breaks down glycogen completely, while α-amylase only partially degrades it",
+      "D": "Glycogen phosphorylase uses phosphate to cleave bonds, while α-amylase uses water"
+    },
+    "answer": "D",
+    "explanation": "Glycogen phosphorylase utilizes inorganic phosphate for the cleavage, leading to glucose 1-phosphate formation, whereas α-amylase uses water for hydrolysis, producing glucose."
+  },
+  {
+    "question": "What is the role of debranching enzyme in glycogenolysis?",
+    "options": {
+      "A": "Synthesizing new glycogen chains",
+      "B": "Removing glucose units from branch points",
+      "C": "Activating glycogen phosphorylase",
+      "D": "Inhibiting glycogen synthase"
+    },
+    "answer": "B",
+    "explanation": "Debranching enzyme has two activities: it transfers a short chain of glucose units from a branch to a linear chain and then cleaves the remaining single glucose unit at the branch point."
+  },
+  {
+    "question": "What is the fate of glucose 1-phosphate produced by glycogen breakdown?",
+    "options": {
+      "A": "It is directly released into the bloodstream",
+      "B": "It is converted to glucose 6-phosphate",
+      "C": "It is used for protein synthesis",
+      "D": "It is incorporated into triglycerides"
+    },
+    "answer": "B",
+    "explanation": "Glucose 1-phosphate is converted to glucose 6-phosphate by phosphoglucomutase, entering the glycolytic pathway or other metabolic routes."
+  },
+  {
+    "question": "In which organ is glucose 6-phosphatase crucial for releasing free glucose from glycogen breakdown?",
+    "options": {
+      "A": "Muscles",
+      "B": "Brain",
+      "C": "Liver",
+      "D": "Kidney"
+    },
+    "answer": "C",
+    "explanation": "The liver expresses glucose 6-phosphatase, allowing it to dephosphorylate glucose 6-phosphate and release free glucose into the bloodstream to maintain blood sugar levels."
+  },
+  {
+    "question": "Why are muscles unable to contribute to blood glucose homeostasis through glycogenolysis?",
+    "options": {
+      "A": "Muscles lack glycogen phosphorylase",
+      "B": "Muscles store very little glycogen",
+      "C": "Muscles lack glucose 6-phosphatase",
+      "D": "Muscles primarily use fatty acids for energy"
+    },
+    "answer": "C",
+    "explanation": "Muscles lack glucose 6-phosphatase, so the glucose 6-phosphate generated from glycogen breakdown cannot be dephosphorylated to free glucose for release."
+  },
+  {
+    "question": "Which hormone primarily stimulates glycogen breakdown?",
+    "options": {
+      "A": "Insulin",
+      "B": "Glucagon",
+      "C": "Growth hormone",
+      "D": "Testosterone"
+    },
+    "answer": "B",
+    "explanation": "Glucagon, released when blood glucose levels are low, triggers glycogenolysis in the liver to release glucose into the circulation."
+  },
+  {
+    "question": "What is the primary mechanism by which glucagon stimulates glycogen breakdown?",
+    "options": {
+      "A": "Activating glycogen synthase",
+      "B": "Increasing glucose uptake by cells",
+      "C": "Promoting the synthesis of glycogen",
+      "D": "Elevating cAMP levels and activating protein kinase A"
+    },
+    "answer": "D",
+    "explanation": "Glucagon binds to its receptor, activating adenylyl cyclase, leading to increased cAMP, which activates protein kinase A, initiating a phosphorylation cascade that activates glycogen phosphorylase."
+  },
+  {
+    "question": "Which hormone promotes glycogen synthesis?",
+    "options": {
+      "A": "Epinephrine",
+      "B": "Cortisol",
+      "C": "Insulin",
+      "D": "Glucagon"
+    },
+    "answer": "C",
+    "explanation": "Insulin, released when blood glucose is high, stimulates glycogenesis to store excess glucose as glycogen."
+  },
+  {
+    "question": "How does insulin stimulate glycogen synthesis?",
+    "options": {
+      "A": "By activating glycogen phosphorylase",
+      "B": "By inhibiting glycogen synthase",
+      "C": "By increasing glucose uptake and activating glycogen synthase",
+      "D": "By promoting gluconeogenesis"
+    },
+    "answer": "C",
+    "explanation": "Insulin promotes glucose uptake into cells and activates glycogen synthase through dephosphorylation, facilitating glycogen formation."
+  },
+  {
+    "question": "What is the role of protein phosphatase 1 in glycogen metabolism?",
+    "options": {
+      "A": "Activating glycogen phosphorylase",
+      "B": "Inhibiting glycogen synthase",
+      "C": "Dephosphorylating and activating glycogen synthase",
+      "D": "Promoting glycogen breakdown"
+    },
+    "answer": "C",
+    "explanation": "Protein phosphatase 1 dephosphorylates glycogen synthase, leading to its activation and promoting glycogen synthesis."
+  },
+  {
+    "question": "Which molecule acts as an allosteric activator of glycogen phosphorylase in muscle?",
+    "options": {
+      "A": "ATP",
+      "B": "Glucose 6-phosphate",
+      "C": "AMP",
+      "D": "Citrate"
+    },
+    "answer": "C",
+    "explanation": "AMP, signifying low energy status in muscle, allosterically activates glycogen phosphorylase, promoting glycogen breakdown to release energy."
+  },
+  {
+    "question": "Which molecule serves as an allosteric inhibitor of glycogen phosphorylase in liver?",
+    "options": {
+      "A": "Glucose",
+      "B": "Fructose 2,6-bisphosphate",
+      "C": "Alanine",
+      "D": "Acetyl-CoA"
+    },
+    "answer": "A",
+    "explanation": "High glucose levels in the liver directly inhibit glycogen phosphorylase, signaling sufficient glucose availability and reducing glycogen breakdown."
+  },
+  {
+    "question": "What is the function of fructose 2,6-bisphosphate in regulating glycogen metabolism?",
+    "options": {
+      "A": "It activates glycogen phosphorylase and inhibits fructose 1,6-bisphosphatase",
+      "B": "It activates fructose 1,6-bisphosphatase and inhibits phosphofructokinase-1",
+      "C": "It activates phosphofructokinase-1 and inhibits fructose 1,6-bisphosphatase",
+      "D": "It inhibits both phosphofructokinase-1 and fructose 1,6-bisphosphatase"
+    },
+    "answer": "C",
+    "explanation": "Fructose 2,6-bisphosphate stimulates glycolysis by activating phosphofructokinase-1 and inhibits gluconeogenesis by inhibiting fructose 1,6-bisphosphatase."
+  },
+  {
+    "question": "How does glucagon regulate fructose 2,6-bisphosphate levels?",
+    "options": {
+      "A": "It increases fructose 2,6-bisphosphate levels by activating phosphofructokinase-2",
+      "B": "It decreases fructose 2,6-bisphosphate levels by activating fructose 2,6-bisphosphatase",
+      "C": "It has no direct effect on fructose 2,6-bisphosphate levels",
+      "D": "It promotes the synthesis of fructose 2,6-bisphosphate"
+    },
+    "answer": "B",
+    "explanation": "Glucagon signaling, through protein kinase A, activates fructose 2,6-bisphosphatase, leading to the degradation of fructose 2,6-bisphosphate."
+  },
+  {
+    "question": "What role does calcium play in regulating glycogen breakdown in muscle?",
+    "options": {
+      "A": "It inhibits glycogen phosphorylase",
+      "B": "It activates glycogen synthase",
+      "C": "It activates phosphorylase kinase",
+      "D": "It promotes glucose uptake"
+    },
+    "answer": "C",
+    "explanation": "Calcium, released during muscle contraction, binds to calmodulin, which then activates phosphorylase kinase, ultimately stimulating glycogen phosphorylase and glycogen breakdown."
+  },
+  {
+    "question": "Why is the reciprocal regulation of glycogen synthesis and breakdown important?",
+    "options": {
+      "A": "It ensures that glycogen is continuously synthesized and degraded",
+      "B": "It prevents the wasteful simultaneous operation of both pathways",
+      "C": "It maximizes the storage capacity for glycogen",
+      "D": "It accelerates the rate of both processes"
+    },
+    "answer": "B",
+    "explanation": "Reciprocal regulation ensures that the body efficiently either builds or breaks down glycogen depending on energy needs, preventing futile cycles of simultaneous synthesis and degradation."
+  },
+  {
+    "question": "How do glycogen stores impact the body's response to starvation?",
+    "options": {
+      "A": "Glycogen stores provide a long-term energy source during prolonged starvation",
+      "B": "Glycogen is rapidly depleted during starvation, leading to gluconeogenesis",
+      "C": "Glycogen breakdown is inhibited during starvation to conserve energy",
+      "D": "Glycogen is converted to fatty acids for energy storage during starvation"
+    },
+    "answer": "B",
+    "explanation": "Glycogen reserves are limited and depleted relatively quickly during starvation. The body then shifts to gluconeogenesis to generate glucose from non-carbohydrate sources."
+  },
+  {
+    "question": "What are the consequences of defects in glycogen metabolism?",
+    "options": {
+      "A": "Improved glucose homeostasis",
+      "B": "Enhanced athletic performance",
+      "C": "Increased insulin sensitivity",
+      "D": "Glycogen storage diseases with various clinical manifestations"
+    },
+    "answer": "D",
+    "explanation": "Genetic defects in enzymes involved in glycogen metabolism lead to glycogen storage diseases, characterized by abnormal glycogen accumulation or impaired glucose availability, resulting in diverse symptoms."
+  },
+  {
+    "question": "Why is understanding glycogen metabolism important in the context of diabetes?",
+    "options": {
+      "A": "Diabetes causes excessive glycogen storage in the liver",
+      "B": "Dysregulated glycogen metabolism contributes to blood glucose fluctuations in diabetes",
+      "C": "People with diabetes cannot synthesize glycogen",
+      "D": "Glycogen metabolism is unaffected in diabetes"
+    },
+    "answer": "B",
+    "explanation": "In diabetes, the hormonal control of glycogen metabolism is impaired, leading to imbalances in glycogen synthesis and breakdown, contributing to fluctuations in blood glucose levels."
+  }
+]
