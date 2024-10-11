@@ -786,7 +786,6 @@
             // Include the explanation
             textToCopy += '\nExplanation:\n' + (currentQuestion.explanation || 'No explanation provided.');
         
-            Copy the text to the clipboard
             navigator.clipboard.writeText(textToCopy).then(function() {
                 // Optional: Provide feedback to the user
                 showCustomAlert('Question copied to clipboard!');
