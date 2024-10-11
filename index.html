@@ -465,16 +465,26 @@
             background-color: #a35555;
             color: #ffffff;
         }
+        /* Container for Next and Copy buttons */
+        .explanation-buttons {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Space between Next button and Copy text */
+            margin-top: 10px; /* Optional: space above the buttons */
+        }
+        
+        /* Style for the Copy text */
         .copy-text {
             color: lightgray;
             cursor: pointer;
-            margin-left: 10px;
             font-size: 16px;
         }
-
+        
         .copy-text:hover {
             text-decoration: underline;
         }
+        
+        /* Adjustments for dark mode */
         body.dark-mode .copy-text {
             color: #888888;
         }
@@ -482,6 +492,8 @@
         body.dark-mode .copy-text:hover {
             color: #aaaaaa;
         }
+
+        
 
 
 
@@ -532,9 +544,12 @@
             <p class="explanation-text" id="explanation-text"></p>
             <button id="next-btn" class="next-button">Next</button>
             <div class="explanation" id="explanation">
-                <p class="explanation-text" id="explanation-text"></p>
+            <p class="explanation-text" id="explanation-text"></p>
+            <div class="explanation-buttons">
                 <button id="next-btn" class="next-button">Next</button>
+                <span id="copy-btn" class="copy-text">Copy</span>
             </div>
+        </div>
         </div>
         <div class="copyright">
             Copyright © 2024 <a href="https://instagram.com/jedieason">Jedieason</a>. All rights reserved.
@@ -751,6 +766,12 @@
         }
 
         function copyQuestion() {
+            // Ensure there is a current question loaded
+            if (!currentQuestion.question) {
+                alert('No question to copy.');
+                return;
+            }
+        
             // Build the formatted text
             let textToCopy = '';
             // Include the question
@@ -766,14 +787,18 @@
                 }
             }
             // Include the explanation
-            textToCopy += '\nExplanation:\n' + currentQuestion.explanation;
+            textToCopy += '\nExplanation:\n' + (currentQuestion.explanation || 'No explanation provided.');
+        
             // Copy the text to the clipboard
             navigator.clipboard.writeText(textToCopy).then(function() {
-                alert('Question copied to clipboard.');
+                // Optional: Provide feedback to the user
+                showCustomAlert('Question copied to clipboard!');
             }, function(err) {
+                // Fallback in case of an error
                 alert('Could not copy text: ' + err);
             });
         }
+
 
     
         // 事件監聽器
