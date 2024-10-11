@@ -465,6 +465,25 @@
             background-color: #a35555;
             color: #ffffff;
         }
+        .copy-text {
+            color: lightgray;
+            cursor: pointer;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+
+        .copy-text:hover {
+            text-decoration: underline;
+        }
+        body.dark-mode .copy-text {
+            color: #888888;
+        }
+        
+        body.dark-mode .copy-text:hover {
+            color: #aaaaaa;
+        }
+
+
 
     </style>
 </head>
@@ -512,6 +531,10 @@
         <div class="explanation" id="explanation">
             <p class="explanation-text" id="explanation-text"></p>
             <button id="next-btn" class="next-button">Next</button>
+            <div class="explanation" id="explanation">
+                <p class="explanation-text" id="explanation-text"></p>
+                <button id="next-btn" class="next-button">Next</button>
+            </div>
         </div>
         <div class="copyright">
             Copyright © 2024 <a href="https://instagram.com/jedieason">Jedieason</a>. All rights reserved.
@@ -726,6 +749,32 @@
             isTestCompleted = true; // Indicate that the test has been completed
             showCustomAlert(`Test completed!\nCorrect: ${correct}, Incorrect: ${wrong}.`);
         }
+
+        function copyQuestion() {
+            // Build the formatted text
+            let textToCopy = '';
+            // Include the question
+            textToCopy += 'Question:\n' + currentQuestion.question + '\n\n';
+            // Include options, marking the correct one
+            textToCopy += 'Options:\n';
+            for (let [optionKey, optionText] of Object.entries(currentQuestion.options)) {
+                if (optionKey === currentQuestion.answer) {
+                    // Mark the correct option
+                    textToCopy += optionKey + ': ' + optionText + ' (Correct)\n';
+                } else {
+                    textToCopy += optionKey + ': ' + optionText + '\n';
+                }
+            }
+            // Include the explanation
+            textToCopy += '\nExplanation:\n' + currentQuestion.explanation;
+            // Copy the text to the clipboard
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                alert('Question copied to clipboard.');
+            }, function(err) {
+                alert('Could not copy text: ' + err);
+            });
+        }
+
     
         // 事件監聽器
         document.getElementById('startGame').addEventListener('click', () => {
@@ -737,6 +786,7 @@
         });
         document.getElementById('confirm-btn').addEventListener('click', confirmAnswer);
         document.getElementById('next-btn').addEventListener('click', loadNewQuestion);
+        document.getElementById('copy-btn').addEventListener('click', copyQuestion);
     
         // 按鍵按下事件（可選）
         document.addEventListener('keydown', function(event) {
