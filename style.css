@@ -465,7 +465,7 @@ body.dark-mode .modal-confirm-button:hover {
 
 /* Style for the Copy text */
 .copy-text {
-    padding: 0px 15px;
+    /*padding: 0px 15px;*/
     color: lightgray;
     cursor: pointer;
     font-size: 18px;
