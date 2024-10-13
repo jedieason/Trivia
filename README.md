@@ -26,7 +26,6 @@ BioChem Quiz is a web-based interactive quiz application designed to help users 
 
 ## Customization
 - To add new quizzes, create a new JSON file with the quiz questions and add a new button on the start screen linking to that file.
-- Update the favicon by replacing the `icon.png` file with your own.
 
 ## License
 All rights reserved. 2024. Created by [Jedieason](https://instagram.com/jedieason).
