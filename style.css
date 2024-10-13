@@ -469,6 +469,7 @@ body.dark-mode .modal-confirm-button:hover {
     color: lightgray;
     cursor: pointer;
     font-size: 18px;
+}
 
 .copy-text:hover {
     text-decoration: underline;
@@ -494,4 +495,4 @@ body.dark-mode .copy-text {
 }
 .separator {
     color: #cecece;
-}
+} 
