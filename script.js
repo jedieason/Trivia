@@ -291,3 +291,31 @@ modeToggle.addEventListener('click', () => {
         modeToggle.style.borderColor = '#bca3a3';
     }
 });
+
+document.querySelector('.language-button:nth-child(2)').addEventListener('click', function() {
+            document.querySelector('.start-title').textContent = '生物化學';
+            document.querySelector('#startGame').textContent = '開始';
+            document.querySelector('#modeToggle').textContent = '切換到深色模式';
+            document.querySelector('.quiz-title').textContent = '生物化學';
+            document.querySelector('.progress-text').textContent = '錯誤';
+            document.querySelector('.progress-text:nth-child(2)').textContent = '正確';
+            document.querySelector('#confirm-btn').textContent = '確認';
+            document.querySelector('#copy-btn').textContent = '複製';
+            document.querySelector('#next-btn').textContent = '下一題';
+            document.querySelector('#modal-message').textContent = '選擇一些東西';
+            document.querySelector('#modalConfirmBtn').textContent = '知道了！';
+        });
+
+document.querySelector('.language-button:nth-child(1)').addEventListener('click', function() {
+    document.querySelector('.start-title').textContent = 'Biochemistry';
+    document.querySelector('#startGame').textContent = 'Start';
+    document.querySelector('#modeToggle').textContent = 'Switch to dark mode';
+    document.querySelector('.quiz-title').textContent = 'Biochemistry';
+    document.querySelector('.progress-text').textContent = 'Wrong';
+    document.querySelector('.progress-text:nth-child(2)').textContent = 'Correct';
+    document.querySelector('#confirm-btn').textContent = 'Confirm';
+    document.querySelector('#copy-btn').textContent = 'Copy';
+    document.querySelector('#next-btn').textContent = 'Next';
+    document.querySelector('#modal-message').textContent = 'Choose something';
+    document.querySelector('#modalConfirmBtn').textContent = 'Got it!';
+});
