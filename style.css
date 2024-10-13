@@ -480,18 +480,18 @@ body.dark-mode .copy-text {
 }
 
 .language-button {
-    background-color: #f0f0f0;
+    color: #cecece;
     border: none;
-    padding: 10px 20px;
-    margin: 5px;
+    /* padding: 10px 20px;
+    margin: 5px; */
+    background-color: transparent;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: color 0.3s;
 }
 
 .language-button:hover {
-    background-color: #d0d0d0;
+    color: #adadad;
 }
-
-body.dark-mode .copy-text:hover {
-    color: #aaaaaa;
+.separator {
+    color: #cecece;
 }
