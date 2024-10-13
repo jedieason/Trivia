@@ -493,6 +493,12 @@ body.dark-mode .copy-text {
 .language-button:hover {
     color: #adadad;
 }
+
 .separator {
     color: #cecece;
-} 
+}
+
+.language {
+    position: absolute;
+    bottom: 25px;
+}
