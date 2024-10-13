@@ -1,5 +1,12 @@
 ## Overview
-BioChem Quiz is a web-based interactive quiz application designed to help users study and test their knowledge in biochemistry. The website provides a variety of quiz modules, each representing different topics and weeks of study. Users can switch between light and dark modes and change the quiz language between English and Traditional Chinese.
+是⋯是的⋯❤️喜歡生化！
+我真的喜歡生化！⋯⋯❤️嗚嗚、不行了
+我已經變成不看生化不行的笨蛋了⋯
+啊啊❤️好喜歡❤️生化⋯
+想要生化用知識塞滿我的腦子❤️⋯
+嗚嗚⋯❤️腦子都快變生化的形狀了
+什麼等電點🤍UV spectra 570 nm🤍𝜙角𝜓角🤍δ-aminolevulinate🤍N-Cᵅ-Cᴼ🤍phenylisothiocyanate🤍穀胱甘肽🤍固相合成🤍Cryo EM🤍MALTI-TOF🤍LCMS/MS🤍α-keratin of L-colied D-coil🤍β-sheet (parallel / antiparallel)🤍triple helix of collagen (Gly-Pro-4HyPro)🤍Aᵦ🤍domain🤍chaperonin🤍cooperatively🤍light / heavy chain🤍θ = [L] / [L] + Kd🤍proximal His⁹³/F8🤍distal His⁶⁴/E7 🤍T→R transition🤍429 → 414 nm shift🤍salt-bridge🤍2,3-BPG的都來一點吧！
+真的喜歡到快要瘋掉了😍😍
 
 ## Features
 1. **Start Screen**: The landing page contains a title and buttons for users to select different quiz sets based on their study week or topics.
