@@ -1,0 +1,508 @@
+[
+{
+"question": "What is the definition of an enzyme?",
+"options": {
+"A": "A biological polymer with catalytic properties.",
+"B": "A type of protein that speeds up chemical reactions.",
+"C": "A molecule that provides energy for cellular processes.",
+"D": "A structural component of the cell membrane."
+},
+"answer": "A",
+"explanation": "Enzymes are defined as biological polymers that exhibit catalytic properties, facilitating and accelerating biochemical reactions."
+},
+{
+"question": "What is the primary composition of most enzymes found in living organisms?",
+"options": {
+"A": "Carbohydrates",
+"B": "Lipids",
+"C": "Proteins",
+"D": "Nucleic acids"
+},
+"answer": "C",
+"explanation": "Over 99% of enzymes in living organisms are composed of proteins."
+},
+{
+"question": "Which type of enzyme is believed to have evolved first?",
+"options": {
+"A": "Protein enzymes",
+"B": "RNA enzymes",
+"C": "Protein-RNA complex enzymes",
+"D": "DNA enzymes"
+},
+"answer": "B",
+"explanation": "It is generally believed that RNA enzymes, also known as ribozymes or catalytic RNAs, were the first type of enzyme to evolve."
+},
+{
+"question": "Which of the following is NOT a suitable material for enzyme composition?",
+"options": {
+"A": "Proteins",
+"B": "RNA",
+"C": "DNA",
+"D": "Protein-RNA complexes"
+},
+"answer": "C",
+"explanation": "DNA is not suitable as an enzyme because its stable double-helix structure limits its conformational variability, hindering its ability to catalyze a wide range of reactions."
+},
+{
+"question": "What is an oncometabolite?",
+"options": {
+"A": "A metabolite that promotes cell growth and division.",
+"B": "A metabolite that is produced by cancer cells.",
+"C": "A metabolite that inhibits enzyme activity.",
+"D": "A metabolite that is essential for DNA replication."
+},
+"answer": "B",
+"explanation": "An oncometabolite is a metabolite produced as a result of enzyme dysfunction, potentially due to mutations in the coding region of a gene. These metabolites can be harmful and contribute to the development of cancer."
+},
+{
+"question": "What is the function of the liver's detoxification enzyme system?",
+"options": {
+"A": "To break down food molecules into smaller units.",
+"B": "To synthesize hormones and other signaling molecules.",
+"C": "To reduce the toxicity of drugs and toxins.",
+"D": "To transport oxygen and nutrients throughout the body."
+},
+"answer": "C",
+"explanation": "The liver contains various enzymes, like the P450 system and glutathione reductase, that catalyze reactions to reduce the toxicity of drugs and toxins, preparing them for excretion from the body."
+},
+{
+"question": "Why is levodopa (L-DOPA) used to treat Parkinson's disease instead of directly administering dopamine?",
+"options": {
+"A": "Levodopa is more readily absorbed by the body.",
+"B": "Levodopa can cross the blood-brain barrier, while dopamine cannot.",
+"C": "Levodopa has a longer half-life than dopamine.",
+"D": "Levodopa is less likely to cause side effects than dopamine."
+},
+"answer": "B",
+"explanation": "Dopamine cannot cross the blood-brain barrier, making it ineffective in treating Parkinson's disease. Levodopa, a precursor to dopamine, can bypass this barrier and is converted to dopamine in the brain."
+},
+{
+"question": "How do some anti-infective drugs target enzymes for therapeutic purposes?",
+"options": {
+"A": "By mimicking the substrate of the enzyme, inhibiting its activity.",
+"B": "By enhancing the activity of the enzyme, leading to an overproduction of essential metabolites.",
+"C": "By targeting enzymes essential for the pathogen's survival, while sparing similar enzymes in humans.",
+"D": "By directly destroying the pathogen's genetic material, preventing enzyme synthesis."
+},
+"answer": "C",
+"explanation": "Many anti-infective drugs specifically target enzymes that are crucial for the survival of bacteria, viruses, or parasites. These drugs exploit species-specific differences in enzymes to inactivate the pathogen's enzymes without affecting similar enzymes in the human body."
+},
+{
+"question": "What is the mechanism of action of topoisomerase-targeting drugs in cancer treatment?",
+"options": {
+"A": "They prevent the topoisomerase enzyme from unwinding DNA, inhibiting replication.",
+"B": "They stimulate the topoisomerase enzyme to overwind DNA, causing breaks and cell death.",
+"C": "They stabilize the DNA-topoisomerase complex, preventing DNA rejoining and leading to breaks.",
+"D": "They directly cleave DNA, independent of the topoisomerase enzyme."
+},
+"answer": "C",
+"explanation": "Topoisomerase-targeting drugs work by stabilizing the complex formed between DNA and topoisomerase, an enzyme responsible for DNA unwinding during replication. This stabilization prevents the DNA from rejoining after unwinding, leading to breaks in the DNA and ultimately causing cancer cell death."
+},
+{
+"question": "What does an elevated level of certain enzymes in the blood indicate?",
+"options": {
+"A": "Efficient metabolism and optimal organ function.",
+"B": "An overproduction of hormones and signaling molecules.",
+"C": "A deficiency of essential nutrients and vitamins.",
+"D": "Tissue damage or disease."
+},
+"answer": "D",
+"explanation": "The presence of unusual enzymes or an increase in enzyme concentration in the blood can signal tissue damage or the onset of a disease. When tissues are injured, they release enzymes that are not typically found in the bloodstream."
+},
+{
+"question": "What is the significance of GOT and GPT enzyme levels in liver function tests?",
+"options": {
+"A": "They indicate the efficiency of protein synthesis in the liver.",
+"B": "They reflect the liver's ability to detoxify harmful substances.",
+"C": "They signal damage to liver cells and impaired liver function.",
+"D": "They measure the levels of essential vitamins and minerals stored in the liver."
+},
+"answer": "C",
+"explanation": "GOT and GPT are enzymes primarily found within liver cells. Elevated levels of these enzymes in the blood suggest liver damage, as injured liver cells release these enzymes into the circulation."
+},
+{
+"question": "What is a characteristic of enzyme catalysis under physiological conditions?",
+"options": {
+"A": "Enzymes require high temperatures and pressures to function.",
+"B": "Enzymes operate optimally in extreme pH environments.",
+"C": "Enzymes catalyze reactions under mild conditions, such as neutral pH and body temperature.",
+"D": "Enzymes require the presence of heavy metals to function."
+},
+"answer": "C",
+"explanation": "Unlike many chemical catalysts that require harsh conditions, enzymes function efficiently under physiological conditions, which include a neutral pH, moderate temperatures (body temperature), and normal atmospheric pressure."
+},
+{
+"question": "What does the regenerative nature of enzymes mean?",
+"options": {
+"A": "Enzymes can repair themselves after damage.",
+"B": "Enzymes are constantly being synthesized and degraded.",
+"C": "Enzymes are restored to their original form after catalyzing a reaction.",
+"D": "Enzymes can multiply and increase their numbers within cells."
+},
+"answer": "C",
+"explanation": "The regenerative nature of enzymes means that they are not consumed during a reaction. After catalyzing a reaction, the enzyme is regenerated and can participate in subsequent reactions."
+},
+{
+"question": "What is substrate specificity in enzyme activity?",
+"options": {
+"A": "The ability of an enzyme to catalyze multiple types of reactions.",
+"B": "The preference of an enzyme for a specific type of product.",
+"C": "The ability of an enzyme to bind to any molecule.",
+"D": "The selectivity of an enzyme to act on a particular substrate or a group of similar substrates."
+},
+"answer": "D",
+"explanation": "Substrate specificity refers to the selective nature of enzymes, where an enzyme typically catalyzes a reaction involving a specific substrate or a group of structurally related substrates."
+},
+{
+"question": "What is the role of the editing site in some enzymes?",
+"options": {
+"A": "To enhance the catalytic activity of the active site.",
+"B": "To modify the substrate to fit better into the active site.",
+"C": "To hydrolyze incorrectly synthesized byproducts, ensuring accuracy.",
+"D": "To regulate the overall rate of the enzymatic reaction."
+},
+"answer": "C",
+"explanation": "Some enzymes, like isoleucyl tRNA synthetase, have an editing site that acts as a proofreading mechanism. This site hydrolyzes incorrectly synthesized byproducts, preventing errors in the final product."
+},
+{
+"question": "How do translesion polymerases, a type of DNA polymerase, exhibit lower specificity?",
+"options": {
+"A": "By strictly adhering to the DNA template strand, ensuring accurate replication.",
+"B": "By bypassing minor damages on the DNA template strand to continue DNA synthesis.",
+"C": "By introducing mutations to increase genetic diversity.",
+"D": "By halting DNA replication when encountering any damage."
+},
+"answer": "B",
+"explanation": "Translesion polymerases are a type of DNA polymerase that can bypass minor damage on the DNA template strand, allowing DNA synthesis to proceed even in the presence of lesions."
+},
+{
+"question": "How is the specificity of the CRISPR/Cas9 system regulated?",
+"options": {
+"A": "By the type of Cas protein used.",
+"B": "By the length of the target DNA sequence.",
+"C": "By the guide RNA that binds to the target DNA.",
+"D": "By the temperature and pH of the reaction."
+},
+"answer": "C",
+"explanation": "The specificity of the CRISPR/Cas9 system is determined by the guide RNA (sgRNA), which directs the Cas9 enzyme to the specific target DNA sequence."
+},
+{
+"question": "What characteristic of enzymes contributes to stereospecificity?",
+"options": {
+"A": "The random arrangement of active site residues.",
+"B": "The ability to catalyze reactions in both directions.",
+"C": "The presence of multiple active sites with identical binding properties.",
+"D": "The specific three-dimensional arrangement of active site residues."
+},
+"answer": "D",
+"explanation": "The stereospecificity of enzymes arises from the precise three-dimensional arrangement of residues in the active site. This arrangement allows the enzyme to discriminate between stereoisomers of a substrate and produce a specific stereoisomer as the product."
+},
+{
+"question": "What is the old convention for naming enzymes?",
+"options": {
+"A": "Using Greek letters to denote the order of discovery.",
+"B": "Adding the suffix \"-ase\" to the name of the substrate.",
+"C": "Adding the suffix \"-in\" to a descriptive term.",
+"D": "Using Roman numerals to indicate the enzyme's class."
+},
+"answer": "C",
+"explanation": "The traditional way of naming enzymes involved adding the suffix \"-in\" to a term that often described the enzyme's source or action. For instance, pepsin and trypsin are named in this manner."
+},
+{
+"question": "What information can an enzyme's common name often convey?",
+"options": {
+"A": "The enzyme's molecular weight and structure.",
+"B": "The organism from which the enzyme is derived.",
+"C": "The specific amino acid sequence of the enzyme.",
+"D": "The type of reaction catalyzed or the nature of the substrate."
+},
+"answer": "D",
+"explanation": "An enzyme's common name can provide insights into its function. It might describe the type of reaction the enzyme catalyzes, hint at the key active site residues involved, or indicate the nature of the substrate it acts upon."
+},
+{
+"question": "What is the function of a dehydrogenase enzyme?",
+"options": {
+"A": "To add a carboxyl group to a molecule.",
+"B": "To remove a carboxyl group from a molecule.",
+"C": "To catalyze the transfer of hydrogen atoms.",
+"D": "To break down proteins into smaller peptides."
+},
+"answer": "C",
+"explanation": "Dehydrogenase enzymes facilitate the transfer of hydrogen atoms during oxidation-reduction reactions."
+},
+{
+"question": "What type of reaction does a decarboxylase enzyme catalyze?",
+"options": {
+"A": "The addition of a phosphate group.",
+"B": "The removal of a phosphate group.",
+"C": "The addition of a carboxyl group.",
+"D": "The removal of a carboxyl group."
+},
+"answer": "D",
+"explanation": "Decarboxylase enzymes catalyze reactions that remove a carboxyl group from a molecule, often releasing carbon dioxide as a byproduct."
+},
+{
+"question": "What distinguishes isomerases from other enzyme classes?",
+"options": {
+"A": "They catalyze reactions involving the transfer of functional groups.",
+"B": "They catalyze reactions that break down molecules using water.",
+"C": "They catalyze reactions that rearrange atoms within a molecule.",
+"D": "They catalyze reactions that join two molecules together."
+},
+"answer": "C",
+"explanation": "Isomerases are distinct because they catalyze reactions that change the structure of a molecule without changing its chemical formula. They rearrange atoms within a molecule, creating isomers."
+},
+{
+"question": "What is the function of a kinase enzyme?",
+"options": {
+"A": "To transfer a phosphate group, typically from ATP, to a specific molecule.",
+"B": "To remove a phosphate group from a molecule.",
+"C": "To break down carbohydrates into simpler sugars.",
+"D": "To synthesize proteins from amino acids."
+},
+"answer": "A",
+"explanation": "Kinase enzymes play a vital role in phosphorylation, transferring a phosphate group, usually from ATP, to a target molecule. This process is crucial for regulating various cellular processes."
+},
+{
+"question": "Why are Roman numerals sometimes used in enzyme names?",
+"options": {
+"A": "To indicate the chronological order of discovery.",
+"B": "To denote the enzyme's optimal pH range.",
+"C": "To distinguish between enzymes with similar catalytic activity.",
+"D": "To represent the enzyme's molecular weight."
+},
+"answer": "C",
+"explanation": "When multiple enzymes share similar catalytic activities, Roman numerals are added after the enzyme name to differentiate them. For instance, RNA polymerase I, II, and III each have distinct functions in RNA synthesis."
+},
+{
+"question": "What is the basis for the International Union of Biochemists (IUB) enzyme classification system?",
+"options": {
+"A": "The enzyme's evolutionary origin.",
+"B": "The enzyme's three-dimensional structure.",
+"C": "The type of reaction the enzyme catalyzes.",
+"D": "The enzyme's cellular localization."
+},
+"answer": "C",
+"explanation": "The IUB system categorizes enzymes into seven main classes based on the nature of the reaction they catalyze. This system provides a structured framework for understanding and organizing the vast array of enzymes."
+},
+{
+"question": "What characterizes the reaction catalyzed by an oxidoreductase enzyme?",
+"options": {
+"A": "The transfer of a functional group from one molecule to another.",
+"B": "The breaking of a chemical bond using water.",
+"C": "The rearrangement of atoms within a molecule.",
+"D": "The transfer of electrons between molecules."
+},
+"answer": "D",
+"explanation": "Oxidoreductases are a class of enzymes that catalyze oxidation-reduction reactions. These reactions involve the transfer of electrons between molecules, often with the help of cofactors like NAD+ or FAD."
+},
+{
+"question": "What is the role of a transferase enzyme?",
+"options": {
+"A": "To catalyze the transfer of electrons between molecules.",
+"B": "To catalyze the movement of molecules across membranes.",
+"C": "To catalyze the breaking of chemical bonds using water.",
+"D": "To catalyze the transfer of a functional group from one molecule to another."
+},
+"answer": "D",
+"explanation": "Transferases facilitate the transfer of specific functional groups, such as a phosphate group, an amino group, or a sugar molecule, from one molecule (the donor) to another molecule (the acceptor)."
+},
+{
+"question": "How do translocases differ from other enzyme classes?",
+"options": {
+"A": "They catalyze reactions that change the chemical formula of the substrate.",
+"B": "They facilitate the movement of molecules across membranes using ATP hydrolysis.",
+"C": "They catalyze the joining of two molecules using ATP.",
+"D": "They catalyze the breakdown of molecules using water."
+},
+"answer": "B",
+"explanation": "Translocases are unique enzymes that move molecules or ions across cellular membranes, often against their concentration gradient. They utilize energy from ATP hydrolysis to power this transport."
+},
+{
+"question": "What is the key feature of reactions catalyzed by hydrolase enzymes?",
+"options": {
+"A": "They involve the transfer of electrons between molecules.",
+"B": "They use energy from ATP hydrolysis to drive reactions.",
+"C": "They break chemical bonds with the involvement of water.",
+"D": "They rearrange atoms within a molecule."
+},
+"answer": "C",
+"explanation": "Hydrolases are enzymes that break down molecules by adding water across a chemical bond. This process is known as hydrolysis and is essential for breaking down various biomolecules like proteins, carbohydrates, and lipids."
+},
+{
+"question": "What distinguishes lyases from other enzyme classes?",
+"options": {
+"A": "They catalyze the formation of new double bonds or ring structures.",
+"B": "They break down molecules using water.",
+"C": "They transfer functional groups between molecules.",
+"D": "They move molecules across membranes."
+},
+"answer": "A",
+"explanation": "Lyases catalyze reactions that break chemical bonds without using water. They often create new double bonds or form ring structures in the process."
+},
+{
+"question": "Which enzyme class is unique in potentially having a single substrate and single product reaction?",
+"options": {
+"A": "Oxidoreductases",
+"B": "Transferases",
+"C": "Hydrolases",
+"D": "Isomerases"
+},
+"answer": "D",
+"explanation": "Isomerases are the only enzyme class that can potentially catalyze a reaction involving a single substrate and a single product. They convert a molecule into its isomer, a molecule with the same chemical formula but a different arrangement of atoms."
+},
+{
+"question": "What is the primary function of ligase enzymes?",
+"options": {
+"A": "To break down molecules using water.",
+"B": "To move molecules across membranes.",
+"C": "To join two molecules together using energy from ATP hydrolysis.",
+"D": "To transfer functional groups between molecules."
+},
+"answer": "C",
+"explanation": "Ligases are enzymes that catalyze the joining of two molecules, often large biomolecules, using energy from ATP hydrolysis. They play a crucial role in DNA replication and repair, among other processes."
+},
+{
+"question": "What is the structure of an enzyme commission number (EC number)?",
+"options": {
+"A": "A single number representing the enzyme's molecular weight.",
+"B": "Two numbers indicating the enzyme's substrate and product.",
+"C": "Three letters representing the enzyme's common name.",
+"D": "Four numbers representing the enzyme's classification and sub-classifications."
+},
+"answer": "D",
+"explanation": "Each enzyme is assigned a unique four-number EC number, providing a systematic way to classify and identify enzymes. These numbers represent the enzyme's class, subclass, sub-subclass, and a serial number within its sub-subclass."
+},
+{
+"question": "What is the systematic name for the enzyme hexokinase?",
+"options": {
+"A": "Glucose-6-phosphatase",
+"B": "ATP:glucose phosphotransferase",
+"C": "Phosphofructokinase",
+"D": "Pyruvate kinase"
+},
+"answer": "B",
+"explanation": "The systematic name for hexokinase, an enzyme that phosphorylates glucose, is ATP:glucose phosphotransferase. This name reflects its function in transferring a phosphate group from ATP to glucose."
+},
+{
+"question": "In the EC number for hexokinase (EC 2.7.1.1), what does the number '7' represent?",
+"options": {
+"A": "The enzyme's main class: Transferases.",
+"B": "The subclass: Transfer of phosphate groups.",
+"C": "The sub-subclass: Phosphate transfer to an -OH group.",
+"D": "The serial number within the sub-subclass: D-glucose as the acceptor."
+},
+"answer": "B",
+"explanation": "In the EC number for hexokinase (EC 2.7.1.1), the number '7' signifies the subclass of the enzyme, which is the transfer of phosphate groups. Each digit in an EC number has a specific meaning, providing a detailed classification of the enzyme."
+},
+{
+"question": "Why was the classification of translocases changed from hydrolases to a separate class?",
+"options": {
+"A": "They were found to catalyze reactions that do not involve water.",
+"B": "Their primary function is not the hydrolysis of ATP, but the transport of molecules.",
+"C": "They were discovered to have a different evolutionary origin than hydrolases.",
+"D": "Their three-dimensional structures were found to be significantly different from hydrolases."
+},
+"answer": "B",
+"explanation": "While translocases use ATP hydrolysis for energy, their primary role is the transport of molecules across membranes. The IUB recognized this distinction and reclassified them as a separate class, emphasizing their transport function rather than ATP hydrolysis."
+},
+{
+"question": "What is unique about the reaction catalyzed by DNA ligase compared to other ligases?",
+"options": {
+"A": "It does not require ATP for energy.",
+"B": "It involves the joining of two DNA strands using a single ATP molecule.",
+"C": "It breaks down DNA molecules instead of joining them.",
+"D": "It does not involve the formation of an enzyme-AMP intermediate."
+},
+"answer": "B",
+"explanation": "Unlike other ligases that directly use ATP to join molecules, DNA ligase forms an enzyme-AMP intermediate using ATP. This intermediate then facilitates the joining of two DNA strands, effectively using one ATP molecule for the reaction."
+},
+{
+"question": "Why is aldolase, an enzyme involved in glycolysis, classified as a lyase?",
+"options": {
+"A": "It catalyzes a reaction that involves the addition of water.",
+"B": "It catalyzes the breakdown of a molecule without using water, often forming a double bond.",
+"C": "It catalyzes the transfer of a phosphate group from ATP.",
+"D": "It catalyzes the rearrangement of atoms within a molecule."
+},
+"answer": "B",
+"explanation": "Aldolase, despite its name suggesting a condensation reaction, functions as a lyase. It breaks down fructose 1,6-bisphosphate into two three-carbon sugars without using water. This cleavage often results in the formation of a double bond, a characteristic of lyase-catalyzed reactions."
+},
+{
+"question": "What reaction does the enzyme ribonucleotide reductase catalyze?",
+"options": {
+"A": "The synthesis of RNA from DNA.",
+"B": "The breakdown of RNA into nucleotides.",
+"C": "The conversion of ribonucleotides to deoxyribonucleotides.",
+"D": "The repair of damaged DNA."
+},
+"answer": "C",
+"explanation": "Ribonucleotide reductase plays a crucial role in DNA synthesis by catalyzing the conversion of ribonucleotides (the building blocks of RNA) to deoxyribonucleotides (the building blocks of DNA). This conversion is essential for providing the necessary building blocks for DNA replication."
+},
+{
+"question": "How does ribonucleotide reductase regulate its activity to maintain a balanced pool of deoxyribonucleotides?",
+"options": {
+"A": "By increasing its activity when all deoxyribonucleotide levels are low.",
+"B": "By shutting down completely when any deoxyribonucleotide reaches a high concentration.",
+"C": "By adjusting its conformation to produce different deoxyribonucleotides based on their concentrations.",
+"D": "By relying on feedback inhibition from the final product of DNA replication."
+},
+"answer": "C",
+"explanation": "Ribonucleotide reductase exhibits a unique regulatory mechanism to ensure a balanced pool of deoxyribonucleotides. If the concentration of a specific deoxyribonucleotide becomes too high, the enzyme adjusts its structure to favor the production of other deoxyribonucleotides, preventing an imbalance and potential errors in DNA replication."
+},
+{
+"question": "What is the function of the enzyme CYP3A4 in the liver?",
+"options": {
+"A": "To synthesize essential amino acids.",
+"B": "To break down glucose for energy production.",
+"C": "To metabolize a wide range of drugs, contributing to drug detoxification.",
+"D": "To store vitamins and minerals."
+},
+"answer": "C",
+"explanation": "CYP3A4, a monooxygenase enzyme found in the liver, plays a crucial role in drug metabolism. It can process a wide variety of drugs, adding a hydroxyl group to increase their water solubility and facilitate their elimination from the body."
+},
+{
+"question": "What is the evolutionary advantage of enzymes like CYP3A4 and translesion polymerases having broad substrate specificity?",
+"options": {
+"A": "It allows for a more efficient use of cellular resources by requiring fewer enzyme types.",
+"B": "It increases the accuracy of DNA replication and protein synthesis.",
+"C": "It prevents the accumulation of harmful metabolites in the cell.",
+"D": "It enables the organism to adapt to a rapidly changing environment."
+},
+"answer": "A",
+"explanation": "Enzymes with broad substrate specificity, like CYP3A4 in drug metabolism and translesion polymerases in DNA replication, offer an evolutionary advantage by allowing the organism to handle a wide range of substrates with a limited number of enzymes, optimizing cellular resources."
+},
+{
+"question": "What structural feature is often associated with enzymes that can regulate their substrate specificity?",
+"options": {
+"A": "A rigid active site that maintains a fixed conformation.",
+"B": "A flexible active site that can adapt to different substrates.",
+"C": "Multiple active sites with distinct substrate specificities.",
+"D": "A lack of an active site, allowing for non-specific interactions."
+},
+"answer": "B",
+"explanation": "Enzymes that can adjust their substrate specificity often have a flexible active site. This flexibility enables the active site to undergo conformational changes to accommodate different substrates, allowing the enzyme to act on a broader range of molecules."
+},
+{
+"question": "What are racemases and epimerases?",
+"options": {
+"A": "Enzymes that catalyze the breakdown of carbohydrates.",
+"B": "Enzymes that synthesize proteins from amino acids.",
+"C": "Enzymes that catalyze the interconversion of stereoisomers.",
+"D": "Enzymes that repair damaged DNA."
+},
+"answer": "C",
+"explanation": "Racemases and epimerases are types of isomerases that specifically catalyze the interconversion of stereoisomers, molecules that are mirror images of each other (enantiomers) or differ in configuration at one chiral center (epimers)."
+},
+{
+"question": "What distinguishes racemases from epimerases?",
+"options": {
+"A": "Racemases catalyze reactions involving molecules with multiple chiral centers, while epimerases act on molecules with a single chiral center.",
+"B": "Racemases break down molecules using water, while epimerases join molecules together.",
+"C": "Racemases transfer functional groups between molecules, while epimerases rearrange atoms within a molecule.",
+"D": "Racemases catalyze the interconversion of enantiomers, while epimerases catalyze the interconversion of epimers."
+},
+"answer": "D",
+"explanation": "Racemases and epimerases differ in their substrate specificity. Racemases act on molecules with a single chiral center, converting between enantiomers (mirror images), while epimerases act on molecules with multiple chiral centers, changing the configuration at only one of those centers."
+}
+]

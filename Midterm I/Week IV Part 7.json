@@ -1,0 +1,508 @@
+[
+{
+"question": "What is the primary function of ATP in cellular processes?",
+"options": {
+"A": "Genetic information storage",
+"B": "Catalytic enzyme activity",
+"C": "Energy currency for driving reactions",
+"D": "Structural component of cell membranes"
+},
+"answer": "C",
+"explanation": "ATP serves as the primary energy carrier in cells, facilitating energy transfer between catabolic and anabolic reactions. This is analogous to currency in economic transactions."
+},
+{
+"question": "Which of the following is NOT a potential use of glucose within a biological system?",
+"options": {
+"A": "Synthesis of structural polymers like the extracellular matrix",
+"B": "Direct utilization as an electron carrier in redox reactions",
+"C": "Generation of reducing power (NADPH) via the pentose phosphate pathway",
+"D": "Formation of energy storage molecules such as glycogen in animals and starch in plants"
+},
+"answer": "B",
+"explanation": "While glucose is involved in redox reactions, it doesn't function as a direct electron carrier. Instead, it is oxidized, and the liberated electrons are transferred to carriers like NAD+ to form NADH."
+},
+{
+"question": "What is the fundamental principle underlying bioenergetics?",
+"options": {
+"A": "Study of energy flow and transformation in living organisms",
+"B": "Analysis of genetic information and its expression",
+"C": "Examination of cellular structures and their functions",
+"D": "Investigation of evolutionary relationships and adaptations"
+},
+"answer": "A",
+"explanation": "Bioenergetics specifically focuses on how organisms acquire, convert, and utilize energy to sustain life processes. This encompasses metabolic pathways and energy conversions within cells."
+},
+{
+"question": "Which medical condition is characterized by severe energy imbalance due to insufficient nutrient intake?",
+"options": {
+"A": "Obesity",
+"B": "Diabetes",
+"C": "Marasmus",
+"D": "Hypertension"
+},
+"answer": "C",
+"explanation": "Marasmus is a form of severe malnutrition arising from inadequate calorie and protein intake, leading to energy depletion and wasting of body tissues."
+},
+{
+"question": "How does ATP facilitate the progression of biochemical reactions?",
+"options": {
+"A": "By lowering the activation energy of reactions",
+"B": "By directly catalyzing enzymatic activity",
+"C": "By altering the equilibrium constant of reactions",
+"D": "By changing the pH of the cellular environment"
+},
+"answer": "A",
+"explanation": "ATP hydrolysis releases energy that can be coupled to endergonic reactions, effectively lowering the activation energy barrier and allowing reactions to proceed more readily."
+},
+{
+"question": "What is the significance of the free energy change (ΔG) in a biochemical reaction?",
+"options": {
+"A": "It determines the rate at which the reaction proceeds",
+"B": "It indicates the amount of heat energy released or absorbed",
+"C": "It represents the portion of energy available to do work",
+"D": "It reflects the change in entropy (disorder) of the system"
+},
+"answer": "C",
+"explanation": "Free energy (ΔG) specifically denotes the energy portion capable of performing work within a system. In biochemical reactions, it dictates the spontaneity and direction of the reaction."
+},
+{
+"question": "What role do hydrogen carriers, such as NAD+ and FAD, play in cellular metabolism?",
+"options": {
+"A": "They transport oxygen molecules to facilitate aerobic respiration",
+"B": "They act as enzymes catalyzing key metabolic reactions",
+"C": "They shuttle electrons and protons between different metabolic pathways",
+"D": "They provide structural support to cellular organelles"
+},
+"answer": "C",
+"explanation": "Hydrogen carriers like NAD+ and FAD capture and transfer electrons and protons generated during oxidative reactions, linking different metabolic pathways and facilitating energy transfer."
+},
+{
+"question": "Which of the following accurately describes the concept of 'coupling' in metabolic reactions?",
+"options": {
+"A": "Pairing of two identical reactions occurring simultaneously",
+"B": "Linking of an exergonic reaction to drive an endergonic reaction",
+"C": "Combination of two enzymes to form a multi-enzyme complex",
+"D": "Regulation of metabolic pathways through feedback inhibition"
+},
+"answer": "B",
+"explanation": "Coupling refers to the energetic linkage between an exergonic reaction (releasing energy) and an endergonic reaction (requiring energy), allowing the former to drive the latter."
+},
+{
+"question": "What distinguishes high-energy phosphates from low-energy phosphates?",
+"options": {
+"A": "Their ability to donate phosphate groups to ADP to form ATP",
+"B": "The number of phosphate groups they contain",
+"C": "Their solubility in aqueous cellular environments",
+"D": "Their stability under physiological conditions"
+},
+"answer": "A",
+"explanation": "High-energy phosphates possess sufficient free energy upon hydrolysis to phosphorylate ADP, forming ATP. Low-energy phosphates lack this capability."
+},
+{
+"question": "What is the primary function of creatine phosphate in vertebrate muscle tissue?",
+"options": {
+"A": "To provide structural support to muscle fibers",
+"B": "To act as a direct energy source for muscle contraction",
+"C": "To serve as a reservoir of high-energy phosphate for ATP regeneration",
+"D": "To regulate calcium ion levels within muscle cells"
+},
+"answer": "C",
+"explanation": "Creatine phosphate acts as a storage molecule for high-energy phosphate. When ATP levels decline, creatine phosphate can donate its phosphate to ADP, replenishing ATP stores."
+},
+{
+"question": "What is the role of the enzyme adenylate kinase in cellular energy metabolism?",
+"options": {
+"A": "It catalyzes the breakdown of ATP to ADP and inorganic phosphate",
+"B": "It converts AMP to ADP, utilizing ATP as a phosphate donor",
+"C": "It directly phosphorylates glucose during glycolysis",
+"D": "It facilitates the transport of ATP across cell membranes"
+},
+"answer": "B",
+"explanation": "Adenylate kinase catalyzes the interconversion of adenine nucleotides, specifically converting AMP to ADP by transferring a phosphate group from ATP."
+},
+{
+"question": "Why is the reaction AMP + PPi → ATP not directly feasible in cells?",
+"options": {
+"A": "The reaction is thermodynamically unfavorable under standard conditions",
+"B": "The enzyme required for this reaction is absent in most cells",
+"C": "Inorganic pyrophosphatase rapidly hydrolyzes PPi, preventing the reverse reaction",
+"D": "AMP is typically present in very low concentrations within cells"
+},
+"answer": "C",
+"explanation": "The presence of inorganic pyrophosphatase ensures the rapid breakdown of PPi, driving the reaction toward ATP formation and preventing the accumulation of PPi."
+},
+{
+"question": "How does AMP function as a metabolic signal within cells?",
+"options": {
+"A": "High AMP levels indicate energy abundance, promoting anabolic processes",
+"B": "Elevated AMP concentrations signal energy depletion, activating catabolic pathways",
+"C": "AMP directly binds to ribosomes, inhibiting protein synthesis",
+"D": "AMP acts as a second messenger in hormonal signaling cascades"
+},
+"answer": "B",
+"explanation": "Increased AMP levels act as a cellular indicator of low energy status, triggering pathways that generate ATP, such as glycolysis and oxidative phosphorylation."
+},
+{
+"question": "Which of the following is NOT a major source of energy conservation in cells?",
+"options": {
+"A": "Oxidative phosphorylation",
+"B": "Glycolysis",
+"C": "Citric acid cycle",
+"D": "DNA replication"
+},
+"answer": "D",
+"explanation": "DNA replication is an energy-consuming process, not a source of energy conservation. The other options represent pathways that generate ATP."
+},
+{
+"question": "How many ATP molecules are typically generated per glucose molecule during oxidative phosphorylation?",
+"options": {
+"A": "2",
+"B": "4",
+"C": "10",
+"D": "28"
+},
+"answer": "D",
+"explanation": "Oxidative phosphorylation, the primary ATP-generating pathway, yields approximately 28 ATP molecules per glucose molecule completely oxidized."
+},
+{
+"question": "What is the significance of nucleoside diphosphate kinase (NDP kinase) in cellular energy metabolism?",
+"options": {
+"A": "It specifically converts AMP to ADP",
+"B": "It directly phosphorylates glucose during glycolysis",
+"C": "It enables the transfer of phosphate groups between different nucleoside diphosphates",
+"D": "It catalyzes the breakdown of ATP to ADP and inorganic phosphate"
+},
+"answer": "C",
+"explanation": "NDP kinase facilitates the interconversion of nucleoside triphosphates (NTPs) by transferring phosphate groups from ATP to other NDPs, such as UDP, GDP, and CDP."
+},
+{
+"question": "Which statement accurately describes the thermodynamic role of ATP in biochemical reactions?",
+"options": {
+"A": "ATP hydrolysis always releases a fixed amount of energy, regardless of the reaction",
+"B": "ATP primarily drives reactions by increasing the temperature of the cellular environment",
+"C": "ATP can facilitate both endergonic and exergonic reactions by altering the energy landscape",
+"D": "ATP acts as a catalyst, directly lowering the activation energy of all biochemical reactions"
+},
+"answer": "C",
+"explanation": "ATP's role is not limited to solely driving endergonic reactions. It can be strategically used to modulate the energy profile of reactions, making them more thermodynamically favorable."
+},
+{
+"question": "In the context of energy metabolism, what is the main distinction between anabolism and catabolism?",
+"options": {
+"A": "Anabolism involves the breakdown of complex molecules, while catabolism builds them up",
+"B": "Anabolism occurs in the cytoplasm, while catabolism takes place within mitochondria",
+"C": "Anabolism is energy-releasing, while catabolism requires energy input",
+"D": "Anabolism synthesizes complex molecules, while catabolism degrades them into simpler units"
+},
+"answer": "D",
+"explanation": "Anabolism represents the biosynthetic processes that construct complex molecules from simpler precursors, requiring energy. Catabolism, conversely, breaks down complex molecules, releasing energy."
+},
+{
+"question": "What makes ATP a suitable 'energy currency' within cells?",
+"options": {
+"A": "Its high molecular weight and complex structure",
+"B": "Its ability to form stable complexes with enzymes",
+"C": "Its intermediate phosphate transfer potential",
+"D": "Its abundance and uniform distribution throughout the cell"
+},
+"answer": "C",
+"explanation": "ATP's phosphate transfer potential is high enough to drive energy-requiring reactions but not so high that it becomes too difficult to regenerate, making it an efficient energy intermediary."
+},
+{
+"question": "Which of the following compounds is NOT considered a high-energy phosphate?",
+"options": {
+"A": "Phosphoenolpyruvate",
+"B": "Glucose 6-phosphate",
+"C": "Creatine phosphate",
+"D": "1,3-Bisphosphoglycerate"
+},
+"answer": "B",
+"explanation": "Glucose 6-phosphate, an intermediate in glycolysis, is classified as a low-energy phosphate because its hydrolysis cannot directly drive ATP synthesis."
+},
+{
+"question": "Why is the hydrolysis of ATP to AMP and pyrophosphate (PPi) considered 'wasteful' in terms of energy utilization?",
+"options": {
+"A": "PPi is rapidly hydrolyzed, releasing heat but not directly contributing to ATP regeneration",
+"B": "AMP cannot be directly converted back to ATP, requiring multiple steps and energy input",
+"C": "The energy released from this hydrolysis is insufficient to drive most cellular processes",
+"D": "The breakdown of ATP to AMP disrupts the balance of adenine nucleotides in the cell"
+},
+"answer": "A",
+"explanation": "Although ATP to AMP hydrolysis releases more energy than ATP to ADP, the rapid breakdown of PPi dissipates much of this energy as heat, limiting its direct use for ATP resynthesis."
+},
+{
+"question": "Which metabolic pathway involves the direct phosphorylation of glucose by ATP?",
+"options": {
+"A": "Gluconeogenesis",
+"B": "Glycolysis",
+"C": "Citric acid cycle",
+"D": "Pentose phosphate pathway"
+},
+"answer": "B",
+"explanation": "The initial steps of glycolysis involve the phosphorylation of glucose by ATP, trapping glucose within the cell and priming it for further breakdown."
+},
+{
+"question": "What is the role of phosphagens in cellular energy metabolism?",
+"options": {
+"A": "They act as enzymes that catalyze ATP hydrolysis",
+"B": "They serve as structural components of mitochondria",
+"C": "They function as temporary storage depots for high-energy phosphate",
+"D": "They transport ATP across cellular membranes"
+},
+"answer": "C",
+"explanation": "Phosphagens, like creatine phosphate and arginine phosphate, act as temporary reservoirs of high-energy phosphate, buffering ATP levels during periods of high energy demand."
+},
+{
+"question": "Why is the metabolism of long-chain fatty acids more energy-demanding than glucose metabolism?",
+"options": {
+"A": "Fatty acids require more steps to be completely oxidized",
+"B": "Fatty acids have a higher molecular weight than glucose",
+"C": "Fatty acid breakdown utilizes the energy stored in the alpha-beta phosphate bond of ATP",
+"D": "Fatty acids are transported into mitochondria, requiring additional energy expenditure"
+},
+"answer": "C",
+"explanation": "Activating fatty acids for breakdown requires the cleavage of the alpha-beta phosphate bond of ATP, a higher energy bond than the typically used beta-gamma bond, increasing the energy investment."
+},
+{
+"question": "What is the primary role of NADPH in cellular metabolism?",
+"options": {
+"A": "Direct energy currency for driving reactions",
+"B": "Electron carrier in oxidative phosphorylation",
+"C": "Reducing agent in biosynthetic pathways",
+"D": "Structural component of ribosomes"
+},
+"answer": "C",
+"explanation": "NADPH primarily functions as a reducing agent, providing electrons for anabolic reactions, particularly in pathways like fatty acid synthesis and detoxification processes."
+},
+{
+"question": "Which of the following is a distinguishing feature of an exergonic reaction?",
+"options": {
+"A": "It releases free energy, often as heat",
+"B": "It requires an input of energy to proceed",
+"C": "It results in a decrease in entropy (disorder)",
+"D": "It is typically very slow and requires a catalyst"
+},
+"answer": "A",
+"explanation": "Exergonic reactions are characterized by a negative free energy change (ΔG), indicating that they release energy, often in the form of heat, and proceed spontaneously."
+},
+{
+"question": "Which statement best describes the relationship between enthalpy change (ΔH) and internal energy change (ΔE) in biological systems?",
+"options": {
+"A": "ΔH and ΔE are always equal in magnitude and sign",
+"B": "ΔH is typically much larger than ΔE in biological reactions",
+"C": "ΔH and ΔE are often similar in value for reactions occurring in living organisms",
+"D": "ΔH is only relevant for reactions involving heat exchange, while ΔE is a more general concept"
+},
+"answer": "C",
+"explanation": "Under the constant pressure conditions of most biological systems, the enthalpy change (ΔH) and internal energy change (ΔE) are often close in value, simplifying thermodynamic calculations."
+},
+{
+"question": "What is the significance of the second law of thermodynamics in the context of cellular processes?",
+"options": {
+"A": "It explains why cells require a constant input of energy to maintain order",
+"B": "It dictates the maximum rate at which biochemical reactions can proceed",
+"C": "It limits the efficiency of energy conversion within cells",
+"D": "It governs the flow of genetic information from DNA to RNA to protein"
+},
+"answer": "A",
+"explanation": "The second law highlights the tendency towards increasing entropy (disorder). Cells, as highly ordered systems, constantly expend energy to counteract this tendency and maintain their organization."
+},
+{
+"question": "Which of the following statements about ATP is INCORRECT?",
+"options": {
+"A": "ATP consists of adenine, ribose, and three phosphate groups",
+"B": "The energy stored in ATP is primarily located in the phosphate bonds",
+"C": "ATP hydrolysis is always coupled to an endergonic reaction",
+"D": "ATP can be regenerated from ADP through various metabolic pathways"
+},
+"answer": "C",
+"explanation": "While ATP hydrolysis is often coupled to drive endergonic reactions, ATP can also participate in other cellular processes, such as phosphorylation events, without directly driving an energy-requiring reaction."
+},
+{
+"question": "What is the role of inorganic pyrophosphatase in ATP synthesis?",
+"options": {
+"A": "It directly phosphorylates ADP to form ATP",
+"B": "It cleaves pyrophosphate (PPi), preventing the reverse reaction of ATP hydrolysis",
+"C": "It acts as a transporter, shuttling ATP out of mitochondria",
+"D": "It catalyzes the exchange of phosphate groups between ATP and other nucleotides"
+},
+"answer": "B",
+"explanation": "Inorganic pyrophosphatase breaks down PPi, a byproduct of some ATP-utilizing reactions, ensuring that the reaction strongly favors ATP formation and preventing the accumulation of PPi."
+},
+{
+"question": "What is the metabolic fate of pyruvate in the presence of oxygen?",
+"options": {
+"A": "It is converted to lactate through fermentation",
+"B": "It is directly used as a building block for protein synthesis",
+"C": "It enters the citric acid cycle for further oxidation",
+"D": "It is stored as glycogen in the liver and muscles"
+},
+"answer": "C",
+"explanation": "Under aerobic conditions, pyruvate, the end product of glycolysis, is transported into mitochondria, where it is converted to acetyl-CoA and enters the citric acid cycle for complete oxidation."
+},
+{
+"question": "Which molecule serves as the primary link between glycolysis and the citric acid cycle?",
+"options": {
+"A": "Glucose",
+"B": "Acetyl-CoA",
+"C": "ATP",
+"D": "NADH"
+},
+"answer": "B",
+"explanation": "Acetyl-CoA, derived from pyruvate, acts as the entry point into the citric acid cycle, connecting the energy extracted from glycolysis to further oxidation in the cycle."
+},
+{
+"question": "How does the energy yield of ATP hydrolysis compare to that of high-energy phosphates like phosphoenolpyruvate?",
+"options": {
+"A": "ATP hydrolysis releases more energy than phosphoenolpyruvate hydrolysis",
+"B": "The energy released from both hydrolyses is approximately equal",
+"C": "Phosphoenolpyruvate hydrolysis releases more energy than ATP hydrolysis",
+"D": "The energy yield of ATP hydrolysis varies significantly depending on the reaction"
+},
+"answer": "C",
+"explanation": "High-energy phosphates, including phosphoenolpyruvate, release more free energy upon hydrolysis than ATP, enabling them to donate their phosphate group to ADP and form ATP."
+},
+{
+"question": "Which statement accurately describes the role of ATP in muscle contraction?",
+"options": {
+"A": "ATP directly binds to actin filaments, causing them to slide past myosin",
+"B": "ATP hydrolysis provides the energy for the power stroke of myosin heads",
+"C": "ATP is required for the uptake of calcium ions into the sarcoplasmic reticulum",
+"D": "ATP acts as a signaling molecule, triggering the release of neurotransmitters at the neuromuscular junction"
+},
+"answer": "B",
+"explanation": "ATP hydrolysis is directly coupled to the conformational changes in myosin heads, providing the energy for the power stroke that drives muscle fiber shortening."
+},
+{
+"question": "What is the primary function of the pentose phosphate pathway?",
+"options": {
+"A": "To generate ATP through substrate-level phosphorylation",
+"B": "To produce NADPH and precursors for nucleotide biosynthesis",
+"C": "To completely oxidize glucose to carbon dioxide and water",
+"D": "To convert pyruvate to lactate under anaerobic conditions"
+},
+"answer": "B",
+"explanation": "The pentose phosphate pathway primarily generates NADPH, essential for reductive biosynthesis, and ribose 5-phosphate, a precursor for nucleotide synthesis."
+},
+{
+"question": "Which enzyme is responsible for the transfer of a phosphate group from creatine phosphate to ADP?",
+"options": {
+"A": "Hexokinase",
+"B": "Phosphofructokinase",
+"C": "Creatine kinase",
+"D": "Adenylate kinase"
+},
+"answer": "C",
+"explanation": "Creatine kinase catalyzes the reversible transfer of a phosphate group between creatine phosphate and ADP, playing a key role in maintaining ATP levels in muscle tissue."
+},
+{
+"question": "How does obesity contribute to energy imbalance within the body?",
+"options": {
+"A": "It leads to excessive breakdown of fat stores, overwhelming metabolic pathways",
+"B": "It disrupts hormonal signaling, reducing the body's ability to regulate energy intake",
+"C": "It results in chronic inflammation, increasing energy expenditure and metabolic rate",
+"D": "It causes excessive storage of energy as fat, leading to weight gain and metabolic strain"
+},
+"answer": "D",
+"explanation": "Obesity is characterized by an excess accumulation of fat stores, exceeding the body's energy needs and potentially leading to metabolic disturbances."
+},
+{
+"question": "Which of the following statements about glycolysis is INCORRECT?",
+"options": {
+"A": "It occurs in the cytoplasm of cells",
+"B": "It requires oxygen to proceed",
+"C": "It generates a net gain of 2 ATP molecules per glucose molecule",
+"D": "It produces pyruvate as an end product"
+},
+"answer": "B",
+"explanation": "Glycolysis can occur both in the presence (aerobic) and absence (anaerobic) of oxygen, making it a versatile pathway for energy production."
+},
+{
+"question": "What is the thermodynamic significance of the high-energy phosphate bond in ATP?",
+"options": {
+"A": "It releases a large amount of free energy upon hydrolysis, driving cellular processes",
+"B": "It forms very stable complexes with enzymes, enhancing catalytic activity",
+"C": "It allows for the efficient storage of genetic information in DNA",
+"D": "It contributes to the structural integrity of cell membranes"
+},
+"answer": "A",
+"explanation": "The high-energy nature of the phosphate bonds in ATP means that their cleavage releases significant free energy, which can be harnessed to power cellular work."
+},
+{
+"question": "What is the primary function of arginine phosphate in invertebrate muscle?",
+"options": {
+"A": "To transport oxygen to muscle tissue",
+"B": "To regulate pH balance within muscle cells",
+"C": "To act as a structural protein in muscle fibers",
+"D": "To serve as a reserve of high-energy phosphate, similar to creatine phosphate in vertebrates"
+},
+"answer": "D",
+"explanation": "Arginine phosphate fulfills an analogous role to creatine phosphate in vertebrates, acting as a reservoir of high-energy phosphate to replenish ATP levels during periods of high energy demand."
+},
+{
+"question": "Which of the following is NOT a function of ATP in cellular processes?",
+"options": {
+"A": "Providing energy for muscle contraction",
+"B": "Driving active transport across cell membranes",
+"C": "Facilitating protein synthesis by ribosomes",
+"D": "Storing genetic information in the nucleus"
+},
+"answer": "D",
+"explanation": "Storing genetic information is the function of DNA, not ATP. ATP primarily serves as an energy carrier and a phosphate donor in various cellular processes."
+},
+{
+"question": "What is the role of nucleoside monophosphate kinases (NMP kinases) in nucleotide metabolism?",
+"options": {
+"A": "They catalyze the breakdown of NTPs to NMPs and inorganic phosphate",
+"B": "They convert NMPs to NDPs, using ATP as a phosphate donor",
+"C": "They transport nucleotides across cell membranes",
+"D": "They regulate the expression of genes involved in nucleotide synthesis"
+},
+"answer": "B",
+"explanation": "NMP kinases play a role in maintaining the balance of nucleotides within cells by catalyzing the phosphorylation of NMPs to NDPs, utilizing ATP as the phosphate source."
+},
+{
+"question": "Which of the following statements accurately describes the relationship between ATP, ADP, and AMP?",
+"options": {
+"A": "AMP can be directly converted to ATP through substrate-level phosphorylation",
+"B": "ATP hydrolysis to ADP releases less energy than ADP hydrolysis to AMP",
+"C": "The relative concentrations of ATP, ADP, and AMP reflect the energy status of the cell",
+"D": "ADP is the primary energy currency of the cell, while ATP serves as a storage form"
+},
+"answer": "C",
+"explanation": "The ratios of ATP, ADP, and AMP act as sensitive indicators of cellular energy charge. High ATP levels signal energy abundance, while elevated AMP levels indicate energy depletion."
+},
+{
+"question": "What is the primary reason that heat is considered the 'least useful' form of energy in biological systems?",
+"options": {
+"A": "Cells lack efficient mechanisms to capture and convert heat into usable energy",
+"B": "Heat generation always leads to an increase in entropy, disrupting cellular order",
+"C": "Heat cannot be used to drive endergonic reactions, which are essential for life processes",
+"D": "Heat dissipates rapidly into the environment, limiting its availability for cellular work"
+},
+"answer": "A",
+"explanation": "While heat is a byproduct of many cellular reactions, cells lack the machinery to efficiently harness and utilize heat energy to perform work."
+},
+{
+"question": "Which metabolic pathway is responsible for the synthesis of glucose from non-carbohydrate precursors?",
+"options": {
+"A": "Glycolysis",
+"B": "Gluconeogenesis",
+"C": "Citric acid cycle",
+"D": "Pentose phosphate pathway"
+},
+"answer": "B",
+"explanation": "Gluconeogenesis is the anabolic pathway that synthesizes glucose from molecules like pyruvate, lactate, and certain amino acids, maintaining glucose homeostasis during fasting."
+},
+{
+"question": "What is the function of glycosylation in biological systems?",
+"options": {
+"A": "To increase the water solubility of molecules",
+"B": "To provide structural support to cell walls",
+"C": "To catalyze the breakdown of carbohydrates",
+"D": "To transport glucose across cell membranes"
+},
+"answer": "A",
+"explanation": "Glycosylation, the attachment of sugar molecules to proteins or lipids, often enhances their water solubility, facilitating their transport and interactions within the cellular environment."
+}
+]

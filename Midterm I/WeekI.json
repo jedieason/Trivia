@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which of the following best describes the defining characteristic of an alpha-amino acid?",
+    "options": {
+      "A": "Presence of an amino group attached to the alpha carbon",
+      "B": "The ability to form peptide bonds",
+      "C": "A carboxyl group bonded to the alpha carbon",
+      "D": "Both A and C"
+    },
+    "answer": "D",
+    "explanation": "All 20 common amino acids have a carboxyl and an amino group bonded to the alpha carbon."
+  },
+  {
+    "question": "What primarily distinguishes different alpha-amino acids?",
+    "options": {
+      "A": "The length of their carbon chains",
+      "B": "Their unique side chains (R groups)",
+      "C": "Whether they are L or D isomers",
+      "D": "The number of carboxyl groups"
+    },
+    "answer": "B",
+    "explanation": "The variable side chains attached to the alpha carbon determine the specific properties of each amino acid."
+  },
+  {
+    "question": "Which designation indicates the stereoisomer of an amino acid commonly found in proteins?",
+    "options": {
+      "A": "Dextro",
+      "B": "Levo",
+      "C": "Cis",
+      "D": "Trans"
+    },
+    "answer": "B",
+    "explanation": "Biological systems primarily utilize L-amino acids to build proteins."
+  },
+  {
+    "question": "What is the basis for classifying amino acids into five main classes?",
+    "options": {
+      "A": "Their molecular weight",
+      "B": "The properties of their R groups, particularly polarity",
+      "C": "Their ability to form disulfide bonds",
+      "D": "Their role in protein structure"
+    },
+    "answer": "B",
+    "explanation": "The polarity, or tendency to interact with water, is a key factor in determining an amino acid's behavior in biological systems."
+  },
+  {
+    "question": "Which term describes the pH at which an amino acid carries no net electrical charge?",
+    "options": {
+      "A": "Hydropathy index",
+      "B": "Acid dissociation constant (pKa)",
+      "C": "Isoelectric point (pI)",
+      "D": "Buffering capacity"
+    },
+    "answer": "C",
+    "explanation": "The isoelectric point is the pH at which the positive and negative charges on an amino acid balance out."
+  },
+  {
+    "question": "Which form of an amino acid predominates in an aqueous solution at neutral pH?",
+    "options": {
+      "A": "Nonionic form",
+      "B": "Anionic form",
+      "C": "Cationic form",
+      "D": "Zwitterionic form"
+    },
+    "answer": "D",
+    "explanation": "At neutral pH, amino acids exist primarily as zwitterions with both positive and negative charges."
+  },
+  {
+    "question": "How is the isoelectric point (pI) of an amino acid determined from its titration curve?",
+    "options": {
+      "A": "It is the pH at the midpoint of the steepest rise in the curve",
+      "B": "It is the average of the two pKa values that flank the zwitterionic form",
+      "C": "It is the pH where the amino acid is fully protonated",
+      "D": "It is the pH where the amino acid is fully deprotonated"
+    },
+    "answer": "B",
+    "explanation": "The pI lies halfway between the pKa values representing the transitions between the zwitterionic and the charged forms."
+  },
+  {
+    "question": "How does the chemical environment affect the pKa values of an amino acid?",
+    "options": {
+      "A": "pKa values remain constant regardless of the environment",
+      "B": "Nearby charged groups can shift pKa values up or down",
+      "C": "Hydrophobic environments increase pKa values",
+      "D": "Temperature has no impact on pKa values"
+    },
+    "answer": "B",
+    "explanation": "Intramolecular interactions between charged groups within the amino acid can influence the ease of protonation or deprotonation."
+  },
+  {
+    "question": "What separation technique exploits differences in amino acid charge to achieve separation?",
+    "options": {
+      "A": "Paper chromatography",
+      "B": "Ion exchange chromatography",
+      "C": "Size-exclusion chromatography",
+      "D": "Affinity chromatography"
+    },
+    "answer": "B",
+    "explanation": "Ion exchange chromatography uses charged resins to selectively bind and separate amino acids based on their net charge."
+  },
+  {
+    "question": "Which reagent is commonly used to visualize amino acids after separation techniques like paper chromatography?",
+    "options": {
+      "A": "Silver nitrate",
+      "B": "Coomassie Brilliant Blue",
+      "C": "Ninhydrin",
+      "D": "Ethidium bromide"
+    },
+    "answer": "C",
+    "explanation": "Ninhydrin reacts with amino acids to produce a colored product, allowing for their detection."
+  },
+  {
+    "question": "Which two amino acids are considered 'small' due to their minimal side chains?",
+    "options": {
+      "A": "Glycine and alanine",
+      "B": "Proline and valine",
+      "C": "Leucine and isoleucine",
+      "D": "Methionine and cysteine"
+    },
+    "answer": "A",
+    "explanation": "Glycine, with a hydrogen atom as its side chain, and alanine, with a methyl group, are the smallest amino acids."
+  },
+  {
+    "question": "Which amino acids are known to be essential components of muscle tissue?",
+    "options": {
+      "A": "Glycine, alanine, and proline",
+      "B": "Valine, leucine, and isoleucine",
+      "C": "Phenylalanine, tyrosine, and tryptophan",
+      "D": "Serine, threonine, and cysteine"
+    },
+    "answer": "B",
+    "explanation": "Valine, leucine, and isoleucine, collectively known as branched-chain amino acids, are crucial for muscle protein synthesis."
+  },
+  {
+    "question": "Which amino acid has a side chain that forms a covalent bond with its alpha-amino group, creating a rigid ring structure?",
+    "options": {
+      "A": "Glycine",
+      "B": "Alanine",
+      "C": "Valine",
+      "D": "Proline"
+    },
+    "answer": "D",
+    "explanation": "Proline's unique cyclic structure influences protein folding by introducing rigidity and disrupting regular secondary structures."
+  },
+  {
+    "question": "Which amino acids exhibit strong absorbance in the UV region due to their aromatic side chains?",
+    "options": {
+      "A": "Glycine, alanine, and valine",
+      "B": "Phenylalanine, tyrosine, and tryptophan",
+      "C": "Serine, threonine, and cysteine",
+      "D": "Aspartic acid, glutamic acid, and lysine"
+    },
+    "answer": "B",
+    "explanation": "The aromatic rings in phenylalanine, tyrosine, and tryptophan absorb UV light, a property used for protein detection and quantification."
+  },
+  {
+    "question": "Which law relates the absorbance of light to the concentration of a substance in solution?",
+    "options": {
+      "A": "Newton's Law",
+      "B": "Boyle's Law",
+      "C": "Lambert-Beer Law",
+      "D": "Avogadro's Law"
+    },
+    "answer": "C",
+    "explanation": "The Lambert-Beer Law is foundational for spectrophotometric analysis of solutions, including protein quantification based on UV absorbance."
+  },
+  {
+    "question": "Which amino acid side chains are particularly reactive due to their hydroxyl (-OH) or sulfhydryl (-SH) groups?",
+    "options": {
+      "A": "Glycine and alanine",
+      "B": "Phenylalanine and tyrosine",
+      "C": "Serine and cysteine",
+      "D": "Aspartic acid and glutamic acid"
+    },
+    "answer": "C",
+    "explanation": "The -OH group of serine and the -SH group of cysteine are nucleophilic and play vital roles in enzyme activity and protein interactions."
+  },
+  {
+    "question": "What type of covalent bond is formed between two cysteine residues through oxidation?",
+    "options": {
+      "A": "Peptide bond",
+      "B": "Hydrogen bond",
+      "C": "Ionic bond",
+      "D": "Disulfide bond"
+    },
+    "answer": "D",
+    "explanation": "Disulfide bonds between cysteines contribute to protein stability and tertiary structure."
+  },
+  {
+    "question": "Which amino acids typically carry negative charges at physiological pH due to their acidic side chains?",
+    "options": {
+      "A": "Lysine and arginine",
+      "B": "Aspartic acid and glutamic acid",
+      "C": "Serine and threonine",
+      "D": "Phenylalanine and tyrosine"
+    },
+    "answer": "B",
+    "explanation": "The carboxyl groups in the side chains of aspartic acid and glutamic acid readily lose a proton at physiological pH, becoming negatively charged."
+  },
+  {
+    "question": "Which amino acids are generally positively charged at physiological pH due to their basic side chains?",
+    "options": {
+      "A": "Aspartic acid and glutamic acid",
+      "B": "Lysine and arginine",
+      "C": "Serine and threonine",
+      "D": "Phenylalanine and tryptophan"
+    },
+    "answer": "B",
+    "explanation": "Lysine and arginine, with their amine-containing side chains, are protonated and positively charged at physiological pH."
+  },
+  {
+    "question": "Which amino acid has an imidazole side chain that can act as both an acid and a base, making it a key player in enzyme catalysis?",
+    "options": {
+      "A": "Lysine",
+      "B": "Arginine",
+      "C": "Histidine",
+      "D": "Proline"
+    },
+    "answer": "C",
+    "explanation": "Histidine's imidazole ring can donate or accept protons, allowing it to participate in a variety of enzymatic reactions."
+  },
+  {
+    "question": "What type of chemical bond links amino acids together in a peptide chain?",
+    "options": {
+      "A": "Ester bond",
+      "B": "Glycosidic bond",
+      "C": "Phosphodiester bond",
+      "D": "Peptide bond"
+    },
+    "answer": "D",
+    "explanation": "Peptide bonds, also known as amide bonds, are the defining linkages in peptide and protein structures."
+  },
+  {
+    "question": "What is the convention for writing the sequence of amino acids in a peptide?",
+    "options": {
+      "A": "From C-terminus to N-terminus",
+      "B": "In alphabetical order",
+      "C": "From N-terminus to C-terminus",
+      "D": "Randomly, with no specific order"
+    },
+    "answer": "C",
+    "explanation": "Peptide sequences are always written from the amino-terminal end (N-terminus) to the carboxyl-terminal end (C-terminus)."
+  },
+  {
+    "question": "How is the net electric charge of a peptide determined at a specific pH?",
+    "options": {
+      "A": "By summing the charges of all amino acid side chains",
+      "B": "By considering the pKa values of the N-terminal amino group, the C-terminal carboxyl group, and any ionizable side chains",
+      "C": "By averaging the pI values of all amino acids in the peptide",
+      "D": "By measuring the peptide's migration in an electric field"
+    },
+    "answer": "B",
+    "explanation": "The net charge depends on which groups are protonated or deprotonated at the given pH, as determined by their pKa values."
+  },
+  {
+    "question": "Which tripeptide acts as a crucial antioxidant in cells, protecting against oxidative damage?",
+    "options": {
+      "A": "Insulin",
+      "B": "TRH",
+      "C": "β-lipotropin",
+      "D": "Glutathione (GSH)"
+    },
+    "answer": "D",
+    "explanation": "Glutathione, a tripeptide with a gamma-glutamyl linkage, plays a central role in cellular redox homeostasis by reducing oxidizing agents."
+  },
+  {
+    "question": "What chemical modification is characteristic of the N-terminal glutamate residue in thyrotropin-releasing hormone (TRH)?",
+    "options": {
+      "A": "Phosphorylation",
+      "B": "Glycosylation",
+      "C": "Formation of a pyro group",
+      "D": "Acetylation"
+    },
+    "answer": "C",
+    "explanation": "TRH features a pyroglutamic acid residue at its N-terminus, formed by cyclization of the glutamate side chain."
+  },
+  {
+    "question": "What is the primary challenge in the chemical synthesis of peptides?",
+    "options": {
+      "A": "The high cost of amino acid starting materials",
+      "B": "The difficulty in controlling the order of amino acid addition",
+      "C": "The low stability of peptide bonds",
+      "D": "The lack of suitable protecting groups for amino and carboxyl groups"
+    },
+    "answer": "B",
+    "explanation": "Peptide synthesis requires precise control over the sequence to prevent unwanted side reactions and ensure the correct order of amino acids."
+  },
+  {
+    "question": "Which technique is commonly used for the solid-phase synthesis of peptides?",
+    "options": {
+      "A": "PCR",
+      "B": "Gel electrophoresis",
+      "C": "Merrifield synthesis",
+      "D": "Edman degradation"
+    },
+    "answer": "C",
+    "explanation": "Merrifield synthesis, a solid-phase peptide synthesis method, allows for stepwise addition of amino acids while attached to a solid support."
+  },
+  {
+    "question": "What are the three main methods for hydrolyzing peptide bonds?",
+    "options": {
+      "A": "Heating, freezing, and sonication",
+      "B": "Strong acid hydrolysis, specific chemical cleavage, and enzymatic digestion",
+      "C": "UV irradiation, oxidation, and reduction",
+      "D": "Neutralization, esterification, and amidation"
+    },
+    "answer": "B",
+    "explanation": "These methods provide different levels of control over peptide bond cleavage, enabling specific fragmentation for analysis."
+  },
+  {
+    "question": "Which protease specifically cleaves peptide bonds on the C-terminal side of lysine and arginine residues?",
+    "options": {
+      "A": "Chymotrypsin",
+      "B": "Trypsin",
+      "C": "Pepsin",
+      "D": "Thermolysin"
+    },
+    "answer": "B",
+    "explanation": "Trypsin's specificity for lysine and arginine makes it a valuable tool for controlled protein digestion and peptide mapping."
+  },
+  {
+    "question": "What distinguishes a protein from a polypeptide?",
+    "options": {
+      "A": "Proteins are composed of multiple polypeptide chains",
+      "B": "Polypeptides have a defined amino acid sequence, while proteins do not",
+      "C": "Proteins have a biological function, while polypeptides may or may not",
+      "D": "There is no difference; the terms are interchangeable"
+    },
+    "answer": "C",
+    "explanation": "A protein is a polypeptide chain that has folded into a specific three-dimensional structure and performs a biological function."
+  },
+  {
+    "question": "What term describes a protein that contains a non-amino acid component essential for its function?",
+    "options": {
+      "A": "Simple protein",
+      "B": "Multimeric protein",
+      "C": "Conjugated protein",
+      "D": "Fibrous protein"
+    },
+    "answer": "C",
+    "explanation": "Conjugated proteins have prosthetic groups like lipids, carbohydrates, or metal ions that are crucial for their activity."
+  },
+  {
+    "question": "What is the first step in protein purification?",
+    "options": {
+      "A": "Chromatography",
+      "B": "Electrophoresis",
+      "C": "Centrifugation",
+      "D": "Obtaining the raw material containing the protein of interest"
+    },
+    "answer": "D",
+    "explanation": "The source of the protein, whether cells, tissues, or organisms, is the starting point for any purification process."
+  },
+  {
+    "question": "Which of the following techniques is NOT considered a 'gentle' method for cell disruption?",
+    "options": {
+      "A": "Cell lysis of erythrocytes",
+      "B": "Lysozyme treatment of bacteria",
+      "C": "French press for plant cells",
+      "D": "Hand homogenization of liver tissue"
+    },
+    "answer": "C",
+    "explanation": "The French press uses high pressure to break cells, which can be more disruptive than enzymatic or osmotic lysis methods."
+  },
+  {
+    "question": "What is the principle behind salting-in during protein purification?",
+    "options": {
+      "A": "Increasing salt concentration to precipitate proteins based on hydrophobicity",
+      "B": "Using low salt concentrations to enhance protein solubility by reducing electrostatic interactions",
+      "C": "Adding salt to adjust the pH of the protein solution",
+      "D": "Salting-in is not a real technique in protein purification"
+    },
+    "answer": "B",
+    "explanation": "Salting-in exploits the ability of low salt concentrations to improve protein solubility by shielding charges and promoting interactions with water."
+  },
+  {
+    "question": "Which type of chromatography separates proteins based on their size?",
+    "options": {
+      "A": "Ion-exchange chromatography",
+      "B": "Size-exclusion chromatography",
+      "C": "Affinity chromatography",
+      "D": "Gas chromatography"
+    },
+    "answer": "B",
+    "explanation": "Size-exclusion chromatography uses porous beads to separate molecules by size, with larger molecules eluting faster than smaller ones."
+  },
+  {
+    "question": "What is the key principle behind affinity chromatography?",
+    "options": {
+      "A": "Separating proteins based on their charge",
+      "B": "Using a specific ligand immobilized on a matrix to bind and purify a target protein",
+      "C": "Exploiting differences in protein size and shape",
+      "D": "Separating proteins based on their solubility in different solvents"
+    },
+    "answer": "B",
+    "explanation": "Affinity chromatography relies on the specific interaction between a protein and its ligand, providing high selectivity in purification."
+  },
+  {
+    "question": "Which technique is used to determine the isoelectric point (pI) of a protein?",
+    "options": {
+      "A": "SDS-PAGE",
+      "B": "Isoelectric focusing",
+      "C": "Two-dimensional electrophoresis",
+      "D": "Mass spectrometry"
+    },
+    "answer": "B",
+    "explanation": "Isoelectric focusing separates proteins in a pH gradient, causing them to migrate to the pH that matches their pI, where they have no net charge."
+  },
+  {
+    "question": "What is the purpose of using sodium dodecyl sulfate (SDS) in SDS-PAGE?",
+    "options": {
+      "A": "To denature proteins and give them a uniform negative charge",
+      "B": "To preserve protein structure and prevent denaturation",
+      "C": "To create a pH gradient in the gel",
+      "D": "To stain proteins for visualization"
+    },
+    "answer": "A",
+    "explanation": "SDS unfolds proteins and coats them with negative charges, allowing separation based solely on their size in electrophoresis."
+  },
+  {
+    "question": "What technique combines isoelectric focusing (IEF) and SDS-PAGE to achieve high-resolution separation of complex protein mixtures?",
+    "options": {
+      "A": "Chromatography",
+      "B": "Immunoblotting",
+      "C": "ELISA",
+      "D": "Two-dimensional electrophoresis"
+    },
+    "answer": "D",
+    "explanation": "Two-dimensional electrophoresis first separates proteins by pI using IEF, followed by separation based on size using SDS-PAGE, resulting in a 2D protein map."
+  },
+  {
+    "question": "What is the first step in determining the amino acid sequence of a protein?",
+    "options": {
+      "A": "Sequencing the gene encoding the protein",
+      "B": "Using mass spectrometry to identify the protein",
+      "C": "Determining the amino acid composition by acid hydrolysis",
+      "D": "Labeling the N-terminal residue with Sanger's reagent"
+    },
+    "answer": "C",
+    "explanation": "Acid hydrolysis breaks down the protein into its constituent amino acids, allowing for their quantification and determination of the overall composition."
+  },
+  {
+    "question": "Which reagent is used in Sanger's method to label the N-terminal amino acid of a polypeptide?",
+    "options": {
+      "A": "PITC (Phenylisothiocyanate)",
+      "B": "CNBr (Cyanogen bromide)",
+      "C": "FDNB (1-fluoro-2,4-dinitrobenzene)",
+      "D": "DTT (Dithiothreitol)"
+    },
+    "answer": "C",
+    "explanation": "FDNB reacts with the N-terminal amino group, forming a stable derivative that can be identified after hydrolysis."
+  },
+  {
+    "question": "Which sequential degradation method is commonly used to determine the amino acid sequence of a polypeptide?",
+    "options": {
+      "A": "Sanger's method",
+      "B": "Mass spectrometry",
+      "C": "Edman degradation",
+      "D": "Chromatography"
+    },
+    "answer": "C",
+    "explanation": "Edman degradation sequentially removes and identifies amino acids from the N-terminus of a polypeptide chain."
+  },
+  {
+    "question": "Why are large proteins typically broken down into smaller fragments before sequencing?",
+    "options": {
+      "A": "Large proteins cannot be sequenced directly",
+      "B": "Smaller fragments improve the accuracy and efficiency of sequencing",
+      "C": "Fragmentation allows for the identification of post-translational modifications",
+      "D": "Large proteins are too complex for analysis"
+    },
+    "answer": "B",
+    "explanation": "Sequencing accuracy declines with increasing polypeptide length, so breaking proteins into smaller peptides improves the reliability of the results."
+  },
+  {
+    "question": "Which enzymes are used to cleave proteins at specific sites for fragmentation before sequencing?",
+    "options": {
+      "A": "Ligases",
+      "B": "Polymerases",
+      "C": "Proteases",
+      "D": "Kinases"
+    },
+    "answer": "C",
+    "explanation": "Proteases catalyze the hydrolysis of peptide bonds at specific recognition sites, generating predictable peptide fragments."
+  },
+  {
+    "question": "What is the term for the complete set of proteins expressed by an organism's DNA?",
+    "options": {
+      "A": "Genome",
+      "B": "Transcriptome",
+      "C": "Proteome",
+      "D": "Metabolome"
+    },
+    "answer": "C",
+    "explanation": "The proteome represents the dynamic protein complement of a cell, tissue, or organism, reflecting gene expression and cellular activity."
+  },
+  {
+    "question": "What is the primary focus of the field of proteomics?",
+    "options": {
+      "A": "Sequencing the entire genome of an organism",
+      "B": "Understanding the structure and function of individual proteins",
+      "C": "Studying the global analysis of protein expression, interactions, and modifications",
+      "D": "Developing new methods for protein synthesis"
+    },
+    "answer": "C",
+    "explanation": "Proteomics seeks to comprehensively analyze protein expression patterns, post-translational modifications, and interactions to gain insights into cellular processes."
+  },
+  {
+    "question": "Which technique is widely used in proteomics for protein identification and analysis?",
+    "options": {
+      "A": "Gel electrophoresis",
+      "B": "Chromatography",
+      "C": "Mass spectrometry",
+      "D": "X-ray crystallography"
+    },
+    "answer": "C",
+    "explanation": "Mass spectrometry accurately measures the mass-to-charge ratio of ions, enabling protein identification and characterization in complex mixtures."
+  },
+  {
+    "question": "What is the principle behind Matrix-Assisted Laser Desorption/Ionization (MALDI) in mass spectrometry?",
+    "options": {
+      "A": "Separating proteins based on their charge",
+      "B": "Using a laser to ionize and desorb sample molecules embedded in a matrix",
+      "C": "Fragmenting proteins into smaller peptides for analysis",
+      "D": "Measuring the time it takes for ions to travel a certain distance"
+    },
+    "answer": "B",
+    "explanation": "MALDI uses a matrix to absorb laser energy and facilitate gentle ionization of biomolecules, preserving their integrity."
+  },
+  {
+    "question": "How does Electrospray Ionization (ESI) generate gas-phase ions for mass spectrometry?",
+    "options": {
+      "A": "By heating the sample to a high temperature",
+      "B": "By applying a high voltage to a solution of the sample, creating charged droplets",
+      "C": "By bombarding the sample with electrons",
+      "D": "By using a laser to ionize the sample"
+    },
+    "answer": "B",
+    "explanation": "ESI uses an electric field to create charged droplets from a sample solution, which then desolvate to produce gas-phase ions for analysis."
+  }
+]

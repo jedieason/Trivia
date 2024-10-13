@@ -1,0 +1,618 @@
+[
+  {
+    "question": "What is the general formula for carbohydrates?",
+    "options": {
+      "A": "(CH2O)n, where n ≥ 3",
+      "B": "(CHO)n, where n ≥ 2",
+      "C": "(C2H4O2)n, where n ≥ 1",
+      "D": "(CH3O)n, where n ≥ 2"
+    },
+    "answer": "A",
+    "explanation": "The general formula for carbohydrates is (CH2O)n, where n is typically 3 or greater, indicating a hydrated carbon structure."
+  },
+  {
+    "question": "What is the primary source of carbohydrates in nature?",
+    "options": {
+      "A": "Cellular respiration",
+      "B": "Photosynthesis in plants",
+      "C": "Decomposition of organic matter",
+      "D": "Volcanic eruptions"
+    },
+    "answer": "B",
+    "explanation": "The primary source of carbohydrates in nature is photosynthesis carried out by plants."
+  },
+  {
+    "question": "What type of carbohydrate consists of a single sugar monomer?",
+    "options": {
+      "A": "Monosaccharide",
+      "B": "Disaccharide",
+      "C": "Oligosaccharide",
+      "D": "Polysaccharide"
+    },
+    "answer": "A",
+    "explanation": "A monosaccharide is the simplest type of carbohydrate, consisting of only one sugar monomer."
+  },
+  {
+    "question": "How many sugar monomers are typically found in an oligosaccharide?",
+    "options": {
+      "A": "1",
+      "B": "2-10",
+      "C": "11-20",
+      "D": "More than 20"
+    },
+    "answer": "B",
+    "explanation": "Oligosaccharides typically contain between two and ten sugar monomers linked together by glycosidic bonds. However, some textbooks define oligosaccharides as containing 3 to 20 sugar monomers."
+  },
+  {
+    "question": "What distinguishes a polysaccharide from an oligosaccharide?",
+    "options": {
+      "A": "The type of glycosidic bond",
+      "B": "The presence of branching chains",
+      "C": "The number of sugar monomers",
+      "D": "The source of the carbohydrate"
+    },
+    "answer": "C",
+    "explanation": "The key difference between polysaccharides and oligosaccharides lies in the number of sugar monomers they contain. Polysaccharides consist of ten or more sugar monomers, while oligosaccharides have fewer."
+  },
+  {
+    "question": "What functional group defines an aldose sugar?",
+    "options": {
+      "A": "Carboxyl group",
+      "B": "Hydroxyl group",
+      "C": "Amino group",
+      "D": "Aldehyde group"
+    },
+    "answer": "D",
+    "explanation": "Aldose sugars are characterized by the presence of an aldehyde group (CHO) in their structure."
+  },
+  {
+    "question": "Where is the carbonyl group located in a ketose sugar?",
+    "options": {
+      "A": "At the terminal end of the carbon chain",
+      "B": "Not at the terminal end of the carbon chain",
+      "C": "On a side chain attached to the carbon backbone",
+      "D": "Within a ring structure formed by the sugar"
+    },
+    "answer": "B",
+    "explanation": "In contrast to aldose sugars, ketose sugars have their carbonyl group located within the carbon chain, not at the terminal end."
+  },
+  {
+    "question": "What does the prefix \"tri-\" indicate in the name of a sugar, such as aldo-tri-ose?",
+    "options": {
+      "A": "The presence of three hydroxyl groups",
+      "B": "The sugar belongs to the triose family",
+      "C": "The sugar contains three carbon atoms",
+      "D": "The sugar can form a three-membered ring structure"
+    },
+    "answer": "C",
+    "explanation": "The prefix \"tri-\" in the name of a sugar, like aldo-tri-ose, indicates that the sugar molecule has three carbon atoms in its structure."
+  },
+  {
+    "question": "Which of the following is the simplest aldose sugar?",
+    "options": {
+      "A": "Glucose",
+      "B": "Fructose",
+      "C": "Glyceraldehyde",
+      "D": "Dihydroxyacetone"
+    },
+    "answer": "C",
+    "explanation": "Glyceraldehyde is considered the simplest aldose sugar, containing only three carbon atoms."
+  },
+  {
+    "question": "Why does dihydroxyacetone not have D- and L-forms?",
+    "options": {
+      "A": "It lacks a carbonyl group",
+      "B": "It has an even number of carbon atoms",
+      "C": "It exists primarily in a cyclic form",
+      "D": "It does not have a chiral center"
+    },
+    "answer": "D",
+    "explanation": "Dihydroxyacetone, unlike other simple sugars, does not have a chiral center, which means it does not have distinct D- and L-forms, or enantiomers."
+  },
+  {
+    "question": "What is required for the interconversion between aldose and ketose sugars?",
+    "options": {
+      "A": "Exposure to high temperatures",
+      "B": "Presence of a strong acid or base",
+      "C": "Action of specific enzymes",
+      "D": "Dissolution in a polar solvent"
+    },
+    "answer": "C",
+    "explanation": "The interconversion between aldose and ketose sugars is facilitated by specific enzymes that catalyze the rearrangement of the carbonyl group."
+  },
+  {
+    "question": "In a Fischer projection, what is the orientation of horizontal bonds?",
+    "options": {
+      "A": "Pointing away from the observer",
+      "B": "Pointing towards the observer",
+      "C": "Parallel to the plane of the paper",
+      "D": "Perpendicular to the plane of the paper"
+    },
+    "answer": "B",
+    "explanation": "In a Fischer projection, a standard way to represent 3D sugar structures on a 2D plane, horizontal bonds are conventionally drawn pointing towards the observer."
+  },
+  {
+    "question": "What determines the D- or L-form of a sugar in Fischer projection?",
+    "options": {
+      "A": "The position of the hydroxyl group on the carbon closest to the carbonyl group",
+      "B": "The total number of chiral centers present in the sugar molecule",
+      "C": "The orientation of the carbonyl group (aldehyde or ketone)",
+      "D": "The position of the hydroxyl group on the chiral center farthest from the carbonyl group"
+    },
+    "answer": "D",
+    "explanation": "The D- or L-form of a sugar is determined by the position of the hydroxyl group (-OH) on the chiral center located farthest from the carbonyl group in the Fischer projection. If the hydroxyl group is on the right, it's a D-form; if it's on the left, it's an L-form."
+  },
+  {
+    "question": "In what form do most physiologically active sugars exist in living organisms?",
+    "options": {
+      "A": "L-form",
+      "B": "D-form",
+      "C": "Racemic mixture",
+      "D": "Cyclic form"
+    },
+    "answer": "B",
+    "explanation": "Most sugars found in living organisms, and playing active roles in biological processes, exist in the D-form. This is in contrast to amino acids, which are primarily found in the L-form."
+  },
+  {
+    "question": "What is the main characteristic of a Haworth projection?",
+    "options": {
+      "A": "It depicts the sugar in a linear, open-chain form",
+      "B": "It emphasizes the bond angles and distances in the sugar molecule",
+      "C": "It represents the cyclic form of the sugar",
+      "D": "It shows the sugar molecule interacting with water molecules"
+    },
+    "answer": "C",
+    "explanation": "A Haworth projection is used to represent the cyclic structure of sugars, which is the dominant form for sugars with five or more carbon atoms in solution."
+  },
+  {
+    "question": "In a Haworth projection, what does a bold line represent?",
+    "options": {
+      "A": "A bond in the plane of the paper",
+      "B": "A bond pointing away from the observer",
+      "C": "A bond pointing towards the observer",
+      "D": "A hydrogen bond between sugar molecules"
+    },
+    "answer": "C",
+    "explanation": "In a Haworth projection, bold lines are used to indicate bonds that are coming out of the plane of the paper, towards the observer."
+  },
+  {
+    "question": "How does the position of a substituent in a Haworth projection relate to its position in a Fischer projection?",
+    "options": {
+      "A": "A substituent on the left in a Haworth projection is on the right in a Fischer projection",
+      "B": "A substituent below the ring in a Haworth projection is on the right in a Fischer projection",
+      "C": "A substituent above the ring in a Haworth projection is on the right in a Fischer projection",
+      "D": "There is no direct relationship between the positions in the two projections"
+    },
+    "answer": "B",
+    "explanation": "A key rule for converting between Fischer and Haworth projections is that a substituent below the ring in the Haworth projection corresponds to a substituent on the right in the Fischer projection."
+  },
+  {
+    "question": "What is the naming convention for 4-5 carbon ketoses based on their corresponding aldoses?",
+    "options": {
+      "A": "Adding the suffix \"-ose\" to the aldose name",
+      "B": "Replacing the prefix \"aldo-\" with \"keto-\"",
+      "C": "Adding the infix \"ul\" to the aldose name",
+      "D": "Reversing the order of the aldose name"
+    },
+    "answer": "C",
+    "explanation": "Ketoses with 4 or 5 carbon atoms are named based on their corresponding aldoses by inserting the infix \"ul\" into the aldose name. For example, D-Erythrose becomes D-Erythrulose."
+  },
+  {
+    "question": "What are epimers?",
+    "options": {
+      "A": "Sugars that differ in configuration at all chiral centers",
+      "B": "Sugars that are mirror images of each other",
+      "C": "Sugars that differ in configuration at only one chiral center",
+      "D": "Sugars that have the same molecular formula but different structures"
+    },
+    "answer": "C",
+    "explanation": "Epimers are two sugars that have the same structure except for the configuration at a single chiral center."
+  },
+  {
+    "question": "If two sugars are epimers at C-2, what does this mean?",
+    "options": {
+      "A": "They have different functional groups at carbon 2",
+      "B": "They have opposite configurations of the hydroxyl group at carbon 2",
+      "C": "They have the same configuration of the hydroxyl group at carbon 2",
+      "D": "They are mirror images of each other"
+    },
+    "answer": "B",
+    "explanation": "Being epimers at C-2 means the two sugars have opposite configurations of their hydroxyl groups specifically at carbon 2."
+  },
+  {
+    "question": "How can you calculate the number of possible epimers for an aldose sugar with n carbon atoms?",
+    "options": {
+      "A": "2n",
+      "B": "2n-1",
+      "C": "2n-2",
+      "D": "2n-3"
+    },
+    "answer": "D",
+    "explanation": "The number of potential epimers for a D-form aldose with n carbon atoms can be calculated using the formula 2n-3. This excludes the chirality of the last carbon as the human body primarily uses the D-form."
+  },
+  {
+    "question": "What is the relationship between epimers and enantiomers?",
+    "options": {
+      "A": "All epimers are enantiomers",
+      "B": "All enantiomers are epimers",
+      "C": "Epimers are a specific type of enantiomer",
+      "D": "Epimers are diastereomers, not enantiomers"
+    },
+    "answer": "D",
+    "explanation": "Epimers are a specific type of diastereomer, meaning they are stereoisomers that are not mirror images of each other. Enantiomers, on the other hand, are mirror image isomers."
+  },
+  {
+    "question": "What enzyme facilitates the interconversion between epimers?",
+    "options": {
+      "A": "Isomerase",
+      "B": "Epimerase",
+      "C": "Mutase",
+      "D": "Racemase"
+    },
+    "answer": "B",
+    "explanation": "The interconversion between epimers, which are sugars differing in configuration at a single carbon atom, is catalyzed by a specific enzyme called an epimerase."
+  },
+  {
+    "question": "Why is the conversion of D-galactose to D-glucose important?",
+    "options": {
+      "A": "D-galactose is toxic to the body",
+      "B": "D-glucose is a structural component of cell membranes",
+      "C": "D-galactose cannot be directly metabolized by the body",
+      "D": "D-glucose is required for the synthesis of DNA"
+    },
+    "answer": "C",
+    "explanation": "D-galactose cannot be directly used in metabolic pathways and needs to be converted to D-glucose via the action of an epimerase enzyme for energy production."
+  },
+  {
+    "question": "What percentage of monosaccharides with 5 or more carbons exist in a cyclic form in solution?",
+    "options": {
+      "A": "Less than 1%",
+      "B": "Approximately 50%",
+      "C": "Approximately 99%",
+      "D": "100%"
+    },
+    "answer": "C",
+    "explanation": "Monosaccharides with 5 or more carbon atoms predominantly exist in a cyclic form in solution, with nearly 99% adopting this structure."
+  },
+  {
+    "question": "What type of reaction leads to the cyclization of a sugar molecule?",
+    "options": {
+      "A": "Dehydration reaction",
+      "B": "Hydrolysis reaction",
+      "C": "Oxidation reaction",
+      "D": "Hemiacetal or hemiketal formation"
+    },
+    "answer": "D",
+    "explanation": "The cyclization of sugar molecules occurs through the formation of a hemiacetal (in aldoses) or a hemiketal (in ketoses), involving the reaction between a hydroxyl group and the carbonyl group within the same molecule."
+  },
+  {
+    "question": "In the cyclization of an aldose, which carbon's hydroxyl group typically attacks the carbonyl group?",
+    "options": {
+      "A": "C-2",
+      "B": "C-3",
+      "C": "C-4",
+      "D": "C-5"
+    },
+    "answer": "D",
+    "explanation": "In the cyclization of an aldose sugar, the hydroxyl group on the C-5 carbon typically attacks the carbonyl group on the C-1 carbon, leading to the formation of a six-membered ring."
+  },
+  {
+    "question": "What is the key difference between the cyclization of glucose and fructose?",
+    "options": {
+      "A": "Glucose forms a five-membered ring, while fructose forms a six-membered ring",
+      "B": "Glucose forms a six-membered ring, while fructose forms a five-membered ring",
+      "C": "Glucose cyclization involves a hemiacetal, while fructose cyclization involves a hemiketal",
+      "D": "Both glucose and fructose form six-membered rings, but with different orientations of the hydroxyl groups"
+    },
+    "answer": "B",
+    "explanation": "Glucose, an aldose sugar, forms a six-membered ring (pyranose) upon cyclization, while fructose, a ketose sugar, forms a five-membered ring (furanose)."
+  },
+  {
+    "question": "What are anomers?",
+    "options": {
+      "A": "Stereoisomers that differ in configuration at any chiral center",
+      "B": "Stereoisomers that are mirror images of each other",
+      "C": "Stereoisomers that differ in configuration only at the anomeric carbon",
+      "D": "Stereoisomers that have different ring sizes"
+    },
+    "answer": "C",
+    "explanation": "Anomers are a specific type of epimer that differ in their configuration only at the anomeric carbon, which is the carbon involved in the hemiacetal or hemiketal formation during cyclization."
+  },
+  {
+    "question": "What distinguishes the α-form from the β-form of a cyclic sugar?",
+    "options": {
+      "A": "The orientation of the hydroxyl group on the anomeric carbon relative to C-6",
+      "B": "The size of the ring formed by the sugar molecule",
+      "C": "The position of the carbonyl group in the open-chain form of the sugar",
+      "D": "The presence or absence of a substituent on the anomeric carbon"
+    },
+    "answer": "A",
+    "explanation": "The α- and β-forms of a cyclic sugar are distinguished by the orientation of the hydroxyl group (-OH) on the anomeric carbon in relation to C-6. If they are on opposite sides of the ring plane, it's α-form; if on the same side, it's β-form."
+  },
+  {
+    "question": "What is mutarotation?",
+    "options": {
+      "A": "The interconversion between aldose and ketose sugars",
+      "B": "The spontaneous change in the optical rotation of a sugar solution over time",
+      "C": "The formation of a cyclic sugar from a linear form",
+      "D": "The breakdown of a sugar molecule into smaller units"
+    },
+    "answer": "B",
+    "explanation": "Mutarotation refers to the change in the optical rotation of a sugar solution as the equilibrium between the α- and β-anomers shifts. This process involves the opening of the ring to the linear form and subsequent reclosing in either the α- or β-form."
+  },
+  {
+    "question": "Which anomeric form of glucose is more prevalent in solution?",
+    "options": {
+      "A": "α-form",
+      "B": "β-form",
+      "C": "They are present in equal amounts",
+      "D": "The ratio depends on the temperature"
+    },
+    "answer": "B",
+    "explanation": "In a solution of glucose, the β-form is more prevalent than the α-form. This is due to the lower steric hindrance and lower energy state of the β-form."
+  },
+  {
+    "question": "What is the key feature of the linear form of glucose in metabolic reactions?",
+    "options": {
+      "A": "It is the most stable form of glucose",
+      "B": "It is the primary form involved in glucose metabolism",
+      "C": "It is only present in trace amounts",
+      "D": "It is inactive in metabolic pathways"
+    },
+    "answer": "B",
+    "explanation": "Although the linear form of glucose is only present in a small percentage (about 1%) in solution, it plays a crucial role as the primary form involved in glucose metabolism within the body."
+  },
+  {
+    "question": "How is mutarotation different from conformational changes?",
+    "options": {
+      "A": "Mutarotation involves bond breaking and reforming, while conformational changes involve rotations around single bonds",
+      "B": "Mutarotation involves rotations around single bonds, while conformational changes involve bond breaking and reforming",
+      "C": "Mutarotation is a slow process, while conformational changes are rapid",
+      "D": "Mutarotation changes the chemical formula of the sugar, while conformational changes do not"
+    },
+    "answer": "A",
+    "explanation": "Mutarotation involves the breaking and reforming of the ring structure, leading to a change in configuration at the anomeric carbon. Conformational changes, in contrast, involve rotations around single bonds without breaking or forming bonds."
+  },
+  {
+    "question": "Why is the chair form of a six-carbon sugar more stable than the boat form?",
+    "options": {
+      "A": "The chair form allows for more hydrogen bonding between hydroxyl groups",
+      "B": "The chair form minimizes steric hindrance between hydroxyl groups",
+      "C": "The chair form is more symmetrical",
+      "D": "The chair form has a lower molecular weight"
+    },
+    "answer": "B",
+    "explanation": "The chair conformation of a six-carbon sugar is more stable than the boat form due to less steric hindrance or repulsion between the hydroxyl groups in the molecule."
+  },
+  {
+    "question": "How do the two chair forms of a six-carbon sugar relate to each other?",
+    "options": {
+      "A": "They are anomers",
+      "B": "They are epimers",
+      "C": "They are conformational isomers",
+      "D": "They are enantiomers"
+    },
+    "answer": "C",
+    "explanation": "The two different chair forms of a six-carbon sugar are conformational isomers, which means they can be interconverted by rotations around single bonds without breaking any bonds."
+  },
+  {
+    "question": "What is the key characteristic of enantiomers?",
+    "options": {
+      "A": "They differ in configuration at only one chiral center",
+      "B": "They have the same physical and chemical properties",
+      "C": "They are non-superimposable mirror images of each other",
+      "D": "They can be interconverted by rotation around single bonds"
+    },
+    "answer": "C",
+    "explanation": "Enantiomers are a pair of molecules that are non-superimposable mirror images of each other. They have the same chemical formula and connectivity but differ in the spatial arrangement of their atoms."
+  },
+  {
+    "question": "What is the relationship between diastereomers and enantiomers?",
+    "options": {
+      "A": "All diastereomers are enantiomers",
+      "B": "All enantiomers are diastereomers",
+      "C": "Diastereomers are a specific type of enantiomer",
+      "D": "Diastereomers include all stereoisomers that are not enantiomers"
+    },
+    "answer": "D",
+    "explanation": "Diastereomers is a broader term that includes all stereoisomers that are not enantiomers. This means that diastereomers are stereoisomers that are not mirror images of each other."
+  },
+  {
+    "question": "What distinguishes anomers from other epimers?",
+    "options": {
+      "A": "Anomers are a specific type of epimer that differ in configuration at the anomeric carbon",
+      "B": "Anomers differ in configuration at multiple chiral centers",
+      "C": "Anomers are enantiomers, while other epimers are diastereomers",
+      "D": "Anomers have different ring sizes, while other epimers have the same ring size"
+    },
+    "answer": "A",
+    "explanation": "Anomers are a specific type of epimer that differ in configuration specifically at the anomeric carbon. This carbon is the one involved in the hemiacetal or hemiketal formation, leading to the cyclic form of the sugar."
+  },
+  {
+    "question": "What are amino sugars?",
+    "options": {
+      "A": "Sugars containing an amino group (-NH2) in place of a hydroxyl group",
+      "B": "Sugars linked to an amino acid",
+      "C": "Sugars that have been phosphorylated",
+      "D": "Sugars with a carboxyl group attached"
+    },
+    "answer": "A",
+    "explanation": "Amino sugars are sugar derivatives where one or more hydroxyl groups (-OH) on the sugar molecule are replaced by an amino group (-NH2). These modified sugars are often components of complex biomolecules."
+  },
+  {
+    "question": "What suffix is commonly used to indicate the presence of an amino group in the name of an amino sugar?",
+    "options": {
+      "A": "-ose",
+      "B": "-itol",
+      "C": "-uronic",
+      "D": "-samine"
+    },
+    "answer": "D",
+    "explanation": "The suffix \"-samine\" is typically added to the name of a sugar to indicate the presence of an amino group replacing a hydroxyl group. For example, glucosamine is an amino sugar derived from glucose."
+  },
+  {
+    "question": "What are deoxy sugars?",
+    "options": {
+      "A": "Sugars that have lost a water molecule",
+      "B": "Sugars with a double bond between two carbon atoms",
+      "C": "Sugars that have been oxidized to form a carboxyl group",
+      "D": "Sugars where a hydroxyl group is replaced by a hydrogen atom"
+    },
+    "answer": "D",
+    "explanation": "Deoxy sugars are sugar derivatives where one or more hydroxyl groups (-OH) on the sugar molecule are replaced by a hydrogen atom (-H)."
+  },
+  {
+    "question": "What modification occurs in sugar phosphates?",
+    "options": {
+      "A": "Addition of a phosphate group",
+      "B": "Removal of a hydroxyl group",
+      "C": "Formation of a glycosidic bond",
+      "D": "Oxidation of an aldehyde group"
+    },
+    "answer": "A",
+    "explanation": "Sugar phosphates are formed when a phosphate group is added to a sugar molecule, typically through a process called phosphorylation. This modification is crucial for various metabolic pathways."
+  },
+  {
+    "question": "What characteristic distinguishes acidic sugars?",
+    "options": {
+      "A": "The presence of a carboxyl group (-COOH or -COO-)",
+      "B": "A sour taste",
+      "C": "The ability to form polymers",
+      "D": "A high solubility in water"
+    },
+    "answer": "A",
+    "explanation": "Acidic sugars are characterized by the presence of a carboxyl group (-COOH or -COO-) in their structure, making them acidic in nature. These sugars often exist in an ionized form at physiological pH."
+  },
+  {
+    "question": "How are aldonic acids formed?",
+    "options": {
+      "A": "By oxidation of the aldehyde group of a sugar to a carboxyl group",
+      "B": "By reduction of the ketone group of a sugar to a hydroxyl group",
+      "C": "By addition of an amino group to the sugar molecule",
+      "D": "By removal of a water molecule from the sugar"
+    },
+    "answer": "A",
+    "explanation": "Aldonic acids are formed through the oxidation of the aldehyde group at the terminal end of a sugar molecule to a carboxyl group."
+  },
+  {
+    "question": "What is gluconic acid?",
+    "options": {
+      "A": "An amino sugar derived from glucose",
+      "B": "A deoxy sugar derived from glucose",
+      "C": "A uronic acid derived from glucose",
+      "D": "An aldonic acid derived from glucose"
+    },
+    "answer": "D",
+    "explanation": "Gluconic acid is a specific aldonic acid that is formed through the oxidation of glucose."
+  },
+  {
+    "question": "Where is the carboxyl group located in uronic acids?",
+    "options": {
+      "A": "At the terminal end of the carbon chain where the aldehyde group was located",
+      "B": "On a side chain attached to the carbon backbone",
+      "C": "At the opposite end of the carbon chain from the original carbonyl group",
+      "D": "Within a ring structure formed by the sugar"
+    },
+    "answer": "C",
+    "explanation": "Uronic acids have their carboxyl group located at the terminal end of the carbon chain opposite the original carbonyl group."
+  },
+  {
+    "question": "What are lactones?",
+    "options": {
+      "A": "Cyclic esters formed from aldonic or uronic acids",
+      "B": "Polymers of sugar molecules",
+      "C": "Sugar molecules with a phosphate group attached",
+      "D": "Sugar molecules with an amino group attached"
+    },
+    "answer": "A",
+    "explanation": "Lactones are cyclic esters formed from aldonic or uronic acids, where the carboxyl group reacts with a hydroxyl group within the same molecule to form a ring structure."
+  },
+  {
+    "question": "What is a key characteristic of sialic acids?",
+    "options": {
+      "A": "They have a five-carbon backbone",
+      "B": "They are neutral sugars",
+      "C": "They are commonly found in plant cell walls",
+      "D": "They have a nine-carbon backbone"
+    },
+    "answer": "D",
+    "explanation": "Sialic acids are a family of acidic sugars with a distinctive nine-carbon backbone. They play diverse roles in biological recognition processes."
+  },
+  {
+    "question": "What is the abbreviation for glucose?",
+    "options": {
+      "A": "Glu",
+      "B": "Glc",
+      "C": "Gal",
+      "D": "Man"
+    },
+    "answer": "B",
+    "explanation": "The standard abbreviation for glucose is \"Glc\". This is an exception to the general rule of using the first three letters of the sugar name, likely to avoid confusion with amino acid abbreviations."
+  },
+  {
+    "question": "What does \"NAc\" indicate in the abbreviation of a sugar?",
+    "options": {
+      "A": "The presence of a nitrogen atom",
+      "B": "N-linked acetylation",
+      "C": "The presence of an acetyl group",
+      "D": "The sugar is an acid"
+    },
+    "answer": "B",
+    "explanation": "In sugar abbreviations, \"NAc\" stands for N-linked acetylation, signifying the addition of an acetyl group to a nitrogen atom."
+  },
+  {
+    "question": "What is a reducing sugar?",
+    "options": {
+      "A": "A sugar that can donate electrons to another molecule",
+      "B": "A sugar that has been broken down into smaller units",
+      "C": "A sugar that cannot be further oxidized",
+      "D": "A sugar that is only found in reducing environments"
+    },
+    "answer": "A",
+    "explanation": "A reducing sugar is a sugar that can act as a reducing agent, meaning it can donate electrons to another chemical species, typically a metal ion. This ability often stems from the presence of a free aldehyde or ketone group."
+  },
+  {
+    "question": "What is the principle behind Fehling's test for detecting reducing sugars?",
+    "options": {
+      "A": "The change in color of a copper-containing solution upon reduction",
+      "B": "The formation of a precipitate when the sugar reacts with an acid",
+      "C": "The change in pH of the solution when the sugar is added",
+      "D": "The measurement of the optical rotation of the sugar solution"
+    },
+    "answer": "A",
+    "explanation": "Fehling's test relies on the reduction of copper ions (Cu²⁺) in a blue solution to copper(I) oxide (Cu₂O), which forms a reddish precipitate. This color change indicates the presence of a reducing sugar."
+  },
+  {
+    "question": "Why are only linear forms of sugars detected in Fehling's test?",
+    "options": {
+      "A": "Cyclic sugars cannot reduce copper ions",
+      "B": "The equilibrium between linear and cyclic forms favors the linear form in the test conditions",
+      "C": "Fehling's reagent only reacts with the aldehyde group in the linear form",
+      "D": "Cyclic sugars are too large to interact with Fehling's reagent"
+    },
+    "answer": "C",
+    "explanation": "While both linear and cyclic forms of sugars exist in solution, Fehling's test specifically detects the linear form because the reaction involves the oxidation of the aldehyde group, which is only present in the linear form."
+  },
+  {
+    "question": "What functional group in sugars is primarily responsible for their reducing ability?",
+    "options": {
+      "A": "Hydroxyl group",
+      "B": "Carboxyl group",
+      "C": "Aldehyde group",
+      "D": "Ether group"
+    },
+    "answer": "C",
+    "explanation": "The aldehyde group (-CHO) is primarily responsible for the reducing ability of sugars in tests like Fehling's test. It can be oxidized to a carboxyl group, while reducing another chemical species."
+  },
+  {
+    "question": "Why are ketones generally not considered reducing sugars?",
+    "options": {
+      "A": "Ketones lack a carbonyl group",
+      "B": "Ketones cannot be oxidized under any conditions",
+      "C": "Ketones do not react with copper ions",
+      "D": "Ketones cannot exist in a linear form"
+    },
+    "answer": "C",
+    "explanation": "Ketones, while possessing a carbonyl group, do not readily undergo oxidation under the conditions of Fehling's test, unlike aldehydes. Therefore, they are not typically classified as reducing sugars."
+  }
+]

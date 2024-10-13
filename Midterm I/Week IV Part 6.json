@@ -1,0 +1,486 @@
+[
+  {
+    "question": "In the citric acid cycle, which step involves the release of the first CO2 molecule?",
+    "options": {
+      "A": "Step 1: Citrate synthase",
+      "B": "Step 2: Aconitase",
+      "C": "Step 3: Isocitrate dehydrogenase",
+      "D": "Step 4: α-Ketoglutarate Dehydrogenase Complex"
+    },
+    "answer": "C",
+    "explanation": "The first CO2 molecule is released during the conversion of isocitrate to α-ketoglutarate, catalyzed by isocitrate dehydrogenase."
+  },
+  {
+    "question": "What is the role of Mn2+ in the isocitrate dehydrogenase reaction?",
+    "options": {
+      "A": "It acts as a cofactor for the enzyme.",
+      "B": "It inhibits the enzyme's activity.",
+      "C": "It stabilizes the oxalosuccinate molecule and promotes decarboxylation.",
+      "D": "It converts NAD+ to NADH."
+    },
+    "answer": "C",
+    "explanation": "Mn2+ plays a crucial role in stabilizing the intermediate oxalosuccinate and facilitating the decarboxylation process."
+  },
+  {
+    "question": "Which of the following molecules act as inhibitors of the isocitrate dehydrogenase reaction?",
+    "options": {
+      "A": "NAD+ and ADP",
+      "B": "NADH and ATP",
+      "C": "Ca2+ and NAD+",
+      "D": "ADP and Ca2+"
+    },
+    "answer": "B",
+    "explanation": "Excess NADH and ATP signal high energy levels in the cell, inhibiting isocitrate dehydrogenase to slow down the citric acid cycle."
+  },
+  {
+    "question": "What is the similarity between the α-ketoglutarate dehydrogenase complex and the pyruvate dehydrogenase complex?",
+    "options": {
+      "A": "Both complexes use the same cofactors.",
+      "B": "Both complexes have identical E1, E2, and E3 subunits.",
+      "C": "Both complexes catalyze oxidative decarboxylation reactions.",
+      "D": "Both complexes are located in the cytoplasm."
+    },
+    "answer": "C",
+    "explanation": "Both complexes are involved in oxidative decarboxylation, removing a carbon dioxide molecule and generating NADH."
+  },
+  {
+    "question": "Which enzyme in the citric acid cycle utilizes FAD as a cofactor?",
+    "options": {
+      "A": "Citrate synthase",
+      "B": "Isocitrate dehydrogenase",
+      "C": "α-Ketoglutarate dehydrogenase",
+      "D": "Succinate dehydrogenase"
+    },
+    "answer": "D",
+    "explanation": "Succinate dehydrogenase is unique in the citric acid cycle as it uses FAD to accept electrons during the oxidation of succinate to fumarate."
+  },
+  {
+    "question": "What is the function of succinyl-CoA synthetase?",
+    "options": {
+      "A": "It converts succinyl-CoA to succinate, generating ATP.",
+      "B": "It catalyzes the oxidation of succinate to fumarate.",
+      "C": "It transfers a phosphate group from succinyl-CoA to ADP.",
+      "D": "It hydrolyzes succinyl-CoA to succinate and CoA-SH."
+    },
+    "answer": "A",
+    "explanation": "Succinyl-CoA synthetase utilizes the energy from the thioester bond in succinyl-CoA to generate GTP, which can be converted to ATP."
+  },
+  {
+    "question": "Which amino acid residue on succinyl-CoA synthetase is involved in phosphate transfer?",
+    "options": {
+      "A": "Serine",
+      "B": "Cysteine",
+      "C": "Histidine",
+      "D": "Aspartic acid"
+    },
+    "answer": "C",
+    "explanation": "A histidine residue on the enzyme acts as an intermediate phosphate carrier during the formation of GTP."
+  },
+  {
+    "question": "What is the role of nucleoside diphosphate kinase (NDPK) in the citric acid cycle?",
+    "options": {
+      "A": "It catalyzes the conversion of GTP to ATP.",
+      "B": "It phosphorylates GDP to form GTP.",
+      "C": "It dephosphorylates ATP to form ADP.",
+      "D": "It converts NAD+ to NADH."
+    },
+    "answer": "A",
+    "explanation": "NDPK facilitates the transfer of a phosphate group from GTP to ADP, generating ATP."
+  },
+  {
+    "question": "Which molecule acts as a potent inhibitor of succinate dehydrogenase?",
+    "options": {
+      "A": "Citrate",
+      "B": "Malate",
+      "C": "Fumarate",
+      "D": "Malonate"
+    },
+    "answer": "D",
+    "explanation": "Malonate is a structural analog of succinate and competes for the enzyme's active site, inhibiting its activity."
+  },
+  {
+    "question": "What is the stereospecificity of fumarase?",
+    "options": {
+      "A": "It reacts with both cis- and trans-forms of fumarate.",
+      "B": "It specifically reacts with the cis-form of fumarate.",
+      "C": "It specifically reacts with the trans-form of fumarate.",
+      "D": "It reacts with both D- and L-malate."
+    },
+    "answer": "C",
+    "explanation": "Fumarase exhibits high stereospecificity, only catalyzing the hydration of the trans-form of fumarate to L-malate."
+  },
+  {
+    "question": "Which of the following statements about malate dehydrogenase is correct?",
+    "options": {
+      "A": "It catalyzes the irreversible conversion of malate to oxaloacetate.",
+      "B": "It uses FAD as a cofactor.",
+      "C": "It generates one molecule of NADH.",
+      "D": "It is inhibited by high concentrations of oxaloacetate."
+    },
+    "answer": "C",
+    "explanation": "The oxidation of malate to oxaloacetate by malate dehydrogenase results in the reduction of NAD+ to NADH."
+  },
+  {
+    "question": "How many dehydrogenase enzymes are involved in the citric acid cycle?",
+    "options": {
+      "A": "Two",
+      "B": "Three",
+      "C": "Four",
+      "D": "Five"
+    },
+    "answer": "C",
+    "explanation": "The citric acid cycle involves four dehydrogenase enzymes: isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, succinate dehydrogenase, and malate dehydrogenase."
+  },
+  {
+    "question": "Which of the following molecules acts as an activator of pyruvate oxidation?",
+    "options": {
+      "A": "Acetyl-CoA",
+      "B": "NADH",
+      "C": "ATP",
+      "D": "Insulin"
+    },
+    "answer": "D",
+    "explanation": "Insulin, a hormone, promotes glucose utilization and stimulates pyruvate oxidation."
+  },
+  {
+    "question": "What is the primary mechanism of ATP inhibition in pyruvate oxidation?",
+    "options": {
+      "A": "Competitive inhibition of the E1 subunit",
+      "B": "Allosteric inhibition of the E2 subunit",
+      "C": "Phosphorylation of a serine residue on the E1 subunit",
+      "D": "Binding to the E3 subunit"
+    },
+    "answer": "C",
+    "explanation": "High ATP levels lead to the phosphorylation of a serine residue on the E1 subunit of the pyruvate dehydrogenase complex, inhibiting its activity."
+  },
+  {
+    "question": "Which molecule competes with acetyl-CoA for binding to the transporter responsible for its entry into the mitochondria?",
+    "options": {
+      "A": "Citrate",
+      "B": "Succinyl-CoA",
+      "C": "Malate",
+      "D": "Oxaloacetate"
+    },
+    "answer": "B",
+    "explanation": "Succinyl-CoA can bind to the transporter and prevent acetyl-CoA from entering the mitochondria."
+  },
+  {
+    "question": "Which of the following is NOT a factor that regulates the activity of the citric acid cycle?",
+    "options": {
+      "A": "Substrate availability",
+      "B": "Product inhibition",
+      "C": "Oxygen concentration",
+      "D": "Allosteric regulation"
+    },
+    "answer": "C",
+    "explanation": "While oxygen is essential for the electron transport chain, which regenerates NAD+ and FAD for the citric acid cycle, it does not directly regulate the cycle's enzymes."
+  },
+  {
+    "question": "What is the net yield of ATP from glycolysis?",
+    "options": {
+      "A": "2 ATP",
+      "B": "4 ATP",
+      "C": "6 ATP",
+      "D": "8 ATP"
+    },
+    "answer": "A",
+    "explanation": "Glycolysis consumes 2 ATP molecules and generates 4 ATP molecules, resulting in a net gain of 2 ATP."
+  },
+  {
+    "question": "How many ATP molecules are generated per NADH molecule during oxidative phosphorylation?",
+    "options": {
+      "A": "1.5",
+      "B": "2",
+      "C": "2.5",
+      "D": "3"
+    },
+    "answer": "C",
+    "explanation": "On average, the oxidation of one NADH molecule through the electron transport chain yields 2.5 ATP molecules."
+  },
+  {
+    "question": "What is the total ATP yield from the complete oxidation of one glucose molecule?",
+    "options": {
+      "A": "10 ATP",
+      "B": "20 ATP",
+      "C": "30 ATP",
+      "D": "38 ATP"
+    },
+    "answer": "D",
+    "explanation": "Taking into account the ATP produced from glycolysis, pyruvate oxidation, and the citric acid cycle, the complete oxidation of glucose generates approximately 38 ATP molecules."
+  },
+  {
+    "question": "Why is the presence of oxygen necessary for the citric acid cycle to proceed, even though oxygen is not directly involved in the cycle's reactions?",
+    "options": {
+      "A": "Oxygen activates the enzymes of the citric acid cycle.",
+      "B": "Oxygen is required for the conversion of pyruvate to acetyl-CoA.",
+      "C": "Oxygen acts as the final electron acceptor in the electron transport chain, regenerating NAD+ and FAD.",
+      "D": "Oxygen is essential for the transport of substrates across the mitochondrial membrane."
+    },
+    "answer": "C",
+    "explanation": "The electron transport chain, which relies on oxygen as the terminal electron acceptor, is responsible for reoxidizing NADH and FADH2, ensuring a continuous supply of NAD+ and FAD for the citric acid cycle."
+  },
+  {
+    "question": "Which two processes contribute to ATP production from glucose?",
+    "options": {
+      "A": "Glycolysis and fermentation",
+      "B": "Substrate-level phosphorylation and oxidative phosphorylation",
+      "C": "Glycolysis and the pentose phosphate pathway",
+      "D": "The citric acid cycle and gluconeogenesis"
+    },
+    "answer": "B",
+    "explanation": "ATP is generated through both substrate-level phosphorylation, involving direct phosphate transfer from a substrate, and oxidative phosphorylation, coupled to the electron transport chain."
+  },
+  {
+    "question": "Which of the following steps in glucose metabolism involves substrate-level phosphorylation?",
+    "options": {
+      "A": "Step 3 of glycolysis",
+      "B": "Step 6 of glycolysis",
+      "C": "Step 7 of glycolysis",
+      "D": "Step 1 of the citric acid cycle"
+    },
+    "answer": "C",
+    "explanation": "Substrate-level phosphorylation occurs during step 7 of glycolysis (1,3-bisphosphoglycerate to 3-phosphoglycerate) and step 10 of glycolysis (phosphoenolpyruvate to pyruvate), as well as in step 5 of the citric acid cycle (succinyl-CoA to succinate)."
+  },
+  {
+    "question": "What is an amphibolic pathway?",
+    "options": {
+      "A": "A pathway that involves both anabolic and catabolic reactions.",
+      "B": "A pathway that is active only under anaerobic conditions.",
+      "C": "A pathway that exclusively synthesizes molecules.",
+      "D": "A pathway that occurs only in bacteria."
+    },
+    "answer": "A",
+    "explanation": "An amphibolic pathway can function in both anabolic (biosynthetic) and catabolic (degradative) processes."
+  },
+  {
+    "question": "What is the purpose of anaplerotic reactions?",
+    "options": {
+      "A": "To replenish intermediates of the citric acid cycle.",
+      "B": "To break down glucose into pyruvate.",
+      "C": "To generate ATP through oxidative phosphorylation.",
+      "D": "To synthesize amino acids from citric acid cycle intermediates."
+    },
+    "answer": "A",
+    "explanation": "Anaplerotic reactions replenish intermediates of the citric acid cycle that are used in other metabolic pathways, ensuring its continued function."
+  },
+  {
+    "question": "Which molecule is a key intermediate replenished by anaplerotic reactions?",
+    "options": {
+      "A": "Citrate",
+      "B": "Succinyl-CoA",
+      "C": "Oxaloacetate",
+      "D": "Fumarate"
+    },
+    "answer": "C",
+    "explanation": "Oxaloacetate is a crucial intermediate that is often depleted due to its involvement in various metabolic pathways. Anaplerotic reactions, such as the conversion of pyruvate to oxaloacetate, help maintain its levels."
+  },
+  {
+    "question": "What is the function of pyruvate carboxylase?",
+    "options": {
+      "A": "It converts pyruvate to acetyl-CoA.",
+      "B": "It catalyzes the decarboxylation of oxaloacetate.",
+      "C": "It converts pyruvate to oxaloacetate.",
+      "D": "It is involved in the transport of pyruvate into the mitochondria."
+    },
+    "answer": "C",
+    "explanation": "Pyruvate carboxylase is a key anaplerotic enzyme that replenishes oxaloacetate by converting pyruvate to oxaloacetate."
+  },
+  {
+    "question": "What is a biological tether?",
+    "options": {
+      "A": "A rigid protein structure that binds substrates.",
+      "B": "A flexible cofactor that can transfer substrates or intermediates to active sites.",
+      "C": "A type of enzyme inhibitor.",
+      "D": "A component of the electron transport chain."
+    },
+    "answer": "B",
+    "explanation": "A biological tether is a flexible cofactor, such as biotin, that can bind and transfer substrates or intermediates within an enzyme's active site."
+  },
+  {
+    "question": "Which vitamin is a precursor to the biological tether biotin?",
+    "options": {
+      "A": "Vitamin B1",
+      "B": "Vitamin B6",
+      "C": "Vitamin B7",
+      "D": "Vitamin B12"
+    },
+    "answer": "C",
+    "explanation": "Biotin, also known as vitamin B7, acts as a biological tether in enzymes like pyruvate carboxylase."
+  },
+  {
+    "question": "What is the first step in the mechanism of pyruvate carboxylase?",
+    "options": {
+      "A": "Binding of pyruvate to the enzyme.",
+      "B": "Dehydration of bicarbonate to form CO2.",
+      "C": "Transfer of CO2 to the biotin cofactor.",
+      "D": "Formation of pyruvate enolate."
+    },
+    "answer": "B",
+    "explanation": "The first step involves the ATP-dependent dehydration of bicarbonate to produce CO2."
+  },
+  {
+    "question": "Which carbon atom of pyruvate is involved in the formation of the new carbon-carbon bond in oxaloacetate?",
+    "options": {
+      "A": "Carbon 1",
+      "B": "Carbon 2",
+      "C": "Carbon 3",
+      "D": "All three carbons are involved."
+    },
+    "answer": "C",
+    "explanation": "The pyruvate enolate, formed from pyruvate, attacks CO2 at its electrophilic carbon, resulting in the formation of a new carbon-carbon bond at carbon 3 of pyruvate."
+  },
+  {
+    "question": "Which enzyme is missing in some anaerobic bacteria, preventing them from completing the citric acid cycle?",
+    "options": {
+      "A": "Citrate synthase",
+      "B": "Isocitrate dehydrogenase",
+      "C": "α-Ketoglutarate dehydrogenase",
+      "D": "Succinate dehydrogenase"
+    },
+    "answer": "C",
+    "explanation": "Some anaerobic bacteria lack α-ketoglutarate dehydrogenase, which is essential for the conversion of α-ketoglutarate to succinyl-CoA."
+  },
+  {
+    "question": "What is the significance of the incomplete citric acid cycle in anaerobic bacteria?",
+    "options": {
+      "A": "It allows them to generate ATP more efficiently.",
+      "B": "It provides precursors for biosynthetic pathways.",
+      "C": "It enables them to survive in oxygen-rich environments.",
+      "D": "It is a result of mutations that are detrimental to their survival."
+    },
+    "answer": "B",
+    "explanation": "Although incomplete, the pathways in anaerobic bacteria still generate intermediates that serve as precursors for the synthesis of essential molecules."
+  },
+  {
+    "question": "What is the role of NAD+ in the citric acid cycle?",
+    "options": {
+      "A": "It acts as an enzyme inhibitor.",
+      "B": "It is a product of several reactions in the cycle.",
+      "C": "It is a cofactor for dehydrogenase enzymes, accepting electrons during oxidation reactions.",
+      "D": "It is a substrate for ATP synthesis."
+    },
+    "answer": "C",
+    "explanation": "NAD+ functions as an electron acceptor, being reduced to NADH by dehydrogenase enzymes during the oxidation of substrates in the citric acid cycle."
+  },
+  {
+    "question": "What is the difference between oxidative decarboxylation and substrate-level phosphorylation?",
+    "options": {
+      "A": "Oxidative decarboxylation produces ATP, while substrate-level phosphorylation does not.",
+      "B": "Oxidative decarboxylation involves the removal of CO2, while substrate-level phosphorylation does not.",
+      "C": "Oxidative decarboxylation requires oxygen, while substrate-level phosphorylation does not.",
+      "D": "Oxidative decarboxylation occurs in the cytoplasm, while substrate-level phosphorylation occurs in the mitochondria."
+    },
+    "answer": "B",
+    "explanation": "Oxidative decarboxylation involves the removal of CO2 along with the oxidation of a substrate, often generating NADH or FADH2. Substrate-level phosphorylation directly transfers a phosphate group from a substrate to ADP or GDP to form ATP or GTP."
+  },
+  {
+    "question": "What is the function of the electron transport chain?",
+    "options": {
+      "A": "To break down glucose into pyruvate.",
+      "B": "To generate ATP through the oxidation of NADH and FADH2.",
+      "C": "To synthesize glucose from non-carbohydrate sources.",
+      "D": "To transport pyruvate into the mitochondria."
+    },
+    "answer": "B",
+    "explanation": "The electron transport chain utilizes the energy from the oxidation of NADH and FADH2 to create a proton gradient, which drives ATP synthesis."
+  },
+  {
+    "question": "Which of the following is an example of a cataplerotic reaction?",
+    "options": {
+      "A": "Conversion of pyruvate to oxaloacetate",
+      "B": "Conversion of oxaloacetate to aspartate",
+      "C": "Conversion of α-ketoglutarate to glutamate",
+      "D": "Conversion of malate to oxaloacetate"
+    },
+    "answer": "B",
+    "explanation": "Cataplerotic reactions remove intermediates from the citric acid cycle for use in other metabolic pathways. The conversion of oxaloacetate to aspartate is an example of such a reaction."
+  },
+  {
+    "question": "What is the significance of substrate channeling in enzyme complexes like pyruvate dehydrogenase and α-ketoglutarate dehydrogenase?",
+    "options": {
+      "A": "It prevents the accumulation of toxic intermediates.",
+      "B": "It enhances the rate of the overall reaction by minimizing diffusion of intermediates.",
+      "C": "It allows for the regulation of multiple enzymes by a single effector molecule.",
+      "D": "It ensures the stereospecificity of the reactions."
+    },
+    "answer": "B",
+    "explanation": "Substrate channeling within these complexes increases the efficiency of the reactions by directly passing intermediates between active sites, reducing the reliance on diffusion."
+  },
+  {
+    "question": "What is the role of calcium ions (Ca2+) in regulating pyruvate oxidation and the citric acid cycle?",
+    "options": {
+      "A": "Ca2+ inhibits pyruvate oxidation and activates the citric acid cycle.",
+      "B": "Ca2+ activates pyruvate oxidation and inhibits the citric acid cycle.",
+      "C": "Ca2+ activates both pyruvate oxidation and the citric acid cycle.",
+      "D": "Ca2+ inhibits both pyruvate oxidation and the citric acid cycle."
+    },
+    "answer": "C",
+    "explanation": "Calcium ions act as a signal of increased energy demand, activating both pyruvate oxidation, which provides acetyl-CoA for the cycle, and the citric acid cycle itself to increase ATP production."
+  },
+  {
+    "question": "What is the difference between NADH and FADH2 in terms of their ATP yield?",
+    "options": {
+      "A": "NADH yields more ATP than FADH2 during oxidative phosphorylation.",
+      "B": "FADH2 yields more ATP than NADH during oxidative phosphorylation.",
+      "C": "Both NADH and FADH2 yield the same amount of ATP.",
+      "D": "NADH is involved in substrate-level phosphorylation, while FADH2 is involved in oxidative phosphorylation."
+    },
+    "answer": "A",
+    "explanation": "Due to the entry point of their electrons into the electron transport chain, NADH generates 2.5 ATP per molecule, while FADH2 generates 1.5 ATP per molecule during oxidative phosphorylation."
+  },
+  {
+    "question": "What is the role of the thioester bond in succinyl-CoA in the citric acid cycle?",
+    "options": {
+      "A": "It provides energy for the formation of ATP.",
+      "B": "It facilitates the decarboxylation of α-ketoglutarate.",
+      "C": "It is involved in the oxidation of succinate to fumarate.",
+      "D": "It is required for the transport of succinyl-CoA across the mitochondrial membrane."
+    },
+    "answer": "A",
+    "explanation": "The high-energy thioester bond in succinyl-CoA is cleaved by succinyl-CoA synthetase, providing the energy for the synthesis of GTP, which can be converted to ATP."
+  },
+  {
+    "question": "What is the function of the iron-sulfur (Fe-S) clusters in enzymes like succinate dehydrogenase?",
+    "options": {
+      "A": "They act as cofactors, facilitating electron transfer.",
+      "B": "They bind substrates to the enzyme's active site.",
+      "C": "They regulate enzyme activity.",
+      "D": "They are involved in the transport of substrates across the mitochondrial membrane."
+    },
+    "answer": "A",
+    "explanation": "Fe-S clusters are essential components of enzymes involved in electron transfer reactions, such as succinate dehydrogenase."
+  },
+  {
+    "question": "Which of the following statements about the citric acid cycle is FALSE?",
+    "options": {
+      "A": "It is a cyclic metabolic pathway.",
+      "B": "It occurs in the cytoplasm of eukaryotic cells.",
+      "C": "It is essential for the complete oxidation of glucose.",
+      "D": "It generates both ATP and reducing equivalents (NADH and FADH2)."
+    },
+    "answer": "B",
+    "explanation": "The citric acid cycle takes place in the mitochondrial matrix of eukaryotic cells, not in the cytoplasm."
+  },
+  {
+    "question": "What is the significance of the conformational change in succinyl-CoA synthetase during GTP synthesis?",
+    "options": {
+      "A": "It allows for the transfer of the phosphate group from the histidine residue to GDP.",
+      "B": "It releases CoA-SH from succinyl-CoA.",
+      "C": "It facilitates the binding of succinyl-CoA to the enzyme.",
+      "D": "It enhances the rate of the reaction by increasing substrate affinity."
+    },
+    "answer": "A",
+    "explanation": "The conformational change brings the phosphorylated histidine residue closer to GDP, enabling the transfer of the phosphate group and the formation of GTP."
+  },
+  {
+    "question": "What is the role of the enzyme aconitase in the citric acid cycle?",
+    "options": {
+      "A": "It converts citrate to isocitrate.",
+      "B": "It catalyzes the oxidative decarboxylation of isocitrate.",
+      "C": "It converts α-ketoglutarate to succinyl-CoA.",
+      "D": "It oxidizes succinate to fumarate."
+    },
+    "answer": "A",
+    "explanation": "Aconitase catalyzes the isomerization of citrate to isocitrate through an intermediate called cis-aconitate."
+  }
+]

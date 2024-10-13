@@ -1,0 +1,321 @@
+[
+  {
+    "question": "Which amino acid is synthesized from α-ketoglutarate using glutamate dehydrogenase?",
+    "options": {
+      "A": "Glutamine",
+      "B": "Aspartate",
+      "C": "Glutamate",
+      "D": "Alanine"
+    },
+    "answer": "C",
+    "explanation": "Glutamate dehydrogenase catalyzes the conversion of α-ketoglutarate to glutamate using NH4+ and NAD(P)H."
+  },
+  {
+    "question": "Which of the following is a semi-essential amino acid that infants need to obtain from their diet?",
+    "options": {
+      "A": "Proline",
+      "B": "Lysine",
+      "C": "Arginine",
+      "D": "Glutamine"
+    },
+    "answer": "C",
+    "explanation": "Arginine is considered semi-essential because infants cannot synthesize it at a rate sufficient for growth."
+  },
+  {
+    "question": "What is the main function of hydroxyproline and hydroxylysine in collagen?",
+    "options": {
+      "A": "Increase flexibility",
+      "B": "Enhance elasticity",
+      "C": "Promote degradation",
+      "D": "Strengthen structure"
+    },
+    "answer": "D",
+    "explanation": "Hydroxylation of proline and lysine in collagen strengthens the collagen structure by allowing for tighter helix formation and cross-linkages."
+  },
+  {
+    "question": "What metabolic pathway provides the NADPH required for tyrosine biosynthesis?",
+    "options": {
+      "A": "Glycolysis",
+      "B": "Citric acid cycle",
+      "C": "Electron transport chain",
+      "D": "Pentose phosphate pathway"
+    },
+    "answer": "D",
+    "explanation": "The NADPH used to reduce dihydrobiopterin to tetrahydrobiopterin in tyrosine biosynthesis is sourced from the pentose phosphate pathway."
+  },
+  {
+    "question": "Which enzyme is responsible for the conversion of phenylalanine to tyrosine?",
+    "options": {
+      "A": "Tyrosine hydroxylase",
+      "B": "Phenylalanine transaminase",
+      "C": "Phenylalanine dehydrogenase",
+      "D": "Phenylalanine hydroxylase"
+    },
+    "answer": "D",
+    "explanation": "Phenylalanine hydroxylase catalyzes the hydroxylation of phenylalanine to tyrosine, using oxygen and tetrahydrobiopterin as cofactors."
+  },
+  {
+    "question": "What condition arises from a deficiency in vitamin C, impacting collagen synthesis?",
+    "options": {
+      "A": "Marasmus",
+      "B": "Kwashiorkor",
+      "C": "Scurvy",
+      "D": "Maple syrup urine disease"
+    },
+    "answer": "C",
+    "explanation": "Vitamin C deficiency impairs proline hydroxylation, leading to weak collagen and resulting in scurvy, characterized by bleeding gums and skin."
+  },
+  {
+    "question": "Which amino acid acts as the primary source of sulfur for cysteine biosynthesis?",
+    "options": {
+      "A": "Methionine",
+      "B": "Cysteine",
+      "C": "Homocysteine",
+      "D": "Serine"
+    },
+    "answer": "A",
+    "explanation": "Methionine is metabolized to homocysteine, which provides the sulfur group for cysteine synthesis."
+  },
+  {
+    "question": "What enzyme catalyzes the transfer of an amino group from glutamate to oxaloacetate, forming aspartate?",
+    "options": {
+      "A": "Glutamate dehydrogenase",
+      "B": "Aspartate transaminase",
+      "C": "Glutamine synthetase",
+      "D": "Alanine transaminase"
+    },
+    "answer": "B",
+    "explanation": "Aspartate transaminase (also known as aspartate aminotransferase) facilitates the transfer of an amino group from glutamate to oxaloacetate, yielding aspartate and α-ketoglutarate."
+  },
+  {
+    "question": "Which molecule serves as the methyl group donor in the conversion of homocysteine to methionine?",
+    "options": {
+      "A": "S-adenosylmethionine",
+      "B": "Tetrahydrofolate",
+      "C": "N5-methyltetrahydrofolate",
+      "D": "Dihydrobiopterin"
+    },
+    "answer": "C",
+    "explanation": "N5-methyltetrahydrofolate donates the methyl group to homocysteine, converting it back to methionine with the help of methionine synthase and vitamin B12."
+  },
+  {
+    "question": "What type of enzyme catalyzes the transfer of an amino group between an amino acid and an α-keto acid?",
+    "options": {
+      "A": "Kinase",
+      "B": "Dehydrogenase",
+      "C": "Aminotransferase",
+      "D": "Synthetase"
+    },
+    "answer": "C",
+    "explanation": "Aminotransferases (also known as transaminases) facilitate the reversible transfer of an amino group between an amino acid and an α-keto acid."
+  },
+  {
+    "question": "What is the primary metabolic fate of the α-keto acids produced from valine, leucine, and isoleucine?",
+    "options": {
+      "A": "Gluconeogenesis",
+      "B": "Glycogen synthesis",
+      "C": "Fatty acid synthesis",
+      "D": "Energy production"
+    },
+    "answer": "D",
+    "explanation": "The α-keto acids derived from valine, leucine, and isoleucine are further metabolized through oxidative pathways like the TCA cycle to generate energy."
+  },
+  {
+    "question": "What is the role of ascorbate in the synthesis of hydroxyproline?",
+    "options": {
+      "A": "Provides the hydroxyl group",
+      "B": "Acts as a coenzyme for the hydroxylase",
+      "C": "Reduces Fe3+ to Fe2+, maintaining enzyme activity",
+      "D": "Facilitates the cyclization of glutamate-γ-semialdehyde"
+    },
+    "answer": "C",
+    "explanation": "Ascorbate (vitamin C) acts as a reducing agent, regenerating Fe2+ from Fe3+ in prolyl hydroxylase, ensuring the enzyme remains active for hydroxyproline synthesis."
+  },
+  {
+    "question": "Which amino acid is a precursor to both glycine and cysteine?",
+    "options": {
+      "A": "Alanine",
+      "B": "Serine",
+      "C": "Glutamate",
+      "D": "Aspartate"
+    },
+    "answer": "B",
+    "explanation": "Serine can be converted to glycine through serine hydroxymethyltransferase and contributes to cysteine synthesis by providing the carbon backbone."
+  },
+  {
+    "question": "What genetic disease is characterized by the accumulation of α-keto acids from branched-chain amino acids?",
+    "options": {
+      "A": "Phenylketonuria",
+      "B": "Alkaptonuria",
+      "C": "Maple syrup urine disease",
+      "D": "Cystinuria"
+    },
+    "answer": "C",
+    "explanation": "Maple syrup urine disease results from a deficiency in the enzymes responsible for metabolizing the α-keto acids derived from valine, leucine, and isoleucine, leading to their buildup and characteristic urine odor."
+  },
+  {
+    "question": "Which of the following is NOT a function of amino acids in the body?",
+    "options": {
+      "A": "Energy storage",
+      "B": "Protein synthesis",
+      "C": "Hormone production",
+      "D": "Neurotransmitter synthesis"
+    },
+    "answer": "A",
+    "explanation": "While amino acids can be used for energy production, they are not primarily used for energy storage like carbohydrates and fats."
+  },
+  {
+    "question": "What is the function of glutamine synthetase?",
+    "options": {
+      "A": "Convert glutamate to glutamine",
+      "B": "Convert α-ketoglutarate to glutamate",
+      "C": "Transfer an amino group from glutamate to pyruvate",
+      "D": "Hydrolyze glutamine to glutamate and ammonia"
+    },
+    "answer": "A",
+    "explanation": "Glutamine synthetase uses ATP to catalyze the addition of an amino group to glutamate, forming glutamine."
+  },
+  {
+    "question": "Which cofactor is required by both prolyl hydroxylase and lysyl hydroxylase in collagen synthesis?",
+    "options": {
+      "A": "Vitamin B6",
+      "B": "Vitamin B12",
+      "C": "Fe2+",
+      "D": "Cu2+"
+    },
+    "answer": "C",
+    "explanation": "Both prolyl hydroxylase and lysyl hydroxylase utilize Fe2+ as a cofactor during the hydroxylation of proline and lysine residues in collagen."
+  },
+  {
+    "question": "Which amino acid is a precursor to the neurotransmitters dopamine and serotonin?",
+    "options": {
+      "A": "Tyrosine",
+      "B": "Tryptophan",
+      "C": "Glutamate",
+      "D": "Glycine"
+    },
+    "answer": "B",
+    "explanation": "Tryptophan serves as the precursor for serotonin (5-hydroxytryptamine) synthesis."
+  },
+  {
+    "question": "What specialized tRNA molecule carries selenocysteine during translation?",
+    "options": {
+      "A": "tRNASec",
+      "B": "tRNAPro",
+      "C": "tRNALys",
+      "D": "tRNASer"
+    },
+    "answer": "A",
+    "explanation": "A specific tRNA molecule, tRNAsec, is responsible for delivering selenocysteine to the ribosome during translation."
+  },
+  {
+    "question": "What is the role of the selenocysteine insertion element in selenoprotein synthesis?",
+    "options": {
+      "A": "Encodes the selenocysteine residue",
+      "B": "Recruits the selenocysteine synthase enzyme",
+      "C": "Recodes the UGA stop codon to incorporate selenocysteine",
+      "D": "Modifies the serine residue on tRNAsec to selenocysteine"
+    },
+    "answer": "C",
+    "explanation": "The selenocysteine insertion element, a stem-loop structure in the mRNA, allows the UGA codon, normally a stop signal, to be read as a selenocysteine codon during translation."
+  },
+  {
+    "question": "What is the direct source of selenium for selenophosphate synthesis?",
+    "options": {
+      "A": "Selenocysteine",
+      "B": "Selenite",
+      "C": "Selenium",
+      "D": "S-adenosylselenomethionine"
+    },
+    "answer": "C",
+    "explanation": "Elemental selenium is incorporated into selenophosphate by the enzyme selenophosphate synthetase."
+  },
+  {
+    "question": "Which of the following is NOT a metabolic intermediate in the synthesis of proline from glutamate?",
+    "options": {
+      "A": "Glutamate-5-semialdehyde",
+      "B": "Glutamate-γ-semialdehyde",
+      "C": "Pyrroline-5-carboxylate",
+      "D": "Ornithine"
+    },
+    "answer": "D",
+    "explanation": "Ornithine is an intermediate in the urea cycle and is not involved in proline biosynthesis."
+  },
+  {
+    "question": "What is the function of alanine transaminase in muscle tissue?",
+    "options": {
+      "A": "Synthesize alanine from pyruvate and glutamate",
+      "B": "Convert alanine to pyruvate for energy production",
+      "C": "Transfer an amino group from alanine to α-ketoglutarate",
+      "D": "Generate ammonia from alanine for excretion"
+    },
+    "answer": "A",
+    "explanation": "In muscle tissue, alanine transaminase facilitates the transfer of an amino group from glutamate to pyruvate, forming alanine, which can then be transported to the liver."
+  },
+  {
+    "question": "What is the significance of the reaction catalyzed by serine hydroxymethyltransferase?",
+    "options": {
+      "A": "It generates glycine from serine.",
+      "B": "It converts serine to cysteine.",
+      "C": "It provides one-carbon units for various metabolic processes.",
+      "D": "It regulates the levels of tetrahydrofolate."
+    },
+    "answer": "C",
+    "explanation": "Serine hydroxymethyltransferase, by interconverting serine and glycine, plays a crucial role in one-carbon metabolism, supplying units for processes like nucleotide synthesis."
+  },
+  {
+    "question": "What type of reaction is involved in the conversion of glutamate to glutamine?",
+    "options": {
+      "A": "Transamination",
+      "B": "Amidation",
+      "C": "Phosphorylation",
+      "D": "Decarboxylation"
+    },
+    "answer": "B",
+    "explanation": "The conversion of glutamate to glutamine involves the addition of an amino group to the carboxyl group of the glutamate side chain, a process called amidation."
+  },
+  {
+    "question": "Which enzyme is responsible for the hydrolysis of glutamine to glutamate and ammonia in the liver?",
+    "options": {
+      "A": "Glutaminase",
+      "B": "Glutamine synthetase",
+      "C": "Glutamate dehydrogenase",
+      "D": "Asparaginase"
+    },
+    "answer": "A",
+    "explanation": "Glutaminase catalyzes the breakdown of glutamine to glutamate and ammonia, particularly in the liver, contributing to ammonia disposal through the urea cycle."
+  },
+  {
+    "question": "Which of the following amino acids is synthesized directly from a glycolytic intermediate?",
+    "options": {
+      "A": "Serine",
+      "B": "Glycine",
+      "C": "Proline",
+      "D": "Cysteine"
+    },
+    "answer": "A",
+    "explanation": "Serine is synthesized from 3-phosphoglycerate, an intermediate in the glycolytic pathway."
+  },
+  {
+    "question": "What is the role of S-adenosylmethionine (SAM) in methionine metabolism?",
+    "options": {
+      "A": "Provides sulfur for cysteine synthesis",
+      "B": "Acts as a methyl group donor in various reactions",
+      "C": "Regenerates methionine from homocysteine",
+      "D": "Facilitates the conversion of methionine to homocysteine"
+    },
+    "answer": "B",
+    "explanation": "SAM, formed from methionine, is a primary methyl group donor in a variety of cellular reactions, including DNA methylation and neurotransmitter synthesis."
+  },
+  {
+    "question": "Why is tyrosine considered a non-essential amino acid?",
+    "options": {
+      "A": "It is not required for protein synthesis.",
+      "B": "It can be synthesized from phenylalanine.",
+      "C": "It is readily available in the diet.",
+      "D": "It is not involved in any important metabolic pathways."
+    },
+    "answer": "B",
+    "explanation": "Tyrosine can be synthesized from the essential amino acid phenylalanine, making it non-essential, meaning it doesn't need to be obtained directly from the diet."
+  }
+]
