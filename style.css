@@ -497,7 +497,10 @@ body.dark-mode .copy-text {
 .separator {
     color: #cecece;
 }
-.language {
-    position: absolute;
-    bottom: 25px;
+
+@media (min-width: 1024px) {
+    .language {
+        position: absolute;
+        bottom: 25px;
+    }
 }
