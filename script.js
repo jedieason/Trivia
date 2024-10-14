@@ -290,7 +290,6 @@ modeToggle.addEventListener('click', () => {
 document.querySelector('.language-button:nth-child(3)').addEventListener('click', function() {
             document.querySelector('.start-title').textContent = '生物化學';
             document.querySelector('#startGame').textContent = '開始';
-            document.querySelector('#modeToggle').textContent = '切換到深色模式';
             document.querySelector('.quiz-title').textContent = '生物化學';
             document.querySelector('.progress-text').textContent = '錯誤';
             document.querySelector('.progress-text:nth-child(2)').textContent = '錯誤';
@@ -306,7 +305,6 @@ document.querySelector('.language-button:nth-child(3)').addEventListener('click'
         document.querySelector('.language-button:nth-child(1)').addEventListener('click', function() {
             document.querySelector('.start-title').textContent = 'Biochemistry';
             document.querySelector('#startGame').textContent = 'Start';
-            document.querySelector('#modeToggle').textContent = 'Switch to dark mode';
             document.querySelector('.quiz-title').textContent = 'Biochemistry';
             document.querySelector('#wrongArea .progress-text').textContent = 'Wrong'; // 修改這行
             document.querySelector('#correctArea .progress-text').textContent = 'Correct'; // 新增這行
