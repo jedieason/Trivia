@@ -78,6 +78,7 @@ body {
     background-color: transparent;
     border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 /* 深色模式樣式 */
