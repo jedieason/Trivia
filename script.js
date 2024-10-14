@@ -281,9 +281,9 @@ modeToggle.addEventListener('click', () => {
 
     const img = modeToggle.querySelector('img');
     if (document.body.classList.contains('dark-mode')) {
-        img.src = 'sun.svg'; // Change to sun icon
+        img.src = 'Images/sun.svg'; // Change to sun icon
     } else {
-        img.src = 'moon.svg'; // Change to moon icon
+        img.src = 'Images/moon.svg'; // Change to moon icon
     }
 });
 
