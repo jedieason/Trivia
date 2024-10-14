@@ -279,16 +279,11 @@ const modeToggle = document.getElementById('modeToggle');
 modeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 
+    const img = modeToggle.querySelector('img');
     if (document.body.classList.contains('dark-mode')) {
-        modeToggle.textContent = 'Switch to light mode';
-        modeToggle.style.backgroundColor = '#623c3c';
-        modeToggle.style.color = '#c69d9d';
-        modeToggle.style.borderColor = '#623c3c';
+        img.src = 'sun.svg'; // Change to sun icon
     } else {
-        modeToggle.textContent = 'Switch to dark mode';
-        modeToggle.style.backgroundColor = '#fff';
-        modeToggle.style.color = '#bca3a3';
-        modeToggle.style.borderColor = '#bca3a3';
+        img.src = 'moon.svg'; // Change to moon icon
     }
 });
 
