@@ -72,14 +72,11 @@ body {
 
 /* Toggle Button */
 .toggle-button {
-    position: relative;
-    background-color: #fff;
-    border: 2px solid #bca3a3;
-    color: #bca3a3;
-    padding: 8px 16px;
-    font-size: 10px;
-    cursor: pointer;
-    border-radius: 30px;
+    position: absolute;
+    top:20px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
