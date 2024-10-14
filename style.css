@@ -74,7 +74,7 @@ body {
 .toggle-button {
     position: absolute;
     top:27px;
-    right: 15px;
+    right: 18px;
     background-color: transparent;
     border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
