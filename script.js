@@ -276,6 +276,7 @@ selectButtons.forEach(button => {
 
 // 切換模式
 const modeToggle = document.getElementById('modeToggle');
+const modeToggleHeader = document.getElementById('modeToggle-header');
 modeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 
@@ -287,6 +288,16 @@ modeToggle.addEventListener('click', () => {
     }
 });
 
+modeToggleHeader.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    const img = modeToggleHeader.querySelector('img');
+    if (document.body.classList.contains('dark-mode')) {
+        img.src = 'Images/sun.svg'; // Change to sun icon
+    } else {
+        img.src = 'Images/moon.svg'; // Change to moon icon
+    }
+});
 document.querySelector('.language-button:nth-child(3)').addEventListener('click', function() {
             document.querySelector('.start-title').textContent = '生物化學';
             document.querySelector('#startGame').textContent = '開始';
