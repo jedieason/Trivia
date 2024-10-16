@@ -19,7 +19,7 @@ const provider = new GoogleAuthProvider();
 const signInButton = document.getElementById("signInButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
-const userName = document.getElementById("userName");
+// const userName = document.getElementById("userName");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (userButton) {
@@ -51,7 +51,7 @@ onAuthStateChanged(auth, (user) => {
     userButton.src = user.photoURL; // Set the user's profile picture
     userButtonHomepage.style.display = "block";
     userButtonHomepage.src = user.photoURL; // Set the user's profile picture
-    userName.innerHTML = user.displayName;
+//    userName.innerHTML = user.displayName;
   } else {
     userButton.style.display = "none";
     userButtonHomepage.style.display = "none";
