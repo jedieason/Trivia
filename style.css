@@ -514,33 +514,9 @@ body.dark-mode .copy-text {
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
-.toggle-button-homepage {
-    position: absolute;
-    top:31px;
-    right: calc(65px + 2.8vw);
-    background-color: transparent;
-    color: lightgray;
-    border: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-}
-
-.user-profile-homepage {
-    position: absolute;
-    top: 27px;
-    right: calc(10px + 2vw);
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    border: none;
-    transition: all 0.3s ease;
-}
 
 /* Style for the login button */
 .login-button {
-    position: absolute;
-    top: 27px;
-    right: calc(10px + 2vw);
     font-size: 16px;
     background-color: transparent;
     color: lightgray;
@@ -581,3 +557,12 @@ body.dark-mode .login-button:hover{
     align-items: center;
     gap: 10px; /* Optional: adds space between the button and the image */
 }
+.header-right-homepage {
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Vertically center the items */
+    gap: 10px; /* Space between the items */
+    position: absolute;
+    top: 27px;
+    right: calc(10px + 2vw);
+}
+
