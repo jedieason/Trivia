@@ -515,7 +515,6 @@ body.dark-mode .copy-text {
     cursor: pointer;
 }
 
-/* Style for the login button */
 .login-button {
     font-size: 16px;
     background-color: transparent;
@@ -523,6 +522,7 @@ body.dark-mode .copy-text {
     border: 2px solid lightgray;
     border-radius: 10px;
     cursor: pointer;
+    padding: 4px 6px;
     transition: all 0.3s ease;
 }
 
@@ -541,13 +541,12 @@ body.dark-mode .login-button:hover{
 }
 
 .user-profile {
-    display: flex;
-    align-items: center;
     background-color: transparent;
     width: 30px;
     height: 30px;
     border: none;
     transition: all 0.3s ease;
+    border-radius: 10px;
 }
 
 .header-right {
@@ -555,6 +554,7 @@ body.dark-mode .login-button:hover{
     align-items: center;
     gap: 10px; /* Optional: adds space between the button and the image */
 }
+
 .header-right-homepage {
     display: flex; /* Use flexbox to arrange items in a row */
     align-items: center; /* Vertically center the items */
