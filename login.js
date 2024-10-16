@@ -17,7 +17,7 @@ const auth = getAuth();
 const provider = new GoogleAuthProvider();
 
 const signInButton = document.getElementById("signInButton");
-const signOutButton = document.getElementById("signInButton");
+const signOutButton = document.getElementById("signOutButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
 const userInfo = document.getElementById("userInfo");
