@@ -70,6 +70,7 @@ onAuthStateChanged(auth, (user) => {
 signInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
 
+var sendDebugBtn = document.getElementById("sendDebug");
 sendDebugBtn.onclick = function() {
   var question = document.getElementById('debugQuestion').value;
   var answer = document.getElementById('debugAnswer').value;
