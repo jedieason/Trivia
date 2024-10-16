@@ -21,8 +21,18 @@ const signOutButton = document.getElementById("signOutButton");
 const userButton = document.getElementById("userButton");
 const userName = document.getElementById("userName");
 
-signOutButton.style.display = "none";
-userButton.style.display = "none";
+document.addEventListener('DOMContentLoaded', (event) => {
+    if (signOutButton) {
+        signOutButton.style.display = "none";
+    } else {
+        console.error("Element with ID 'signOutButton' not found.");
+    }
+    if (userButton) {
+        userButton.style.display = "none";
+    } else {
+        console.error("Element with ID 'userButton' not found.");
+    }
+});
 
 const userSignIn = async () => {
   signInWithPopup(auth, provider)
