@@ -91,25 +91,35 @@
         </div>
     </div>
     <!-- 调试模态窗口 -->
-    <div id="debugModal" class="debug-modal">
-        <div class="debug-modal-content">
-        <div class="debug-modal-header">
+<!-- 调试模态窗口 -->
+    <div id="debugModal" class="modal">
+        <div class="modal-content">
+        <div class="modal-header">
             <span id="closeDebugModal" class="close">&times;</span>
             <h2>Edit Question</h2>
         </div>
-        <div class="debug-modal-body">
+        <div class="modal-body">
             <label for="debugQuestion">Question:</label>
             <textarea id="debugQuestion"></textarea>
+    
+            <!-- 添加选项编辑区域 -->
+            <label>Options:</label>
+            <div id="debugOptions">
+            <!-- 动态生成选项输入框 -->
+            </div>
+    
             <label for="debugAnswer">Answer:</label>
-            <textarea id="debugAnswer"></textarea>
+            <input type="text" id="debugAnswer">
+    
             <label for="debugExplanation">Explanation:</label>
             <textarea id="debugExplanation"></textarea>
         </div>
-        <div class="debug-modal-footer">
-                <button id="sendDebug" class="send-button">Send</button>
-            </div>
+        <div class="modal-footer">
+            <button id="sendDebug" class="send-button">Send</button>
+        </div>
         </div>
     </div>
+  
   
     <script src="script.js"></script>
     <script type="module" src="login.js"></script>

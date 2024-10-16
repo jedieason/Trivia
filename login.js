@@ -70,34 +70,42 @@ onAuthStateChanged(auth, (user) => {
 signInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
 
-document.getElementById('sendDebug').addEventListener('click', function() {
-  // 获取用户编辑后的数据
-  const question = document.getElementById('debugQuestion').value;
-  const answer = document.getElementById('debugAnswer').value;
-  const explanation = document.getElementById('debugExplanation').value;
+sendDebugBtn.onclick = function() {
+  var question = document.getElementById('debugQuestion').value;
+  var answer = document.getElementById('debugAnswer').value;
+  var explanation = document.getElementById('debugExplanation').value;
+
+  // 收集选项数据
+  var options = {};
+  for (let key in currentQuestion.options) {
+    var optionValue = document.getElementById(`debugOption_${key}`).value;
+    options[key] = optionValue;
+  }
 
   // 构建要发送的数据对象
   const data = {
     reporter: currentUserEmail,
+    filename: currentJsonFile,
     question: question,
     answer: answer,
-    explanation: explanation
+    explanation: explanation,
+    options: JSON.stringify(options) // 将选项对象转换为字符串
   };
 
   // 将数据对象转换为查询参数字符串
   const queryParams = new URLSearchParams(data).toString();
 
   // 发送 GET 请求到 Apps Script
-  fetch(`https://script.google.com/macros/s/AKfycbympbTZNKpJL4DgR4kxJVv0gO6-iJ9Fmxcche-b-5SX_ud3pxokZ85JeMsYhyIO5gW1/exec?${queryParams}`, {
+  fetch(`AKfycbyjf1DgMLA8UsTdd9ef-s5AzgzG9dqnNF-v8n9F7DmtTso2CnYrjw8mIO1dIcheq3cj?${queryParams}`, {
     method: 'GET',
     mode: 'no-cors'
   }).then(function() {
     console.log('Data sent to Google Sheets');
     // 关闭模态窗口或进行其他操作
-    document.getElementById('debugModal').style.display = 'none';
+    debugModal.style.display = 'none';
     alert('Data sent successfully!');
   }).catch(function(error) {
     console.error('Error:', error);
     alert('Failed to send data.');
   });
-});
+}

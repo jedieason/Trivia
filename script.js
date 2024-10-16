@@ -6,6 +6,7 @@ let correct = 0;
 let wrong = 0;
 let selectedJson = null; // 初始為 null
 let isTestCompleted = false; // Flag to track test completion
+let currentJsonFile = null;
 
 // 初始化測驗
 async function initQuiz() {
@@ -18,6 +19,7 @@ async function initQuiz() {
 // 加載題目
 async function loadQuestions() {
     try {
+        currentJsonFile = jsonFileName;
         const response = await fetch(selectedJson);
         questions = await response.json();
     } catch (error) {
@@ -357,29 +359,30 @@ function toggleExpand(event) {
     }
 }
 
-// 获取调试按钮和模态窗口元素
-var debugModal = document.getElementById("debugModal");
-var debugBtn = document.getElementById("deBug");
-var closeDebugModal = document.getElementById("closeDebugModal");
-
-// 当用户点击调试按钮时，显示模态窗口
 debugBtn.onclick = function() {
-  // 填充当前题目信息到模态窗口
-  document.getElementById('debugQuestion').value = currentQuestion.question;
-  document.getElementById('debugAnswer').value = currentQuestion.answer;
-  document.getElementById('debugExplanation').value = currentQuestion.explanation || '';
-
-  debugModal.style.display = "block";
-}
-
-// 当用户点击关闭按钮时，隐藏模态窗口
-closeDebugModal.onclick = function() {
-  debugModal.style.display = "none";
-}
-
-// 当用户点击模态窗口外部时，隐藏模态窗口
-window.onclick = function(event) {
-  if (event.target == debugModal) {
-    debugModal.style.display = "none";
+    // 填充当前题目信息到模态窗口
+    document.getElementById('debugQuestion').value = currentQuestion.question;
+    document.getElementById('debugAnswer').value = currentQuestion.answer;
+    document.getElementById('debugExplanation').value = currentQuestion.explanation || '';
+  
+    // 清空之前的选项输入框
+    const debugOptionsDiv = document.getElementById('debugOptions');
+    debugOptionsDiv.innerHTML = '';
+  
+    // 遍历选项，生成输入框
+    for (let key in currentQuestion.options) {
+      // 创建标签和输入框
+      const label = document.createElement('label');
+      label.textContent = `Option ${key}:`;
+      const input = document.createElement('textarea');
+      input.id = `debugOption_${key}`;
+      input.value = currentQuestion.options[key];
+  
+      // 将标签和输入框添加到容器中
+      debugOptionsDiv.appendChild(label);
+      debugOptionsDiv.appendChild(input);
+    }
+  
+    debugModal.style.display = "block";
   }
-}
+  

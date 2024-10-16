@@ -670,12 +670,16 @@ body.dark-mode .logout-button:hover {
   }
   
   .debug-modal-content {
-    background-color: var(--bg-color);
+    /* 背景色改为白色半透明 */
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 5% auto;
     padding: 20px;
     border: 1px solid var(--border-color);
     width: 80%;
-  }
+    /* 添加圆角和阴影，使其更美观 */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
   
   .debug-modal-header, .debug-modal-body, .debug-modal-footer {
     padding: 10px;
@@ -717,14 +721,17 @@ body.dark-mode .logout-button:hover {
     background-color: #b06666;
   }
   
-  .debug-modal-body textarea {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 10px;
-    background-color: var(--input-bg-color);
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
+  .debug-modal-body textarea, .debug-modal-content input {
+    background-color: rgba(255, 255, 255, 0.8); /* 输入框背景色 */
+    color: #000; /* 输入框文字颜色 */
+    border: 1px solid #ccc;
     padding: 10px;
-    resize: vertical;
+    width: 100%;
+    margin-bottom: 10px;
   }
+
+  .debug-modal-content label {
+    color: #000; /* 文本颜色设置为黑色 */
+  }
+  
   
