@@ -359,6 +359,11 @@ function toggleExpand(event) {
     }
 }
 
+// 获取调试按钮和模态窗口元素
+var debugModal = document.getElementById("debugModal");
+var debugBtn = document.getElementById("deBug");
+var closeDebugModal = document.getElementById("closeDebugModal");
+
 debugBtn.onclick = function() {
     // 填充当前题目信息到模态窗口
     document.getElementById('debugQuestion').value = currentQuestion.question;
