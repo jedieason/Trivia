@@ -515,11 +515,11 @@ body.dark-mode .copy-text {
 .login-button {
     position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #a35555;
-    color: white;
+    background-color: transparent;
+    color: lightgray;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -527,52 +527,18 @@ body.dark-mode .copy-text {
 }
 
 .login-button:hover {
-    background-color: #9a6262;
+    color: rgb(198, 198, 198)
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Style for the user profile picture */
 .user-profile {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #a35555;
-    transition: all 0.3s ease;
-}
-
-/* Style for the login button */
-.login-button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #a35555;
-    color: white;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.login-button:hover {
-    background-color: #9a6262;
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-/* Style for the user profile picture */
-.user-profile {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #a35555;
     transition: all 0.3s ease;
 }
