@@ -70,24 +70,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Toggle Button */
-.toggle-button {
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-}
-.toggle-button-homepage {
-    position: absolute;
-    top:27px;
-    right: 18px;
-    background-color: transparent;
-    border: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-}
 
 /* 深色模式樣式 */
 body.dark-mode {
@@ -496,6 +478,14 @@ body.dark-mode .copy-text {
     transition: color 0.3s;
 }
 
+.language-button {
+    color: #cecece;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
 .language-button:hover {
     color: #adadad;
 }
@@ -510,27 +500,65 @@ body.dark-mode .copy-text {
         bottom: 25px;
     }
 }
+/* Toggle Button */
+.toggle-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.toggle-button-homepage {
+    position: absolute;
+    top:31px;
+    right: calc(65px + 2.8vw);
+    background-color: transparent;
+    color: lightgray;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.user-profile-homepage {
+    position: absolute;
+    top: 27px;
+    right: calc(10px + 2vw);
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: none;
+    transition: all 0.3s ease;
+}
 
 /* Style for the login button */
 .login-button {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
+    top: 27px;
+    right: calc(10px + 2vw);
     font-size: 16px;
     background-color: transparent;
     color: lightgray;
-    border: none;
+    border: 2px solid lightgray;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .login-button:hover {
-    color: rgb(198, 198, 198)
+    color: white;
     transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 2px solid #cecece;
+    background-color: #cecece;
 }
+
+body.dark-mode .login-button:hover{
+    color: black;
+    transform: scale(1.05);
+    border: 2px solid #cecece;
+    background-color: #cecece;
+}
+
 
 /* Style for the user profile picture */
 .user-profile {
