@@ -355,11 +355,3 @@ function toggleExpand(event) {
         }
     }
 }
-
-// 為 logout 按鈕添加點擊事件
-document.querySelectorAll('.logout-button').forEach(button => {
-    button.addEventListener('click', () => {
-        // 在這裡添加登出邏輯
-        console.log('Logout clicked');
-    });
-});
