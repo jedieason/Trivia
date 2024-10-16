@@ -499,12 +499,7 @@ body.dark-mode .copy-text {
     color: #cecece;
 }
 
-@media (min-width: 1024px) {
-    .language {
-        position: absolute;
-        bottom: 25px;
-    }
-}
+
 /* Toggle Button */
 .toggle-button {
     display: flex;
@@ -564,7 +559,7 @@ body.dark-mode .login-button:hover{
     gap: 10px;
     position: absolute;
     top: 27px;
-    right: calc(10px + 2vw);
+    right: 30px;
 }
 
 .button-container {
@@ -593,7 +588,7 @@ body.dark-mode .login-button:hover{
     width: 30px;
     height: 45px;
     top: 2px;
-    right: -0.5px;
+    right: 0;
     border: none;
     background-color: #cecece;
     border-radius: 20px;
@@ -646,4 +641,13 @@ body.dark-mode .logout-button {
 body.dark-mode .logout-button:hover {
     color: #1e1e1e;
     background-color: #cecece;
+}
+
+@media (min-width: 1024px) {
+    .language {
+        position: absolute;
+        bottom: 25px;
+    }
+
+
 }
