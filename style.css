@@ -651,3 +651,7 @@ body.dark-mode .logout-button:hover {
 
 
 }
+
+#copy-btn {
+    cursor: pointer;
+}
