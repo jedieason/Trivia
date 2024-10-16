@@ -655,3 +655,76 @@ body.dark-mode .logout-button:hover {
 #copy-btn {
     cursor: pointer;
 }
+
+/* 模态窗口样式 */
+.debug-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .debug-modal-content {
+    background-color: var(--bg-color);
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    width: 80%;
+  }
+  
+  .debug-modal-header, .debug-modal-body, .debug-modal-footer {
+    padding: 10px;
+  }
+  
+  .debug-modal-header {
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .debug-modal-footer {
+    border-top: 1px solid var(--border-color);
+    text-align: right;
+  }
+  
+  .close {
+    color: var(--text-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  .debug-send-button {
+    background-color: #a55555;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .debug-send-button:hover {
+    background-color: #b06666;
+  }
+  
+  .debug-modal-body textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: var(--input-bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    resize: vertical;
+  }
+  
