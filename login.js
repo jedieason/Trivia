@@ -21,7 +21,7 @@ const signOutButton = document.getElementById("signOutButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
 const userInfo = document.getElementById("userInfo");
-// const userName = document.getElementById("userName");
+const userName = document.getElementById("userName");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (userButton) {
@@ -84,7 +84,7 @@ sendDebugBtn.onclick = function() {
 
   // 构建要发送的数据对象
   const data = {
-    reporter: currentUserEmail,
+    reporter: userName,
     filename: currentJsonFile,
     question: question,
     answer: answer,
