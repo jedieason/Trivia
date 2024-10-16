@@ -540,14 +540,12 @@ body.dark-mode .login-button:hover{
     background-color: #cecece;
 }
 
-
-/* Style for the user profile picture */
 .user-profile {
     display: flex;
     align-items: center;
     background-color: transparent;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: none;
     transition: all 0.3s ease;
 }
