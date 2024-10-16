@@ -551,6 +551,18 @@ body.dark-mode .login-button:hover{
     z-index: 1000;
 }
 
+/* .user-profile {
+    width: 30px;
+    height: 30px;
+    background-color: #cecece;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+} */
+
 .header-right {
     display: flex;
     align-items: center;
@@ -570,18 +582,6 @@ body.dark-mode .login-button:hover{
     position: relative;
     width: 30px;
     height: 30px;
-}
-
-.user-profile {
-    width: 30px;
-    height: 30px;
-    background-color: #cecece;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-    transition: all 0.3s ease;
 }
 
 .expandable-frame {
