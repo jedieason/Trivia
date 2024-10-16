@@ -329,6 +329,7 @@ document.querySelector('.language-button:nth-child(3)').addEventListener('click'
 // 為兩個 profile pic 添加點擊事件
 document.getElementById('userButton').addEventListener('click', toggleExpand);
 document.getElementById('userButton-homepage').addEventListener('click', toggleExpand);
+document.getElementById('signOutButton').addEventListener('click', toggleExpand);
 
 function toggleExpand(event) {
     const frame = event.currentTarget.nextElementSibling;
