@@ -50,7 +50,6 @@ const userSignOut = async() => {
   signOut(auth).then(() => {
       userInfo.style.display = "none";
       signInButton.style.display = "block";
-      fold();
       console.log("User signed out");
   }).catch((error) => {})
 }
@@ -70,20 +69,3 @@ onAuthStateChanged(auth, (user) => {
 
 signInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
-
-function fold(event) {
-    const frame = event.currentTarget.nextElementSibling;
-    const logoutButton = frame.querySelector('.logout-button');
-    if (frame.classList.contains('till-button-expanded')) {
-                frame.classList.remove('till-button-expanded');
-                frame.classList.add('expanded');
-                logoutButton.classList.remove('show-logout');
-                setTimeout(() => {
-                    frame.classList.remove('expanded');
-                }, 300);
-            } else {
-                frame.classList.remove('expanded');
-                logoutButton.classList.remove('show-logout');
-            }
-    }
-
