@@ -21,7 +21,7 @@ const signOutButton = document.getElementById("signOutButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
 const userInfo = document.getElementById("userInfo");
-const userName = document.getElementById("userName");
+// const userName = document.getElementById("userName");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (userButton) {
@@ -69,44 +69,3 @@ onAuthStateChanged(auth, (user) => {
 
 signInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
-
-var sendDebugBtn = document.getElementById("sendDebug");
-sendDebugBtn.onclick = function() {
-  var question = document.getElementById('debugQuestion').value;
-  var answer = document.getElementById('debugAnswer').value;
-  var explanation = document.getElementById('debugExplanation').value;
-
-  // 收集选项数据
-  var options = {};
-  for (let key in currentQuestion.options) {
-    var optionValue = document.getElementById(`debugOption_${key}`).value;
-    options[key] = optionValue;
-  }
-
-  // 构建要发送的数据对象
-  const data = {
-    reporter: userName,
-    filename: currentJsonFile,
-    question: question,
-    answer: answer,
-    explanation: explanation,
-    options: JSON.stringify(options) // 将选项对象转换为字符串
-  };
-
-  // 将数据对象转换为查询参数字符串
-  const queryParams = new URLSearchParams(data).toString();
-
-  // 发送 GET 请求到 Apps Script
-  fetch(`AKfycbyjf1DgMLA8UsTdd9ef-s5AzgzG9dqnNF-v8n9F7DmtTso2CnYrjw8mIO1dIcheq3cj?${queryParams}`, {
-    method: 'GET',
-    mode: 'no-cors'
-  }).then(function() {
-    console.log('Data sent to Google Sheets');
-    // 关闭模态窗口或进行其他操作
-    debugModal.style.display = 'none';
-    alert('Data sent successfully!');
-  }).catch(function(error) {
-    console.error('Error:', error);
-    alert('Failed to send data.');
-  });
-}
