@@ -213,6 +213,12 @@ body.dark-mode .modal-confirm-button:hover {
     margin-bottom: 20px;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Optional: adds space between the button and the image */
+}
+
 .quiz-title {
     font-size: 24px;
     font-weight: bold;
@@ -425,7 +431,6 @@ body.dark-mode .modal-confirm-button:hover {
     border: solid 2px #a35555;
 }
 
-/* 深色模式下的模態窗口樣式 */
 body.dark-mode .modal-content {
     background-color: rgba(30,30,30,0.8);
     color: #ffffff;
@@ -569,4 +574,10 @@ body.dark-mode .login-button:hover{
     height: 20px;
     border: none;
     transition: all 0.3s ease;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Optional: adds space between the button and the image */
 }
