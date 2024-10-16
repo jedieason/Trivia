@@ -549,19 +549,8 @@ body.dark-mode .login-button:hover{
     border-radius: 10px;
     cursor: pointer;
     z-index: 1000;
-}
-
-/* .user-profile {
-    width: 30px;
-    height: 30px;
-    background-color: #cecece;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
     position: relative;
-    z-index: 2;
-    transition: all 0.3s ease;
-} */
+}
 
 .header-right {
     display: flex;
@@ -606,7 +595,7 @@ body.dark-mode .login-button:hover{
     top: 2px;
     right: -0.5px;
     border: none;
-    background-color: #e8e8e89d;
+    background-color: #cecece;
     border-radius: 20px;
 }
 
