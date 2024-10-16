@@ -48,22 +48,53 @@ const userSignIn = async () => {
 
 const userSignOut = async() => {
   signOut(auth).then(() => {
-      userInfo.style.display = "none";
-      signInButton.style.display = "block";
-      console.log("User signed out");
-  }).catch((error) => {})
+    userInfo.style.display = "none";
+    signInButton.style.display = "block";
+    console.log("User signed out");
+    
+    // Reset the expandable frame
+    const frames = document.querySelectorAll('.expandable-frame');
+    frames.forEach(frame => {
+      frame.classList.remove('expanded', 'till-button-expanded');
+    });
+    
+    // Hide logout buttons
+    const logoutButtons = document.querySelectorAll('.logout-button');
+    logoutButtons.forEach(button => {
+      button.classList.remove('show-logout');
+    });
+    
+    // Reset user profile pictures
+    userButton.src = '';
+    userButtonHomepage.src = '';
+  }).catch((error) => {
+    console.error("Error signing out:", error);
+  });
 }
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
     signInButton.style.display = "none";
     userInfo.style.display = "block";
-    userButton.src = user.photoURL; // Set the user's profile picture
-    userButtonHomepage.src = user.photoURL; // Set the user's profile picture
-//    userName.innerHTML = user.displayName;
+    userButton.src = user.photoURL;
+    userButtonHomepage.src = user.photoURL;
+    
+    // Reset the expandable frame
+    const frames = document.querySelectorAll('.expandable-frame');
+    frames.forEach(frame => {
+      frame.classList.remove('expanded', 'till-button-expanded');
+    });
+    
+    // Hide logout buttons
+    const logoutButtons = document.querySelectorAll('.logout-button');
+    logoutButtons.forEach(button => {
+      button.classList.remove('show-logout');
+    });
   } else {
     userInfo.style.display = "none";
     signInButton.style.display = "block";
+    userButton.src = '';
+    userButtonHomepage.src = '';
   }
 });
 
