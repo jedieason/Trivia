@@ -325,3 +325,41 @@ document.querySelector('.language-button:nth-child(3)').addEventListener('click'
             document.querySelector('#modal-message').textContent = 'Choose something';
             document.querySelector('#modalConfirmBtn').textContent = 'Got it!';
         });
+
+// 為兩個 profile pic 添加點擊事件
+document.getElementById('userButton').addEventListener('click', toggleExpand);
+document.getElementById('userButton-homepage').addEventListener('click', toggleExpand);
+
+function toggleExpand(event) {
+    const frame = event.currentTarget.nextElementSibling;
+    const logoutButton = frame.querySelector('.logout-button');
+    
+    if (!frame.classList.contains('expanded') && !frame.classList.contains('till-button-expanded')) {
+        frame.classList.add('expanded');
+        logoutButton.classList.add('show-logout');
+        setTimeout(() => {
+            frame.classList.remove('expanded');
+            frame.classList.add('till-button-expanded');
+        }, 300);
+    } else {
+        if (frame.classList.contains('till-button-expanded')) {
+            frame.classList.remove('till-button-expanded');
+            frame.classList.add('expanded');
+            logoutButton.classList.remove('show-logout');
+            setTimeout(() => {
+                frame.classList.remove('expanded');
+            }, 300);
+        } else {
+            frame.classList.remove('expanded');
+            logoutButton.classList.remove('show-logout');
+        }
+    }
+}
+
+// 為 logout 按鈕添加點擊事件
+document.querySelectorAll('.logout-button').forEach(button => {
+    button.addEventListener('click', () => {
+        // 在這裡添加登出邏輯
+        console.log('Logout clicked');
+    });
+});

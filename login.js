@@ -17,14 +17,15 @@ const auth = getAuth();
 const provider = new GoogleAuthProvider();
 
 const signInButton = document.getElementById("signInButton");
+const signOutButton = document.getElementById("signInButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
+const userInfo = document.getElementById("userInfo");
 // const userName = document.getElementById("userName");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (userButton) {
-        userButton.style.display = "none";
-        userButtonHomepage.style.display = "none";
+        userInfo.style.display = "none";
     } else {
         console.error("Element with ID 'userButton' not found.");
     }
@@ -44,19 +45,27 @@ const userSignIn = async () => {
     });
 };
 
+
+const userSignOut = async() => {
+  signOut(auth).then(() => {
+      userInfo.style.display = "none";
+      signInButton.style.display = "block";
+      console.log("User signed out");
+  }).catch((error) => {})
+}
+
 onAuthStateChanged(auth, (user) => {
   if (user) {
     signInButton.style.display = "none";
-    userButton.style.display = "block";
+    userInfo.style.display = "block";
     userButton.src = user.photoURL; // Set the user's profile picture
-    userButtonHomepage.style.display = "block";
     userButtonHomepage.src = user.photoURL; // Set the user's profile picture
 //    userName.innerHTML = user.displayName;
   } else {
-    userButton.style.display = "none";
-    userButtonHomepage.style.display = "none";
+    userInfo.style.display = "none";
     signInButton.style.display = "block";
   }
 });
 
 signInButton.addEventListener('click', userSignIn);
+signOutButton.addEventListener('click', userSignOut);
