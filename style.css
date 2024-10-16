@@ -606,7 +606,7 @@ body.dark-mode .login-button:hover{
 }
 
 .logout-button {
-    background-color: transparent;
+    background-color: hsla(0, 0%, 100%, 0.9);
     width: 100%; /* 使用 100% 寬度 */
     height: 100%; /* 使用 100% 高度 */
     border: none;
