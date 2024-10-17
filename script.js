@@ -343,11 +343,11 @@ function toggleExpand(event) {
     const logoutButton = frame.querySelector('.logout-button');
     
     if (!frame.classList.contains('expanded') && !frame.classList.contains('till-button-expanded')) {
-        frame.classList.add('expanded');
-        logoutButton.classList.add('show-logout');
+        frame.classList.add('open-expansion');
         setTimeout(() => {
-            frame.classList.remove('expanded');
+            frame.classList.remove('open-expansion');
             frame.classList.add('till-button-expanded');
+            logoutButton.classList.add('show-logout');
         }, 300);
     } else {
         if (frame.classList.contains('till-button-expanded')) {
