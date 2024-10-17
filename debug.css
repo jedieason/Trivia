@@ -1,15 +1,3 @@
-#toggleButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    z-index: 1;
-    transition: opacity 0.5s ease; /* 添加過渡效果 */
-}
-/* 基本隱藏狀態 */
 #popupWindow {
     opacity: 0;
     visibility: hidden;
@@ -24,7 +12,7 @@
     border-radius: 5px;
     padding: 20px;
     backdrop-filter: blur(10px); /* 增加模糊效果 */
-    z-index: 2;
+    z-index: 2000;
 }
 /* 顯示時的狀態 */
 #popupWindow.show {
