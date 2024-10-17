@@ -383,17 +383,23 @@ function gatherEditedContent() {
 }
 
 function sendToGoogleDocs(content) {
-    fetch('https://script.google.com/macros/s/AKfycby3HeO1yq6Yy8L-xku4hzJjgBB4UUShYqKilYHNYmWXxkgGNy4ffqwzu2CaXXTl4XRN/exec', { // Replace with your web app URL
+    fetch('https://script.google.com/macros/s/AKfycbzbDUnU6lslzd1hjj2e1gwFTYzekrp-6RJZoN4wb0_Mk6OroNScppnvhjVXkT6gqvyg/exec', { // Replace with your actual web app URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({ content })
     })
-    .then(response => response.text())
-    .then(data => console.log(data))
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json(); // Assuming your server responds with JSON
+    })
+    .then(data => console.log('Success:', data))
     .catch(error => console.error('Error:', error));
 }
+
 
 // Add an event listener to the send button
 document.getElementById('sendButton').addEventListener('click', gatherEditedContent);
