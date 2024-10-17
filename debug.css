@@ -45,7 +45,7 @@
     background-color: #a55555;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
 }
 #sendButton:hover {
