@@ -366,7 +366,7 @@ function toggleExpand(event) {
 
 function gatherEditedContent() {
     const currentDate = new Date().toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true });
-    const jsonFileName = 'b12.json'; // Replace with the actual logic to get the current JSON file name
+    const jsonFileName = selectedJson || 'default.json';
     const question = document.querySelector('#popupWindow .editable:nth-child(2)').innerText;
     const optionsText = document.querySelector('#popupWindow .editable:nth-child(3)').innerText;
     const options = optionsText.split('\n').reduce((acc, option) => {
@@ -383,27 +383,25 @@ function gatherEditedContent() {
 }
 
 function sendToGoogleDocs(content) {
-    const url = 'https://script.google.com/macros/s/AKfycby1j32JvR2wmIbF1ph8R8UsAQBjav9WZOPS1dyxoRUkDVcHmgkBPwa_1Oau5-GJvISd/exec'; // 替换为您的实际 web app URL
-    const params = new URLSearchParams({ content });
+    const url = 'https://script.google.com/macros/s/AKfycbxte_ckNlaaEKZJDTBO4I0rWiHvvvfoO1NpmLh8BttISEWuD6A7PmqM63AYDAzPwB-x/exec'; // Replace with your web app URL
 
-    fetch(`${url}?${params.toString()}`, {
-        method: 'GET',
+    fetch(url, {
+        method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
-        }
-        // 注意：GET 请求无需设置 body
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams({ content: content })
     })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('网络响应不正常');
-        }
-        return response.json(); // 假设服务器返回 JSON
+    .then(response => response.text())
+    .then(data => {
+        console.log(data); // Log the response from the server
+        showCustomAlert('Content sent to Google Docs!');
     })
-    .then(data => console.log('成功：', data))
-    .catch(error => console.error('错误：', error));
+    .catch(error => {
+        console.error('Error:', error);
+        showCustomAlert('Failed to send content to Google Docs.');
+    });
 }
-
-
 
 // Add an event listener to the send button
 document.getElementById('sendButton').addEventListener('click', gatherEditedContent);
