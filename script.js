@@ -7,6 +7,8 @@ let wrong = 0;
 let selectedJson = null; // 初始為 null
 let isTestCompleted = false; // Flag to track test completion
 
+let expandTimeout;
+
 // 初始化測驗
 async function initQuiz() {
     await loadQuestions();
@@ -349,18 +351,28 @@ function toggleExpand(event) {
             frame.classList.add('till-button-expanded');
             logoutButton.classList.add('show-logout');
         }, 300);
+
+        // Set a timeout to close the expansion after 10 seconds
+        clearTimeout(expandTimeout);
+        expandTimeout = setTimeout(() => {
+            closeExpand(frame, logoutButton);
+        }, 10000); // 10 seconds
     } else {
-        if (frame.classList.contains('till-button-expanded')) {
-            frame.classList.remove('till-button-expanded');
-            frame.classList.add('expanded');
-            logoutButton.classList.remove('show-logout');
-            setTimeout(() => {
-                frame.classList.remove('expanded');
-            }, 300);
-        } else {
+        closeExpand(frame, logoutButton);
+    }
+}
+
+function closeExpand(frame, logoutButton) {
+    if (frame.classList.contains('till-button-expanded')) {
+        frame.classList.remove('till-button-expanded');
+        frame.classList.add('expanded');
+        logoutButton.classList.remove('show-logout');
+        setTimeout(() => {
             frame.classList.remove('expanded');
-            logoutButton.classList.remove('show-logout');
-        }
+        }, 300);
+    } else {
+        frame.classList.remove('expanded');
+        logoutButton.classList.remove('show-logout');
     }
 }
 
