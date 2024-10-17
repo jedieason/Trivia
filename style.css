@@ -594,6 +594,16 @@ body.dark-mode .login-button:hover{
     border-radius: 20px;
 }
 
+.open-expansion {
+    width: 30px;
+    height: 40px;
+    top: 30px;
+    right: 0;
+    border: none;
+    background-color: #cecece;
+    border-radius: 20px;
+}
+
 .till-button-expanded {
     width: 62px;
     height: 27px;
