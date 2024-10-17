@@ -11,7 +11,10 @@ const deBugButton = document.getElementById('deBug');
         function createParticles(targetElement, isClosing) {
             const targetRect = targetElement.getBoundingClientRect();
 
-            const particleCount = 500; // 粒子數量
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 768; // You can adjust the width threshold as needed
+            const particleCount = isMobile ? 100 : 700; // Adjust particle count based on device
+
             const duration = 800; // 動畫持續時間（毫秒）
 
             for (let i = 0; i < particleCount; i++) {
