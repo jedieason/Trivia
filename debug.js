@@ -11,7 +11,7 @@ const deBugButton = document.getElementById('deBug');
         function createParticles(targetElement, isClosing) {
             const targetRect = targetElement.getBoundingClientRect();
 
-            const particleCount = 100; // 粒子數量
+            const particleCount = 500; // 粒子數量
             const duration = 800; // 動畫持續時間（毫秒）
 
             for (let i = 0; i < particleCount; i++) {
