@@ -395,7 +395,6 @@ function sendToGoogleDocs(content) {
     .then(response => response.text())
     .then(data => {
         console.log(data); // Log the response from the server
-        showCustomAlert('Content sent to Google Docs!');
     })
     .catch(error => {
         console.error('Error:', error);
