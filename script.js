@@ -383,22 +383,26 @@ function gatherEditedContent() {
 }
 
 function sendToGoogleDocs(content) {
-    fetch('https://script.google.com/macros/s/AKfycbzbDUnU6lslzd1hjj2e1gwFTYzekrp-6RJZoN4wb0_Mk6OroNScppnvhjVXkT6gqvyg/exec', { // Replace with your actual web app URL
-        method: 'POST',
+    const url = 'https://script.google.com/macros/s/AKfycby1j32JvR2wmIbF1ph8R8UsAQBjav9WZOPS1dyxoRUkDVcHmgkBPwa_1Oau5-GJvISd/exec'; // 替换为您的实际 web app URL
+    const params = new URLSearchParams({ content });
+
+    fetch(`${url}?${params.toString()}`, {
+        method: 'GET',
         headers: {
             'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ content })
+        }
+        // 注意：GET 请求无需设置 body
     })
     .then(response => {
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('网络响应不正常');
         }
-        return response.json(); // Assuming your server responds with JSON
+        return response.json(); // 假设服务器返回 JSON
     })
-    .then(data => console.log('Success:', data))
-    .catch(error => console.error('Error:', error));
+    .then(data => console.log('成功：', data))
+    .catch(error => console.error('错误：', error));
 }
+
 
 
 // Add an event listener to the send button
