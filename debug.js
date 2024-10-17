@@ -11,7 +11,7 @@ const deBugButton = document.getElementById('deBug');
         function createParticles(targetElement, isClosing) {
             const targetRect = targetElement.getBoundingClientRect();
 
-            const particleCount = 1000; // 粒子數量
+            const particleCount = 100; // 粒子數量
             const duration = 800; // 動畫持續時間（毫秒）
 
             for (let i = 0; i < particleCount; i++) {
@@ -125,6 +125,6 @@ const deBugButton = document.getElementById('deBug');
         });
 
         sendButton.addEventListener('click', () => {
-            showCustomAlert('Thanks for chipping in!');
+            showCustomAlert('已發送!');
             closeWindow(); // 發送後自動關閉視窗
         });

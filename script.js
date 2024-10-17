@@ -187,7 +187,7 @@ function confirmAnswer() {
     document.getElementById('confirm-btn').style.display = 'none';
 }
 
-// 更新���對數
+// 更新對數
 function updateCorrect() {
     correct += 1;
     document.getElementById('correct').innerText = correct;
@@ -363,3 +363,37 @@ function toggleExpand(event) {
         }
     }
 }
+
+function gatherEditedContent() {
+    const currentDate = new Date().toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true });
+    const jsonFileName = 'b12.json'; // Replace with the actual logic to get the current JSON file name
+    const question = document.querySelector('#popupWindow .editable:nth-child(2)').innerText;
+    const optionsText = document.querySelector('#popupWindow .editable:nth-child(3)').innerText;
+    const options = optionsText.split('\n').reduce((acc, option) => {
+        const [key, value] = option.split(': ');
+        acc[key] = value;
+        return acc;
+    }, {});
+    const answer = document.querySelector('#popupWindow .editable:nth-child(5)').innerText;
+    const explanation = document.querySelector('#popupWindow .editable:nth-child(7)').innerText;
+
+    const formattedContent = `${currentDate}\n${jsonFileName}\n{\n"question": "${question}",\n"options": ${JSON.stringify(options, null, 2)},\n"answer": "${answer}",\n"explanation": "${explanation}"\n}`;
+
+    sendToGoogleDocs(formattedContent);
+}
+
+function sendToGoogleDocs(content) {
+    fetch('https://script.google.com/macros/s/AKfycby3HeO1yq6Yy8L-xku4hzJjgBB4UUShYqKilYHNYmWXxkgGNy4ffqwzu2CaXXTl4XRN/exec', { // Replace with your web app URL
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ content })
+    })
+    .then(response => response.text())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+}
+
+// Add an event listener to the send button
+document.getElementById('sendButton').addEventListener('click', gatherEditedContent);
