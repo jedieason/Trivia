@@ -125,6 +125,6 @@ const deBugButton = document.getElementById('deBug');
         });
 
         sendButton.addEventListener('click', () => {
-            showCustomAlert('已發送!');
+            showCustomAlert('Thanks for chipping in!');
             closeWindow(); // 發送後自動關閉視窗
         });
