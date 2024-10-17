@@ -97,6 +97,13 @@ function loadNewQuestion() {
 
     // 更新詳解中的選項標籤
     currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
+
+    // 更新模態窗口的內容
+    document.querySelector('#popupWindow .editable:nth-child(2)').innerText = currentQuestion.question;
+    const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
+    document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
+    document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
 }
 
 // 更新詳解中的選項標籤
@@ -180,7 +187,7 @@ function confirmAnswer() {
     document.getElementById('confirm-btn').style.display = 'none';
 }
 
-// 更新答對數
+// 更新���對數
 function updateCorrect() {
     correct += 1;
     document.getElementById('correct').innerText = correct;

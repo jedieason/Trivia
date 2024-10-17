@@ -1,0 +1,81 @@
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    transition: opacity 0.5s ease; /* 添加過渡效果 */
+}
+/* 基本隱藏狀態 */
+#popupWindow {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+/* 顯示時的狀態 */
+#popupWindow.show {
+    opacity: 1;
+    visibility: visible;
+}
+/* 按鈕隱藏時的狀態 */
+#toggleButton.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+#sendButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a55555;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#sendButton:hover {
+    opacity: 0.8;
+}
+.editable {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+.non-editable {
+    color: #666;
+    margin-bottom: 5px;
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.content {
+    margin-bottom: 40px;  /* 為發送按鈕添加空間 */
+}
+.particle {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.8s ease-out;
+    opacity: 1;
+    z-index: 1;
+}

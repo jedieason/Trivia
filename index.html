@@ -7,6 +7,7 @@
     <link rel="icon" href="Images/icon.png" type="image/png">
     <title>BioChem Quiz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="debug.css">
 </head>
 <body>
     <!-- 開始畫面 -->
@@ -90,7 +91,25 @@
             <button id="modalConfirmBtn" class="modal-confirm-button">Got it!</button>
         </div>
     </div>
+    <!-- deBug回報窗口 -->
+    <div id="popupWindow">
+        <div id="closeButton">&times;</div>
+        <div class="content">
+            <div class="non-editable">Question:</div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="non-editable">Answer:</div>
+            <div class="editable" contenteditable="true"></div>
+            <div class="non-editable">Explanation:</div>
+            <div class="editable" contenteditable="true"></div>
+        </div>
+        <button id="sendButton">Send</button>
+    </div>
     <script src="script.js"></script>
+    <script src="debug.js"></script>
     <script type="module" src="login.js"></script>
 </body>
 </html>
