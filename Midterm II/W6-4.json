@@ -1,0 +1,566 @@
+[
+  {
+    "question": "What is the fourth most abundant element in living organisms?",
+    "options": {
+      "A": "Carbon",
+      "B": "Hydrogen",
+      "C": "Oxygen",
+      "D": "Nitrogen",
+      "E": "Phosphorus"
+    },
+    "answer": "D",
+    "explanation": "Nitrogen is the fourth most abundant element in living organisms, after carbon, hydrogen, and oxygen."
+  },
+  {
+    "question": "In what biological molecules is nitrogen primarily found?",
+    "options": {
+      "A": "Carbohydrates and lipids",
+      "B": "Nucleotides and amino acids",
+      "C": "Vitamins and minerals",
+      "D": "Water and salts",
+      "E": "Hormones and enzymes"
+    },
+    "answer": "B",
+    "explanation": "Nitrogen is mainly found in nucleotides and amino acids, which are the building blocks of DNA, RNA, and proteins."
+  },
+  {
+    "question": "What is the function of DNA in living organisms?",
+    "options": {
+      "A": "Carrying the genetic code",
+      "B": "Storing the genetic code",
+      "C": "Expressing the genetic code",
+      "D": "Replicating the genetic code",
+      "E": "Translating the genetic code"
+    },
+    "answer": "B",
+    "explanation": "DNA is responsible for storing the genetic code."
+  },
+  {
+    "question": "What makes the conversion of nitrogen gas to ammonia challenging?",
+    "options": {
+      "A": "Low solubility of nitrogen gas in water",
+      "B": "High stability of nitrogen gas due to its triple bond",
+      "C": "Lack of suitable enzymes in most organisms",
+      "D": "Requirement for extreme temperatures and pressures",
+      "E": "Toxicity of ammonia to most organisms"
+    },
+    "answer": "B",
+    "explanation": "The conversion of nitrogen gas to ammonia requires a high activation energy due to the strong triple bond in nitrogen gas."
+  },
+  {
+    "question": "What process enables certain bacteria to convert nitrogen gas to ammonia?",
+    "options": {
+      "A": "Photosynthesis",
+      "B": "Respiration",
+      "C": "Nitrogen fixation",
+      "D": "Denitrification",
+      "E": "Nitrification"
+    },
+    "answer": "C",
+    "explanation": "Nitrogen fixation is the process by which certain bacteria convert nitrogen gas to ammonia."
+  },
+  {
+    "question": "What is the chemical formula for ammonium?",
+    "options": {
+      "A": "N2",
+      "B": "NH3",
+      "C": "NH4+",
+      "D": "NO2-",
+      "E": "NO3-"
+    },
+    "answer": "C",
+    "explanation": "The chemical formula for ammonium is NH4+."
+  },
+  {
+    "question": "What is the state of ammonia at room temperature?",
+    "options": {
+      "A": "Solid",
+      "B": "Liquid",
+      "C": "Gas",
+      "D": "Plasma",
+      "E": "Colloid"
+    },
+    "answer": "C",
+    "explanation": "Ammonia exists as a gas at room temperature."
+  },
+  {
+    "question": "What type of relationship exists between legume plants and rhizobia bacteria?",
+    "options": {
+      "A": "Parasitic",
+      "B": "Commensalistic",
+      "C": "Mutualistic",
+      "D": "Predator-prey",
+      "E": "Competitive"
+    },
+    "answer": "C",
+    "explanation": "Legume plants and rhizobia bacteria have a mutualistic relationship, where both organisms benefit from the interaction."
+  },
+  {
+    "question": "What role does leghemoglobin play in nitrogen fixation?",
+    "options": {
+      "A": "Catalyzing the conversion of nitrogen gas to ammonia",
+      "B": "Providing energy for the nitrogen fixation process",
+      "C": "Transporting nitrogen gas to the bacteria",
+      "D": "Absorbing oxygen to create a low-oxygen environment",
+      "E": "Protecting the bacteria from harmful free radicals"
+    },
+    "answer": "D",
+    "explanation": "Leghemoglobin absorbs oxygen, creating a low-oxygen environment necessary for nitrogen fixation."
+  },
+  {
+    "question": "Besides leghemoglobin, what else do legume plants provide to rhizobia bacteria?",
+    "options": {
+      "A": "Carbon dioxide and water",
+      "B": "Sunlight and chlorophyll",
+      "C": "Inorganic salts and organic nutrients",
+      "D": "Antibodies and hormones",
+      "E": "Enzymes and coenzymes"
+    },
+    "answer": "C",
+    "explanation": "Legume plants provide inorganic salts and organic nutrients to rhizobia bacteria."
+  },
+  {
+    "question": "What is the product of nitrogen fixation that is provided to legume plants by rhizobia bacteria?",
+    "options": {
+      "A": "Nitrogen gas",
+      "B": "Ammonia",
+      "C": "Nitrate",
+      "D": "Nitrite",
+      "E": "Amino acids"
+    },
+    "answer": "B",
+    "explanation": "Rhizobia bacteria provide ammonia (NH4+) to legume plants as a product of nitrogen fixation."
+  },
+  {
+    "question": "How many pyruvate molecules are oxidized in the nitrogen fixation process shown in the diagram?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "8"
+    },
+    "answer": "D",
+    "explanation": "Four pyruvate molecules are oxidized to four acetyl-CoA molecules during nitrogen fixation."
+  },
+  {
+    "question": "How many electrons are transferred to nitrogen gas to form two ammonium ions?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "16"
+    },
+    "answer": "D",
+    "explanation": "Eight electrons are transferred to nitrogen gas to form two ammonium ions."
+  },
+  {
+    "question": "Which molecule acts as an electron carrier in the nitrogen fixation process?",
+    "options": {
+      "A": "ATP",
+      "B": "NADH",
+      "C": "FADH2",
+      "D": "Ferredoxin",
+      "E": "Coenzyme A"
+    },
+    "answer": "D",
+    "explanation": "Ferredoxin or flavodoxin acts as an electron carrier, transferring electrons from pyruvate to the nitrogenase complex."
+  },
+  {
+    "question": "Which enzyme in the nitrogenase complex is responsible for reducing nitrogen gas?",
+    "options": {
+      "A": "Nitrogenase reductase",
+      "B": "Nitrogenase",
+      "C": "Ferredoxin",
+      "D": "Flavodoxin",
+      "E": "Pyruvate dehydrogenase"
+    },
+    "answer": "B",
+    "explanation": "Nitrogenase is the enzyme in the nitrogenase complex that reduces nitrogen gas."
+  },
+  {
+    "question": "What is the term for enzymes that are sensitive to oxygen?",
+    "options": {
+      "A": "Aerobic",
+      "B": "Anaerobic",
+      "C": "Oxygen-tolerant",
+      "D": "Oxygen-phobic",
+      "E": "Oxygen-loving"
+    },
+    "answer": "D",
+    "explanation": "Nitrogenase and nitrogenase reductase are oxygen-phobic enzymes, meaning they are sensitive to oxygen."
+  },
+  {
+    "question": "What is the state of nitrogen balance in a healthy adult?",
+    "options": {
+      "A": "Positive nitrogen balance",
+      "B": "Negative nitrogen balance",
+      "C": "Neutral nitrogen balance",
+      "D": "Dynamic equilibrium",
+      "E": "Static equilibrium"
+    },
+    "answer": "D",
+    "explanation": "In a healthy adult, nitrogen balance is maintained in a state of dynamic equilibrium, where nitrogen intake equals nitrogen output."
+  },
+  {
+    "question": "What is the term for a nitrogen balance where intake exceeds output?",
+    "options": {
+      "A": "Positive nitrogen balance",
+      "B": "Negative nitrogen balance",
+      "C": "Neutral nitrogen balance",
+      "D": "Dynamic equilibrium",
+      "E": "Static equilibrium"
+    },
+    "answer": "A",
+    "explanation": "Positive nitrogen balance occurs when nitrogen intake is greater than nitrogen output."
+  },
+  {
+    "question": "Which of the following is an example of a situation where positive nitrogen balance is expected?",
+    "options": {
+      "A": "Surgery",
+      "B": "Cancer",
+      "C": "Pregnancy",
+      "D": "Kwashiorkor disorder",
+      "E": "Marasmus disorder"
+    },
+    "answer": "C",
+    "explanation": "Pregnancy is an example of a situation where positive nitrogen balance is expected."
+  },
+  {
+    "question": "What is the term for a nitrogen balance where output exceeds intake?",
+    "options": {
+      "A": "Positive nitrogen balance",
+      "B": "Negative nitrogen balance",
+      "C": "Neutral nitrogen balance",
+      "D": "Dynamic equilibrium",
+      "E": "Static equilibrium"
+    },
+    "answer": "B",
+    "explanation": "Negative nitrogen balance occurs when nitrogen output is greater than nitrogen intake."
+  },
+  {
+    "question": "Which of the following is a condition associated with negative nitrogen balance?",
+    "options": {
+      "A": "Growth spurts",
+      "B": "Pregnancy",
+      "C": "Recovery from illness",
+      "D": "Kwashiorkor disorder",
+      "E": "High protein diet"
+    },
+    "answer": "D",
+    "explanation": "Kwashiorkor disorder, characterized by protein deficiency, leads to negative nitrogen balance."
+  },
+  {
+    "question": "What are non-essential amino acids?",
+    "options": {
+      "A": "Amino acids that are not required by the body",
+      "B": "Amino acids that can be synthesized by the body",
+      "C": "Amino acids that must be obtained through diet",
+      "D": "Amino acids that are only needed in small amounts",
+      "E": "Amino acids that are not involved in protein synthesis"
+    },
+    "answer": "B",
+    "explanation": "Non-essential amino acids are those that the body can synthesize."
+  },
+  {
+    "question": "What are essential amino acids?",
+    "options": {
+      "A": "Amino acids that are not required by the body",
+      "B": "Amino acids that can be synthesized by the body",
+      "C": "Amino acids that must be obtained through diet",
+      "D": "Amino acids that are only needed in small amounts",
+      "E": "Amino acids that are not involved in protein synthesis"
+    },
+    "answer": "C",
+    "explanation": "Essential amino acids cannot be synthesized by the body and must be obtained through the diet."
+  },
+  {
+    "question": "What are conditionally essential amino acids?",
+    "options": {
+      "A": "Amino acids that are always essential",
+      "B": "Amino acids that are never essential",
+      "C": "Amino acids that become essential under certain conditions",
+      "D": "Amino acids that are only essential for children",
+      "E": "Amino acids that are only essential for adults"
+    },
+    "answer": "C",
+    "explanation": "Conditionally essential amino acids are those that the body can synthesize, but may require dietary intake under certain circumstances, such as rapid growth."
+  },
+  {
+    "question": "What is the consequence of a lack of essential amino acids?",
+    "options": {
+      "A": "Increased protein synthesis",
+      "B": "Enhanced immune function",
+      "C": "Disorders and impaired growth",
+      "D": "Excess energy production",
+      "E": "Improved nutrient absorption"
+    },
+    "answer": "C",
+    "explanation": "A lack of essential amino acids can lead to various disorders and impaired growth."
+  },
+  {
+    "question": "Why do adults need to consume protein?",
+    "options": {
+      "A": "To build muscle mass",
+      "B": "To store energy reserves",
+      "C": "To replenish cells and enzymes",
+      "D": "To eliminate waste products",
+      "E": "To regulate hormone levels"
+    },
+    "answer": "C",
+    "explanation": "Adults need to consume protein to replenish cells and enzymes that are constantly being broken down and replaced."
+  },
+  {
+    "question": "What is the approximate daily protein turnover rate in the body?",
+    "options": {
+      "A": "50 grams",
+      "B": "100 grams",
+      "C": "250 grams",
+      "D": "500 grams",
+      "E": "1000 grams"
+    },
+    "answer": "D",
+    "explanation": "The body generates about 500 grams of protein daily, indicating a high protein turnover rate."
+  },
+  {
+    "question": "What percentage of daily protein requirement is obtained from the breakdown and resynthesis of existing body proteins?",
+    "options": {
+      "A": "20%",
+      "B": "40%",
+      "C": "60%",
+      "D": "80%",
+      "E": "100%"
+    },
+    "answer": "D",
+    "explanation": "Approximately 80% of the daily protein requirement is met through the breakdown and resynthesis of existing body proteins."
+  },
+  {
+    "question": "What is the primary cause of Kwashiorkor disorder?",
+    "options": {
+      "A": "Insufficient calorie intake",
+      "B": "Lack of essential fatty acids",
+      "C": "Inadequate protein consumption",
+      "D": "Vitamin deficiency",
+      "E": "Mineral imbalance"
+    },
+    "answer": "C",
+    "explanation": "Kwashiorkor disorder results from inadequate protein consumption, often seen in children after weaning."
+  },
+  {
+    "question": "What are the early symptoms of Kwashiorkor disorder?",
+    "options": {
+      "A": "Weight loss and dehydration",
+      "B": "Fatigue, irritability, and tiredness",
+      "C": "Skin rashes and hair loss",
+      "D": "Diarrhea and vomiting",
+      "E": "Fever and chills"
+    },
+    "answer": "B",
+    "explanation": "Early symptoms of Kwashiorkor disorder include fatigue, irritability, and tiredness."
+  },
+  {
+    "question": "What is a severe consequence of prolonged protein deficiency in Kwashiorkor disorder?",
+    "options": {
+      "A": "Increased bone density",
+      "B": "Enhanced cognitive function",
+      "C": "Edema and abdominal swelling",
+      "D": "Improved wound healing",
+      "E": "Increased muscle mass"
+    },
+    "answer": "C",
+    "explanation": "Prolonged protein deficiency can lead to edema (fluid retention) and abdominal swelling in Kwashiorkor disorder."
+  },
+  {
+    "question": "In what regions is Kwashiorkor disorder most prevalent?",
+    "options": {
+      "A": "Developed countries with high protein diets",
+      "B": "Regions with abundant access to diverse food sources",
+      "C": "Areas with high consumption of animal products",
+      "D": "Drought-stricken and famine-affected countries",
+      "E": "Cold climates with limited food availability"
+    },
+    "answer": "D",
+    "explanation": "Kwashiorkor disorder is prevalent in drought-stricken and famine-affected countries where protein intake is insufficient."
+  },
+  {
+    "question": "What is the primary reason for edema in Kwashiorkor disorder?",
+    "options": {
+      "A": "Excess sodium intake",
+      "B": "Kidney dysfunction",
+      "C": "Liver failure",
+      "D": "Insufficient albumin production",
+      "E": "Increased capillary permeability"
+    },
+    "answer": "D",
+    "explanation": "Edema in Kwashiorkor disorder is primarily caused by insufficient albumin production, leading to reduced oncotic pressure in blood vessels."
+  },
+  {
+    "question": "What is hydrostatic pressure?",
+    "options": {
+      "A": "The pressure exerted by proteins in the blood",
+      "B": "The pressure that draws fluid into blood vessels",
+      "C": "The pressure generated by the heart pumping blood",
+      "D": "The pressure that forces fluid out of blood vessels",
+      "E": "The pressure that regulates blood flow in capillaries"
+    },
+    "answer": "D",
+    "explanation": "Hydrostatic pressure is the pressure within blood vessels that forces fluid out into the interstitial space."
+  },
+  {
+    "question": "What is oncotic pressure?",
+    "options": {
+      "A": "The pressure exerted by proteins in the blood",
+      "B": "The pressure that draws fluid into blood vessels",
+      "C": "The pressure generated by the heart pumping blood",
+      "D": "The pressure that forces fluid out of blood vessels",
+      "E": "The pressure that regulates blood flow in capillaries"
+    },
+    "answer": "B",
+    "explanation": "Oncotic pressure, primarily due to albumin in the blood, draws fluid into blood vessels."
+  },
+  {
+    "question": "Which pressure is higher at the arterial end of a capillary bed?",
+    "options": {
+      "A": "Hydrostatic pressure",
+      "B": "Oncotic pressure",
+      "C": "Atmospheric pressure",
+      "D": "Osmotic pressure",
+      "E": "Interstitial pressure"
+    },
+    "answer": "A",
+    "explanation": "Hydrostatic pressure is higher at the arterial end of a capillary bed due to the force of the heart pumping blood."
+  },
+  {
+    "question": "What happens to fluid movement when hydrostatic pressure exceeds oncotic pressure?",
+    "options": {
+      "A": "Fluid moves from interstitial space into capillaries",
+      "B": "Fluid moves from capillaries into interstitial space",
+      "C": "Fluid movement stops",
+      "D": "Fluid flows in both directions equally",
+      "E": "Fluid movement reverses direction"
+    },
+    "answer": "B",
+    "explanation": "When hydrostatic pressure exceeds oncotic pressure, fluid moves from capillaries into the interstitial space."
+  },
+  {
+    "question": "What happens to fluid movement when oncotic pressure exceeds hydrostatic pressure?",
+    "options": {
+      "A": "Fluid moves from interstitial space into capillaries",
+      "B": "Fluid moves from capillaries into interstitial space",
+      "C": "Fluid movement stops",
+      "D": "Fluid flows in both directions equally",
+      "E": "Fluid movement reverses direction"
+    },
+    "answer": "A",
+    "explanation": "When oncotic pressure exceeds hydrostatic pressure, fluid moves from the interstitial space into capillaries."
+  },
+  {
+    "question": "What is the function of the lymphatic system?",
+    "options": {
+      "A": "Delivering oxygen to tissues",
+      "B": "Removing carbon dioxide from tissues",
+      "C": "Transporting nutrients to cells",
+      "D": "Returning excess fluid from tissues to the bloodstream",
+      "E": "Fighting infections and diseases"
+    },
+    "answer": "D",
+    "explanation": "The lymphatic system plays a crucial role in returning excess fluid from tissues to the bloodstream."
+  },
+  {
+    "question": "What is the primary pressure change in hypertension?",
+    "options": {
+      "A": "Decreased hydrostatic pressure",
+      "B": "Increased hydrostatic pressure",
+      "C": "Decreased oncotic pressure",
+      "D": "Increased oncotic pressure",
+      "E": "Decreased interstitial pressure"
+    },
+    "answer": "B",
+    "explanation": "Hypertension is characterized by increased hydrostatic pressure in the arteries."
+  },
+  {
+    "question": "What is the main consequence of increased hydrostatic pressure in hypertension?",
+    "options": {
+      "A": "Reduced fluid movement into tissues",
+      "B": "Enhanced fluid return to the bloodstream",
+      "C": "Increased fluid filtration into tissues",
+      "D": "Improved nutrient delivery to cells",
+      "E": "Reduced strain on the heart"
+    },
+    "answer": "C",
+    "explanation": "Increased hydrostatic pressure in hypertension leads to increased fluid filtration into tissues, potentially causing edema."
+  },
+  {
+    "question": "What is congestive heart failure?",
+    "options": {
+      "A": "A condition where the heart pumps too forcefully",
+      "B": "A condition where the heart is unable to pump efficiently",
+      "C": "A condition where the heart rate is too slow",
+      "D": "A condition where the heart valves are damaged",
+      "E": "A condition where the heart muscle is inflamed"
+    },
+    "answer": "B",
+    "explanation": "Congestive heart failure occurs when the heart is unable to pump blood efficiently, leading to fluid buildup in the body."
+  },
+  {
+    "question": "What is atrial fibrillation?",
+    "options": {
+      "A": "A regular heart rhythm",
+      "B": "A slow heart rate",
+      "C": "An irregular and often rapid heart rhythm",
+      "D": "A condition where the heart stops beating",
+      "E": "A condition where the heart valves are blocked"
+    },
+    "answer": "C",
+    "explanation": "Atrial fibrillation is an irregular and often rapid heart rhythm that can lead to inefficient blood pumping."
+  },
+  {
+    "question": "What is the primary pressure change in Kwashiorkor disorder?",
+    "options": {
+      "A": "Decreased hydrostatic pressure",
+      "B": "Increased hydrostatic pressure",
+      "C": "Decreased oncotic pressure",
+      "D": "Increased oncotic pressure",
+      "E": "Decreased interstitial pressure"
+    },
+    "answer": "C",
+    "explanation": "Kwashiorkor disorder is associated with decreased oncotic pressure due to insufficient albumin in the blood."
+  },
+  {
+    "question": "Why does a lack of albumin lead to edema?",
+    "options": {
+      "A": "Increased hydrostatic pressure forces fluid into tissues",
+      "B": "Reduced oncotic pressure fails to draw fluid back into capillaries",
+      "C": "Increased capillary permeability allows fluid to leak out",
+      "D": "Impaired lymphatic drainage prevents fluid return",
+      "E": "Kidney dysfunction leads to fluid retention"
+    },
+    "answer": "B",
+    "explanation": "A lack of albumin reduces oncotic pressure, leading to edema because fluid is not effectively drawn back into capillaries from the interstitial space."
+  },
+  {
+    "question": "What causes the osmotic pressure difference in the diagram illustrating colloid osmotic pressure?",
+    "options": {
+      "A": "Unequal distribution of sodium ions",
+      "B": "Presence of a semipermeable membrane",
+      "C": "Presence of multivalent macromolecules",
+      "D": "Application of external pressure",
+      "E": "Difference in water concentration"
+    },
+    "answer": "C",
+    "explanation": "The presence of multivalent macromolecules, like proteins, creates an osmotic pressure difference known as colloid osmotic pressure."
+  },
+  {
+    "question": "What is the significance of colloid osmotic pressure?",
+    "options": {
+      "A": "Regulating blood pH",
+      "B": "Transporting oxygen in the blood",
+      "C": "Maintaining fluid balance between blood vessels and tissues",
+      "D": "Filtering waste products from the blood",
+      "E": "Controlling blood clotting"
+    },
+    "answer": "C",
+    "explanation": "Colloid osmotic pressure plays a critical role in maintaining fluid balance between blood vessels and tissues, preventing edema."
+  }
+]
