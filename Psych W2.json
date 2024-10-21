@@ -1,0 +1,170 @@
+[
+{
+"question": "What is the initial step in the scientific method, as highlighted in the provided research methods excerpt?",
+"options": {
+"A": "Formulating a research question",
+"B": "Conducting a literature review",
+"C": "Developing a hypothesis",
+"D": "Making an observation",
+"E": "Designing an experiment"
+},
+"answer": "D",
+"explanation": "The provided excerpt on research methods emphasizes observation as the foundational step in the scientific process."
+},
+{
+"question": "What is the primary objective of gathering evidence or data in the scientific method?",
+"options": {
+"A": "To confirm the validity of the hypothesis",
+"B": "To support existing theories",
+"C": "To disprove alternative explanations",
+"D": "To test the proposed hypothesis",
+"E": "To generate new research questions"
+},
+"answer": "D",
+"explanation": "The scientific method involves gathering evidence or data with the specific purpose of testing the validity of the proposed hypothesis."
+},
+{
+"question": "According to the provided text, which of the following represents a well-defined variable in a research study exploring the relationship between spending habits and happiness?",
+"options": {
+"A": "General feelings of well-being",
+"B": "Overall life satisfaction",
+"C": "Frequency of engaging in impulsive purchases",
+"D": "Subjective experiences of joy and contentment",
+"E": "A broad sense of happiness"
+},
+"answer": "C",
+"explanation": "The text emphasizes the importance of clearly defining variables using operational definitions. 'Frequency of engaging in impulsive purchases' offers a measurable and specific way to assess spending habits, making it a well-defined variable in this context."
+},
+{
+"question": "Which research method is most suitable for investigating a cause-and-effect relationship between variables?",
+"options": {
+"A": "Survey research",
+"B": "Naturalistic observation",
+"C": "Correlational study",
+"D": "Experimental design",
+"E": "Case study analysis"
+},
+"answer": "D",
+"explanation": "The text clearly states that experimental research, where the investigator manipulates a variable under controlled conditions, is the most appropriate method for examining cause-and-effect relationships."
+},
+{
+"question": "In an experiment investigating the impact of a new curriculum on student performance, what role does student performance play?",
+"options": {
+"A": "Independent variable",
+"B": "Extraneous variable",
+"C": "Control variable",
+"D": "Dependent variable",
+"E": "Mediating variable"
+},
+"answer": "D",
+"explanation": "In this experimental scenario, student performance is the variable being measured and is expected to be influenced by the manipulation of the independent variable (the new curriculum)."
+},
+{
+"question": "What is the primary purpose of random assignment in experimental research?",
+"options": {
+"A": "To eliminate the influence of extraneous variables",
+"B": "To ensure an equal distribution of participant characteristics across groups",
+"C": "To increase the generalizability of the findings",
+"D": "To simplify the data analysis process",
+"E": "To create a diverse and representative sample"
+},
+"answer": "B",
+"explanation": "Random assignment is crucial in experimental research to minimize the impact of extraneous variables by ensuring that participants have an equal chance of being assigned to any group, thus distributing participant characteristics evenly."
+},
+{
+"question": "In a hypothetical study exploring the relationship between pet ownership and happiness among single, elderly individuals, which of the following would be considered an extraneous variable?",
+"options": {
+"A": "Happiness levels",
+"B": "Pet ownership status",
+"C": "Age of the participants",
+"D": "Financial status of the individuals",
+"E": "Marital status of the participants"
+},
+"answer": "D",
+"explanation": "The text highlights the importance of considering extraneous variables in research design. In this scenario, financial status could potentially influence happiness levels independently of pet ownership, making it an extraneous variable that needs to be controlled or accounted for."
+},
+{
+"question": "What is a key characteristic of non-experimental research designs like quasi-experiments?",
+"options": {
+"A": "Manipulation of an independent variable",
+"B": "Random assignment of participants to groups",
+"C": "Control over all extraneous variables",
+"D": "Reliance on existing group memberships",
+"E": "Ability to establish definitive cause-and-effect relationships"
+},
+"answer": "D",
+"explanation": "The text differentiates quasi-experiments from true experiments by pointing out that quasi-experiments do not employ random assignment and instead rely on pre-existing group memberships as part of the independent variable."
+},
+{
+"question": "Which of the following relationships between variables exemplifies a negative correlation?",
+"options": {
+"A": "As exercise frequency increases, stress levels decrease.",
+"B": "Students with higher GPAs tend to have higher levels of self-esteem.",
+"C": "Increased social media usage is associated with increased feelings of loneliness.",
+"D": "People who sleep more hours generally report feeling more rested.",
+"E": "The number of books read in childhood positively correlates with vocabulary size in adulthood."
+},
+"answer": "A",
+"explanation": "A negative correlation indicates that as one variable increases, the other decreases. In option A, as exercise frequency goes up, stress levels go down, demonstrating an inverse relationship."
+},
+{
+"question": "Why is it crucial to distinguish between correlation and causation in research?",
+"options": {
+"A": "Correlation implies a stronger relationship than causation.",
+"B": "Correlation is more difficult to establish than causation.",
+"C": "Correlation alone does not prove a cause-and-effect relationship.",
+"D": "Causation is a more common phenomenon than correlation.",
+"E": "Causation is easier to measure and quantify than correlation."
+},
+"answer": "C",
+"explanation": "The text explicitly cautions against equating correlation with causation, emphasizing that just because two variables are related does not necessarily mean one causes the other."
+},
+{
+"question": "What potential methodological issue arises when a research sample is not representative of the larger population it aims to study?",
+"options": {
+"A": "Social desirability bias",
+"B": "Sampling bias",
+"C": "Placebo effect",
+"D": "Halo effect",
+"E": "Participant demand"
+},
+"answer": "B",
+"explanation": "The sources define sampling bias as a situation where the sample used in a study does not accurately reflect the characteristics of the broader population, potentially leading to inaccurate generalizations."
+},
+{
+"question": "Which of the following scenarios best illustrates the concept of social desirability bias in research?",
+"options": {
+"A": "Participants in a weight loss study underreport their calorie intake.",
+"B": "A researcher's personal beliefs influence the interpretation of data.",
+"C": "Individuals in a drug trial experience improvements due to their expectations.",
+"D": "An attractive candidate is perceived as more qualified for a job.",
+"E": "Participants in an experiment try to guess the hypothesis and adjust their behavior accordingly."
+},
+"answer": "A",
+"explanation": "Social desirability bias occurs when participants provide responses they believe are more socially acceptable, even if they are not entirely truthful. Underreporting calorie intake in a weight loss study is a classic example of this bias."
+},
+{
+"question": "What is the main purpose of employing a double-blind procedure in research?",
+"options": {
+"A": "To enhance the statistical power of the study",
+"B": "To increase the reliability of the data",
+"C": "To minimize the impact of experimenter and participant biases",
+"D": "To ensure the ethical treatment of participants",
+"E": "To simplify the research design and data collection process"
+},
+"answer": "C",
+"explanation": "The sources mention the double-blind procedure as a method to mitigate potential biases by keeping both the experimenters and participants unaware of who is receiving the actual treatment or a placebo."
+},
+{
+"question": "Which of the following research methods involves the systematic and unobtrusive observation of behavior in natural settings?",
+"options": {
+"A": "Surveys",
+"B": "Experiments",
+"C": "Naturalistic observation",
+"D": "Quasi-experiments",
+"E": "Case studies"
+},
+"answer": "C",
+"explanation": "The sources list naturalistic observation as a method of correlational research where researchers carefully observe behavior without directly interfering with the subjects in their natural environment."
+}
+]
