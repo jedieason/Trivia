@@ -1,0 +1,338 @@
+[
+{
+"question": "What is the process called when sensory receptors convert stimulus input into neural signals understandable by the brain?",
+"options": {
+"A": "Sensation",
+"B": "Perception",
+"C": "Stimulation",
+"D": "Transduction",
+"E": "Adaptation"
+},
+"answer": "D",
+"explanation": "Transduction is the process where sensory receptors transform external stimuli into neural signals, allowing the brain to interpret them."
+},
+{
+"question": "Which part of the eye is responsible for focusing incoming light onto the lens?",
+"options": {
+"A": "Retina",
+"B": "Pupil",
+"C": "Iris",
+"D": "Cornea",
+"E": "Optic nerve"
+},
+"answer": "D",
+"explanation": "The cornea, the transparent outer layer of the eye, plays a crucial role in focusing the incoming light before it reaches the lens."
+},
+{
+"question": "What are the photoreceptor cells in the retina responsible for vision in low-light conditions?",
+"options": {
+"A": "Cones",
+"B": "Rods",
+"C": "Bipolar cells",
+"D": "Ganglion cells",
+"E": "Amacrine cells"
+},
+"answer": "B",
+"explanation": "Rods are specialized photoreceptor cells located in the retina that are highly sensitive to low levels of illumination, enabling us to see in dim light or at night."
+},
+{
+"question": "What is the point on the retina where the optic nerve exits and lacks photoreceptor cells called?",
+"options": {
+"A": "Fovea",
+"B": "Macula",
+"C": "Blind spot",
+"D": "Optic disc",
+"E": "Sclera"
+},
+"answer": "C",
+"explanation": "The blind spot is the region on the retina where the optic nerve exits, and it lacks rods and cones, resulting in an area with no visual perception."
+},
+{
+"question": "What is the approximate time required for dark adaptation, where our rods recover their sensitivity after exposure to bright light?",
+"options": {
+"A": "1 minute",
+"B": "5 minutes",
+"C": "10 minutes",
+"D": "15 minutes",
+"E": "20 minutes"
+},
+"answer": "C",
+"explanation": "Dark adaptation, the process of rods regaining their sensitivity in low light, typically takes around 10 minutes."
+},
+{
+"question": "Which type of cone receptor is most sensitive to short wavelengths of light, primarily associated with the color blue?",
+"options": {
+"A": "S cone",
+"B": "M cone",
+"C": "L cone",
+"D": "R cone",
+"E": "G cone"
+},
+"answer": "A",
+"explanation": "The S cone, one of the three types of cone receptors in the human eye, exhibits maximum sensitivity to short wavelengths of light, which correspond to the blue part of the color spectrum."
+},
+{
+"question": "What visual phenomenon occurs when a visual image persists even after the stimulus has been removed?",
+"options": {
+"A": "Hallucination",
+"B": "Illusion",
+"C": "Afterimage",
+"D": "Phantom vision",
+"E": "Persistence of vision"
+},
+"answer": "C",
+"explanation": "An afterimage is a visual experience where an image continues to be perceived even after the original stimulus causing it has been removed."
+},
+{
+"question": "According to the opponent-process theory, which color pair do retinal ganglion cells respond to?",
+"options": {
+"A": "Blue and yellow",
+"B": "Red and green",
+"C": "Black and white",
+"D": "Purple and orange",
+"E": "Brown and pink"
+},
+"answer": "B",
+"explanation": "The opponent-process theory posits that retinal ganglion cells process color information in opposing pairs, particularly red and green, explaining certain aspects of color perception and afterimages."
+},
+{
+"question": "Which type of color blindness involves an abnormal processing of the S wavelength, leading to difficulty distinguishing shades of blue?",
+"options": {
+"A": "Red-green color blindness",
+"B": "Blue-yellow color blindness",
+"C": "Tritanopia",
+"D": "Deuteranopia",
+"E": "Protanopia"
+},
+"answer": "C",
+"explanation": "Tritanopia, or blue color blindness, is characterized by an impairment in the perception of blue hues due to abnormal processing of the S wavelength by the cone receptors."
+},
+{
+"question": "What perceptual phenomenon is exemplified by the different color interpretations of 'the dress'?",
+"options": {
+"A": "Color constancy",
+"B": "Individual variations in color perception",
+"C": "Optical illusion",
+"D": "Color adaptation",
+"E": "Chromatic aberration"
+},
+"answer": "B",
+"explanation": "The varying color perceptions of 'the dress' highlight the influence of individual differences in how our brains interpret and perceive colors under different lighting conditions."
+},
+{
+"question": "What is a visual image that can result in multiple interpretations from the same sensory input called?",
+"options": {
+"A": "Optical illusion",
+"B": "Ambiguous figure",
+"C": "Reversible figure",
+"D": "Multistable perception",
+"E": "Paradoxical image"
+},
+"answer": "C",
+"explanation": "A reversible figure is a type of visual stimulus that can be perceived in different ways, leading to alternating interpretations despite the unchanging input."
+},
+{
+"question": "In Gestalt psychology, what is the term for the element that stands out from its background?",
+"options": {
+"A": "Ground",
+"B": "Figure",
+"C": "Contour",
+"D": "Shape",
+"E": "Form"
+},
+"answer": "B",
+"explanation": "The figure-ground principle in Gestalt psychology describes the organization of visual perception where a prominent object (figure) is perceived against its background (ground)."
+},
+{
+"question": "According to Gestalt principles, which factor contributes to perceiving smaller overlapping figures as the figure and larger ones as the ground?",
+"options": {
+"A": "Symmetry",
+"B": "Area",
+"C": "Proximity",
+"D": "Closure",
+"E": "Continuity"
+},
+"answer": "B",
+"explanation": "The principle of area suggests that smaller areas in overlapping figures tend to be perceived as the figure against the larger background."
+},
+{
+"question": "Which Gestalt principle states that elements moving in the same direction are perceived as a single unit?",
+"options": {
+"A": "Proximity",
+"B": "Similarity",
+"C": "Common fate",
+"D": "Continuity",
+"E": "Closure"
+},
+"answer": "C",
+"explanation": "The principle of common fate in Gestalt psychology suggests that objects sharing the same direction of motion are visually grouped together as a coherent unit."
+},
+{
+"question": "What Gestalt principle suggests that we tend to perceive elements in ways that create a smooth continuation?",
+"options": {
+"A": "Proximity",
+"B": "Similarity",
+"C": "Common fate",
+"D": "Continuity",
+"E": "Closure"
+},
+"answer": "D",
+"explanation": "The principle of continuity proposes that our visual system prefers to perceive objects as smooth, continuous patterns rather than disjointed fragments."
+},
+{
+"question": "Which Gestalt principle explains our tendency to complete incomplete figures?",
+"options": {
+"A": "Proximity",
+"B": "Similarity",
+"C": "Common fate",
+"D": "Continuity",
+"E": "Closure"
+},
+"answer": "E",
+"explanation": "The closure principle suggests that our visual system automatically fills in gaps in incomplete figures, creating a perception of a whole object."
+},
+{
+"question": "Which Gestalt principle is illustrated by the three black stripes in the Adidas logo that form a perceived triangular shape despite not being fully connected?",
+"options": {
+"A": "Proximity",
+"B": "Similarity",
+"C": "Common fate",
+"D": "Continuity",
+"E": "Closure"
+},
+"answer": "E",
+"explanation": "The Adidas logo effectively utilizes the closure principle, as our minds complete the incomplete triangular form created by the three stripes."
+},
+{
+"question": "What type of processing relies on knowledge, expectations, and past experiences to influence perception?",
+"options": {
+"A": "Bottom-up processing",
+"B": "Top-down processing",
+"C": "Serial processing",
+"D": "Parallel processing",
+"E": "Sensory processing"
+},
+"answer": "B",
+"explanation": "Top-down processing is a cognitive process where prior knowledge, expectations, and context influence the interpretation of sensory information."
+},
+{
+"question": "What is the term for a tendency to perceive certain aspects of sensory data while ignoring others?",
+"options": {
+"A": "Perceptual bias",
+"B": "Selective attention",
+"C": "Cognitive dissonance",
+"D": "Perceptual set",
+"E": "Confirmation bias"
+},
+"answer": "D",
+"explanation": "Perceptual set refers to a predisposition to perceive stimuli in a particular way based on prior experiences, expectations, or the current context."
+},
+{
+"question": "What type of cue provides information about distance based on the slightly different images received by each eye?",
+"options": {
+"A": "Monocular cue",
+"B": "Binocular cue",
+"C": "Depth cue",
+"D": "Convergence cue",
+"E": "Stereoscopic cue"
+},
+"answer": "B",
+"explanation": "Binocular cues rely on the disparity between the images received by both eyes, providing information about depth and distance."
+},
+{
+"question": "What binocular cue is responsible for the difference in retinal images between the two eyes due to their separation?",
+"options": {
+"A": "Convergence",
+"B": "Accommodation",
+"C": "Stereopsis",
+"D": "Binocular disparity",
+"E": "Retinal rivalry"
+},
+"answer": "D",
+"explanation": "Binocular disparity refers to the slight difference in the visual angle from which each eye perceives an object, contributing to our depth perception."
+},
+{
+"question": "Which monocular cue utilizes the apparent convergence of parallel lines in the distance to perceive depth?",
+"options": {
+"A": "Linear perspective",
+"B": "Texture gradient",
+"C": "Interposition",
+"D": "Relative size",
+"E": "Height in plane"
+},
+"answer": "A",
+"explanation": "Linear perspective is a monocular depth cue where parallel lines seem to meet as they recede into the distance, creating an illusion of depth."
+},
+{
+"question": "Which monocular cue involves the increasing density of texture as a surface extends farther away?",
+"options": {
+"A": "Linear perspective",
+"B": "Texture gradient",
+"C": "Interposition",
+"D": "Relative size",
+"E": "Height in plane"
+},
+"answer": "B",
+"explanation": "The texture gradient cue relies on the observation that textures become denser and less detailed as they move farther away, aiding in depth perception."
+},
+{
+"question": "What monocular cue occurs when a closer object partially blocks the view of a more distant object?",
+"options": {
+"A": "Linear perspective",
+"B": "Texture gradient",
+"C": "Interposition",
+"D": "Relative size",
+"E": "Height in plane"
+},
+"answer": "C",
+"explanation": "Interposition is a depth cue where one object partially obscuring another provides a visual indication that the obscured object is farther away."
+},
+{
+"question": "What monocular cue is based on the observation that objects farther away project smaller retinal images?",
+"options": {
+"A": "Linear perspective",
+"B": "Texture gradient",
+"C": "Interposition",
+"D": "Relative size",
+"E": "Height in plane"
+},
+"answer": "D",
+"explanation": "Relative size is a depth cue that relies on the principle that objects of similar size appear smaller when they are farther away, allowing us to judge relative distances."
+},
+{
+"question": "Which monocular cue suggests that objects situated lower in the visual field appear closer?",
+"options": {
+"A": "Linear perspective",
+"B": "Texture gradient",
+"C": "Interposition",
+"D": "Relative size",
+"E": "Height in plane"
+},
+"answer": "E",
+"explanation": "Height in plane, also known as relative height, is a monocular depth cue where objects positioned lower in the visual field are perceived as closer."
+},
+{
+"question": "What is the perceptual phenomenon called when our perception of an object's size, shape, color, or lightness remains stable despite changes in viewing conditions?",
+"options": {
+"A": "Perceptual constancy",
+"B": "Sensory adaptation",
+"C": "Visual illusions",
+"D": "Perceptual invariance",
+"E": "Object permanence"
+},
+"answer": "A",
+"explanation": "Perceptual constancy refers to our ability to maintain a consistent perception of an object's properties, such as size, shape, color, and lightness, even when the sensory input changes due to factors like viewing angle or lighting."
+},
+{
+"question": "What neurological condition involves the blending of sensory experiences, such as associating colors with specific letters or numbers?",
+"options": {
+"A": "Synesthesia",
+"B": "Aphantasia",
+"C": "Prosopagnosia",
+"D": "Agnosia",
+"E": "Anosmia"
+},
+"answer": "A",
+"explanation": "Synesthesia is a neurological phenomenon where stimulation of one sensory pathway triggers an involuntary experience in another sensory pathway, leading to unusual sensory associations, like perceiving colors when hearing music or seeing numbers."
+}
+]
