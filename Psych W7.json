@@ -1,0 +1,518 @@
+[
+  {
+    "question": "Which of the following is NOT a key process in memory?",
+    "options": {
+      "A": "Encoding",
+      "B": "Storage",
+      "C": "Retrieval",
+      "D": "Attention",
+      "E": "Perception"
+    },
+    "answer": "E",
+    "explanation": "The source lists encoding, storage, and retrieval as the three key processes in memory. While perception is involved in the initial experience of an event, it is not a core memory process itself."
+  },
+  {
+    "question": "What is the role of attention in the encoding process?",
+    "options": {
+      "A": "Filtering irrelevant stimuli",
+      "B": "Storing information in long-term memory",
+      "C": "Retrieving information from sensory memory",
+      "D": "Organizing information into meaningful units",
+      "E": "Transferring information from short-term to long-term memory"
+    },
+    "answer": "A",
+    "explanation": "Attention is crucial for encoding because it allows us to focus on a limited range of stimuli, effectively filtering out irrelevant information."
+  },
+  {
+    "question": "Which phenomenon demonstrates that attention can be so powerful that we may fail to see stimuli right in front of us?",
+    "options": {
+      "A": "Change blindness",
+      "B": "Chunking",
+      "C": "Rehearsal",
+      "D": "Inattentional blindness",
+      "E": "Retroactive interference"
+    },
+    "answer": "D",
+    "explanation": "Inattentional blindness highlights the selective nature of attention, where we may miss obvious stimuli if our attention is directed elsewhere."
+  },
+  {
+    "question": "What memory technique involves encoding information by forming a mental picture?",
+    "options": {
+      "A": "Elaboration",
+      "B": "Rehearsal",
+      "C": "Chunking",
+      "D": "Visual imagery",
+      "E": "Retrieval cues"
+    },
+    "answer": "D",
+    "explanation": "Visual imagery enhances encoding by creating a vivid mental representation of the information to be remembered."
+  },
+  {
+    "question": "According to the Atkinson-Shiffrin model, what happens to information in sensory memory if it is not attended to?",
+    "options": {
+      "A": "It is transferred to short-term memory.",
+      "B": "It is encoded into long-term memory.",
+      "C": "It is lost.",
+      "D": "It is maintained indefinitely.",
+      "E": "It is processed in working memory."
+    },
+    "answer": "C",
+    "explanation": "The Atkinson-Shiffrin model posits that information in sensory memory decays rapidly if it does not receive attention and move to short-term memory."
+  },
+  {
+    "question": "What is the typical duration of a visual sensory memory trace?",
+    "options": {
+      "A": "1/10 of a second",
+      "B": "1/3 of a second",
+      "C": "1 second",
+      "D": "5 seconds",
+      "E": "20 seconds"
+    },
+    "answer": "B",
+    "explanation": "The visual sensory store, also known as iconic memory, holds information for a very brief period, typically around 1/3 of a second."
+  },
+  {
+    "question": "What did George Sperling's 'partial report experiment' demonstrate about sensory memory?",
+    "options": {
+      "A": "Sensory memory has a limited capacity.",
+      "B": "Sensory memory can store information for several minutes.",
+      "C": "Sensory memory is highly selective.",
+      "D": "Sensory memory encodes information semantically.",
+      "E": "Sensory memory decays rapidly."
+    },
+    "answer": "E",
+    "explanation": "Sperling's experiment revealed that information in sensory memory fades quickly, supporting the notion of rapid decay."
+  },
+  {
+    "question": "What is the primary function of short-term memory?",
+    "options": {
+      "A": "Permanent storage of information",
+      "B": "Encoding sensory input",
+      "C": "Retrieving information from long-term memory",
+      "D": "Briefly holding a limited amount of information in awareness",
+      "E": "Processing emotional memories"
+    },
+    "answer": "D",
+    "explanation": "Short-term memory acts as a temporary storage system, keeping a small amount of information readily accessible for a short time."
+  },
+  {
+    "question": "What is the difference between short-term memory and working memory?",
+    "options": {
+      "A": "Short-term memory is passive, while working memory is active.",
+      "B": "Short-term memory stores information for longer periods than working memory.",
+      "C": "Short-term memory has a larger capacity than working memory.",
+      "D": "Short-term memory is involved in encoding, while working memory is involved in retrieval.",
+      "E": "Short-term memory is for visual information, while working memory is for auditory information."
+    },
+    "answer": "A",
+    "explanation": "While short-term memory simply holds information, working memory actively manipulates and processes that information for use in tasks."
+  },
+  {
+    "question": "Without active maintenance through working memory processes, how long can information typically be held in short-term memory?",
+    "options": {
+      "A": "Less than a second",
+      "B": "5-10 seconds",
+      "C": "Up to 20 seconds",
+      "D": "1-2 minutes",
+      "E": "Indefinitely"
+    },
+    "answer": "C",
+    "explanation": "Information in short-term memory is susceptible to rapid decay and typically lasts no longer than 20 seconds without active rehearsal or processing."
+  },
+  {
+    "question": "What is the estimated capacity of short-term memory according to more recent research?",
+    "options": {
+      "A": "2±1 items",
+      "B": "4±1 items",
+      "C": "7±2 items",
+      "D": "10±2 items",
+      "E": "Unlimited"
+    },
+    "answer": "B",
+    "explanation": "While earlier research suggested a capacity of 7±2 items, more recent findings indicate a more limited capacity of approximately 4±1 items in short-term memory."
+  },
+  {
+    "question": "What happens to information in short-term memory when it reaches its capacity?",
+    "options": {
+      "A": "It is automatically transferred to long-term memory.",
+      "B": "It is permanently lost.",
+      "C": "New information replaces some of the old information.",
+      "D": "The capacity of short-term memory expands.",
+      "E": "It triggers retrieval from long-term memory."
+    },
+    "answer": "C",
+    "explanation": "When short-term memory is full, the introduction of new information can displace or 'bump out' existing information."
+  },
+  {
+    "question": "Which memory strategy involves grouping familiar stimuli into a single unit?",
+    "options": {
+      "A": "Rehearsal",
+      "B": "Chunking",
+      "C": "Elaboration",
+      "D": "Visual imagery",
+      "E": "Retrieval cues"
+    },
+    "answer": "B",
+    "explanation": "Chunking is a technique for enhancing short-term memory capacity by organizing information into larger, meaningful chunks."
+  },
+  {
+    "question": "What is the definition of rehearsal in the context of memory?",
+    "options": {
+      "A": "Organizing information into categories",
+      "B": "Forming a mental picture of information",
+      "C": "Relating information to personal experiences",
+      "D": "Repeating information verbally or mentally",
+      "E": "Using environmental cues to aid recall"
+    },
+    "answer": "D",
+    "explanation": "Rehearsal is a memory strategy involving the repetition of information, either aloud or silently, to maintain it in short-term memory."
+  },
+  {
+    "question": "Which of the following factors can temporarily influence working memory capacity?",
+    "options": {
+      "A": "Age",
+      "B": "Intelligence",
+      "C": "Personality",
+      "D": "Pressure to perform",
+      "E": "Long-term memory capacity"
+    },
+    "answer": "D",
+    "explanation": "While working memory capacity is considered a relatively stable trait, situational factors like pressure or stress can impact its efficiency."
+  },
+  {
+    "question": "What distinguishes long-term memory from short-term memory?",
+    "options": {
+      "A": "Type of information stored",
+      "B": "Duration of storage",
+      "C": "Conscious awareness of information",
+      "D": "Brain regions involved",
+      "E": "Susceptibility to forgetting"
+    },
+    "answer": "B",
+    "explanation": "The key difference between long-term memory and short-term memory is the duration of information storage. Long-term memory can hold information for extended periods, potentially a lifetime."
+  },
+  {
+    "question": "What is a flashbulb memory?",
+    "options": {
+      "A": "A vivid memory of a personal achievement",
+      "B": "A memory triggered by a specific scent",
+      "C": "A memory distorted by misleading information",
+      "D": "A memory of an everyday event",
+      "E": "A vivid memory of a momentous and emotional event"
+    },
+    "answer": "E",
+    "explanation": "Flashbulb memories are highly detailed and vivid recollections of significant and emotionally charged events."
+  },
+  {
+    "question": "How is information typically organized in long-term memory?",
+    "options": {
+      "A": "Randomly",
+      "B": "Chronologically",
+      "C": "Alphabetically",
+      "D": "By sensory modality",
+      "E": "In categories and conceptual hierarchies"
+    },
+    "answer": "E",
+    "explanation": "Long-term memory utilizes categories and conceptual hierarchies to structure information based on shared properties and relationships."
+  },
+  {
+    "question": "Which of the following is NOT a type of associative learning?",
+    "options": {
+      "A": "Classical conditioning",
+      "B": "Operant conditioning",
+      "C": "Habituation",
+      "D": "Observational learning",
+      "E": "Cognitive learning"
+    },
+    "answer": "C",
+    "explanation": "Habituation, a decrease in response to a repeated stimulus, is a form of non-associative learning, while classical and operant conditioning are associative learning types."
+  },
+  {
+    "question": "What are schemas in the context of memory?",
+    "options": {
+      "A": "Individual units of information in a network",
+      "B": "Techniques for improving memory retrieval",
+      "C": "Organized clusters of related information",
+      "D": "Brain structures responsible for memory storage",
+      "E": "Types of sensory memory"
+    },
+    "answer": "C",
+    "explanation": "Schemas are mental frameworks that represent our knowledge and expectations about various concepts, events, or situations."
+  },
+  {
+    "question": "How do schemas influence our interaction with the environment?",
+    "options": {
+      "A": "They enhance our sensory perception.",
+      "B": "They guide our attention to relevant features.",
+      "C": "They control our emotional responses.",
+      "D": "They determine our personality traits.",
+      "E": "They inhibit our ability to learn new information."
+    },
+    "answer": "B",
+    "explanation": "Schemas act as filters, directing our attention to information that aligns with our existing knowledge and expectations."
+  },
+  {
+    "question": "What is the process of retrieving information from memory called?",
+    "options": {
+      "A": "Encoding",
+      "B": "Storage",
+      "C": "Retrieval",
+      "D": "Consolidation",
+      "E": "Attention"
+    },
+    "answer": "C",
+    "explanation": "Retrieval is the active process of accessing and bringing stored information from long-term memory back into conscious awareness."
+  },
+  {
+    "question": "How does retrieval affect the strength of memories?",
+    "options": {
+      "A": "Retrieval weakens memories.",
+      "B": "Retrieval has no effect on memories.",
+      "C": "Retrieval strengthens memories.",
+      "D": "Retrieval only affects short-term memories.",
+      "E": "Retrieval only affects long-term memories."
+    },
+    "answer": "C",
+    "explanation": "The act of retrieving information from long-term memory enhances the memory trace, making it more accessible in the future."
+  },
+  {
+    "question": "What are retrieval cues?",
+    "options": {
+      "A": "Strategies for suppressing unwanted memories",
+      "B": "Techniques for encoding information into long-term memory",
+      "C": "External or internal stimuli that aid memory recall",
+      "D": "Brain regions involved in memory retrieval",
+      "E": "Types of sensory input"
+    },
+    "answer": "C",
+    "explanation": "Retrieval cues are any stimuli or hints that facilitate the recall of information from long-term memory."
+  },
+  {
+    "question": "What is context-dependent memory?",
+    "options": {
+      "A": "Memory influenced by emotional state",
+      "B": "Memory for personal experiences",
+      "C": "Memory improved by repeated exposure",
+      "D": "Memory enhanced when recall occurs in the same environment as encoding",
+      "E": "Memory for factual information"
+    },
+    "answer": "D",
+    "explanation": "Context-dependent memory refers to the phenomenon where memory retrieval is better when the physical surroundings during recall match the environment during encoding."
+  },
+  {
+    "question": "Which of the following is an example of state-dependent memory?",
+    "options": {
+      "A": "Recalling information learned in a classroom while taking a test in the same room",
+      "B": "Remembering a happy event more easily when in a good mood",
+      "C": "Remembering a list of words better after repeating them several times",
+      "D": "Recognizing a face more easily after seeing it multiple times",
+      "E": "Remembering information learned underwater better when submerged again"
+    },
+    "answer": "B",
+    "explanation": "State-dependent memory suggests that recall is enhanced when our internal state during retrieval matches our state during encoding, such as our mood or level of intoxication."
+  },
+  {
+    "question": "What does the misinformation effect demonstrate about memory?",
+    "options": {
+      "A": "Memories are permanent and unchanging.",
+      "B": "Memories can be influenced by misleading information.",
+      "C": "Memories are always accurate representations of the past.",
+      "D": "Memories are primarily stored in sensory memory.",
+      "E": "Memories are not affected by external factors."
+    },
+    "answer": "B",
+    "explanation": "The misinformation effect highlights the reconstructive nature of memory, showing that misleading information can alter our recollections of events."
+  },
+  {
+    "question": "In the car accident study mentioned in the text, what factor led to participants reporting broken glass even though there was none?",
+    "options": {
+      "A": "The speed of the cars",
+      "B": "The type of car involved",
+      "C": "The presence of witnesses",
+      "D": "The wording of the question",
+      "E": "The time elapsed since the event"
+    },
+    "answer": "D",
+    "explanation": "The study illustrated the misinformation effect, showing that participants' memory of the accident was swayed by the verb used to describe the collision ('hit' vs. 'smashed')."
+  },
+  {
+    "question": "What is the term for the inability to access a memory from long-term memory?",
+    "options": {
+      "A": "Amnesia",
+      "B": "Interference",
+      "C": "Retrieval failure",
+      "D": "Decay",
+      "E": "Forgetting"
+    },
+    "answer": "E",
+    "explanation": "Forgetting refers to the inability to retrieve information that was previously encoded and stored in long-term memory."
+  },
+  {
+    "question": "What did Ebbinghaus' forgetting curve demonstrate about memory?",
+    "options": {
+      "A": "Forgetting is a linear process.",
+      "B": "Forgetting occurs most rapidly immediately after learning.",
+      "C": "Meaningful information is forgotten faster than nonsense syllables.",
+      "D": "Forgetting is primarily due to retrieval failure.",
+      "E": "Forgetting can be prevented through rehearsal."
+    },
+    "answer": "B",
+    "explanation": "Ebbinghaus' research showed a rapid initial decline in memory followed by a slower rate of forgetting, indicating that most forgetting happens shortly after learning."
+  },
+  {
+    "question": "What is retroactive interference?",
+    "options": {
+      "A": "Forgetting due to the passage of time",
+      "B": "Forgetting caused by emotional trauma",
+      "C": "New learning disrupting recall of old information",
+      "D": "Old learning interfering with the acquisition of new information",
+      "E": "Forgetting due to lack of attention during encoding"
+    },
+    "answer": "C",
+    "explanation": "Retroactive interference occurs when newly acquired information interferes with the retrieval of previously learned material."
+  },
+  {
+    "question": "In the example provided, what illustrates proactive interference?",
+    "options": {
+      "A": "Studying sociology after psychology and performing poorly on the sociology test",
+      "B": "Studying psychology after sociology and performing poorly on the sociology test",
+      "C": "Studying both sociology and psychology and performing well on both tests",
+      "D": "Failing to study either sociology or psychology and performing poorly on both tests",
+      "E": "Remembering the first and last items on a list better than those in the middle"
+    },
+    "answer": "B",
+    "explanation": "Proactive interference occurs when previously learned material hinders the learning and recall of new information. In this case, studying psychology before sociology interferes with the sociology test."
+  },
+  {
+    "question": "What causes retrieval failure?",
+    "options": {
+      "A": "Decay of the memory trace",
+      "B": "Interference from other memories",
+      "C": "A mismatch between retrieval cues and encoded information",
+      "D": "Insufficient motivation to remember",
+      "E": "Damage to the hippocampus"
+    },
+    "answer": "C",
+    "explanation": "Retrieval failure happens when the cues present during recall do not effectively activate the target memory, indicating a mismatch between encoding and retrieval conditions."
+  },
+  {
+    "question": "What is the main distinction between declarative and non-declarative memory systems?",
+    "options": {
+      "A": "Capacity for storing information",
+      "B": "Type of information processed",
+      "C": "Brain regions involved",
+      "D": "Level of conscious awareness",
+      "E": "Susceptibility to forgetting"
+    },
+    "answer": "D",
+    "explanation": "Declarative memory involves conscious, effortful retrieval of facts and events, while non-declarative memory operates more automatically, often without conscious awareness."
+  },
+  {
+    "question": "Which type of memory stores factual information, such as word definitions and historical dates?",
+    "options": {
+      "A": "Procedural memory",
+      "B": "Semantic memory",
+      "C": "Episodic memory",
+      "D": "Prospective memory",
+      "E": "Sensory memory"
+    },
+    "answer": "B",
+    "explanation": "Semantic memory is a component of declarative memory responsible for storing general knowledge and facts."
+  },
+  {
+    "question": "What characterizes episodic memory?",
+    "options": {
+      "A": "Memory for skills and habits",
+      "B": "Memory for general knowledge",
+      "C": "Memory for future events",
+      "D": "Memory for personally experienced events",
+      "E": "Memory for sensory experiences"
+    },
+    "answer": "D",
+    "explanation": "Episodic memory is a type of declarative memory that stores memories of specific events and experiences, often with a temporal and contextual component."
+  },
+  {
+    "question": "What is the function of prospective memory?",
+    "options": {
+      "A": "Recalling past events",
+      "B": "Storing factual information",
+      "C": "Remembering to perform actions in the future",
+      "D": "Learning new skills",
+      "E": "Processing emotional responses"
+    },
+    "answer": "C",
+    "explanation": "Prospective memory is responsible for remembering to carry out intended actions at a future time."
+  },
+  {
+    "question": "Which type of memory involves recalling events or information from the past?",
+    "options": {
+      "A": "Prospective memory",
+      "B": "Retrospective memory",
+      "C": "Procedural memory",
+      "D": "Sensory memory",
+      "E": "Working memory"
+    },
+    "answer": "B",
+    "explanation": "Retrospective memory encompasses the retrieval of information from the past, including both episodic and semantic memories."
+  },
+  {
+    "question": "Which brain structure is crucial for the initial consolidation of memories?",
+    "options": {
+      "A": "Amygdala",
+      "B": "Prefrontal cortex",
+      "C": "Cerebellum",
+      "D": "Hippocampus",
+      "E": "Thalamus"
+    },
+    "answer": "D",
+    "explanation": "The hippocampus plays a critical role in the formation and consolidation of new long-term memories, as evidenced by cases like Patient HM."
+  },
+  {
+    "question": "What was the primary consequence of the surgery that removed part of Patient HM's hippocampus?",
+    "options": {
+      "A": "Loss of short-term memory",
+      "B": "Inability to learn new motor skills",
+      "C": "Impaired language comprehension",
+      "D": "Inability to form new long-term memories",
+      "E": "Loss of existing long-term memories"
+    },
+    "answer": "D",
+    "explanation": "The removal of HM's hippocampus resulted in anterograde amnesia, rendering him unable to create new long-term memories, while his short-term memory remained intact."
+  },
+  {
+    "question": "Who was the researcher who conducted extensive studies on Patient HM?",
+    "options": {
+      "A": "George Sperling",
+      "B": "Hermann Ebbinghaus",
+      "C": "Brenda Milner",
+      "D": "Ivan Pavlov",
+      "E": "Sigmund Freud"
+    },
+    "answer": "C",
+    "explanation": "Brenda Milner's pioneering research with HM led to significant advancements in our understanding of memory systems and the role of the hippocampus."
+  },
+  {
+    "question": "What type of memory was Patient HM still able to learn despite his inability to form new declarative memories?",
+    "options": {
+      "A": "Episodic memory",
+      "B": "Semantic memory",
+      "C": "Prospective memory",
+      "D": "Procedural memory",
+      "E": "Sensory memory"
+    },
+    "answer": "D",
+    "explanation": "HM's case demonstrated the dissociation between declarative and non-declarative memory systems. He could still acquire new motor skills (procedural memory) even though he couldn't remember learning them."
+  },
+  {
+    "question": "What key insight did Patient HM's case contribute to our understanding of memory?",
+    "options": {
+      "A": "Short-term and long-term memory are processed in the same brain region.",
+      "B": "Memory is a single, unified system.",
+      "C": "The hippocampus is responsible for all types of memory.",
+      "D": "Declarative and procedural memory are distinct systems.",
+      "E": "Memories are stored permanently and cannot be altered."
+    },
+    "answer": "D",
+    "explanation": "HM's ability to learn new skills while being unable to form new declarative memories provided compelling evidence for the existence of separate brain systems for different types of memory."
+  }
+]
