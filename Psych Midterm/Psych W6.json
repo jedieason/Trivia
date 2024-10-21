@@ -1,6 +1,3 @@
-Here are 50 multiple-choice questions about learning, in the requested JSON format:
-
-```json
 [
   {
     "question": "What is the definition of learning?",
@@ -498,4 +495,3 @@ Here are 50 multiple-choice questions about learning, in the requested JSON form
     "explanation": "Sam's knowledge of how to swing a bat is likely acquired through observational learning, having watched others perform this action, even without direct experience."
   }
 ]
-``` 
