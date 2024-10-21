@@ -3,553 +3,168 @@
 "question": "What is the initial step in the scientific method, as highlighted in the provided research methods excerpt?",
 "options": {
 "A": "Formulating a research question",
-"B": "Proposing a hypothesis",
-"C": "Conducting a literature review",
-"D": "Making observations",
+"B": "Conducting a literature review",
+"C": "Developing a hypothesis",
+"D": "Making an observation",
 "E": "Designing an experiment"
 },
 "answer": "D",
-"explanation": "The document emphasizes that observation is the foundation of science and the first step in the scientific method. This involves examining past research and making initial observations."
+"explanation": "The provided excerpt on research methods emphasizes observation as the foundational step in the scientific process."
 },
 {
-"question": "According to the provided text, what is the primary goal of gathering evidence or data in the scientific method?",
+"question": "What is the primary objective of gathering evidence or data in the scientific method?",
 "options": {
-"A": "To confirm the proposed hypothesis without any doubt",
-"B": "To determine whether the hypothesis is supported or refuted",
-"C": "To collect as much information as possible regardless of relevance",
-"D": "To prove the researcher's initial assumptions are correct",
-"E": "To establish a definitive theory based on limited data"
+"A": "To confirm the validity of the hypothesis",
+"B": "To support existing theories",
+"C": "To disprove alternative explanations",
+"D": "To test the proposed hypothesis",
+"E": "To generate new research questions"
+},
+"answer": "D",
+"explanation": "The scientific method involves gathering evidence or data with the specific purpose of testing the validity of the proposed hypothesis."
+},
+{
+"question": "According to the provided text, which of the following represents a well-defined variable in a research study exploring the relationship between spending habits and happiness?",
+"options": {
+"A": "General feelings of well-being",
+"B": "Overall life satisfaction",
+"C": "Frequency of engaging in impulsive purchases",
+"D": "Subjective experiences of joy and contentment",
+"E": "A broad sense of happiness"
+},
+"answer": "C",
+"explanation": "The text emphasizes the importance of clearly defining variables using operational definitions. 'Frequency of engaging in impulsive purchases' offers a measurable and specific way to assess spending habits, making it a well-defined variable in this context."
+},
+{
+"question": "Which research method is most suitable for investigating a cause-and-effect relationship between variables?",
+"options": {
+"A": "Survey research",
+"B": "Naturalistic observation",
+"C": "Correlational study",
+"D": "Experimental design",
+"E": "Case study analysis"
+},
+"answer": "D",
+"explanation": "The text clearly states that experimental research, where the investigator manipulates a variable under controlled conditions, is the most appropriate method for examining cause-and-effect relationships."
+},
+{
+"question": "In an experiment investigating the impact of a new curriculum on student performance, what role does student performance play?",
+"options": {
+"A": "Independent variable",
+"B": "Extraneous variable",
+"C": "Control variable",
+"D": "Dependent variable",
+"E": "Mediating variable"
+},
+"answer": "D",
+"explanation": "In this experimental scenario, student performance is the variable being measured and is expected to be influenced by the manipulation of the independent variable (the new curriculum)."
+},
+{
+"question": "What is the primary purpose of random assignment in experimental research?",
+"options": {
+"A": "To eliminate the influence of extraneous variables",
+"B": "To ensure an equal distribution of participant characteristics across groups",
+"C": "To increase the generalizability of the findings",
+"D": "To simplify the data analysis process",
+"E": "To create a diverse and representative sample"
 },
 "answer": "B",
-"explanation": "The purpose of data collection is to test the hypothesis and determine if the evidence supports or fails to support it. "
+"explanation": "Random assignment is crucial in experimental research to minimize the impact of extraneous variables by ensuring that participants have an equal chance of being assigned to any group, thus distributing participant characteristics evenly."
 },
 {
-"question": "In the context of research, what is an operational definition, as explained in the research methods excerpt?",
+"question": "In a hypothetical study exploring the relationship between pet ownership and happiness among single, elderly individuals, which of the following would be considered an extraneous variable?",
 "options": {
-"A": "A broad description of a variable's general concept",
-"B": "A subjective interpretation of a variable's meaning",
-"C": "A complex theoretical explanation of a variable",
-"D": "A specific and measurable definition of a variable",
-"E": "An abstract philosophical definition of a variable"
+"A": "Happiness levels",
+"B": "Pet ownership status",
+"C": "Age of the participants",
+"D": "Financial status of the individuals",
+"E": "Marital status of the participants"
 },
 "answer": "D",
-"explanation": "An operational definition is crucial for clarity in research as it provides a concrete way to measure or control a variable. "
+"explanation": "The text highlights the importance of considering extraneous variables in research design. In this scenario, financial status could potentially influence happiness levels independently of pet ownership, making it an extraneous variable that needs to be controlled or accounted for."
 },
 {
-"question": "What does the research methods excerpt suggest as a factor that influences the choice of research method?",
+"question": "What is a key characteristic of non-experimental research designs like quasi-experiments?",
 "options": {
-"A": "The researcher's personal preference",
-"B": "The availability of funding for the study",
-"C": "The number of participants available",
-"D": "The nature of the research question being asked",
-"E": "The complexity of statistical analysis planned"
+"A": "Manipulation of an independent variable",
+"B": "Random assignment of participants to groups",
+"C": "Control over all extraneous variables",
+"D": "Reliance on existing group memberships",
+"E": "Ability to establish definitive cause-and-effect relationships"
 },
 "answer": "D",
-"explanation": "The text explicitly states that the selection of a research method, such as correlational or experimental design, depends on the specific nature of the research question."
+"explanation": "The text differentiates quasi-experiments from true experiments by pointing out that quasi-experiments do not employ random assignment and instead rely on pre-existing group memberships as part of the independent variable."
 },
 {
-"question": "According to the excerpt, what role do 'subjects' play in a research study?",
+"question": "Which of the following relationships between variables exemplifies a negative correlation?",
 "options": {
-"A": "They design the research study and procedures",
-"B": "They analyze the data and draw conclusions",
-"C": "They are the individuals or animals whose behavior is observed",
-"D": "They control and manipulate the independent variable",
-"E": "They write and publish the research findings"
-},
-"answer": "C",
-"explanation": "Subjects are the individuals or animals whose behavior is systematically observed, monitored, and recorded in a study."
-},
-{
-"question": "According to the research methods text, what is the significance of data patterns in a research study?",
-"options": {
-"A": "They dictate the research methods used in the study",
-"B": "They determine the ethical implications of the study",
-"C": "They indicate whether the hypothesis is likely to be supported",
-"D": "They reveal the researcher's biases and assumptions",
-"E": "They predict the future direction of the research field"
-},
-"answer": "C",
-"explanation": "The patterns observed in the collected data serve as evidence to determine if the hypothesis is likely to be supported or not."
-},
-{
-"question": "What is the primary function of using statistics in the analysis and conclusions stage of research, as per the excerpt?",
-"options": {
-"A": "To create visually appealing graphs and charts",
-"B": "To make the research findings more complex",
-"C": "To subjectively interpret the collected data",
-"D": "To objectively analyze the data and test the hypothesis",
-"E": "To manipulate the data to fit the desired outcome"
-},
-"answer": "D",
-"explanation": "Statistics provide a way to objectively analyze the data and make informed decisions about whether the hypothesis is supported."
-},
-{
-"question": "What does the research methods excerpt suggest is a common way to share research findings with the scientific community?",
-"options": {
-"A": "Posting on social media platforms",
-"B": "Publishing in a personal blog or website",
-"C": "Submitting to a peer-reviewed journal for publication",
-"D": "Distributing flyers and brochures to the public",
-"E": "Presenting findings at informal gatherings"
-},
-"answer": "C",
-"explanation": "Submitting research findings to a reputable journal for publication is a standard practice in scientific communication."
-},
-{
-"question": "In experimental research, what is the role of the investigator, as described in the provided research methods excerpt?",
-"options": {
-"A": "To passively observe natural phenomena",
-"B": "To manipulate a variable under controlled conditions",
-"C": "To survey participants about their opinions",
-"D": "To analyze existing data from previous studies",
-"E": "To develop theories without experimentation"
-},
-"answer": "B",
-"explanation": "In experimental research, the investigator actively manipulates a variable to observe its effects under carefully controlled conditions."
-},
-{
-"question": "What is the independent variable in a research study, as explained in the excerpt?",
-"options": {
-"A": "The variable that stays constant throughout the study",
-"B": "The variable that is measured as an outcome",
-"C": "The variable that is manipulated by the researcher",
-"D": "The variable that is influenced by the participant",
-"E": "The variable that is randomly assigned to groups"
-},
-"answer": "C",
-"explanation": "The independent variable is the one that the researcher intentionally manipulates to see its impact on the dependent variable."
-},
-{
-"question": "What is a dependent variable in the context of experimental research, as defined in the research methods text?",
-"options": {
-"A": "The variable that the researcher directly controls",
-"B": "The variable that remains unaffected by manipulation",
-"C": "The variable that is influenced by the independent variable",
-"D": "The variable that is randomly assigned to participants",
-"E": "The variable that is measured before the experiment"
-},
-"answer": "C",
-"explanation": "The dependent variable is the one that is measured to see if it is affected by the changes made to the independent variable."
-},
-{
-"question": "What distinguishes the experimental group from the control group in an experimental research design?",
-"options": {
-"A": "The experimental group receives a placebo, while the control group receives the real treatment",
-"B": "The experimental group is not exposed to the independent variable, while the control group is",
-"C": "The experimental group receives a special treatment related to the independent variable, while the control group does not",
-"D": "The experimental group is chosen randomly, while the control group is selected based on specific criteria",
-"E": "The experimental group is assessed before the study, while the control group is assessed after"
-},
-"answer": "C",
-"explanation": "The experimental group receives the manipulation or treatment related to the independent variable, while the control group serves as a baseline for comparison."
-},
-{
-"question": "In a study investigating the impact of a new curriculum on student performance, what would be considered an extraneous variable, based on the excerpt?",
-"options": {
-"A": "The type of teaching method used in the classroom",
-"B": "The students' prior knowledge in the subject",
-"C": "The amount of sleep students get before an exam",
-"D": "The difficulty level of the exam questions",
-"E": "The students' motivation to learn the material"
-},
-"answer": "C",
-"explanation": "Extraneous variables are factors other than the independent variable that could unintentionally influence the dependent variable, such as sleep deprivation affecting exam performance."
-},
-{
-"question": "What is a confounding effect in research, as described in the provided text?",
-"options": {
-"A": "When the independent variable has a clear and direct impact on the dependent variable",
-"B": "When the results of the study support the researcher's hypothesis",
-"C": "When extraneous variables make it difficult to determine the true cause of the observed effects",
-"D": "When the control group and experimental group show similar results",
-"E": "When the sample size is too small to draw meaningful conclusions"
-},
-"answer": "C",
-"explanation": "A confounding effect arises when extraneous variables interfere with the study, making it challenging to isolate the true impact of the independent variable."
-},
-{
-"question": "What is the function of a mediator variable in research, as explained in the provided excerpt on research methods?",
-"options": {
-"A": "To directly influence the dependent variable without affecting the independent variable",
-"B": "To explain the relationship between the independent and dependent variables",
-"C": "To create confusion and distort the research findings",
-"D": "To mask the true effect of the independent variable",
-"E": "To act as a substitute for the independent variable"
-},
-"answer": "B",
-"explanation": "A mediator variable helps clarify the relationship between the independent and dependent variables by explaining the process through which the independent variable influences the dependent variable."
-},
-{
-"question": "What is the purpose of random assignment in experimental research, as emphasized in the research methods excerpt?",
-"options": {
-"A": "To ensure that all participants receive the same treatment",
-"B": "To introduce bias and ensure specific outcomes",
-"C": "To make the research process more complicated",
-"D": "To select participants who are most likely to support the hypothesis",
-"E": "To minimize the influence of extraneous variables and potential confounding effects"
-},
-"answer": "E",
-"explanation": "Random assignment is a key technique to reduce the impact of extraneous variables and prevent confounding effects by giving all subjects an equal chance of being in any group."
-},
-{
-"question": "In the hypothesis 'Single, elderly individuals are happier if they have a dog as a pet,' what is the dependent variable?",
-"options": {
-"A": "Age of the individuals",
-"B": "Marital status of the individuals",
-"C": "Presence or absence of a dog as a pet",
-"D": "Happiness levels of the individuals",
-"E": "Type of living environment"
-},
-"answer": "D",
-"explanation": "The dependent variable is the factor being measured or observed, which, in this case, is the happiness levels of the individuals."
-},
-{
-"question": "What is a notable advantage of experimental research, as highlighted in the research methods excerpt?",
-"options": {
-"A": "It guarantees the accuracy of the research findings",
-"B": "It is the easiest and most straightforward research method",
-"C": "It allows researchers to study any research question",
-"D": "It permits conclusions about cause-and-effect relationships",
-"E": "It avoids the need for ethical considerations"
-},
-"answer": "D",
-"explanation": "A key strength of experimental research is its ability to establish cause-and-effect relationships between variables due to its controlled nature."
-},
-{
-"question": "What is a potential limitation of experimental research mentioned in the research methods excerpt?",
-"options": {
-"A": "It requires a large number of participants",
-"B": "It is always time-consuming and expensive",
-"C": "It can be difficult to generalize findings to real-world settings",
-"D": "It relies heavily on statistical analysis",
-"E": "It is only applicable to studies in psychology"
-},
-"answer": "C",
-"explanation": "The artificiality of controlled experimental settings can sometimes limit the generalizability of findings to natural environments."
-},
-{
-"question": "Which of the following research questions, as per the excerpt, would be unsuitable for experimental research due to ethical concerns?",
-"options": {
-"A": "Does exposure to violent video games increase aggression in teenagers?",
-"B": "Does a new drug treatment effectively reduce symptoms of depression?",
-"C": "Does regular exercise improve cognitive function in older adults?",
-"D": "Does randomly assigning people to be married or single impact their happiness?",
-"E": "Does listening to classical music enhance memory recall in students?"
-},
-"answer": "D",
-"explanation": "It would be ethically unacceptable to randomly assign individuals to get married or remain single, highlighting a limitation of experimental research."
-},
-{
-"question": "How do quasi-experiments differ from true experiments, based on the information provided in the research methods text?",
-"options": {
-"A": "Quasi-experiments do not involve the manipulation of any variables",
-"B": "Quasi-experiments use random assignment to create control and experimental groups",
-"C": "Quasi-experiments rely on existing group memberships rather than random assignment",
-"D": "Quasi-experiments only focus on observing behavior in natural settings",
-"E": "Quasi-experiments do not require data analysis or interpretation"
-},
-"answer": "C",
-"explanation": "Quasi-experiments resemble true experiments but lack random assignment, relying instead on pre-existing groups, which can impact causal inferences."
-},
-{
-"question": "What is the primary focus of correlational research, as described in the excerpt on research methods?",
-"options": {
-"A": "To establish a cause-and-effect relationship between variables",
-"B": "To manipulate variables in a controlled laboratory setting",
-"C": "To investigate the natural relationships between variables in the real world",
-"D": "To develop new theories based on researcher intuition",
-"E": "To prove or disprove existing scientific laws"
-},
-"answer": "C",
-"explanation": "Correlational research aims to explore how variables are naturally related in real-world settings without manipulating them."
-},
-{
-"question": "What does the research methods excerpt indicate about the relationship between correlation and causation?",
-"options": {
-"A": "Correlation always implies causation",
-"B": "Correlation and causation are interchangeable terms",
-"C": "Correlation does not necessarily imply causation",
-"D": "Correlation proves that one variable causes another",
-"E": "Correlation is irrelevant in scientific research"
-},
-"answer": "C",
-"explanation": "The text explicitly states that correlation does not automatically equal causation, emphasizing the need for careful interpretation."
-},
-{
-"question": "What is the directionality problem in correlational research, as explained in the research methods excerpt?",
-"options": {
-"A": "When researchers manipulate variables to achieve desired results",
-"B": "When the sample size is too small to establish a meaningful correlation",
-"C": "When two variables are correlated, but it's unclear which one causes changes in the other",
-"D": "When the correlation between variables is weak and statistically insignificant",
-"E": "When researchers misinterpret the data and draw false conclusions"
-},
-"answer": "C",
-"explanation": "The directionality problem arises when it's impossible to determine which of two correlated variables is the cause and which is the effect."
-},
-{
-"question": "What is the third variable problem in correlational research, as illustrated in the example provided in the excerpt?",
-"options": {
-"A": "When researchers fail to control for extraneous variables",
-"B": "When two variables appear to be related, but their relationship is actually due to an unmeasured third variable",
-"C": "When the correlation between two variables is purely coincidental",
-"D": "When the direction of the causal relationship between variables is reversed",
-"E": "When the study's findings are not statistically significant"
-},
-"answer": "B",
-"explanation": "The third variable problem occurs when an unmeasured variable influences both the independent and dependent variables, creating a spurious correlation."
-},
-{
-"question": "What is the main purpose of surveys in correlational research, as mentioned in the research methods excerpt?",
-"options": {
-"A": "To manipulate variables and observe their effects",
-"B": "To gather information about people's opinions and behaviors",
-"C": "To establish cause-and-effect relationships between variables",
-"D": "To test hypotheses in a controlled laboratory setting",
-"E": "To observe behavior in natural settings without intervention"
-},
-"answer": "B",
-"explanation": "Surveys, through questionnaires or interviews, are a common method in correlational research to gather information about people's thoughts, feelings, and behaviors."
-},
-{
-"question": "What characterizes naturalistic observation as a research method in correlational research, as described in the excerpt?",
-"options": {
-"A": "Researchers actively intervene and manipulate variables",
-"B": "Researchers rely on self-reported data from participants",
-"C": "Researchers systematically observe behavior in natural settings without direct intervention",
-"D": "Researchers conduct experiments in controlled laboratory environments",
-"E": "Researchers analyze existing data from archival sources"
-},
-"answer": "C",
-"explanation": "Naturalistic observation involves careful and systematic observation of behavior in real-world settings without interfering with the subjects."
-},
-{
-"question": "What is sampling bias in research, as explained in the research methods excerpt?",
-"options": {
-"A": "When the researcher intentionally selects participants who support their hypothesis",
-"B": "When all members of the population have an equal chance of being included in the sample",
-"C": "When the sample accurately represents the characteristics of the population",
-"D": "When the sample is not representative of the population being studied",
-"E": "When the sample size is too large, making data analysis difficult"
-},
-"answer": "D",
-"explanation": "Sampling bias occurs when the selected sample does not adequately represent the population, potentially leading to inaccurate generalizations."
-},
-{
-"question": "What is social desirability bias in research, as described in the excerpt on research methods?",
-"options": {
-"A": "When participants provide honest and unbiased responses",
-"B": "When researchers unintentionally influence participants' responses",
-"C": "When participants tend to give socially approved answers, especially on sensitive topics",
-"D": "When researchers use leading questions that suggest a desired answer",
-"E": "When participants' responses are influenced by their mood or emotional state"
-},
-"answer": "C",
-"explanation": "Social desirability bias is a concern in research as participants may try to present themselves in a favorable light, particularly when addressing sensitive issues."
-},
-{
-"question": "What does the halo effect refer to in the context of research, based on the provided research methods excerpt?",
-"options": {
-"A": "When researchers treat all participants with equal respect and consideration",
-"B": "When participants' responses are influenced by the physical attractiveness of the researcher",
-"C": "When an overall impression of a person influences specific ratings of their traits or behaviors",
-"D": "When participants are randomly assigned to different experimental conditions",
-"E": "When researchers use a double-blind procedure to minimize bias"
-},
-"answer": "C",
-"explanation": "The halo effect describes how a general impression of a person can bias judgments about their specific attributes, as illustrated by the link between attractiveness and perceived positive traits."
-},
-{
-"question": "What is the placebo effect in research, as defined in the research methods text?",
-"options": {
-"A": "When participants receive the actual treatment and experience a genuine effect",
-"B": "When participants show improvement solely due to the passage of time",
-"C": "When researchers' expectations influence the outcome of the study",
-"D": "When participants experience changes even though they receive a fake treatment",
-"E": "When participants drop out of the study before it is completed"
-},
-"answer": "D",
-"explanation": "The placebo effect highlights the power of belief, where participants may experience improvements despite not receiving the actual effective treatment."
-},
-{
-"question": "What does participant demand refer to in research, according to the provided research methods excerpt?",
-"options": {
-"A": "When participants insist on knowing the true purpose of the study",
-"B": "When participants try to guess the hypothesis and behave accordingly",
-"C": "When participants refuse to cooperate with the researcher's instructions",
-"D": "When participants demand compensation for their time and effort",
-"E": "When participants experience discomfort or distress during the study"
-},
-"answer": "B",
-"explanation": "Participant demand can bias research findings as participants may alter their behavior based on their perceptions of the study's aims."
-},
-{
-"question": "What is experimenter bias in research, as described in the excerpt on research methods?",
-"options": {
-"A": "When participants' expectations influence their own responses",
-"B": "When researchers remain objective and unbiased throughout the study",
-"C": "When researchers' expectations unintentionally affect the study's procedures or participants' behavior",
-"D": "When researchers use random assignment to eliminate potential bias",
-"E": "When researchers publish their findings in a reputable scientific journal"
-},
-"answer": "C",
-"explanation": "Experimenter bias is a concern as researchers' preconceived notions can subtly influence how they conduct the study or interact with participants."
-},
-{
-"question": "What procedure is recommended in the research methods text to minimize experimenter bias and participant demand?",
-"options": {
-"A": "Single-blind procedure, where only the participants are unaware of the treatment condition",
-"B": "Open-label procedure, where both the researchers and participants know the treatment condition",
-"C": "Double-blind procedure, where both the researchers and participants are blind to the treatment condition",
-"D": "Placebo-controlled procedure, where all participants receive a placebo treatment",
-"E": "Randomized controlled trial, where participants are randomly assigned to treatment conditions"
-},
-"answer": "C",
-"explanation": "The double-blind procedure is a technique to mitigate bias by keeping both the researchers and participants unaware of who is receiving the actual treatment or a placebo."
-},
-{
-"question": "What is the difference between 'Fail to support the hypothesis' and 'Supports the hypothesis?'",
-"options": {
-"A": "There is no difference; both mean the hypothesis is wrong",
-"B": "Fail to support means the hypothesis is wrong, while 'Supports' means the hypothesis is correct",
-"C": "'Fail to support' means the hypothesis is inconclusive, while 'Supports' means the hypothesis needs more testing",
-"D": "'Fail to support' means the evidence collected does not align with the hypothesis, while 'Supports' means the evidence does align with the hypothesis",
-"E": "'Fail to support' means the researcher made a mistake, while 'Supports' means the research was conducted perfectly"
-},
-"answer": "D",
-"explanation": "After gathering evidence/data, the researcher analyzes it to determine if there's a consistent pattern that either aligns with (supports) or does not align with (fails to support) the proposed hypothesis."
-},
-{
-"question": "What are the two broad categories of research design mentioned in the text?",
-"options": {
-"A": "Quantitative and Qualitative",
-"B": "Surveys and Experiments",
-"C": "Correlational and Experimental",
-"D": "Independent and Dependent",
-"E": "Observation and Analysis"
-},
-"answer": "C",
-"explanation": "Step 2 in the research process addresses choosing the appropriate research method. The text specifies "Correlational vs Experimental design.""
-},
-{
-"question": "What is the significance of Dunn et al. (2008)'s research?",
-"options": {
-"A": "It proves that happiness can be achieved through material possessions",
-"B": "It highlights the ethical concerns of manipulating human emotions in research",
-"C": "It establishes a direct causal link between spending money and overall well-being",
-"D": "It provides an example of a study that investigates the relationship between spending habits and happiness",
-"E": "It demonstrates the effectiveness of using surveys to measure complex psychological constructs"
-},
-"answer": "D",
-"explanation": "The reference to Dunn et al. (2008)'s study serves as an example of research exploring the connection between how individuals spend money and their reported levels of happiness."
-},
-{
-"question": "In the study examining the effects of pet ownership on happiness in single, elderly individuals, what is the independent variable?",
-"options": {
-"A": "The type of pet owned (dog or other)",
-"B": "The happiness levels of the individuals",
-"C": "The duration of pet ownership",
-"D": "The age and marital status of the individuals",
-"E": "The health status of the elderly individual"
+"A": "As exercise frequency increases, stress levels decrease.",
+"B": "Students with higher GPAs tend to have higher levels of self-esteem.",
+"C": "Increased social media usage is associated with increased feelings of loneliness.",
+"D": "People who sleep more hours generally report feeling more rested.",
+"E": "The number of books read in childhood positively correlates with vocabulary size in adulthood."
 },
 "answer": "A",
-"explanation": "The independent variable is the factor being manipulated or controlled by the researcher, which in this case is whether the individual receives a dog as a pet or another type of pet or no pet at all."
+"explanation": "A negative correlation indicates that as one variable increases, the other decreases. In option A, as exercise frequency goes up, stress levels go down, demonstrating an inverse relationship."
 },
 {
-"question": "Why are extraneous variables a concern in research?",
+"question": "Why is it crucial to distinguish between correlation and causation in research?",
 "options": {
-"A": "They make the research findings more complex and interesting",
-"B": "They can help to support the researcher's hypothesis",
-"C": "They are essential for establishing cause-and-effect relationships",
-"D": "They can confound the results, making it difficult to determine the true effect of the independent variable",
-"E": "They enhance the generalizability of the research findings to real-world settings"
+"A": "Correlation implies a stronger relationship than causation.",
+"B": "Correlation is more difficult to establish than causation.",
+"C": "Correlation alone does not prove a cause-and-effect relationship.",
+"D": "Causation is a more common phenomenon than correlation.",
+"E": "Causation is easier to measure and quantify than correlation."
 },
-"answer": "D",
-"explanation": "Extraneous variables introduce unwanted noise into the data, making it challenging to isolate the true impact of the manipulated variable."
+"answer": "C",
+"explanation": "The text explicitly cautions against equating correlation with causation, emphasizing that just because two variables are related does not necessarily mean one causes the other."
 },
 {
-"question": "What does the term 'empirical observation' mean in the context of research?",
+"question": "What potential methodological issue arises when a research sample is not representative of the larger population it aims to study?",
 "options": {
-"A": "Observations based on personal opinions and beliefs",
-"B": "Observations made in a controlled laboratory setting",
-"C": "Observations based on subjective interpretations of data",
-"D": "Observations derived from sensory experiences and measurements",
-"E": "Observations guided by theoretical assumptions"
-},
-"answer": "D",
-"explanation": "Empirical observations refer to data collected through direct observation or measurement, emphasizing the importance of evidence-based research."
-},
-{
-"question": "What is the key difference between a correlational and experimental research design?",
-"options": {
-"A": "Correlational research manipulates variables, while experimental research observes natural relationships",
-"B": "Correlational research studies cause-and-effect relationships, while experimental research explores associations",
-"C": "Correlational research uses random assignment, while experimental research relies on existing groups",
-"D": "Correlational research examines associations between variables, while experimental research manipulates variables to determine causation",
-"E": "Correlational research is qualitative, while experimental research is quantitative"
-},
-"answer": "D",
-"explanation": "The fundamental distinction lies in the manipulation of variables. Experimental research actively manipulates variables to assess causation, while correlational research examines relationships without manipulation."
-},
-{
-"question": "In the example of the new curriculum and student performance, what is the purpose of having a control group?",
-"options": {
-"A": "To ensure all students receive the same educational experience",
-"B": "To provide a baseline for comparison to assess the effectiveness of the new curriculum",
-"C": "To make the research design more complex and rigorous",
-"D": "To eliminate the need for statistical analysis",
-"E": "To create a confounding effect that supports the hypothesis"
+"A": "Social desirability bias",
+"B": "Sampling bias",
+"C": "Placebo effect",
+"D": "Halo effect",
+"E": "Participant demand"
 },
 "answer": "B",
-"explanation": "The control group, following the old curriculum, serves as a benchmark to evaluate the impact of the new curriculum on student performance."
+"explanation": "The sources define sampling bias as a situation where the sample used in a study does not accurately reflect the characteristics of the broader population, potentially leading to inaccurate generalizations."
 },
 {
-"question": "Why might a researcher choose to use a non-experimental research design instead of an experimental one?",
+"question": "Which of the following scenarios best illustrates the concept of social desirability bias in research?",
 "options": {
-"A": "Non-experimental designs are always more rigorous and reliable",
-"B": "Non-experimental designs are better suited for establishing cause-and-effect relationships",
-"C": "Non-experimental designs allow researchers to manipulate variables that would be unethical to manipulate in an experiment",
-"D": "Non-experimental designs are less time-consuming and less expensive",
-"E": "Non-experimental designs are preferred for studying complex social phenomena in natural settings"
-},
-"answer": "E",
-"explanation": "Non-experimental designs, like correlational research, are often chosen when studying real-world phenomena where manipulating variables is impractical or unethical."
-},
-{
-"question": "What is the potential consequence of a sampling bias in a research study?",
-"options": {
-"A": "The findings may not be generalizable to the larger population",
-"B": "The research design becomes more robust and reliable",
-"C": "The researcher's hypothesis is automatically confirmed",
-"D": "The need for statistical analysis is eliminated",
-"E": "The ethical implications of the study are reduced"
+"A": "Participants in a weight loss study underreport their calorie intake.",
+"B": "A researcher's personal beliefs influence the interpretation of data.",
+"C": "Individuals in a drug trial experience improvements due to their expectations.",
+"D": "An attractive candidate is perceived as more qualified for a job.",
+"E": "Participants in an experiment try to guess the hypothesis and adjust their behavior accordingly."
 },
 "answer": "A",
-"explanation": "If the sample does not accurately represent the population, the results of the study may not be applicable to the broader group being studied."
+"explanation": "Social desirability bias occurs when participants provide responses they believe are more socially acceptable, even if they are not entirely truthful. Underreporting calorie intake in a weight loss study is a classic example of this bias."
 },
 {
-"question": "Why is it important to differentiate between correlation and causation in research?",
+"question": "What is the main purpose of employing a double-blind procedure in research?",
 "options": {
-"A": "To make the research findings more confusing and difficult to understand",
-"B": "To avoid drawing misleading conclusions about the relationship between variables",
-"C": "To simplify the research process and reduce the need for data analysis",
-"D": "To ensure that all research studies support the researchers' hypotheses",
-"E": "To promote the use of experimental designs over correlational designs"
+"A": "To enhance the statistical power of the study",
+"B": "To increase the reliability of the data",
+"C": "To minimize the impact of experimenter and participant biases",
+"D": "To ensure the ethical treatment of participants",
+"E": "To simplify the research design and data collection process"
 },
-"answer": "B",
-"explanation": "Understanding the distinction between correlation and causation is crucial to prevent misinterpretations of research findings and to draw accurate conclusions about relationships between variables."
+"answer": "C",
+"explanation": "The sources mention the double-blind procedure as a method to mitigate potential biases by keeping both the experimenters and participants unaware of who is receiving the actual treatment or a placebo."
 },
 {
-"question": "What is the role of theory in the scientific method?",
+"question": "Which of the following research methods involves the systematic and unobtrusive observation of behavior in natural settings?",
 "options": {
-"A": "To provide subjective opinions about the research topic",
-"B": "To guide the initial observations and research questions",
-"C": "To dictate the specific research methods to be used",
-"D": "To determine the ethical implications of the research",
-"E": "To summarize and explain the research findings and link them to broader concepts",
-"F": "To limit the scope of the research and prevent exploration of new ideas"
+"A": "Surveys",
+"B": "Experiments",
+"C": "Naturalistic observation",
+"D": "Quasi-experiments",
+"E": "Case studies"
 },
-"answer": "E",
-"explanation": "Theories in scientific research serve to explain and integrate findings, connecting them to existing knowledge and providing a framework for further investigation."
-  }
+"answer": "C",
+"explanation": "The sources list naturalistic observation as a method of correlational research where researchers carefully observe behavior without directly interfering with the subjects in their natural environment."
+}
 ]
