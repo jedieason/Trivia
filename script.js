@@ -14,6 +14,11 @@ async function initQuiz() {
     await loadQuestions();
     document.querySelector('.start-screen').style.display = 'none';
     document.querySelector('.quiz-container').style.display = 'flex';
+    
+    // Update the quiz title with the current file name
+    const fileName = selectedJson.split('/').pop().replace('.json', '');
+    document.querySelector('.quiz-title').innerText = `${fileName} Trivia`;
+
     loadNewQuestion();
 }
 
