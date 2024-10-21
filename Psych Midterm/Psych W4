@@ -1,0 +1,581 @@
+Here are 50 multiple-choice questions in the requested JSON format based on the provided text excerpts. 
+
+```json
+[
+  {
+    "question": "What is the primary function of the nervous system?",
+    "options": {
+      "A": "To control movement",
+      "B": "To process sensory information",
+      "C": "To regulate hormones",
+      "D": "To handle information",
+      "E": "To produce energy"
+    },
+    "answer": "D",
+    "explanation": "The nervous system is responsible for handling information, as stated in the text."
+  },
+  {
+    "question": "Which of the following is NOT a part of the central nervous system?",
+    "options": {
+      "A": "Brain",
+      "B": "Spinal cord",
+      "C": "Ganglion",
+      "D": "Cerebellum",
+      "E": "Thalamus"
+    },
+    "answer": "C",
+    "explanation": "The central nervous system (CNS) consists of the brain and spinal cord. Ganglion is part of the peripheral nervous system."
+  },
+  {
+    "question": "What is the role of the peripheral nervous system?",
+    "options": {
+      "A": "To process sensory information",
+      "B": "To control voluntary movements",
+      "C": "To regulate involuntary actions",
+      "D": "To transmit information to and from the CNS",
+      "E": "To store memories"
+    },
+    "answer": "D",
+    "explanation": "The peripheral nervous system (PNS) transmits information to the central nervous system (CNS) and responds to messages from the CNS."
+  },
+  {
+    "question": "Which division of the PNS is responsible for voluntary actions like skeletal muscle movement?",
+    "options": {
+      "A": "Autonomic nervous system",
+      "B": "Sympathetic nervous system",
+      "C": "Parasympathetic nervous system",
+      "D": "Somatic nervous system",
+      "E": "Enteric nervous system"
+    },
+    "answer": "D",
+    "explanation": "The somatic nervous system connects to sensory receptors and voluntary skeletal muscles, allowing us to feel the world and move around."
+  },
+  {
+    "question": "Which part of a neuron receives information from other neurons?",
+    "options": {
+      "A": "Axon",
+      "B": "Soma",
+      "C": "Dendrites",
+      "D": "Myelin sheath",
+      "E": "Synaptic gap"
+    },
+    "answer": "C",
+    "explanation": "Dendrites are branch-like extensions of the neuron that detect and receive information from other neurons."
+  },
+  {
+    "question": "What is the function of the myelin sheath?",
+    "options": {
+      "A": "To produce neurotransmitters",
+      "B": "To store genetic information",
+      "C": "To insulate the axon and speed up transmission",
+      "D": "To provide structural support to the neuron",
+      "E": "To regulate the flow of ions"
+    },
+    "answer": "C",
+    "explanation": "The myelin sheath is a layer of fatty cells that covers the axon, allowing for rapid transmission of information."
+  },
+  {
+    "question": "Where does chemical communication between neurons occur?",
+    "options": {
+      "A": "Soma",
+      "B": "Axon",
+      "C": "Dendrites",
+      "D": "Myelin sheath",
+      "E": "Synaptic gap"
+    },
+    "answer": "E",
+    "explanation": "Chemical communication (neurotransmitters) occurs between neurons at the synaptic gap."
+  },
+  {
+    "question": "What percentage of the body's total oxygen and calories does the brain consume?",
+    "options": {
+      "A": "2%",
+      "B": "5%",
+      "C": "10%",
+      "D": "20%",
+      "E": "50%"
+    },
+    "answer": "D",
+    "explanation": "The brain consumes 20% of the total oxygen and calories we consume."
+  },
+  {
+    "question": "Which part of the brain is responsible for basic life support functions like breathing and heart rate?",
+    "options": {
+      "A": "Cerebellum",
+      "B": "Limbic system",
+      "C": "Brain stem",
+      "D": "Cerebral cortex",
+      "E": "Thalamus"
+    },
+    "answer": "C",
+    "explanation": "The brain stem, located at the top of the spine and bottom of the brain, controls “basic life support” functions."
+  },
+  {
+    "question": "Which brain structure is primarily involved with movement and posture?",
+    "options": {
+      "A": "Brain stem",
+      "B": "Limbic system",
+      "C": "Cerebellum",
+      "D": "Cerebral cortex",
+      "E": "Hypothalamus"
+    },
+    "answer": "C",
+    "explanation": "The cerebellum, located at the back of the brain, is primarily involved with movement and posture."
+  },
+  {
+    "question": "Which part of the brain is responsible for higher-level processes like speaking and planning?",
+    "options": {
+      "A": "Brain stem",
+      "B": "Limbic system",
+      "C": "Cerebellum",
+      "D": "Cerebral cortex",
+      "E": "Amygdala"
+    },
+    "answer": "D",
+    "explanation": "The cerebral cortex is the most advanced portion of the brain and processes associated with more awareness and voluntary control."
+  },
+  {
+    "question": "What does the term 'contralateral' mean in relation to brain function?",
+    "options": {
+      "A": "Both sides of the brain control the same side of the body",
+      "B": "The left side of the brain controls the right side of the body, and vice versa",
+      "C": "The front of the brain controls the back of the body, and vice versa",
+      "D": "The top of the brain controls the bottom of the body, and vice versa",
+      "E": "Each hemisphere of the brain controls both sides of the body"
+    },
+    "answer": "B",
+    "explanation": "Contralateral means the left side of the brain is responsible for controlling sensory and motor functions of the right side of the body, and vice versa."
+  },
+  {
+    "question": "Which lobe of the brain is responsible for processing visual information?",
+    "options": {
+      "A": "Frontal lobe",
+      "B": "Parietal lobe",
+      "C": "Temporal lobe",
+      "D": "Occipital lobe",
+      "E": "Insula lobe"
+    },
+    "answer": "D",
+    "explanation": "The occipital lobe is an important processor of visual information."
+  },
+  {
+    "question": "Damage to which lobe can result in hemineglect, where a patient fails to notice anything on one side of their body?",
+    "options": {
+      "A": "Frontal lobe",
+      "B": "Parietal lobe",
+      "C": "Temporal lobe",
+      "D": "Occipital lobe",
+      "E": "Insula lobe"
+    },
+    "answer": "B",
+    "explanation": "Hemineglect, where a patient fails to notice anything on their left side, is caused by damage to the right parietal region."
+  },
+  {
+    "question": "Which lobe is responsible for processing sounds and smells, and recognizing detailed objects?",
+    "options": {
+      "A": "Frontal lobe",
+      "B": "Parietal lobe",
+      "C": "Temporal lobe",
+      "D": "Occipital lobe",
+      "E": "Insula lobe"
+    },
+    "answer": "C",
+    "explanation": "The temporal lobe processes sounds and smells and is involved in recognizing detailed objects."
+  },
+  {
+    "question": "Which lobe of the brain is associated with decision making, problem-solving, and self-control?",
+    "options": {
+      "A": "Frontal lobe",
+      "B": "Parietal lobe",
+      "C": "Temporal lobe",
+      "D": "Occipital lobe",
+      "E": "Insula lobe"
+    },
+    "answer": "A",
+    "explanation": "The frontal lobe controls the movement of muscles and is involved in highly complicated processes such as decision-making, problem-solving, self-control, radical thinking, and organization."
+  },
+  {
+    "question": "What happened to Phineas Gage after he suffered damage to his frontal lobe?",
+    "options": {
+      "A": "He lost his ability to speak",
+      "B": "He became paralyzed on one side of his body",
+      "C": "He experienced significant changes in his personality and behavior",
+      "D": "He lost his ability to form new memories",
+      "E": "He fell into a coma"
+    },
+    "answer": "C",
+    "explanation": "While Phineas Gage was able to function semi-normally after damage to his frontal lobe, his behavior and intelligence changed, becoming violent and aggressive."
+  },
+  {
+    "question": "Which subcortical structure acts as a sensory gateway to the cortex, relaying information like sight, sound, and touch?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Pituitary gland"
+    },
+    "answer": "A",
+    "explanation": "The thalamus acts as a sensory gateway to the cortex, relaying sensory information from the rest of the body."
+  },
+  {
+    "question": "Which subcortical structure regulates body temperature, blood pressure, and blood glucose levels?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Pituitary gland"
+    },
+    "answer": "B",
+    "explanation": "The hypothalamus, located below the thalamus, is a master regulatory structure that regulates vital bodily functions."
+  },
+  {
+    "question": "Which brain structure is crucial for the formation of new memories?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Pituitary gland"
+    },
+    "answer": "C",
+    "explanation": "The hippocampus is involved in the formation of new memories, particularly spatial memories."
+  },
+  {
+    "question": "Which brain structure associates things in the world with emotional responses, particularly those related to survival?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Pituitary gland"
+    },
+    "answer": "D",
+    "explanation": "The amygdala associates things in the world with emotional responses, playing a key role in fear and other survival-related emotions."
+  },
+  {
+    "question": "In the example of Jill, the law student, which brain structure is likely most active when she feels fear or sadness while reading about violent cases?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Frontal lobe"
+    },
+    "answer": "D",
+    "explanation": "The amygdala is responsible for processing emotions like fear and sadness, which Jill might experience while reading about the cases."
+  },
+  {
+    "question": "Which brain structure is responsible for regulating Jill's hunger and thirst while she studies?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Frontal lobe"
+    },
+    "answer": "B",
+    "explanation": "The hypothalamus regulates basic drives like hunger and thirst, which would be active while Jill snacks and drinks coffee."
+  },
+  {
+    "question": "Which brain structure is primarily involved when Jill remembers the legal concepts she is studying?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Frontal lobe"
+    },
+    "answer": "C",
+    "explanation": "The hippocampus is crucial for forming new memories, allowing Jill to learn and remember the information she studies."
+  },
+  {
+    "question": "Which brain structure plays a key role in Jill's ability to focus her attention, make decisions, and organize her study schedule?",
+    "options": {
+      "A": "Thalamus",
+      "B": "Hypothalamus",
+      "C": "Hippocampus",
+      "D": "Amygdala",
+      "E": "Frontal lobe"
+    },
+    "answer": "E",
+    "explanation": "The frontal lobe is responsible for higher-level cognitive functions like attention, decision making, and organization, all crucial for effective studying."
+  },
+  {
+    "question": "Which brain structures are most active when someone wakes up and stretches in the morning?",
+    "options": {
+      "A": "RAS, Motor Cortex, Cerebellum",
+      "B": "Hypothalamus, Amygdala, Hippocampus",
+      "C": "Occipital Lobe, Temporal Lobe, Parietal Lobe",
+      "D": "Brain Stem, Spinal Cord, Peripheral Nerves",
+      "E": "Thalamus, Basal Ganglia, Prefrontal Cortex"
+    },
+    "answer": "A",
+    "explanation": "Waking up involves the Reticular Activating System (RAS) for arousal. Stretching uses the Motor Cortex to initiate movement and the Cerebellum for coordination."
+  },
+  {
+    "question": "During morning exercise, which brain structures are heavily involved in controlling movement, balance, and emotional regulation?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Hippocampus, Amygdala, Prefrontal Cortex",
+      "C": "Motor Cortex, Cerebellum, Limbic System",
+      "D": "Occipital Lobe, Parietal Lobe, Temporal Lobe",
+      "E": "Brain Stem, Spinal Cord, Somatic Nervous System"
+    },
+    "answer": "C",
+    "explanation": "Exercise engages the Motor Cortex for movement, the Cerebellum for balance, and the Limbic System for mood regulation related to exercise."
+  },
+  {
+    "question": "Which brain structures regulate hunger, taste perception, and the feeling of reward while eating breakfast?",
+    "options": {
+      "A": "RAS, Motor Cortex, Cerebellum",
+      "B": "Hypothalamus, Gustatory Cortex, Limbic System",
+      "C": "Occipital Lobe, Temporal Lobe, Parietal Lobe",
+      "D": "Brain Stem, Spinal Cord, Peripheral Nerves",
+      "E": "Thalamus, Basal Ganglia, Prefrontal Cortex"
+    },
+    "answer": "B",
+    "explanation": "Eating involves the Hypothalamus for hunger, the Gustatory Cortex for taste, and the Limbic System for the pleasurable reward associated with food."
+  },
+  {
+    "question": "Which brain areas are primarily activated during showering and getting dressed, involving sensory processing, movement, and planning?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Hippocampus, Amygdala, Prefrontal Cortex",
+      "C": "Somatosensory Cortex, Motor Cortex, Prefrontal Cortex",
+      "D": "Occipital Lobe, Parietal Lobe, Temporal Lobe",
+      "E": "Brain Stem, Spinal Cord, Somatic Nervous System"
+    },
+    "answer": "C",
+    "explanation": "Showering uses the Somatosensory Cortex for touch, the Motor Cortex for movement, and the Prefrontal Cortex for planning and sequencing actions."
+  },
+  {
+    "question": "When reading news or emails, which brain regions handle visual processing, language comprehension, and focus?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Hippocampus, Amygdala, Prefrontal Cortex",
+      "C": "Somatosensory Cortex, Motor Cortex, Cerebellum",
+      "D": "Occipital Lobe, Wernicke's Area, Prefrontal Cortex",
+      "E": "Brain Stem, Spinal Cord, Somatic Nervous System"
+    },
+    "answer": "D",
+    "explanation": "Reading involves the Occipital Lobe for vision, Wernicke's Area for understanding language, and the Prefrontal Cortex for maintaining focus."
+  },
+  {
+    "question": "Which brain structures are involved in planning tasks or engaging in hobbies, requiring planning, spatial reasoning, and motor skills?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Hippocampus, Amygdala, Prefrontal Cortex",
+      "C": "Somatosensory Cortex, Motor Cortex, Cerebellum",
+      "D": "Occipital Lobe, Wernicke's Area, Prefrontal Cortex",
+      "E": "Prefrontal Cortex, Parietal Lobe, Motor Cortex"
+    },
+    "answer": "E",
+    "explanation": "Planning and hobbies use the Prefrontal Cortex for planning, the Parietal Lobe for spatial reasoning, and the Motor Cortex for executing actions."
+  },
+  {
+    "question": "Which brain regions are active during an online course or study session, supporting learning, memory, and auditory processing?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Prefrontal Cortex, Hippocampus, Auditory Cortex",
+      "C": "Somatosensory Cortex, Motor Cortex, Cerebellum",
+      "D": "Occipital Lobe, Wernicke's Area, Prefrontal Cortex",
+      "E": "Brain Stem, Spinal Cord, Somatic Nervous System"
+    },
+    "answer": "B",
+    "explanation": "Online learning involves the Prefrontal Cortex for focus, the Hippocampus for memory formation, and the Auditory Cortex for processing sound."
+  },
+  {
+    "question": "When preparing lunch, which brain areas control movement, planning, and the perception of smell?",
+    "options": {
+      "A": "RAS, Thalamus, Hypothalamus",
+      "B": "Hippocampus, Amygdala, Prefrontal Cortex",
+      "C": "Motor Cortex, Prefrontal Cortex, Olfactory Bulb",
+      "D": "Occipital Lobe, Wernicke's Area, Prefrontal Cortex",
+      "E": "Brain Stem, Spinal Cord, Somatic Nervous System"
+    },
+    "answer": "C",
+    "explanation": "Cooking engages the Motor Cortex for movements, the Prefrontal Cortex for planning, and the Olfactory Bulb for processing smells."
+  },
+  {
+    "question": "While eating lunch, which brain structures are responsible for appetite regulation, taste sensation, and the feeling of satisfaction?",
+    "options": {
+      "A": "RAS, Motor Cortex, Cerebellum",
+      "B": "Hypothalamus, Gustatory Cortex, Limbic System",
+      "C": "Occipital Lobe, Temporal Lobe, Parietal Lobe",
+      "D": "Brain Stem, Spinal Cord, Peripheral Nerves",
+      "E": "Thalamus, Basal Ganglia, Prefrontal Cortex"
+    },
+    "answer": "B",
+    "explanation": "Lunch involves the Hypothalamus for appetite, the Gustatory Cortex for taste, and the Limbic System for the feeling of pleasure and satiety."
+  },
+  {
+    "question": "Which brain imaging technique records metabolic activity by detecting radioactive substances?",
+    "options": {
+      "A": "EEG",
+      "B": "fMRI",
+      "C": "PET",
+      "D": "DOI",
+      "E": "MRI"
+    },
+    "answer": "C",
+    "explanation": "Positron Emission Tomography (PET) records metabolic activity in the brain by detecting the amount of radioactive substances the brain is consuming."
+  },
+  {
+    "question": "Which imaging technique measures changes in blood oxygen levels to infer brain activity?",
+    "options": {
+      "A": "EEG",
+      "B": "fMRI",
+      "C": "PET",
+      "D": "DOI",
+      "E": "MRI"
+    },
+    "answer": "B",
+    "explanation": "Functional Magnetic Resonance Imaging (fMRI) measures changes in the levels of naturally occurring oxygen in the blood."
+  },
+  {
+    "question": "Which technique has excellent temporal resolution but poor spatial resolution for measuring brain activity?",
+    "options": {
+      "A": "EEG",
+      "B": "fMRI",
+      "C": "PET",
+      "D": "DOI",
+      "E": "MRI"
+    },
+    "answer": "A",
+    "explanation": "Electroencephalography (EEG) has better temporal resolution but poor spatial resolution because it measures electrical activity, which could originate from any part of the brain."
+  },
+  {
+    "question": "Which relatively new technique offers both good temporal and spatial resolution for studying brain activity?",
+    "options": {
+      "A": "EEG",
+      "B": "fMRI",
+      "C": "PET",
+      "D": "DOI",
+      "E": "MRI"
+    },
+    "answer": "D",
+    "explanation": "Diffuse Optical Imaging (DOI) shines infrared light into the brain and analyzes changes in light properties as it passes through oxygenated blood and active neurons, providing better temporal and spatial resolution."
+  },
+  {
+    "question": "Which neurotransmitter is associated with motor control, learning, memory, and sleep?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "A",
+    "explanation": "Acetylcholine (ACh) plays a key role in motor control over muscles, as well as learning, memory, sleeping, and dreaming."
+  },
+  {
+    "question": "A deficiency in which neurotransmitter is implicated in Alzheimer's disease?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "A",
+    "explanation": "Alzheimer's disease is associated with a decline in acetylcholine (ACh) levels."
+  },
+  {
+    "question": "Which neurotransmitter is involved in reward, motivation, and voluntary movement control?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "B",
+    "explanation": "Dopamine (DA) is crucial for reward and motivation, as well as motor control over voluntary movement."
+  },
+  {
+    "question": "Imbalances in which neurotransmitter are linked to disorders like Parkinson's disease, ADHD, and schizophrenia?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "B",
+    "explanation": "Dopamine (DA) imbalances are implicated in ADHD, Parkinsonism, schizophrenic disorders, and addictive disorders."
+  },
+  {
+    "question": "Which neurotransmitter is involved in arousal, vigilance, and selective attention?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "C",
+    "explanation": "Norepinephrine (NE) plays a role in arousal and vigilance, as well as selective attention and mood modulation."
+  },
+  {
+    "question": "Which neurotransmitter is associated with mood regulation, and its deficiency is linked to depressive disorders?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "C",
+    "explanation": "Norepinephrine (NE) is involved in mood modulation, and depressive disorders are often associated with its deficiency."
+  },
+  {
+    "question": "Which neurotransmitter helps balance emotional states, control impulsiveness, and plays a role in dreaming?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "D",
+    "explanation": "Serotonin helps balance emotional states, control impulsiveness, and is involved in dreaming."
+  },
+  {
+    "question": "Imbalances in which neurotransmitter are associated with disorders like depression, obsessive-compulsive disorder, and eating disorders?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "D",
+    "explanation": "Serotonin imbalances are linked to depressive disorders, obsessive-compulsive disorders, and eating disorders."
+  },
+  {
+    "question": "Which neurotransmitter is the primary inhibitory neurotransmitter in the brain, reducing anxiety and inhibiting action potentials?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "E",
+    "explanation": "GABA is the primary inhibitory neurotransmitter in the brain, responsible for reducing anxiety and inhibiting action potentials."
+  },
+  {
+    "question": "Dysfunction in which neurotransmitter is implicated in disorders like Huntington's disease and anxiety disorders?",
+    "options": {
+      "A": "Acetylcholine (ACh)",
+      "B": "Dopamine (DA)",
+      "C": "Norepinephrine (NE)",
+      "D": "Serotonin",
+      "E": "GABA"
+    },
+    "answer": "E",
+    "explanation": "GABA dysfunction is associated with Huntington’s disease and anxiety disorders."
+  }
+]
