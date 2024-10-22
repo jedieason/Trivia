@@ -667,24 +667,7 @@ body.dark-mode .logout-button:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .start-title {
-        font-size: 2.5rem;
-    }
-    
-    .quiz-title {
-        font-size: 1.8rem;
-    }
-    
-    .select-button {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-    }
-    
-    .start-button, .confirm-button, .next-button, .send-button {
-        padding: 10px 20px;
-    }
-}
+
 
 #copy-btn {
     cursor: pointer;
