@@ -680,6 +680,14 @@ body.dark-mode .logout-button:hover {
         font-size: 0.9rem;
         padding: 8px 16px;
     }
+
+    .question-content {
+        margin-bottom: 0px;
+    }
+
+    .progress{
+        margin-bottom: 0px;
+    }
 }
 
 #copy-btn {
