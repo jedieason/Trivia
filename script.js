@@ -189,7 +189,7 @@ function confirmAnswer() {
     }
 
     // 顯示解釋
-    document.getElementById('explanation-text').innerText = marked.parse(currentQuestion.explanation);
+    document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
     document.getElementById('explanation').style.display = 'block';
     document.getElementById('confirm-btn').style.display = 'none';
 }
