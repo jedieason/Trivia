@@ -681,7 +681,7 @@ body.dark-mode .logout-button:hover {
         padding: 8px 16px;
     }
     
-    .start-button, .confirm-button, .next-button, .modal-confirm-button, .send-button {
+    .start-button, .confirm-button, .next-button, .send-button {
         font-size: 0.95rem;
         padding: 10px 20px;
     }
