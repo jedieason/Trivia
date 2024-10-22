@@ -224,6 +224,7 @@ body.dark-mode .copyright a {
     justify-content: flex-start;
     gap: 20px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .progress-item {
@@ -277,7 +278,7 @@ body.dark-mode .copyright a {
     padding: 15px;
     font-size: 18px;
     color: #000;
-    background-color: #efefef;
+    background-color: #f7f7f7;
     border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
