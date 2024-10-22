@@ -1,7 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     margin: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -19,55 +18,60 @@ body {
 
 .start-title {
     font-size: 24px;
-    color: #a35555;
+    font-family: 'Playfair Display', serif;
+    color: #5A3E36;
+    font-size: 3rem;
+    letter-spacing: 2px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 /* 新增按鈕容器 */
 .button-row {
-    display: flex;
-    flex-wrap: wrap; /* 允許換行 */
-    gap: 10px;
-    padding: 10px 0;
-    justify-content: center; /* 置中對齊 */
-    max-width: 80vw;
+    display: flex;                /* 啟用 Flexbox 佈局 */
+    flex-wrap: wrap;              /* 允許按鈕換行 */
+    gap: 15px;                    /* 設定按鈕之間的間距 */
+    justify-content: center;      /* 將按鈕集中對齊 */
+    max-width: 90%;               /* 容器最大寬度為90% */
+    margin: 0 auto;               /* 使容器在水平居中 */
 }
 
 .select-button {
-    padding: 5px 10px;
-    font-size: 16px;
-    background-color: white;
-    color: #a35555;
-    border: 2px solid #a35555;
-    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #5A3E36;
+    border: 2px solid #A35555;
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    flex: 0 0 auto;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    min-width: 100px;
+    text-align: center;
 }
 
+.select-button:hover,
 .select-button.selected {
-    background-color: #a35555;
-    color: white;
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #A35555;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .start-button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #a35555;
-    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #A35555;
+    color: #ffffff;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .start-button:hover {
-    background-color: #9a6262;
+    background-color: #93344B;
     transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -178,19 +182,8 @@ body.dark-mode .copyright {
 body.dark-mode .copyright a {
     color: #888888;
 }
-body.dark-mode .modal-content {
-    background-color: rgba(30,30,30,0.8);
-    color: #ffffff;
-}
-body.dark-mode .modal-confirm-button {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    border: 2px solid #a35555;
-}
-body.dark-mode .modal-confirm-button:hover {
-    background-color: #a35555;
-    color: #ffffff;
-}
+
+
 
 /* 其他樣式保持不變 */
 .quiz-container {
@@ -220,9 +213,9 @@ body.dark-mode .modal-confirm-button:hover {
 }
 
 .quiz-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #a35555;
+    font-family: 'Playfair Display', serif;
+    color: #5A3E36;
+    font-size: 2rem;
     transition: color 0.3s ease;
 }
 
@@ -382,6 +375,7 @@ body.dark-mode .modal-confirm-button:hover {
 }
 
 /* 模態窗口樣式 */
+/* 自訂模態窗口樣式 */
 .modal {
     display: none; /* 預設隱藏 */
     position: fixed; 
@@ -391,45 +385,55 @@ body.dark-mode .modal-confirm-button:hover {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.4); /* 半透明背景 */
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s ease;
 }
 
 .modal-content {
-    background-color: rgba(255,255,255,0.8);
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 20px;
-    font-size: 18px;
-    color: black;
-    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
     text-align: center;
-    max-width: 300px;
-    margin: auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .modal-confirm-button {
-    padding: 10px 20px;
-    background-color: #a35555;
-    color: white;
-    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #A35555;
+    color: #ffffff;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    border: solid 2px #a35555;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .modal-confirm-button:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: #a35555;
-    border: solid 2px #a35555;
+    background-color: #93344B;
+    transform: scale(1.05);
 }
+
+/* 深色模式下的模態窗口 */
+body.dark-mode .modal-content {
+    background-color: #2C2C2C;
+    color: #e0e0e0;
+}
+
+body.dark-mode .modal-confirm-button {
+    background-color: #4B2C2C;
+}
+
+body.dark-mode .modal-confirm-button:hover {
+    background-color: #A35555;
+}
+
 
 body.dark-mode .modal-content {
     background-color: rgba(30,30,30,0.8);
@@ -660,6 +664,27 @@ body.dark-mode .logout-button:hover {
     }
 
 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .start-title {
+        font-size: 2.5rem;
+    }
+    
+    .quiz-title {
+        font-size: 1.8rem;
+    }
+    
+    .select-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    
+    .start-button, .confirm-button, .next-button, .modal-confirm-button, .send-button {
+        font-size: 0.95rem;
+        padding: 10px 20px;
+    }
 }
 
 #copy-btn {
