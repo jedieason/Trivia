@@ -18,7 +18,7 @@ body {
 
 .start-title {
     font-size: 24px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
     color: #5A3E36;
     font-size: 3rem;
     letter-spacing: 2px;
@@ -213,7 +213,7 @@ body.dark-mode .copyright a {
 }
 
 .quiz-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Times New Roman',serif;
     color: #5A3E36;
     font-size: 2rem;
     transition: color 0.3s ease;
