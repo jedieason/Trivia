@@ -62,7 +62,7 @@ function loadNewQuestion() {
     currentQuestion = questions.pop(); // 取出一題
 
     // 更新題目文本
-    document.getElementById('question').innerHTML = marked(currentQuestion.question);
+    document.getElementById('question').innerHTML = marked.parse(currentQuestion.question);
 
     // 原始選項對應標籤
     const optionLabels = ['A', 'B', 'C', 'D', 'E'];
