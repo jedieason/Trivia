@@ -421,3 +421,8 @@ function sendToGoogleDocs(content) {
 
 // Add an event listener to the send button
 document.getElementById('sendButton').addEventListener('click', gatherEditedContent);
+
+window.addEventListener("beforeunload", function (event) {
+    event.preventDefault();
+    event.returnValue = '';
+});
