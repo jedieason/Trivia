@@ -32,7 +32,7 @@ body {
     flex-wrap: wrap;              /* 允許按鈕換行 */
     gap: 15px;                    /* 設定按鈕之間的間距 */
     justify-content: center;      /* 將按鈕集中對齊 */
-    max-width: 90%;               /* 容器最大寬度為90% */
+    max-width: 80%;               /* 容器最大寬度為90% */
     margin: 0 auto;               /* 使容器在水平居中 */
 }
 
