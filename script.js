@@ -64,10 +64,28 @@ function loadNewQuestion() {
     // 更新題目文本
     document.getElementById('question').innerHTML = marked.parse(currentQuestion.question);
 
-    // 原始選項對應標籤
-    const optionLabels = ['A', 'B', 'C', 'D', 'E'];
-    const optionEntries = Object.entries(currentQuestion.options);
-    shuffle(optionEntries);
+    // 檢查題型
+    const optionKeys = Object.keys(currentQuestion.options);
+    let optionLabels = [];
+    let shouldShuffle = true;
+
+    if (optionKeys.length === 2 && optionKeys.includes('T') && optionKeys.includes('F')) {
+        // 是是非題
+        optionLabels = ['T', 'F'];
+        shouldShuffle = false;
+    } else {
+        // 單選題
+        optionLabels = ['A', 'B', 'C', 'D', 'E'];
+        shouldShuffle = true;
+    }
+
+    // 獲取選項條目
+    let optionEntries = Object.entries(currentQuestion.options);
+
+    // 如果需要洗牌，則洗牌選項
+    if (shouldShuffle) {
+        shuffle(optionEntries);
+    }
 
     // 正確構建 labelMapping
     let labelMapping = {};
@@ -112,6 +130,7 @@ function loadNewQuestion() {
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
     document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
 }
+
 
 // 更新詳解中的選項標籤
 function updateExplanationOptions(explanation, labelMapping) {
@@ -261,7 +280,8 @@ document.getElementById('copy-btn').addEventListener('click', copyQuestion);
 
 // 按鍵按下事件（可選）
 document.addEventListener('keydown', function(event) {
-    if (acceptingAnswers && ['A', 'B', 'C', 'D', 'E'].includes(event.key.toUpperCase())) {
+    const validOptions = Object.keys(currentQuestion.options);
+    if (acceptingAnswers && validOptions.includes(event.key.toUpperCase())) {
         const optionButton = document.querySelector(`.option-button[data-option='${event.key.toUpperCase()}']`);
         if (optionButton) {
             optionButton.click();
@@ -274,6 +294,7 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
+
 
 // 新增選擇按鈕的功能
 const selectButtons = document.querySelectorAll('.select-button');
