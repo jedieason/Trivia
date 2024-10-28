@@ -1,603 +1,593 @@
+Here are 50 multiple-choice questions in the requested JSON format based on the provided source document:
 
+```json
 [
   {
-    "question": "以下哪一項**不是**細胞晶片 (Cell chip) 的應用？",
+    "question": "What is the primary application of first-generation bio-MEMS cell chips?",
     "options": {
-      "A": "單細胞行為操縱與觀察",
-      "B": "細胞分離（捕捉、分類）",
-      "C": "流式細胞儀（細胞計數）",
-      "D": "細胞組學（單細胞基因表達）",
-      "E": "器官移植"
-    },
-    "answer": "E",
-    "explanation": "細胞晶片應用包含單細胞行為操縱與觀察、細胞分離、流式細胞儀和細胞組學。器官移植不屬於細胞晶片的應用範疇。"
-  },
-  {
-    "question": "傳統細胞培養的**主要限制**是什麼？",
-    "options": {
-      "A": "無法控制細胞微環境",
-      "B": "難以進行高通量分析",
-      "C": "需要大量的生物樣本",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "傳統細胞培養的主要限制包括難以控制細胞微環境、難以進行高通量分析、需要大量的生物樣本等。"
-  },
-  {
-    "question": "以下哪一項**不是**細胞培養晶片 (Cell-culturing chip) 的優點？",
-    "options": {
-      "A": "允許以微米和奈米尺度控制空間和時間，研究/操縱細胞對複雜生化和生物物理線索的反應",
-      "B": "比傳統培養更能模擬體內微環境的複雜性（例如 3D）",
-      "C": "比動物模型複雜且倫理問題較多",
-      "D": "只需要微量的生物樣本",
-      "E": "更具成本效益（更少的處置、消耗、操作、量產等）"
+      "A": "Simulation of 3D tissue milieus",
+      "B": "High throughput drug screening",
+      "C": "Micropatterning techniques in 2D",
+      "D": "Integration of active MEMS components",
+      "E": "Modeling complex organ interactions"
     },
     "answer": "C",
-    "explanation": "細胞培養晶片的優點包括對細胞反應的微尺度控制、更接近體內微環境、只需要少量樣本和更高的成本效益。細胞培養晶片比動物模型更簡單，且倫理問題更少。"
+    "explanation": "First-generation devices extensively utilized micropatterning techniques, primarily in 2D, and continuous-flow microfluidic systems for cell culture."
   },
   {
-    "question": "以下哪一項**不是**細胞培養晶片的挑戰？",
+    "question": "Which of the following is NOT a challenge associated with cell-culturing chips?",
     "options": {
-      "A": "需要補充分析/監控工具",
-      "B": "對製造技術的要求更高 → 增加費用",
-      "C": "與傳統的批量培養系統截然不同的新興問題（例如，微流體的數學和物理）",
-      "D": "需要高通量設計來改進數據採集以獲得統計數據並提高信噪比",
-      "E": "易於操作，不需要專業知識"
+      "A": "Requirement for specialized analyzing/monitoring tools",
+      "B": "Ethical concerns regarding animal testing",
+      "C": "Increased expenses due to advanced fabrication technologies",
+      "D": "Novel issues arising from the microfluidic environment",
+      "E": "The need for high throughput design to improve data acquisition"
+    },
+    "answer": "B",
+    "explanation": "While cell-culturing chips offer advantages over animal models in terms of ethical considerations and complexity, they present challenges such as the need for specialized tools, higher fabrication costs, and adapting to the unique microfluidic environment."
+  },
+  {
+    "question": "Which material property is crucial for cell chips and influences surface wettability?",
+    "options": {
+      "A": "Electrical conductivity",
+      "B": "Magnetic susceptibility",
+      "C": "Thermal expansion coefficient",
+      "D": "Polymer molecular weight",
+      "E": "Surface tension"
     },
     "answer": "E",
-    "explanation": "細胞培養晶片的挑戰包括需要額外的分析工具、更高的製造成本、微流體技術的複雜性以及對高通量設計的需求。細胞培養晶片的設計和操作需要專業知識。"
+    "explanation": "Surface wettability, significantly influenced by surface tension, is a critical factor in cell chip materials, affecting protein adsorption and cell interactions."
   },
   {
-    "question": "第一代基於生物微機電系統 (Bio-MEMS) 的細胞晶片的特點是什麼？",
+    "question": "What is the primary function of biodegradable polymers in cell chip applications?",
     "options": {
-      "A": "採用主動式微機電系統組件和多層流體結構（非連續流動）",
-      "B": "更好地模擬體內組織環境（例如 3D）",
-      "C": "軟光刻技術的重大進步",
-      "D": "廣泛使用微圖案化技術（2D）",
-      "E": "以上皆是"
-    },
-    "answer": "E",
-    "explanation": "第一代基於生物微機電系統的細胞晶片以軟光刻技術的應用為特點，廣泛使用微圖案化技術和連續流動微流體系統進行細胞培養。"
-  },
-  {
-    "question": "以下哪一項**不是**細胞晶片材料的要求？",
-    "options": {
-      "A": "必須具有生物相容性",
-      "B": "易於成型（塑形）",
-      "C": "可接受的防水性（用於密封）",
-      "D": "光學透明（紫外線、可見光）",
-      "E": "必須導電"
-    },
-    "answer": "E",
-    "explanation": "細胞晶片材料的要求包括生物相容性、易於成型、防水性、光學透明度和溫度穩定性，並不要求導電性。"
-  },
-  {
-    "question": "以下哪一項**不是**細胞晶片中常用的聚合物？",
-    "options": {
-      "A": "聚甲基丙烯酸甲酯 (PMMA)",
-      "B": "聚二甲基矽氧烷 (PDMS)",
-      "C": "聚乙烯醇 (PVA)",
-      "D": "聚丙烯 (PP)",
-      "E": "合成水凝膠"
-    },
-    "answer": "D",
-    "explanation": "細胞晶片中常用的聚合物包括 PMMA、PDMS、合成水凝膠等，聚丙烯 (PP) 並不常用於細胞晶片。"
-  },
-  {
-    "question": "以下哪種多醣**不是**來自非哺乳動物？",
-    "options": {
-      "A": "澱粉",
-      "B": "葡聚糖",
-      "C": "幾丁質",
-      "D": "殼聚醣",
-      "E": "透明質酸"
-    },
-    "answer": "E",
-    "explanation": "澱粉、葡聚糖、幾丁質和殼聚醣都是來自非哺乳動物的多醣，透明質酸則來自哺乳動物。"
-  },
-  {
-    "question": "以下哪種聚合物**最常**用於可生物降解的合成聚合物？",
-    "options": {
-      "A": "聚乳酸 (PLA)",
-      "B": "聚乙醇酸 (PGA)",
-      "C": "聚己內酯 (PCL)",
-      "D": "聚乳酸-乙醇酸共聚物 (PLGA)",
-      "E": "聚丙烯富馬酸酯 (PPF)"
-    },
-    "answer": "D",
-    "explanation": "在細胞晶片中，PLGA 是可生物降解的合成聚合物中最常用的材料。"
-  },
-  {
-    "question": "以下哪種聚合物**不是**非生物可降解的合成聚合物？",
-    "options": {
-      "A": "聚二甲基矽氧烷 (PDMS)",
-      "B": "聚對二甲苯 (Parylene)",
-      "C": "聚乳酸 (PLA)",
-      "D": "聚丙烯酸 (PAA)",
-      "E": "聚丙烯醯胺 (PAAm)"
+      "A": "Providing structural support for long-term cultures",
+      "B": "Enhancing optical transparency for imaging",
+      "C": "Facilitating controlled degradation and tissue remodeling",
+      "D": "Improving electrical insulation between microfluidic channels",
+      "E": "Reducing the cost of chip fabrication"
     },
     "answer": "C",
-    "explanation": "PDMS、Parylene、PAA 和 PAAm 都是非生物可降解的合成聚合物，而 PLA 是可生物降解的。"
+    "explanation": "Biodegradable polymers, often used in implantable chips or matrix remodeling, offer the advantage of controlled degradation through hydrolysis or enzymatic processes, allowing for tissue regeneration and integration."
   },
   {
-    "question": "軟光刻技術 (Soft lithography) 的**主要優點**是什麼？",
+    "question": "Which natural polymer is widely used in cell chip fabrication due to its prevalence and biocompatibility?",
     "options": {
-      "A": "方便（只需要一次無塵室）",
-      "B": "有效（大多數產品具有生物相容性；允許在彎曲或柔性基板上進行圖案化）",
-      "C": "低成本",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Chitosan",
+      "B": "Alginate",
+      "C": "Cellulose",
+      "D": "Collagen",
+      "E": "Agarose"
     },
     "answer": "D",
-    "explanation": "軟光刻技術的主要優點包括方便性、有效性和低成本。"
+    "explanation": "Collagen, being the most abundant protein in mammals, is extensively used in cell chips for its biocompatibility and ability to support cell adhesion and growth."
   },
   {
-    "question": "微接觸印刷 (Micro-contact printing) 常用於細胞培養的哪個方面？",
+    "question": "What is a key advantage of using synthetic polymers like PLA and PLGA in cell chips?",
     "options": {
-      "A": "細胞成像",
-      "B": "細胞分選",
-      "C": "細胞圖案化",
-      "D": "藥物遞送",
-      "E": "基因編輯"
+      "A": "Their natural origin ensures minimal immune response",
+      "B": "They readily dissolve in aqueous solutions for easy removal",
+      "C": "Their hydrophobic nature promotes strong cell adhesion",
+      "D": "They offer tunable degradation rates for controlled release",
+      "E": "They are readily available and inexpensive to produce"
+    },
+    "answer": "D",
+    "explanation": "Synthetic polymers like PLA, PGA, and their copolymer PLGA, belonging to the poly(α-ester) family, are widely used due to their tunable degradation rates, allowing controlled release of incorporated bioactive agents."
+  },
+  {
+    "question": "Which synthetic polymer is known for its tunable wettability and common use in microculture systems?",
+    "options": {
+      "A": "PVA (Polyvinyl alcohol)",
+      "B": "PEG (Polyethylene glycol)",
+      "C": "PAAm (Polyacrylamide)",
+      "D": "PDMS (Polydimethylsiloxane)",
+      "E": "PIPAAM (Poly(N-isopropylacrylamide))"
+    },
+    "answer": "D",
+    "explanation": "PDMS, a hydrophobic polymer with tunable wettability, is commonly used in microculture systems due to its ease of molding and biocompatibility."
+  },
+  {
+    "question": "What is the fundamental principle behind soft lithography for cell chip fabrication?",
+    "options": {
+      "A": "Laser ablation of polymer substrates to create microfluidic channels",
+      "B": "Electrochemical deposition of metals to form conductive patterns",
+      "C": "Replica molding using patterned elastomers for micro- and nanofabrication",
+      "D": "3D printing of complex chip designs layer by layer",
+      "E": "Direct writing of microfluidic features using focused ion beams"
     },
     "answer": "C",
-    "explanation": "在細胞培養中，微接觸印刷技術常用於在基板上建立細胞圖案，以控制細胞的形狀和排列。"
+    "explanation": "Soft lithography, an extension of photolithography, utilizes patterned elastomers as stamps, molds, or masks to replicate micro- and nanostructures. It offers advantages in convenience, biocompatibility, and cost-effectiveness."
   },
   {
-    "question": "將細胞播種到微腔室 (Microchamber) 中的過程涉及哪三個步驟？",
+    "question": "What is the purpose of microcontact printing in cell chip fabrication?",
     "options": {
-      "A": "將細胞懸浮液注入通道（有流動）、將細胞沉積在通道中（停止流動）、恢復流動時將細胞保留在通道中",
-      "B": "將細胞懸浮液注入通道（有流動）、恢復流動時將細胞保留在通道中、將細胞沉積在通道中（停止流動）",
-      "C": "將細胞沉積在通道中（停止流動）、將細胞懸浮液注入通道（有流動）、恢復流動時將細胞保留在通道中",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Creating precise patterns of cells within microfluidic channels",
+      "B": "Controlling the flow rate of fluids through microchannels",
+      "C": "Measuring the mechanical forces exerted by cells on their environment",
+      "D": "Analyzing the chemical composition of cell culture media",
+      "E": "Imaging cellular structures at high resolution"
     },
     "answer": "A",
-    "explanation": "將細胞播種到微腔室中的步驟依序為：將細胞懸浮液注入通道、將細胞沉積在通道中、恢復流動時將細胞保留在通道中。"
+    "explanation": "Microcontact printing, a technique in soft lithography, is used to create precise patterns of cells by transferring biomolecules or adhesive proteins to specific regions on the chip surface."
   },
   {
-    "question": "如何使細胞粘附到特定的區域（圖案）？",
+    "question": "Which of the following is NOT a method for retaining cells in specific regions within a microfluidic channel?",
     "options": {
-      "A": "材料的潤濕性",
-      "B": "將粘附蛋白附著到圖案化的表面上",
-      "C": "阻斷圖案外的區域（防污、生物抵抗、惰性表面）",
-      "D": "播種的細胞呈現圖案",
-      "E": "以上皆是"
-    },
-    "answer": "E",
-    "explanation": "使細胞粘附到特定區域的方法包括控制材料潤濕性、附著粘附蛋白、阻斷非圖案區域等。"
-  },
-  {
-    "question": "基材的表面行為取決於什麼？",
-    "options": {
-      "A": "相界和周圍環境",
-      "B": "材料的化學成分",
-      "C": "材料的表面粗糙度",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "基材的表面行為受到相界、周圍環境、材料化學成分和表面粗糙度的影響。"
-  },
-  {
-    "question": "疏水性表面 (Hydrophobic surface) 在水性條件下有什麼特性？",
-    "options": {
-      "A": "有利於蛋白質吸收",
-      "B": "排斥蛋白質吸收",
-      "C": "不影響蛋白質吸收",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Controlling the flow rate to prevent cell washout",
+      "B": "Utilizing the wettability differences of the substrate",
+      "C": "Attaching adhesive proteins to patterned surface areas",
+      "D": "Creating physical barriers using microfabricated structures",
+      "E": "Employing electric fields to direct cell movement"
     },
     "answer": "A",
-    "explanation": "疏水性表面在水性條件下有利於蛋白質吸收。"
+    "explanation": "While controlling flow rate is essential for cell handling, cell retention in specific regions is achieved through methods like surface wettability, adhesive protein patterning, physical barriers, and sometimes electric fields."
   },
   {
-    "question": "以下哪一項**不是**疏水性表面的特性？",
+    "question": "How does a hydrophobic surface behave at the air-substrate interface?",
     "options": {
-      "A": "純水的粘附張力 < 30 dyn/cm",
-      "B": "在水性條件下有利於蛋白質吸收",
-      "C": "吸收的蛋白質經常變性",
-      "D": "在水-基材界面處，水分子密度較高",
-      "E": "水分子自締合：冰 > 液體 > 蒸汽"
-    },
-    "answer": "D",
-    "explanation": "疏水性表面的特性包括較低的純水粘附張力、促進蛋白質吸收、蛋白質變性和較低的水分子密度。"
-  },
-  {
-    "question": "以下哪一項**不是**親水性表面 (Hydrophilic surface) 的特性？",
-    "options": {
-      "A": "純水的粘附張力 > 30 dyn/cm",
-      "B": "在水性條件下排斥蛋白質吸收",
-      "C": "如果吸收了蛋白質，變性程度較低",
-      "D": "在水-基材界面處，水分子密度較低",
-      "E": "分子締合程度較低 → 可用的氫鍵較多，分子堆積更具反應性，密度更高"
-    },
-    "answer": "D",
-    "explanation": "親水性表面的特性包括較高的純水粘附張力、排斥蛋白質吸收、較低的蛋白質變性和較高的水分子密度。"
-  },
-  {
-    "question": "細胞附著和生長在哪種潤濕性表面上**最有利**？",
-    "options": {
-      "A": "高度潤濕的表面",
-      "B": "中度潤濕的表面",
-      "C": "低度潤濕的表面",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Polar groups orient towards the interface to minimize surface energy",
+      "B": "Non-polar groups migrate to the phase boundary to reduce surface energy",
+      "C": "Water molecules form a dense, ordered layer on the surface",
+      "D": "Proteins are repelled from the surface due to hydrophobic interactions",
+      "E": "The surface becomes highly reflective to incident light"
     },
     "answer": "B",
-    "explanation": "只有在中度潤濕的表面上，細胞附著和生長才最有利，因為在這種表面上，適量的蛋白質得以保留其構象並被吸收。"
+    "explanation": "At the air-substrate interface, a hydrophobic surface minimizes its surface energy by orienting non-polar groups towards the phase boundary."
   },
   {
-    "question": "以下哪種方法**不能**提高表面的親水性？",
+    "question": "What is the characteristic of water molecules at the aqueous-substrate interface of a hydrophilic surface?",
     "options": {
-      "A": "在單體中添加羥基、羧基、氨基和硫酸根基團",
-      "B": "兩親性分子的吸收",
-      "C": "電漿處理",
-      "D": "化學活化",
-      "E": "降低表面粗糙度"
+      "A": "They form a less dense layer with open hydrogen-bonded network",
+      "B": "They exhibit reduced molecular association and reactivity",
+      "C": "They are more densely packed and have more available hydrogen bonds",
+      "D": "They promote protein denaturation due to strong interactions",
+      "E": "They align themselves parallel to the surface, creating a hydrophobic layer"
     },
-    "answer": "E",
-    "explanation": "提高表面親水性的方法包括添加極性基團、兩親性分子吸收、電漿處理和化學活化。降低表面粗糙度與親水性無直接關聯。"
+    "answer": "C",
+    "explanation": "A hydrophilic surface leads to a more dense water layer with collapsed hydrogen bonds at the interface, resulting in increased reactivity and potential for interactions."
   },
   {
-    "question": "以下哪一項**不是**非特異性細胞粘附的特點？",
+    "question": "Why is moderate surface wettability favorable for cell attachment and growth?",
     "options": {
-      "A": "細胞與細胞外基質的物理連接",
-      "B": "涉及整合素等跨膜受體",
-      "C": "細胞外粘附蛋白（纖維連接蛋白、層粘連蛋白）參與其中",
-      "D": "非常動態的結構",
-      "E": "粘附強度與施加的力有關"
+      "A": "It prevents excessive protein adsorption and denaturation",
+      "B": "It maximizes the surface area available for cell spreading",
+      "C": "It promotes rapid cell migration and tissue formation",
+      "D": "It enhances the electrical conductivity of the substrate",
+      "E": "It minimizes the diffusion of nutrients to the cells"
     },
     "answer": "A",
-    "explanation": "非特異性細胞粘附不涉及細胞與細胞外基質的物理連接，而是通過靜電作用、疏水作用等弱相互作用力實現的。"
+    "explanation": "Moderate wettability allows for an optimal balance of protein adsorption while preventing excessive protein denaturation, providing a suitable environment for cell attachment and growth."
   },
   {
-    "question": "以下哪一項**不是**纖維連接蛋白 (Fibronectin) 的關鍵功能？",
+    "question": "Which technique is commonly used to increase surface hydrophilicity by introducing polar groups?",
     "options": {
-      "A": "細胞遷移的嚮導",
-      "B": "排列細胞骨架",
-      "C": "將細胞錨定到細胞外基質 (ECM)",
-      "D": "ECM 的交聯劑",
-      "E": "促進細胞凋亡"
-    },
-    "answer": "E",
-    "explanation": "纖維連接蛋白的關鍵功能包括引導細胞遷移、排列細胞骨架、錨定細胞到細胞外基質和作為細胞外基質的交聯劑，它不促進細胞凋亡。"
-  },
-  {
-    "question": "層粘連蛋白 (Laminins) 的哪一部分與細胞結合？",
-    "options": {
-      "A": "三條短臂",
-      "B": "一條長臂",
-      "C": "中心球狀結構域",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "B",
-    "explanation": "層粘連蛋白的三條短臂與其他層粘連蛋白和膠原蛋白結合形成片狀結構，而長臂則與細胞結合。"
-  },
-  {
-    "question": "以下哪種合成肽序列**不是**用於細胞粘附的？",
-    "options": {
-      "A": "RGD (精氨酸-甘氨酸-天冬氨酸)",
-      "B": "YIGSR (酪氨酸-異亮氨酸-甘氨酸-絲氨酸-精氨酸)",
-      "C": "KGD (賴氨酸-甘氨酸-天冬氨酸)",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Coating the surface with a layer of gold nanoparticles",
+      "B": "Exposing the surface to a high-intensity magnetic field",
+      "C": "Plasma treatment to modify the surface chemistry",
+      "D": "Annealing the substrate at elevated temperatures",
+      "E": "Immersing the substrate in a solution of non-polar solvents"
     },
     "answer": "C",
-    "explanation": "RGD 和 YIGSR 是常用的細胞粘附合成肽序列，而 KGD 並不常用於細胞粘附。"
+    "explanation": "Plasma treatment, a surface modification technique, can effectively increase hydrophilicity by introducing polar groups like hydroxyl, carboxyl, or amino groups to the surface."
   },
   {
-    "question": "以下哪種方法**不能**將蛋白質固定在表面上？",
+    "question": "What is the role of integrins in specific cell adhesions?",
     "options": {
-      "A": "通過改變表面潤濕性",
-      "B": "通過特異性結合",
-      "C": "通過靜電吸附",
-      "D": "通過共價結合",
-      "E": "通過基因工程"
-    },
-    "answer": "E",
-    "explanation": "將蛋白質固定在表面上的方法包括改變表面潤濕性、特異性結合、靜電吸附和共價結合。基因工程技術不能直接將蛋白質固定在表面上。"
-  },
-  {
-    "question": "生物素-鏈黴親和素偶聯 (Biotin-streptavidin coupling) 屬於哪種蛋白質固定方法？",
-    "options": {
-      "A": "通過改變表面潤濕性",
-      "B": "非共價結合",
-      "C": "共價結合",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "They act as enzymes that break down extracellular matrix components",
+      "B": "They function as transmembrane receptors that bind to adhesive proteins",
+      "C": "They form channels that allow for the transport of ions across the cell membrane",
+      "D": "They provide structural support to the cell nucleus",
+      "E": "They regulate the pH of the intracellular environment"
     },
     "answer": "B",
-    "explanation": "生物素-鏈黴親和素偶聯是一種非共價結合方法，用於將蛋白質固定在表面上。"
+    "explanation": "Integrins are transmembrane receptors that play a critical role in specific cell adhesions by binding to extracellular adhesive proteins like fibronectin and laminin."
   },
   {
-    "question": "以下哪種聚合物**不是**用於防污方法 (Non-fouling methods) 的？",
+    "question": "What is the significance of the RGD (Arg-Gly-Asp) sequence in cell adhesion?",
     "options": {
-      "A": "聚乙二醇 (PEG)",
-      "B": "聚丙烯 (PP)",
-      "C": "聚氧化丙烯 (PPO)",
-      "D": "聚氧化乙烯 (PEO)",
-      "E": "聚賴氨酸"
-    },
-    "answer": "B",
-    "explanation": "PEG、PPO、PEO 和聚賴氨酸常用於防污方法，而聚丙烯 (PP) 則不常用。"
-  },
-  {
-    "question": "以下哪種聚合物可以用來驅逐蛋白質？",
-    "options": {
-      "A": "聚乙二醇 (PEG)",
-      "B": "聚丙烯 (PP)",
-      "C": "聚氧化丙烯 (PPO)",
-      "D": "A 和 C",
-      "E": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "PEG 和 PEO 可以通過其親水性來驅逐蛋白質。"
-  },
-  {
-    "question": "以下哪一項**不是**細胞捕捉 (Cell trapping) 的方法？",
-    "options": {
-      "A": "微孔捕捉",
-      "B": "介電泳捕捉",
-      "C": "微磁捕捉",
-      "D": "流體動力學捕捉",
-      "E": "光學捕捉"
-    },
-    "answer": "E",
-    "explanation": "細胞捕捉的方法包括微孔捕捉、介電泳捕捉、微磁捕捉和流體動力學捕捉。光學捕捉並非主要的細胞捕捉方法。"
-  },
-  {
-    "question": "細胞捕捉的目的是什麼？",
-    "options": {
-      "A": "在單細胞水平上進行高通量細胞分析",
-      "B": "在空間和時間上確定性地控制細胞-細胞相互作用",
-      "C": "A 和 B",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "It is a signaling molecule that triggers cell differentiation",
+      "B": "It is a DNA sequence that encodes for integrin proteins",
+      "C": "It is a peptide sequence recognized by integrins for cell attachment",
+      "D": "It is an enzyme that catalyzes the formation of focal adhesions",
+      "E": "It is a structural component of the cell cytoskeleton"
     },
     "answer": "C",
-    "explanation": "細胞捕捉的目的是在單細胞水平上進行高通量細胞分析，以及在空間和時間上確定性地控制細胞-細胞相互作用。"
+    "explanation": "The RGD sequence, present in fibronectin and collagen, is a key peptide motif recognized by integrins, facilitating cell attachment to the extracellular matrix."
   },
   {
-    "question": "從傳統細胞培養過渡到基於微流體晶片的細胞培養的關鍵問題是什麼？",
+    "question": "What is the primary function of laminin in the extracellular matrix?",
     "options": {
-      "A": "流體處理",
-      "B": "培養",
-      "C": "細胞數量",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Providing elasticity and resilience to tissues",
+      "B": "Storing energy for cellular processes",
+      "C": "Transporting oxygen and nutrients to cells",
+      "D": "Facilitating cell attachment, differentiation, and movement",
+      "E": "Protecting cells from mechanical damage"
     },
     "answer": "D",
-    "explanation": "從傳統細胞培養過渡到基於微流體晶片的細胞培養的關鍵問題包括流體處理、培養和細胞數量。"
+    "explanation": "Laminin, a major component of the basal lamina, plays a critical role in cell attachment, differentiation, shape, movement, and overall fate. Its dysfunction can lead to muscular dystrophy."
   },
   {
-    "question": "流體處理 (Fluid handling) 的傳統方法是什麼？",
+    "question": "What is the YIGSR peptide sequence commonly used for?",
     "options": {
-      "A": "串行移液",
-      "B": "平行微混合器",
-      "C": "泵",
-      "D": "閥門",
-      "E": "以上皆是"
+      "A": "Promoting the growth of blood vessels",
+      "B": "Inducing the formation of bone tissue",
+      "C": "Enhancing the proliferation of skin cells",
+      "D": "Supporting the culture of neuronal cells",
+      "E": "Inhibiting the growth of cancer cells"
+    },
+    "answer": "D",
+    "explanation": "The YIGSR peptide sequence, found in laminin, is frequently used in cell culture to promote the adhesion and growth of neuronal cells."
+  },
+  {
+    "question": "Which method of protein immobilization offers better control over protein orientation and bioactivity?",
+    "options": {
+      "A": "Physical adsorption based on surface energy differences",
+      "B": "Chemical hydrolysis of the substrate surface",
+      "C": "Covalent binding using specific chemical reactions",
+      "D": "Entrapment of proteins within a porous hydrogel matrix",
+      "E": "Electrostatic interactions between charged proteins and surfaces"
+    },
+    "answer": "C",
+    "explanation": "Covalent binding methods, utilizing specific chemical reactions to link proteins to the surface, provide better control over protein orientation and preserve their bioactivity."
+  },
+  {
+    "question": "What is the purpose of non-fouling methods in cell patterning?",
+    "options": {
+      "A": "To enhance cell adhesion to specific areas",
+      "B": "To prevent non-specific adsorption of biomolecules",
+      "C": "To promote cell migration across the substrate",
+      "D": "To increase the nutrient supply to the cells",
+      "E": "To facilitate cell-cell communication"
+    },
+    "answer": "B",
+    "explanation": "Non-fouling techniques aim to create surfaces that resist the non-specific adsorption of biomolecules, ensuring that cell adhesion occurs only in desired locations."
+  },
+  {
+    "question": "Which polymer is commonly used in non-fouling surfaces due to its ability to repel proteins?",
+    "options": {
+      "A": "Polylactic acid (PLA)",
+      "B": "Polydimethylsiloxane (PDMS)",
+      "C": "Polyethylene glycol (PEG)",
+      "D": "Polyvinyl alcohol (PVA)",
+      "E": "Polyacrylamide (PAAm)"
+    },
+    "answer": "C",
+    "explanation": "PEG and its derivatives are widely used in non-fouling applications due to their ability to form a hydrated layer that repels proteins, preventing non-specific adsorption."
+  },
+  {
+    "question": "Which cell trapping technique utilizes electric fields to manipulate cells based on their dielectric properties?",
+    "options": {
+      "A": "Microwell traps",
+      "B": "Dielectrophoretic traps",
+      "C": "Micromagnetic traps",
+      "D": "Hydrodynamic traps",
+      "E": "Optical traps"
+    },
+    "answer": "B",
+    "explanation": "Dielectrophoretic traps employ electric fields to manipulate and trap cells based on differences in their dielectric properties, allowing for precise cell positioning and analysis."
+  },
+  {
+    "question": "What is a major advantage of using microfluidic chips for cell culture compared to traditional methods?",
+    "options": {
+      "A": "Increased cell numbers for higher experimental yields",
+      "B": "Reduced cost of consumables and reagents",
+      "C": "Simplified fluid handling and automation capabilities",
+      "D": "Elimination of the need for temperature control",
+      "E": "Enhanced cell differentiation and tissue formation"
+    },
+    "answer": "C",
+    "explanation": "Microfluidic chips offer significant advantages in fluid handling, allowing for precise control, automation, and reduced reagent consumption compared to traditional pipetting methods."
+  },
+  {
+    "question": "What is the challenge associated with continuous-flow microculture systems?",
+    "options": {
+      "A": "Maintaining a stable temperature within the microchannels",
+      "B": "Preventing cell attachment to the channel walls",
+      "C": "Ensuring uniform mass transfer across the microchannels",
+      "D": "Removing waste products efficiently from the culture",
+      "E": "Introducing multiple cell types into the system"
+    },
+    "answer": "C",
+    "explanation": "Continuous-flow systems can face challenges in achieving uniform mass transfer due to laminar flow, which can lead to variations in nutrient and oxygen availability across the channel."
+  },
+  {
+    "question": "What is the purpose of interstitial space mimic flow systems in cell chips?",
+    "options": {
+      "A": "To replicate the blood flow in capillaries",
+      "B": "To simulate the fluid environment surrounding cells in tissues",
+      "C": "To enhance the diffusion of oxygen to the cells",
+      "D": "To create shear stress on the cell surface",
+      "E": "To remove waste products from the culture"
+    },
+    "answer": "B",
+    "explanation": "Interstitial space mimic flow systems aim to recreate the complex fluid flow dynamics present in the interstitial space of tissues, providing a more physiologically relevant environment for cell culture."
+  },
+  {
+    "question": "What is a key advantage of microfluidic chips in terms of cell numbers required for experiments?",
+    "options": {
+      "A": "They require significantly higher cell numbers for accurate results",
+      "B": "They often allow for the use of fewer cells due to higher surface-to-volume ratios",
+      "C": "They eliminate the need for cell counting due to automated systems",
+      "D": "They require uniform cell distribution throughout the chip for analysis",
+      "E": "They allow for the culture of only a single cell type at a time"
+    },
+    "answer": "B",
+    "explanation": "Microfluidic chips, due to their higher surface-to-volume ratios, often require fewer cells compared to traditional culture methods, making them advantageous for experiments with limited cell availability."
+  },
+  {
+    "question": "What type of stimuli can be incorporated into microengineered chips to manipulate the cell microenvironment?",
+    "options": {
+      "A": "Only biochemical signals, such as growth factors and hormones",
+      "B": "Only biophysical signals, such as mechanical forces and electrical fields",
+      "C": "Both biochemical and biophysical signals, providing a more complex environment",
+      "D": "Only signals related to temperature and pH",
+      "E": "Signals that mimic the in vivo environment cannot be replicated on chips"
+    },
+    "answer": "C",
+    "explanation": "Microengineered chips allow for the integration of both biochemical and biophysical stimuli, such as chemical gradients, mechanical forces, and electrical signals, offering a versatile platform for studying cell responses to various environmental cues."
+  },
+  {
+    "question": "What is the term for the directed cell migration in response to a chemical gradient?",
+    "options": {
+      "A": "Chemotaxis",
+      "B": "Durotaxis",
+      "C": "Electrotaxis",
+      "D": "Phototaxis",
+      "E": "Thermotaxis"
     },
     "answer": "A",
-    "explanation": "流體處理的傳統方法是串行移液，而基於晶片的方法則採用平行微混合器、泵和閥門。"
+    "explanation": "Chemotaxis refers to the phenomenon of directed cell migration guided by a chemical gradient, where cells move towards higher concentrations of attractant molecules or away from repellents."
   },
   {
-    "question": "以下哪種培養基轉移類型**不存在**？",
+    "question": "What is the principle behind engineering stiffness gradients using UV-curable hydrogels?",
     "options": {
-      "A": "連續流動型",
-      "B": "週期性流動型",
-      "C": "間質模擬流動型",
-      "D": "血管樹型",
-      "E": "擴散型"
-    },
-    "answer": "E",
-    "explanation": "培養基轉移的類型包括連續流動型、週期性流動型、間質模擬流動型和血管樹型，不存在擴散型。"
-  },
-  {
-    "question": "連續流動微培養系統 (Continuous-flow microculture system) 的目的是什麼？",
-    "options": {
-      "A": "克服極低的培養基與細胞體積比",
-      "B": "模擬體內的血液循環",
-      "C": "提供均勻的營養供應",
-      "D": "A 和 C",
-      "E": "以上皆是"
+      "A": "Varying the concentration of the hydrogel precursor solution",
+      "B": "Controlling the temperature during the polymerization process",
+      "C": "Applying different electric fields to align polymer chains",
+      "D": "Using photomasks to modulate the intensity of UV light exposure",
+      "E": "Introducing nanoparticles to alter the mechanical properties"
     },
     "answer": "D",
-    "explanation": "連續流動微培養系統通過連續的培養基灌注來克服極低的培養基與細胞體積比，從而提供更均勻的營養供應。"
+    "explanation": "Stiffness gradients in UV-curable hydrogels can be created by using photomasks to selectively control the intensity of UV light exposure, leading to variations in the degree of crosslinking and resulting stiffness."
   },
   {
-    "question": "層流 (Laminar flow) 在連續流動微培養系統中會導致什麼問題？",
+    "question": "Which device is commonly used to establish chemical gradients for cell migration studies?",
     "options": {
-      "A": "跨微通道的質量傳遞不均勻",
-      "B": "剪切應力和質量傳遞耦合（無法將力學效應與化學效應分離）",
-      "C": "流速可能無法準確得知 → 因此流體計量是一個問題",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "在連續流動微培養系統中，層流會導致質量傳遞不均勻、剪切應力和質量傳遞耦合以及流速難以準確測量等問題。"
-  },
-  {
-    "question": "以下哪種微泵**不是**基於微流體晶片的流體處理方法？",
-    "options": {
-      "A": "蠕動微泵",
-      "B": "注射泵",
-      "C": "電滲泵",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "B",
-    "explanation": "蠕動微泵和電滲泵是基於微流體晶片的流體處理方法，而注射泵則不是。"
-  },
-  {
-    "question": "以下哪一項**不是**傳統細胞培養中需要大量細胞的原因？",
-    "options": {
-      "A": "高濃度的目標生物分子",
-      "B": "用於分析測定的大體積",
-      "C": "模擬體內的細胞密度",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "Boyden chamber",
+      "B": "Transwell insert",
+      "C": "Dertinger gradient generator",
+      "D": "Microfluidic flow cytometer",
+      "E": "Atomic force microscope"
     },
     "answer": "C",
-    "explanation": "傳統細胞培養中需要大量細胞的原因是為了獲得足夠的目標生物分子和進行分析測定所需的樣本量，與模擬體內細胞密度無直接關係。"
+    "explanation": "The Dertinger gradient generator is a microfluidic device designed to establish precise and stable chemical gradients, allowing for the study of cell migration and chemotaxis."
   },
   {
-    "question": "微流體晶片 (Microfluidic chip) 相比傳統細胞培養，需要更少細胞的原因是什麼？",
+    "question": "What is the difference between homotypic and heterotypic cell-cell interactions?",
     "options": {
-      "A": "大多數細胞晶片允許原位行為分析",
-      "B": "由於更高的表面積（生產因子）與體積（稀釋因子）比（因此具有更高的信噪比），微流體培養系統中的樣本濃度更高",
-      "C": "因此需要更少的細胞",
-      "D": "信號檢測對於較小的樣本量來說可能具有挑戰性（需要顯微測定技術，例如顯微鏡）",
-      "E": "以上皆是"
+      "A": "Homotypic interactions involve direct contact, while heterotypic interactions are mediated by soluble factors",
+      "B": "Homotypic interactions occur between cells of the same type, while heterotypic interactions involve different cell types",
+      "C": "Homotypic interactions are essential for cell survival, while heterotypic interactions regulate cell differentiation",
+      "D": "Homotypic interactions are short-range, while heterotypic interactions can act over long distances",
+      "E": "Homotypic interactions are always stimulatory, while heterotypic interactions can be either stimulatory or inhibitory"
+    },
+    "answer": "B",
+    "explanation": "Homotypic interactions refer to interactions between cells of the same type, while heterotypic interactions occur between cells of different types, both crucial for tissue development and function."
+  },
+  {
+    "question": "Which cell patterning technique utilizes photo-thermal etching to create microchamber shapes?",
+    "options": {
+      "A": "Selective adhesion-based patterning",
+      "B": "Microfluidic patterning",
+      "C": "Stencil-based patterning",
+      "D": "Photo-thermal etching",
+      "E": "Micropatterned switchable surfaces"
+    },
+    "answer": "D",
+    "explanation": "Photo-thermal etching allows for flexible manipulation of microchamber shapes during cell cultivation, providing dynamic control over cell patterning and interactions."
+  },
+  {
+    "question": "Which cell-based chip system is designed to model the functions of a specific organ at a microscale?",
+    "options": {
+      "A": "Cell-culturing chip",
+      "B": "Tissue microchip",
+      "C": "Organ on a chip",
+      "D": "Body on a chip",
+      "E": "Disease on a chip"
+    },
+    "answer": "C",
+    "explanation": "Organ on a chip systems aim to recreate the key functionalities of specific organs in a miniaturized format, offering a platform for studying organ-level physiology and disease modeling."
+  },
+  {
+    "question": "What is the potential application of 'body on a chip' systems in drug development?",
+    "options": {
+      "A": "Replacing animal models for drug toxicity testing",
+      "B": "Predicting drug efficacy in specific patient populations",
+      "C": "Identifying potential side effects of new drugs",
+      "D": "Optimizing drug dosages for personalized medicine",
+      "E": "All of the above"
     },
     "answer": "E",
-    "explanation": "微流體晶片允許原位行為分析，具有更高的表面積與體積比，因此需要更少的細胞。但信號檢測對於較小的樣本量來說可能具有挑戰性。"
+    "explanation": "Body on a chip systems, incorporating multiple organoids, hold immense potential for various aspects of drug development, including toxicity testing, efficacy prediction, side effect identification, and personalized medicine approaches."
   },
   {
-    "question": "以下哪一項**不是**微工程晶片 (Microengineered chip) 的優點？",
+    "question": "Which organ on a chip system utilizes membrane-based structures to model barrier functions and mechanical stimuli?",
     "options": {
-      "A": "允許將多種刺激整合到培養細胞中",
-      "B": "可以精確控制細胞微環境",
-      "C": "可以進行高通量藥物篩選",
-      "D": "比傳統細胞培養更昂貴",
-      "E": "可以模擬體內組織的複雜性"
+      "A": "Lung on a chip",
+      "B": "Heart on a chip",
+      "C": "Kidney on a chip",
+      "D": "Gut on a chip",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "Organ on a chip systems modeling organs like the lung, heart, kidney, gut, and blood-brain barrier often incorporate membrane-based structures to mimic barrier functions and the mechanical forces experienced by these organs."
+  },
+  {
+    "question": "What is the primary focus of 'disease on a chip' models?",
+    "options": {
+      "A": "Studying the development of healthy tissues",
+      "B": "Replicating the key features of a specific disease",
+      "C": "Testing the efficacy of existing drugs",
+      "D": "Developing new surgical techniques",
+      "E": "Understanding the basic principles of cell biology"
+    },
+    "answer": "B",
+    "explanation": "Disease on a chip models are specifically designed to capture the essential characteristics and mechanisms of particular diseases, providing a platform for studying disease progression and potential therapeutic interventions."
+  },
+  {
+    "question": "Which organ on a chip model is particularly useful for studying the transport of drugs across the blood-brain barrier?",
+    "options": {
+      "A": "Lung on a chip",
+      "B": "Brain on a chip",
+      "C": "Liver on a chip",
+      "D": "Kidney on a chip",
+      "E": "Heart on a chip"
+    },
+    "answer": "B",
+    "explanation": "Brain on a chip models, incorporating the blood-brain barrier, are valuable tools for investigating the transport of drugs and other molecules across this critical barrier, providing insights into drug delivery to the brain."
+  },
+  {
+    "question": "What is a potential limitation of current cell-based chip technologies?",
+    "options": {
+      "A": "The inability to culture cells for extended periods",
+      "B": "The lack of control over the cellular microenvironment",
+      "C": "The high cost and complexity of chip fabrication",
+      "D": "The difficulty in integrating multiple organ systems",
+      "E": "The ethical concerns surrounding the use of human cells"
+    },
+    "answer": "C",
+    "explanation": "While cell-based chips offer numerous advantages, the complexity and cost associated with their fabrication can be a limitation, particularly for widespread adoption and high-throughput applications."
+  },
+  {
+    "question": "What is the primary goal of using cell-based chips in biomedical research?",
+    "options": {
+      "A": "To replace traditional cell culture methods entirely",
+      "B": "To develop new imaging techniques for studying cells",
+      "C": "To create artificial organs for transplantation",
+      "D": "To bridge the gap between in vitro and in vivo studies",
+      "E": "To reduce the reliance on computational models in biology"
     },
     "answer": "D",
-    "explanation": "微工程晶片的優點包括允許多種刺激整合、精確控制細胞微環境、高通量藥物篩選和模擬體內組織的複雜性。與傳統細胞培養相比，微工程晶片可能更具成本效益。"
+    "explanation": "Cell-based chips aim to bridge the gap between traditional in vitro studies and in vivo animal models by providing a more physiologically relevant environment, offering a better understanding of cellular behavior in complex systems."
   },
   {
-    "question": "細胞微環境中的可調信號有哪些類型？",
+    "question": "What is a significant advantage of cell-culturing chips over traditional cell culture methods?",
     "options": {
-      "A": "生化信號：離子、氣體分子、蛋白質、miRNA 等",
-      "B": "生物物理信號：機械力、電信號、光信號、拓撲線索等",
-      "C": "細胞-細胞接觸和相互作用",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "They require larger cell populations for analysis.",
+      "B": "They lack the ability to mimic complex in vivo conditions.",
+      "C": "They offer limited control over the cellular microenvironment.",
+      "D": "They enable the study of cell responses to dynamic stimuli with high spatial and temporal control.",
+      "E": "They are less cost-effective due to complex fabrication processes."
     },
     "answer": "D",
-    "explanation": "細胞微環境中的可調信號包括生化信號、生物物理信號和細胞-細胞相互作用。"
+    "explanation": "Cell-culturing chips allow researchers to precisely control various aspects of the cellular microenvironment, including biochemical gradients, mechanical forces, and cell-cell interactions, with high spatial and temporal resolution. This level of control is often difficult to achieve in traditional cell culture systems."
   },
   {
-    "question": "細胞趨化性 (Chemotaxis) 是指細胞響應什麼而遷移？",
+    "question": "Which statement accurately describes the limitations of traditional cell culture?",
     "options": {
-      "A": "化學梯度",
-      "B": "硬度梯度",
-      "C": "電場",
-      "D": "光信號",
-      "E": "以上皆非"
+      "A": "Traditional cell culture techniques provide precise control over the cellular microenvironment.",
+      "B": "Traditional methods easily allow for the study of single-cell behaviors.",
+      "C": "Traditional cell culture accurately replicates the complex three-dimensional (3D) environment of tissues.",
+      "D": "Traditional cell culture often fails to recapitulate the intricate in vivo conditions, limiting their predictive power.",
+      "E": "Traditional cell culture requires minimal sample volumes, making it suitable for rare cell types."
+    },
+    "answer": "D",
+    "explanation": "Traditional cell culture, often performed on flat surfaces, struggles to accurately mimic the intricate 3D architecture, biochemical gradients, and mechanical cues present in living tissues. This lack of physiological relevance can lead to results that do not translate well to in vivo situations."
+  },
+  {
+    "question": "What is a key feature of cell-culturing chips that enhances their ability to simulate in vivo conditions?",
+    "options": {
+      "A": "The use of static culture conditions without fluid flow",
+      "B": "The absence of any control over biochemical gradients",
+      "C": "The limitation to two-dimensional (2D) cell culture environments",
+      "D": "The incorporation of microfluidic channels to mimic fluid flow and mass transport",
+      "E": "The exclusion of any physical or mechanical stimuli to the cells"
+    },
+    "answer": "D",
+    "explanation": "Microfluidic channels within cell-culturing chips allow for the precise control of fluid flow, mimicking the dynamic transport of nutrients, oxygen, and signaling molecules that cells experience in living tissues. This feature significantly improves the physiological relevance of these chips."
+  },
+  {
+    "question": "What is the primary reason for the high demand in fabrication technologies for cell-culturing chips?",
+    "options": {
+      "A": "The need for simple and inexpensive chip designs",
+      "B": "The requirement for large-scale production of chips for basic research",
+      "C": "The desire to create chips with limited functionality and applications",
+      "D": "The challenge of incorporating complex features and functionalities into microscale devices",
+      "E": "The ease of adapting existing manufacturing processes for chip production"
+    },
+    "answer": "D",
+    "explanation": "Cell-culturing chips often require intricate designs with microfluidic channels, chambers, sensors, and other features, demanding advanced fabrication techniques like soft lithography, micromachining, and surface modification. These technologies contribute to the higher expenses associated with chip development."
+  },
+  {
+    "question": "What is a major advantage of cell-culturing chips in terms of ethical considerations compared to animal models?",
+    "options": {
+      "A": "Cell-culturing chips completely eliminate the need for animal models in research.",
+      "B": "Cell-culturing chips can be used to directly study human cells, reducing the reliance on animal models.",
+      "C": "Cell-culturing chips always provide more accurate results than animal models.",
+      "D": "Cell-culturing chips are always more complex and expensive to use than animal models.",
+      "E": "Cell-culturing chips raise more ethical concerns than animal models due to the use of living cells."
+    },
+    "answer": "B",
+    "explanation": "Cell-culturing chips offer a platform to study human cells directly, reducing the need for animal models in certain research areas. This can be particularly valuable in areas like drug testing and disease modeling, where species differences can limit the translatability of findings."
+  },
+  {
+    "question": "What is an essential material requirement for cell chips to ensure compatibility with biological systems?",
+    "options": {
+      "A": "High electrical conductivity to stimulate cells",
+      "B": "Strong magnetic properties for cell manipulation",
+      "C": "Biocompatibility to support cell viability and function",
+      "D": "Radioactivity for cell tracking and imaging",
+      "E": "Extreme hardness to prevent chip damage during handling"
+    },
+    "answer": "C",
+    "explanation": "Biocompatibility is paramount for cell chip materials, ensuring that they do not elicit toxic or adverse reactions from cells, maintaining their viability and normal function."
+  },
+  {
+    "question": "Why is optical transparency an important consideration for materials used in cell chips?",
+    "options": {
+      "A": "To facilitate the observation and imaging of cells using microscopes",
+      "B": "To enhance the electrical insulation between microfluidic channels",
+      "C": "To provide structural support and prevent chip deformation",
+      "D": "To improve the thermal conductivity of the chip for temperature control",
+      "E": "To allow for the use of magnetic fields to manipulate cells"
     },
     "answer": "A",
-    "explanation": "細胞趨化性是指細胞響應化學梯度而進行定向遷移的現象。"
+    "explanation": "Optical transparency of chip materials is essential for researchers to directly observe and image cells within the microfluidic environment using various microscopy techniques. This allows for real-time monitoring of cellular behavior and responses."
   },
   {
-    "question": "細胞趨硬性 (Durotaxis) 是指細胞響應什麼而遷移？",
+    "question": "What are the two main categories of polymers used in cell chips based on their degradability?",
     "options": {
-      "A": "化學梯度",
-      "B": "硬度梯度",
-      "C": "電場",
-      "D": "光信號",
-      "E": "以上皆非"
-    },
-    "answer": "B",
-    "explanation": "細胞趨硬性是指細胞響應基質硬度梯度而進行定向遷移的現象。"
-  },
-  {
-    "question": "細胞趨電性 (Electrotaxis) 是指細胞響應什麼而遷移？",
-    "options": {
-      "A": "化學梯度",
-      "B": "硬度梯度",
-      "C": "電場",
-      "D": "光信號",
-      "E": "以上皆非"
+      "A": "Natural and synthetic polymers",
+      "B": "Hydrophobic and hydrophilic polymers",
+      "C": "Biodegradable and non-biodegradable polymers",
+      "D": "Conductive and non-conductive polymers",
+      "E": "Rigid and flexible polymers"
     },
     "answer": "C",
-    "explanation": "細胞趨電性是指細胞響應電場而進行定向遷移的現象。"
+    "explanation": "Polymers used in cell chips are broadly classified as biodegradable or non-biodegradable, based on their ability to break down over time within the biological environment."
   },
   {
-    "question": "如何構建基材硬度梯度 (Substrate stiffness gradient)？",
+    "question": "What is a common characteristic of most synthetic polymers used in cell chip fabrication?",
     "options": {
-      "A": "適用於紫外線固化水凝膠（例如 PAAM）",
-      "B": "應用光學掩模來實現硬度梯度（光學觸發交聯，例如 Irgacure 2959）",
-      "C": "A 和 B",
-      "D": "以上皆是",
-      "E": "以上皆非"
+      "A": "They are derived from naturally occurring sources like plants or animals.",
+      "B": "They readily dissolve in water, making them easy to remove after use.",
+      "C": "They tend to be hydrophobic, influencing their interaction with water and biomolecules.",
+      "D": "They exhibit high electrical conductivity, enabling electrical stimulation of cells.",
+      "E": "They are typically opaque, preventing optical observation of cells within the chip."
     },
     "answer": "C",
-    "explanation": "構建基材硬度梯度的方法是使用紫外線固化水凝膠並應用光學掩模來控制光照強度，從而實現硬度梯度。"
+    "explanation": "Many synthetic polymers used in cell chip fabrication, particularly those in the poly(α-ester) family, are hydrophobic, affecting their surface wettability and interactions with proteins and cells."
   },
   {
-    "question": "以下哪一項**不是**構建化學梯度的常用方法？",
+    "question": "What is a key advantage of using polysaccharides derived from non-mammalian sources in cell chip applications?",
     "options": {
-      "A": "Dertinger 梯度發生器",
-      "B": "電路模擬梯度發生器",
-      "C": "瓊脂糖基梯度晶片",
-      "D": "ECM 凝膠梯度晶片",
-      "E": "微流體混合器"
-    },
-    "answer": "E",
-    "explanation": "Dertinger 梯度發生器、電路模擬梯度發生器、瓊脂糖基梯度晶片和 ECM 凝膠梯度晶片是常用的構建化學梯度的方法，而微流體混合器主要用於混合液體，而不是構建梯度。"
-  },
-  {
-    "question": "細胞-細胞相互作用 (Cell-cell interactions) 在什麼過程中至關重要？",
-    "options": {
-      "A": "組織分化",
-      "B": "器官功能",
-      "C": "A 和 B",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "C",
-    "explanation": "細胞-細胞相互作用在組織分化和器官功能中至關重要。"
-  },
-  {
-    "question": "以下哪一項**不是**圖案化共培養 (Patterned co-culture) 的方法？",
-    "options": {
-      "A": "基於選擇性粘附",
-      "B": "微流體圖案化",
-      "C": "基於模板的圖案化",
-      "D": "光熱蝕刻",
-      "E": "基因編輯"
-    },
-    "answer": "E",
-    "explanation": "圖案化共培養的方法包括基於選擇性粘附、微流體圖案化、基於模板的圖案化和光熱蝕刻。基因編輯技術不能直接用於圖案化共培養。"
-  },
-  {
-    "question": "光熱蝕刻 (Photo-thermal etching) 的主要用途是什麼？",
-    "options": {
-      "A": "構建基材硬度梯度",
-      "B": "構建化學梯度",
-      "C": "控制細胞-細胞相互作用",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "C",
-    "explanation": "光熱蝕刻技術可以用於控制細胞-細胞相互作用，通過改變微腔室的形狀來控制細胞的接觸和相互作用。"
-  },
-  {
-    "question": "以下哪一項**不是**器官晶片 (Organ-on-a-chip) 的特點？",
-    "options": {
-      "A": "特定器官的微型模型（約為實際尺寸的 10-4-10-6）",
-      "B": "各種細胞在模擬組織的支架中自組織成類器官，並持續 2-30 天",
-      "C": "人體晶片：具有多個類器官的系統，其生理尺寸彼此相對",
-      "D": "疾病晶片：模擬器官捕捉疾病的關鍵特徵",
-      "E": "可以完全替代動物模型進行藥物測試"
-    },
-    "answer": "E",
-    "explanation": "器官晶片的特點包括微型模型、類器官培養、多器官系統和疾病模型，但目前還不能完全替代動物模型進行藥物測試。"
-  },
-  {
-    "question": "以下哪一項**不是**器官晶片的分類依據？",
-    "options": {
-      "A": "基於膜的滲透和機械刺激",
-      "B": "基於解剖結構的器官功能模擬",
-      "C": "基於灌注的設備",
-      "D": "基於細胞類型的分類",
-      "E": "以上皆是"
+      "A": "They closely resemble the composition of the human extracellular matrix.",
+      "B": "They elicit a strong immune response, enhancing cell adhesion.",
+      "C": "They are expensive to produce, making them suitable for specialized applications.",
+      "D": "They offer low immunogenicity and allow for non-covalent crosslinking for controlled degradation.",
+      "E": "They are highly complex to isolate and purify, requiring sophisticated techniques."
     },
     "answer": "D",
-    "explanation": "器官晶片的分類依據包括基於膜的滲透和機械刺激、基於解剖結構的器官功能模擬和基於灌注的設備，而基於細胞類型的分類並不常用。"
+    "explanation": "Polysaccharides from non-mammalian sources, like starch, chitosan, and alginate, offer advantages in terms of cost-effectiveness, low immunogenicity, and the ability to form gels through non-covalent crosslinking, which can be exploited for controlled degradation."
   }
 ]
