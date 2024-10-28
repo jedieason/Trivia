@@ -1,182 +1,603 @@
 [
 {
-"question": "What is the primary goal of bio-chip technology?",
+"question": "What is the main goal of personalized healthcare?",
 "options": {
-"A": "To replace traditional medical electronics.",
-"B": "To detect and analyze biomolecular composition.",
-"C": "To enhance the sensitivity of imaging systems like MRI.",
-"D": "To develop personalized healthcare paradigms."
-"E": "To create artificial intelligence for medical diagnosis."
-},
-"answer": "B",
-"explanation": "Bio-chip technology, promoted by advancements in nano/micro technology, aims to detect or analyze the composition of biomolecules."
-},
-{
-"question": "What are some traditional methods of protein bio-diagnostics?",
-"options": {
-"A": "Ultrasonics and Magnetic Resonance Imaging.",
-"B": "Bio-chip and Lab-on-a-chip technologies.",
-"C": "Fluorescence detection and Amperometric detection.",
-"D": "Centrifugation, electrophoresis, and chromatography.",
-"E": "Personalized healthcare systems and data analysis."
-},
-"answer": "D",
-"explanation": "Traditional methods for protein bio-diagnostics include techniques like centrifugation, electrophoresis, chromatography, immunosorbent assay, and mass spectrometry."
-},
-{
-"question": "What is one of the main advantages of Lab-on-A-Chip systems?",
-"options": {
-"A": "They eliminate the need for sample preparation.",
-"B": "They have a high signal-to-noise ratio due to large sample volumes.",
-"C": "They are fully developed and widely implemented in healthcare.",
-"D": "They offer lower device costs and reduced waste in bio-diagnostics.",
-"E": "They are not dependent on microfluidic conditions for optimal performance."
-},
-"answer": "D",
-"explanation": "Lab-on-A-Chip systems have the potential to significantly reduce costs and minimize waste generated during bio-diagnostics."
-},
-{
-"question": "Which characteristic of a biosensor describes its ability to differentiate between target and non-target molecules?",
-"options": {
-"A": "Sensitivity",
-"B": "Dynamic Range",
-"C": "Selectivity",
-"D": "Limit of Detection",
-"E": "Response Time"
+"A": "To provide generic treatment plans.",
+"B": "To use advanced imaging techniques only.",
+"C": "To tailor healthcare to individual needs.",
+"D": "To rely solely on traditional medical electronics."
 },
 "answer": "C",
-"explanation": "The selectivity of a biosensor refers to its capacity to detect the intended molecules within a mixture of different molecular species."
+"explanation": "The healthcare paradigm is shifting towards personalized healthcare, which focuses on customizing treatment and care based on individual patient characteristics."
 },
 {
-"question": "How is the Limit of Detection of a biosensor typically defined?",
+"question": "What is the primary function of a biochip?",
 "options": {
-"A": "The highest molecular concentration detectable by the sensor.",
-"B": "The time taken for the sensor to reach 95% signal strength.",
-"C": "The ratio of signal response to the target molecule concentration.",
-"D": "The lowest concentration of molecules the sensor can identify.",
+"A": "To store large amounts of biological samples.",
+"B": "To perform complex surgical procedures.",
+"C": "To detect and analyze biomolecular compositions.",
+"D": "To generate high-resolution medical images."
+},
+"answer": "C",
+"explanation": "Biochips are miniaturized devices that leverage nano/micro technologies to detect and analyze the composition of biomolecules."
+},
+{
+"question": "Which of the following is a key advantage of biochips in biomolecular sensing and diagnosis?",
+"options": {
+"A": "They require a large amount of sample volume.",
+"B": "They are time-consuming and labor-intensive.",
+"C": "They offer simplicity, selectivity, and high sensitivity.",
+"D": "They rely on traditional methods like centrifugation and electrophoresis."
+},
+"answer": "C",
+"explanation": "Biochips are preferred for biomolecular sensing and diagnosis because they provide a simple, selective, and highly sensitive method compared to traditional, more complex techniques."
+},
+{
+"question": "What is the significance of miniaturized analysis systems like biochips in healthcare?",
+"options": {
+"A": "They increase the cost and waste of bio-diagnostics.",
+"B": "They limit the potential for personalized healthcare.",
+"C": "They have the potential to reduce cost and waste, paving the way for personalized healthcare.",
+"D": "They have no significant impact on healthcare practices."
+},
+"answer": "C",
+"explanation": "Miniaturized analysis systems, such as biochips, are crucial because they can potentially lower the cost and reduce waste in bio-diagnostics, contributing to the advancement of personalized healthcare."
+},
+{
+"question": "What is a key feature of Lab-on-A-Chip technology?",
+"options": {
+"A": "It increases reagent consumption.",
+"B": "It promotes sequential processing of samples.",
+"C": "It enables miniaturization, automation, and full integration of laboratory processes.",
+"D": "It restricts the ability to perform parallel processes."
+},
+"answer": "C",
+"explanation": "Lab-on-A-Chip technology is characterized by its ability to miniaturize, automate, and fully integrate laboratory processes, allowing for efficient and streamlined analysis."
+},
+{
+"question": "How does Lab-on-A-Chip technology contribute to efficiency in bio-analysis?",
+"options": {
+"A": "It requires manual handling of samples.",
+"B": "It enables parallel processing, saving time and resources.",
+"C": "It increases the complexity of laboratory procedures.",
+"D": "It leads to a higher consumption of reagents."
+},
+"answer": "B",
+"explanation": "Lab-on-A-Chip technology facilitates parallel processing of samples, which means multiple analyses can be run simultaneously, leading to significant time and resource savings."
+},
+{
+"question": "What is a notable advantage of Lab-on-A-Chip technology in terms of sample usage?",
+"options": {
+"A": "It requires a large volume of samples for analysis.",
+"B": "It minimizes sample consumption, making it suitable for limited samples.",
+"C": "It has no impact on the volume of samples required.",
+"D": "It increases the risk of sample contamination."
+},
+"answer": "B",
+"explanation": "A key advantage of Lab-on-A-Chip technology is its ability to function with low sample volumes, making it beneficial in situations where the available sample quantity is limited."
+},
+{
+"question": "How does Lab-on-A-Chip technology improve bio-process control?",
+"options": {
+"A": "It slows down the analysis process, delaying results.",
+"B": "It provides faster response times, leading to better control over biological processes.",
+"C": "It limits the ability to monitor biological processes in real-time.",
+"D": "It increases the complexity of controlling bio-processes."
+},
+"answer": "B",
+"explanation": "The faster response times provided by Lab-on-A-Chip technology translate to enhanced control over bio-processes due to the ability to monitor and adjust conditions more rapidly."
+},
+{
+"question": "What is a major disadvantage of Lab-on-A-Chip technology?",
+"options": {
+"A": "It is highly insensitive to microfluidic conditions.",
+"B": "Its performance is independent of microfluidic factors.",
+"C": "It is highly dependent on microfluidic conditions, making it sensitive to variations in fluid flow.",
+"D": "It has a very high signal-to-noise ratio."
+},
+"answer": "C",
+"explanation": "A significant drawback of Lab-on-A-Chip technology is its susceptibility to variations in microfluidic conditions, meaning factors like fluid flow can greatly impact its performance."
+},
+{
+"question": "What is a challenge associated with small sample volumes in Lab-on-A-Chip devices?",
+"options": {
+"A": "It leads to an extremely high signal-to-noise ratio.",
+"B": "It results in a relatively low signal-to-noise ratio, making signal detection difficult.",
+"C": "It has no impact on the signal-to-noise ratio.",
+"D": "It enhances the clarity of the sensor signal."
+},
+"answer": "B",
+"explanation": "Using small sample volumes in Lab-on-A-Chip devices can be problematic because it often leads to a low signal-to-noise ratio, making it harder to differentiate the desired signal from background noise."
+},
+{
+"question": "What does the 'sensitivity' of a biosensor refer to?",
+"options": {
+"A": "The range of biomolecular concentrations the device can detect.",
+"B": "The ability to differentiate between various types of molecules.",
+"C": "The speed at which the sensor responds to molecular attachments.",
+"D": "The ability to quantify the concentration of targeted biomolecules.",
 "E": "The time taken for the sensor to return to its normal state."
 },
 "answer": "D",
-"explanation": "The Limit of Detection of a sensor signifies the minimum concentration of target molecules that the sensor can reliably detect."
+"explanation": "Sensitivity in a biosensor is defined as its capacity to describe or measure the concentration of the specific target biomolecules."
 },
 {
-"question": "What is the function of a photomultiplier tube (PMT) in fluorescence detection?",
+"question": "What does the 'dynamic range' of a biosensor indicate?",
 "options": {
-"A": "To generate the excitation light source for fluorescence.",
-"B": "To filter the emitted light based on specific wavelengths.",
-"C": "To deliver the excitation light to the target sample.",
+"A": "The lowest concentration of molecules the sensor can detect.",
+"B": "The time required for the sensor to achieve 95% signal strength.",
+"C": "The ability to detect target molecules amidst different molecules.",
+"D": "The effective range of biomolecular concentrations the device can detect, often the linear range.",
+"E": "The ratio of signal level to noise level."
+},
+"answer": "D",
+"explanation": "The dynamic range of a biosensor refers to the range of biomolecular concentrations that it can effectively detect, typically representing the linear range of the device's response."
+},
+{
+"question": "What is the primary factor determining the 'selectivity' of a biosensor?",
+"options": {
+"A": "The sensor's response time to molecular attachments.",
+"B": "The lowest detectable concentration of molecules.",
+"C": "The range of biomolecular concentrations detectable by the sensor.",
+"D": "The ability to distinguish the target molecules from other types of molecules present.",
+"E": "The stability of the sensor's signal over time."
+},
+"answer": "D",
+"explanation": "Selectivity in a biosensor is its ability to detect the specific target molecules while ignoring other types of molecules that may be present in the sample."
+},
+{
+"question": "How is the 'selectivity' of a biosensor typically quantified?",
+"options": {
+"A": "By measuring the sensor's response time.",
+"B": "By determining the lowest detectable molecular concentration.",
+"C": "By calculating the ratio of signal strength to background noise.",
+"D": "By comparing the sensitivity to target molecules with the sensitivity to non-target molecules.",
+"E": "By assessing the sensor's ability to return to its normal state."
+},
+"answer": "D",
+"explanation": "The selectivity of a biosensor is often defined as the ratio of its sensitivity towards the target molecules to its sensitivity towards non-target molecules, reflecting its ability to differentiate between them."
+},
+{
+"question": "What does the 'limit of detection' of a biosensor specify?",
+"options": {
+"A": "The maximum concentration of molecules the sensor can measure.",
+"B": "The time it takes for the sensor to respond to target molecules.",
+"C": "The range of molecular concentrations over which the sensor response is linear.",
+"D": "The lowest concentration of target molecules that the sensor can reliably detect.",
+"E": "The ability of the sensor to distinguish between similar molecules."
+},
+"answer": "D",
+"explanation": "'Limit of Detection' in a biosensor represents the lowest concentration of the target molecules that the sensor can reliably identify or measure."
+},
+{
+"question": "What is the typical range for the 'limit of detection' in many biosensors?",
+"options": {
+"A": "Millimolar (10^-3 M)",
+"B": "Micromolar (10^-6 M)",
+"C": "Nanomolar (10^-9 M)",
+"D": "Picomolar (10^-12 M)"
+},
+"answer": "C",
+"explanation": "The limit of detection for many biosensors typically falls within the nanomolar range, which is 10^-9 M. However, this can vary depending on the specific sensor and application."
+},
+{
+"question": "What does 'response time' in the context of a biosensor indicate?",
+"options": {
+"A": "The ability of the sensor to recover after detecting molecules.",
+"B": "The lowest concentration of molecules the sensor can detect.",
+"C": "The time taken for the sensor to reach 95% of its maximum signal strength after detecting target molecules.",
+"D": "The ability of the sensor to differentiate between different molecule types.",
+"E": "The ratio of signal strength to background noise."
+},
+"answer": "C",
+"explanation": "Response time in biosensors is defined as the time it takes for the sensor to reach 95% of its full signal strength upon detecting the target molecules, indicating how fast it can respond to their presence."
+},
+{
+"question": "What does the term 'recovery time' refer to in a biosensor?",
+"options": {
+"A": "The time taken for the sensor to detect target molecules.",
+"B": "The sensor's ability to distinguish between similar molecules.",
+"C": "The time needed for the sensor to return to its initial state after the target molecules are removed.",
+"D": "The lowest concentration of molecules the sensor can detect.",
+"E": "The ratio of the sensor's signal to background noise."
+},
+"answer": "C",
+"explanation": "Recovery time in a biosensor indicates how quickly the sensor can revert back to its normal, baseline state after the target molecules have been removed or are no longer present."
+},
+{
+"question": "What is the significance of a high 'signal-to-noise ratio' in a biosensor?",
+"options": {
+"A": "It indicates a weak sensor signal that is difficult to detect.",
+"B": "It implies that the sensor signal is heavily obscured by background noise.",
+"C": "It signifies that the sensor signal is strong and easily discernible from background noise.",
+"D": "It reflects the sensor's ability to detect a wide range of molecular concentrations.",
+"E": "It measures the time taken for the sensor to respond to target molecules."
+},
+"answer": "C",
+"explanation": "A high signal-to-noise ratio is desirable in a biosensor because it means the sensor signal is clear and strong, making it easy to distinguish from any background noise, leading to more accurate and reliable measurements."
+},
+{
+"question": "What are the common sources of noise in a biosensor?",
+"options": {
+"A": "Mechanical vibrations only.",
+"B": "Thermal fluctuations only.",
+"C": "Both optical and electronic sources contribute to noise in biosensors.",
+"D": "Chemical interference only."
+},
+"answer": "C",
+"explanation": "Noise in biosensor signals can originate from various sources, with optical and electronic sources being the most common ones."
+},
+{
+"question": "How is the 'signal-to-noise ratio' in a biosensor calculated?",
+"options": {
+"A": "By subtracting the noise level from the signal level.",
+"B": "By multiplying the signal level by the noise level.",
+"C": "By dividing the signal level by the noise level.",
+"D": "By adding the signal level to the noise level."
+},
+"answer": "C",
+"explanation": "The signal-to-noise ratio in a biosensor is determined by dividing the strength or level of the signal by the level of the background noise."
+},
+{
+"question": "Which of the following is NOT considered a standard diagnosis technology in biomolecular detection?",
+"options": {
+"A": "Fluorescence detection",
+"B": "Amperometric detection",
+"C": "Magnetic resonance imaging (MRI)",
+"D": "Enzyme-linked immunosorbent assay (ELISA)"
+},
+"answer": "C",
+"explanation": "While fluorescence and amperometric detection are standard techniques in biomolecular detection, MRI is primarily an imaging technique and not typically used for direct biomolecular analysis."
+},
+{
+"question": "Which of these is a microchip-based diagnosis technology?",
+"options": {
+"A": "Centrifugation",
+"B": "Chromatography",
+"C": "Surface plasma resonance",
+"D": "Mass spectrometry"
+},
+"answer": "C",
+"explanation": "Surface plasmon resonance is a technique that is commonly implemented on microchips for biomolecular diagnosis, unlike the other options which are traditional laboratory methods."
+},
+{
+"question": "What is the principle behind fluorescence techniques in biological diagnosis?",
+"options": {
+"A": "Measuring changes in electrical current.",
+"B": "Detecting the absorption of light by molecules.",
+"C": "Observing the emission of light by fluorescent molecules after excitation.",
+"D": "Analyzing the scattering of light by particles."
+},
+"answer": "C",
+"explanation": "Fluorescence techniques rely on the phenomenon where certain molecules, called fluorophores, emit light at a specific wavelength after being excited by light of a different wavelength, this emitted light is then detected and analyzed."
+},
+{
+"question": "Which of the following is NOT an application of fluorescence techniques in biology?",
+"options": {
+"A": "Enzyme-linked immunosorbent assay (ELISA)",
+"B": "Polymerase chain reaction (PCR)",
+"C": "Fluorescent microscopy",
+"D": "Magnetic resonance imaging (MRI)"
+},
+"answer": "D",
+"explanation": "While ELISA, PCR, and fluorescent microscopy all utilize fluorescence for biological analysis, MRI is based on nuclear magnetic resonance and does not involve fluorescence."
+},
+{
+"question": "What makes fluorescence combined with imaging systems a valuable tool in biological applications?",
+"options": {
+"A": "Its low sensitivity limits its use in detecting small quantities of molecules.",
+"B": "Its inability to detect multiple targets simultaneously restricts its applications.",
+"C": "Its sensitivity and ability to provide quantitative data make it suitable for various biological studies.",
+"D": "It is a highly unstable technique with a short shelf-life, making it impractical."
+},
+"answer": "C",
+"explanation": "Fluorescence techniques, when combined with imaging systems, provide a sensitive method for detecting even small amounts of molecules and offer quantitative data, making them valuable for a wide range of biological applications."
+},
+{
+"question": "What is a key advantage of fluorescence techniques in terms of detecting multiple targets?",
+"options": {
+"A": "It can only detect one target molecule at a time.",
+"B": "It requires complex and time-consuming procedures for multiple target detection.",
+"C": "It allows for the simultaneous detection of multiple targets using different fluorescent labels with distinct spectral properties.",
+"D": "It is not suitable for applications involving multiple target detection."
+},
+"answer": "C",
+"explanation": "One of the major advantages of fluorescence techniques is their ability to detect multiple targets at the same time by using different fluorescent labels that emit light at separate wavelengths, which can be spectrally resolved and analyzed."
+},
+{
+"question": "What is a significant advantage of fluorescent labels over radio-labelled molecules in biological studies?",
+"options": {
+"A": "Fluorescent labels are more complex to use and require specialized equipment.",
+"B": "Fluorescent labels have a shorter shelf-life compared to radio-labelled molecules.",
+"C": "Fluorescent labels offer greater stability and a longer shelf-life, making them more practical for long-term studies.",
+"D": "Fluorescent labels are less sensitive than radio-labelled molecules in detecting target molecules."
+},
+"answer": "C",
+"explanation": "Compared to radio-labelled molecules, fluorescent labels offer better stability and have a longer shelf-life, making them more convenient and practical for use in biological studies, especially those that span over longer periods."
+},
+{
+"question": "What is the role of a 'Photomultiplier Tube (PMT)' in fluorescence imaging systems?",
+"options": {
+"A": "To excite the fluorescent molecules.",
+"B": "To filter the emitted light based on wavelength.",
+"C": "To deliver the excitation light to the sample.",
 "D": "To detect and quantify the emitted light with high sensitivity.",
-"E": "To capture and digitize the fluorescence images."
+"E": "To capture and digitize the fluorescence image."
 },
 "answer": "D",
-"explanation": "Photomultiplier tubes (PMTs) are highly sensitive detectors used to measure the intensity of emitted light in fluorescence techniques."
+"explanation": "Photomultiplier tubes (PMTs) are highly sensitive detectors that play a crucial role in fluorescence imaging systems by detecting and measuring the intensity of the emitted light from the fluorescent molecules."
 },
 {
-"question": "How does Total Internal Reflection Fluorescence Microscopy (TIRFM) enhance fluorescence sensitivity?",
+"question": "How does a Photomultiplier Tube (PMT) work?",
 "options": {
-"A": "By increasing the intensity of the excitation light source.",
-"B": "By amplifying the fluorescence signal using electronic means.",
-"C": "By using multiple fluorescent labels to target different molecules.",
-"D": "By minimizing background fluorescence to improve signal-to-noise ratio.",
-"E": "By extending the shelf-life of fluorescent molecules."
+"A": "By converting light into electrical signals through the photoelectric effect and amplifying those signals through secondary emission.",
+"B": "By capturing the light directly and storing it as a digital image.",
+"C": "By separating the emitted light based on its wavelength.",
+"D": "By focusing the excitation light onto the sample."
 },
-"answer": "D",
-"explanation": "TIRFM enhances sensitivity by reducing background fluorescence, leading to a better signal-to-noise ratio and improved resolution of the observed features."
+"answer": "A",
+"explanation": "PMTs function based on the photoelectric effect, where incident photons hit a photocathode, releasing electrons. These electrons are then multiplied through a process called secondary emission, generating a measurable electrical signal proportional to the intensity of the incident light."
 },
 {
-"question": "Which metal is commonly used as a thin film in Surface Plasma Resonance Biosensors?",
+"question": "What is the primary aim of Total Internal Reflection Fluorescence Microscopy (TIRFM)?",
 "options": {
-"A": "Aluminum",
-"B": "Platinum",
-"C": "Titanium",
-"D": "Gold",
-"E": "Silicon"
-},
-"answer": "D",
-"explanation": "Gold, along with silver and copper, is frequently utilized as a thin film in the construction of Surface Plasma Resonance Biosensors."
-},
-{
-"question": "What is the principle behind Amperometric detection in biosensors?",
-"options": {
-"A": "Measuring changes in the mechanical resonance frequency.",
-"B": "Detecting light scattering caused by biomolecular interactions.",
-"C": "Monitoring changes in electric current due to redox reactions.",
-"D": "Analyzing the fluorescence emitted by labeled biomolecules.",
-"E": "Measuring changes in the pH of the solution."
+"A": "To reduce the sensitivity of fluorescence detection.",
+"B": "To increase background fluorescence for better visualization.",
+"C": "To enhance the signal-to-noise ratio by minimizing background fluorescence, improving the clarity of the image.",
+"D": "To decrease the spatial resolution of the image."
 },
 "answer": "C",
-"explanation": "Amperometric detection relies on measuring the electric current generated by the oxidation or reduction of electroactive compounds at an electrode."
+"explanation": "The main purpose of TIRFM is to enhance the clarity and sensitivity of fluorescence imaging by significantly reducing the background fluorescence, which, in turn, improves the signal-to-noise ratio."
 },
 {
-"question": "In Amperometric detection, what is the role of the reference electrode?",
+"question": "What principle does Total Internal Reflection Fluorescence Microscopy (TIRFM) exploit to achieve its goal?",
 "options": {
-"A": "To apply a potential to the working electrode.",
-"B": "To oxidize or reduce the target analyte.",
-"C": "To provide a baseline for current measurement.",
-"D": "To enhance the sensitivity of the detection.",
-"E": "To amplify the measured current signal."
+"A": "The scattering of light by particles.",
+"B": "The absorption of light by molecules.",
+"C": "The generation of an evanescent field at the interface of two media with different refractive indices.",
+"D": "The diffraction of light through a narrow aperture."
 },
 "answer": "C",
-"explanation": "The reference electrode in an Amperometric setup serves as a stable reference point for measuring the current changes occurring at the working electrode."
+"explanation": "TIRFM utilizes the principle of total internal reflection, where an evanescent electromagnetic field is generated at the interface between two media having different refractive indices. This field selectively excites fluorophores close to the interface, minimizing background fluorescence."
 },
 {
-"question": "What type of current is primarily responsible for the signal in Amperometry?",
+"question": "What is the function of the evanescent field in Total Internal Reflection Fluorescence Microscopy (TIRFM)?",
 "options": {
-"A": "Capacitive Current",
-"B": "Displacement Current",
-"C": "Eddy Current",
-"D": "Faraday Current",
-"E": "Non-Faraday Current"
-},
-"answer": "D",
-"explanation": "The main current contributing to the signal in Amperometric measurements is the Faraday current, which arises from electron transfer during redox reactions at the electrodes."
-},
-{
-"question": "How does the binding of biomolecules affect the resonance frequency in Mechanical Resonance biosensors?",
-"options": {
-"A": "It increases the stiffness of the structure, raising the frequency.",
-"B": "It reduces the damping, leading to sharper resonance peaks.",
-"C": "It alters the mass and boundary conditions, shifting the frequency.",
-"D": "It induces electrical charges, changing the resonance properties.",
-"E": "It modifies the surface energy, affecting the resonance behavior."
+"A": "To scatter the excitation light, reducing its intensity.",
+"B": "To excite all fluorophores in the sample uniformly.",
+"C": "To selectively excite fluorophores near the interface, reducing background fluorescence.",
+"D": "To block the emitted fluorescence, improving the signal-to-noise ratio."
 },
 "answer": "C",
-"explanation": "The attachment of biomolecules to the surface of a Mechanical Resonance biosensor locally modifies the mass and boundary conditions, resulting in a detectable shift in the resonance frequency."
+"explanation": "The evanescent field generated in TIRFM is restricted to a small region near the interface, and it selectively excites only those fluorophores present within this region. This selective excitation significantly reduces background fluorescence from fluorophores located further away from the interface, enhancing the clarity of the image."
 },
 {
-"question": "What is the operating principle of a Quartz Crystal Microbalance (QCM) biosensor?",
+"question": "What are the two main methods for achieving Total Internal Reflection Fluorescence Microscopy (TIRFM)?",
 "options": {
-"A": "Measuring changes in light intensity due to molecular binding.",
-"B": "Detecting variations in electrical resistance caused by biomolecules.",
-"C": "Monitoring shifts in the resonance frequency of a quartz crystal.",
-"D": "Analyzing the electrochemical reactions occurring at the electrodes.",
-"E": "Measuring the deflection of a microcantilever beam."
-},
-"answer": "C",
-"explanation": "QCM biosensors function by monitoring the changes in the resonance frequency of a quartz crystal, which are directly related to the mass alterations caused by biomolecule binding on the crystal surface."
-},
-{
-"question": "How does an Ion-Sensitive Field-Effect Transistor (ISFET) modulate the current flow?",
-"options": {
-"A": "By changing the channel length of the transistor.",
-"B": "By varying the gate voltage applied to the transistor.",
-"C": "By altering the doping concentration of the semiconductor.",
-"D": "By modifying the mobility of charge carriers in the channel.",
-"E": "By controlling the temperature of the transistor."
+"A": "Transmission and reflection methods.",
+"B": "Prism and objective lens methods.",
+"C": "Scattering and absorption methods.",
+"D": "Diffraction and interference methods."
 },
 "answer": "B",
-"explanation": "ISFETs control the current flow by modulating the gate voltage, which in turn influences the conductivity of the channel and thus the current passing through it."
+"explanation": "There are two primary approaches to implement TIRFM: the prism method and the objective lens method, both of which rely on generating the evanescent field for selective excitation of fluorophores."
 },
 {
-"question": "What serves as the gate connection in an ISFET compared to a conventional MOSFET?",
+"question": "What is the fundamental principle behind Surface Plasmon Resonance (SPR) biosensors?",
 "options": {
-"A": "A metal contact deposited on the gate oxide.",
-"B": "A semiconductor layer integrated into the chip.",
-"C": "A reference electrode immersed in a solution.",
-"D": "A capacitor connected to the gate terminal.",
-"E": "A variable resistor controlling the gate voltage."
+"A": "The detection of changes in electrical current due to molecular interactions.",
+"B": "The analysis of light scattering patterns caused by biomolecules.",
+"C": "The measurement of changes in the refractive index near a metal surface due to biomolecular binding.",
+"D": "The amplification of DNA sequences for detection purposes."
 },
 "answer": "C",
-"explanation": "Unlike a standard MOSFET, an ISFET employs a reference electrode placed in a solution as the gate connection, allowing it to sense ionic changes in the solution."
+"explanation": "SPR biosensors operate on the principle of detecting changes in the refractive index at the sensor surface, these changes occur due to the binding of biomolecules to the surface and affect the way light interacts with the surface plasmons, providing information about the binding event."
+},
+{
+"question": "Which of these is NOT a key element of a Surface Plasmon Resonance (SPR) biosensor?",
+"options": {
+"A": "Light source",
+"B": "Prism",
+"C": "Metal thin film",
+"D": "Magnetic coil"
+},
+"answer": "D",
+"explanation": "The key components of an SPR biosensor include a light source, a prism to couple light into the system, a thin metal film (typically gold or silver) where surface plasmons are generated, and a light detector. Magnetic coils are not part of the SPR setup."
+},
+{
+"question": "What is the role of the prism in a Surface Plasmon Resonance (SPR) biosensor?",
+"options": {
+"A": "To detect the reflected light.",
+"B": "To generate surface plasmons.",
+"C": "To couple light into the system, allowing for the excitation of surface plasmons.",
+"D": "To filter the light based on its wavelength."
+},
+"answer": "C",
+"explanation": "The prism in an SPR biosensor serves to couple incident light into the system at a specific angle, facilitating the excitation of surface plasmons at the metal-dielectric interface."
+},
+{
+"question": "Which metals are commonly used for the thin film in Surface Plasmon Resonance (SPR) biosensors?",
+"options": {
+"A": "Aluminum and Nickel",
+"B": "Iron and Cobalt",
+"C": "Gold and Silver",
+"D": "Platinum and Palladium"
+},
+"answer": "C",
+"explanation": "The thin metal film used in SPR biosensors is typically made of gold (Au) or silver (Ag) due to their optical properties and ability to support surface plasmon resonance."
+},
+{
+"question": "What is the principle behind the use of optical waveguides in biosensing?",
+"options": {
+"A": "Measuring changes in electrical resistance caused by biomolecules.",
+"B": "Detecting the emission of light by biomolecules.",
+"C": "Analyzing the scattering of light by biomolecules in solution.",
+"D": "Exploiting the sensitivity of optical coupling in waveguide structures to changes in refractive index caused by biomolecular binding.",
+"E": "Amplifying the signal from biomolecules using optical techniques."
+},
+"answer": "D",
+"explanation": "Optical waveguide biosensors utilize the sensitivity of optical coupling within the waveguide structure to detect changes. When biomolecules bind to the waveguide surface, the refractive index changes, impacting the optical coupling and causing detectable shifts in the optical spectrum."
+},
+{
+"question": "How does biomolecular binding affect optical waveguides in biosensing applications?",
+"options": {
+"A": "It has no impact on the optical properties of the waveguide.",
+"B": "It alters the refractive index near the waveguide surface, influencing optical coupling.",
+"C": "It causes the waveguide to emit light, signaling the presence of the biomolecules.",
+"D": "It blocks the passage of light through the waveguide."
+},
+"answer": "B",
+"explanation": "When biomolecules bind to the surface of an optical waveguide, they change the refractive index of the medium near the surface. This alteration in refractive index affects the way light couples into and propagates through the waveguide, leading to measurable shifts in the optical signal, which can be used to detect and quantify the biomolecular binding event."
+},
+{
+"question": "What is the basic principle of amperometric detection?",
+"options": {
+"A": "Measuring the light emitted by molecules upon excitation.",
+"B": "Detecting changes in the mass of a sensor due to molecular binding.",
+"C": "Measuring the electric current generated by the oxidation or reduction of an analyte at an electrode.",
+"D": "Analyzing the mechanical vibrations of a sensor in response to molecular interactions."
+},
+"answer": "C",
+"explanation": "Amperometric detection is an electrochemical technique that measures the electric current resulting from the oxidation or reduction of an analyte at the surface of an electrode. This current is directly proportional to the concentration of the analyte in the solution."
+},
+{
+"question": "In amperometric detection, how is the current related to the concentration of the analyte?",
+"options": {
+"A": "The current is inversely proportional to the analyte concentration.",
+"B": "The current is unrelated to the analyte concentration.",
+"C": "The current is directly proportional to the analyte concentration.",
+"D": "The current fluctuates randomly regardless of analyte concentration."
+},
+"answer": "C",
+"explanation": "The basic principle of amperometric detection relies on the direct relationship between the measured current and the concentration of the analyte. As the concentration of the analyte increases, more of it is oxidized or reduced at the electrode surface, resulting in a higher current flow."
+},
+{
+"question": "What is the role of the reference electrode in amperometric detection?",
+"options": {
+"A": "To oxidize or reduce the analyte.",
+"B": "To provide a stable potential against which the working electrode's potential is measured.",
+"C": "To carry the current generated in the electrochemical reaction.",
+"D": "To amplify the electrical signal for detection."
+},
+"answer": "B",
+"explanation": "The reference electrode in an amperometric setup provides a stable and known potential, acting as a reference point against which the potential of the working electrode is measured. This allows for accurate and consistent measurements of the current changes caused by the analyte's redox reactions at the working electrode."
+},
+{
+"question": "If oxidation is taking place at the working electrode in an amperometric system, what process occurs at the auxiliary electrode?",
+"options": {
+"A": "Deposition of metal ions.",
+"B": "Reduction to balance the overall charge transfer.",
+"C": "Evolution of gas.",
+"D": "No reaction occurs at the auxiliary electrode."
+},
+"answer": "B",
+"explanation": "To maintain electrical neutrality in the amperometric system, if oxidation is occurring at the working electrode, a corresponding reduction reaction must occur at the auxiliary electrode. This ensures that the overall flow of electrons is balanced within the electrochemical cell."
+},
+{
+"question": "How can the sensitivity of amperometric detection be adjusted?",
+"options": {
+"A": "By changing the temperature of the solution.",
+"B": "By varying the distance between the electrodes.",
+"C": "By modifying the potential difference between the working and reference electrodes.",
+"D": "By altering the concentration of the supporting electrolyte."
+},
+"answer": "C",
+"explanation": "The sensitivity of amperometric measurements can be fine-tuned by adjusting the potential difference that is applied between the working electrode and the reference electrode. This applied potential controls the driving force for the redox reactions of the analyte at the electrode surface, influencing the resulting current and thus the sensitivity of the measurement."
+},
+{
+"question": "What is the key difference between Faraday and Non-Faraday currents in electrochemistry?",
+"options": {
+"A": "Faraday current involves electron transfer at the electrode-electrolyte interface, while Non-Faraday current involves ion redistribution without electron transfer.",
+"B": "Faraday current is constant, while Non-Faraday current changes with time.",
+"C": "Faraday current is only observed in two-electrode systems, while Non-Faraday current is observed in three-electrode systems.",
+"D": "Faraday current is negligible in amperometry, while Non-Faraday current is the dominant current measured."
+},
+"answer": "A",
+"explanation": "Faraday current is directly associated with the transfer of electrons across the interface between the electrode and the electrolyte solution, resulting from oxidation or reduction processes. In contrast, Non-Faraday current arises from the redistribution of ions near the electrode surface due to changes in the electrode potential, but it does not involve the transfer of electrons across the interface."
+},
+{
+"question": "What is the primary type of current measured in amperometry?",
+"options": {
+"A": "Capacitive current",
+"B": "Non-Faraday current",
+"C": "Faraday current",
+"D": "Alternating current (AC)"
+},
+"answer": "C",
+"explanation": "In amperometry, the main current being measured is the Faraday current, which is directly proportional to the rate of the redox reactions of the analyte at the working electrode. This current represents the electron flow associated with the oxidation or reduction of the target analyte."
+},
+{
+"question": "Which of the following is NOT a key factor that influences electrochemical reactions at an electrode?",
+"options": {
+"A": "Temperature fluctuations",
+"B": "Electron transfer at the electrode interface",
+"C": "Mass transport of reactants to the electrode surface",
+"D": "Adsorption and desorption processes at the electrode surface"
+},
+"answer": "A",
+"explanation": "While temperature can affect the rate of electrochemical reactions, it's not a primary factor characterizing the reactions themselves. The key processes governing electrochemical reactions at an electrode include electron transfer at the interface, the movement of reactants to the electrode (mass transport), and the adsorption/desorption of species on the electrode surface."
+},
+{
+"question": "What are the three main modes of mass transport in electrochemical systems?",
+"options": {
+"A": "Conduction, convection, and radiation",
+"B": "Migration, diffusion, and convection",
+"C": "Sublimation, deposition, and condensation",
+"D": "Osmosis, filtration, and active transport"
+},
+"answer": "B",
+"explanation": "The three fundamental modes of mass transport that play a role in bringing reactants to the electrode surface in an electrochemical system are migration (movement driven by an electric field), diffusion (movement from an area of high concentration to low concentration), and convection (movement due to fluid flow or stirring)."
+},
+{
+"question": "What is the fundamental working principle of mechanical resonance-based biosensors?",
+"options": {
+"A": "Measuring changes in light absorption caused by biomolecules.",
+"B": "Detecting the emission of light from biomolecules upon excitation.",
+"C": "Monitoring changes in the resonant frequency of a structure due to the mass added by biomolecular binding.",
+"D": "Analyzing the electrical current generated by the interaction of biomolecules with an electrode."
+},
+"answer": "C",
+"explanation": "Mechanical resonance-based biosensors utilize the principle that the resonant frequency of a mechanical structure, such as a cantilever or a quartz crystal, is highly sensitive to changes in its mass. When biomolecules bind to the surface of the sensor, they add mass, causing a detectable shift in the resonant frequency, which can be correlated to the concentration of the target analyte."
+},
+{
+"question": "What happens to the resonant frequency of a mechanical resonator when biomolecules bind to its surface?",
+"options": {
+"A": "The resonant frequency increases.",
+"B": "The resonant frequency remains unchanged.",
+"C": "The resonant frequency decreases.",
+"D": "The resonant frequency fluctuates randomly."
+},
+"answer": "C",
+"explanation": "When biomolecules attach to the surface of a mechanical resonator, they effectively increase its mass. This added mass leads to a decrease in the resonant frequency of the resonator, as the frequency is inversely proportional to the square root of the mass."
+},
+{
+"question": "How does a Quartz Crystal Microbalance (QCM) biosensor function?",
+"options": {
+"A": "By measuring changes in the electrical resistance of a quartz crystal.",
+"B": "By detecting the light emitted by biomolecules bound to a quartz surface.",
+"C": "By monitoring changes in the resonant frequency of a quartz crystal due to the mass added by biomolecular binding.",
+"D": "By analyzing the current generated by the interaction of biomolecules with electrodes on a quartz crystal."
+},
+"answer": "C",
+"explanation": "A QCM biosensor relies on a piezoelectric quartz crystal that vibrates at a specific resonant frequency. When biomolecules bind to the surface of the crystal, they increase its mass, causing a decrease in the resonant frequency. This frequency change is directly proportional to the mass of the bound biomolecules, allowing for their detection and quantification."
+},
+{
+"question": "What is the relationship between the resonant frequency change and the mass change in a Quartz Crystal Microbalance (QCM) biosensor?",
+"options": {
+"A": "Exponential relationship",
+"B": "Logarithmic relationship",
+"C": "Inverse square relationship",
+"D": "Linear relationship"
+},
+"answer": "D",
+"explanation": "In a QCM biosensor, the change in resonant frequency is linearly proportional to the change in mass on the crystal surface. This linear relationship makes it possible to directly correlate the measured frequency shift with the amount of biomolecules bound to the sensor."
+},
+{
+"question": "How does a Field-Effect Transistor (FET) operate?",
+"options": {
+"A": "By generating light in response to an applied voltage.",
+"B": "By measuring the mechanical strain induced by biomolecules.",
+"C": "By controlling the flow of current through a semiconductor channel using an electric field.",
+"D": "By detecting the changes in refractive index caused by biomolecular binding."
 }
-]
+  ]
