@@ -591,13 +591,5 @@
 },
 "answer": "D",
 "explanation": "In a QCM biosensor, the change in resonant frequency is linearly proportional to the change in mass on the crystal surface. This linear relationship makes it possible to directly correlate the measured frequency shift with the amount of biomolecules bound to the sensor."
-},
-{
-"question": "How does a Field-Effect Transistor (FET) operate?",
-"options": {
-"A": "By generating light in response to an applied voltage.",
-"B": "By measuring the mechanical strain induced by biomolecules.",
-"C": "By controlling the flow of current through a semiconductor channel using an electric field.",
-"D": "By detecting the changes in refractive index caused by biomolecular binding."
 }
 ]
