@@ -1,563 +1,478 @@
+
 [
   {
-    "question": "臺大醫學研究卓越中心基因醫學組的生醫分子影像核心實驗室成立於哪一年？",
-    "options": {
-      "A": "1999",
-      "B": "2002",
-      "C": "2003",
-      "D": "2005"
-    },
-    "answer": "C",
-    "explanation": "根據來源，陳志宏教授自 2003 年起擔任生醫分子影像核心實驗室的 PI。"
-  },
-  {
-    "question": "陳志宏教授在臺大電機系任教的起始年份是？",
-    "options": {
-      "A": "1986",
-      "B": "1991",
-      "C": "1999",
-      "D": "2002"
-    },
-    "answer": "B",
-    "explanation": "來源 顯示陳志宏教授自 1991 年起在臺大電機系任教。"
-  },
-  {
-    "question": "生醫分子影像核心實驗室不具備以下哪項儀器設備？",
-    "options": {
-      "A": "Bruker 3T MRI",
-      "B": "Bruker 7T Animal MRI",
-      "C": "Micro-PET",
-      "D": "正子斷層掃描儀 (PET)"
-    },
-    "answer": "D",
-    "explanation": "雖然來源中提到 FDG vs. FLT PET scans，但並沒有明確指出實驗室擁有正子斷層掃描儀。 來源 提到了 Bruker 3T MRI 和 Bruker 7T Animal MRI，而 Micro-PET 則在來源 中被提及。"
-  },
-  {
-    "question": "生醫分子影像核心實驗室的 Mock 實驗室主要用途為何？",
-    "options": {
-      "A": "進行動物實驗",
-      "B": "模擬手術流程",
-      "C": "減輕受試者焦慮",
-      "D": "培養細胞"
-    },
-    "answer": "C",
-    "explanation": "根據來源，Mock 實驗室提供模擬經驗，有助於減除兒童或對儀器有恐懼之參與者的焦慮心情。"
-  },
-  {
-    "question": "根據來源，Sequence 3D Gradient echo 的總掃描時間在使用 Wideband Factor of 4 加速後為多少？",
-    "options": {
-      "A": "8 分 12 秒",
-      "B": "16 分 24 秒",
-      "C": "24 分 36 秒",
-      "D": "32 分 47 秒"
-    },
-    "answer": "A",
-    "explanation": "來源 中的 Total scan time 顯示加速後的時間為 8min12sec，括號中的時間為加速前的時間。"
-  },
-  {
-    "question": "功能性磁振造影 (fMRI) 主要利用哪種物質的特性來觀察大腦活動？",
-    "options": {
-      "A": "葡萄糖",
-      "B": "水分子",
-      "C": "血紅素",
-      "D": "神經傳導物質"
-    },
-    "answer": "C",
-    "explanation": "來源 指出 fMRI 利用帶氧血紅素/不帶氧血紅素, 在磁振影像上的訊號強度差異，來得到受試者接收視覺刺激時大腦血流量增加的區域。"
-  },
-  {
-    "question": "根據來源，哪個腦區會被負面詞彙 (相對於中性詞彙) 激活？",
-    "options": {
-      "A": "海馬迴 (Hippocampus)",
-      "B": "杏仁核 (Amygdala)",
-      "C": "視丘 (Thalamus)",
-      "D": "下視丘 (Hypothalamus)"
-    },
-    "answer": "B",
-    "explanation": "來源 的標題直接點明了 Amygdala activated by negative words (vs. neutral words)。"
-  },
-  {
-    "question": "DTI Tractography 技術主要應用於以下哪個領域？",
-    "options": {
-      "A": "基因定序",
-      "B": "蛋白質結構分析",
-      "C": "神經纖維束追蹤",
-      "D": "細胞培養"
-    },
-    "answer": "C",
-    "explanation": "從來源 中 DTI Tractography 以及 Tractography vs. dissection 的圖片可以推斷出，這項技術用於追蹤神經纖維束。"
-  },
-  {
-    "question": "根據來源，醫學影像的演進方向不包含以下哪一項？",
-    "options": {
-      "A": "解剖構造",
-      "B": "功能性",
-      "C": "細胞 (分子) 影像",
-      "D": "藥物動力學"
-    },
-    "answer": "D",
-    "explanation": "來源 提到了解剖構造、功能性和細胞 (分子) 影像，但沒有提及藥物動力學。"
-  },
-  {
-    "question": "生醫分子影像的應用不包含以下哪一項？",
-    "options": {
-      "A": "診斷",
-      "B": "治療計畫/指導",
-      "C": "藥物研發",
-      "D": "基因編輯"
-    },
-    "answer": "D",
-    "explanation": "來源 提到了診斷和治療計畫/指導，而來源 則提到了協助新藥加速開發，但沒有提及基因編輯。"
-  },
-  {
-    "question": "根據 Palladino F. et al. (2003) 的定義，分子影像包含所有應用於以下哪一層次的生物過程之影像方法？",
-    "options": {
-      "A": "器官和組織",
-      "B": "細胞和分子",
-      "C": "基因和蛋白質",
-      "D": "以上皆是"
-    },
-    "answer": "B",
-    "explanation": "來源 中的引用指出，分子影像包含所有應用於細胞和分子層次之生物過程的影像方法。"
-  },
-  {
-    "question": "以下哪一項不是分子影像的機制層級？",
-    "options": {
-      "A": "器官",
-      "B": "組織",
-      "C": "細胞",
-      "D": "行為"
-    },
-    "answer": "D",
-    "explanation": "來源 提到了器官、組織、細胞和基因層級，但沒有提及行為層級。"
-  },
-  {
-    "question": "分子影像的目標不包含以下哪一項？",
-    "options": {
-      "A": "早期診斷",
-      "B": "有效治療",
-      "C": "開發新藥物",
-      "D": "預測疾病風險"
-    },
-    "answer": "D",
-    "explanation": "雖然預測疾病風險是醫學研究的目標之一，但來源 中並沒有明確將其列為分子影像的目標。"
-  },
-  {
-    "question": "Nanosensor 是利用什麼技術來創造對生物變化敏感的感測器？",
-    "options": {
-      "A": "基因工程",
-      "B": "奈米材料合成",
-      "C": "半導體微製造技術",
-      "D": "人工智慧"
-    },
-    "answer": "C",
-    "explanation": "來源 和 都指出，Nanosensor 是利用半導體微製造技術來創造對生物變化敏感的感測器。"
-  },
-  {
-    "question": "構成生醫分子影像的要素不包含以下哪一項？",
-    "options": {
-      "A": "目標",
-      "B": "化學",
-      "C": "生物學",
-      "D": "物理學"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了構成生醫分子影像的七個要素，其中包含目標、化學和生物學，但沒有提及物理學。"
-  },
-  {
-    "question": "生醫分子影像核心實驗室的成員中，哪位教授專精於超音波分子影像？",
+    "question": "Who is the principal investigator of the Molecular Imaging Core at GMC?",
     "options": {
       "A": "李百祺",
       "B": "孫啟光",
-      "C": "董成淵",
-      "D": "陳中明"
-    },
-    "answer": "A",
-    "explanation": "根據來源 和，李百祺教授負責的是 Ultrasonic Molecular Imaging Lab. 。"
-  },
-  {
-    "question": "孫啟光教授的研究不包含以下哪一項？",
-    "options": {
-      "A": "細胞有絲分裂",
-      "B": "基因表現觀測",
-      "C": "心臟發育觀測",
-      "D": "肝臟代謝觀測"
-    },
-    "answer": "D",
-    "explanation": "來源、 和 分別描述了孫啟光教授在細胞有絲分裂、基因表現觀測和心臟發育觀測方面的研究，而肝臟代謝觀測則是由董成淵教授負責。"
-  },
-  {
-    "question": "根據來源，董成淵教授使用哪種物質來觀察肝臟代謝？",
-    "options": {
-      "A": "螢光葡萄糖",
-      "B": "放射性同位素",
-      "C": "Rhodamine B isothiocyanate-dextran",
-      "D": "磁性奈米粒子"
+      "C": "陳志宏",
+      "D": "曾凱元"
     },
     "answer": "C",
-    "explanation": "來源 中的 In Vivo Hepatology 部分提到了使用 Red: Rhodamine B isothiocyanate-dextran 和 Green: 6-CFDA (green) 進行觀察。"
+    "explanation": "Jyh-Horng Chen is listed as the Professor and PI of the Molecular Imaging Core at GMC."
   },
   {
-    "question": "李百祺教授在 IEEE Trans. on UFFC, Jan. 2004 的封面文章中研究的主題為何？",
+    "question": "Which of the following is NOT a listed research facility at the Biomedical Molecular Imaging Core Lab?",
     "options": {
-      "A": "光學影像應用於口腔癌動物模式之觀測",
-      "B": "超音波影像應用於腫瘤新生血管之觀測",
-      "C": "磁振造影應用於腦中風動物模式之觀測",
-      "D": "光學影像應用於皮膚老化之量測"
+      "A": "Bruker 7T Animal MRI",
+      "B": "NTU RCME DGM",
+      "C": "Optical Coherence Tomography (OCT) System",
+      "D": "Bruker 3T MRI"
+    },
+    "answer": "C",
+    "explanation": "While the source mentions Bruker 7T Animal MRI, NTU RCME DGM, and Bruker 3T MRI, it does not list an Optical Coherence Tomography (OCT) system."
+  },
+  {
+    "question": "According to the source, what is the purpose of the Mock laboratory?",
+    "options": {
+      "A": "To conduct surgical procedures on animals",
+      "B": "To store hazardous chemicals and materials",
+      "C": "To reduce anxiety in participants, especially children, who may be apprehensive about the imaging equipment",
+      "D": "To host social gatherings and events for researchers"
+    },
+    "answer": "C",
+    "explanation": "The source states that the Mock laboratory helps to alleviate anxiety in participants, particularly children, who might be fearful of the imaging equipment."
+  },
+  {
+    "question": "What is the total scan time for the 3D Gradient echo sequence with a Wideband Factor of 4?",
+    "options": {
+      "A": "32 minutes and 47 seconds",
+      "B": "8 minutes and 12 seconds",
+      "C": "20 minutes",
+      "D": "6 minutes and 30 seconds"
     },
     "answer": "B",
-    "explanation": "來源 提到了李百祺教授的研究主題為超音波影像應用於腫瘤新生血管之觀測，並附上了 IEEE Trans. on UFFC, Jan. 2004 的封面圖。"
+    "explanation": "The source lists the total scan time as 8min12sec (with the time in parentheses, 32min47sec, being the scan time without the Wideband Factor)."
   },
   {
-    "question": "陳志宏教授使用哪種影像技術觀察口腔癌動物模式？",
+    "question": "What technique is used in functional magnetic resonance imaging (fMRI) to visualize brain activity?",
     "options": {
-      "A": "超音波影像",
-      "B": "光學影像",
-      "C": "磁振造影",
-      "D": "正子斷層掃描"
-    },
-    "answer": "C",
-    "explanation": "來源 中明確指出陳志宏教授使用磁振造影應用於口腔癌動物模式之觀測。"
-  },
-  {
-    "question": "Nanocontrast Agents for Cancer Targeting 研究中使用的細胞株為何？",
-    "options": {
-      "A": "HeLa cells",
-      "B": "HEK293 cells",
-      "C": "A549 cells",
-      "D": "NIH3T3 cells"
-    },
-    "answer": "C",
-    "explanation": "來源 和 中都提到了使用 A549 cell line 進行 Nanocontrast Agents for Cancer Targeting 的研究。"
-  },
-  {
-    "question": "FDG vs. FLT PET scans 研究主要應用於哪種疾病的診斷？",
-    "options": {
-      "A": "肺癌",
-      "B": "腦瘤",
-      "C": "肝癌",
-      "D": "乳癌"
+      "A": "Measuring the electrical conductivity of neurons",
+      "B": "Detecting changes in blood flow and oxygenation levels",
+      "C": "Analyzing the concentration of neurotransmitters",
+      "D": "Observing the movement of cerebrospinal fluid"
     },
     "answer": "B",
-    "explanation": "來源 的標題明確指出 FDG vs. FLT PET scans for Brain Tumor Diagnosis。"
+    "explanation": "The source explains that fMRI relies on the signal intensity differences between oxygenated and deoxygenated hemoglobin in MRI to identify areas of increased blood flow in the brain during tasks."
   },
   {
-    "question": "以下哪一項不是 Nanocontrast Agents 的組成成分？",
+    "question": "Which area of the brain is mentioned as being activated by negative words compared to neutral words?",
     "options": {
-      "A": "Peptides",
-      "B": "Lipids",
-      "C": "Taxol",
-      "D": "DNA"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了 Nanocontrast Agents 的組成成分，包含 Peptides、Lipids 和 Taxol，但沒有提及 DNA。"
-  },
-  {
-    "question": "Alloy Nanocontrast Agents 主要應用於哪種分子影像技術？",
-    "options": {
-      "A": "超音波影像",
-      "B": "光學影像",
-      "C": "磁振造影",
-      "D": "正子斷層掃描"
+      "A": "Hippocampus",
+      "B": "Thalamus",
+      "C": "Amygdala",
+      "D": "Hypothalamus"
     },
     "answer": "C",
-    "explanation": "來源 中提到了 Alloy Nanocontrast Agents for MR Molecular Imaging。"
+    "explanation": "The source specifically indicates that the amygdala shows activation in response to negative words in contrast to neutral words."
   },
   {
-    "question": "Nanocontrast Agents for Lung Cancer Therapy 研究中使用的細胞株為何？",
+    "question": "What does Diffusion Anisotropy, as described in the source, measure?",
     "options": {
-      "A": "HeLa cells",
-      "B": "HEK293 cells",
-      "C": "A549 cells",
-      "D": "NIH3T3 cells"
+      "A": "The speed of sound waves through brain tissue",
+      "B": "The rate of glucose metabolism in different brain regions",
+      "C": "The directional movement of water molecules in the brain",
+      "D": "The electrical activity of individual neurons"
     },
     "answer": "C",
-    "explanation": "來源 中的 Nanocontrast Agents for Lung Cancer Therapy 部分提到了使用 A549 cells。"
+    "explanation": "The source introduces Diffusion Anisotropy in the context of Diffusion MR and Fiber Tracking, implying its relation to the movement of water molecules."
   },
   {
-    "question": "陳志宏教授使用哪種影像技術觀察腦中風動物模式？",
+    "question": "What is the term used for the technique that reconstructs the pathways of nerve fibers in the brain using diffusion MRI data?",
     "options": {
-      "A": "超音波影像",
-      "B": "光學影像",
-      "C": "磁振造影",
-      "D": "正子斷層掃描"
+      "A": "Electroencephalography (EEG)",
+      "B": "Magnetoencephalography (MEG)",
+      "C": "Tractography",
+      "D": "Angiography"
     },
     "answer": "C",
-    "explanation": "來源 中提到了陳志宏教授使用磁振造影應用於腦中風動物模式之觀測。"
+    "explanation": "The source presents "DTI Tractography" with references to research illustrating the reconstruction of nerve fiber pathways."
   },
   {
-    "question": "董成淵教授使用哪種光學技術量測皮膚老化？",
+    "question": "According to the source, which brain structures are visualized in the comparison between tractography and dissection?",
     "options": {
-      "A": "螢光顯微鏡",
-      "B": "共軛焦顯微鏡",
-      "C": "多光子顯微鏡",
-      "D": "拉曼光譜"
+      "A": "Brainstem and cerebellum",
+      "B": "Pituitary gland and pineal gland",
+      "C": "Cingulum, corpus callosum, fornix, and tapetum",
+      "D": "Optic nerve and olfactory bulb"
     },
     "answer": "C",
-    "explanation": "來源 中的 BCC imaging 部分提到了 Histology  Multiphoton，其中 Multiphoton 指的是多光子顯微鏡。"
+    "explanation": "The section titled "Tractography vs. dissection" explicitly lists the cingulum, corpus callosum, fornix, and tapetum as the structures being compared."
   },
   {
-    "question": "以下哪一項不是皮膚老化的特徵？",
+    "question": "What is the effect of a tumor on nerve fiber tracts, as depicted in the source?",
     "options": {
-      "A": "膠原蛋白減少",
-      "B": "彈性蛋白減少",
-      "C": "黑色素增加",
-      "D": "水分含量增加"
-    },
-    "answer": "D",
-    "explanation": "隨著年齡增長，皮膚的水分含量會減少，而不是增加。來源 中的圖片顯示了膠原蛋白和彈性蛋白的減少。"
-  },
-  {
-    "question": "陳志宏教授在幹細胞修復腦中風動物模式的研究中，使用了哪種對照組？",
-    "options": {
-      "A": "生理食鹽水 (PBS)",
-      "B": "未受損的動物",
-      "C": "其他種類的幹細胞",
-      "D": "安慰劑"
-    },
-    "answer": "A",
-    "explanation": "來源 中的圖片標示了 Stem cell PBS，表示對照組接受的是生理食鹽水注射。"
-  },
-  {
-    "question": "李百祺教授的多重影像技術平台結合了哪兩種影像技術？",
-    "options": {
-      "A": "超音波影像和光學影像",
-      "B": "超音波影像和磁振造影",
-      "C": "超音波影像和正子斷層掃描",
-      "D": "光學影像和磁振造影"
+      "A": "The tumor enhances the signal intensity of the tracts",
+      "B": "The tumor causes the tracts to disappear completely",
+      "C": "The tumor displaces or distorts the normal trajectory of the tracts",
+      "D": "The tumor has no noticeable effect on the tracts"
     },
     "answer": "C",
-    "explanation": "來源 提到了李百祺教授的研究為 Micro-Ultrasound + Micro-PET ([18F]FDG)。"
+    "explanation": "The source includes an image titled "Track displacement by the tumor," visually demonstrating the tumor's impact on the nerve fiber pathways."
   },
   {
-    "question": "陳中明教授的研究主要應用於哪種影像分析？",
+    "question": "Which of the following is NOT mentioned as a key application of biomedical molecular imaging in the source?",
     "options": {
-      "A": "三維影像重建",
-      "B": "影像分割",
-      "C": "影像配準",
-      "D": "影像增強"
+      "A": "Diagnosis",
+      "B": "Therapy Planning/Guidance",
+      "C": "Developing new computer algorithms",
+      "D": "Cellular (Molecular) Imaging"
+    },
+    "answer": "C",
+    "explanation": "While the source emphasizes diagnosis, therapy planning/guidance, and cellular/molecular imaging as applications, it does not mention the development of new computer algorithms."
+  },
+  {
+    "question": "What is the definition of molecular imaging provided in the source?",
+    "options": {
+      "A": "The use of high-powered microscopes to study individual cells in a petri dish",
+      "B": "The analysis of blood samples to identify specific biomarkers for diseases",
+      "C": "The visualization of biological processes at the cellular and molecular level in living organisms",
+      "D": "The creation of computer simulations to model the interactions between molecules"
+    },
+    "answer": "C",
+    "explanation": "The source defines molecular imaging as encompassing all imaging methods employed for the in vivo identification, characterization, and assessment of biological processes occurring at the cellular and molecular levels."
+  },
+  {
+    "question": "What are nanosensors, as described in the source?",
+    "options": {
+      "A": "Microscopic robots that can perform surgery inside the body",
+      "B": "Sensors created using semiconductor microfabrication technology to detect biological changes",
+      "C": "Artificial intelligence systems that can diagnose diseases based on medical images",
+      "D": "Genetically modified cells that can target and destroy cancer cells"
     },
     "answer": "B",
-    "explanation": "來源 描述了陳中明教授的研究為超音波影像乳房腫瘤疑似物影像切割，其中影像切割屬於影像分割的範疇。"
+    "explanation": "The source defines nanosensors as sensors produced by semiconductor microfabrication technology with sensitivity to biological changes."
   },
   {
-    "question": "生醫分子影像核心實驗室的核心服務項目不包含以下哪一項？",
+    "question": "Which of the following is NOT listed as a key element in multidisciplinary research for biomedical molecular imaging?",
     "options": {
-      "A": "核磁共振影像/影像分析",
-      "B": "光學影像/影像分析",
-      "C": "超音波影像/影像分析",
-      "D": "基因定序分析"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了生醫分子影像核心實驗室的六個核心服務項目，其中包含核磁共振影像/影像分析、光學影像/影像分析和超音波影像/影像分析，但沒有提及基因定序分析。"
-  },
-  {
-    "question": "生醫分子影像的優勢不包含以下哪一項？",
-    "options": {
-      "A": "提供活體生物系統分子與遺傳功能層次的影像資訊",
-      "B": "協助基因體醫學及新藥之加速開發",
-      "C": "發展個人化醫學及藥物開發",
-      "D": "取代傳統的藥物篩選方法"
-    },
-    "answer": "D",
-    "explanation": "來源 提到了生醫分子影像的三個優勢，包含提供活體生物系統分子與遺傳功能層次的影像資訊、協助基因體醫學及新藥之加速開發，以及個人化醫學及藥物開發，但沒有提及取代傳統的藥物篩選方法。"
-  },
-  {
-    "question": "生醫分子影像如何改善病患照護？",
-    "options": {
-      "A": "提供個人化治療",
-      "B": "減少手術併發症",
-      "C": "更了解治療對疾病的影響",
-      "D": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了生醫分子影像改善病患照護的四個方面，包含個人化治療、更基於證據的醫療決策、減少手術併發症，以及更了解治療對疾病的影響。"
-  },
-  {
-    "question": "以下哪一項不是生醫分子影像促進國民健康的措施？",
-    "options": {
-      "A": "篩檢高風險族群",
-      "B": "更好地評估風險因素",
-      "C": "縮短治療時間",
-      "D": "提高醫療費用"
-    },
-    "answer": "D",
-    "explanation": "生醫分子影像是為了降低醫療費用，而不是提高。來源 提到了生醫分子影像促進國民健康的五個措施，包含篩檢高風險族群、更好地評估風險因素、縮短治療時間、降低疾病復發率，以及降低死亡率和發病率。"
-  },
-  {
-    "question": "生醫分子影像如何提升醫療成本效益？",
-    "options": {
-      "A": "更快速準確的診斷",
-      "B": "縮短住院時間",
-      "C": "更有效地使用昂貴的診斷和手術設備",
-      "D": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了生醫分子影像提升醫療成本效益的五個方面，包含更快速準確的診斷、更快地選擇最有效的治療方案、更快地從手術中恢復、縮短住院時間，以及更有效地使用昂貴的診斷和手術設備。"
-  },
-  {
-    "question": "以下哪一項不是生醫分子影像帶來的社會經濟效益？",
-    "options": {
-      "A": "減少工作時間損失",
-      "B": "減少長期護理需求",
-      "C": "增加醫療支出",
-      "D": "提高生活品質"
+      "A": "Target",
+      "B": "Chemistry",
+      "C": "Funding Acquisition",
+      "D": "Imaging"
     },
     "answer": "C",
-    "explanation": "生醫分子影像是為了降低醫療支出，而不是增加。來源 提到了減少工作時間損失和減少長期護理需求，而提高生活品質也是其間接效益之一。"
+    "explanation": "The source lists Target, Chemistry, Biology, in vivo, Imaging, Processing, and Clinical Use as the elements of multidisciplinary research, but not Funding Acquisition."
   },
   {
-    "question": "生醫分子影像如何提升醫療產業的競爭力？",
+    "question": "Who is the director of the Nuclear Medicine Lab at the Biomedical Molecular Imaging Core Laboratory?",
     "options": {
-      "A": "開發新的創新技術和產品",
-      "B": "專注於針對成本效益型醫療保健量身定制的使用者友善設備",
-      "C": "吸引資金",
-      "D": "以上皆是"
+      "A": "陳志宏",
+      "B": "李百祺",
+      "C": "孫啟光",
+      "D": "曾凱元"
     },
     "answer": "D",
-    "explanation": "來源 和 提到了生醫分子影像提升醫療產業競爭力的四個方面，包含開發新的創新技術和產品、專注於針對成本效益型醫療保健量身定制的使用者友善設備、吸引資金，以及確保研發協同效應的利用。"
+    "answer": "D",
+    "explanation": "The source identifies 曾凱元 as the director of the Nuclear Medicine Lab."
   },
   {
-    "question": "以下哪一項是生醫分子影像在介入治療中的應用？",
+    "question": "What optical imaging technique is used to observe cell mitosis in zebrafish embryos?",
     "options": {
-      "A": "活檢採樣的指導",
-      "B": "靶向藥物/放射治療的指導",
-      "C": "幹細胞治療的指導",
-      "D": "以上皆是"
+      "A": "Magnetic Resonance Imaging (MRI)",
+      "B": "Positron Emission Tomography (PET)",
+      "C": "Ultrasound Imaging",
+      "D": "Third Harmonic Generation (THG) and Second Harmonic Generation (SHG) microscopy"
     },
     "answer": "D",
-    "explanation": "來源 列出了生醫分子影像在介入治療中的四個應用，包含活檢採樣的指導、靶向藥物/放射治療的指導、幹細胞治療的指導，以及監測幹細胞治療中細胞分化和功能的改善。"
+    "explanation": "The source specifically mentions the use of THG + SHG to visualize cell mitosis in zebrafish embryos."
   },
   {
-    "question": "生醫分子影像核心實驗室的校內研究整合策略不包含以下哪一項？",
+    "question": "What is the purpose of morphant technology in zebrafish research, as described in the source?",
     "options": {
-      "A": "增設分子醫學影像相關課程",
-      "B": "舉辦分子影像相關研討會",
-      "C": "結合本校特有之疾病動物模式之相關研究",
-      "D": "建立獨立的分子影像研究中心"
+      "A": "To enhance the growth rate of zebrafish embryos",
+      "B": "To introduce mutations that create fluorescent proteins",
+      "C": "To block mRNA and study gene function",
+      "D": "To induce the formation of tumors for cancer research"
     },
-    "answer": "D",
-    "explanation": "來源 提到了生醫分子影像核心實驗室的校內研究整合策略包含增設分子醫學影像相關課程、舉辦分子影像相關研討會，以及結合本校特有之疾病動物模式之相關研究，但沒有提及建立獨立的分子影像研究中心。"
+    "answer": "C",
+    "explanation": "The source states that morphant technology is used to block mRNA, thereby allowing researchers to identify gene functions and explore potential therapeutic targets."
   },
   {
-    "question": "生醫分子影像核心實驗室與哪些校內單位進行研究合作？",
+    "question": "What structures in the zebrafish heart are visualized using Second Harmonic Generation (SHG) microscopy?",
     "options": {
-      "A": "分子細胞生物學研究所",
-      "B": "醫事技術學系",
-      "C": "內科部",
-      "D": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "來源 列出了生醫分子影像核心實驗室與多個校內單位進行研究合作，其中包含分子細胞生物學研究所、醫事技術學系和內科部。"
-  },
-  {
-    "question": "生醫分子影像核心實驗室與以下哪個國際機構合作？",
-    "options": {
-      "A": "美國國家衛生研究院 (NIH)",
-      "B": "牛津大學",
-      "C": "哈佛大學",
-      "D": "麻省理工學院 (MIT)"
+      "A": "Blood vessels",
+      "B": "Cardiac muscle",
+      "C": "Heart valves",
+      "D": "Nerve fibers"
     },
     "answer": "B",
-    "explanation": "來源 提到了生醫分子影像核心實驗室與牛津大學的 Chris Graham 教授進行國際合作。"
+    "explanation": "The source indicates that SHG is used to visualize cardiac muscle in zebrafish hearts."
   },
   {
-    "question": "台灣-義大利雙邊生醫影像研討會的主要主題為何？",
+    "question": "What type of imaging is used to study hepatic metabolism in the source?",
     "options": {
-      "A": "生醫影像和奈米電子",
-      "B": "基因體醫學和藥物開發",
-      "C": "幹細胞治療和再生醫學",
-      "D": "人工智慧和醫學影像分析"
+      "A": "Magnetic Resonance Imaging (MRI)",
+      "B": "Positron Emission Tomography (PET)",
+      "C": "Optical Imaging",
+      "D": "Ultrasound Imaging"
     },
-    "answer": "A",
-    "explanation": "來源 指出台灣-義大利雙邊生醫影像研討會的主題為生醫影像及奈米電子。"
+    "answer": "C",
+    "explanation": "The source describes the use of optical imaging with fluorescent dyes to observe hepatic metabolism in vivo."
   },
   {
-    "question": "Taiwan- New Zealand Symposium on Nanotechnologies for Bio-imaging, Sensing and Diagnosis 的研討會時間為何？",
+    "question": "What is the focus of Professor 李百祺's research using ultrasound imaging?",
     "options": {
-      "A": "2008 年 9 月",
-      "B": "2008 年 11 月",
-      "C": "2009 年 9 月",
-      "D": "2009 年 11 月"
+      "A": "Imaging of brain activity during cognitive tasks",
+      "B": "Detection of early-stage Alzheimer's disease",
+      "C": "Visualization of tumor angiogenesis",
+      "D": "Assessment of bone density and osteoporosis"
+    },
+    "answer": "C",
+    "explanation": "The source highlights Professor 李百祺's work on using ultrasound imaging to observe tumor angiogenesis, the formation of new blood vessels in tumors."
+  },
+  {
+    "question": "What imaging modalities are combined in Professor 李百祺's research on multi-modality imaging?",
+    "options": {
+      "A": "Magnetic Resonance Imaging (MRI) and Computed Tomography (CT)",
+      "B": "Optical Imaging and Ultrasound Imaging",
+      "C": "Ultrasound Imaging and Positron Emission Tomography (PET)",
+      "D": "Computed Tomography (CT) and Single-Photon Emission Computed Tomography (SPECT)"
+    },
+    "answer": "C",
+    "explanation": "The source describes Professor 李百祺's preliminary work on a multi-modality imaging technique that combines Micro-Ultrasound and Micro-PET ([18F]FDG)."
+  },
+  {
+    "question": "What is the main challenge in segmenting breast tumor images using ultrasound, as described in the source?",
+    "options": {
+      "A": "The high cost of ultrasound equipment",
+      "B": "The long scanning times required for ultrasound imaging",
+      "C": "The difficulty in distinguishing benign tumors from malignant tumors",
+      "D": "The lack of skilled technicians to operate ultrasound machines"
+    },
+    "answer": "C",
+    "explanation": "The source presents an example of segmenting breast tumor images where two benign tumors have an unclear separating line, highlighting the challenge in differentiation."
+  },
+  {
+    "question": "Which of the following is NOT listed as a core laboratory service provided by the Biomedical Molecular Imaging Core Laboratory?",
+    "options": {
+      "A": "Magnetic resonance imaging/image analysis",
+      "B": "Optical imaging/image analysis",
+      "C": "Surgical removal of tumors",
+      "D": "Small animal molecular imaging"
+    },
+    "answer": "C",
+    "explanation": "The source lists various services, including magnetic resonance imaging/image analysis, optical imaging/image analysis, and small animal molecular imaging, but not surgical tumor removal."
+  },
+  {
+    "question": "What is the number of journal publications from the Biomedical Molecular Imaging Core Laboratory in 2008?",
+    "options": {
+      "A": "15",
+      "B": "25",
+      "C": "45",
+      "D": "75"
+    },
+    "answer": "C",
+    "explanation": "The source indicates that the Biomedical Molecular Imaging Core Laboratory had 45 journal publications in 2008."
+  },
+  {
+    "question": "Which of the following is NOT mentioned as an advantage of biomedical molecular imaging?",
+    "options": {
+      "A": "It can provide images and information about molecular and genetic functions in living systems.",
+      "B": "It can help in the early and accurate diagnosis and treatment of human diseases.",
+      "C": "It can assist in the accelerated development of genomic medicine and new drugs.",
+      "D": "It can accurately predict future stock market trends."
+    },
+    "answer": "D",
+    "explanation": "While the source emphasizes the advantages of molecular imaging in living systems, disease management, and drug development, it does not mention its ability to predict stock market trends."
+  },
+  {
+    "question": "What is one way biomedical molecular imaging can contribute to cost-efficient healthcare?",
+    "options": {
+      "A": "By increasing the number of unnecessary medical tests",
+      "B": "By enabling more rapid and accurate diagnosis, leading to a quicker selection of the most effective treatment",
+      "C": "By prolonging hospital stays for patients",
+      "D": "By promoting the use of outdated and expensive medical equipment"
     },
     "answer": "B",
-    "explanation": "根據來源 ，Taiwan- New Zealand Symposium on Nanotechnologies for Bio-imaging, Sensing and Diagnosis 的研討會時間為 2008 年 11 月。"
+    "explanation": "The source highlights the role of molecular imaging in expediting and improving the accuracy of diagnoses, ultimately leading to the faster identification of the most efficient treatment and contributing to cost-effectiveness."
   },
   {
-    "question": "生醫分子影像核心實驗室的研究與技術平台整合策略不包含以下哪一項？",
+    "question": "What is a socio-economic benefit of biomedical molecular imaging mentioned in the source?",
     "options": {
-      "A": "校內研究整合策略",
-      "B": "校際研究合作",
-      "C": "國際研究合作",
-      "D": "產業合作"
+      "A": "Increased government spending on healthcare",
+      "B": "Reduced productivity due to prolonged illness",
+      "C": "Less time out of work for patients",
+      "D": "Higher insurance premiums for individuals"
+    },
+    "answer": "C",
+    "explanation": "The source lists "Less time out of work" as a socio-economic benefit associated with the advancements brought by biomedical molecular imaging."
+  },
+  {
+    "question": "Which of the following is NOT an example of how molecular imaging can be used in interventions?",
+    "options": {
+      "A": "Guidance of biopsy sampling",
+      "B": "Guidance of targeted drug/radiation therapy",
+      "C": "Prediction of natural disasters",
+      "D": "Monitoring of cell differentiation and improved function in stem cell therapy"
+    },
+    "answer": "C",
+    "explanation": "While the source lists examples of interventions such as guidance for biopsy sampling, targeted therapy, and stem cell therapy monitoring, it does not include the prediction of natural disasters."
+  },
+  {
+    "question": "What is one of the research strategies of the Biomedical Molecular Imaging Core Laboratory?",
+    "options": {
+      "A": "Discouraging collaborations with other research institutions",
+      "B": "Developing molecular imaging technologies that are unique to the university",
+      "C": "Focusing solely on basic research with no clinical applications",
+      "D": "Limiting the use of imaging technology in research"
     },
     "answer": "B",
-    "explanation": "來源  提到了校內研究整合策略、國際研究合作和產業合作，但沒有明確提及校際研究合作。"
+    "explanation": "The source states that one of the strategies is to develop distinctive molecular imaging technologies specific to the university, leveraging their unique disease animal models."
   },
   {
-    "question": "以下哪一項不是生醫分子影像發展的策略/基礎建設？",
+    "question": "With whom does the Biomedical Molecular Imaging Core Laboratory collaborate within the university and hospital?",
     "options": {
-      "A": "促進不同大學之間的合作",
-      "B": "促進影像專家和臨床醫生之間的合作",
-      "C": "促進學術界和工業界之間的合作",
-      "D": "建立獨立的研究機構"
+      "A": "Only with researchers in the same department",
+      "B": "Exclusively with international collaborators",
+      "C": "With a wide range of departments, including internal medicine, obstetrics and gynecology, surgery, and others",
+      "D": "Primarily with industry partners for commercialization of research"
     },
-    "answer": "D",
-    "explanation": "來源  提到了促進不同大學之間的合作、促進影像專家和臨床醫生之間的合作，以及促進學術界和工業界之間的合作，但沒有提及建立獨立的研究機構。"
+    "answer": "C",
+    "explanation": "The source provides a list of collaborators from various departments within the university and hospital, indicating a wide range of collaborations."
   },
   {
-    "question": "為了在生醫分子影像領域取得成功，需要建立什麼樣的環境？",
+    "question": "Which international institution is mentioned as a collaborator with the Biomedical Molecular Imaging Core Laboratory?",
     "options": {
-      "A": "跨領域合作環境",
-      "B": "獨立研究環境",
-      "C": "高度競爭環境",
-      "D": "以上皆是"
+      "A": "Massachusetts Institute of Technology (MIT)",
+      "B": "Harvard University",
+      "C": "Oxford University",
+      "D": "Stanford University"
     },
-    "answer": "A",
-    "explanation": "來源  指出，為了在生醫分子影像領域取得成功，需要建立真正的多學科和跨學科環境。"
+    "answer": "C",
+    "explanation": "The source lists Professor Chris Graham from Oxford University as an international collaborator."
   },
   {
-    "question": "以下哪一項不是建立主要中心的目標？",
+    "question": "What was the theme of the Taiwan-Italy Bilateral Biomedical Imaging Symposium in 2008?",
     "options": {
-      "A": "廣泛的高水平能力",
-      "B": "具有足夠規模的研究環境",
-      "C": "基礎設施和大型研究項目的必要資金",
-      "D": "爭取最大的研究成果"
-    },
-    "answer": "D",
-    "explanation": "雖然爭取最大的研究成果是最終目標，但來源  中列出的建立主要中心的目標包含廣泛的高水平能力、具有足夠規模的研究環境，以及基礎設施和大型研究項目的必要資金。"
-  },
-  {
-    "question": "以下哪一項不是與產業合作的目標？",
-    "options": {
-      "A": "吸引資金",
-      "B": "確保研發協同效應的利用",
-      "C": "改善患者的治療結果",
-      "D": "開發新的診斷技術"
-    },
-    "answer": "D",
-    "explanation": "雖然開發新的診斷技術是生醫分子影像領域的目標之一，但來源  中列出的與產業合作的目標包含吸引資金、確保研發協同效應的利用、改善患者的治療結果，以及成本效益型醫療保健。"
-  },
-  {
-    "question": "以下哪一項是分子影像面臨的挑戰？",
-    "options": {
-      "A": "靈敏度和檢測極限",
-      "B": "影像的量化",
-      "C": "在臨床疾病中的應用",
-      "D": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "來源  指出了分子影像面臨的三個挑戰，包含靈敏度和檢測極限、影像的量化，以及在臨床疾病中的應用。"
-  },
-  {
-    "question": "分子醫學的目標是什麼？",
-    "options": {
-      "A": "開發新的藥物",
-      "B": "以更有效的患者特異性療法取代通用的“一體適用”方法",
-      "C": "了解疾病的分子機制",
-      "D": "以上皆是"
+      "A": "Artificial intelligence in medical imaging",
+      "B": "Biomedical imaging and nanoelectronics",
+      "C": "The history of medical imaging",
+      "D": "The ethics of using molecular imaging in humans"
     },
     "answer": "B",
-    "explanation": "來源  指出，分子醫學的目標是以更有效的患者特異性療法取代通用的“一體適用”方法。"
+    "explanation": "The source states that the theme of the 2008 Taiwan-Italy symposium was "Biomedical imaging and nanoelectronics.""
+  },
+  {
+    "question": "What was the focus of the Taiwan-New Zealand Symposium on Nanotechnologies in 2008?",
+    "options": {
+      "A": "The development of new space exploration technologies",
+      "B": "The application of nanotechnologies in agriculture",
+      "C": "Advanced bionano-materials and nanobio-materials for life and medical sciences, imaging technologies, biosensing, and diagnosis and treatment of diseases",
+      "D": "The use of nanotechnology in renewable energy production"
+    },
+    "answer": "C",
+    "explanation": "The source details the theme of the Taiwan-New Zealand symposium, encompassing advanced bio- and nanomaterials for life and medical sciences, imaging, biosensing, and disease diagnosis and treatment."
+  },
+  {
+    "question": "What is the long-term funding strategy for the Biomedical Molecular Imaging Core Laboratory?",
+    "options": {
+      "A": "Relying solely on government grants",
+      "B": "Investing in high-risk, high-reward ventures",
+      "C": "Creating interdisciplinary environments where diverse specialists collaborate",
+      "D": "Focusing on short-term projects with immediate profitability"
+    },
+    "answer": "C",
+    "explanation": "The source emphasizes the importance of establishing genuinely multidisciplinary and interdisciplinary research environments involving various experts to secure long-term funding."
+  },
+  {
+    "question": "Why are major research centers important for the advancement of biomedical molecular imaging?",
+    "options": {
+      "A": "To limit the number of researchers working on the same project",
+      "B": "To prevent collaborations with industry partners",
+      "C": "To provide a wide range of high-level competence, research environments of sufficient size, and the necessary funding for infrastructure and large research projects",
+      "D": "To restrict access to expensive imaging equipment"
+    },
+    "answer": "C",
+    "explanation": "The source highlights the need for major centers to achieve a broad spectrum of expertise, adequately sized research environments, and sufficient funding for infrastructure and substantial research endeavors."
+  },
+  {
+    "question": "What is the goal of industry collaborations in biomedical molecular imaging?",
+    "options": {
+      "A": "To keep research findings confidential and prevent their dissemination",
+      "B": "To prioritize profits over patient care",
+      "C": "To attract funding, ensure the exploitation of R&D synergies, and achieve improved patient outcomes and cost-efficient healthcare",
+      "D": "To develop medical technologies that are too expensive for most patients"
+    },
+    "answer": "C",
+    "explanation": "The source emphasizes the importance of attracting funding, leveraging R&D synergies, and working towards enhanced patient care and cost-efficient healthcare through collaborations with the industry."
+  },
+  {
+    "question": "What is a major challenge in molecular imaging, as mentioned in the source?",
+    "options": {
+      "A": "The abundance of funding for research",
+      "B": "The ease of translating research findings into clinical practice",
+      "C": "The low cost of imaging equipment and procedures",
+      "D": "The sensitivity and detection limit of imaging techniques"
+    },
+    "answer": "D",
+    "explanation": "The source lists sensitivity and detection limits as one of the main challenges faced in the field of molecular imaging."
+  },
+  {
+    "question": "What is the ultimate goal of molecular imaging in relation to therapy?",
+    "options": {
+      "A": "To develop treatments that are effective for a small percentage of the population",
+      "B": "To visualize biomedical processes in vivo to enable early diagnosis and effective therapy",
+      "C": "To create therapies that have numerous side effects",
+      "D": "To make healthcare more expensive and inaccessible"
+    },
+    "answer": "B",
+    "explanation": "The source reiterates the objective of molecular imaging as visualizing biomedical processes in living organisms to facilitate early disease detection and the implementation of effective treatment strategies."
+  },
+  {
+    "question": "What is the concept of personalized medicine in the context of molecular medicine?",
+    "options": {
+      "A": "Providing the same treatment to all patients regardless of their individual needs",
+      "B": "Replacing generic 'one-fits-all' approaches with more effective patient-specific therapies",
+      "C": "Ignoring the genetic and molecular basis of diseases",
+      "D": "Using traditional remedies and practices instead of modern medicine"
+    },
+    "answer": "B",
+    "explanation": "The source describes personalized medicine within the framework of molecular medicine as transitioning from generalized treatments to more targeted and effective therapies tailored to individual patients."
+  },
+  {
+    "question": "Who are acknowledged at the end of the source?",
+    "options": {
+      "A": "Famous actors and musicians",
+      "B": "Politicians and government officials",
+      "C": "Professor Ting-Shun Chen and President Pan-Chyr Yang from National Taiwan University College of Medicine",
+      "D": "Anonymous donors who funded the research"
+    },
+    "answer": "C",
+    "explanation": "The source concludes by acknowledging Professor Ting-Shun Chen and President Pan-Chyr Yang from National Taiwan University College of Medicine."
+  },
+  {
+    "question": "What is the final image shown in the source?",
+    "options": {
+      "A": "A detailed diagram of a human cell",
+      "B": "A photograph of the research team",
+      "C": "A view of Drunk Moon Lake at National Taiwan University",
+      "D": "A map of the Biomedical Molecular Imaging Core Laboratory"
+    },
+    "answer": "C",
+    "explanation": "The source ends with an image of Drunk Moon Lake at National Taiwan University."
+  },
+  {
+    "question": "What is the main focus of the document \"生醫影像_生技醫療產業的生力軍.pdf\"?",
+    "options": {
+      "A": "The history of medical imaging technology",
+      "B": "The ethical considerations of using molecular imaging",
+      "C": "The role of artificial intelligence in medical image analysis",
+      "D": "Biomedical Molecular Imaging and its applications in research and healthcare"
+    },
+    "answer": "D",
+    "explanation": "The document extensively discusses various aspects of Biomedical Molecular Imaging, including research facilities, collaborations, applications, and future directions."
+  },
+  {
+    "question": "What is the primary goal of biomedical molecular imaging research, according to the source?",
+    "options": {
+      "A": "To develop imaging technologies that are primarily used for entertainment purposes",
+      "B": "To create images that are aesthetically pleasing but have no practical use",
+      "C": "To visualize and understand biological processes in living organisms, leading to improved diagnosis, treatment, and healthcare",
+      "D": "To replace traditional medical practices with unproven alternative therapies"
+    },
+    "answer": "C",
+    "explanation": "The source repeatedly emphasizes the aim of using molecular imaging to visualize and gain insights into biological processes in living organisms, ultimately contributing to advancements in diagnosis, treatment, and overall healthcare."
   }
 ]
+
