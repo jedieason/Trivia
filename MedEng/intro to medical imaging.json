@@ -1,598 +1,591 @@
 
 [
   {
-    "question": "What is the definition of biophotonics?",
+    "question": "What is the primary goal of medical imaging science?",
     "options": {
-      "A": "The study of photons",
-      "B": "The interaction of photons with biological material",
-      "C": "The study of biological materials",
-      "D": "The use of light in surgery"
-    },
-    "answer": "B",
-    "explanation": "Biophotonics is defined as the study of the interaction of light with biological material, encompassing all forms of radiant energy with the photon as its quantum unit."
-  },
-  {
-    "question": "How is biophotonics used in medicine?",
-    "options": {
-      "A": "To create incisions in tissue",
-      "B": "To study tissue and blood for disease detection, diagnosis, and treatment",
-      "C": "To provide energy for cellular processes",
-      "D": "To amplify light signals for better visualization"
-    },
-    "answer": "B",
-    "explanation": "In medicine, biophotonics is employed to examine tissue and blood at both macro and micro levels. This non-invasive approach aids in the detection, diagnosis, and treatment of diseases."
-  },
-  {
-    "question": "What are the advantages of using optical detection in biomedicine?",
-    "options": {
-      "A": "It is invasive and provides detailed cellular information",
-      "B": "It is non-invasive, sensitive, fast, and offers high spatial resolution",
-      "C": "It is primarily used for surgical procedures",
-      "D": "It requires extensive sample preparation"
-    },
-    "answer": "B",
-    "explanation": "Optical detection offers several benefits in biomedicine: it is non-invasive, minimizes disturbance, exhibits sensitivity, enables fast real-time monitoring, and provides high spatial resolution."
-  },
-  {
-    "question": "What are the limitations of optical detection?",
-    "options": {
-      "A": "Limited penetration depth and the need for a signal/contrast source",
-      "B": "High cost and complexity of equipment",
-      "C": "Slow data acquisition and low sensitivity",
-      "D": "Inability to detect specific molecules"
-    },
-    "answer": "A",
-    "explanation": "Optical detection faces limitations regarding penetration depth and the requirement for a source of signal or contrast."
-  },
-  {
-    "question": "What two phenomena can occur during light propagation through a medium?",
-    "options": {
-      "A": "Reflection and refraction",
-      "B": "Diffraction and interference",
-      "C": "Scattering and absorption",
-      "D": "Polarization and dispersion"
+      "A": "To enhance the aesthetic appeal of medical images.",
+      "B": "To replace invasive surgical procedures.",
+      "C": "To identify abnormalities against the backdrop of normal tissue.",
+      "D": "To develop new medical imaging technologies.",
+      "E": "To educate patients about their medical conditions."
     },
     "answer": "C",
-    "explanation": "As light travels through a medium, it can undergo scattering, a random change in propagation direction, and absorption, an attenuation in intensity."
+    "explanation": "The fundamental objective in medical imaging science is to differentiate anomalies (the target) from the surrounding healthy tissue."
   },
   {
-    "question": "Why is light often considered as particles when describing light-matter interaction?",
+    "question": "Which of the following imaging techniques relies on an external energy source?",
     "options": {
-      "A": "Because light always behaves as particles",
-      "B": "Because it simplifies the description of interactions with matter",
-      "C": "Because light particles are easier to detect",
-      "D": "Because light waves are not relevant in this context"
+      "A": "Nuclear medicine",
+      "B": "PET",
+      "C": "SPECT",
+      "D": "Infrared thermography",
+      "E": "X-ray"
+    },
+    "answer": "E",
+    "explanation": "X-ray and CT scanning utilize an external source of energy for imaging, transmitting energy through the body."
+  },
+  {
+    "question": "What type of information do functional medical imaging techniques aim to provide?",
+    "options": {
+      "A": "Detailed anatomical structures",
+      "B": "Three-dimensional representations of organs",
+      "C": "Real-time visualization of physiological processes",
+      "D": "Static images of internal organs",
+      "E": "Microscopic details of cellular components"
+    },
+    "answer": "C",
+    "explanation": "Functional imaging goes beyond static anatomy, capturing dynamic information and allowing for the study of biochemical processes in real-time."
+  },
+  {
+    "question": "Besides diagnosis, what is another significant application of medical imaging?",
+    "options": {
+      "A": "Medical research and development",
+      "B": "Patient education and counseling",
+      "C": "Hospital administration and management",
+      "D": "Training of medical professionals",
+      "E": "Therapy planning and guidance"
+    },
+    "answer": "E",
+    "explanation": "Medical imaging plays a vital role in planning and guiding therapeutic interventions, including procedures like targeted drug delivery."
+  },
+  {
+    "question": "Which factor describes the ability of an imaging system to distinguish between closely spaced structures?",
+    "options": {
+      "A": "Temporal Resolution",
+      "B": "Spatial Resolution",
+      "C": "Contrast",
+      "D": "Signal to Noise Ratio",
+      "E": "Sensitivity"
     },
     "answer": "B",
-    "explanation": "While light exhibits both wave and particle properties, conceptualizing light as particles proves more convenient when explaining its interactions with matter."
+    "explanation": "Spatial resolution refers to the ability of an imaging system to discern fine details and separate objects that are close together."
   },
   {
-    "question": "What information can be obtained by measuring wavelength-dependent changes in light after it interacts with matter?",
+    "question": "What significant milestone did Wilhelm Röntgen achieve in 1895?",
     "options": {
-      "A": "The temperature of the matter",
-      "B": "The density of the matter",
-      "C": "Information about the matter itself",
-      "D": "The velocity of the matter"
+      "A": "Developed the first CT scanner",
+      "B": "Discovered the principles of ultrasound imaging",
+      "C": "Announced the discovery of X-rays",
+      "D": "Received the Nobel Prize in Medicine",
+      "E": "Published the first textbook on medical imaging"
     },
     "answer": "C",
-    "explanation": "Analyzing the wavelength-dependent alterations in light following its interaction with matter provides valuable insights into the characteristics of the matter under investigation."
+    "explanation": "Wilhelm Röntgen's announcement of the discovery of X-rays in November 1895 marked a groundbreaking moment in the history of medical imaging."
   },
   {
-    "question": "How is spectroscopy used in astronomy?",
+    "question": "What initial conclusion did Röntgen draw about the nature of X-rays?",
     "options": {
-      "A": "To measure the distance to stars",
-      "B": "To determine the size of galaxies",
-      "C": "To study the chemical composition and motion of celestial objects",
-      "D": "To image the surface of planets"
-    },
-    "answer": "C",
-    "explanation": "In the field of astronomy, spectroscopic techniques relying on light absorption and emission are instrumental in determining the chemical makeup and movement patterns of distant stars and galaxies."
-  },
-  {
-    "question": "What technique is used to identify and quantify metals in environmental samples?",
-    "options": {
-      "A": "Mass spectrometry",
-      "B": "Gas chromatography",
-      "C": "Flame atomic absorption spectroscopy",
-      "D": "X-ray diffraction"
-    },
-    "answer": "C",
-    "explanation": "Flame atomic absorption spectroscopy serves as a technique for identifying and quantifying metals present in environmental samples."
-  },
-  {
-    "question": "What is the basis of Bohr's model of a hydrogen atom?",
-    "options": {
-      "A": "Electrons move randomly around the nucleus",
-      "B": "Electrons occupy specific orbitals with quantized energy levels",
-      "C": "The nucleus contains both protons and electrons",
-      "D": "Electrons can have any energy level"
-    },
-    "answer": "B",
-    "explanation": "Bohr's model of the hydrogen atom postulates that electrons reside in distinct orbitals characterized by quantized energy levels, meaning they can only possess specific energy values."
-  },
-  {
-    "question": "What happens when an electron in an atom jumps from one permitted orbit to another?",
-    "options": {
-      "A": "The atom changes its mass",
-      "B": "The atom releases or absorbs a neutron",
-      "C": "The atom emits or absorbs a photon of light",
-      "D": "The atom becomes unstable and decays"
-    },
-    "answer": "C",
-    "explanation": "When an electron transitions between permitted orbits in an atom, it either emits or absorbs a photon of light, corresponding to the energy difference between the two orbitals."
-  },
-  {
-    "question": "What is the Rydberg constant?",
-    "options": {
-      "A": "A fundamental constant relating to the speed of light",
-      "B": "A constant specific to hydrogen atoms",
-      "C": "A constant determining the energy levels in atoms",
-      "D": "A constant related to the mass of an electron"
-    },
-    "answer": "C",
-    "explanation": "The Rydberg constant (R) is a fundamental constant that plays a crucial role in determining the energy levels within atoms."
-  },
-  {
-    "question": "What is Planck's constant?",
-    "options": {
-      "A": "A constant relating energy and frequency of light",
-      "B": "A constant determining the gravitational force",
-      "C": "A constant related to the charge of an electron",
-      "D": "A constant specific to the hydrogen atom"
-    },
-    "answer": "A",
-    "explanation": "Planck's constant (h) is a fundamental constant that establishes the relationship between the energy and frequency of light."
-  },
-  {
-    "question": "How can the concept of atomic orbitals be extended to molecules?",
-    "options": {
-      "A": "Molecular orbitals are formed by the combination of atomic orbitals",
-      "B": "Molecular orbitals are independent of atomic orbitals",
-      "C": "Molecular orbitals have continuous energy levels",
-      "D": "Molecular orbitals only exist in excited states"
-    },
-    "answer": "A",
-    "explanation": "The concept of atomic orbitals, where electrons reside in stationary states with quantized energy levels, can be extended to molecules. Molecular orbitals arise from the interaction of atomic orbitals and also possess quantized energy levels."
-  },
-  {
-    "question": "What effect can external light radiation have on electrons in a molecule?",
-    "options": {
-      "A": "It can cause the electrons to move freely in space",
-      "B": "It can induce changes in electron orbitals and cause nuclear vibrations",
-      "C": "It has no effect on electrons in molecules",
-      "D": "It can change the chemical composition of the molecule"
-    },
-    "answer": "B",
-    "explanation": "External light radiation, specifically its electric field component, can influence electrons in a molecule. It can induce transitions between orbitals, thereby altering energy levels, and can also initiate vibrations of the atomic nuclei."
-  },
-  {
-    "question": "What information can be obtained from spectroscopic measurements of absorbed, emitted, and Raman scattered photons?",
-    "options": {
-      "A": "The mass of the molecule",
-      "B": "The temperature of the molecule",
-      "C": "The velocity of the molecule",
-      "D": "The energy states of the molecule"
+      "A": "X-rays are a form of electromagnetic radiation",
+      "B": "X-rays travel at the speed of light",
+      "C": "X-rays can be reflected and refracted like light",
+      "D": "X-rays exhibit primarily corpuscular behavior",
+      "E": "X-rays have a longer wavelength than visible light"
     },
     "answer": "D",
-    "explanation": "Spectroscopic measurements analyzing absorbed, emitted, and Raman scattered photons provide insights into the energy states of a molecule."
+    "explanation": "Based on his observations that X-rays didn't exhibit typical wave-like behaviors like reflection or refraction, Röntgen initially concluded that they were dominated by corpuscular (particle-like) properties."
   },
   {
-    "question": "What is the relationship between energy differences between energy levels and the frequency of light?",
+    "question": "What is a major disadvantage of projection X-ray imaging?",
     "options": {
-      "A": "They are inversely proportional",
-      "B": "They are directly proportional",
-      "C": "There is no relationship",
-      "D": "The relationship depends on the molecule"
+      "A": "High cost and complex equipment",
+      "B": "Loss of depth information",
+      "C": "Inability to image bone structures",
+      "D": "Requirement for contrast agents",
+      "E": "Long exposure times"
     },
     "answer": "B",
-    "explanation": "The energy differences between energy levels are directly proportional to the frequency of light involved in the transition. Higher energy differences correspond to higher frequencies."
+    "explanation": "Projection X-ray imaging, while simple and inexpensive, has the drawback of collapsing three-dimensional information onto a two-dimensional plane, leading to the loss of depth perception."
   },
   {
-    "question": "Which energy states are typically involved in sensing and excitation of biomolecules?",
+    "question": "What does the attenuation coefficient (μ) in X-ray imaging represent?",
     "options": {
-      "A": "Rotational states",
-      "B": "Nuclear states",
-      "C": "Electronic and vibrational states",
-      "D": "Translational states"
-    },
-    "answer": "C",
-    "explanation": "Electronic and vibrational states within molecules are predominantly implicated in sensing and excitation processes of biomolecules."
-  },
-  {
-    "question": "What is the primary principle behind UV-visible absorption spectroscopy?",
-    "options": {
-      "A": "Measuring the scattering of UV-visible light by molecules",
-      "B": "Analyzing the emission of light by molecules after UV-visible excitation",
-      "C": "Measuring the absorption of UV-visible light by molecules at specific wavelengths",
-      "D": "Measuring the change in polarization of UV-visible light after interacting with molecules"
-    },
-    "answer": "C",
-    "explanation": "UV-visible absorption spectroscopy operates on the principle of quantifying the absorption of UV-visible light by molecules at specific wavelengths, providing information about their electronic transitions."
-  },
-  {
-    "question": "What are the two main types of UV-visible spectrometers?",
-    "options": {
-      "A": "Single-beam and double-beam",
-      "B": "Scanning and multi-channel",
-      "C": "Reflective and transmissive",
-      "D": "Static and dynamic"
+      "A": "The speed of X-rays through a material",
+      "B": "The degree to which X-rays are absorbed or scattered by a material",
+      "C": "The energy of the X-ray beam",
+      "D": "The wavelength of the X-rays",
+      "E": "The density of the X-ray film"
     },
     "answer": "B",
-    "explanation": "UV-visible spectrometers can be broadly categorized into scanning and multi-channel types, each employing different mechanisms for wavelength selection and detection."
+    "explanation": "The attenuation coefficient (μ) quantifies how much the intensity of an X-ray beam is reduced as it passes through a substance, encompassing both absorption and scattering effects."
   },
   {
-    "question": "What is the Beer-Lambert law?",
+    "question": "What innovation in the 1970s revolutionized medical imaging by enabling true 3D visualization?",
     "options": {
-      "A": "A law describing the relationship between light intensity and distance",
-      "B": "A law explaining the reflection of light from surfaces",
-      "C": "A law relating absorbance to concentration and path length",
-      "D": "A law governing the diffraction of light through narrow slits"
-    },
-    "answer": "C",
-    "explanation": "The Beer-Lambert law establishes a quantitative relationship between the absorbance of light by a solution, the concentration of the absorbing species, and the path length of the light beam through the solution."
-  },
-  {
-    "question": "What is molar extinction coefficient?",
-    "options": {
-      "A": "A measure of a molecule's ability to absorb light at a specific wavelength",
-      "B": "A constant related to the speed of light in a medium",
-      "C": "A measure of the scattering of light by a molecule",
-      "D": "A constant specific to the instrument used for measurement"
-    },
-    "answer": "A",
-    "explanation": "The molar extinction coefficient (ε) quantifies a molecule's capacity to absorb light at a particular wavelength. A higher extinction coefficient indicates stronger absorption at that wavelength."
-  },
-  {
-    "question": "What is the typical range of molar extinction coefficients for chromophores?",
-    "options": {
-      "A": "1-10 M-1cm-1",
-      "B": "10-100 M-1cm-1",
-      "C": "100-1000 M-1cm-1",
-      "D": "1-105 M-1cm-1"
+      "A": "Ultrasound imaging",
+      "B": "Nuclear medicine",
+      "C": "Magnetic Resonance Imaging (MRI)",
+      "D": "Computerized Tomography (CT)",
+      "E": "Positron Emission Tomography (PET)"
     },
     "answer": "D",
-    "explanation": "The molar extinction coefficients (ε) for typical chromophores usually fall within the range of 1 to 105 M-1cm-1."
+    "explanation": "The advent of Computerized Tomography (CT) in the 1970s marked a significant advancement, providing the ability to construct genuine three-dimensional images from a series of projections."
   },
   {
-    "question": "What primarily determines the absorption spectrum of a protein?",
+    "question": "Who received the Nobel Prize in Medicine in 1979 for their contributions to CT scanning?",
     "options": {
-      "A": "The amount of lipids it contains",
-      "B": "The sequence of amino acids",
-      "C": "The amounts of tryptophan and tyrosine",
-      "D": "The presence of metal ions"
-    },
-    "answer": "C",
-    "explanation": "The absorption spectrum of a protein is predominantly governed by the quantities of tryptophan and tyrosine residues present within its structure. These aromatic amino acids exhibit strong absorption in the UV region."
-  },
-  {
-    "question": "What is the approximate absorption peak wavelength for proteins?",
-    "options": {
-      "A": "260 nm",
-      "B": "280 nm",
-      "C": "300 nm",
-      "D": "320 nm"
+      "A": "Wilhelm Röntgen",
+      "B": "Godfrey Hounsfield and Allan Cormack",
+      "C": "Ansell and Rotblat",
+      "D": "Hal Anger",
+      "E": "Raymond Damadian"
     },
     "answer": "B",
-    "explanation": "Proteins typically display an absorption peak around 280 nm, primarily due to the absorption characteristics of tryptophan and tyrosine. This peak can be utilized for estimating protein concentration using UV-vis spectroscopy."
+    "explanation": "Godfrey Hounsfield and Allan Cormack were jointly awarded the Nobel Prize in Medicine in 1979 for their pivotal roles in the development and application of Computerized Tomography (CT)."
   },
   {
-    "question": "What is the average molar extinction coefficient of DNA at 260 nm?",
+    "question": "What mathematical concept did Radon introduce in 1917 that laid the groundwork for CT image reconstruction?",
     "options": {
-      "A": "1102 M-1cm-1",
-      "B": "1103 M-1cm-1",
-      "C": "1104 M-1cm-1",
-      "D": "1105 M-1cm-1"
+      "A": "Fourier transform",
+      "B": "Calculus of variations",
+      "C": "Differential equations",
+      "D": "Probability theory",
+      "E": "Characterizing an image by its projections"
+    },
+    "answer": "E",
+    "explanation": "Radon's work in 1917, where he demonstrated the representation of an image through its projections, formed a fundamental basis for the mathematical algorithms used in CT reconstruction."
+  },
+  {
+    "question": "What is the operating principle of a first-generation CT scanner?",
+    "options": {
+      "A": "Rotating a fan-shaped X-ray beam around the patient",
+      "B": "Using a stationary X-ray source and multiple detectors",
+      "C": "Acquiring a projection (X-ray) and translating the X-ray pencil beam and detector across the body",
+      "D": "Employing magnetic fields to align atomic nuclei and generate signals",
+      "E": "Injecting radioactive tracers and detecting their emissions"
     },
     "answer": "C",
-    "explanation": "The average molar extinction coefficient (ε) of DNA reaches a maximum value of 1104 M-1cm-1 at a wavelength of 260 nm."
+    "explanation": "First-generation CT scanners operated by sequentially acquiring X-ray projections while moving a pencil-like X-ray beam and detector across the patient, followed by rotation for subsequent projections."
   },
   {
-    "question": "In what wavelength range do Hemoglobin (Hb) and HbO2 exhibit a significant difference in absorption?",
+    "question": "What is the purpose of filtering projections in the back-projection method of CT image reconstruction?",
     "options": {
-      "A": "400-500 nm",
-      "B": "500-600 nm",
-      "C": "600-1000 nm",
-      "D": "1000-1500 nm"
-    },
-    "answer": "C",
-    "explanation": "A notable disparity in absorption between Hemoglobin (Hb) and its oxygenated form (HbO2) is observed in the wavelength range of 600-1000 nm. This difference forms the basis of pulse oximetry."
-  },
-  {
-    "question": "What is oxygen saturation (SO2)?",
-    "options": {
-      "A": "The ratio of HbO2 to total hemoglobin",
-      "B": "The amount of oxygen dissolved in blood",
-      "C": "The partial pressure of oxygen in arterial blood",
-      "D": "The rate of oxygen consumption by tissues"
-    },
-    "answer": "A",
-    "explanation": "Oxygen saturation (SO2) represents the proportion of oxygenated hemoglobin (HbO2) relative to the total hemoglobin content in the blood. It is a crucial parameter for assessing oxygen delivery to tissues."
-  },
-  {
-    "question": "What is the challenge in measuring oxygen saturation in vivo?",
-    "options": {
-      "A": "The presence of scattering effects",
-      "B": "The instability of hemoglobin molecules",
-      "C": "The low concentration of hemoglobin in blood",
-      "D": "The lack of suitable wavelengths for measurement"
-    },
-    "answer": "A",
-    "explanation": "Measuring oxygen saturation in vivo is complicated by scattering effects, which influence the measured signals and make direct application of the Beer-Lambert law challenging. In vitro measurements are simpler as scattering is absent."
-  },
-  {
-    "question": "How does a pulse oximeter work?",
-    "options": {
-      "A": "By measuring the scattering of light by red blood cells",
-      "B": "By analyzing the fluorescence emission from hemoglobin",
-      "C": "By using pulsatile signals to extract oxygen saturation of arterial hemoglobin",
-      "D": "By directly measuring the partial pressure of oxygen in blood"
-    },
-    "answer": "C",
-    "explanation": "Pulse oximeters utilize the pulsatile component (AC) of the detected light, also known as photoplethysmography (PPG), to determine the oxygen saturation of arterial hemoglobin. The non-pulsatile component (DC) serves as a reference for normalization."
-  },
-  {
-    "question": "What is the purpose of using two wavelengths in pulse oximetry?",
-    "options": {
-      "A": "To increase the signal intensity",
-      "B": "To compensate for variations in skin pigmentation",
-      "C": "To eliminate the unknown factor of light path length",
-      "D": "To improve the accuracy of heart rate measurement"
-    },
-    "answer": "C",
-    "explanation": "Pulse oximetry employs two wavelengths to mitigate the influence of the unknown light path length (L), a factor affected by scattering in tissue. By measuring at two wavelengths, the ratio of ratios (R) can be calculated, allowing for SpO2 determination."
-  },
-  {
-    "question": "How is the relationship between the ratio of ratios (R) and SpO2 obtained in commercial pulse oximeters?",
-    "options": {
-      "A": "Through theoretical calculations",
-      "B": "By measuring SpO2 in vitro",
-      "C": "By using a standard reference solution",
-      "D": "Through calibration on healthy volunteers with invasive blood oxygen measurements"
+      "A": "To remove noise and artifacts from the projections",
+      "B": "To enhance the contrast between different tissues",
+      "C": "To adjust for the non-uniform distribution of X-ray attenuation",
+      "D": "To account for the sampling data on a polar grid",
+      "E": "To compensate for patient motion during scanning"
     },
     "answer": "D",
-    "explanation": "The correlation between the ratio of ratios (R) and SpO2 in commercial pulse oximeters is established through calibration procedures involving healthy volunteers. These volunteers inhale nitrogen and undergo invasive blood oxygen saturation measurements, enabling accurate SpO2 determination."
+    "explanation": "Filtering the projections in back-projection reconstruction is necessary to address the inherent distortion introduced by sampling data on a polar grid rather than a rectangular one."
   },
   {
-    "question": "What can be assumed to be constant during a pulse in the context of the Beer-Lambert law?",
+    "question": "What historical event significantly influenced the development of nuclear medicine?",
     "options": {
-      "A": "The concentration of hemoglobin",
-      "B": "The scattering and path length factors",
-      "C": "The intensity of the incident light",
-      "D": "The absorption coefficient of hemoglobin"
+      "A": "The invention of the X-ray tube",
+      "B": "The discovery of penicillin",
+      "C": "The development of the electron microscope",
+      "D": "The research on nuclear reactors during World War II",
+      "E": "The launch of the first artificial satellite"
+    },
+    "answer": "D",
+    "explanation": "The intense research and development surrounding nuclear reactors during World War II played a pivotal role in advancing nuclear medicine through the discovery and production of medically valuable radioactive isotopes."
+  },
+  {
+    "question": "What is the fundamental principle behind nuclear medicine imaging?",
+    "options": {
+      "A": "Measuring the attenuation of external X-ray beams",
+      "B": "Detecting the reflection of ultrasound waves",
+      "C": "Analyzing the resonance of atomic nuclei in a magnetic field",
+      "D": "Administering a radioactive tracer and detecting its emissions from within the body",
+      "E": "Measuring changes in electrical conductivity of tissues"
+    },
+    "answer": "D",
+    "explanation": "Nuclear medicine relies on the administration of a radioactive tracer, which is selectively taken up by the organ or tissue of interest, followed by the detection of the emitted radiation to create images of function."
+  },
+  {
+    "question": "What is a key advantage of nuclear medicine imaging compared to other modalities?",
+    "options": {
+      "A": "High spatial resolution",
+      "B": "Direct visualization of physiological processes",
+      "C": "Absence of ionizing radiation",
+      "D": "Low cost and wide availability",
+      "E": "Ability to image dense bone structures"
     },
     "answer": "B",
-    "explanation": "In the application of the Beer-Lambert law for pulse oximetry, it is assumed that the scattering factor (S(λ)) and the path length factor (L(λ)) remain relatively constant during a pulse. This assumption allows for their removal through the ratio Imax/Imin."
+    "explanation": "The strength of nuclear medicine lies in its ability to directly visualize and assess physiological function and metabolic activity within the body, unlike anatomical imaging modalities."
   },
   {
-    "question": "What is the CareGuideTM device used for?",
+    "question": "What is a primary reason for the relatively poor image quality (around 1 cm resolution) in traditional nuclear medicine?",
     "options": {
-      "A": "Measuring blood glucose levels",
-      "B": "Monitoring brain activity",
-      "C": "Measuring oxygen saturation and pH in muscle",
-      "D": "Detecting cancer cells"
+      "A": "Limitations in detector technology",
+      "B": "The use of low-energy radioactive isotopes",
+      "C": "Scattering of radiation within the body",
+      "D": "The need to use small tracer concentrations for safety",
+      "E": "The slow decay rate of the radioactive tracers"
+    },
+    "answer": "D",
+    "explanation": "To ensure patient safety, nuclear medicine employs very small quantities of radioactive tracer. This limitation, coupled with the inherent statistical nature of radioactive decay (quantum limited), contributes to the reduced image resolution."
+  },
+  {
+    "question": "Which tomographic imaging techniques are commonly used in nuclear medicine?",
+    "options": {
+      "A": "CT and MRI",
+      "B": "SPECT and PET",
+      "C": "Ultrasound and X-ray",
+      "D": "Infrared thermography and optical imaging",
+      "E": "Electrical impedance tomography and bioluminescence imaging"
+    },
+    "answer": "B",
+    "explanation": "In nuclear medicine, tomographic imaging is achieved using techniques like SPECT (Single Photon Emission Computed Tomography) and PET (Positron Emission Tomography), providing three-dimensional representations of tracer distribution."
+  },
+  {
+    "question": "What is the optimal range of wavelengths for probes used in medical imaging to balance resolution and tissue penetration?",
+    "options": {
+      "A": "λ > 10 cm",
+      "B": "λ < .01 Å",
+      "C": ".01 Å < λ < .5 Å",
+      "D": "1 nm < λ < 10 nm",
+      "E": "100 nm < λ < 1000 nm"
     },
     "answer": "C",
-    "explanation": "The CareGuideTM device, based on near-infrared spectroscopy, provides non-invasive measurements of oxygen saturation and pH levels in muscle tissue. It received FDA clearance in 2012 for continuous muscle oxygen monitoring."
+    "explanation": "To achieve sufficient resolution while ensuring adequate penetration through tissues, medical imaging probes typically operate within the wavelength range of 0.01 Å to 0.5 Å, which corresponds to standard X-rays."
   },
   {
-    "question": "What is the principle behind Functional Near-Infrared Spectroscopy (fNIRS)?",
+    "question": "What happens when the transmission of a probe through the body is less than 10^-3?",
     "options": {
-      "A": "Measuring the scattering of light by neurons",
-      "B": "Detecting the electrical signals from brain activity",
-      "C": "Quantifying changes in HbO2 and Hb in the brain using near-infrared light",
-      "D": "Measuring the temperature changes in the brain during activity"
+      "A": "It results in excellent image contrast.",
+      "B": "It leads to signal-to-noise ratio (SNR) problems.",
+      "C": "It improves spatial resolution.",
+      "D": "It eliminates the need for contrast agents.",
+      "E": "It reduces radiation exposure to the patient."
+    },
+    "answer": "B",
+    "explanation": "If the transmission of the probe through the body falls below 10^-3, the signal becomes too weak, leading to a poor signal-to-noise ratio and making it challenging to extract meaningful information from the image."
+  },
+  {
+    "question": "What is the unique characteristic of Nuclear Magnetic Resonance (NMR) that enables spatial encoding in MRI?",
+    "options": {
+      "A": "The emission of gamma rays from radioactive nuclei",
+      "B": "The absorption and re-emission of light by fluorescent molecules",
+      "C": "The scattering of ultrasound waves by tissue interfaces",
+      "D": "The interaction of X-rays with electron density in tissues",
+      "E": "The nuclear magnetic moment (spin) of atoms, creating unique signals from different spatial locations"
+    },
+    "answer": "E",
+    "explanation": "NMR exploits the intrinsic magnetic properties (spin) of atomic nuclei, particularly hydrogen protons. This property allows each spatial location within the body to generate its own distinct signal, forming the basis for spatial encoding in MRI."
+  },
+  {
+    "question": "What physical phenomenon limits the resolution of ultrasound imaging?",
+    "options": {
+      "A": "Reflection",
+      "B": "Refraction",
+      "C": "Diffraction",
+      "D": "Attenuation",
+      "E": "Dispersion"
     },
     "answer": "C",
-    "explanation": "Functional Near-Infrared Spectroscopy (fNIRS) leverages the principles of oximetry to measure changes in the concentrations of oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb) in the brain. This is achieved using near-infrared light in the range of 680-930 nm."
+    "explanation": "Diffraction, the spreading of waves as they encounter obstacles or pass through narrow openings, imposes a fundamental limit on the resolution achievable in ultrasound imaging. Higher frequencies, while offering better resolution, experience greater attenuation."
   },
   {
-    "question": "Why is fNIRS sensitive to hemoglobin in small blood vessels?",
+    "question": "What is the primary measurement principle in X-ray imaging?",
     "options": {
-      "A": "Because larger blood vessels completely absorb the light",
-      "B": "Because small vessels have a higher concentration of hemoglobin",
-      "C": "Because fNIRS uses low-intensity light that only penetrates small vessels",
-      "D": "Because small vessels are closer to the surface of the brain"
+      "A": "Acoustic reflectivity",
+      "B": "Nuclear magnetic resonance",
+      "C": "Radioactive tracer uptake",
+      "D": "Line integrals of attenuation coefficient",
+      "E": "Fluorescence intensity"
+    },
+    "answer": "D",
+    "explanation": "X-ray imaging essentially measures the line integrals of the attenuation coefficient, representing the cumulative reduction in X-ray intensity along the path through the body."
+  },
+  {
+    "question": "What is the key strength of nuclear medicine imaging compared to anatomical modalities like CT or X-ray?",
+    "options": {
+      "A": "Superior spatial resolution",
+      "B": "Lower cost and wider availability",
+      "C": "Absence of ionizing radiation",
+      "D": "Focus on functional imaging rather than anatomical details",
+      "E": "Ability to image bone structures with high contrast"
+    },
+    "answer": "D",
+    "explanation": "Unlike modalities like CT or X-ray, which primarily provide anatomical information, nuclear medicine excels in visualizing and quantifying physiological processes and metabolic activity, making it a powerful tool for functional imaging."
+  },
+  {
+    "question": "What property does ultrasound imaging utilize to create images?",
+    "options": {
+      "A": "Absorption of electromagnetic radiation",
+      "B": "Transmission and reflection of acoustic energy",
+      "C": "Emission of gamma rays from radioactive isotopes",
+      "D": "Resonance of atomic nuclei in a magnetic field",
+      "E": "Fluorescence of biomolecules"
+    },
+    "answer": "B",
+    "explanation": "Ultrasound imaging relies on the transmission of acoustic energy (sound waves) into the body and the detection of the reflected waves to map tissue boundaries and structures based on their acoustic properties."
+  },
+  {
+    "question": "What is a critical assumption underlying the mapping of echo time to depth in ultrasound imaging?",
+    "options": {
+      "A": "Sound waves travel at significantly different velocities in various tissues.",
+      "B": "Sound wave velocity in water is similar to that in soft tissue.",
+      "C": "The frequency of sound waves remains constant as they travel through the body.",
+      "D": "The intensity of sound waves does not change with depth.",
+      "E": "Sound waves travel in a straight line without any scattering."
+    },
+    "answer": "B",
+    "explanation": "A key assumption in ultrasound imaging is that the speed of sound is relatively consistent in water and soft tissues, enabling the correlation of the time it takes for an echo to return with the depth of the reflecting structure."
+  },
+  {
+    "question": "How does increasing the frequency of ultrasound waves affect image resolution and attenuation?",
+    "options": {
+      "A": "Higher frequency leads to lower resolution and lower attenuation.",
+      "B": "Higher frequency leads to higher resolution and lower attenuation.",
+      "C": "Higher frequency leads to lower resolution and higher attenuation.",
+      "D": "Higher frequency leads to higher resolution and higher attenuation.",
+      "E": "Frequency has no impact on resolution or attenuation."
+    },
+    "answer": "D",
+    "explanation": "Higher frequency ultrasound waves provide finer spatial resolution but are absorbed and scattered more readily by tissues (higher attenuation), limiting their penetration depth."
+  },
+  {
+    "question": "What safety concern limits the intensity of ultrasound pulses used in medical imaging?",
+    "options": {
+      "A": "Induction of electrical currents in tissues",
+      "B": "Ionization of atoms and potential DNA damage",
+      "C": "Tissue heating and potential for thermal damage",
+      "D": "Stimulation of nerve cells and muscle contractions",
+      "E": "Interference with pacemakers and other implanted devices"
+    },
+    "answer": "C",
+    "explanation": "To avoid tissue damage from excessive heating, the intensity of ultrasound pulses is carefully controlled. The general guideline is to keep the temperature increase in tissues below 1°C."
+  },
+  {
+    "question": "What is the primary function of the static magnetic field (B0) in MRI?",
+    "options": {
+      "A": "To excite the atomic nuclei and generate radiofrequency signals",
+      "B": "To spatially encode the signals from different locations",
+      "C": "To polarize the sample and create the resonant frequency",
+      "D": "To detect and amplify the emitted radiofrequency signals",
+      "E": "To reconstruct the image from the acquired data"
+    },
+    "answer": "C",
+    "explanation": "The static magnetic field (B0) in MRI serves two crucial roles: it aligns (polarizes) the nuclear spins within the body and establishes the specific resonant frequency at which these nuclei will absorb and emit radiofrequency energy."
+  },
+  {
+    "question": "What is the resonant frequency (ω) of a proton (1H) in a magnetic field (B) determined by?",
+    "options": {
+      "A": "The mass of the proton",
+      "B": "The charge of the proton",
+      "C": "The temperature of the sample",
+      "D": "The gyromagnetic ratio (γ) of the proton",
+      "E": "The strength of the radiofrequency pulse"
+    },
+    "answer": "D",
+    "explanation": "The resonant frequency (ω) at which a proton will respond in MRI is directly proportional to the strength of the magnetic field (B) and the gyromagnetic ratio (γ), a constant specific to each type of nucleus."
+  },
+  {
+    "question": "What is the purpose of the radiofrequency (RF) field (B1) in MRI?",
+    "options": {
+      "A": "To create the static magnetic field",
+      "B": "To spatially encode the signals",
+      "C": "To detect the emitted signals",
+      "D": "To excite the nuclei and tip them away from the main magnetic field",
+      "E": "To reconstruct the image from the acquired data"
+    },
+    "answer": "D",
+    "explanation": "The RF field (B1), generated by an RF coil, delivers a pulse of energy at the resonant frequency. This pulse perturbs the aligned nuclear spins, tipping them away from their equilibrium alignment with the main magnetic field (B0)."
+  },
+  {
+    "question": "How is spatial information encoded in MRI?",
+    "options": {
+      "A": "By varying the strength of the static magnetic field (B0)",
+      "B": "By changing the frequency of the radiofrequency pulses",
+      "C": "By using gradient field coils to create spatial variations in the magnetic field",
+      "D": "By measuring the time it takes for signals to decay",
+      "E": "By detecting the phase differences between signals from different locations"
+    },
+    "answer": "C",
+    "explanation": "Spatial encoding in MRI is achieved using gradient coils that superimpose controlled variations on the main magnetic field. These gradients create a spatially dependent resonant frequency, enabling the identification of signals originating from different locations."
+  },
+  {
+    "question": "What property of excited photons contributes to contrast in MRI by influencing their relaxation rates?",
+    "options": {
+      "A": "Their energy levels",
+      "B": "Their wavelengths",
+      "C": "Their polarization",
+      "D": "Their interaction with surrounding molecules",
+      "E": "Their speed of travel"
+    },
+    "answer": "D",
+    "explanation": "The relaxation rates (T1 and T2) of excited protons in MRI are influenced by their interactions with the surrounding molecular environment. These variations in relaxation times contribute to the contrast between different tissues in MRI images."
+  },
+  {
+    "question": "Why is it necessary to utilize multiple imaging modalities in medical diagnosis?",
+    "options": {
+      "A": "To increase the cost of healthcare",
+      "B": "To provide redundancy in case one modality fails",
+      "C": "To reduce the workload on radiologists",
+      "D": "To confirm the findings of a single modality",
+      "E": "To exploit the unique strengths of each modality in measuring different tissue properties"
+    },
+    "answer": "E",
+    "explanation": "Different imaging modalities measure distinct physical properties of tissues. Combining multiple modalities leverages their complementary strengths to provide a more comprehensive evaluation, as tissues similar in one property may differ in another."
+  },
+  {
+    "question": "What is a primary safety concern associated with X-ray imaging?",
+    "options": {
+      "A": "Induction of strong magnetic fields",
+      "B": "Tissue heating from radiofrequency pulses",
+      "C": "Injection of radioactive tracers",
+      "D": "Exposure to ionizing radiation",
+      "E": "Acoustic cavitation effects"
+    },
+    "answer": "D",
+    "explanation": "The primary safety concern with X-ray imaging stems from the use of ionizing radiation, which has the potential to cause cellular damage and increase the risk of cancer. However, the risk for an individual from a single exam is considered small compared to the potential diagnostic benefits."
+  },
+  {
+    "question": "What is a major limitation of ultrasound imaging?",
+    "options": {
+      "A": "Inability to image soft tissues",
+      "B": "High cost and complex equipment",
+      "C": "Safety concerns due to ionizing radiation",
+      "D": "Significant distortions at air or bone interfaces",
+      "E": "Low spatial resolution"
+    },
+    "answer": "D",
+    "explanation": "Ultrasound waves are strongly reflected or absorbed at boundaries with air or bone, leading to significant distortions in the image and limiting its use in certain anatomical regions."
+  },
+  {
+    "question": "What factors contribute to distortions in ultrasound images?",
+    "options": {
+      "A": "Variations in the speed of sound (c) affecting depth estimation",
+      "B": "Diffraction of ultrasound waves limiting resolution",
+      "C": "Attenuation of ultrasound waves with depth",
+      "D": "Both A and B",
+      "E": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Distortions in ultrasound images arise from variations in the speed of sound in different tissues, which affect the accuracy of depth calculations, and from the diffraction of ultrasound waves, which limits the achievable spatial resolution."
+  },
+  {
+    "question": "What parameters, besides proton density (ρ), influence the signal intensity in Magnetic Resonance (MR) imaging?",
+    "options": {
+      "A": "Attenuation coefficient and scattering coefficient",
+      "B": "Radioactive tracer uptake and decay rate",
+      "C": "Speed of sound and acoustic impedance",
+      "D": "Relaxation time constants (T1 and T2)",
+      "E": "Blood flow velocity and blood oxygenation level"
+    },
+    "answer": "D",
+    "explanation": "In MR imaging, the signal intensity is not only proportional to the density of protons (ρ) but is also significantly affected by the relaxation time constants T1 and T2, which characterize the return of excited protons to their equilibrium state."
+  },
+  {
+    "question": "What potential safety concern has been identified with high levels of static magnetic fields in MRI?",
+    "options": {
+      "A": "Induction of phosphenes (visual disturbances)",
+      "B": "Nerve stimulation",
+      "C": "Tissue heating",
+      "D": "Ionization of atoms",
+      "E": "Interference with pacemakers"
+    },
+    "answer": "B",
+    "explanation": "While generally considered safe, very high levels of static magnetic fields used in MRI have been associated with the possibility of nerve stimulation."
+  },
+  {
+    "question": "What is the guideline for limiting radiofrequency (RF) heating in MRI to ensure patient safety?",
+    "options": {
+      "A": "Body temperature rise should not exceed 0.5°C",
+      "B": "Body temperature rise should not exceed 1°C",
+      "C": "RF exposure should be minimized to less than 1 minute",
+      "D": "Patients should drink plenty of water before the scan",
+      "E": "Metal objects should be removed from the patient's body"
+    },
+    "answer": "B",
+    "explanation": "To prevent potential harm from RF heating during an MRI scan, the established guideline restricts the rise in body temperature to less than 1°C."
+  },
+  {
+    "question": "Which imaging modality is generally considered the standard for evaluating head and brain conditions?",
+    "options": {
+      "A": "X-ray",
+      "B": "Ultrasound",
+      "C": "Nuclear medicine",
+      "D": "CT",
+      "E": "MR"
+    },
+    "answer": "E",
+    "explanation": "MR imaging has become the preferred modality for assessing the head and brain due to its superior soft tissue contrast and ability to provide detailed anatomical and functional information."
+  },
+  {
+    "question": "Which modality offers real-time imaging capabilities and is particularly valuable for cardiovascular assessments?",
+    "options": {
+      "A": "X-ray",
+      "B": "Ultrasound",
+      "C": "Nuclear medicine",
+      "D": "CT",
+      "E": "MR"
+    },
+    "answer": "B",
+    "explanation": "Ultrasound, with its real-time imaging capabilities, is extensively used in cardiovascular assessments, providing dynamic views of the heart and blood vessels."
+  },
+  {
+    "question": "Which modality is considered the gold standard for evaluating the skeletal system?",
+    "options": {
+      "A": "X-ray",
+      "B": "Ultrasound",
+      "C": "Nuclear medicine",
+      "D": "CT",
+      "E": "MR"
     },
     "answer": "A",
-    "explanation": "fNIRS exhibits sensitivity to hemoglobin in small blood vessels, those with diameters less than 1 mm. This is attributed to the fact that larger blood vessels fully absorb the near-infrared light, preventing it from reaching deeper tissue."
+    "explanation": "X-ray imaging remains the gold standard for skeletal evaluations due to its excellent ability to visualize bone structures and detect fractures or other abnormalities."
   },
   {
-    "question": "What is the typical penetration depth of fNIRS, and why is it suitable for measuring the cerebral cortex?",
+    "question": "Which modality is increasingly being used for cardiac imaging due to its high resolution and ability to provide both anatomical and functional information?",
     "options": {
-      "A": "Up to 2 mm, because the cortex is located superficially",
-      "B": "Up to 2 cm, allowing measurements of the cortex",
-      "C": "Up to 20 cm, enabling deep brain measurements",
-      "D": "Up to 2 m, allowing for whole-brain imaging"
+      "A": "X-ray",
+      "B": "Ultrasound",
+      "C": "Nuclear medicine",
+      "D": "CT",
+      "E": "MR"
     },
-    "answer": "B",
-    "explanation": "fNIRS can penetrate tissue up to a depth of approximately 2 cm. This penetration depth makes it well-suited for studying the cerebral cortex, which lies within this range."
+    "answer": "E",
+    "explanation": "MR imaging is gaining prominence in cardiac imaging due to its high resolution, capacity to provide both anatomical and functional data, and its non-invasive nature."
   },
   {
-    "question": "What does fNIRS measure during neural activity?",
+    "question": "Which modality is known for its ability to provide functional information about bone marrow?",
     "options": {
-      "A": "Changes in the electrical conductivity of neurons",
-      "B": "The release of neurotransmitters",
-      "C": "Hemodynamic responses, specifically changes in HbO2 and Hb concentrations",
-      "D": "The production of heat by active neurons"
-    },
-    "answer": "C",
-    "explanation": "During neural activity, fNIRS focuses on measuring hemodynamic responses. Specifically, it quantifies the alterations in the concentrations of oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb) in the brain region associated with the activity."
-  },
-  {
-    "question": "Why can't the Beer-Lambert law be directly used to quantify absorbance in fNIRS?",
-    "options": {
-      "A": "Because the Beer-Lambert law only applies to solutions",
-      "B": "Because the concentration of hemoglobin in the brain is too low",
-      "C": "Because tissue is highly scattering, making the path length unknown",
-      "D": "Because the absorption coefficient of hemoglobin changes during neural activity"
+      "A": "X-ray",
+      "B": "Ultrasound",
+      "C": "Nuclear medicine",
+      "D": "CT",
+      "E": "MR"
     },
     "answer": "C",
-    "explanation": "While the Beer-Lambert law is fundamental to absorption spectroscopy, its direct application in fNIRS is hindered by the high scattering nature of brain tissue. Scattering makes the path length (L) of light through the tissue uncertain, preventing accurate absorbance quantification."
+    "explanation": "Nuclear medicine techniques are particularly valuable for assessing bone marrow function, providing insights into metabolic activity and cellular processes within the bone."
   },
   {
-    "question": "How is fNIRS typically used to quantify changes in HbO2 and Hb in tissue?",
+    "question": "What is the approximate cost range of an ultrasound imaging system?",
     "options": {
-      "A": "By measuring absolute concentrations of HbO2 and Hb",
-      "B": "By using complex mathematical models to correct for scattering",
-      "C": "By measuring relative changes in HbO2 and Hb concentrations",
-      "D": "By comparing measurements to a standard reference tissue"
-    },
-    "answer": "C",
-    "explanation": "Due to the scattering challenges, fNIRS is primarily employed to quantify relative changes in the concentrations of HbO2 and Hb in tissue. This approach circumvents the need for absolute concentration measurements, which are difficult to obtain accurately in vivo."
-  },
-  {
-    "question": "What is achieved by using arrays of sources and detectors in fNIRS?",
-    "options": {
-      "A": "Measuring brain activity at a single point with high precision",
-      "B": "Mapping the activated area of the brain",
-      "C": "Measuring the electrical activity of the brain",
-      "D": "Imaging the structure of the brain"
+      "A": "$10K - $50K",
+      "B": "$100K - $250K",
+      "C": "$400K - $1.5 million",
+      "D": "$1 million - $3 million",
+      "E": "Over $5 million"
     },
     "answer": "B",
-    "explanation": "The use of arrays of light sources and detectors in fNIRS enables the mapping of brain activity over a wider area. By analyzing the signals from multiple source-detector pairs, researchers can create topographic images of brain activation."
+    "explanation": "The cost of an ultrasound imaging system typically falls within the range of $100,000 to $250,000, making it relatively more affordable compared to other modalities like CT or MRI."
   },
   {
-    "question": "What are the two main steps involved in fluorescence spectroscopy?",
+    "question": "What is the approximate cost range of a helical CT scanner?",
     "options": {
-      "A": "Absorption of incident light and emission of fluorescence",
-      "B": "Scattering of incident light and absorption of scattered light",
-      "C": "Reflection of incident light and detection of reflected light",
-      "D": "Transmission of incident light and measurement of transmitted light"
-    },
-    "answer": "A",
-    "explanation": "Fluorescence spectroscopy encompasses two fundamental steps. First, the absorption of incident light by a molecule excites its electrons to higher energy levels. Second, some electrons return to the ground state by emitting light, known as fluorescence."
-  },
-  {
-    "question": "What is Stokes shift?",
-    "options": {
-      "A": "The difference in energy between the absorbed and emitted photons in fluorescence",
-      "B": "The shift in the absorption spectrum of a molecule due to changes in pH",
-      "C": "The change in the scattering of light by a molecule upon excitation",
-      "D": "The increase in fluorescence intensity with increasing excitation intensity"
-    },
-    "answer": "A",
-    "explanation": "Stokes shift refers to the energy difference, typically observed as a difference in wavelength, between the absorbed photon during excitation and the emitted photon during fluorescence. The emitted photon has lower energy (longer wavelength) than the absorbed photon."
-  },
-  {
-    "question": "Why is fluorescence a common method for labeling in biological studies?",
-    "options": {
-      "A": "Because it is inexpensive and easy to implement",
-      "B": "Because it provides high sensitivity, non-invasive detection, and is minimally destructive",
-      "C": "Because it can be used to label any molecule",
-      "D": "Because it does not require specialized equipment"
+      "A": "$100K - $250K",
+      "B": "$400K - $1.5 million",
+      "C": "$1 million - $3 million",
+      "D": "$3 million - $5 million",
+      "E": "Over $5 million"
     },
     "answer": "B",
-    "explanation": "Fluorescence has gained widespread adoption as a labeling technique in biological research due to its several advantages. It offers high sensitivity, allows for non-invasive detection, minimizes sample damage, utilizes relatively simple instrumentation, and benefits from commercially available conjugates for targeting biomolecules."
+    "explanation": "Helical CT scanners, offering advanced imaging capabilities, generally come with a price tag between $400,000 and $1.5 million."
   },
   {
-    "question": "What is the purpose of optical filters in fluorescence detection?",
+    "question": "What factors contribute to the overall cost of operating an MRI system in a hospital setting?",
     "options": {
-      "A": "To increase the intensity of the excitation light",
-      "B": "To block stray light from reaching the detector",
-      "C": "To select the appropriate excitation wavelength and detect fluorescence emission within a specific bandwidth",
-      "D": "To amplify the fluorescence signal"
+      "A": "The initial purchase price of the equipment",
+      "B": "Annual service and maintenance costs",
+      "C": "Salaries of technologists who perform the scans",
+      "D": "Siting and installation expenses",
+      "E": "All of the above"
     },
-    "answer": "C",
-    "explanation": "Optical filters play a crucial role in fluorescence detection by ensuring the selection of the proper excitation wavelength and isolating the fluorescence emission within a desired bandwidth. This prevents overlap between excitation and emission signals and ensures accurate measurement."
-  },
-  {
-    "question": "What is Fluorescence Resonance Energy Transfer (FRET)?",
-    "options": {
-      "A": "The transfer of energy from an excited molecule to a ground-state molecule through radiative emission",
-      "B": "The transfer of energy between two molecules through collisions",
-      "C": "The non-radiative transfer of energy from an excited donor molecule to an acceptor molecule",
-      "D": "The absorption of light by a molecule followed by the emission of light at a longer wavelength"
-    },
-    "answer": "C",
-    "explanation": "Fluorescence Resonance Energy Transfer (FRET) involves the non-radiative transfer of energy from an excited donor molecule to an acceptor molecule. This transfer occurs when the emission spectrum of the donor overlaps with the absorption spectrum of the acceptor, and the molecules are in close proximity."
-  },
-  {
-    "question": "What is the typical distance range between the donor and acceptor molecules in FRET?",
-    "options": {
-      "A": "1-10 nm",
-      "B": "10-100 nm",
-      "C": "100-1000 nm",
-      "D": "1-10 μm"
-    },
-    "answer": "A",
-    "explanation": "For efficient FRET, the donor and acceptor molecules need to be in close proximity. The typical distance range for FRET to occur is between 1 and 10 nanometers."
-  },
-  {
-    "question": "How is FRET used as a molecular ruler?",
-    "options": {
-      "A": "By measuring the intensity of the donor emission",
-      "B": "By measuring the lifetime of the donor excitation state",
-      "C": "By directly measuring the distance between the donor and acceptor",
-      "D": "By measuring the intensity of the acceptor emission"
-    },
-    "answer": "B",
-    "explanation": "The efficiency of FRET is highly sensitive to the distance between the donor and acceptor molecules. By measuring the lifetime of the donor's excited state, which is influenced by FRET, researchers can indirectly determine the distance between the two molecules, making FRET a valuable molecular ruler."
-  },
-  {
-    "question": "What are the key features of flow cytometry?",
-    "options": {
-      "A": "Measuring the absorption spectra of cells",
-      "B": "Labeling cells with fluorescent dyes, laser excitation, multi-channel detection, cell counting, fluorescence intensity recording, and cell sorting",
-      "C": "Imaging cells in three dimensions",
-      "D": "Analyzing the chemical composition of cells"
-    },
-    "answer": "B",
-    "explanation": "Flow cytometry is a powerful technique that involves labeling cells with fluorescent dyes, exciting them with a laser, detecting fluorescence in multiple channels, counting cells, recording fluorescence intensity from individual cells, and even sorting cells based on their properties."
-  },
-  {
-    "question": "What type of data does a histogram in flow cytometry represent?",
-    "options": {
-      "A": "The size distribution of cells",
-      "B": "The distribution of single fluorescence intensity from individual cells",
-      "C": "The concentration of cells in a sample",
-      "D": "The morphology of cells"
-    },
-    "answer": "B",
-    "explanation": "A histogram in flow cytometry typically displays the distribution of single fluorescence intensity values measured from a population of individual cells. This provides insights into the expression levels of labeled molecules within the cells."
-  },
-  {
-    "question": "What information does a scatter plot in flow cytometry convey?",
-    "options": {
-      "A": "The relationship between cell size and fluorescence intensity",
-      "B": "The correlation between two different fluorescence intensities from cells labeled with two different dyes",
-      "C": "The time course of fluorescence intensity changes",
-      "D": "The spatial distribution of fluorescence within cells"
-    },
-    "answer": "B",
-    "explanation": "A scatter plot in flow cytometry visualizes the relationship between two different fluorescence intensities emitted from cells that have been labeled with two distinct fluorescent dyes. This allows for the analysis of multiple cellular parameters simultaneously."
-  },
-  {
-    "question": "What factors can influence the intensity and spectra of fluorescence?",
-    "options": {
-      "A": "Temperature, pressure, and gravitational force",
-      "B": "Solvent, pH, presence of ions/molecules, protein conformation",
-      "C": "The type of laser used for excitation",
-      "D": "The concentration of the fluorescent dye"
-    },
-    "answer": "B",
-    "explanation": "The intensity and spectral characteristics of fluorescence are sensitive to the surrounding environment. Factors such as the solvent, pH level, presence of other ions or molecules, and protein conformation can all influence fluorescence measurements."
-  },
-  {
-    "question": "What is photobleaching?",
-    "options": {
-      "A": "The increase in fluorescence intensity over time",
-      "B": "The loss of fluorescence emission under prolonged excitation",
-      "C": "The shift in the fluorescence spectrum to longer wavelengths",
-      "D": "The splitting of a fluorescence peak into multiple peaks"
-    },
-    "answer": "B",
-    "explanation": "Photobleaching refers to the phenomenon where a fluorescent molecule gradually loses its ability to emit light under continuous or prolonged excitation. This is a common issue in fluorescence microscopy and can limit the duration of imaging experiments."
-  },
-  {
-    "question": "Why are fluorescent dyes commonly used in biological imaging?",
-    "options": {
-      "A": "Because they provide structural information about cells",
-      "B": "Because they are naturally present in most cells",
-      "C": "Because they enhance contrast and enable molecule-specific imaging",
-      "D": "Because they are less expensive than other labeling methods"
-    },
-    "answer": "C",
-    "explanation": "Fluorescent dyes are frequently employed in biological imaging due to their ability to enhance contrast and provide molecule-specific visualization. The intrinsic fluorescence of biological samples (autofluorescence) is often weak, making exogenous dyes essential for clear imaging."
+    "answer": "E",
+    "explanation": "The total cost of operating an MRI system encompasses various factors, including the initial equipment purchase, ongoing service contracts, staffing costs for technologists, and the expenses associated with siting and installation."
   }
 ]
-    
