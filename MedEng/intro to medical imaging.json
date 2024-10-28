@@ -1,542 +1,600 @@
+Here are 50 multiple-choice questions in the requested JSON format based on the provided excerpt from "Optical sensing in biomedicine_2024.pdf".
+
+```json
 [
   {
-    "question": "最早被應用於醫學影像的技術是什麼？",
+    "question": "What is the definition of biophotonics?",
     "options": {
-      "A": "核磁共振 (MRI)",
-      "B": "電腦斷層掃描 (CT)",
-      "C": "X光 (X-ray)",
-      "D": "超音波 (Ultrasound)",
-      "E": "正子斷層掃描 (PET)"
-    },
-    "answer": "C",
-    "explanation": "X光是由威廉·倫琴於1895年發現，並迅速應用於醫學影像。"
-  },
-  {
-    "question": "投影式X光的優點是什麼？",
-    "options": {
-      "A": "能提供深度資訊",
-      "B": "價格昂貴",
-      "C": "操作複雜",
-      "D": "價格便宜",
-      "E": "能顯示三維影像"
-    },
-    "answer": "D",
-    "explanation": "投影式X光的主要優點是價格便宜且操作簡單，但缺點是無法提供深度資訊。"
-  },
-  {
-    "question": "下列哪一項不是倫琴對於X光的早期結論？",
-    "options": {
-      "A": "X光無法反射",
-      "B": "X光無法折射",
-      "C": "X光是一種電磁波",
-      "D": "X光不受鏡子或透鏡影響",
-      "E": "X光主要表現出粒子行為"
-    },
-    "answer": "C",
-    "explanation": "由於觀察到X光無法反射、折射，且不受鏡子或透鏡影響，倫琴最初認為X光不是一種電磁波。"
-  },
-  {
-    "question": "下列哪一項技術能提供真正的三維影像？",
-    "options": {
-      "A": "投影式X光",
-      "B": "電腦斷層掃描 (CT)",
-      "C": "核醫學 (Nuclear medicine)",
-      "D": "超音波 (Ultrasound)",
-      "E": "磁振造影 (MRI)"
+      "A": "The study of photons",
+      "B": "The interaction of photons with biological material",
+      "C": "The study of biological materials",
+      "D": "The use of light in surgery"
     },
     "answer": "B",
-    "explanation": "電腦斷層掃描 (CT) 於1970年代問世，是第一種能提供真正三維影像的技術。"
+    "explanation": "Biophotonics is defined as the study of the interaction of light with biological material, encompassing all forms of radiant energy with the photon as its quantum unit."
   },
   {
-    "question": "第一代CT掃描儀是如何運作的？",
+    "question": "How is biophotonics used in medicine?",
     "options": {
-      "A": "同時掃描整個身體",
-      "B": "使用旋轉式X光束",
-      "C": "使用扇形X光束",
-      "D": "使用靜態X光源",
-      "E": "利用單一投影重建影像"
+      "A": "To create incisions in tissue",
+      "B": "To study tissue and blood for disease detection, diagnosis, and treatment",
+      "C": "To provide energy for cellular processes",
+      "D": "To amplify light signals for better visualization"
     },
     "answer": "B",
-    "explanation": "第一代CT掃描儀使用鉛筆式X光束和探測器，透過平移和旋轉的方式，逐漸獲取身體的投影數據。"
+    "explanation": "In medicine, biophotonics is employed to examine tissue and blood at both macro and micro levels. This non-invasive approach aids in the detection, diagnosis, and treatment of diseases."
   },
   {
-    "question": "CT影像重建的兩個主要步驟是什麼？",
+    "question": "What are the advantages of using optical detection in biomedicine?",
     "options": {
-      "A": "直接叠加投影和反投影",
-      "B": "濾波投影和反投影",
-      "C": "傅立葉變換和反傅立葉變換",
-      "D": "小波變換和反小波變換",
-      "E": "主成分分析和反主成分分析"
+      "A": "It is invasive and provides detailed cellular information",
+      "B": "It is non-invasive, sensitive, fast, and offers high spatial resolution",
+      "C": "It is primarily used for surgical procedures",
+      "D": "It requires extensive sample preparation"
     },
     "answer": "B",
-    "explanation": "CT影像重建需要先對每個投影進行濾波，以校正極坐標網格上的採樣數據，然後再沿探測器計算的線積分進行反投影。"
+    "explanation": "Optical detection offers several benefits in biomedicine: it is non-invasive, minimizes disturbance, exhibits sensitivity, enables fast real-time monitoring, and provides high spatial resolution."
   },
   {
-    "question": "核醫學的主要優勢是什麼？",
+    "question": "What are the limitations of optical detection?",
     "options": {
-      "A": "高解析度影像",
-      "B": "能顯示解剖結構",
-      "C": "能顯示生理功能",
-      "D": "使用外部放射源",
-      "E": "無需使用放射性示蹤劑"
-    },
-    "answer": "C",
-    "explanation": "核醫學利用放射性示蹤劑被特定器官吸收的特性，直接顯示疾病的生理過程和功能。"
-  },
-  {
-    "question": "為什麼核醫學影像的解析度相對較差？",
-    "options": {
-      "A": "使用高能量放射線",
-      "B": "使用外部放射源",
-      "C": "放射性示蹤劑濃度高",
-      "D": "放射性示蹤劑濃度低",
-      "E": "影像重建算法複雜"
-    },
-    "answer": "D",
-    "explanation": "為了安全起見，核醫學使用的放射性示蹤劑濃度非常低，導致每個像素接收到的光子數量有限，進而影響影像解析度。"
-  },
-  {
-    "question": "下列哪一項不是醫學影像探針的必要特性？",
-    "options": {
-      "A": "波長必須足夠短以提供足夠的解析度",
-      "B": "身體必須對探針完全透明",
-      "C": "探針可以是內部的或外部的",
-      "D": "探針必須與生物組織產生交互作用",
-      "E": "探針必須能區分正常和異常組織"
-    },
-    "answer": "B",
-    "explanation": "醫學影像探針的必要特性包括：波長足夠短、身體對探針半透明、可以是內部或外部的。"
-  },
-  {
-    "question": "標準X光使用的波長範圍是多少？",
-    "options": {
-      "A": "10 cm < λ",
-      "B": "λ < 0.01 Å",
-      "C": "0.01 Å < λ < 0.5 Å",
-      "D": "0.5 Å < λ < 10 cm",
-      "E": "λ = 1 Å"
-    },
-    "answer": "C",
-    "explanation": "標準X光使用的波長範圍是 0.01 Å < λ < 0.5 Å，對應的能量約為 25 kev 到 1.2 Mev。"
-  },
-  {
-    "question": "核磁共振 (NMR) 影像的訊號來源是什麼？",
-    "options": {
-      "A": "電子自旋",
-      "B": "原子核自旋",
-      "C": "光子散射",
-      "D": "超音波反射",
-      "E": "放射性衰變"
-    },
-    "answer": "B",
-    "explanation": "核磁共振 (NMR) 影像的訊號來源是原子核的自旋，特別是氫原子核 (1H) 的自旋。"
-  },
-  {
-    "question": "超音波影像的解析度與什麼因素成正比？",
-    "options": {
-      "A": "頻率",
-      "B": "波長",
-      "C": "脈衝強度",
-      "D": "聲速",
-      "E": "組織密度"
-    },
-    "answer": "B",
-    "explanation": "超音波影像的解析度受繞射限制，解析度與波長成正比。"
-  },
-  {
-    "question": "下列哪一項醫學影像技術測量的是衰減係數的線積分？",
-    "options": {
-      "A": "X光",
-      "B": "CT",
-      "C": "核醫學",
-      "D": "超音波",
-      "E": "MRI"
+      "A": "Limited penetration depth and the need for a signal/contrast source",
+      "B": "High cost and complexity of equipment",
+      "C": "Slow data acquisition and low sensitivity",
+      "D": "Inability to detect specific molecules"
     },
     "answer": "A",
-    "explanation": "X光測量的是衰減係數的線積分，CT則利用多個投影重建影像。"
+    "explanation": "Optical detection faces limitations regarding penetration depth and the requirement for a source of signal or contrast."
   },
   {
-    "question": "核醫學影像的主要優勢是什麼？",
+    "question": "What two phenomena can occur during light propagation through a medium?",
     "options": {
-      "A": "高解析度影像",
-      "B": "顯示解剖結構",
-      "C": "顯示生理功能",
-      "D": "使用外部放射源",
-      "E": "無需使用放射性示蹤劑"
+      "A": "Reflection and refraction",
+      "B": "Diffraction and interference",
+      "C": "Scattering and absorption",
+      "D": "Polarization and dispersion"
     },
     "answer": "C",
-    "explanation": "核醫學影像的主要優勢是能顯示生理功能，例如器官代謝。"
+    "explanation": "As light travels through a medium, it can undergo scattering, a random change in propagation direction, and absorption, an attenuation in intensity."
   },
   {
-    "question": "超音波成像技術基於什麼原理？",
+    "question": "Why is light often considered as particles when describing light-matter interaction?",
     "options": {
-      "A": "電磁波的傳播和反射",
-      "B": "放射性同位素的衰變",
-      "C": "原子核自旋的共振",
-      "D": "聲波的傳播和反射",
-      "E": "光子的散射"
-    },
-    "answer": "D",
-    "explanation": "超音波成像技術利用聲波在體內的傳播和反射來產生影像。"
-  },
-  {
-    "question": "超音波成像技術中，回波時間與什麼因素有關？",
-    "options": {
-      "A": "組織密度",
-      "B": "聲速",
-      "C": "脈衝強度",
-      "D": "深度",
-      "E": "頻率"
-    },
-    "answer": "D",
-    "explanation": "超音波成像技術假設聲波在水和軟組織中的速度近似恆定，因此回波時間可以用来推算深度。"
-  },
-  {
-    "question": "在超音波成像技術中，提高頻率會導致什麼結果？",
-    "options": {
-      "A": "解析度降低，衰減降低",
-      "B": "解析度提高，衰減降低",
-      "C": "解析度降低，衰減提高",
-      "D": "解析度提高，衰減提高",
-      "E": "解析度和衰減不受影響"
-    },
-    "answer": "D",
-    "explanation": "提高超音波頻率會縮短波長，從而提高解析度，但同時也會增加衰減。"
-  },
-  {
-    "question": "為什麼在超音波成像技術中不能使用非常強的脈衝？",
-    "options": {
-      "A": "會降低影像解析度",
-      "B": "會損壞超音波探頭",
-      "C": "可能會損壞組織",
-      "D": "會增加影像雜訊",
-      "E": "會降低影像對比度"
-    },
-    "answer": "C",
-    "explanation": "高能量的超音波可能會導致組織損傷，例如空化現象和溫度升高。"
-  },
-  {
-    "question": "MRI 中的靜態磁場 (B0) 有什麼作用？",
-    "options": {
-      "A": "激發原子核",
-      "B": "產生共振頻率",
-      "C": "編碼空間位置",
-      "D": "測量弛豫時間",
-      "E": "產生影像對比"
+      "A": "Because light always behaves as particles",
+      "B": "Because it simplifies the description of interactions with matter",
+      "C": "Because light particles are easier to detect",
+      "D": "Because light waves are not relevant in this context"
     },
     "answer": "B",
-    "explanation": "MRI 中的靜態磁場 (B0) 會使樣本極化，並產生共振頻率。"
+    "explanation": "While light exhibits both wave and particle properties, conceptualizing light as particles proves more convenient when explaining its interactions with matter."
   },
   {
-    "question": "氫原子核 (1H) 在 1.5T 磁場中的共振頻率是多少？",
+    "question": "What information can be obtained by measuring wavelength-dependent changes in light after it interacts with matter?",
     "options": {
-      "A": "1.5 MHz",
-      "B": "42.57 MHz",
-      "C": "64 MHz",
-      "D": "100 MHz",
-      "E": "150 MHz"
+      "A": "The temperature of the matter",
+      "B": "The density of the matter",
+      "C": "Information about the matter itself",
+      "D": "The velocity of the matter"
     },
     "answer": "C",
-    "explanation": "氫原子核 (1H) 在 1.5T 磁場中的共振頻率為 64 MHz，根據公式 ω = γB，其中 γ 為氫原子核的旋磁比。"
+    "explanation": "Analyzing the wavelength-dependent alterations in light following its interaction with matter provides valuable insights into the characteristics of the matter under investigation."
   },
   {
-    "question": "MRI 中的射頻 (RF) 線圈有什麼作用？",
+    "question": "How is spectroscopy used in astronomy?",
     "options": {
-      "A": "產生靜態磁場",
-      "B": "激發原子核",
-      "C": "編碼空間位置",
-      "D": "測量弛豫時間",
-      "E": "產生影像對比"
+      "A": "To measure the distance to stars",
+      "B": "To determine the size of galaxies",
+      "C": "To study the chemical composition and motion of celestial objects",
+      "D": "To image the surface of planets"
+    },
+    "answer": "C",
+    "explanation": "In the field of astronomy, spectroscopic techniques relying on light absorption and emission are instrumental in determining the chemical makeup and movement patterns of distant stars and galaxies."
+  },
+  {
+    "question": "What technique is used to identify and quantify metals in environmental samples?",
+    "options": {
+      "A": "Mass spectrometry",
+      "B": "Gas chromatography",
+      "C": "Flame atomic absorption spectroscopy",
+      "D": "X-ray diffraction"
+    },
+    "answer": "C",
+    "explanation": "Flame atomic absorption spectroscopy serves as a technique for identifying and quantifying metals present in environmental samples."
+  },
+  {
+    "question": "What is the basis of Bohr's model of a hydrogen atom?",
+    "options": {
+      "A": "Electrons move randomly around the nucleus",
+      "B": "Electrons occupy specific orbitals with quantized energy levels",
+      "C": "The nucleus contains both protons and electrons",
+      "D": "Electrons can have any energy level"
     },
     "answer": "B",
-    "explanation": "MRI 中的射頻 (RF) 線圈會發送與共振頻率 ω 相同的脈衝，產生與 B0 正交的 B1 磁場，用於激發原子核。"
+    "explanation": "Bohr's model of the hydrogen atom postulates that electrons reside in distinct orbitals characterized by quantized energy levels, meaning they can only possess specific energy values."
   },
   {
-    "question": "MRI 如何編碼空間位置？",
+    "question": "What happens when an electron in an atom jumps from one permitted orbit to another?",
     "options": {
-      "A": "使用靜態磁場",
-      "B": "使用射頻磁場",
-      "C": "使用梯度磁場線圈",
-      "D": "測量弛豫時間",
-      "E": "分析訊號強度"
+      "A": "The atom changes its mass",
+      "B": "The atom releases or absorbs a neutron",
+      "C": "The atom emits or absorbs a photon of light",
+      "D": "The atom becomes unstable and decays"
     },
     "answer": "C",
-    "explanation": "MRI 使用梯度磁場線圈來編碼空間位置，透過改變磁場強度來改變不同位置的質子的共振頻率。"
+    "explanation": "When an electron transitions between permitted orbits in an atom, it either emits or absorbs a photon of light, corresponding to the energy difference between the two orbitals."
   },
   {
-    "question": "MRI 如何產生影像對比？",
+    "question": "What is the Rydberg constant?",
     "options": {
-      "A": "調整靜態磁場強度",
-      "B": "調整射頻脈衝頻率",
-      "C": "調整梯度磁場強度",
-      "D": "利用不同組織的弛豫時間差異",
-      "E": "分析訊號相位"
-    },
-    "answer": "D",
-    "explanation": "MRI 利用不同組織的弛豫時間差異，例如 T1 和 T2，來產生影像對比。"
-  },
-  {
-    "question": "為什麼需要多種醫學影像技術？",
-    "options": {
-      "A": "每種技術測量的物理特性不同",
-      "B": "不同技術的成本和可用性不同",
-      "C": "不同技術的安全性不同",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "需要多種醫學影像技術的原因包括：每種技術測量的物理特性不同、成本和可用性不同、安全性不同等。"
-  },
-  {
-    "question": "X光成像的主要缺點是什麼？",
-    "options": {
-      "A": "使用游離輻射",
-      "B": "解析度低",
-      "C": "成本高",
-      "D": "可用性低",
-      "E": "操作複雜"
-    },
-    "answer": "A",
-    "explanation": "X光成像的主要缺點是使用游離輻射，雖然風險很小，但仍需注意。"
-  },
-  {
-    "question": "超音波成像的主要優點是什麼？",
-    "options": {
-      "A": "高解析度影像",
-      "B": "無輻射風險",
-      "C": "成本低",
-      "D": "可用性高",
-      "E": "以上皆是"
-    },
-    "answer": "E",
-    "explanation": "超音波成像的主要優點包括：高解析度影像、無輻射風險、成本低、可用性高等。"
-  },
-  {
-    "question": "超音波成像的主要缺點是什麼？",
-    "options": {
-      "A": "在空氣或骨骼界面會產生嚴重失真",
-      "B": "解析度低",
-      "C": "成本高",
-      "D": "可用性低",
-      "E": "操作複雜"
-    },
-    "answer": "A",
-    "explanation": "超音波成像的主要缺點是在空氣或骨骼界面會產生嚴重失真。"
-  },
-  {
-    "question": "MRI 成像的主要優點是什麼？",
-    "options": {
-      "A": "多參數成像",
-      "B": "對速度敏感",
-      "C": "安全性高",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "MRI 成像的主要優點包括：多參數成像、對速度敏感、安全性高等。"
-  },
-  {
-    "question": "MRI 成像的主要缺點是什麼？",
-    "options": {
-      "A": "射頻穿透效應可能導致影像失真",
-      "B": "解析度低",
-      "C": "成本低",
-      "D": "可用性高",
-      "E": "操作簡單"
-    },
-    "answer": "A",
-    "explanation": "MRI 成像的主要缺點是射頻穿透效應可能導致影像失真。"
-  },
-  {
-    "question": "下列哪種影像技術最適合檢查心臟？",
-    "options": {
-      "A": "X光",
-      "B": "CT",
-      "C": "超音波",
-      "D": "核醫學",
-      "E": "MRI"
+      "A": "A fundamental constant relating to the speed of light",
+      "B": "A constant specific to hydrogen atoms",
+      "C": "A constant determining the energy levels in atoms",
+      "D": "A constant related to the mass of an electron"
     },
     "answer": "C",
-    "explanation": "超音波是檢查心臟的首選影像技術，具有即時、非侵入性和價格便宜的優點。"
+    "explanation": "The Rydberg constant (R) is a fundamental constant that plays a crucial role in determining the energy levels within atoms."
   },
   {
-    "question": "下列哪種影像技術最適合檢查骨骼系統？",
+    "question": "What is Planck's constant?",
     "options": {
-      "A": "X光",
-      "B": "CT",
-      "C": "超音波",
-      "D": "核醫學",
-      "E": "MRI"
+      "A": "A constant relating energy and frequency of light",
+      "B": "A constant determining the gravitational force",
+      "C": "A constant related to the charge of an electron",
+      "D": "A constant specific to the hydrogen atom"
     },
     "answer": "A",
-    "explanation": "X光對於骨骼系統的檢查非常有效，特別是使用導管注射造影劑時。"
+    "explanation": "Planck's constant (h) is a fundamental constant that establishes the relationship between the energy and frequency of light."
   },
   {
-    "question": "下列哪種影像技術能提供骨骼灌注的功能性資訊？",
+    "question": "How can the concept of atomic orbitals be extended to molecules?",
     "options": {
-      "A": "X光",
-      "B": "CT",
-      "C": "超音波",
-      "D": "核醫學",
-      "E": "MRI"
-    },
-    "answer": "D",
-    "explanation": "核醫學能提供骨骼灌注的功能性資訊。"
-  },
-  {
-    "question": "下列哪種影像技術最昂貴？",
-    "options": {
-      "A": "超音波",
-      "B": "CT",
-      "C": "MRI",
-      "D": "X光",
-      "E": "核醫學"
-    },
-    "answer": "C",
-    "explanation": "MRI 的價格最昂貴，從 35 萬美元 (膝蓋) 到 400 萬美元 (場地) 不等。"
-  },
-  {
-    "question": "醫學影像學的目標是什麼？",
-    "options": {
-      "A": "治療疾病",
-      "B": "開發新技術",
-      "C": "降低醫療成本",
-      "D": "從背景中檢測異常",
-      "E": "以上皆是"
-    },
-    "answer": "D",
-    "explanation": "醫學影像學的目標是從背景中檢測異常 (目標)。"
-  },
-  {
-    "question": "下列哪一項不是醫學影像的應用？",
-    "options": {
-      "A": "診斷",
-      "B": "治療計畫/指導",
-      "C": "藥物研發",
-      "D": "介入治療",
-      "E": "功能性評估"
-    },
-    "answer": "C",
-    "explanation": "醫學影像的應用包括診斷、治療計畫/指導、介入治療、功能性評估等。"
-  },
-  {
-    "question": "下列哪一項不是醫學影像的規格/品質指標？",
-    "options": {
-      "A": "時間解析度",
-      "B": "空間解析度",
-      "C": "對比度 (對雜訊)",
-      "D": "訊噪比",
-      "E": "成本效益"
-    },
-    "answer": "E",
-    "explanation": "醫學影像的規格/品質指標包括時間解析度、空間解析度、對比度 (對雜訊)、訊噪比等。"
-  },
-  {
-    "question": "醫學影像的演進趨勢是什麼？",
-    "options": {
-      "A": "從解剖學到功能性",
-      "B": "從二維到三維",
-      "C": "從靜態到動態",
-      "D": "從宏觀到微觀",
-      "E": "以上皆是"
-    },
-    "answer": "E",
-    "explanation": "醫學影像的演進趨勢包括從解剖學到功能性、從二維到三維、從靜態到動態、從宏觀到微觀等。"
-  },
-  {
-    "question": "細胞 (分子) 影像學的目標是什麼？",
-    "options": {
-      "A": "觀察細胞結構",
-      "B": "研究細胞功能",
-      "C": "可視化體內生物過程",
-      "D": "診斷疾病",
-      "E": "以上皆是"
-    },
-    "answer": "C",
-    "explanation": "細胞 (分子) 影像學的目標是可視化體內生物過程。"
-  },
-  {
-    "question": "下列哪一項技術可以提供細胞 (分子) 影像？",
-    "options": {
-      "A": "X光",
-      "B": "CT",
-      "C": "超音波",
-      "D": "核醫學",
-      "E": "MRI"
-    },
-    "answer": "D",
-    "explanation": "核醫學，例如 PET 和 SPECT，可以提供細胞 (分子) 影像。"
-  },
-  {
-    "question": "虛擬內視鏡檢查的優點是什麼？",
-    "options": {
-      "A": "非侵入性",
-      "B": "提供三維影像",
-      "C": "無需使用內視鏡",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "虛擬內視鏡檢查的優點包括非侵入性、提供三維影像、無需使用內視鏡等。"
-  },
-  {
-    "question": "動態醫學影像的優點是什麼？",
-    "options": {
-      "A": "提供時間資訊",
-      "B": "可以觀察器官運動",
-      "C": "可以研究生理過程",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "動態醫學影像的優點包括提供時間資訊、可以觀察器官運動、可以研究生理過程等。"
-  },
-  {
-    "question": "醫學影像可以用於哪些生化研究？",
-    "options": {
-      "A": "代謝研究",
-      "B": "蛋白質研究",
-      "C": "基因研究",
-      "D": "藥物研究",
-      "E": "以上皆是"
-    },
-    "answer": "E",
-    "explanation": "醫學影像可以用於各種生化研究，例如代謝研究、蛋白質研究、基因研究、藥物研究等。"
-  },
-  {
-    "question": "靶向藥物治療的優點是什麼？",
-    "options": {
-      "A": "減少副作用",
-      "B": "提高藥物療效",
-      "C": "降低治療成本",
-      "D": "以上皆是",
-      "E": "以上皆非"
-    },
-    "answer": "D",
-    "explanation": "靶向藥物治療的優點包括減少副作用、提高藥物療效、降低治療成本等。"
-  },
-  {
-    "question": "功能性 MRI (fMRI) 的原理是什麼？",
-    "options": {
-      "A": "測量血流變化",
-      "B": "測量腦電波變化",
-      "C": "測量肌肉活動變化",
-      "D": "測量溫度變化",
-      "E": "測量化學物質濃度變化"
+      "A": "Molecular orbitals are formed by the combination of atomic orbitals",
+      "B": "Molecular orbitals are independent of atomic orbitals",
+      "C": "Molecular orbitals have continuous energy levels",
+      "D": "Molecular orbitals only exist in excited states"
     },
     "answer": "A",
-    "explanation": "功能性 MRI (fMRI) 的原理是測量血流變化，利用血氧濃度依賴性 (BOLD) 對比來反映大腦活動。"
+    "explanation": "The concept of atomic orbitals, where electrons reside in stationary states with quantized energy levels, can be extended to molecules. Molecular orbitals arise from the interaction of atomic orbitals and also possess quantized energy levels."
   },
   {
-    "question": "醫學影像技術的未來發展趨勢是什麼？",
+    "question": "What effect can external light radiation have on electrons in a molecule?",
     "options": {
-      "A": "更高解析度",
-      "B": "更快速成像",
-      "C": "更低輻射劑量",
-      "D": "更個性化醫療",
-      "E": "以上皆是"
+      "A": "It can cause the electrons to move freely in space",
+      "B": "It can induce changes in electron orbitals and cause nuclear vibrations",
+      "C": "It has no effect on electrons in molecules",
+      "D": "It can change the chemical composition of the molecule"
     },
-    "answer": "E",
-    "explanation": "醫學影像技術的未來發展趨勢包括更高解析度、更快速成像、更低輻射劑量、更個性化醫療等。"
+    "answer": "B",
+    "explanation": "External light radiation, specifically its electric field component, can influence electrons in a molecule. It can induce transitions between orbitals, thereby altering energy levels, and can also initiate vibrations of the atomic nuclei."
+  },
+  {
+    "question": "What information can be obtained from spectroscopic measurements of absorbed, emitted, and Raman scattered photons?",
+    "options": {
+      "A": "The mass of the molecule",
+      "B": "The temperature of the molecule",
+      "C": "The velocity of the molecule",
+      "D": "The energy states of the molecule"
+    },
+    "answer": "D",
+    "explanation": "Spectroscopic measurements analyzing absorbed, emitted, and Raman scattered photons provide insights into the energy states of a molecule."
+  },
+  {
+    "question": "What is the relationship between energy differences between energy levels and the frequency of light?",
+    "options": {
+      "A": "They are inversely proportional",
+      "B": "They are directly proportional",
+      "C": "There is no relationship",
+      "D": "The relationship depends on the molecule"
+    },
+    "answer": "B",
+    "explanation": "The energy differences between energy levels are directly proportional to the frequency of light involved in the transition. Higher energy differences correspond to higher frequencies."
+  },
+  {
+    "question": "Which energy states are typically involved in sensing and excitation of biomolecules?",
+    "options": {
+      "A": "Rotational states",
+      "B": "Nuclear states",
+      "C": "Electronic and vibrational states",
+      "D": "Translational states"
+    },
+    "answer": "C",
+    "explanation": "Electronic and vibrational states within molecules are predominantly implicated in sensing and excitation processes of biomolecules."
+  },
+  {
+    "question": "What is the primary principle behind UV-visible absorption spectroscopy?",
+    "options": {
+      "A": "Measuring the scattering of UV-visible light by molecules",
+      "B": "Analyzing the emission of light by molecules after UV-visible excitation",
+      "C": "Measuring the absorption of UV-visible light by molecules at specific wavelengths",
+      "D": "Measuring the change in polarization of UV-visible light after interacting with molecules"
+    },
+    "answer": "C",
+    "explanation": "UV-visible absorption spectroscopy operates on the principle of quantifying the absorption of UV-visible light by molecules at specific wavelengths, providing information about their electronic transitions."
+  },
+  {
+    "question": "What are the two main types of UV-visible spectrometers?",
+    "options": {
+      "A": "Single-beam and double-beam",
+      "B": "Scanning and multi-channel",
+      "C": "Reflective and transmissive",
+      "D": "Static and dynamic"
+    },
+    "answer": "B",
+    "explanation": "UV-visible spectrometers can be broadly categorized into scanning and multi-channel types, each employing different mechanisms for wavelength selection and detection."
+  },
+  {
+    "question": "What is the Beer-Lambert law?",
+    "options": {
+      "A": "A law describing the relationship between light intensity and distance",
+      "B": "A law explaining the reflection of light from surfaces",
+      "C": "A law relating absorbance to concentration and path length",
+      "D": "A law governing the diffraction of light through narrow slits"
+    },
+    "answer": "C",
+    "explanation": "The Beer-Lambert law establishes a quantitative relationship between the absorbance of light by a solution, the concentration of the absorbing species, and the path length of the light beam through the solution."
+  },
+  {
+    "question": "What is molar extinction coefficient?",
+    "options": {
+      "A": "A measure of a molecule's ability to absorb light at a specific wavelength",
+      "B": "A constant related to the speed of light in a medium",
+      "C": "A measure of the scattering of light by a molecule",
+      "D": "A constant specific to the instrument used for measurement"
+    },
+    "answer": "A",
+    "explanation": "The molar extinction coefficient (ε) quantifies a molecule's capacity to absorb light at a particular wavelength. A higher extinction coefficient indicates stronger absorption at that wavelength."
+  },
+  {
+    "question": "What is the typical range of molar extinction coefficients for chromophores?",
+    "options": {
+      "A": "1-10 M-1cm-1",
+      "B": "10-100 M-1cm-1",
+      "C": "100-1000 M-1cm-1",
+      "D": "1-105 M-1cm-1"
+    },
+    "answer": "D",
+    "explanation": "The molar extinction coefficients (ε) for typical chromophores usually fall within the range of 1 to 105 M-1cm-1."
+  },
+  {
+    "question": "What primarily determines the absorption spectrum of a protein?",
+    "options": {
+      "A": "The amount of lipids it contains",
+      "B": "The sequence of amino acids",
+      "C": "The amounts of tryptophan and tyrosine",
+      "D": "The presence of metal ions"
+    },
+    "answer": "C",
+    "explanation": "The absorption spectrum of a protein is predominantly governed by the quantities of tryptophan and tyrosine residues present within its structure. These aromatic amino acids exhibit strong absorption in the UV region."
+  },
+  {
+    "question": "What is the approximate absorption peak wavelength for proteins?",
+    "options": {
+      "A": "260 nm",
+      "B": "280 nm",
+      "C": "300 nm",
+      "D": "320 nm"
+    },
+    "answer": "B",
+    "explanation": "Proteins typically display an absorption peak around 280 nm, primarily due to the absorption characteristics of tryptophan and tyrosine. This peak can be utilized for estimating protein concentration using UV-vis spectroscopy."
+  },
+  {
+    "question": "What is the average molar extinction coefficient of DNA at 260 nm?",
+    "options": {
+      "A": "1102 M-1cm-1",
+      "B": "1103 M-1cm-1",
+      "C": "1104 M-1cm-1",
+      "D": "1105 M-1cm-1"
+    },
+    "answer": "C",
+    "explanation": "The average molar extinction coefficient (ε) of DNA reaches a maximum value of 1104 M-1cm-1 at a wavelength of 260 nm."
+  },
+  {
+    "question": "In what wavelength range do Hemoglobin (Hb) and HbO2 exhibit a significant difference in absorption?",
+    "options": {
+      "A": "400-500 nm",
+      "B": "500-600 nm",
+      "C": "600-1000 nm",
+      "D": "1000-1500 nm"
+    },
+    "answer": "C",
+    "explanation": "A notable disparity in absorption between Hemoglobin (Hb) and its oxygenated form (HbO2) is observed in the wavelength range of 600-1000 nm. This difference forms the basis of pulse oximetry."
+  },
+  {
+    "question": "What is oxygen saturation (SO2)?",
+    "options": {
+      "A": "The ratio of HbO2 to total hemoglobin",
+      "B": "The amount of oxygen dissolved in blood",
+      "C": "The partial pressure of oxygen in arterial blood",
+      "D": "The rate of oxygen consumption by tissues"
+    },
+    "answer": "A",
+    "explanation": "Oxygen saturation (SO2) represents the proportion of oxygenated hemoglobin (HbO2) relative to the total hemoglobin content in the blood. It is a crucial parameter for assessing oxygen delivery to tissues."
+  },
+  {
+    "question": "What is the challenge in measuring oxygen saturation in vivo?",
+    "options": {
+      "A": "The presence of scattering effects",
+      "B": "The instability of hemoglobin molecules",
+      "C": "The low concentration of hemoglobin in blood",
+      "D": "The lack of suitable wavelengths for measurement"
+    },
+    "answer": "A",
+    "explanation": "Measuring oxygen saturation in vivo is complicated by scattering effects, which influence the measured signals and make direct application of the Beer-Lambert law challenging. In vitro measurements are simpler as scattering is absent."
+  },
+  {
+    "question": "How does a pulse oximeter work?",
+    "options": {
+      "A": "By measuring the scattering of light by red blood cells",
+      "B": "By analyzing the fluorescence emission from hemoglobin",
+      "C": "By using pulsatile signals to extract oxygen saturation of arterial hemoglobin",
+      "D": "By directly measuring the partial pressure of oxygen in blood"
+    },
+    "answer": "C",
+    "explanation": "Pulse oximeters utilize the pulsatile component (AC) of the detected light, also known as photoplethysmography (PPG), to determine the oxygen saturation of arterial hemoglobin. The non-pulsatile component (DC) serves as a reference for normalization."
+  },
+  {
+    "question": "What is the purpose of using two wavelengths in pulse oximetry?",
+    "options": {
+      "A": "To increase the signal intensity",
+      "B": "To compensate for variations in skin pigmentation",
+      "C": "To eliminate the unknown factor of light path length",
+      "D": "To improve the accuracy of heart rate measurement"
+    },
+    "answer": "C",
+    "explanation": "Pulse oximetry employs two wavelengths to mitigate the influence of the unknown light path length (L), a factor affected by scattering in tissue. By measuring at two wavelengths, the ratio of ratios (R) can be calculated, allowing for SpO2 determination."
+  },
+  {
+    "question": "How is the relationship between the ratio of ratios (R) and SpO2 obtained in commercial pulse oximeters?",
+    "options": {
+      "A": "Through theoretical calculations",
+      "B": "By measuring SpO2 in vitro",
+      "C": "By using a standard reference solution",
+      "D": "Through calibration on healthy volunteers with invasive blood oxygen measurements"
+    },
+    "answer": "D",
+    "explanation": "The correlation between the ratio of ratios (R) and SpO2 in commercial pulse oximeters is established through calibration procedures involving healthy volunteers. These volunteers inhale nitrogen and undergo invasive blood oxygen saturation measurements, enabling accurate SpO2 determination."
+  },
+  {
+    "question": "What can be assumed to be constant during a pulse in the context of the Beer-Lambert law?",
+    "options": {
+      "A": "The concentration of hemoglobin",
+      "B": "The scattering and path length factors",
+      "C": "The intensity of the incident light",
+      "D": "The absorption coefficient of hemoglobin"
+    },
+    "answer": "B",
+    "explanation": "In the application of the Beer-Lambert law for pulse oximetry, it is assumed that the scattering factor (S(λ)) and the path length factor (L(λ)) remain relatively constant during a pulse. This assumption allows for their removal through the ratio Imax/Imin."
+  },
+  {
+    "question": "What is the CareGuideTM device used for?",
+    "options": {
+      "A": "Measuring blood glucose levels",
+      "B": "Monitoring brain activity",
+      "C": "Measuring oxygen saturation and pH in muscle",
+      "D": "Detecting cancer cells"
+    },
+    "answer": "C",
+    "explanation": "The CareGuideTM device, based on near-infrared spectroscopy, provides non-invasive measurements of oxygen saturation and pH levels in muscle tissue. It received FDA clearance in 2012 for continuous muscle oxygen monitoring."
+  },
+  {
+    "question": "What is the principle behind Functional Near-Infrared Spectroscopy (fNIRS)?",
+    "options": {
+      "A": "Measuring the scattering of light by neurons",
+      "B": "Detecting the electrical signals from brain activity",
+      "C": "Quantifying changes in HbO2 and Hb in the brain using near-infrared light",
+      "D": "Measuring the temperature changes in the brain during activity"
+    },
+    "answer": "C",
+    "explanation": "Functional Near-Infrared Spectroscopy (fNIRS) leverages the principles of oximetry to measure changes in the concentrations of oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb) in the brain. This is achieved using near-infrared light in the range of 680-930 nm."
+  },
+  {
+    "question": "Why is fNIRS sensitive to hemoglobin in small blood vessels?",
+    "options": {
+      "A": "Because larger blood vessels completely absorb the light",
+      "B": "Because small vessels have a higher concentration of hemoglobin",
+      "C": "Because fNIRS uses low-intensity light that only penetrates small vessels",
+      "D": "Because small vessels are closer to the surface of the brain"
+    },
+    "answer": "A",
+    "explanation": "fNIRS exhibits sensitivity to hemoglobin in small blood vessels, those with diameters less than 1 mm. This is attributed to the fact that larger blood vessels fully absorb the near-infrared light, preventing it from reaching deeper tissue."
+  },
+  {
+    "question": "What is the typical penetration depth of fNIRS, and why is it suitable for measuring the cerebral cortex?",
+    "options": {
+      "A": "Up to 2 mm, because the cortex is located superficially",
+      "B": "Up to 2 cm, allowing measurements of the cortex",
+      "C": "Up to 20 cm, enabling deep brain measurements",
+      "D": "Up to 2 m, allowing for whole-brain imaging"
+    },
+    "answer": "B",
+    "explanation": "fNIRS can penetrate tissue up to a depth of approximately 2 cm. This penetration depth makes it well-suited for studying the cerebral cortex, which lies within this range."
+  },
+  {
+    "question": "What does fNIRS measure during neural activity?",
+    "options": {
+      "A": "Changes in the electrical conductivity of neurons",
+      "B": "The release of neurotransmitters",
+      "C": "Hemodynamic responses, specifically changes in HbO2 and Hb concentrations",
+      "D": "The production of heat by active neurons"
+    },
+    "answer": "C",
+    "explanation": "During neural activity, fNIRS focuses on measuring hemodynamic responses. Specifically, it quantifies the alterations in the concentrations of oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb) in the brain region associated with the activity."
+  },
+  {
+    "question": "Why can't the Beer-Lambert law be directly used to quantify absorbance in fNIRS?",
+    "options": {
+      "A": "Because the Beer-Lambert law only applies to solutions",
+      "B": "Because the concentration of hemoglobin in the brain is too low",
+      "C": "Because tissue is highly scattering, making the path length unknown",
+      "D": "Because the absorption coefficient of hemoglobin changes during neural activity"
+    },
+    "answer": "C",
+    "explanation": "While the Beer-Lambert law is fundamental to absorption spectroscopy, its direct application in fNIRS is hindered by the high scattering nature of brain tissue. Scattering makes the path length (L) of light through the tissue uncertain, preventing accurate absorbance quantification."
+  },
+  {
+    "question": "How is fNIRS typically used to quantify changes in HbO2 and Hb in tissue?",
+    "options": {
+      "A": "By measuring absolute concentrations of HbO2 and Hb",
+      "B": "By using complex mathematical models to correct for scattering",
+      "C": "By measuring relative changes in HbO2 and Hb concentrations",
+      "D": "By comparing measurements to a standard reference tissue"
+    },
+    "answer": "C",
+    "explanation": "Due to the scattering challenges, fNIRS is primarily employed to quantify relative changes in the concentrations of HbO2 and Hb in tissue. This approach circumvents the need for absolute concentration measurements, which are difficult to obtain accurately in vivo."
+  },
+  {
+    "question": "What is achieved by using arrays of sources and detectors in fNIRS?",
+    "options": {
+      "A": "Measuring brain activity at a single point with high precision",
+      "B": "Mapping the activated area of the brain",
+      "C": "Measuring the electrical activity of the brain",
+      "D": "Imaging the structure of the brain"
+    },
+    "answer": "B",
+    "explanation": "The use of arrays of light sources and detectors in fNIRS enables the mapping of brain activity over a wider area. By analyzing the signals from multiple source-detector pairs, researchers can create topographic images of brain activation."
+  },
+  {
+    "question": "What are the two main steps involved in fluorescence spectroscopy?",
+    "options": {
+      "A": "Absorption of incident light and emission of fluorescence",
+      "B": "Scattering of incident light and absorption of scattered light",
+      "C": "Reflection of incident light and detection of reflected light",
+      "D": "Transmission of incident light and measurement of transmitted light"
+    },
+    "answer": "A",
+    "explanation": "Fluorescence spectroscopy encompasses two fundamental steps. First, the absorption of incident light by a molecule excites its electrons to higher energy levels. Second, some electrons return to the ground state by emitting light, known as fluorescence."
+  },
+  {
+    "question": "What is Stokes shift?",
+    "options": {
+      "A": "The difference in energy between the absorbed and emitted photons in fluorescence",
+      "B": "The shift in the absorption spectrum of a molecule due to changes in pH",
+      "C": "The change in the scattering of light by a molecule upon excitation",
+      "D": "The increase in fluorescence intensity with increasing excitation intensity"
+    },
+    "answer": "A",
+    "explanation": "Stokes shift refers to the energy difference, typically observed as a difference in wavelength, between the absorbed photon during excitation and the emitted photon during fluorescence. The emitted photon has lower energy (longer wavelength) than the absorbed photon."
+  },
+  {
+    "question": "Why is fluorescence a common method for labeling in biological studies?",
+    "options": {
+      "A": "Because it is inexpensive and easy to implement",
+      "B": "Because it provides high sensitivity, non-invasive detection, and is minimally destructive",
+      "C": "Because it can be used to label any molecule",
+      "D": "Because it does not require specialized equipment"
+    },
+    "answer": "B",
+    "explanation": "Fluorescence has gained widespread adoption as a labeling technique in biological research due to its several advantages. It offers high sensitivity, allows for non-invasive detection, minimizes sample damage, utilizes relatively simple instrumentation, and benefits from commercially available conjugates for targeting biomolecules."
+  },
+  {
+    "question": "What is the purpose of optical filters in fluorescence detection?",
+    "options": {
+      "A": "To increase the intensity of the excitation light",
+      "B": "To block stray light from reaching the detector",
+      "C": "To select the appropriate excitation wavelength and detect fluorescence emission within a specific bandwidth",
+      "D": "To amplify the fluorescence signal"
+    },
+    "answer": "C",
+    "explanation": "Optical filters play a crucial role in fluorescence detection by ensuring the selection of the proper excitation wavelength and isolating the fluorescence emission within a desired bandwidth. This prevents overlap between excitation and emission signals and ensures accurate measurement."
+  },
+  {
+    "question": "What is Fluorescence Resonance Energy Transfer (FRET)?",
+    "options": {
+      "A": "The transfer of energy from an excited molecule to a ground-state molecule through radiative emission",
+      "B": "The transfer of energy between two molecules through collisions",
+      "C": "The non-radiative transfer of energy from an excited donor molecule to an acceptor molecule",
+      "D": "The absorption of light by a molecule followed by the emission of light at a longer wavelength"
+    },
+    "answer": "C",
+    "explanation": "Fluorescence Resonance Energy Transfer (FRET) involves the non-radiative transfer of energy from an excited donor molecule to an acceptor molecule. This transfer occurs when the emission spectrum of the donor overlaps with the absorption spectrum of the acceptor, and the molecules are in close proximity."
+  },
+  {
+    "question": "What is the typical distance range between the donor and acceptor molecules in FRET?",
+    "options": {
+      "A": "1-10 nm",
+      "B": "10-100 nm",
+      "C": "100-1000 nm",
+      "D": "1-10 μm"
+    },
+    "answer": "A",
+    "explanation": "For efficient FRET, the donor and acceptor molecules need to be in close proximity. The typical distance range for FRET to occur is between 1 and 10 nanometers."
+  },
+  {
+    "question": "How is FRET used as a molecular ruler?",
+    "options": {
+      "A": "By measuring the intensity of the donor emission",
+      "B": "By measuring the lifetime of the donor excitation state",
+      "C": "By directly measuring the distance between the donor and acceptor",
+      "D": "By measuring the intensity of the acceptor emission"
+    },
+    "answer": "B",
+    "explanation": "The efficiency of FRET is highly sensitive to the distance between the donor and acceptor molecules. By measuring the lifetime of the donor's excited state, which is influenced by FRET, researchers can indirectly determine the distance between the two molecules, making FRET a valuable molecular ruler."
+  },
+  {
+    "question": "What are the key features of flow cytometry?",
+    "options": {
+      "A": "Measuring the absorption spectra of cells",
+      "B": "Labeling cells with fluorescent dyes, laser excitation, multi-channel detection, cell counting, fluorescence intensity recording, and cell sorting",
+      "C": "Imaging cells in three dimensions",
+      "D": "Analyzing the chemical composition of cells"
+    },
+    "answer": "B",
+    "explanation": "Flow cytometry is a powerful technique that involves labeling cells with fluorescent dyes, exciting them with a laser, detecting fluorescence in multiple channels, counting cells, recording fluorescence intensity from individual cells, and even sorting cells based on their properties."
+  },
+  {
+    "question": "What type of data does a histogram in flow cytometry represent?",
+    "options": {
+      "A": "The size distribution of cells",
+      "B": "The distribution of single fluorescence intensity from individual cells",
+      "C": "The concentration of cells in a sample",
+      "D": "The morphology of cells"
+    },
+    "answer": "B",
+    "explanation": "A histogram in flow cytometry typically displays the distribution of single fluorescence intensity values measured from a population of individual cells. This provides insights into the expression levels of labeled molecules within the cells."
+  },
+  {
+    "question": "What information does a scatter plot in flow cytometry convey?",
+    "options": {
+      "A": "The relationship between cell size and fluorescence intensity",
+      "B": "The correlation between two different fluorescence intensities from cells labeled with two different dyes",
+      "C": "The time course of fluorescence intensity changes",
+      "D": "The spatial distribution of fluorescence within cells"
+    },
+    "answer": "B",
+    "explanation": "A scatter plot in flow cytometry visualizes the relationship between two different fluorescence intensities emitted from cells that have been labeled with two distinct fluorescent dyes. This allows for the analysis of multiple cellular parameters simultaneously."
+  },
+  {
+    "question": "What factors can influence the intensity and spectra of fluorescence?",
+    "options": {
+      "A": "Temperature, pressure, and gravitational force",
+      "B": "Solvent, pH, presence of ions/molecules, protein conformation",
+      "C": "The type of laser used for excitation",
+      "D": "The concentration of the fluorescent dye"
+    },
+    "answer": "B",
+    "explanation": "The intensity and spectral characteristics of fluorescence are sensitive to the surrounding environment. Factors such as the solvent, pH level, presence of other ions or molecules, and protein conformation can all influence fluorescence measurements."
+  },
+  {
+    "question": "What is photobleaching?",
+    "options": {
+      "A": "The increase in fluorescence intensity over time",
+      "B": "The loss of fluorescence emission under prolonged excitation",
+      "C": "The shift in the fluorescence spectrum to longer wavelengths",
+      "D": "The splitting of a fluorescence peak into multiple peaks"
+    },
+    "answer": "B",
+    "explanation": "Photobleaching refers to the phenomenon where a fluorescent molecule gradually loses its ability to emit light under continuous or prolonged excitation. This is a common issue in fluorescence microscopy and can limit the duration of imaging experiments."
+  },
+  {
+    "question": "Why are fluorescent dyes commonly used in biological imaging?",
+    "options": {
+      "A": "Because they provide structural information about cells",
+      "B": "Because they are naturally present in most cells",
+      "C": "Because they enhance contrast and enable molecule-specific imaging",
+      "D": "Because they are less expensive than other labeling methods"
+    },
+    "answer": "C",
+    "explanation": "Fluorescent dyes are frequently employed in biological imaging due to their ability to enhance contrast and provide molecule-specific visualization. The intrinsic fluorescence of biological samples (autofluorescence) is often weak, making exogenous dyes essential for clear imaging."
   }
 ]
+    
