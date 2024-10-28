@@ -1,626 +1,182 @@
 [
-  {
-    "question": "以下哪一項是推動生物晶片發展的關鍵技術？",
-    "options": {
-      "A": "基因工程",
-      "B": "奈米/微米技術",
-      "C": "人工智慧",
-      "D": "雲端運算",
-      "E": "大數據分析"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源，現代奈米/微米技術的進步推動了生物晶片的發展。"
-  },
-  {
-    "question": "生物晶片主要用於下列哪一項目的？",
-    "options": {
-      "A": "治療疾病",
-      "B": "開發新藥物",
-      "C": "分析生物分子組成",
-      "D": "增強人體免疫力",
-      "E": "基因編輯"
-    },
-    "answer": "C",
-    "explanation": "資料來源指出，生物晶片用於檢測或分析生物分子組成。"
-  },
-  {
-    "question": "生物晶片在生物醫學工程的應用中扮演著什麼角色？",
-    "options": {
-      "A": "取代傳統醫療電子設備",
-      "B": "提供個人化醫療保健",
-      "C": "開發新型手術器械",
-      "D": "進行基因改造",
-      "E": "製造人工器官"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源 和，生物晶片技術是新興的生物技術，結合了奈米/微米技術，旨在實現個人化醫療保健系統。"
-  },
-  {
-    "question": "以下哪一項 *不是*  Lab-on-a-Chip 的優點？",
-    "options": {
-      "A": "低樣品消耗量",
-      "B": "高分析通量和效率",
-      "C": "更好的生物過程控制",
-      "D": "高信噪比",
-      "E": "系統緊湊"
-    },
-    "answer": "D",
-    "explanation": "資料來源提到，Lab-on-a-Chip 的缺點之一是相對低的信噪比，因為樣品量小。"
-  },
-  {
-    "question": "Lab-on-a-Chip 的效能高度依賴於哪一項因素？",
-    "options": {
-      "A": "環境溫度",
-      "B": "操作員的技術",
-      "C": "微流體條件",
-      "D": "樣品的純度",
-      "E": "設備的使用年限"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，Lab-on-a-Chip 的設備/系統效能高度依賴於微流體條件。"
-  },
-  {
-    "question": "生物感測器的靈敏度通常如何定義？",
-    "options": {
-      "A": "可檢測到的最低分子濃度",
-      "B": "信號響應與目標生物分子濃度的比率",
-      "C": "設備的有效檢測範圍",
-      "D": "檢測目標分子在不同種類分子中的能力",
-      "E": "感測器對目標分子附著的反應速度"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，生物感測器的靈敏度通常定義為信號響應與目標生物分子濃度的比率。"
-  },
-  {
-    "question": "生物感測器的動態範圍指的是什麼？",
-    "options": {
-      "A": "可檢測到的最低分子濃度",
-      "B": "設備的有效檢測範圍",
-      "C": "檢測目標分子在不同種類分子中的能力",
-      "D": "感測器對目標分子附著的反應速度",
-      "E": "感測器恢復到正常狀態所需的時間"
-    },
-    "answer": "B",
-    "explanation": "資料來源說明，生物感測器的動態範圍是指設備的有效檢測範圍，通常指線性範圍。"
-  },
-  {
-    "question": "生物感測器的選擇性如何定義？",
-    "options": {
-      "A": "可檢測到的最低分子濃度",
-      "B": "信號響應與目標生物分子濃度的比率",
-      "C": "設備的有效檢測範圍",
-      "D": "檢測目標分子在不同種類分子中的能力",
-      "E": "感測器對目標分子附著的反應速度"
-    },
-    "answer": "D",
-    "explanation": "資料來源指出，生物感測器的選擇性是指在不同種類分子中檢測目標分子的能力。"
-  },
-  {
-    "question": "生物感測器的選擇性主要基於什麼？",
-    "options": {
-      "A": "目標分子的尺寸",
-      "B": "目標分子的電荷",
-      "C": "生物分子的結合親和力",
-      "D": "感測器的材料",
-      "E": "環境溫度"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，生物感測器的選擇性通常基於生物分子的結合親和力。"
-  },
-  {
-    "question": "哪一項因素會影響生物感測器的選擇性？",
-    "options": {
-      "A": "目標分子的濃度",
-      "B": "不同感測轉導方法的設計",
-      "C": "樣品的純度",
-      "D": "感測器的使用年限",
-      "E": "環境濕度"
-    },
-    "answer": "B",
-    "explanation": "資料來源提到，不同感測轉導方法的設計會影響生物感測器的選擇性。"
-  },
-  {
-    "question": "生物感測器的檢測極限 (Limit of Detection) 是指什麼？",
-    "options": {
-      "A": "可檢測到的最高分子濃度",
-      "B": "感測器可以識別的最低分子濃度",
-      "C": "信號響應與目標生物分子濃度的比率",
-      "D": "設備的有效檢測範圍",
-      "E": "感測器對目標分子附著的反應速度"
-    },
-    "answer": "B",
-    "explanation": "資料來源說明，生物感測器的檢測極限是指感測器可以識別的最低分子濃度。"
-  },
-  {
-    "question": "生物感測器的響應時間 (Response time) 是指什麼？",
-    "options": {
-      "A": "感測器可以識別的最低分子濃度",
-      "B": "感測器對目標分子附著的反應速度",
-      "C": "感測器恢復到正常狀態所需的時間",
-      "D": "信號水平與噪音水平的比率",
-      "E": "設備的有效檢測範圍"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源，生物感測器的響應時間是指感測器對目標分子附著的反應速度。"
-  },
-  {
-    "question": "生物感測器的響應時間通常如何定義？",
-    "options": {
-      "A": "獲得 50% 信號強度所需的時間",
-      "B": "獲得 95% 信號強度所需的時間",
-      "C": "感測器恢復到正常狀態所需的時間",
-      "D": "信號水平與噪音水平的比率",
-      "E": "設備的有效檢測範圍"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，生物感測器的響應時間通常定義為獲得 95% 信號強度所需的時間。"
-  },
-  {
-    "question": "生物感測器的恢復時間 (Recovery time) 是指什麼？",
-    "options": {
-      "A": "感測器可以識別的最低分子濃度",
-      "B": "感測器對目標分子附著的反應速度",
-      "C": "感測器恢復到正常狀態所需的時間",
-      "D": "信號水平與噪音水平的比率",
-      "E": "設備的有效檢測範圍"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，生物感測器的恢復時間是指在移除目標分子後，感測器恢復到正常狀態所需的時間。"
-  },
-  {
-    "question": "生物感測器的信噪比 (Signal-to-noise ratio) 代表什麼？",
-    "options": {
-      "A": "感測器可以識別的最低分子濃度",
-      "B": "感測器對目標分子附著的反應速度",
-      "C": "感測器恢復到正常狀態所需的時間",
-      "D": "感測器信號的清晰程度",
-      "E": "設備的有效檢測範圍"
-    },
-    "answer": "D",
-    "explanation": "資料來源說明，生物感測器的信噪比代表感測器信號的清晰程度。"
-  },
-  {
-    "question": "生物感測器的噪音來源通常來自哪裡？",
-    "options": {
-      "A": "機械振動",
-      "B": "環境溫度變化",
-      "C": "光學或電子元件",
-      "D": "樣品的污染",
-      "E": "操作員的呼吸"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，生物感測器的噪音來源通常來自光學或電子元件。"
-  },
-  {
-    "question": "生物感測器的信噪比如何定義？",
-    "options": {
-      "A": "噪音水平除以信號水平",
-      "B": "信號水平除以噪音水平",
-      "C": "信號水平減去噪音水平",
-      "D": "信號水平加上噪音水平",
-      "E": "信號水平乘以噪音水平"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，生物感測器的信噪比定義為信號水平除以噪音水平。"
-  },
-  {
-    "question": "以下哪一項 *不是* 標準的生物分子檢測技術？",
-    "options": {
-      "A": "螢光檢測 (Fluorescence detection)",
-      "B": "安培檢測 (Amperometric detection)",
-      "C": "表面電漿共振 (Surface plasma resonance)",
-      "D": "微懸臂樑 (Microcantilever)",
-      "E": "離子敏感場效電晶體 (Ion-sensitive field effect transistor)"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源和，螢光檢測和安培檢測是標準的生物分子檢測技術，而表面電漿共振、微懸臂樑和離子敏感場效電晶體是微晶片上的診斷技術。"
-  },
-  {
-    "question": "以下哪一項 *不是* 微晶片上的診斷技術？",
-    "options": {
-      "A": "表面電漿共振 (Surface plasma resonance)",
-      "B": "微懸臂樑 (Microcantilever)",
-      "C": "離子敏感場效電晶體 (Ion-sensitive field effect transistor)",
-      "D": "奈米線 (Nanowire)",
-      "E": "螢光顯微鏡 (Fluorescent microscopy)"
-    },
-    "answer": "E",
-    "explanation": "根據資料來源，表面電漿共振、微懸臂樑、離子敏感場效電晶體和奈米線是微晶片上的診斷技術，而螢光顯微鏡是螢光技術的一種應用。"
-  },
-  {
-    "question": "螢光技術廣泛應用於哪個領域？",
-    "options": {
-      "A": "材料科學",
-      "B": "環境監測",
-      "C": "生物診斷",
-      "D": "食品安全",
-      "E": "天文觀測"
-    },
-    "answer": "C",
-    "explanation": "資料來源指出，螢光技術已廣泛應用於大多數生物診斷中。"
-  },
-  {
-    "question": "以下哪一項 *不是* 螢光技術的應用？",
-    "options": {
-      "A": "酵素連結免疫吸附分析 (ELISA)",
-      "B": "聚合酶連鎖反應 (PCR)",
-      "C": "螢光顯微鏡 (Fluorescent microscopy)",
-      "D": "DNA 定序",
-      "E": "質譜分析 (Mass spectrometry)"
-    },
-    "answer": "E",
-    "explanation": "根據資料來源，酵素連結免疫吸附分析、聚合酶連鎖反應、螢光顯微鏡和 DNA 定序都是螢光技術的應用，而質譜分析屬於傳統蛋白質生物診斷技術。"
-  },
-  {
-    "question": "螢光技術結合影像系統有什麼優點？",
-    "options": {
-      "A": "成本低廉",
-      "B": "操作簡便",
-      "C": "靈敏且定量",
-      "D": "適用於所有生物分子",
-      "E": "無需特殊設備"
-    },
-    "answer": "C",
-    "explanation": "資料來源提到，螢光技術結合影像系統是一種靈敏且定量的生物應用方法。"
-  },
-  {
-    "question": "以下哪一項 *不是* 螢光技術的優點？",
-    "options": {
-      "A": "良好的靈敏度",
-      "B": "多色檢測",
-      "C": "良好的穩定性",
-      "D": "低成本",
-      "E": "比放射性標記分子更長的保存期限"
-    },
-    "answer": "D",
-    "explanation": "根據資料來源，螢光技術的優點包括良好的靈敏度、多色檢測和良好的穩定性，但沒有提到低成本。"
-  },
-  {
-    "question": "以下哪一項 *不是* 螢光影像系統的關鍵元素？",
-    "options": {
-      "A": "激發光源",
-      "B": "光傳輸光學元件",
-      "C": "光收集光學元件",
-      "D": "發射光的濾波",
-      "E": "溫度控制系統"
-    },
-    "answer": "E",
-    "explanation": "資料來源列出了螢光影像系統的關鍵元素，包括激發光源、光傳輸光學元件、光收集光學元件和發射光的濾波，但沒有提到溫度控制系統。"
-  },
-  {
-    "question": "以下哪一種元件 *不是* 用於檢測和量化發射光的？",
-    "options": {
-      "A": "光電倍增管 (PMT)",
-      "B": "電荷耦合元件 (CCD)",
-      "C": "光電二極體",
-      "D": "熱電偶",
-      "E": "電阻式溫度計"
-    },
-    "answer": "D",
-    "explanation": "根據資料來源，光電倍增管 (PMT) 和電荷耦合元件 (CCD) 用於檢測和量化發射光，而熱電偶是用於測量溫度的元件。"
-  },
-  {
-    "question": "光電倍增管 (PMT) 的主要功能是什麼？",
-    "options": {
-      "A": "產生激發光源",
-      "B": "過濾發射光",
-      "C": "檢測和放大光信號",
-      "D": "控制樣品溫度",
-      "E": "記錄影像數據"
-    },
-    "answer": "C",
-    "explanation": "資料來源說明，光電倍增管 (PMT) 是一種極其靈敏的光檢測器，它通過光電效應產生電子，並通過二次發射過程將電子倍增。"
-  },
-  {
-    "question": "全內反射螢光顯微鏡 (TIRFM) 的主要目的是什麼？",
-    "options": {
-      "A": "產生更強的激發光源",
-      "B": "提高影像的解析度",
-      "C": "消除背景螢光",
-      "D": "降低實驗成本",
-      "E": "縮短實驗時間"
-    },
-    "answer": "C",
-    "explanation": "資料來源指出，全內反射螢光顯微鏡 (TIRFM) 可以通過消除背景螢光來提高螢光靈敏度。"
-  },
-  {
-    "question": "全內反射螢光顯微鏡 (TIRFM) 如何提高信噪比？",
-    "options": {
-      "A": "增加激發光的強度",
-      "B": "使用更靈敏的檢測器",
-      "C": "選擇性激發靠近玻璃表面的螢光團",
-      "D": "降低環境噪音",
-      "E": "提高樣品的純度"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源和，全內反射螢光顯微鏡 (TIRFM) 利用消逝波 (evanescent field) 選擇性激發靠近玻璃表面的螢光團，從而提高信噪比。"
-  },
-  {
-    "question": "全內反射螢光顯微鏡 (TIRFM) 有哪兩種基本方法？",
-    "options": {
-      "A": "透射光法和反射光法",
-      "B": "明視野法和暗視野法",
-      "C": "稜鏡法和物鏡法",
-      "D": "共焦法和非共焦法",
-      "E": "單光子法和雙光子法"
-    },
-    "answer": "C",
-    "explanation": "資料來源提到，全內反射螢光顯微鏡 (TIRFM) 有兩種基本方法：稜鏡法和物鏡法。"
-  },
-  {
-    "question": "表面電漿共振生物感測器 (Surface Plasma Resonance Biosensor) 的四個基本元素是什麼？",
-    "options": {
-      "A": "光源、稜鏡、金屬薄膜和光檢測器",
-      "B": "光源、濾光片、樣品池和光檢測器",
-      "C": "激發光源、光纖、生物分子和光檢測器",
-      "D": "微流體通道、電極、生物分子和電流計",
-      "E": "壓電晶體、電極、生物分子和頻率計"
-    },
-    "answer": "A",
-    "explanation": "根據資料來源，表面電漿共振生物感測器的四個基本元素是光源、稜鏡、金屬薄膜和光檢測器。"
-  },
-  {
-    "question": "表面電漿共振生物感測器 (Surface Plasma Resonance Biosensor) 常用的金屬薄膜材料是什麼？",
-    "options": {
-      "A": "鋁 (Al)",
-      "B": "金 (Au)",
-      "C": "鐵 (Fe)",
-      "D": "矽 (Si)",
-      "E": "碳 (C)"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，表面電漿共振生物感測器常用的金屬薄膜材料是金 (Au)，也可能是銀 (Ag) 或銅 (Cu)。"
-  },
-  {
-    "question": "表面電漿共振生物感測器 (Surface Plasma Resonance Biosensor) 的測量方法有哪些？",
-    "options": {
-      "A": "角度調變、波長調變、強度調變和相位調變",
-      "B": "電壓調變、電流調變、頻率調變和相位調變",
-      "C": "溫度調變、壓力調變、濃度調變和相位調變",
-      "D": "時間調變、空間調變、能量調變和相位調變",
-      "E": "振幅調變、頻率調變、相位調變和脈衝調變"
-    },
-    "answer": "A",
-    "explanation": "資料來源提到，表面電漿共振生物感測器的測量方法包括角度調變、波長調變、強度調變和相位調變。"
-  },
-  {
-    "question": "光波導 (Optical Wave Guide) 的光耦合效應高度依賴於什麼？",
-    "options": {
-      "A": "光源的波長",
-      "B": "微環和波導之間的間隙",
-      "C": "環境溫度",
-      "D": "操作員的技術",
-      "E": "設備的使用年限"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源，光波導的光耦合效應高度依賴於微環和波導之間的間隙。"
-  },
-  {
-    "question": "生物分子結合會影響光波導的哪一項特性？",
-    "options": {
-      "A": "光源的強度",
-      "B": "表面有效反射指數",
-      "C": "環境溫度",
-      "D": "微流體通道的尺寸",
-      "E": "設備的靈敏度"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，生物分子結合會影響光波導的表面有效反射指數。"
-  },
-  {
-    "question": "光波導的光譜偏移與什麼成正比？",
-    "options": {
-      "A": "環境溫度",
-      "B": "生物分子的尺寸",
-      "C": "生物分子的濃度和種類",
-      "D": "光源的強度",
-      "E": "設備的使用年限"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，光波導的光譜偏移與生物分子的濃度和種類成正比。"
-  },
-  {
-    "question": "安培檢測 (Amperometric detection) 是基於什麼原理？",
-    "options": {
-      "A": "光吸收",
-      "B": "螢光發射",
-      "C": "電流變化",
-      "D": "機械共振",
-      "E": "溫度變化"
-    },
-    "answer": "C",
-    "explanation": "資料來源說明，安培檢測是基於電流或電流變化的檢測。"
-  },
-  {
-    "question": "安培檢測 (Amperometric detection) 中，電極的作用是什麼？",
-    "options": {
-      "A": "產生激發光源",
-      "B": "檢測螢光信號",
-      "C": "氧化或還原電活性化合物",
-      "D": "測量機械振動",
-      "E": "控制樣品溫度"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，在安培檢測中，電活性化合物在工作電極上被氧化或還原，產生的電流被監測。"
-  },
-  {
-    "question": "安培檢測 (Amperometric detection) 的靈敏度如何調節？",
-    "options": {
-      "A": "改變光源的強度",
-      "B": "調整濾光片的波長",
-      "C": "調整工作電極和參考電極之間的電位",
-      "D": "改變樣品的溫度",
-      "E": "增加樣品的濃度"
-    },
-    "answer": "C",
-    "explanation": "資料來源提到，可以通過調整工作電極和參考電極之間的電位來調節安培檢測的靈敏度。"
-  },
-  {
-    "question": "法拉第電流 (Faraday current) 是由什麼產生的？",
-    "options": {
-      "A": "離子在電極表面的積聚",
-      "B": "電解質/電極界面上的電子轉移",
-      "C": "電極電位的變化",
-      "D": "機械振動",
-      "E": "溫度變化"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源，法拉第電流是由電解質/電極界面上的電子轉移通過還原-氧化過程產生的。"
-  },
-  {
-    "question": "非法拉第電流 (Non-Faraday current) 是由什麼引起的？",
-    "options": {
-      "A": "電解質/電極界面上的電子轉移",
-      "B": "電極電位的變化",
-      "C": "機械振動",
-      "D": "溫度變化",
-      "E": "樣品的濃度變化"
-    },
-    "answer": "B",
-    "explanation": "資料來源指出，非法拉第電流是由電極電位的變化引起的，導致離子在電極頂部重新分佈。"
-  },
-  {
-    "question": "安培計的主要電流類型是什麼？",
-    "options": {
-      "A": "交流電",
-      "B": "直流電",
-      "C": "法拉第電流",
-      "D": "非法拉第電流",
-      "E": "脈衝電流"
-    },
-    "answer": "C",
-    "explanation": "資料來源說明，對於安培計來說，主要電流是法拉第電流。"
-  },
-  {
-    "question": "電化學反應的過程可以通過哪些方面來表徵？",
-    "options": {
-      "A": "電極界面上的電子轉移、反應物質量傳輸和表面吸附和解吸",
-      "B": "光吸收、螢光發射和機械振動",
-      "C": "溫度變化、壓力變化和濃度變化",
-      "D": "電壓變化、電流變化和頻率變化",
-      "E": "時間變化、空間變化和能量變化"
-    },
-    "answer": "A",
-    "explanation": "根據資料來源，電化學反應的過程可以通過電極界面上的電子轉移、反應物質量傳輸和表面吸附和解吸來表徵。"
-  },
-  {
-    "question": "質量傳輸 (Mass transportations) 包括哪些方式？",
-    "options": {
-      "A": "遷移、擴散和對流",
-      "B": "光吸收、螢光發射和機械振動",
-      "C": "溫度變化、壓力變化和濃度變化",
-      "D": "電壓變化、電流變化和頻率變化",
-      "E": "時間變化、空間變化和能量變化"
-    },
-    "answer": "A",
-    "explanation": "資料來源列出了質量傳輸的三種方式：遷移、擴散和對流。"
-  },
-  {
-    "question": "安培計系統通常有幾種電極系統？",
-    "options": {
-      "A": "一種",
-      "B": "兩種",
-      "C": "三種",
-      "D": "四種",
-      "E": "五種"
-    },
-    "answer": "B",
-    "explanation": "根據資料來源，安培計系統通常有兩種電極系統：雙電極系統和三電極系統。"
-  },
-  {
-    "question": "機械共振 (Mechanical Resonance) 的原理是什麼？",
-    "options": {
-      "A": "光吸收",
-      "B": "螢光發射",
-      "C": "電流變化",
-      "D": "利用基本力學原理",
-      "E": "溫度變化"
-    },
-    "answer": "D",
-    "explanation": "資料來源指出，機械共振是利用基本力學原理。"
-  },
-  {
-    "question": "共振頻率 (Resonance frequency) 高度依賴於結構的哪些因素？",
-    "options": {
-      "A": "質量和邊界條件",
-      "B": "形狀和顏色",
-      "C": "溫度和濕度",
-      "D": "電壓和電流",
-      "E": "材料和製造工藝"
-    },
-    "answer": "A",
-    "explanation": "根據資料來源，共振頻率高度依賴於結構的質量和邊界條件。"
-  },
-  {
-    "question": "生物分子與表面結合會如何影響機械共振？",
-    "options": {
-      "A": "改變結構的顏色",
-      "B": "改變結構的溫度",
-      "C": "改變結構的電導率",
-      "D": "局部改變機械特性的條件",
-      "E": "增加結構的質量"
-    },
-    "answer": "D",
-    "explanation": "資料來源提到，當生物分子與表面結合時，會局部改變結構的機械特性的條件。"
-  },
-  {
-    "question": "石英晶體微天平 (QCM) 的原理是什麼？",
-    "options": {
-      "A": "光吸收",
-      "B": "螢光發射",
-      "C": "電流變化",
-      "D": "基於石英諧振器的質量敏感性",
-      "E": "溫度變化"
-    },
-    "answer": "D",
-    "explanation": "根據資料來源和，石英晶體微天平 (QCM) 基於石英諧振器，其共振頻率對石英薄膜的質量非常敏感。"
-  },
-  {
-    "question": "石英晶體微天平 (QCM) 的共振頻率變化與什麼線性相關？",
-    "options": {
-      "A": "環境溫度變化",
-      "B": "生物分子的尺寸變化",
-      "C": "生物分子質量的變化",
-      "D": "光源的強度變化",
-      "E": "設備的使用年限變化"
-    },
-    "answer": "C",
-    "explanation": "資料來源指出，石英晶體微天平 (QCM) 的共振頻率變化與生物分子質量的變化線性相關。"
-  },
-  {
-    "question": "場效電晶體 (Field-Effect Transistor) 的 I-V 特性曲線受什麼調變？",
-    "options": {
-      "A": "源極電壓",
-      "B": "汲極電壓",
-      "C": "閘極電壓",
-      "D": "環境溫度",
-      "E": "光照強度"
-    },
-    "answer": "C",
-    "explanation": "根據資料來源，場效電晶體的 I-V 特性曲線受閘極電壓調變。"
-  },
-  {
-    "question": "離子敏感場效電晶體 (ISFET) 本質上是什麼？",
-    "options": {
-      "A": "一種光電二極體",
-      "B": "一種電化學電池",
-      "C": "一種機械感測器",
-      "D": "一種具有分離閘極連接的 MOSFET",
-      "E": "一種溫度感測器"
-    },
-    "answer": "D",
-    "explanation": "資料來源說明，離子敏感場效電晶體 (ISFET) 實際上就是一種金屬氧化物半導體場效電晶體 (MOSFET)，其閘極連接與晶片分離，形成一個參考電極，插入與閘極氧化物接觸的水溶液中。"
-  },
-  {
-    "question": "以下哪一項 *不是* 未來生物分子診斷技術發展的趨勢？",
-    "options": {
-      "A": "微型化",
-      "B": "自动化",
-      "C": "整合化",
-      "D": "昂貴化",
-      "E": "個人化"
-    },
-    "answer": "D",
-    "explanation": "根據資料來源，生物分子診斷技術的發展趨勢是朝向微型化、自动化、整合化和個人化，並沒有提到昂貴化。"
-  }
+{
+"question": "What is the primary goal of bio-chip technology?",
+"options": {
+"A": "To replace traditional medical electronics.",
+"B": "To detect and analyze biomolecular composition.",
+"C": "To enhance the sensitivity of imaging systems like MRI.",
+"D": "To develop personalized healthcare paradigms."
+"E": "To create artificial intelligence for medical diagnosis."
+},
+"answer": "B",
+"explanation": "Bio-chip technology, promoted by advancements in nano/micro technology, aims to detect or analyze the composition of biomolecules."
+},
+{
+"question": "What are some traditional methods of protein bio-diagnostics?",
+"options": {
+"A": "Ultrasonics and Magnetic Resonance Imaging.",
+"B": "Bio-chip and Lab-on-a-chip technologies.",
+"C": "Fluorescence detection and Amperometric detection.",
+"D": "Centrifugation, electrophoresis, and chromatography.",
+"E": "Personalized healthcare systems and data analysis."
+},
+"answer": "D",
+"explanation": "Traditional methods for protein bio-diagnostics include techniques like centrifugation, electrophoresis, chromatography, immunosorbent assay, and mass spectrometry."
+},
+{
+"question": "What is one of the main advantages of Lab-on-A-Chip systems?",
+"options": {
+"A": "They eliminate the need for sample preparation.",
+"B": "They have a high signal-to-noise ratio due to large sample volumes.",
+"C": "They are fully developed and widely implemented in healthcare.",
+"D": "They offer lower device costs and reduced waste in bio-diagnostics.",
+"E": "They are not dependent on microfluidic conditions for optimal performance."
+},
+"answer": "D",
+"explanation": "Lab-on-A-Chip systems have the potential to significantly reduce costs and minimize waste generated during bio-diagnostics."
+},
+{
+"question": "Which characteristic of a biosensor describes its ability to differentiate between target and non-target molecules?",
+"options": {
+"A": "Sensitivity",
+"B": "Dynamic Range",
+"C": "Selectivity",
+"D": "Limit of Detection",
+"E": "Response Time"
+},
+"answer": "C",
+"explanation": "The selectivity of a biosensor refers to its capacity to detect the intended molecules within a mixture of different molecular species."
+},
+{
+"question": "How is the Limit of Detection of a biosensor typically defined?",
+"options": {
+"A": "The highest molecular concentration detectable by the sensor.",
+"B": "The time taken for the sensor to reach 95% signal strength.",
+"C": "The ratio of signal response to the target molecule concentration.",
+"D": "The lowest concentration of molecules the sensor can identify.",
+"E": "The time taken for the sensor to return to its normal state."
+},
+"answer": "D",
+"explanation": "The Limit of Detection of a sensor signifies the minimum concentration of target molecules that the sensor can reliably detect."
+},
+{
+"question": "What is the function of a photomultiplier tube (PMT) in fluorescence detection?",
+"options": {
+"A": "To generate the excitation light source for fluorescence.",
+"B": "To filter the emitted light based on specific wavelengths.",
+"C": "To deliver the excitation light to the target sample.",
+"D": "To detect and quantify the emitted light with high sensitivity.",
+"E": "To capture and digitize the fluorescence images."
+},
+"answer": "D",
+"explanation": "Photomultiplier tubes (PMTs) are highly sensitive detectors used to measure the intensity of emitted light in fluorescence techniques."
+},
+{
+"question": "How does Total Internal Reflection Fluorescence Microscopy (TIRFM) enhance fluorescence sensitivity?",
+"options": {
+"A": "By increasing the intensity of the excitation light source.",
+"B": "By amplifying the fluorescence signal using electronic means.",
+"C": "By using multiple fluorescent labels to target different molecules.",
+"D": "By minimizing background fluorescence to improve signal-to-noise ratio.",
+"E": "By extending the shelf-life of fluorescent molecules."
+},
+"answer": "D",
+"explanation": "TIRFM enhances sensitivity by reducing background fluorescence, leading to a better signal-to-noise ratio and improved resolution of the observed features."
+},
+{
+"question": "Which metal is commonly used as a thin film in Surface Plasma Resonance Biosensors?",
+"options": {
+"A": "Aluminum",
+"B": "Platinum",
+"C": "Titanium",
+"D": "Gold",
+"E": "Silicon"
+},
+"answer": "D",
+"explanation": "Gold, along with silver and copper, is frequently utilized as a thin film in the construction of Surface Plasma Resonance Biosensors."
+},
+{
+"question": "What is the principle behind Amperometric detection in biosensors?",
+"options": {
+"A": "Measuring changes in the mechanical resonance frequency.",
+"B": "Detecting light scattering caused by biomolecular interactions.",
+"C": "Monitoring changes in electric current due to redox reactions.",
+"D": "Analyzing the fluorescence emitted by labeled biomolecules.",
+"E": "Measuring changes in the pH of the solution."
+},
+"answer": "C",
+"explanation": "Amperometric detection relies on measuring the electric current generated by the oxidation or reduction of electroactive compounds at an electrode."
+},
+{
+"question": "In Amperometric detection, what is the role of the reference electrode?",
+"options": {
+"A": "To apply a potential to the working electrode.",
+"B": "To oxidize or reduce the target analyte.",
+"C": "To provide a baseline for current measurement.",
+"D": "To enhance the sensitivity of the detection.",
+"E": "To amplify the measured current signal."
+},
+"answer": "C",
+"explanation": "The reference electrode in an Amperometric setup serves as a stable reference point for measuring the current changes occurring at the working electrode."
+},
+{
+"question": "What type of current is primarily responsible for the signal in Amperometry?",
+"options": {
+"A": "Capacitive Current",
+"B": "Displacement Current",
+"C": "Eddy Current",
+"D": "Faraday Current",
+"E": "Non-Faraday Current"
+},
+"answer": "D",
+"explanation": "The main current contributing to the signal in Amperometric measurements is the Faraday current, which arises from electron transfer during redox reactions at the electrodes."
+},
+{
+"question": "How does the binding of biomolecules affect the resonance frequency in Mechanical Resonance biosensors?",
+"options": {
+"A": "It increases the stiffness of the structure, raising the frequency.",
+"B": "It reduces the damping, leading to sharper resonance peaks.",
+"C": "It alters the mass and boundary conditions, shifting the frequency.",
+"D": "It induces electrical charges, changing the resonance properties.",
+"E": "It modifies the surface energy, affecting the resonance behavior."
+},
+"answer": "C",
+"explanation": "The attachment of biomolecules to the surface of a Mechanical Resonance biosensor locally modifies the mass and boundary conditions, resulting in a detectable shift in the resonance frequency."
+},
+{
+"question": "What is the operating principle of a Quartz Crystal Microbalance (QCM) biosensor?",
+"options": {
+"A": "Measuring changes in light intensity due to molecular binding.",
+"B": "Detecting variations in electrical resistance caused by biomolecules.",
+"C": "Monitoring shifts in the resonance frequency of a quartz crystal.",
+"D": "Analyzing the electrochemical reactions occurring at the electrodes.",
+"E": "Measuring the deflection of a microcantilever beam."
+},
+"answer": "C",
+"explanation": "QCM biosensors function by monitoring the changes in the resonance frequency of a quartz crystal, which are directly related to the mass alterations caused by biomolecule binding on the crystal surface."
+},
+{
+"question": "How does an Ion-Sensitive Field-Effect Transistor (ISFET) modulate the current flow?",
+"options": {
+"A": "By changing the channel length of the transistor.",
+"B": "By varying the gate voltage applied to the transistor.",
+"C": "By altering the doping concentration of the semiconductor.",
+"D": "By modifying the mobility of charge carriers in the channel.",
+"E": "By controlling the temperature of the transistor."
+},
+"answer": "B",
+"explanation": "ISFETs control the current flow by modulating the gate voltage, which in turn influences the conductivity of the channel and thus the current passing through it."
+},
+{
+"question": "What serves as the gate connection in an ISFET compared to a conventional MOSFET?",
+"options": {
+"A": "A metal contact deposited on the gate oxide.",
+"B": "A semiconductor layer integrated into the chip.",
+"C": "A reference electrode immersed in a solution.",
+"D": "A capacitor connected to the gate terminal.",
+"E": "A variable resistor controlling the gate voltage."
+},
+"answer": "C",
+"explanation": "Unlike a standard MOSFET, an ISFET employs a reference electrode placed in a solution as the gate connection, allowing it to sense ionic changes in the solution."
+}
 ]
