@@ -21,8 +21,6 @@
 
 6. **Explanations**: After answering, users receive feedback with explanations and the ability to copy text for further reference.
 
-7. **Custom Alert**: A modal dialog pops up if a user needs to take action, such as confirming quiz selection.
-
 ## Usage Instructions
 1. **Selecting a Quiz**: On the start screen, click one of the buttons (e.g., "B11", "Week I", etc.) to load a quiz.
 2. **Starting the Quiz**: Press the "Start" button to begin answering questions.
