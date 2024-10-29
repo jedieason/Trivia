@@ -303,16 +303,17 @@ document.addEventListener('keydown', function(event) {
 
 
 // 新增選擇按鈕的功能
-const selectButtons = document.querySelectorAll('.select-button');
-selectButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        // 移除其他按鈕的選中狀態
-        selectButtons.forEach(btn => btn.classList.remove('selected'));
+document.getElementById('button-row').addEventListener('click', function(event) {
+    if (event.target && event.target.matches('button.select-button')) {
+        const selectedButton = event.target;
+        // 移除所有按鈕的選中狀態
+        const allButtons = document.querySelectorAll('.select-button');
+        allButtons.forEach(btn => btn.classList.remove('selected'));
         // 添加選中狀態到當前按鈕
-        button.classList.add('selected');
+        selectedButton.classList.add('selected');
         // 設定要載入的 JSON 檔案
-        selectedJson = button.dataset.json;
-    });
+        selectedJson = selectedButton.dataset.json;
+    }
 });
 
 // 切換模式
