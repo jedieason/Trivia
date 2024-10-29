@@ -1,0 +1,430 @@
+[
+  {
+    "question": "What is the primary destination for amino acids after protein breakdown?",
+    "options": {
+      "A": "Pancreas",
+      "B": "Kidney",
+      "C": "Liver",
+      "D": "Muscle Tissue",
+      "E": "Brain"
+    },
+    "answer": "C",
+    "explanation": "Amino acids are transported to the liver for further breakdown after proteins are broken down."
+  },
+  {
+    "question": "What is the function of the Aspartate-Argininosuccinate shunt?",
+    "options": {
+      "A": "To produce glucose from amino acids",
+      "B": "To synthesize ketone bodies",
+      "C": "To connect the urea cycle and citric acid cycle",
+      "D": "To transport amino acids across cell membranes",
+      "E": "To store excess nitrogen"
+    },
+    "answer": "C",
+    "explanation": "The Aspartate-Argininosuccinate shunt acts as a bridge between the urea cycle and the citric acid cycle."
+  },
+  {
+    "question": "Which enzyme catalyzes the breakdown of Argininosuccinate in the Aspartate-Argininosuccinate shunt?",
+    "options": {
+      "A": "Arginase",
+      "B": "Ornithine transcarbamoylase",
+      "C": "Argininosuccinase",
+      "D": "Aspartate aminotransferase",
+      "E": "Fumarase"
+    },
+    "answer": "C",
+    "explanation": "Argininosuccinase is responsible for breaking down Argininosuccinate into Fumarate and Arg."
+  },
+  {
+    "question": "What is the fate of Fumarate produced in the Aspartate-Argininosuccinate shunt?",
+    "options": {
+      "A": "Excreted as waste",
+      "B": "Converted to glucose",
+      "C": "Enters the urea cycle",
+      "D": "Enters the citric acid cycle",
+      "E": "Used to synthesize fatty acids"
+    },
+    "answer": "D",
+    "explanation": "Fumarate enters the citric acid cycle where it is further metabolized."
+  },
+  {
+    "question": "In liver cells, Oxaloacetate can react with which amino acid to form Aspartate?",
+    "options": {
+      "A": "Alanine",
+      "B": "Glutamate",
+      "C": "Glycine",
+      "D": "Arginine",
+      "E": "Lysine"
+    },
+    "answer": "B",
+    "explanation": "Within liver cells, Oxaloacetate can combine with Glutamate to produce Aspartate."
+  },
+  {
+    "question": "What is the mnemonic for the seven amino acids that can be metabolized into Acetyl-CoA or Acetoacetyl-CoA?",
+    "options": {
+      "A": "What's Google Chrome?",
+      "B": "DoughNut",
+      "C": "I'M TV",
+      "D": "If You Lose, you will curse: What The FxxK!",
+      "E": "HE is PooR QQ ~"
+    },
+    "answer": "D",
+    "explanation": "The mnemonic for the seven amino acids that can be metabolized into Acetyl-CoA or Acetoacetyl-CoA is 'If You Lose, you will curse: What The FxxK!'."
+  },
+  {
+    "question": "Which of the following amino acids yields one Succinyl-CoA and one Acetyl-CoA upon breakdown?",
+    "options": {
+      "A": "Leucine",
+      "B": "Lysine",
+      "C": "Tryptophan",
+      "D": "Isoleucine",
+      "E": "Threonine"
+    },
+    "answer": "D",
+    "explanation": "Isoleucine is broken down into one Succinyl-CoA and one Acetyl-CoA."
+  },
+  {
+    "question": "Which amino acid produces three Acetyl-CoA molecules during its metabolism?",
+    "options": {
+      "A": "Tryptophan",
+      "B": "Lysine",
+      "C": "Phenylalanine",
+      "D": "Leucine",
+      "E": "Isoleucine"
+    },
+    "answer": "D",
+    "explanation": "Leucine yields three Acetyl-CoA molecules during its metabolism."
+  },
+  {
+    "question": "Which two amino acids produce Fumarate during their metabolic breakdown?",
+    "options": {
+      "A": "Phenylalanine and Tyrosine",
+      "B": "Asparagine and Aspartate",
+      "C": "Isoleucine and Leucine",
+      "D": "Tryptophan and Threonine",
+      "E": "Methionine and Valine"
+    },
+    "answer": "A",
+    "explanation": "Phenylalanine and Tyrosine both produce Fumarate during their metabolic breakdown."
+  },
+  {
+    "question": "Which of the following is NOT a coenzyme involved in single-carbon transfer during carbon metabolism?",
+    "options": {
+      "A": "Biotin",
+      "B": "Coenzyme A",
+      "C": "Tetrahydrofolate",
+      "D": "S-Adenosylmethionine"
+    },
+    "answer": "B",
+    "explanation": "Biotin, Tetrahydrofolate, and S-Adenosylmethionine are coenzymes involved in single-carbon transfer. Coenzyme A is not involved in this process."
+  },
+  {
+    "question": "What is the role of Biotin in carbon metabolism?",
+    "options": {
+      "A": "Transfers a methyl group",
+      "B": "Transfers carbon dioxide",
+      "C": "Transfers a formyl group",
+      "D": "Transfers a methylene group"
+    },
+    "answer": "B",
+    "explanation": "Biotin is responsible for transferring carbon dioxide, which is in its highest oxidation state, during carbon metabolism."
+  },
+  {
+    "question": "Which coenzyme is a reduced derivative of Folate (Vitamin B9)?",
+    "options": {
+      "A": "Biotin",
+      "B": "NADH",
+      "C": "S-Adenosylmethionine",
+      "D": "Tetrahydrofolate"
+    },
+    "answer": "D",
+    "explanation": "Tetrahydrofolate (THF) is a reduced derivative of Folate (Vitamin B9)."
+  },
+  {
+    "question": "Which coenzyme is typically used for methyl transfer due to the inefficiency of Tetrahydrofolate in this process?",
+    "options": {
+      "A": "Biotin",
+      "B": "Coenzyme A",
+      "C": "S-Adenosylmethionine",
+      "D": "NADPH"
+    },
+    "answer": "C",
+    "explanation": "S-Adenosylmethionine (SAM) is generally preferred for methyl transfer because Tetrahydrofolate is not as efficient in this role."
+  },
+  {
+    "question": "What molecule is formed when S-Adenosylmethionine donates its methyl group?",
+    "options": {
+      "A": "Methionine",
+      "B": "Cysteine",
+      "C": "Homocysteine",
+      "D": "Adenosine",
+      "E": "Tetrahydrofolate"
+    },
+    "answer": "C",
+    "explanation": "After S-Adenosylmethionine transfers its methyl group, it is hydrolyzed into Adenosine and Homocysteine."
+  },
+  {
+    "question": "What condition arises from the abnormal accumulation of Homocysteine in the blood?",
+    "options": {
+      "A": "Phenylketonuria",
+      "B": "Alkaptonuria",
+      "C": "Hyperhomocysteinemia",
+      "D": "Megaloblastic anemia",
+      "E": "Nonketotic hyperglycinemia"
+    },
+    "answer": "C",
+    "explanation": "The buildup of Homocysteine in the bloodstream is referred to as Hyperhomocysteinemia."
+  },
+  {
+    "question": "Which enzyme facilitates the transfer of a methyl group from N5-Methyltetrahydrofolate to Vitamin B12?",
+    "options": {
+      "A": "Methyltransferase",
+      "B": "Phenylalanine hydroxylase",
+      "C": "Tyrosine aminotransferase",
+      "D": "Homogentisate dioxygenase",
+      "E": "Fumarylacetoacetase"
+    },
+    "answer": "A",
+    "explanation": "Methyltransferase is responsible for moving a methyl group from N5-Methyltetrahydrofolate to Vitamin B12."
+  },
+  {
+    "question": "What type of anemia can occur due to low Tetrahydrofolate levels, which hinder DNA synthesis?",
+    "options": {
+      "A": "Iron-deficiency anemia",
+      "B": "Sickle cell anemia",
+      "C": "Aplastic anemia",
+      "D": "Megaloblastic anemia",
+      "E": "Hemolytic anemia"
+    },
+    "answer": "D",
+    "explanation": "Megaloblastic anemia can develop when there's a deficiency in Tetrahydrofolate, impacting DNA synthesis within red blood cells."
+  },
+  {
+    "question": "Which of the following amino acids is a precursor to both NAD and Serotonin?",
+    "options": {
+      "A": "Phenylalanine",
+      "B": "Tyrosine",
+      "C": "Tryptophan",
+      "D": "Threonine",
+      "E": "Lysine"
+    },
+    "answer": "C",
+    "explanation": "Tryptophan serves as a precursor for both NAD and Serotonin."
+  },
+  {
+    "question": "Which amino acid is a precursor to Dopamine, Epinephrine, and Norepinephrine?",
+    "options": {
+      "A": "Phenylalanine",
+      "B": "Tyrosine",
+      "C": "Tryptophan",
+      "D": "Threonine",
+      "E": "Lysine"
+    },
+    "answer": "B",
+    "explanation": "Tyrosine acts as a precursor to Dopamine, Epinephrine, and Norepinephrine."
+  },
+  {
+    "question": "Which metabolic disorder is caused by a deficiency in Phenylalanine hydroxylase?",
+    "options": {
+      "A": "Alkaptonuria",
+      "B": "Tyrosinemia",
+      "C": "Phenylketonuria",
+      "D": "Nonketotic hyperglycinemia",
+      "E": "Megaloblastic anemia"
+    },
+    "answer": "C",
+    "explanation": "A deficiency in Phenylalanine hydroxylase leads to the development of Phenylketonuria (PKU)."
+  },
+  {
+    "question": "What is the condition characterized by the accumulation of Tyrosine in the blood due to enzyme deficiencies?",
+    "options": {
+      "A": "Alkaptonuria",
+      "B": "Tyrosinemia",
+      "C": "Phenylketonuria",
+      "D": "Nonketotic hyperglycinemia",
+      "E": "Megaloblastic anemia"
+    },
+    "answer": "B",
+    "explanation": "Tyrosinemia results from the inability to break down Tyrosine due to enzyme dysfunction, leading to its accumulation in the blood."
+  },
+  {
+    "question": "Which enzyme deficiency causes Alkaptonuria, leading to the accumulation and excretion of Homogentisate?",
+    "options": {
+      "A": "Phenylalanine hydroxylase",
+      "B": "Tyrosine aminotransferase",
+      "C": "Homogentisate dioxygenase",
+      "D": "Fumarylacetoacetase",
+      "E": "Arginase"
+    },
+    "answer": "C",
+    "explanation": "A deficiency in Homogentisate dioxygenase is responsible for Alkaptonuria. This leads to a buildup of Homogentisate, which is then excreted."
+  },
+  {
+    "question": "In the alternative metabolic pathway of Phenylalanine, what compound is formed and accumulates in the blood and tissues when Phenylalanine hydroxylase is deficient?",
+    "options": {
+      "A": "Tyrosine",
+      "B": "Fumarate",
+      "C": "Homogentisate",
+      "D": "Phenylpyruvate",
+      "E": "Acetoacetyl-CoA"
+    },
+    "answer": "D",
+    "explanation": "When Phenylalanine hydroxylase is deficient, Phenylpyruvate is generated and accumulates in the blood and tissues."
+  },
+  {
+    "question": "What is the mnemonic for the six amino acids that can be metabolized to Pyruvate?",
+    "options": {
+      "A": "What's Google Chrome?",
+      "B": "DoughNut",
+      "C": "I'M TV",
+      "D": "If You Lose, you will curse: What The FxxK!",
+      "E": "HE is PooR QQ ~"
+    },
+    "answer": "A",
+    "explanation": "The mnemonic for the six amino acids metabolized to Pyruvate is 'What's Google Chrome?'."
+  },
+  {
+    "question": "Which enzyme, when deficient, can lead to Nonketotic hyperglycinemia due to the accumulation of Glycine?",
+    "options": {
+      "A": "Phenylalanine hydroxylase",
+      "B": "Glycine cleavage enzyme",
+      "C": "Tyrosine aminotransferase",
+      "D": "Homogentisate dioxygenase",
+      "E": "Asparaginase"
+    },
+    "answer": "B",
+    "explanation": "A deficiency in Glycine cleavage enzyme can cause an excess of Glycine, leading to Nonketotic hyperglycinemia."
+  },
+  {
+    "question": "What is the primary constituent of 75% of kidney stones?",
+    "options": {
+      "A": "Calcium phosphate",
+      "B": "Uric acid",
+      "C": "Calcium oxalate",
+      "D": "Cystine",
+      "E": "Struvite"
+    },
+    "answer": "C",
+    "explanation": "Calcium oxalate crystals make up the majority (75%) of kidney stones."
+  },
+  {
+    "question": "Which enzyme is involved in the detoxification of D-amino acids, primarily found in bacterial cell walls and cooked food?",
+    "options": {
+      "A": "Glycine cleavage enzyme",
+      "B": "D-Amino acid oxidase",
+      "C": "Phenylalanine hydroxylase",
+      "D": "Aspartate aminotransferase",
+      "E": "Arginase"
+    },
+    "answer": "B",
+    "explanation": "D-Amino acid oxidase plays a key role in detoxifying D-amino acids."
+  },
+  {
+    "question": "What is the mnemonic for the two amino acids that are metabolized to Oxaloacetate?",
+    "options": {
+      "A": "What's Google Chrome?",
+      "B": "DoughNut",
+      "C": "I'M TV",
+      "D": "If You Lose, you will curse: What The FxxK!",
+      "E": "HE is PooR QQ ~"
+    },
+    "answer": "B",
+    "explanation": "The mnemonic 'DoughNut' represents Asparagine and Aspartate, which are metabolized to Oxaloacetate."
+  },
+  {
+    "question": "Which enzyme converts Asparagine to Aspartate?",
+    "options": {
+      "A": "Aspartate aminotransferase",
+      "B": "Asparaginase",
+      "C": "Arginase",
+      "D": "Ornithine transcarbamoylase",
+      "E": "Glutaminase"
+    },
+    "answer": "B",
+    "explanation": "Asparaginase is the enzyme responsible for converting Asparagine to Aspartate."
+  },
+  {
+    "question": "Which enzyme catalyzes the conversion of Aspartate to Oxaloacetate?",
+    "options": {
+      "A": "Asparaginase",
+      "B": "Arginase",
+      "C": "Aspartate aminotransferase",
+      "D": "Ornithine transcarbamoylase",
+      "E": "Glutaminase"
+    },
+    "answer": "C",
+    "explanation": "Aspartate aminotransferase facilitates the conversion of Aspartate to Oxaloacetate."
+  },
+  {
+    "question": "What is the mnemonic for the four amino acids that are metabolized to Succinyl-CoA?",
+    "options": {
+      "A": "What's Google Chrome?",
+      "B": "DoughNut",
+      "C": "I'M TV",
+      "D": "If You Lose, you will curse: What The FxxK!",
+      "E": "HE is PooR QQ ~"
+    },
+    "answer": "C",
+    "explanation": "The mnemonic for the four amino acids that are metabolized to Succinyl-CoA is 'I'M TV'."
+  },
+  {
+    "question": "What is the mnemonic for the five amino acids that are metabolized to α-Ketoglutarate?",
+    "options": {
+      "A": "What's Google Chrome?",
+      "B": "DoughNut",
+      "C": "I'M TV",
+      "D": "If You Lose, you will curse: What The FxxK!",
+      "E": "HE is PooR QQ ~"
+    },
+    "answer": "E",
+    "explanation": "The mnemonic for the five amino acids metabolized to α-Ketoglutarate is 'HE is PooR QQ ~'."
+  },
+  {
+    "question": "What structural feature is shared by the five amino acids that are metabolized to α-Ketoglutarate?",
+    "options": {
+      "A": "Aromatic ring",
+      "B": "Sulfur-containing side chain",
+      "C": "Branched-chain structure",
+      "D": "Five-carbon chain",
+      "E": "Hydroxyl group"
+    },
+    "answer": "D",
+    "explanation": "The five amino acids that are metabolized to α-Ketoglutarate all possess a five-carbon chain."
+  },
+  {
+    "question": "In Proline metabolism, what modification occurs to the carbon atom farthest from the carboxyl group?",
+    "options": {
+      "A": "Reduction to an alcohol",
+      "B": "Addition of a methyl group",
+      "C": "Formation of a double bond",
+      "D": "Oxidation to a Schiff base",
+      "E": "Removal of an amino group"
+    },
+    "answer": "D",
+    "explanation": "During Proline metabolism, the carbon atom farthest from the carboxyl group is oxidized to a Schiff base."
+  },
+  {
+    "question": "What compound is removed from Arginine by Arginase, leading to the formation of Ornithine?",
+    "options": {
+      "A": "Ammonia",
+      "B": "Carbon dioxide",
+      "C": "Urea",
+      "D": "Water",
+      "E": "Succinyl-CoA"
+    },
+    "answer": "C",
+    "explanation": "Arginase removes Urea from Arginine, resulting in the production of Ornithine."
+  },
+  {
+    "question": "During Histidine metabolism, how many carbons are transferred by Tetrahydrofolate (THF)?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four",
+      "E": "Five"
+    },
+    "answer": "A",
+    "explanation": "In Histidine metabolism, one carbon atom is carried away by Tetrahydrofolate."
+  }
+]
