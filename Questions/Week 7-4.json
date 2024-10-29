@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of lipids?",
+    "options": {
+      "A": "Relatively insoluble in water",
+      "B": "Soluble in non-polar solvents like ether and chloroform",
+      "C": "A major component of food, providing essential fatty acids and fat-soluble vitamins",
+      "D": "Easily soluble in polar solvents like water",
+      "E": "Can act as a thermal insulator in adipose tissue"
+    },
+    "answer": "D",
+    "explanation": "Lipids are characterized by their insolubility in polar solvents like water and solubility in non-polar solvents."
+  },
+  {
+    "question": "Which type of lipid is the most efficient way for plants and animals to store energy?",
+    "options": {
+      "A": "Phospholipids",
+      "B": "Steroids",
+      "C": "Waxes",
+      "D": "Neutral lipids",
+      "E": "All lipids are equally efficient"
+    },
+    "answer": "D",
+    "explanation": "Neutral lipids, which include triglycerides, are the most efficient way for plants and animals to store energy due to their high caloric content."
+  },
+  {
+    "question": "What role do lipids play in the nervous system?",
+    "options": {
+      "A": "They form the myelin sheath that insulates nerve fibers, allowing for rapid signal transmission.",
+      "B": "They act as neurotransmitters, transmitting signals between neurons.",
+      "C": "They provide structural support for the brain and spinal cord.",
+      "D": "They are involved in the synthesis of neurotransmitters.",
+      "E": "They are not involved in the nervous system."
+    },
+    "answer": "A",
+    "explanation": "Non-polar lipids act as electrical insulators. In the nervous system, they form the myelin sheath that surrounds nerve fibers, enabling the rapid transmission of depolarization signals."
+  },
+  {
+    "question": "What is the function of lipoproteins in the blood?",
+    "options": {
+      "A": "They transport oxygen throughout the body.",
+      "B": "They fight infections and diseases.",
+      "C": "They help in blood clotting.",
+      "D": "They transport lipids like cholesterol and fats.",
+      "E": "They regulate blood sugar levels."
+    },
+    "answer": "D",
+    "explanation": "Lipoproteins in the blood are responsible for transporting lipids like cholesterol and fats throughout the body."
+  },
+  {
+    "question": "The study of lipid biochemistry can help us understand which of the following health conditions?",
+    "options": {
+      "A": "Obesity",
+      "B": "Diabetes mellitus",
+      "C": "Atherosclerosis",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Lipid biochemistry plays a crucial role in understanding health conditions like obesity, diabetes mellitus, and atherosclerosis."
+  },
+  {
+    "question": "Which of the following is an example of a simple lipid?",
+    "options": {
+      "A": "Phospholipid",
+      "B": "Glycolipid",
+      "C": "Wax",
+      "D": "Lipoprotein",
+      "E": "Sulfolipid"
+    },
+    "answer": "C",
+    "explanation": "Simple lipids are esters formed by fatty acids and alcohols. Waxes, formed by high molecular weight fatty acids and monohydric alcohols, are an example of simple lipids."
+  },
+  {
+    "question": "What distinguishes complex lipids from simple lipids?",
+    "options": {
+      "A": "Complex lipids contain additional functional groups besides the ester bond between fatty acids and alcohols.",
+      "B": "Complex lipids are only found in plants, while simple lipids are found in animals.",
+      "C": "Complex lipids are solid at room temperature, while simple lipids are liquid.",
+      "D": "Complex lipids are not essential for human health, while simple lipids are.",
+      "E": "There is no difference between complex and simple lipids."
+    },
+    "answer": "A",
+    "explanation": "Complex lipids, unlike simple lipids, contain additional functional groups besides the ester bond formed between fatty acids and alcohols."
+  },
+  {
+    "question": "Which of the following is NOT a type of complex lipid?",
+    "options": {
+      "A": "Phospholipids",
+      "B": "Glycolipids",
+      "C": "Sulfolipids",
+      "D": "Waxes",
+      "E": "Lipoproteins"
+    },
+    "answer": "D",
+    "explanation": "Waxes are classified as simple lipids, not complex lipids."
+  },
+  {
+    "question": "What is the alcohol component of glycerophospholipids?",
+    "options": {
+      "A": "Cholesterol",
+      "B": "Sphingosine",
+      "C": "Glycerol",
+      "D": "Ethanol",
+      "E": "Serine"
+    },
+    "answer": "C",
+    "explanation": "In glycerophospholipids, the alcohol component is glycerol."
+  },
+  {
+    "question": "What is the alcohol component of sphingophospholipids?",
+    "options": {
+      "A": "Cholesterol",
+      "B": "Sphingosine",
+      "C": "Glycerol",
+      "D": "Ethanol",
+      "E": "Serine"
+    },
+    "answer": "B",
+    "explanation": "Sphingophospholipids use sphingosine, an amino alcohol, as their alcohol component."
+  },
+  {
+    "question": "Which class of lipids includes fatty acids, glycerol, and fat-soluble vitamins?",
+    "options": {
+      "A": "Simple lipids",
+      "B": "Complex lipids",
+      "C": "Derived lipids",
+      "D": "Neutral lipids",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Derived lipids are hydrolysis products of simple or complex lipids and include fatty acids, glycerol, long-chain alcohols, and fat-soluble vitamins."
+  },
+  {
+    "question": "Which of the following lipids is NOT a neutral lipid?",
+    "options": {
+      "A": "Acylglycerol",
+      "B": "Cholesterol",
+      "C": "Cholesteryl ester",
+      "D": "Phospholipid",
+      "E": "All of the above are neutral lipids"
+    },
+    "answer": "D",
+    "explanation": "Neutral lipids are uncharged lipids. Phospholipids, with their phosphate group, carry a charge and are therefore not considered neutral lipids."
+  },
+  {
+    "question": "What is the main form in which fatty acids exist in the body?",
+    "options": {
+      "A": "Free fatty acids",
+      "B": "As esters in fats and oils",
+      "C": "As part of phospholipids",
+      "D": "As part of glycolipids",
+      "E": "As ketone bodies"
+    },
+    "answer": "B",
+    "explanation": "While fatty acids can exist as free fatty acids in the plasma, their primary form in the body is as esters in fats and oils."
+  },
+  {
+    "question": "What is the difference between saturated and unsaturated fatty acids?",
+    "options": {
+      "A": "Saturated fatty acids have single bonds between carbon atoms, while unsaturated fatty acids have at least one double bond.",
+      "B": "Saturated fatty acids are liquid at room temperature, while unsaturated fatty acids are solid.",
+      "C": "Saturated fatty acids are found in plants, while unsaturated fatty acids are found in animals.",
+      "D": "Saturated fatty acids are essential for human health, while unsaturated fatty acids are not.",
+      "E": "There is no difference between saturated and unsaturated fatty acids."
+    },
+    "answer": "A",
+    "explanation": "Saturated fatty acids have only single bonds in their carbon chains, while unsaturated fatty acids contain at least one carbon-carbon double bond."
+  },
+  {
+    "question": "How are fatty acids named according to the Geneva system?",
+    "options": {
+      "A": "By replacing the -e suffix of the hydrocarbon chain with -oic",
+      "B": "By adding the prefix -fat to the hydrocarbon chain name",
+      "C": "By using Greek letters to denote the position of double bonds",
+      "D": "By indicating the number of carbon atoms and double bonds with a colon",
+      "E": "By using common names based on their source"
+    },
+    "answer": "A",
+    "explanation": "The Geneva system names fatty acids by replacing the -e suffix of the corresponding hydrocarbon chain with -oic. For example, octane becomes octanoic acid."
+  },
+  {
+    "question": "What does the symbol Δ denote in fatty acid nomenclature?",
+    "options": {
+      "A": "The number of carbon atoms in the fatty acid chain",
+      "B": "The position of the first double bond from the carboxyl group",
+      "C": "The total number of double bonds in the fatty acid chain",
+      "D": "The configuration of the double bond (cis or trans)",
+      "E": "The omega family the fatty acid belongs to"
+    },
+    "answer": "B",
+    "explanation": "The Δ symbol, in fatty acid nomenclature, indicates the position of the double bond, counting from the carboxyl group."
+  },
+  {
+    "question": "What does the designation ω9 in a fatty acid indicate?",
+    "options": {
+      "A": "The fatty acid has 9 carbon atoms.",
+      "B": "The fatty acid has 9 double bonds.",
+      "C": "The first double bond is located 9 carbons from the carboxyl group.",
+      "D": "The first double bond is located 9 carbons from the terminal methyl group.",
+      "E": "The fatty acid belongs to the omega-9 family, but the position of the double bond is not specified."
+    },
+    "answer": "D",
+    "explanation": "The ω9 designation in a fatty acid indicates that the first double bond is located 9 carbons away from the terminal methyl group (omega carbon)."
+  },
+  {
+    "question": "Which of the following fatty acids is a monounsaturated fatty acid?",
+    "options": {
+      "A": "Stearic acid",
+      "B": "Palmitic acid",
+      "C": "Oleic acid",
+      "D": "Linoleic acid",
+      "E": "Arachidonic acid"
+    },
+    "answer": "C",
+    "explanation": "Oleic acid, with only one double bond in its carbon chain, is a monounsaturated fatty acid."
+  },
+  {
+    "question": "What is the difference between cis and trans forms of unsaturated fatty acids?",
+    "options": {
+      "A": "Cis forms have the carbon chains on the same side of the double bond, while trans forms have them on opposite sides.",
+      "B": "Cis forms are naturally occurring, while trans forms are artificially produced.",
+      "C": "Cis forms are beneficial for health, while trans forms are harmful.",
+      "D": "Cis forms have a higher melting point than trans forms.",
+      "E": "All of the above are correct."
+    },
+    "answer": "E",
+    "explanation": "All the statements about cis and trans forms of unsaturated fatty acids are correct."
+  },
+  {
+    "question": "Which of the following is a source of trans fatty acids?",
+    "options": {
+      "A": "Partially hydrogenated oils",
+      "B": "Ruminant animal products",
+      "C": "Both A and B",
+      "D": "Neither A nor B",
+      "E": "Trans fatty acids are not found in nature."
+    },
+    "answer": "C",
+    "explanation": "Trans fatty acids can be found in partially hydrogenated oils and ruminant animal products."
+  },
+  {
+    "question": "What are eicosanoids derived from?",
+    "options": {
+      "A": "Saturated fatty acids",
+      "B": "Monounsaturated fatty acids",
+      "C": "Polyunsaturated fatty acids with 18 carbon atoms",
+      "D": "Polyunsaturated fatty acids with 20 carbon atoms",
+      "E": "Cholesterol"
+    },
+    "answer": "D",
+    "explanation": "Eicosanoids are derived from eicosa polyenoic fatty acids, which are polyunsaturated fatty acids with 20 carbon atoms."
+  },
+  {
+    "question": "Which of the following eicosanoids is a potential proinflammatory agent?",
+    "options": {
+      "A": "Prostaglandins",
+      "B": "Prostacyclins",
+      "C": "Thromboxanes",
+      "D": "Leukotrienes",
+      "E": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Leukotrienes are considered potential proinflammatory agents and have been linked to asthma due to their bronchoconstriction effects."
+  },
+  {
+    "question": "What happens to the fluidity of biological membranes at high temperatures?",
+    "options": {
+      "A": "The fluidity increases",
+      "B": "The fluidity decreases",
+      "C": "The fluidity remains the same",
+      "D": "The membrane solidifies",
+      "E": "The membrane disintegrates"
+    },
+    "answer": "A",
+    "explanation": "High temperatures can cause some double bonds in unsaturated fatty acids to break, shortening the carbon chains and increasing membrane fluidity."
+  },
+  {
+    "question": "Which of the following fatty acids is a major component of fish oil and is known for its anti-inflammatory effects?",
+    "options": {
+      "A": "Palmitic acid",
+      "B": "Oleic acid",
+      "C": "Linoleic acid",
+      "D": "Eicosapentaenoic acid (EPA)",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Eicosapentaenoic acid (EPA), found in fish oil, is a long-chain omega-3 fatty acid known for its anti-inflammatory effects."
+  },
+  {
+    "question": "What is the significance of the sn system in naming triacylglycerols?",
+    "options": {
+      "A": "It indicates the type of fatty acid attached to the glycerol molecule.",
+      "B": "It differentiates between saturated and unsaturated fatty acids.",
+      "C": "It specifies the position of the fatty acids on the glycerol molecule when they are different.",
+      "D": "It describes the length of the fatty acid chains.",
+      "E": "It is not relevant to triacylglycerols."
+    },
+    "answer": "C",
+    "explanation": "The sn (stereochemical numbering) system is used to specify the position of different fatty acids attached to the glycerol molecule in triacylglycerols."
+  },
+  {
+    "question": "Which carbon atom in a glycerol molecule is typically modified in physiological reactions?",
+    "options": {
+      "A": "Carbon 1",
+      "B": "Carbon 2",
+      "C": "Carbon 3",
+      "D": "Any of the carbons can be modified equally.",
+      "E": "Glycerol is not modified in physiological reactions."
+    },
+    "answer": "C",
+    "explanation": "In most physiological reactions, the 3rd carbon atom (sn-3) of the glycerol molecule is typically the site of modification."
+  },
+  {
+    "question": "Which type of fatty acid is usually attached to the 2nd carbon atom of glycerol in physiological reactions?",
+    "options": {
+      "A": "Saturated fatty acid",
+      "B": "Monounsaturated fatty acid",
+      "C": "Polyunsaturated fatty acid",
+      "D": "Any type of fatty acid can be attached.",
+      "E": "Fatty acids are not attached to the 2nd carbon atom of glycerol."
+    },
+    "answer": "C",
+    "explanation": "Polyunsaturated fatty acids, with their bent shape due to double bonds, are typically found attached to the 2nd carbon atom of glycerol in physiological reactions."
+  },
+  {
+    "question": "What is the simplest form of a phospholipid?",
+    "options": {
+      "A": "Phosphatidic acid",
+      "B": "Phosphatidylcholine",
+      "C": "Phosphatidylethanolamine",
+      "D": "Phosphatidylserine",
+      "E": "Phosphatidylinositol"
+    },
+    "answer": "A",
+    "explanation": "Phosphatidic acid, consisting of glycerol, two fatty acids, and a phosphate group, is considered the simplest form of a phospholipid."
+  },
+  {
+    "question": "What is the function of the head group in a phospholipid molecule?",
+    "options": {
+      "A": "It forms the hydrophobic tail of the molecule.",
+      "B": "It determines the hydrophilic properties of the molecule.",
+      "C": "It stores energy for the cell.",
+      "D": "It acts as a signaling molecule.",
+      "E": "It is not essential for phospholipid function."
+    },
+    "answer": "B",
+    "explanation": "The head group of a phospholipid, being polar or charged, determines the hydrophilic properties of the molecule."
+  },
+  {
+    "question": "Which type of bond links the phosphate group to glycerol and the head group in a phospholipid?",
+    "options": {
+      "A": "Ester bond",
+      "B": "Glycosidic bond",
+      "C": "Peptide bond",
+      "D": "Phosphodiester bond",
+      "E": "Hydrogen bond"
+    },
+    "answer": "D",
+    "explanation": "The phosphate group in a phospholipid is linked to both the glycerol and the head group via phosphodiester bonds."
+  },
+  {
+    "question": "Which of the following statements about sphingolipids is TRUE?",
+    "options": {
+      "A": "They contain two fatty acid chains.",
+      "B": "They are not found in cell membranes.",
+      "C": "They are synthesized from cholesterol.",
+      "D": "They play a role in cell signaling and apoptosis.",
+      "E": "They are the main energy storage molecule in the body."
+    },
+    "answer": "D",
+    "explanation": "Sphingolipids are involved in various cellular processes, including cell signaling and apoptosis."
+  },
+  {
+    "question": "What is the orientation of phospholipids in a cell membrane?",
+    "options": {
+      "A": "Hydrophilic heads facing inward, hydrophobic tails facing outward",
+      "B": "Hydrophobic tails facing inward, hydrophilic heads facing outward",
+      "C": "Hydrophobic tails facing each other, hydrophilic heads on both surfaces",
+      "D": "Randomly arranged with no specific orientation",
+      "E": "Phospholipids are not found in cell membranes."
+    },
+    "answer": "C",
+    "explanation": "In a cell membrane, phospholipids form a bilayer with their hydrophobic tails facing each other and hydrophilic heads oriented towards both the intracellular and extracellular surfaces."
+  },
+  {
+    "question": "Why are unsaturated phospholipids important for cell membrane function?",
+    "options": {
+      "A": "They increase membrane rigidity and stability.",
+      "B": "They decrease membrane fluidity and permeability.",
+      "C": "They provide a platform for protein attachment.",
+      "D": "They enhance membrane fluidity and permeability.",
+      "E": "They are not important for cell membrane function."
+    },
+    "answer": "D",
+    "explanation": "The bent shape of unsaturated phospholipids, due to their double bonds, enhances membrane fluidity and permeability, allowing substances to pass through more easily."
+  },
+  {
+    "question": "Which of the following cells would likely have a higher proportion of unsaturated phospholipids in their cell membrane?",
+    "options": {
+      "A": "Skin cells",
+      "B": "Bone cells",
+      "C": "Red blood cells",
+      "D": "Muscle cells",
+      "E": "All cells have the same proportion of unsaturated phospholipids."
+    },
+    "answer": "C",
+    "explanation": "Cells that need to deform frequently, like red blood cells, require higher membrane fluidity and would therefore have a higher proportion of unsaturated phospholipids."
+  },
+  {
+    "question": "What is the head group in phosphatidylcholine?",
+    "options": {
+      "A": "Choline",
+      "B": "Ethanolamine",
+      "C": "Serine",
+      "D": "Inositol",
+      "E": "Glycerol"
+    },
+    "answer": "A",
+    "explanation": "Phosphatidylcholine, also known as lecithin, has choline as its head group."
+  },
+  {
+    "question": "Which phospholipid is an important source of choline, a precursor for the neurotransmitter acetylcholine?",
+    "options": {
+      "A": "Phosphatidic acid",
+      "B": "Phosphatidylcholine",
+      "C": "Phosphatidylethanolamine",
+      "D": "Phosphatidylserine",
+      "E": "Phosphatidylinositol"
+    },
+    "answer": "B",
+    "explanation": "Phosphatidylcholine can store choline, which is a precursor for the neurotransmitter acetylcholine and also a source of active methyl groups."
+  },
+  {
+    "question": "What is the function of dipalmitoyl lecithin in the lungs?",
+    "options": {
+      "A": "It increases the surface tension of the alveolar fluid, making breathing easier.",
+      "B": "It acts as a transport molecule for oxygen in the lungs.",
+      "C": "It is involved in immune defense against pathogens in the lungs.",
+      "D": "It reduces the surface tension of the alveolar fluid, facilitating lung expansion.",
+      "E": "It is not found in the lungs."
+    },
+    "answer": "D",
+    "explanation": "Dipalmitoyl lecithin acts as a surfactant in the lungs, reducing the surface tension of the alveolar fluid and promoting lung expansion for efficient gas exchange."
+  },
+  {
+    "question": "Which phospholipid is involved in cell apoptosis and is a precursor for phosphatidylethanolamine?",
+    "options": {
+      "A": "Phosphatidic acid",
+      "B": "Phosphatidylcholine",
+      "C": "Phosphatidylethanolamine",
+      "D": "Phosphatidylserine",
+      "E": "Phosphatidylinositol"
+    },
+    "answer": "D",
+    "explanation": "Phosphatidylserine plays a role in cell apoptosis and, after decarboxylation, forms phosphatidylethanolamine."
+  },
+  {
+    "question": "Which of the following is a characteristic of sphingomyelin?",
+    "options": {
+      "A": "It contains glycerol in its structure.",
+      "B": "It is found primarily in the inner layer of the cell membrane.",
+      "C": "It does not contain a fatty acid chain.",
+      "D": "It is a major component of the myelin sheath in nerve cells.",
+      "E": "It is not involved in cell signaling."
+    },
+    "answer": "D",
+    "explanation": "Sphingomyelin, a type of sphingolipid, is a major component of the myelin sheath surrounding nerve fibers, contributing to efficient signal transmission."
+  },
+  {
+    "question": "Which lipid is particularly abundant in lipid rafts, specialized membrane microdomains?",
+    "options": {
+      "A": "Phosphatidylcholine",
+      "B": "Phosphatidylserine",
+      "C": "Sphingomyelin",
+      "D": "Phosphatidylinositol",
+      "E": "Cardiolipin"
+    },
+    "answer": "C",
+    "explanation": "Sphingomyelin is particularly abundant in lipid rafts, specific areas within the cell membrane involved in various cellular processes."
+  },
+  {
+    "question": "Which of the following is NOT a hydrolysis product of sphingomyelin?",
+    "options": {
+      "A": "Fatty acid",
+      "B": "Phosphate",
+      "C": "Choline",
+      "D": "Sphingosine",
+      "E": "Glycerol"
+    },
+    "answer": "E",
+    "explanation": "Sphingomyelin does not contain glycerol in its structure. Its hydrolysis products are a fatty acid, phosphate, choline, and sphingosine."
+  },
+  {
+    "question": "What is the head group in phosphatidylinositol?",
+    "options": {
+      "A": "Choline",
+      "B": "Ethanolamine",
+      "C": "Serine",
+      "D": "Myoinositol",
+      "E": "Glycerol"
+    },
+    "answer": "D",
+    "explanation": "Phosphatidylinositol uses myoinositol, a stereoisomer of inositol, as its head group."
+  },
+  {
+    "question": "What role does phosphatidylinositol play in the cell?",
+    "options": {
+      "A": "Energy storage",
+      "B": "Structural support",
+      "C": "Cell signaling and membrane trafficking",
+      "D": "Enzyme activity",
+      "E": "It has no known function."
+    },
+    "answer": "C",
+    "explanation": "Despite its relatively low abundance in the cell membrane, phosphatidylinositol and its phosphorylated forms are crucial for cell signaling and membrane vesicle transport."
+  },
+  {
+    "question": "How many phosphate groups can be attached to the inositol head group in phosphatidylinositol?",
+    "options": {
+      "A": "Only one",
+      "B": "Only two",
+      "C": "Only three",
+      "D": "One, two, or three",
+      "E": "Phosphate groups cannot be attached to inositol."
+    },
+    "answer": "D",
+    "explanation": "The inositol head group in phosphatidylinositol can be phosphorylated, carrying one, two, or three phosphate groups."
+  },
+  {
+    "question": "Which of the following is a breakdown product of phosphatidylinositol 4,5-biphosphate (PIP2) and acts as a secondary messenger precursor?",
+    "options": {
+      "A": "Diacylglycerol (DAG)",
+      "B": "Inositol triphosphate (IP3)",
+      "C": "Both A and B",
+      "D": "Neither A nor B",
+      "E": "PIP2 does not break down."
+    },
+    "answer": "C",
+    "explanation": "The breakdown of phosphatidylinositol 4,5-biphosphate (PIP2) yields both diacylglycerol (DAG) and inositol triphosphate (IP3), both of which act as important precursors for secondary messengers in cellular signaling."
+  },
+  {
+    "question": "Where is cardiolipin exclusively found?",
+    "options": {
+      "A": "Cell membrane",
+      "B": "Endoplasmic reticulum",
+      "C": "Golgi apparatus",
+      "D": "Mitochondria",
+      "E": "Nucleus"
+    },
+    "answer": "D",
+    "explanation": "Cardiolipin, a unique phospholipid, is found exclusively in mitochondria, playing a vital role in mitochondrial function."
+  },
+  {
+    "question": "What health conditions can be associated with cardiolipin deficiency?",
+    "options": {
+      "A": "Heart failure",
+      "B": "Hypothyroidism",
+      "C": "Barth syndrome",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Cardiolipin deficiency can lead to mitochondrial dysfunction, contributing to health conditions like heart failure, hypothyroidism, and Barth syndrome."
+  },
+  {
+    "question": "Which oil has the highest saturated fatty acid content?",
+    "options": {
+      "A": "Sunflower oil",
+      "B": "Corn oil",
+      "C": "Olive oil",
+      "D": "Soybean oil",
+      "E": "Coconut oil"
+    },
+    "answer": "E",
+    "explanation": "Among the listed oils, coconut oil has the highest saturated fatty acid content."
+  },
+  {
+    "question": "Which of the following pairs correctly matches the oil with its relative content of saturated fatty acids, monounsaturated fatty acids, and polyunsaturated fatty acids?",
+    "options": {
+      "A": "Palm oil: High in saturated fatty acids, low in monounsaturated fatty acids, high in polyunsaturated fatty acids",
+      "B": "Olive oil: High in monounsaturated fatty acids, low in saturated fatty acids, moderate in polyunsaturated fatty acids",
+      "C": "Soybean oil: Low in saturated fatty acids, high in monounsaturated fatty acids, low in polyunsaturated fatty acids",
+      "D": "Sunflower oil: Moderate in saturated fatty acids, high in monounsaturated fatty acids, low in polyunsaturated fatty acids",
+      "E": "Coconut oil: Low in saturated fatty acids, moderate in monounsaturated fatty acids, high in polyunsaturated fatty acids"
+    },
+    "answer": "B",
+    "explanation": "Olive oil is known for its high monounsaturated fatty acid content, particularly oleic acid, with lower amounts of saturated and polyunsaturated fatty acids."
+  },
+  {
+    "question": "Why do oils rich in unsaturated fatty acids contain higher levels of vitamin E?",
+    "options": {
+      "A": "Vitamin E is intentionally added to these oils during processing.",
+      "B": "Unsaturated fatty acids enhance the absorption of vitamin E from the diet.",
+      "C": "Vitamin E acts as an antioxidant, protecting the unsaturated fatty acids from oxidation.",
+      "D": "Vitamin E is a byproduct of unsaturated fatty acid synthesis.",
+      "E": "There is no relationship between unsaturated fatty acids and vitamin E content."
+    },
+    "answer": "C",
+    "explanation": "The presence of multiple double bonds in unsaturated fatty acids makes them susceptible to oxidation. Vitamin E, a potent antioxidant, helps protect these oils from oxidative damage."
+  },
+  {
+    "question": "Which of the following oils contains cholesterol?",
+    "options": {
+      "A": "Corn oil",
+      "B": "Olive oil",
+      "C": "Soybean oil",
+      "D": "Sunflower oil",
+      "E": "Butter"
+    },
+    "answer": "E",
+    "explanation": "Cholesterol is found only in animal-derived fats. Butter, being an animal fat, contains cholesterol. Plant-based oils like corn, olive, soybean, and sunflower oils do not contain cholesterol."
+  },
+  {
+    "question": "Which fatty acid is synthesized from alpha-linolenic acid and is a precursor for DHA synthesis?",
+    "options": {
+      "A": "Palmitic acid",
+      "B": "Oleic acid",
+      "C": "Linoleic acid",
+      "D": "Eicosapentaenoic acid (EPA)",
+      "E": "Docosahexaenoic acid (DHA)"
+    },
+    "answer": "D",
+    "explanation": "The body can synthesize EPA from alpha-linolenic acid, and EPA subsequently serves as a precursor for DHA synthesis."
+  },
+  {
+    "question": "Which of the following is a rich source of DHA?",
+    "options": {
+      "A": "Brain tissue",
+      "B": "Retina",
+      "C": "Sperm cells",
+      "D": "Breast milk",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "DHA is found in high concentrations in brain tissue, the retina, sperm cells, and breast milk, reflecting its importance for brain development, vision, and reproductive health."
+  },
+  {
+    "question": "What is a potential consequence of DHA deficiency during infancy?",
+    "options": {
+      "A": "Impaired memory and learning",
+      "B": "Increased risk of depression",
+      "C": "Delayed brain development",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "DHA is crucial for brain development, especially during infancy. Deficiency can lead to impaired memory and learning, increased risk of depression, and delayed brain development."
+  },
+  {
+    "question": "What is a suitable source of DHA for vegetarians?",
+    "options": {
+      "A": "Fish oil",
+      "B": "Palm oil",
+      "C": "Soybean oil",
+      "D": "Algal oil",
+      "E": "Coconut oil"
+    },
+    "answer": "D",
+    "explanation": "While fish oil is a rich source of DHA, it is not suitable for vegetarians. Algal oil, derived from specific algae, is a plant-based alternative for obtaining DHA."
+  }
+]
