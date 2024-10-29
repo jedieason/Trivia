@@ -7,6 +7,12 @@ let wrong = 0;
 let selectedJson = null; // 初始為 null
 let isTestCompleted = false; // Flag to track test completion
 
+// GitHub API相關資訊
+const GITHUB_USER = 'jedieason'; // 替換為您的GitHub用戶名
+const GITHUB_REPO = 'Trivia'; // 替換為您的存儲庫名稱
+const GITHUB_FOLDER_PATH = 'Questions'; // JSON檔案所在的目錄
+
+
 let expandTimeout;
 
 // 初始化測驗
@@ -447,3 +453,45 @@ window.addEventListener("beforeunload", function (event) {
     event.preventDefault();
     event.returnValue = '';
 });
+
+// 新增函數：從GitHub獲取JSON檔案列表並生成按鈕
+async function fetchJsonFiles() {
+    const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${GITHUB_FOLDER_PATH}`;
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error(`GitHub API error: ${response.status}`);
+        }
+        const data = await response.json();
+        const buttonContainer = document.getElementById('button-row');
+
+        // 遍歷檔案，尋找.json結尾的檔案
+        data.forEach(item => {
+            if (item.type === 'file' && item.name.endsWith('.json')) {
+                const relativePath = item.path.replace(/\\/g, '/'); // 確保路徑使用正斜線
+                const button = document.createElement('button');
+                button.classList.add('select-button');
+                button.dataset.json = relativePath;
+                // 按鈕顯示名稱可以根據需要調整，例如去除副檔名
+                button.innerText = item.name.replace('.json', '');
+                button.addEventListener('click', () => {
+                    // 移除其他按鈕的選中狀態
+                    const allButtons = document.querySelectorAll('.select-button');
+                    allButtons.forEach(btn => btn.classList.remove('selected'));
+                    // 添加選中狀態到當前按鈕
+                    button.classList.add('selected');
+                    // 設定要載入的 JSON 檔案
+                    selectedJson = button.dataset.json;
+                });
+                buttonContainer.appendChild(button);
+            }
+        });
+    } catch (error) {
+        console.error('Error fetching JSON files from GitHub:', error);
+        showCustomAlert('Failed to load question banks. Please try again later.');
+    }
+}
+
+// 在頁面加載時呼叫fetchJsonFiles
+window.addEventListener('DOMContentLoaded', fetchJsonFiles);
+
