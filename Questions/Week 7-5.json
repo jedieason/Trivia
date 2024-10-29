@@ -1,0 +1,626 @@
+[
+    {
+        "question": "What is the defining characteristic of lysophosphatidylcholine (Lysolecithin)?",
+        "options": {
+            "A": "Presence of a sulfate group on the sugar moiety.",
+            "B": "A fatty acid at the second carbon replaced with a hydroxyl group.",
+            "C": "Attachment of multiple sialic acids to glucosylceramide.",
+            "D": "An ether linkage at the first carbon with a double bond.",
+            "E": "A ceramide backbone with a single galactose attached."
+        },
+        "answer": "B",
+        "explanation": "Lysolecithin is formed when the fatty acid at the second carbon of lecithin is replaced by a hydroxyl group (-OH)."
+    },
+    {
+        "question": "Which lipid is known for its high concentration in the heart and brain, and its ability to protect against reactive oxygen species (ROS)?",
+        "options": {
+            "A": "Lysophosphatidylcholine",
+            "B": "Plasmalogen",
+            "C": "Galactosylceramide",
+            "D": "Glucosylceramide",
+            "E": "Sulfatide"
+        },
+        "answer": "B",
+        "explanation": "Plasmalogen is found in high concentrations in the heart and brain. It has a protective role against ROS due to the presence of a double bond susceptible to interactions with peroxides."
+    },
+    {
+        "question": "What are the two main components that make up a glycolipid?",
+        "options": {
+            "A": "Sphingosine and Fatty acid",
+            "B": "Carbohydrate and Lipid",
+            "C": "Ceramide and Phosphate group",
+            "D": "Glycerol and Fatty acid",
+            "E": "Steroid and Sugar"
+        },
+        "answer": "B",
+        "explanation": "Glycolipids are composed of a carbohydrate and a lipid molecule."
+    },
+    {
+        "question": "What is the term for the extracellular matrix formed by glycolipids on the outer layer of the cell membrane's lipid bilayer?",
+        "options": {
+            "A": "Myelin sheath",
+            "B": "Lipid raft",
+            "C": "Glycocalyx",
+            "D": "Liposome",
+            "E": "Plasmalogen"
+        },
+        "answer": "C",
+        "explanation": "Glycolipids are particularly abundant in nerve tissues and form the glycocalyx, an extracellular matrix on the outer layer of the cell membrane's lipid bilayer."
+    },
+    {
+        "question": "Which glycosphingolipid is predominantly found in the brain and other nervous tissues?",
+        "options": {
+            "A": "Lysophosphatidylcholine",
+            "B": "Plasmalogen",
+            "C": "Galactosylceramide",
+            "D": "Glucosylceramide",
+            "E": "Sulfatide"
+        },
+        "answer": "C",
+        "explanation": "Galactosylceramide is the most prevalent glycosphingolipid and is primarily found in the brain and nervous tissues. It is characterized by a ceramide molecule attached to a galactose sugar."
+    },
+    {
+        "question": "Which glycosphingolipid is mainly present in tissues outside the nervous system?",
+        "options": {
+            "A": "Lysophosphatidylcholine",
+            "B": "Plasmalogen",
+            "C": "Galactosylceramide",
+            "D": "Glucosylceramide",
+            "E": "Sulfatide"
+        },
+        "answer": "D",
+        "explanation": "Glucosylceramide, similar in structure to galactosylceramide but with glucose attached, is primarily found in tissues outside the nervous system, although it is also present in small amounts in the brain."
+    },
+    {
+        "question": "What modification distinguishes sulfatide from galactosylceramide?",
+        "options": {
+            "A": "Addition of a phosphate group",
+            "B": "Replacement of galactose with glucose",
+            "C": "Attachment of sialic acid",
+            "D": "Substitution of a hydroxyl group with a sulfo group",
+            "E": "Formation of an ether linkage"
+        },
+        "answer": "D",
+        "explanation": "Sulfatide is formed by replacing the hydroxyl group on the third carbon of the sugar moiety in galactosylceramide with a sulfo group (-OSO3–)."
+    },
+    {
+        "question": "What is the primary composition of myelin, the insulating layer surrounding nerve axons?",
+        "options": {
+            "A": "70% protein and 30% lipids",
+            "B": "30% protein and 70% lipids",
+            "C": "50% protein and 50% lipids",
+            "D": "80% protein and 20% lipids",
+            "E": "20% protein and 80% lipids"
+        },
+        "answer": "B",
+        "explanation": "Myelin is composed of 30% protein and 70% lipids, with the lipid component primarily consisting of sphingosine, cerebrosides, fatty acids, and phosphatidylcholine."
+    },
+    {
+        "question": "Which two glycosphingolipids are collectively referred to as cerebrosides?",
+        "options": {
+            "A": "Lysophosphatidylcholine and Plasmalogen",
+            "B": "Galactosylceramide and Glucosylceramide",
+            "C": "Sulfatide and Ganglioside",
+            "D": "Sphingomyelin and Ceramide",
+            "E": "Phosphatidylcholine and Phosphatidylethanolamine"
+        },
+        "answer": "B",
+        "explanation": "Cerebrosides encompass both galactosylceramide and glucosylceramide."
+    },
+    {
+        "question": "What distinguishes gangliosides from other glycosphingolipids?",
+        "options": {
+            "A": "Presence of a sulfate group",
+            "B": "Attachment of one or more sialic acids",
+            "C": "Absence of a ceramide backbone",
+            "D": "Exclusive presence in non-nervous tissues",
+            "E": "Inability to act as receptors"
+        },
+        "answer": "B",
+        "explanation": "Gangliosides are characterized by the attachment of one or more sialic acid molecules to glucosylceramide."
+    },
+    {
+        "question": "What is the primary sialic acid found in human tissues?",
+        "options": {
+            "A": "Galactose",
+            "B": "Glucose",
+            "C": "Fucose",
+            "D": "N-Acetyl-glucosamine",
+            "E": "Neuraminic acid"
+        },
+        "answer": "E",
+        "explanation": "Neuraminic acid (NeuAc) is the main type of sialic acid in human tissues."
+    },
+    {
+        "question": "Which ganglioside serves as the receptor for cholera toxin in intestinal cells?",
+        "options": {
+            "A": "GM1",
+            "B": "GM2",
+            "C": "GM3",
+            "D": "GD1a",
+            "E": "GT1b"
+        },
+        "answer": "A",
+        "explanation": "GM1, a complex ganglioside derived from GM3, is found on the surface of intestinal cells and acts as the receptor for cholera toxin."
+    },
+    {
+        "question": "What is the basic structure of the simplest ganglioside, GM3?",
+        "options": {
+            "A": "Ceramide + Glucose + Galactose + Neuraminic acid",
+            "B": "Ceramide + Glucose + Fucose + N-Acetyl-galactosamine",
+            "C": "Ceramide + Galactose + N-Acetyl-glucosamine + Sialic acid",
+            "D": "Ceramide + Glucose + Sulfate group + Phosphate group",
+            "E": "Sphingosine + Fatty acid + Cholesterol + Sugar"
+        },
+        "answer": "A",
+        "explanation": "GM3, the simplest ganglioside, consists of a ceramide, a glucose, a galactose, and a neuraminic acid molecule."
+    },
+    {
+        "question": "What determines the different blood types in the ABO system?",
+        "options": {
+            "A": "The type of fatty acid attached to sphingosine",
+            "B": "The presence or absence of a phosphate group",
+            "C": "The number of sialic acids attached to ceramide",
+            "D": "The variation in sugar types attached to the ceramide backbone",
+            "E": "The length of the fatty acid chain in the glycolipid"
+        },
+        "answer": "D",
+        "explanation": "ABO blood types are determined by the specific types of sugars linked to the ceramide backbone."
+    },
+    {
+        "question": "What is the common sugar backbone shared by all ABO blood types?",
+        "options": {
+            "A": "Glucose + Galactose + Fucose + N-Acetyl-glucosamine",
+            "B": "Galactose + N-Acetyl-glucosamine + Galactose + Fucose",
+            "C": "Glucose + N-Acetyl-galactosamine + Glucose + Sialic acid",
+            "D": "Galactose + Fucose + Glucose + N-Acetyl-galactosamine",
+            "E": "N-Acetyl-glucosamine + Galactose + Fucose + Glucose"
+        },
+        "answer": "B",
+        "explanation": "All ABO blood groups share a common sugar backbone of Galactose + N-Acetyl-glucosamine + Galactose + Fucose."
+    },
+    {
+        "question": "Which additional sugar is present in blood type A besides the common backbone?",
+        "options": {
+            "A": "Glucose",
+            "B": "Galactose",
+            "C": "Fucose",
+            "D": "N-Acetyl-glucosamine",
+            "E": "N-Acetyl-galactosamine"
+        },
+        "answer": "E",
+        "explanation": "Blood type A has N-Acetyl-galactosamine attached to the common sugar backbone."
+    },
+    {
+        "question": "What additional sugar distinguishes blood type B from the common backbone?",
+        "options": {
+            "A": "Glucose",
+            "B": "Galactose",
+            "C": "Fucose",
+            "D": "N-Acetyl-glucosamine",
+            "E": "N-Acetyl-galactosamine"
+        },
+        "answer": "B",
+        "explanation": "Blood type B has an additional galactose sugar attached to the common sugar backbone."
+    },
+    {
+        "question": "What makes blood type AB unique in terms of sugar composition?",
+        "options": {
+            "A": "It lacks any additional sugars besides the common backbone",
+            "B": "It has only N-Acetyl-galactosamine attached",
+            "C": "It has both N-Acetyl-galactosamine and Galactose attached",
+            "D": "It contains a unique sugar not found in other blood types",
+            "E": "It has an altered sequence of sugars in the common backbone"
+        },
+        "answer": "C",
+        "explanation": "Blood type AB has both N-Acetyl-galactosamine and galactose sugars attached to the common sugar backbone."
+    },
+    {
+        "question": "What is the function of cholesterol as a precursor molecule?",
+        "options": {
+            "A": "It is involved in energy storage.",
+            "B": "It forms the structural backbone of cell membranes.",
+            "C": "It acts as a signaling molecule for cell communication.",
+            "D": "It serves as the starting material for various steroid compounds.",
+            "E": "It participates in the transport of fatty acids."
+        },
+        "answer": "D",
+        "explanation": "Cholesterol is a precursor for the synthesis of various steroid compounds, including bile acids, adrenocortical hormones, sex hormones, and vitamin D."
+    },
+    {
+        "question": "What is the core structure of steroids?",
+        "options": {
+            "A": "Four six-carbon rings",
+            "B": "Three six-carbon rings and one five-carbon ring",
+            "C": "Two six-carbon rings and two five-carbon rings",
+            "D": "One six-carbon ring and three five-carbon rings",
+            "E": "Five five-carbon rings"
+        },
+        "answer": "B",
+        "explanation": "The basic steroid structure consists of three six-carbon rings (A, B, and C) and one five-carbon ring (D)."
+    },
+    {
+        "question": "What is the nature of the six-carbon rings in the steroid structure?",
+        "options": {
+            "A": "They are aromatic benzene rings.",
+            "B": "They are saturated rings, not benzene rings.",
+            "C": "They contain alternating single and double bonds.",
+            "D": "They are linked by ether bonds.",
+            "E": "They are fused in a linear arrangement."
+        },
+        "answer": "B",
+        "explanation": "The six-carbon rings in steroids are saturated and not aromatic benzene rings."
+    },
+    {
+        "question": "Which carbon atoms in the steroid structure usually have additional carbon attachments?",
+        "options": {
+            "A": "C-1 and C-2",
+            "B": "C-3 and C-4",
+            "C": "C-5 and C-6",
+            "D": "C-10 and C-13",
+            "E": "C-17 and C-18"
+        },
+        "answer": "D",
+        "explanation": "Typically, an extra carbon is attached to both C-10 and C-13 in a steroid structure. C-18 is usually attached to C-13, and C-19 to C-10."
+    },
+    {
+        "question": "What is the most stable configuration of rings in naturally occurring steroids?",
+        "options": {
+            "A": "All rings in a boat conformation",
+            "B": "Adjacent rings in cis conformation, all rings in boat form",
+            "C": "Adjacent rings in trans conformation, all rings in boat form",
+            "D": "Adjacent rings in cis conformation, all rings in chair form",
+            "E": "Adjacent rings in trans conformation, all rings in chair form"
+        },
+        "answer": "E",
+        "explanation": "The most stable configuration for steroids is when adjacent rings are in a trans conformation and all rings adopt a chair form."
+    },
+    {
+        "question": "What is the typical conformation between rings B and C, and between rings C and D, in naturally occurring steroids?",
+        "options": {
+            "A": "Always cis",
+            "B": "Usually cis",
+            "C": "Always trans",
+            "D": "Usually trans",
+            "E": "Can be either cis or trans"
+        },
+        "answer": "C",
+        "explanation": "In most naturally occurring steroids, rings B and C, and rings C and D, are usually in a trans conformation."
+    },
+    {
+        "question": "What do the solid and dashed lines in steroid structure representations indicate?",
+        "options": {
+            "A": "Solid lines represent single bonds, dashed lines represent double bonds.",
+            "B": "Solid lines indicate bonds pointing above the ring plane, dashed lines below.",
+            "C": "Solid lines show bonds in the equatorial position, dashed lines in the axial position.",
+            "D": "Solid lines represent stronger bonds, dashed lines weaker bonds.",
+            "E": "Solid lines denote bonds involved in ring formation, dashed lines in side chains."
+        },
+        "answer": "B",
+        "explanation": "Solid lines in steroid structures represent substituents pointing above the ring plane (β bond), while dashed lines indicate those pointing below (α bond)."
+    },
+    {
+        "question": "What is the key structural difference between 5α steroids and 5β steroids?",
+        "options": {
+            "A": "The position of the hydroxyl group at C-3",
+            "B": "The presence or absence of a double bond between C-5 and C-6",
+            "C": "The orientation of the hydrogen atom at C-5",
+            "D": "The length of the side chain at C-17",
+            "E": "The type of sugar attached to the steroid molecule"
+        },
+        "answer": "C",
+        "explanation": "5α steroids have the hydrogen atom at C-5 in the α position, resulting in a trans conformation between rings A and B. Conversely, 5β steroids have the hydrogen atom at C-5 in the β position, leading to a cis conformation."
+    },
+    {
+        "question": "What is the consistent position of methyl groups attached to C-10 and C-13 in steroids?",
+        "options": {
+            "A": "Always in the α position",
+            "B": "Usually in the α position",
+            "C": "Always in the β position",
+            "D": "Usually in the β position",
+            "E": "Can be either α or β depending on the specific steroid"
+        },
+        "answer": "C",
+        "explanation": "The methyl groups linked to C-10 and C-13 in steroids are always in the β position, pointing above the ring plane."
+    },
+    {
+        "question": "What is the specific requirement for a steroid compound to be classified as a sterol?",
+        "options": {
+            "A": "Presence of one or more hydroxyl groups and no carbonyl or carboxyl groups",
+            "B": "Presence of a double bond between C-5 and C-6",
+            "C": "Attachment of a fatty acid to the hydroxyl group at C-3",
+            "D": "A trans conformation between rings A and B",
+            "E": "Presence of a side chain at C-17"
+        },
+        "answer": "A",
+        "explanation": "To be considered a sterol, a steroid compound must have one or more hydroxyl groups and lack any carbonyl or carboxyl groups."
+    },
+    {
+        "question": "What is the importance of the hydroxyl group at C-3 in cholesterol?",
+        "options": {
+            "A": "It allows cholesterol to be stored as an oil droplet.",
+            "B": "It enables cholesterol to enter the interior of lipoproteins.",
+            "C": "It facilitates the esterification of cholesterol with a fatty acid.",
+            "D": "It is essential for the conversion of cholesterol to vitamin D.",
+            "E": "It provides a hydrophilic end, allowing cholesterol to exist in cell membranes."
+        },
+        "answer": "E",
+        "explanation": "The hydroxyl group at C-3 in cholesterol provides a hydrophilic end, enabling its integration into cell membranes."
+    },
+    {
+        "question": "In cholesterol esters, what modification occurs at the hydroxyl group on C-3?",
+        "options": {
+            "A": "It forms a glycosidic bond with a sugar molecule.",
+            "B": "It is replaced by a phosphate group.",
+            "C": "It is converted into a carbonyl group.",
+            "D": "It is esterified with a long-chain fatty acid.",
+            "E": "It remains unmodified."
+        },
+        "answer": "D",
+        "explanation": "In cholesterol esters, which are found only in animals, the hydroxyl group at C-3 is esterified with a long-chain fatty acid."
+    },
+    {
+        "question": "Where is cholesterol found in high concentrations in the body?",
+        "options": {
+            "A": "Adipose tissue and Liver cells",
+            "B": "Nervous tissue, Blood plasma, and Blood proteins",
+            "C": "Intestinal cells and Myelin sheath",
+            "D": "Bone marrow and Skin cells",
+            "E": "Muscle tissue and Connective tissues"
+        },
+        "answer": "B",
+        "explanation": "Cholesterol is distributed throughout the body's cells but is particularly abundant in nervous tissue, blood plasma, and blood proteins."
+    },
+    {
+        "question": "How does cholesterol influence cell membrane fluidity?",
+        "options": {
+            "A": "It decreases fluidity by making the membrane more rigid.",
+            "B": "It increases fluidity by disrupting the packing of phospholipids.",
+            "C": "It has no effect on membrane fluidity.",
+            "D": "It promotes the formation of lipid rafts, reducing overall fluidity.",
+            "E": "It increases membrane thickness, thereby decreasing fluidity."
+        },
+        "answer": "B",
+        "explanation": "Cholesterol is an essential component of cell membranes and contributes to their fluidity by preventing the tight packing of phospholipids."
+    },
+    {
+        "question": "What happens to excess cholesterol in cell membranes?",
+        "options": {
+            "A": "It is converted into bile acids.",
+            "B": "It is transported to other cells in need.",
+            "C": "It is excreted from the body.",
+            "D": "It forms cholesterol esters and is stored in lipid droplets.",
+            "E": "It is incorporated into lipoproteins for transport."
+        },
+        "answer": "D",
+        "explanation": "When cholesterol levels in the membrane become excessive, the excess cholesterol is esterified with a fatty acid, forming cholesterol esters, which are then stored in lipid droplets within cells like adipocytes and hepatocytes."
+    },
+    {
+        "question": "Why are cholesterol esters unable to exist in cell membranes?",
+        "options": {
+            "A": "They are too large to fit within the membrane structure.",
+            "B": "They lack the necessary hydrophilic end for membrane integration.",
+            "C": "They have a strong affinity for lipid droplets.",
+            "D": "They are rapidly converted back to cholesterol.",
+            "E": "They are actively transported out of the cell."
+        },
+        "answer": "B",
+        "explanation": "Cholesterol esters lack the hydrophilic hydroxyl group at C-3, making them unable to integrate into the cell membrane."
+    },
+    {
+        "question": "How is cholesterol transported within the body?",
+        "options": {
+            "A": "It travels freely in the bloodstream.",
+            "B": "It is carried by albumin, a blood protein.",
+            "C": "It is packaged into lipoproteins.",
+            "D": "It is converted into a water-soluble form.",
+            "E": "It is transported through specialized channels in cell membranes."
+        },
+        "answer": "C",
+        "explanation": "Since cholesterol has a hydrophilic end, it can only bind to the exterior of proteins. Therefore, it is packaged into lipoproteins for transport within the body."
+    },
+    {
+        "question": "What is the main sterol found in plants?",
+        "options": {
+            "A": "Cholesterol",
+            "B": "Ergosterol",
+            "C": "Stigmasterol",
+            "D": "Campesterol",
+            "E": "Sitosterol"
+        },
+        "answer": "B",
+        "explanation": "Plants do not contain cholesterol; instead, they have plant sterols such as ergosterol."
+    },
+    {
+        "question": "What is the role of cholesterol in fat emulsification?",
+        "options": {
+            "A": "It directly breaks down fat molecules into smaller droplets.",
+            "B": "It acts as a coenzyme for enzymes involved in fat digestion.",
+            "C": "It is converted into bile acids, which aid in fat emulsification.",
+            "D": "It forms micelles that trap fat molecules for absorption.",
+            "E": "It increases the surface area of fat droplets for enzymatic action."
+        },
+        "answer": "C",
+        "explanation": "Cholesterol is transformed into bile acids, which play a crucial role in emulsifying fats in the digestive system."
+    },
+    {
+        "question": "What is the relationship between cholesterol and vitamin D?",
+        "options": {
+            "A": "Cholesterol inhibits the absorption of vitamin D.",
+            "B": "Vitamin D is a precursor for cholesterol synthesis.",
+            "C": "Cholesterol is a precursor for vitamin D synthesis.",
+            "D": "Cholesterol and vitamin D have no direct relationship.",
+            "E": "Cholesterol enhances the activity of vitamin D."
+        },
+        "answer": "C",
+        "explanation": "Vitamin D is derived from cholesterol. Upon exposure to ultraviolet light, cholesterol in the skin undergoes a transformation that breaks the bond between C-9 and C-10, converting it into vitamin D3."
+    },
+    {
+        "question": "What is the common building block for both cholesterol and polyprenoids?",
+        "options": {
+            "A": "Glucose",
+            "B": "Glycerol",
+            "C": "Acetyl-CoA",
+            "D": "Isoprene",
+            "E": "Fatty acid"
+        },
+        "answer": "D",
+        "explanation": "Although polyprenoids are not classified as steroids, they are related to cholesterol as both are synthesized from the five-carbon molecule isoprene."
+    },
+    {
+        "question": "Which important molecules are included in the polyprenoid family?",
+        "options": {
+            "A": "Bile acids and Adrenocortical hormones",
+            "B": "Sex hormones and Vitamin D",
+            "C": "Ubiquinone and Dolichol",
+            "D": "Prostaglandins and Thromboxanes",
+            "E": "Leukotrienes and Lipoxins"
+        },
+        "answer": "C",
+        "explanation": "Polyprenoids include molecules such as ubiquinone, involved in the mitochondrial respiratory chain, and dolichol, which plays a role in cholesterol synthesis and glycoprotein production."
+    },
+    {
+        "question": "What compounds do plants derive from polyprenoids?",
+        "options": {
+            "A": "Starch and Cellulose",
+            "B": "Amino acids and Proteins",
+            "C": "DNA and RNA",
+            "D": "Rubber, Camphor, and Fat-soluble vitamins",
+            "E": "Water and Minerals"
+        },
+        "answer": "D",
+        "explanation": "Plants utilize polyprenoids to produce various compounds, including rubber, camphor, fat-soluble vitamins (A, D, E, K), and β-carotene."
+    },
+    {
+        "question": "What is lipid peroxidation, and what are its implications?",
+        "options": {
+            "A": "A controlled process for energy production from lipids",
+            "B": "A mechanism for transporting lipids across cell membranes",
+            "C": "A synthetic pathway for creating new lipid molecules",
+            "D": "An auto-oxidation process linked to food spoilage and tissue damage",
+            "E": "A method for converting saturated fatty acids to unsaturated ones"
+        },
+        "answer": "D",
+        "explanation": "Lipid peroxidation is an auto-oxidation reaction that occurs at room temperature when lipids react with oxygen. It is associated with food rancidity and damage to tissues within the body, potentially leading to health issues like cancer, inflammation, atherosclerosis, and aging."
+    },
+    {
+        "question": "What are reactive oxygen species (ROS), and what is their role in lipid peroxidation?",
+        "options": {
+            "A": "Enzymes that catalyze lipid breakdown",
+            "B": "Antioxidants that protect against lipid damage",
+            "C": "Free radicals containing oxygen that can initiate chain reactions",
+            "D": "Transport proteins that carry lipids through the bloodstream",
+            "E": "Signaling molecules that regulate lipid metabolism"
+        },
+        "answer": "C",
+        "explanation": "ROS are free radicals that contain oxygen atoms, such as RCOO•, RO•, and OH•. They can trigger chain reactions leading to lipid peroxidation, which can damage tissues. While small amounts of ROS are beneficial for eliminating foreign substances, excessive amounts can be harmful."
+    },
+    {
+        "question": "Why are unsaturated fatty acids more susceptible to lipid peroxidation?",
+        "options": {
+            "A": "Their longer carbon chains make them more vulnerable.",
+            "B": "Their lack of double bonds makes them less stable.",
+            "C": "Their rigid structure makes them easier targets for free radicals.",
+            "D": "Their multiple double bonds make them more reactive with free radicals.",
+            "E": "Their high energy content makes them prone to spontaneous oxidation."
+        },
+        "answer": "D",
+        "explanation": "Unsaturated fatty acids are more prone to lipid peroxidation due to their multiple double bonds, which are vulnerable to attack by free radicals, peroxides, metals, and light. This initiates a chain reaction that leads to the formation of oxidized lipid products."
+    },
+    {
+        "question": "Which metabolic byproducts can serve as indicators of lipid peroxidation in the body?",
+        "options": {
+            "A": "Glucose and Fructose",
+            "B": "Amino acids and Proteins",
+            "C": "Carbon dioxide and Water",
+            "D": "Ethane and Pentane",
+            "E": "Sodium and Potassium"
+        },
+        "answer": "D",
+        "explanation": "Ethane, a byproduct of ω-3 unsaturated fatty acid peroxidation, and pentane, a byproduct of ω-6 unsaturated fatty acid peroxidation, can be used as markers to assess the extent of lipid peroxidation in the body."
+    },
+    {
+        "question": "What are the three main steps involved in the process of lipid peroxidation?",
+        "options": {
+            "A": "Initiation, Elongation, and Termination",
+            "B": "Hydrolysis, Dehydration, and Condensation",
+            "C": "Oxidation, Reduction, and Phosphorylation",
+            "D": "Glycosylation, Acylation, and Sulfation",
+            "E": "Transamination, Decarboxylation, and Deamination"
+        },
+        "answer": "A",
+        "explanation": "The process of lipid peroxidation occurs in three steps: 1) Initiation, 2) Propagation, and 3) Termination."
+    },
+    {
+        "question": "What is the role of malondialdehyde (MDA) in assessing lipid peroxidation?",
+        "options": {
+            "A": "It is an enzyme that catalyzes lipid peroxidation.",
+            "B": "It is a free radical that initiates the chain reaction.",
+            "C": "It is a byproduct specifically produced from fatty acids with three or more double bonds.",
+            "D": "It is an antioxidant that protects against lipid peroxidation.",
+            "E": "It is a transport protein that carries oxidized lipids."
+        },
+        "answer": "C",
+        "explanation": "Malondialdehyde (MDA) is a byproduct formed during lipid peroxidation, specifically from fatty acids that have at least three double bonds. Measuring MDA levels in urine is a common method for assessing the degree of lipid peroxidation in the body."
+    },
+    {
+        "question": "Besides MDA, what other methods are used to measure lipid peroxidation in the body?",
+        "options": {
+            "A": "Measuring blood glucose levels",
+            "B": "Assessing protein concentration in urine",
+            "C": "Analyzing the composition of exhaled air",
+            "D": "Measuring ethane and pentane levels",
+            "E": "Counting the number of red blood cells"
+        },
+        "answer": "D",
+        "explanation": "Apart from MDA, measuring the levels of ethane (produced from the last two carbons of ω-3 fatty acids) and pentane (produced from the last five carbons of ω-6 fatty acids) can also be used to determine the extent of lipid peroxidation in the body."
+    },
+    {
+        "question": "What changes occur in cooking oil due to the breakdown products of lipid peroxidation?",
+        "options": {
+            "A": "The oil becomes lighter in color and less viscous.",
+            "B": "The oil develops a pleasant aroma and enhanced flavor.",
+            "C": "The oil becomes more nutritious and easier to digest.",
+            "D": "The oil becomes thicker, darker, and potentially irritating to the mouth.",
+            "E": "The oil undergoes no significant changes."
+        },
+        "answer": "D",
+        "explanation": "When double bonds in fatty acids are attacked during lipid peroxidation, they can form rings or break down into smaller molecules. These breakdown products contribute to the oil becoming thicker, darker, and potentially irritating to the oral mucosa."
+    },
+    {
+        "question": "What term describes a molecule with both hydrophilic and hydrophobic parts?",
+        "options": {
+            "A": "Hydrophobic",
+            "B": "Hydrophilic",
+            "C": "Lipophilic",
+            "D": "Amphipathic",
+            "E": "Polar"
+        },
+        "answer": "D",
+        "explanation": "A molecule is termed "amphipathic" when one part of it is hydrophilic (water-loving) and another part is hydrophobic (water-fearing). These molecules exhibit directionality at the interface of oil and water."
+    },
+    {
+        "question": "Which lipid components are classified as amphipathic molecules?",
+        "options": {
+            "A": "Only fatty acids",
+            "B": "Only phospholipids",
+            "C": "Only glycolipids",
+            "D": "Fatty acids, Phospholipids, Sphingolipids, Bile salts, and Cholesterol",
+            "E": "Triacylglycerols and Cholesterol esters"
+        },
+        "answer": "D",
+        "explanation": "While lipids generally contain nonpolar, hydrophobic hydrocarbon groups, some components like fatty acids, phospholipids, sphingolipids, bile salts, and cholesterol also possess polar groups, making them amphipathic."
+    },
+    {
+        "question": "What structures can amphipathic lipids form at the oil-water interface?",
+        "options": {
+            "A": "Only micelles",
+            "B": "Only liposomes",
+            "C": "Only bilayer membranes",
+            "D": "Micelles, Liposomes, and Bilayer membranes",
+            "E": "None of the above"
+        },
+        "answer": "D",
+        "explanation": "Due to their amphipathic nature, lipids can arrange themselves into various structures at the interface of oil and water, including bilayer membranes, micelles, and liposomes."
+    }
+]
