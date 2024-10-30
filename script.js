@@ -7,11 +7,13 @@ let wrong = 0;
 let selectedJson = null; // 初始為 null
 let isTestCompleted = false; // Flag to track test completion
 
+// 新增：歷史紀錄陣列
+let questionHistory = [];
+
 // GitHub API相關資訊
 const GITHUB_USER = 'jedieason'; // 替換為您的GitHub用戶名
 const GITHUB_REPO = 'Trivia'; // 替換為您的存儲庫名稱
 const GITHUB_FOLDER_PATH = 'Questions'; // JSON檔案所在的目錄
-
 
 let expandTimeout;
 
@@ -47,6 +49,15 @@ function shuffle(array) {
 }
 
 function loadNewQuestion() {
+    // 如果有當前問題，將其推入歷史紀錄
+    if (currentQuestion.question) {
+        questionHistory.push({
+            question: currentQuestion,
+            correctCount: correct,
+            wrongCount: wrong
+        });
+    }
+
     // 重置狀態
     acceptingAnswers = true;
     selectedOption = null;
@@ -136,7 +147,6 @@ function loadNewQuestion() {
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
     document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
 }
-
 
 // 更新詳解中的選項標籤
 function updateExplanationOptions(explanation, labelMapping) {
@@ -270,8 +280,6 @@ function copyQuestion() {
     });
 }
 
-
-
 // 事件監聽器
 document.getElementById('startGame').addEventListener('click', () => {
     if (!selectedJson) {
@@ -283,6 +291,66 @@ document.getElementById('startGame').addEventListener('click', () => {
 document.getElementById('confirm-btn').addEventListener('click', confirmAnswer);
 document.getElementById('next-btn').addEventListener('click', loadNewQuestion);
 document.getElementById('copy-btn').addEventListener('click', copyQuestion);
+
+// 新增：Reverse button 的事件監聽器
+document.getElementById('reverseButton').addEventListener('click', reverseQuestion);
+
+// Reverse question function
+function reverseQuestion() {
+    if (questionHistory.length === 0) {
+        showCustomAlert('沒有上一題了！');
+        return;
+    }
+
+    // 將當前問題推回 questions 堆疊
+    if (currentQuestion.question) {
+        questions.push(currentQuestion);
+    }
+
+    // 從歷史紀錄中彈出上一題
+    const previous = questionHistory.pop();
+    currentQuestion = previous.question;
+    correct = previous.correctCount;
+    wrong = previous.wrongCount;
+
+    // 更新正確和錯誤數據
+    document.getElementById('correct').innerText = correct;
+    document.getElementById('wrong').innerText = wrong;
+
+    // 更新題目和選項
+    document.getElementById('question').innerHTML = marked.parse(currentQuestion.question);
+
+    const optionsContainer = document.getElementById('options');
+    optionsContainer.innerHTML = '';
+    for (let [key, value] of Object.entries(currentQuestion.options)) {
+        const button = document.createElement('button');
+        button.classList.add('option-button');
+        button.dataset.option = key;
+        button.innerText = `${key}: ${value}`;
+        button.addEventListener('click', selectOption);
+        optionsContainer.appendChild(button);
+    }
+
+    // 重置 UI 狀態
+    acceptingAnswers = true;
+    selectedOption = null;
+    document.getElementById('explanation').style.display = 'none';
+    document.getElementById('confirm-btn').disabled = false;
+    document.getElementById('confirm-btn').style.display = 'block';
+    document.querySelectorAll('.option-button').forEach(btn => {
+        btn.classList.remove('selected', 'correct', 'incorrect');
+    });
+
+    // 更新詳解中的選項標籤
+    currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, {});
+
+    // 更新模態窗口的內容
+    document.querySelector('#popupWindow .editable:nth-child(2)').innerText = currentQuestion.question;
+    const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
+    document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
+    document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
+}
 
 // 按鍵按下事件（可選）
 document.addEventListener('keydown', function(event) {
@@ -300,7 +368,6 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
-
 
 // 新增選擇按鈕的功能
 document.getElementById('button-row').addEventListener('click', function(event) {
@@ -341,32 +408,32 @@ modeToggleHeader.addEventListener('click', () => {
     }
 });
 document.querySelector('.language-button:nth-child(3)').addEventListener('click', function() {
-            document.querySelector('.start-title').textContent = '生物化學';
-            document.querySelector('#startGame').textContent = '開始';
-            document.querySelector('.quiz-title').textContent = '生物化學';
-            document.querySelector('.progress-text').textContent = '錯誤';
-            document.querySelector('.progress-text:nth-child(2)').textContent = '錯誤';
-            document.querySelector('.progress-text:nth-child(1)').textContent = '正確';
-            document.querySelector('#confirm-btn').textContent = '確認';
-            document.querySelector('#copy-btn').textContent = '複製';
-            document.querySelector('#next-btn').textContent = '下一題';
-            document.querySelector('#modal-message').textContent = '選一下啦！';
-            document.querySelector('#modalConfirmBtn').textContent = '朕知道了';
-        });
+    document.querySelector('.start-title').textContent = '生物化學';
+    document.querySelector('#startGame').textContent = '開始';
+    document.querySelector('.quiz-title').textContent = '生物化學';
+    document.querySelector('.progress-text').textContent = '錯誤';
+    document.querySelector('.progress-text:nth-child(2)').textContent = '錯誤';
+    document.querySelector('.progress-text:nth-child(1)').textContent = '正確';
+    document.querySelector('#confirm-btn').textContent = '確認';
+    document.querySelector('#copy-btn').textContent = '複製';
+    document.querySelector('#next-btn').textContent = '下一題';
+    document.querySelector('#modal-message').textContent = '選一下啦！';
+    document.querySelector('#modalConfirmBtn').textContent = '朕知道了';
+});
 
-        // Add event listener for the English button
-        document.querySelector('.language-button:nth-child(1)').addEventListener('click', function() {
-            document.querySelector('.start-title').textContent = 'Biochemistry';
-            document.querySelector('#startGame').textContent = 'Start';
-            document.querySelector('.quiz-title').textContent = 'Biochemistry';
-            document.querySelector('#wrongArea .progress-text').textContent = 'Wrong'; // 修改這行
-            document.querySelector('#correctArea .progress-text').textContent = 'Correct'; // 新增這行
-            document.querySelector('#confirm-btn').textContent = 'Confirm';
-            document.querySelector('#copy-btn').textContent = 'Copy';
-            document.querySelector('#next-btn').textContent = 'Next';
-            document.querySelector('#modal-message').textContent = 'Choose something';
-            document.querySelector('#modalConfirmBtn').textContent = 'Got it!';
-        });
+// Add event listener for the English button
+document.querySelector('.language-button:nth-child(1)').addEventListener('click', function() {
+    document.querySelector('.start-title').textContent = 'Biochemistry';
+    document.querySelector('#startGame').textContent = 'Start';
+    document.querySelector('.quiz-title').textContent = 'Biochemistry';
+    document.querySelector('#wrongArea .progress-text').textContent = 'Wrong'; // 修改這行
+    document.querySelector('#correctArea .progress-text').textContent = 'Correct'; // 新增這行
+    document.querySelector('#confirm-btn').textContent = 'Confirm';
+    document.querySelector('#copy-btn').textContent = 'Copy';
+    document.querySelector('#next-btn').textContent = 'Next';
+    document.querySelector('#modal-message').textContent = 'Choose something';
+    document.querySelector('#modalConfirmBtn').textContent = 'Got it!';
+});
 
 // 為兩個 profile pic 添加點擊事件
 document.getElementById('userButton').addEventListener('click', toggleExpand);
@@ -495,4 +562,3 @@ async function fetchJsonFiles() {
 
 // 在頁面加載時呼叫fetchJsonFiles
 window.addEventListener('DOMContentLoaded', fetchJsonFiles);
-
