@@ -597,7 +597,7 @@
             "E": "Polar"
         },
         "answer": "D",
-        "explanation": "A molecule is termed "amphipathic" when one part of it is hydrophilic (water-loving) and another part is hydrophobic (water-fearing). These molecules exhibit directionality at the interface of oil and water."
+        "explanation": "A molecule is termed **amphipathic** when one part of it is hydrophilic (water-loving) and another part is hydrophobic (water-fearing). These molecules exhibit directionality at the interface of oil and water."
     },
     {
         "question": "Which lipid components are classified as amphipathic molecules?",
