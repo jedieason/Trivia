@@ -7,7 +7,7 @@ body {
     color: #2D3436;
     margin: 0;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #FAFBFC;
+    background-color: white;
 }
 
 /* Start Screen Styling */
@@ -78,24 +78,12 @@ body {
     box-shadow: 0 6px 16px rgba(147, 52, 75, 0.3);
 }
 
-/* Quiz Container Styling */
-.quiz-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 32px;
-    box-sizing: border-box;
-    min-height: 100vh;
-    background-color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    border-radius: 20px;
-}
 
 .quiz-title {
     font-family: 'Playfair Display', serif;
     color: #1A1A1A;
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 24px;
 }
 
 /* Progress Bar Styling */
