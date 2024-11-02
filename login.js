@@ -17,18 +17,15 @@ const auth = getAuth();
 const provider = new GoogleAuthProvider();
 
 const signInButton = document.getElementById("signInButton");
-const HomepagesignInButton = document.getElementById("Homepage-signInButton");
 const signOutButton = document.getElementById("signOutButton");
 const userButton = document.getElementById("userButton");
 const userButtonHomepage = document.getElementById("userButton-homepage");
 const userInfo = document.getElementById("userInfo");
-const HomepageuserInfo = document.getElementById("Homepage-userInfo");
 // const userName = document.getElementById("userName");
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (userButton) {
         userInfo.style.display = "none";
-        HomepageuserInfo.style.display = "none";
     } else {
         console.error("Element with ID 'userButton' not found.");
     }
@@ -39,7 +36,6 @@ const userSignIn = async () => {
     .then((result) => {
       const user = result.user;
       signInButton.style.display = "none";
-      HomepagesignInButton.style.display = "none";
       console.log(user);
     })
     .catch((error) => {
@@ -53,9 +49,7 @@ const userSignIn = async () => {
 const userSignOut = async() => {
   signOut(auth).then(() => {
       userInfo.style.display = "none";
-      HomepageuserInfo.style.display = "none";
       signInButton.style.display = "block";
-      HomepagesignInButton.style.display = "block";
       console.log("User signed out");
   }).catch((error) => {})
 }
@@ -63,20 +57,15 @@ const userSignOut = async() => {
 onAuthStateChanged(auth, (user) => {
   if (user) {
     signInButton.style.display = "none";
-    HomepagesignInButton.style.display = "none";
     userInfo.style.display = "block";
-    HomepageuserInfo.style.display = "block";
     userButton.src = user.photoURL; // Set the user's profile picture
     userButtonHomepage.src = user.photoURL; // Set the user's profile picture
 //    userName.innerHTML = user.displayName;
   } else {
     userInfo.style.display = "none";
-    HomepageuserInfo.style.display = "none";
-    HomepagesignInButton.style.display = "block";
     signInButton.style.display = "block";
   }
 });
 
 signInButton.addEventListener('click', userSignIn);
-HomepagesignInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
