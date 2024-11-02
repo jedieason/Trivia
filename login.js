@@ -78,5 +78,5 @@ onAuthStateChanged(auth, (user) => {
 });
 
 signInButton.addEventListener('click', userSignIn);
-HomepagesignInButtonn.addEventListener('click', userSignIn);
+HomepagesignInButton.addEventListener('click', userSignIn);
 signOutButton.addEventListener('click', userSignOut);
