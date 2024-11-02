@@ -260,11 +260,11 @@ body.dark-mode .option-button.incorrect {
 body.dark-mode .confirm-button {
     background-color: #1e1e1e;
     color: #ffffff;
-    border: 2px solid #a35555;
+    border: 2px solid #6d687e;
 }
 
 body.dark-mode .confirm-button:hover {
-    background-color: #a35555;
+    background-color: #6d687e;
     color: #ffffff;
 }
 
@@ -357,9 +357,9 @@ body.dark-mode .copyright a {
     margin-top: 20px;
     padding: 8px 18px;
     font-size: 18px;
-    background-color: #a35555;
+    background-color: #6d687e;
     color: white;
-    border: solid 2px #a35555;
+    border: solid 2px #6d687e;
     border-radius: 15px;
     cursor: pointer;
     align-self: flex-end;
@@ -369,7 +369,7 @@ body.dark-mode .copyright a {
 .confirm-button:hover {
     background-color: white;
     color: #a35555;
-    border: solid 2px #a35555;
+    border: solid 2px #6d687e;
 }
 
 .explanation {
