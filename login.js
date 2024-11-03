@@ -16,56 +16,108 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 const provider = new GoogleAuthProvider();
 
-const signInButton = document.getElementById("signInButton");
-const signOutButton = document.getElementById("signOutButton");
-const userButton = document.getElementById("userButton");
-const userButtonHomepage = document.getElementById("userButton-homepage");
-const userInfo = document.getElementById("userInfo");
-// const userName = document.getElementById("userName");
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    if (userButton) {
-        userInfo.style.display = "none";
-    } else {
-        console.error("Element with ID 'userButton' not found.");
-    }
-});
+// 選取所有登入按鈕、登出按鈕和使用者資訊元素
+const signInButtons = document.querySelectorAll(".login-button");
+const signOutButtons = document.querySelectorAll(".signOutButton");
+const userInfos = document.querySelectorAll(".user-info");
+const userButtons = document.querySelectorAll(".user-button");
+const userButtonsHomepage = document.querySelectorAll(".user-button-homepage");
 
 const userSignIn = async () => {
-  signInWithPopup(auth, provider)
-    .then((result) => {
-      const user = result.user;
-      signInButton.style.display = "none";
-      console.log(user);
-    })
-    .catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      console.error(`Error ${errorCode}: ${errorMessage}`);
+  try {
+    const result = await signInWithPopup(auth, provider);
+    const user = result.user;
+    // 登入成功後隱藏所有登入按鈕並顯示使用者資訊
+    signInButtons.forEach(button => button.style.display = "none");
+    userInfos.forEach(info => {
+      info.style.display = "block";
+      const userButton = info.querySelector(".user-button");
+      const userButtonHomepage = info.querySelector(".user-button-homepage");
+      if (userButton) {
+        userButton.src = user.photoURL;
+        userButton.style.display = "block";
+      }
+      if (userButtonHomepage) {
+        userButtonHomepage.src = user.photoURL;
+        userButtonHomepage.style.display = "block";
+      }
     });
+    console.log(user);
+  } catch (error) {
+    console.error(`Error ${error.code}: ${error.message}`);
+  }
 };
 
+const userSignOut = async () => {
+  try {
+    await signOut(auth);
+    // 登出後顯示所有登入按鈕並隱藏使用者資訊
+    signInButtons.forEach(button => button.style.display = "block");
+    userInfos.forEach(info => {
+      info.style.display = "none";
+      const userButton = info.querySelector(".user-button");
+      const userButtonHomepage = info.querySelector(".user-button-homepage");
+      if (userButton) {
+        userButton.src = "";
+        userButton.style.display = "none";
+      }
+      if (userButtonHomepage) {
+        userButtonHomepage.src = "";
+        userButtonHomepage.style.display = "none";
+      }
+    });
+    console.log("User signed out");
+  } catch (error) {
+    console.error(`Sign out error: ${error.message}`);
+  }
+};
 
-const userSignOut = async() => {
-  signOut(auth).then(() => {
-      userInfo.style.display = "none";
-      signInButton.style.display = "block";
-      console.log("User signed out");
-  }).catch((error) => {})
-}
-
+// 監聽認證狀態變化
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    signInButton.style.display = "none";
-    userInfo.style.display = "block";
-    userButton.src = user.photoURL; // Set the user's profile picture
-    userButtonHomepage.src = user.photoURL; // Set the user's profile picture
-//    userName.innerHTML = user.displayName;
+    signInButtons.forEach(button => button.style.display = "none");
+    userInfos.forEach(info => {
+      info.style.display = "block";
+      const userButton = info.querySelector(".user-button");
+      const userButtonHomepage = info.querySelector(".user-button-homepage");
+      if (userButton) {
+        userButton.src = user.photoURL;
+        userButton.style.display = "block";
+      }
+      if (userButtonHomepage) {
+        userButtonHomepage.src = user.photoURL;
+        userButtonHomepage.style.display = "block";
+      }
+    });
   } else {
-    userInfo.style.display = "none";
-    signInButton.style.display = "block";
+    signInButtons.forEach(button => button.style.display = "block");
+    userInfos.forEach(info => {
+      info.style.display = "none";
+      const userButton = info.querySelector(".user-button");
+      const userButtonHomepage = info.querySelector(".user-button-homepage");
+      if (userButton) {
+        userButton.src = "";
+        userButton.style.display = "none";
+      }
+      if (userButtonHomepage) {
+        userButtonHomepage.src = "";
+        userButtonHomepage.style.display = "none";
+      }
+    });
   }
 });
 
-signInButton.addEventListener('click', userSignIn);
-signOutButton.addEventListener('click', userSignOut);
+// 為所有登入按鈕添加事件監聽器
+signInButtons.forEach(button => {
+  button.addEventListener('click', userSignIn);
+});
+
+// 為所有登出按鈕添加事件監聽器
+signOutButtons.forEach(button => {
+  button.addEventListener('click', userSignOut);
+});
+
+// 初始載入時隱藏所有使用者資訊
+document.addEventListener('DOMContentLoaded', () => {
+  userInfos.forEach(info => info.style.display = "none");
+});
