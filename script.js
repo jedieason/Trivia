@@ -408,7 +408,7 @@ modeToggleHeader.addEventListener('click', () => {
     }
 });
 document.querySelector('.language-button:nth-child(3)').addEventListener('click', function() {
-    document.querySelector('.start-title').textContent = '生物化學';
+    document.querySelector('.start-title').textContent = '題矣';
     document.querySelector('#startGame').textContent = '開始';
     document.querySelector('.quiz-title').textContent = '生物化學';
     document.querySelector('.progress-text').textContent = '錯誤';
@@ -423,9 +423,9 @@ document.querySelector('.language-button:nth-child(3)').addEventListener('click'
 
 // Add event listener for the English button
 document.querySelector('.language-button:nth-child(1)').addEventListener('click', function() {
-    document.querySelector('.start-title').textContent = 'Biochemistry';
+    document.querySelector('.start-title').textContent = 'Trivia';
     document.querySelector('#startGame').textContent = 'Start';
-    document.querySelector('.quiz-title').textContent = 'Biochemistry';
+    document.querySelector('.quiz-title').textContent = 'Trivia';
     document.querySelector('#wrongArea .progress-text').textContent = 'Wrong'; // 修改這行
     document.querySelector('#correctArea .progress-text').textContent = 'Correct'; // 新增這行
     document.querySelector('#confirm-btn').textContent = 'Confirm';
