@@ -440,6 +440,25 @@ document.querySelector('.language-button:nth-child(1)').addEventListener('click'
 // document.getElementById('userButton-homepage').addEventListener('click', toggleExpand);
 // document.getElementById('signOutButton').addEventListener('click', toggleExpand);
 
+const exPand = document.querySelectorAll(".user-button");
+// 為所有登出按鈕添加事件監聽器
+exPand.forEach(button => {
+  button.addEventListener('click', toggleExpand);
+});
+
+const exPandHome = document.querySelectorAll(".user-button-homepage");
+// 為所有登出按鈕添加事件監聽器
+exPandHome.forEach(button => {
+  button.addEventListener('click', toggleExpand);
+});
+
+const signOutBtn = document.querySelectorAll(".signOutButton");
+// 為所有登出按鈕添加事件監聽器
+signOutBtn.forEach(button => {
+  button.addEventListener('click', toggleExpand);
+});
+
+
 function toggleExpand(event) {
     const frame = event.currentTarget.nextElementSibling;
     const logoutButton = frame.querySelector('.logout-button');
