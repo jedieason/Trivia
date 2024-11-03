@@ -12,17 +12,16 @@
 <body>
     <!-- 開始畫面 -->
     <div class="start-screen">
-        
         <div class="start-title">Trivia</div>
         <div class="header-right-homepage">
             <button id="modeToggle-header" class="toggle-button">
                 <img src="Images/moon.svg" alt="Switch to dark mode" width="15" height="15">
             </button>
-            <button id="signInButton" class="login-button">Login</button>
-            <div id="userInfo" class="button-container">
-                <img id="userButton-homepage" class="user-profile" src="" alt="User Profile" style="display: block;">
+            <button class="login-button">Login</button>
+            <div class="user-info button-container" style="display: none;">
+                <img class="user-button-homepage user-profile" src="" alt="User Profile" style="display: none;">
                 <div class="expandable-frame">
-                    <button id = "signOutButton" class="logout-button">Logout</button>
+                    <button class="signOutButton logout-button">Logout</button>
                 </div>
             </div>
         </div>
@@ -31,12 +30,13 @@
         
         <button id="startGame" class="start-button">Start</button>
         <!-- 切換模式按鈕 -->
-        <div class = "language">
+        <div class="language">
             <button class="language-button">English</button>
             <span class="separator">|</span>
             <button class="language-button">正體中文</button>
         </div>
     </div>
+    
     <!-- 測驗內容 -->
     <div class="quiz-container">
         <div class="header">
@@ -45,10 +45,11 @@
                 <button id="modeToggle" class="toggle-button">
                     <img src="Images/moon.svg" alt="Switch to dark mode" width="15" height="15">
                 </button>
-                <div id="userInfo" class="button-container">
-                    <img id="userButton" class="user-profile" src="https://cdn-icons-png.flaticon.com/512/10337/10337609.png" alt="User Profile" style="display: block;">
+                <button class="login-button">Login</button>
+                <div class="user-info button-container" style="display: none;">
+                    <img class="user-button user-profile" src="" alt="User Profile" style="display: none;">
                     <div class="expandable-frame">
-                        <button id = "signOutButton" class="logout-button">Logout</button>
+                        <button class="signOutButton logout-button">Logout</button>
                     </div>
                 </div>
             </div>
@@ -81,8 +82,8 @@
         <div class="copyright">
             Copyright © 2024 <a href="https://instagram.com/jedieason">Jedieason</a>. All rights reserved.
         </div>
-        </div>
     </div>
+
     <!-- 自訂模態窗口 -->
     <div id="customAlert" class="modal">
         <div class="modal-content">
@@ -90,6 +91,7 @@
             <button id="modalConfirmBtn" class="modal-confirm-button">Got it!</button>
         </div>
     </div>
+
     <!-- deBug回報窗口 -->
     <div id="popupWindow">
         <div id="closeButton">&times;</div>
@@ -104,6 +106,7 @@
         </div>
         <button id="sendButton">Send</button>
     </div>
+
     <script src="script.js"></script>
     <script src="debug.js"></script>
     <script type="module" src="login.js"></script>
