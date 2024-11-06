@@ -1,0 +1,518 @@
+[
+  {
+    "question": "Which amino acid, when metabolized, directly yields α-Ketoglutarate, a key intermediate in the Citric Acid Cycle?",
+    "options": {
+      "A": "Tryptophan",
+      "B": "Threonine",
+      "C": "Glutamate",
+      "D": "Aspartate",
+      "E": "Isoleucine"
+    },
+    "answer": "C",
+    "explanation": "Glutamate is one of the five amino acids that directly convert to α-Ketoglutarate. This is because these amino acids possess a five-carbon chain that can be readily transformed into α-Ketoglutarate."
+  },
+  {
+    "question": "Aspartate plays a dual role in both the Urea Cycle and the Citric Acid Cycle. What is the primary Citric Acid Cycle intermediate that is produced from the metabolism of Aspartate?",
+    "options": {
+      "A": "Succinyl-CoA",
+      "B": "Fumarate",
+      "C": "Oxaloacetate",
+      "D": "Pyruvate",
+      "E": "Citrate"
+    },
+    "answer": "C",
+    "explanation": "Aspartate is converted to Oxaloacetate through a transamination reaction involving Aspartate aminotransferase. This reaction also converts α-Ketoglutarate to Glutamate."
+  },
+  {
+    "question": "Phenylalanine and Tyrosine share a common metabolic pathway that leads to the production of Fumarate, a Citric Acid Cycle intermediate. Which other molecule, significant in energy metabolism, is also produced in this pathway?",
+    "options": {
+      "A": "Pyruvate",
+      "B": "Acetyl-CoA",
+      "C": "Succinyl-CoA",
+      "D": "Lactate",
+      "E": "α-Ketoglutarate"
+    },
+    "answer": "B",
+    "explanation": "The breakdown of both Phenylalanine and Tyrosine results in the formation of two molecules of Acetyl-CoA, which is a crucial molecule in energy production via the Citric Acid Cycle."
+  },
+  {
+    "question": "Isoleucine, when catabolized, generates two key molecules that feed into the Citric Acid Cycle. What are these two molecules?",
+    "options": {
+      "A": "Acetyl-CoA and Pyruvate",
+      "B": "Acetyl-CoA and Succinyl-CoA",
+      "C": "Oxaloacetate and α-Ketoglutarate",
+      "D": "Fumarate and Acetyl-CoA",
+      "E": "Pyruvate and α-Ketoglutarate"
+    },
+    "answer": "B",
+    "explanation": "The breakdown of Isoleucine produces both Acetyl-CoA and Succinyl-CoA, which are intermediates within the Citric Acid Cycle."
+  },
+  {
+    "question": "Which of the following amino acids contributes to the Citric Acid Cycle by producing Pyruvate, a precursor to Acetyl-CoA?",
+    "options": {
+      "A": "Arginine",
+      "B": "Lysine",
+      "C": "Methionine",
+      "D": "Alanine",
+      "E": "Valine"
+    },
+    "answer": "D",
+    "explanation": "Alanine, through a transamination reaction, readily converts to Pyruvate, which can then be further metabolized to Acetyl-CoA for entry into the Citric Acid Cycle."
+  },
+  {
+    "question": "Several amino acids are classified as 'glucogenic' due to their ability to be converted into glucose. Which of the following amino acids is NOT glucogenic?",
+    "options": {
+      "A": "Alanine",
+      "B": "Arginine",
+      "C": "Aspartate",
+      "D": "Leucine",
+      "E": "Glutamate"
+    },
+    "answer": "D",
+    "explanation": "Leucine is classified as a 'ketogenic' amino acid, meaning it can be converted to ketone bodies but not glucose. The other options are all glucogenic."
+  },
+  {
+    "question": "The Aspartate-Argininosuccinate shunt links the Urea Cycle and the Citric Acid Cycle. Which Citric Acid Cycle intermediate is produced from Argininosuccinate in this shunt?",
+    "options": {
+      "A": "Succinate",
+      "B": "Malate",
+      "C": "Citrate",
+      "D": "Fumarate",
+      "E": "Isocitrate"
+    },
+    "answer": "D",
+    "explanation": "Argininosuccinate is broken down by the enzyme Argininosuccinase into Fumarate and Arginine. The Fumarate then enters the Citric Acid Cycle."
+  },
+  {
+    "question": "In the Aspartate-Argininosuccinate shunt, Oxaloacetate can react with which amino acid to form Aspartate, which is then utilized in the Urea Cycle?",
+    "options": {
+      "A": "Lysine",
+      "B": "Glutamine",
+      "C": "Alanine",
+      "D": "Glutamate",
+      "E": "Glycine"
+    },
+    "answer": "D",
+    "explanation": "Within the Aspartate-Argininosuccinate shunt, Oxaloacetate reacts with Glutamate to form Aspartate, one of the key components required for the Urea Cycle."
+  },
+  {
+    "question": "Which of the following amino acids, upon degradation, leads to the production of Acetyl-CoA, but NOT through the direct formation of Acetoacetyl-CoA?",
+    "options": {
+      "A": "Lysine",
+      "B": "Tryptophan",
+      "C": "Leucine",
+      "D": "Isoleucine",
+      "E": "Phenylalanine"
+    },
+    "answer": "B",
+    "explanation": "While most of the amino acids that produce Acetyl-CoA do so via Acetoacetyl-CoA, Tryptophan takes a different route, yielding Pyruvate and two molecules of Acetyl-CoA."
+  },
+  {
+    "question": "Which amino acid is the precursor for the synthesis of both Serotonin and NAD?",
+    "options": {
+      "A": "Tyrosine",
+      "B": "Phenylalanine",
+      "C": "Tryptophan",
+      "D": "Histidine",
+      "E": "Arginine"
+    },
+    "answer": "C",
+    "explanation": "Tryptophan serves as the starting material for the synthesis of both Serotonin, a neurotransmitter, and NAD, an essential coenzyme involved in redox reactions."
+  },
+  {
+    "question": "Phenylketonuria (PKU) is a genetic disorder caused by a deficiency in which enzyme?",
+    "options": {
+      "A": "Tyrosine aminotransferase",
+      "B": "Homogentisate dioxygenase",
+      "C": "Phenylalanine hydroxylase",
+      "D": "Fumarylacetoacetase",
+      "E": "Argininosuccinase"
+    },
+    "answer": "C",
+    "explanation": "PKU arises from a deficiency in the enzyme Phenylalanine hydroxylase, which is responsible for converting Phenylalanine to Tyrosine. This deficiency leads to the accumulation of Phenylalanine in the body."
+  },
+  {
+    "question": "Alkaptonuria, a metabolic disorder, is caused by a deficiency in which enzyme involved in Tyrosine metabolism?",
+    "options": {
+      "A": "Phenylalanine hydroxylase",
+      "B": "Tyrosine aminotransferase",
+      "C": "Homogentisate dioxygenase",
+      "D": "p-Hydroxyphenylpyruvate dioxygenase",
+      "E": "Fumarylacetoacetase"
+    },
+    "answer": "C",
+    "explanation": "Alkaptonuria results from a deficiency in the enzyme Homogentisate dioxygenase, leading to the buildup of Homogentisate, which is then excreted in the urine, giving it a characteristic dark color."
+  },
+  {
+    "question": "Which amino acid, apart from Threonine, can produce both Acetyl-CoA and Succinyl-CoA upon metabolism?",
+    "options": {
+      "A": "Lysine",
+      "B": "Tryptophan",
+      "C": "Isoleucine",
+      "D": "Valine",
+      "E": "Leucine"
+    },
+    "answer": "C",
+    "explanation": "Isoleucine, similar to Threonine, can be broken down to produce both Acetyl-CoA and Succinyl-CoA, both of which are important intermediates in the Citric Acid Cycle."
+  },
+  {
+    "question": "Which amino acid is closely linked to Pyruvate through a simple transamination reaction?",
+    "options": {
+      "A": "Glycine",
+      "B": "Serine",
+      "C": "Alanine",
+      "D": "Cysteine",
+      "E": "Tryptophan"
+    },
+    "answer": "C",
+    "explanation": "Alanine and Pyruvate can easily be interconverted through a transamination reaction. This reaction involves the transfer of an amino group from Alanine to α-Ketoglutarate, forming Pyruvate and Glutamate."
+  },
+  {
+    "question": "Which of the following amino acids is NOT involved in the production of Acetyl-CoA?",
+    "options": {
+      "A": "Lysine",
+      "B": "Tryptophan",
+      "C": "Leucine",
+      "D": "Histidine",
+      "E": "Threonine"
+    },
+    "answer": "D",
+    "explanation": "Histidine is one of the five amino acids that are converted to α-Ketoglutarate, not Acetyl-CoA. The other options all contribute to Acetyl-CoA production."
+  },
+  {
+    "question": "Which two amino acids are directly converted to Oxaloacetate?",
+    "options": {
+      "A": "Asparagine and Glutamine",
+      "B": "Aspartate and Asparagine",
+      "C": "Glutamate and Aspartate",
+      "D": "Phenylalanine and Tyrosine",
+      "E": "Methionine and Threonine"
+    },
+    "answer": "B",
+    "explanation": "Asparagine is first converted to Aspartate, and then both Asparagine and Aspartate can be directly converted to Oxaloacetate, a key intermediate in the Citric Acid Cycle."
+  },
+  {
+    "question": "Which amino acid is converted to Glutamate-γ-semialdehyde, which can then be further metabolized to Glutamate?",
+    "options": {
+      "A": "Histidine",
+      "B": "Proline",
+      "C": "Arginine",
+      "D": "Both B and C",
+      "E": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Both Proline and Arginine are metabolized to Glutamate-γ-semialdehyde. Proline achieves this through a series of oxidation and hydrolysis reactions, while Arginine is first converted to Ornithine before forming Glutamate-γ-semialdehyde."
+  },
+  {
+    "question": "What is the role of Tetrahydrofolate (THF) in the metabolism of Histidine?",
+    "options": {
+      "A": "THF acts as a coenzyme for the enzyme that converts Histidine to Glutamate.",
+      "B": "THF transfers a one-carbon unit during the conversion of Histidine to Glutamate.",
+      "C": "THF is required for the regeneration of Histidine from Glutamate.",
+      "D": "THF is involved in the synthesis of Histidine from other precursors.",
+      "E": "THF has no direct role in Histidine metabolism."
+    },
+    "answer": "B",
+    "explanation": "During the breakdown of Histidine to Glutamate, a one-carbon unit is removed. Tetrahydrofolate (THF) acts as a carrier for this one-carbon unit."
+  },
+  {
+    "question": "What is the connection between Hyperhomocysteinemia and the metabolism of Methionine?",
+    "options": {
+      "A": "Hyperhomocysteinemia is caused by a deficiency of Methionine in the diet.",
+      "B": "Hyperhomocysteinemia results from the excessive breakdown of Methionine.",
+      "C": "Hyperhomocysteinemia is characterized by the accumulation of Homocysteine, an intermediate in Methionine metabolism.",
+      "D": "Hyperhomocysteinemia is a condition where Methionine cannot be converted to Homocysteine.",
+      "E": "Hyperhomocysteinemia is unrelated to Methionine metabolism."
+    },
+    "answer": "C",
+    "explanation": "Hyperhomocysteinemia is a condition characterized by elevated levels of Homocysteine in the blood. Homocysteine is an intermediate in the metabolism of Methionine."
+  },
+  {
+    "question": "Which coenzyme plays a critical role in the transfer of one-carbon units during various metabolic reactions, including amino acid metabolism?",
+    "options": {
+      "A": "Biotin",
+      "B": "Tetrahydrofolate",
+      "C": "S-Adenosylmethionine",
+      "D": "NADH",
+      "E": "FADH2"
+    },
+    "answer": "B",
+    "explanation": "Tetrahydrofolate (THF) is a crucial coenzyme that facilitates the transfer of one-carbon units in various metabolic pathways, including the breakdown and synthesis of amino acids."
+  },
+  {
+    "question": "Which of the following enzymes utilizes Biotin as a coenzyme and is involved in the conversion of Pyruvate to Oxaloacetate?",
+    "options": {
+      "A": "Pyruvate kinase",
+      "B": "Pyruvate dehydrogenase",
+      "C": "Pyruvate carboxylase",
+      "D": "Lactate dehydrogenase",
+      "E": "Malate dehydrogenase"
+    },
+    "answer": "C",
+    "explanation": "Pyruvate carboxylase, which employs Biotin as a coenzyme, catalyzes the carboxylation of Pyruvate to form Oxaloacetate. This reaction is crucial for replenishing Oxaloacetate levels in the Citric Acid Cycle."
+  },
+  {
+    "question": "Which of the following coenzymes is the most efficient methyl group donor?",
+    "options": {
+      "A": "Biotin",
+      "B": "Tetrahydrofolate",
+      "C": "S-Adenosylmethionine",
+      "D": "Coenzyme A",
+      "E": "Lipoic acid"
+    },
+    "answer": "C",
+    "explanation": "S-Adenosylmethionine (SAM) is considered the primary methyl group donor in various biological reactions, including those involved in amino acid metabolism."
+  },
+  {
+    "question": "Which of the following is NOT a product of Tryptophan metabolism?",
+    "options": {
+      "A": "Pyruvate",
+      "B": "Acetyl-CoA",
+      "C": "Serotonin",
+      "D": "NAD",
+      "E": "Succinyl-CoA"
+    },
+    "answer": "E",
+    "explanation": "Tryptophan metabolism yields Pyruvate, Acetyl-CoA, Serotonin, and NAD. It does not produce Succinyl-CoA."
+  },
+  {
+    "question": "Which amino acid, when metabolized, can contribute to the formation of kidney stones?",
+    "options": {
+      "A": "Glycine",
+      "B": "Alanine",
+      "C": "Serine",
+      "D": "Cysteine",
+      "E": "Tryptophan"
+    },
+    "answer": "A",
+    "explanation": "Glycine can be converted to oxalate, which can combine with calcium to form calcium oxalate kidney stones."
+  },
+  {
+    "question": "Which of the following statements about D-amino acids is correct?",
+    "options": {
+      "A": "D-amino acids are the primary form found in proteins.",
+      "B": "D-amino acids are not naturally occurring.",
+      "C": "D-amino acids can be found in bacterial cell walls and cooked food.",
+      "D": "D-amino acid oxidase is an enzyme that synthesizes D-amino acids.",
+      "E": "D-amino acids are essential nutrients for humans."
+    },
+    "answer": "C",
+    "explanation": "D-amino acids are not the predominant form in proteins but can be found in bacterial cell walls and cooked food. D-amino acid oxidase is involved in the breakdown of D-amino acids, not their synthesis."
+  },
+  {
+    "question": "Which of the following conditions can result from a deficiency in Glycine cleavage enzyme?",
+    "options": {
+      "A": "Phenylketonuria (PKU)",
+      "B": "Alkaptonuria",
+      "C": "Nonketotic hyperglycinemia",
+      "D": "Megaloblastic anemia",
+      "E": "Hyperhomocysteinemia"
+    },
+    "answer": "C",
+    "explanation": "A deficiency in Glycine cleavage enzyme can lead to Nonketotic hyperglycinemia, a condition characterized by elevated Glycine levels in the blood."
+  },
+  {
+    "question": "Which of the following statements about Megaloblastic anemia is correct?",
+    "options": {
+      "A": "It is caused by a deficiency in Vitamin B12.",
+      "B": "It results from impaired DNA synthesis due to low levels of Tetrahydrofolate (THF).",
+      "C": "It is characterized by the accumulation of Homocysteine.",
+      "D": "It is a type of anemia caused by iron deficiency.",
+      "E": "It is unrelated to amino acid metabolism."
+    },
+    "answer": "B",
+    "explanation": "Megaloblastic anemia is a condition that arises from impaired DNA synthesis due to insufficient levels of Tetrahydrofolate (THF), a coenzyme essential for DNA synthesis."
+  },
+  {
+    "question": "Which enzyme plays a key role in transferring a methyl group from N5-Methyltetrahydrofolate to Vitamin B12?",
+    "options": {
+      "A": "Methionine synthase",
+      "B": "Methyltransferase (MTR)",
+      "C": "Tetrahydrofolate reductase",
+      "D": "Dihydrofolate reductase",
+      "E": "Glycine cleavage enzyme"
+    },
+    "answer": "B",
+    "explanation": "Methyltransferase (MTR) is responsible for transferring a methyl group from N5-Methyltetrahydrofolate to Vitamin B12, forming Methylcobalamin (MeB12)."
+  },
+  {
+    "question": "Which of the following amino acids yields only Acetyl-CoA upon degradation?",
+    "options": {
+      "A": "Leucine",
+      "B": "Isoleucine",
+      "C": "Lysine",
+      "D": "Tryptophan",
+      "E": "Phenylalanine"
+    },
+    "answer": "C",
+    "explanation": "Lysine degradation produces two molecules of Acetyl-CoA and no other Citric Acid Cycle intermediates."
+  },
+  {
+    "question": "Which amino acid, in addition to being glucogenic, can also produce ketone bodies?",
+    "options": {
+      "A": "Alanine",
+      "B": "Isoleucine",
+      "C": "Leucine",
+      "D": "Tryptophan",
+      "E": "Threonine"
+    },
+    "answer": "E",
+    "explanation": "Threonine is unique in that it can produce both Acetyl-CoA (a precursor to ketone bodies) and Pyruvate (a glucogenic precursor)."
+  },
+  {
+    "question": "Which of the following is NOT a coenzyme involved in one-carbon unit transfer reactions?",
+    "options": {
+      "A": "Biotin",
+      "B": "Tetrahydrofolate",
+      "C": "S-Adenosylmethionine",
+      "D": "Coenzyme Q10",
+      "E": "All of the above are involved in one-carbon unit transfer."
+    },
+    "answer": "D",
+    "explanation": "Coenzyme Q10 is involved in electron transport in the mitochondria and is not directly involved in one-carbon unit transfer reactions. Biotin, Tetrahydrofolate, and S-Adenosylmethionine all participate in one-carbon unit transfers."
+  },
+  {
+    "question": "What is the difference between Biotin, Tetrahydrofolate, and S-Adenosylmethionine in terms of the oxidation state of the carbon they transfer?",
+    "options": {
+      "A": "Biotin transfers the most oxidized carbon, while S-Adenosylmethionine transfers the most reduced carbon.",
+      "B": "Tetrahydrofolate transfers the most oxidized carbon, while Biotin transfers the most reduced carbon.",
+      "C": "S-Adenosylmethionine transfers the most oxidized carbon, while Tetrahydrofolate transfers the most reduced carbon.",
+      "D": "They all transfer carbon in the same oxidation state.",
+      "E": "The oxidation state of the carbon transferred varies depending on the specific reaction."
+    },
+    "answer": "A",
+    "explanation": "Biotin transfers carbon dioxide (CO2), the most oxidized form of carbon. S-Adenosylmethionine transfers a methyl group (-CH3), the most reduced form of carbon. Tetrahydrofolate can transfer carbon in various oxidation states."
+  },
+  {
+    "question": "Which amino acid is a precursor to neurotransmitters like Dopamine, Epinephrine, and Norepinephrine?",
+    "options": {
+      "A": "Tryptophan",
+      "B": "Phenylalanine",
+      "C": "Tyrosine",
+      "D": "Histidine",
+      "E": "Glutamate"
+    },
+    "answer": "C",
+    "explanation": "Tyrosine is the precursor to several neurotransmitters, including Dopamine, Epinephrine, and Norepinephrine. It is also a precursor to melanin, the pigment responsible for skin and hair color."
+  },
+  {
+    "question": "Which metabolic disorder is characterized by the accumulation of Phenylpyruvate in the blood and urine?",
+    "options": {
+      "A": "Alkaptonuria",
+      "B": "Tyrosinemia",
+      "C": "Phenylketonuria (PKU)",
+      "D": "Homocystinuria",
+      "E": "Maple syrup urine disease"
+    },
+    "answer": "C",
+    "explanation": "Phenylketonuria (PKU) is characterized by the inability to convert Phenylalanine to Tyrosine due to a deficiency in Phenylalanine hydroxylase. This leads to the accumulation of Phenylalanine and its metabolites, including Phenylpyruvate, in the body fluids."
+  },
+  {
+    "question": "Which amino acid is involved in the synthesis of both Purines and Pyrimidines?",
+    "options": {
+      "A": "Glycine",
+      "B": "Aspartate",
+      "C": "Glutamine",
+      "D": "Alanine",
+      "E": "Serine"
+    },
+    "answer": "B",
+    "explanation": "Aspartate contributes atoms to the synthesis of both Purines and Pyrimidines, which are the building blocks of nucleic acids (DNA and RNA)."
+  },
+  {
+    "question": "Which amino acid can be converted to Creatine, a molecule important for energy storage in muscles?",
+    "options": {
+      "A": "Arginine",
+      "B": "Glycine",
+      "C": "Methionine",
+      "D": "Histidine",
+      "E": "Lysine"
+    },
+    "answer": "A",
+    "explanation": "Arginine is a precursor to Creatine, a molecule that plays a crucial role in energy metabolism in muscle tissue."
+  },
+  {
+    "question": "Which of the following is a function of S-Adenosylmethionine (SAM) in the cell?",
+    "options": {
+      "A": "Methyl group donation",
+      "B": "Amino group transfer",
+      "C": "Electron transport",
+      "D": "Carbohydrate metabolism",
+      "E": "Lipid synthesis"
+    },
+    "answer": "A",
+    "explanation": "The primary function of S-Adenosylmethionine (SAM) is as a methyl group donor in a wide variety of cellular reactions."
+  },
+  {
+    "question": "Which amino acid is a precursor to Nitric Oxide (NO), a signaling molecule involved in various physiological processes?",
+    "options": {
+      "A": "Arginine",
+      "B": "Histidine",
+      "C": "Tryptophan",
+      "D": "Glutamate",
+      "E": "Lysine"
+    },
+    "answer": "A",
+    "explanation": "Arginine is the precursor to Nitric Oxide (NO), a signaling molecule with diverse roles in the cardiovascular, nervous, and immune systems."
+  },
+  {
+    "question": "Which of the following is NOT a product of Phenylalanine and Tyrosine metabolism?",
+    "options": {
+      "A": "Fumarate",
+      "B": "Acetyl-CoA",
+      "C": "Succinyl-CoA",
+      "D": "Dopamine",
+      "E": "Melanin"
+    },
+    "answer": "C",
+    "explanation": "Phenylalanine and Tyrosine metabolism yields Fumarate, Acetyl-CoA, Dopamine, and Melanin. Succinyl-CoA is not a product of their degradation pathway."
+  },
+  {
+    "question": "Which of the following amino acids is considered both ketogenic and glucogenic?",
+    "options": {
+      "A": "Leucine",
+      "B": "Lysine",
+      "C": "Threonine",
+      "D": "Tryptophan",
+      "E": "Isoleucine"
+    },
+    "answer": "C",
+    "explanation": "Threonine is classified as both ketogenic and glucogenic. This means it can be converted into both ketone bodies and glucose precursors."
+  },
+  {
+    "question": "Which of the following statements about the Aspartate-Argininosuccinate shunt is incorrect?",
+    "options": {
+      "A": "It links the Urea Cycle and the Citric Acid Cycle.",
+      "B": "It involves the production of Fumarate.",
+      "C": "It allows for the transfer of nitrogen from the Urea Cycle to the Citric Acid Cycle.",
+      "D": "It is important for the regulation of both cycles.",
+      "E": "It is present in all cell types."
+    },
+    "answer": "E",
+    "explanation": "The Aspartate-Argininosuccinate shunt is primarily active in the liver and kidney cells, which are involved in the urea cycle."
+  },
+  {
+    "question": "Which of the following enzymes is involved in the conversion of Aspartate to Oxaloacetate?",
+    "options": {
+      "A": "Aspartate kinase",
+      "B": "Aspartate transaminase",
+      "C": "Aspartate decarboxylase",
+      "D": "Aspartate dehydrogenase",
+      "E": "Aspartate racemase"
+    },
+    "answer": "B",
+    "explanation": "Aspartate transaminase (AST) is the enzyme responsible for the reversible transamination reaction between Aspartate and Oxaloacetate."
+  },
+  {
+    "question": "Which amino acid can be directly converted to Succinyl-CoA through a series of reactions?",
+    "options": {
+      "A": "Methionine",
+      "B": "Cysteine",
+      "C": "Threonine",
+      "D": "Valine",
+      "E": "Isoleucine"
+    },
+    "answer": "A",
+    "explanation": "Methionine is metabolized to Succinyl-CoA via a pathway that involves the formation of S-Adenosylmethionine (SAM) and Homocysteine."
+  }
+]
