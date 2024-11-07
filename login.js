@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB6NZTH5qHsJahgY7TLlBMjQQvdleYuY7w",
-  authDomain: "auth-f79f5.firebaseapp.com",
-  projectId: "auth-f79f5",
-  storageBucket: "auth-f79f5.appspot.com",
-  messagingSenderId: "543105084905",
-  appId: "1:543105084905:web:09a98504001166b3e26f78"
+  apiKey: "AIzaSyAjvO8nSRkKXUp7gopj-X7QsOGRBHTxj1s",
+  authDomain: "jedieason-trivia.firebaseapp.com",
+  projectId: "jedieason-trivia",
+  storageBucket: "jedieason-trivia.firebasestorage.app",
+  messagingSenderId: "379460583179",
+  appId: "1:379460583179:web:c9d36892128bb0ac066c0e",
 };
 
 const app = initializeApp(firebaseConfig);
