@@ -1,0 +1,158 @@
+[
+{
+"question": "Which enzyme deficiency is associated with Hyperammonemia type 1?",
+"options": {
+"A": "Ornithine transcarbamoylase",
+"B": "N-Acetylglutamate synthase",
+"C": "Carbamoyl phosphate synthetase I",
+"D": "Argininosuccinate synthetase",
+"E": "Arginase"
+},
+"answer": "C",
+"explanation": "Hyperammonemia type 1 is caused by a deficiency or mutation in Carbamoyl phosphate synthetase I, which prevents the conversion of NH4+ to Carbamoyl phosphate."
+},
+{
+"question": "What type of inheritance pattern is observed in Hyperammonemia type 2?",
+"options": {
+"A": "Autosomal dominant",
+"B": "Autosomal recessive",
+"C": "X-linked dominant",
+"D": "X-linked recessive",
+"E": "Mitochondrial"
+},
+"answer": "D",
+"explanation": "Hyperammonemia type 2, resulting from an issue with Ornithine transcarbamoylase, is an X-linked recessive genetic disorder."
+},
+{
+"question": "What is the consequence of N-Acetylglutamate synthase deficiency?",
+"options": {
+"A": "Accumulation of Ornithine",
+"B": "Impaired activation of Carbamoyl phosphate synthetase I",
+"C": "Increased production of Citrulline",
+"D": "Elevated levels of Argininosuccinate",
+"E": "Reduced synthesis of Arginine"
+},
+"answer": "B",
+"explanation": "N-Acetylglutamate synthase deficiency leads to insufficient production of N-Acetylglutamate, which is necessary for the activation of the first enzyme in the urea cycle, Carbamoyl phosphate synthetase I."
+},
+{
+"question": "What accumulates in the body due to a deficiency in Argininosuccinate synthetase?",
+"options": {
+"A": "Ornithine",
+"B": "Citrulline",
+"C": "Argininosuccinate",
+"D": "Arginine",
+"E": "Fumarate"
+},
+"answer": "B",
+"explanation": "Citrullinemia arises from a lack of Argininosuccinate synthetase, leading to the accumulation of Citrulline."
+},
+{
+"question": "Which enzyme is responsible for the hydrolysis of Arg to produce urea and Ornithine?",
+"options": {
+"A": "Ornithine transcarbamoylase",
+"B": "Argininosuccinate synthetase",
+"C": "Argininosuccinase",
+"D": "Arginase",
+"E": "Carbamoyl phosphate synthetase I"
+},
+"answer": "D",
+"explanation": "Arginase plays a crucial role in the final step of the urea cycle by hydrolyzing Arg to generate urea and Ornithine."
+},
+{
+"question": "What condition involves the accumulation of Ornithine and NH4+ due to a malfunctioning Ornithine permease?",
+"options": {
+"A": "Hyperammonemia type 1",
+"B": "Hyperammonemia type 2",
+"C": "HHH syndrome",
+"D": "Citrullinemia",
+"E": "Argininosuccinicaciduria"
+},
+"answer": "C",
+"explanation": "HHH syndrome is characterized by a dysfunctional Ornithine permease, leading to the buildup of Ornithine (Hyperornithinemia) and NH4+ (Hyperammonemia)."
+},
+{
+"question": "What compound is formed when Carbamoyl phosphate reacts with Lysine in the absence of Ornithine?",
+"options": {
+"A": "Citrulline",
+"B": "Argininosuccinate",
+"C": "Arginine",
+"D": "Homocitrulline",
+"E": "Fumarate"
+},
+"answer": "D",
+"explanation": "In HHH syndrome, the lack of Ornithine in the mitochondria forces Carbamoyl phosphate to react with Lysine, resulting in the formation of Homocitrulline."
+},
+{
+"question": "What is the primary goal of treatment for urea cycle disorders?",
+"options": {
+"A": "Stimulate enzyme production",
+"B": "Replace deficient enzymes",
+"C": "Reduce ammonia levels",
+"D": "Increase protein intake",
+"E": "Supplement with essential amino acids"
+},
+"answer": "C",
+"explanation": "The main objective of treatment for urea cycle disorders is to lower ammonia levels, as their accumulation is harmful."
+},
+{
+"question": "Which amino acids are targeted for modification in the treatment of urea cycle disorders?",
+"options": {
+"A": "Gly and Ala",
+"B": "Gly and Gln",
+"C": "Ala and Gln",
+"D": "Lys and Arg",
+"E": "Citrulline and Argininosuccinate"
+},
+"answer": "B",
+"explanation": "The therapeutic approach for urea cycle disorders involves modifying Gly and Gln to create compounds that can be excreted in urine."
+},
+{
+"question": "What role does CoA-SH play in the treatment of urea cycle disorders?",
+"options": {
+"A": "Inhibits ammonia production",
+"B": "Activates urea cycle enzymes",
+"C": "Facilitates amino acid conjugation with drugs",
+"D": "Promotes renal excretion of ammonia",
+"E": "Converts ammonia to less toxic substances"
+},
+"answer": "C",
+"explanation": "CoA-SH is essential in the treatment of urea cycle disorders as it aids in the conjugation of amino acids (Gly and Gln) with the administered drugs."
+},
+{
+"question": "What compound is formed when Benzoate reacts with Glycine?",
+"options": {
+"A": "Hippurate",
+"B": "Phenylacetylglutamine",
+"C": "Benzoyl-CoA",
+"D": "Phenylacetyl-CoA",
+"E": "Ornithine"
+},
+"answer": "A",
+"explanation": "Benzoate combines with CoA-SH to form Benzoyl-CoA, which then reacts with Glycine to produce Hippurate, a compound that can be eliminated through urine."
+},
+{
+"question": "Which drug is used to conjugate with Glutamine in the treatment of urea cycle disorders?",
+"options": {
+"A": "Benzoate",
+"B": "Phenylbutyrate",
+"C": "Arginine",
+"D": "Citrulline",
+"E": "Ornithine"
+},
+"answer": "B",
+"explanation": "Phenylbutyrate is employed to conjugate with Glutamine. It first reacts with CoA-SH to form Phenylacetyl-CoA, which then combines with Glutamine, resulting in Phenylacetylglutamine that is excreted in urine."
+},
+{
+"question": "Why are modified amino acids excreted in urine?",
+"options": {
+"A": "They are toxic to the body.",
+"B": "They are not recognized by renal transporters for reabsorption.",
+"C": "They exceed the renal threshold for reabsorption.",
+"D": "They are actively secreted into the urine.",
+"E": "They are broken down into smaller molecules that are easily excreted."
+},
+"answer": "B",
+"explanation": "The modified amino acids are not recognized by the transporter proteins responsible for reabsorbing amino acids in the kidneys, leading to their excretion in urine."
+}
+]
