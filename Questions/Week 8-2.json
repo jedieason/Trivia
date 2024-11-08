@@ -1,0 +1,122 @@
+[
+{
+"question": "What is the backbone structure of Acylglycerols?",
+"options": {
+"A": "Sphingosine",
+"B": "Ceramide",
+"C": "Glycerol",
+"D": "Glucose",
+"E": "Phosphate"
+},
+"answer": "C",
+"explanation": "Acylglycerols are built upon a glycerol backbone, to which 1 to 3 fatty acids can attach."
+},
+{
+"question": "Which of the following is NOT a function of Phospholipids?",
+"options": {
+"A": "Acting as a lung surfactant",
+"B": "Serving as a second messenger for hormones",
+"C": "Facilitating platelet activation",
+"D": "Forming the Glycocalyx for cell recognition",
+"E": "Storing energy as the primary lipid component in the body"
+},
+"answer": "E",
+"explanation": "While Phospholipids have various functions like acting as lung surfactants (Dipalmitoyl lecithin), serving as second messengers (Inositol phospholipids), contributing to platelet activation (Alkylphospholipid), and forming the Glycocalyx (Glycosphingolipids), the primary energy storage in the body is the role of Triacylglycerols."
+},
+{
+"question": "What is the initial step in the synthesis of Acylglycerols?",
+"options": {
+"A": "Direct attachment of a fatty acid to Glycerol",
+"B": "Formation of Glycerol-3-phosphate",
+"C": "Conversion of Glycerol to Dihydroxyacetone phosphate",
+"D": "Synthesis of Phosphatidate",
+"E": "Addition of a phosphate group to a fatty acid"
+},
+"answer": "B",
+"explanation": "The synthesis of Acylglycerols begins with the formation of Glycerol-3-phosphate, which can be achieved by either attaching a phosphate to Glycerol via Glycerol kinase or converting DHAP (Dihydroxyacetone) from glycolysis."
+},
+{
+"question": "What is the key branching point molecule in the Acylglycerol synthesis pathway?",
+"options": {
+"A": "Glycerol",
+"B": "Glycerol-3-phosphate",
+"C": "1-Acylglycerol-3-phosphate",
+"D": "Phosphatidate",
+"E": "Diacylglycerol"
+},
+"answer": "D",
+"explanation": "Both Phosphatidate and Diacylglycerol are considered key branching points in the Acylglycerol synthesis pathway."
+},
+{
+"question": "What is the rate-limiting step in the synthesis of Triacylglycerols from Phosphatidate?",
+"options": {
+"A": "Formation of Glycerol-3-phosphate",
+"B": "Attachment of the first fatty acid to Glycerol-3-phosphate",
+"C": "Conversion of 1,2-Diacylglycerol phosphate to Phosphatidate",
+"D": "Removal of the phosphate group from Phosphatidate",
+"E": "Attachment of the third fatty acid to 1,2-Diacylglycerol"
+},
+"answer": "E",
+"explanation": "The rate-limiting step in synthesizing Triacylglycerols from Phosphatidate is the attachment of the third fatty acid to 1,2-Diacylglycerol, facilitated by Diacylglycerol acyltransferase (DGAT)."
+},
+{
+"question": "How does the Intestinal mucosa monoacylglycerol pathway differ from the main Acylglycerol synthesis pathway?",
+"options": {
+"A": "It starts with a pre-existing 2-Monoacylglycerol molecule.",
+"B": "It utilizes a different enzyme for fatty acid attachment.",
+"C": "It bypasses the formation of Phosphatidate.",
+"D": "All of the above.",
+"E": "None of the above."
+},
+"answer": "D",
+"explanation": "The Intestinal mucosa monoacylglycerol pathway differs from the main pathway in the following ways: It starts with a pre-existing 2-Monoacylglycerol, uses a different enzyme (Intestine's Monoacylglycerol acyltransferase), and bypasses the step-by-step formation of the glycerol backbone, directly forming 1,2-Diacylglycerol."
+},
+{
+"question": "What distinguishes Sphingolipids from Acylglycerols in terms of their structural backbone?",
+"options": {
+"A": "Sphingolipids utilize a Ceramide backbone.",
+"B": "Sphingolipids are built upon a Sphingosine backbone.",
+"C": "Sphingolipids have a Phosphate backbone.",
+"D": "Sphingolipids use Glucose as their backbone.",
+"E": "Sphingolipids and Acylglycerols share the same backbone structure."
+},
+"answer": "B",
+"explanation": "Unlike Acylglycerols, which use Glycerol, Sphingolipids utilize Sphingosine as their backbone. The combination of Sphingosine and a fatty acid forms Ceramide, which serves as the base for all Sphingolipids."
+},
+{
+"question": "What is the primary lipid component of myelin?",
+"options": {
+"A": "Sphingomyelin",
+"B": "Ceramide",
+"C": "Glycosphingolipid",
+"D": "Galactosylceramide",
+"E": "Phosphocholine"
+},
+"answer": "D",
+"explanation": "Galactosylceramide, formed by the addition of Galactose to Ceramide, is the major lipid constituent of myelin."
+},
+{
+"question": "What is the cause of Infant respiratory distress syndrome?",
+"options": {
+"A": "Excessive production of lung surfactant",
+"B": "Immune system attack on the myelin sheath",
+"C": "Accumulation of lipids in tissues",
+"D": "Insufficient production of Dipalmitoyl-phosphatidylcholine",
+"E": "Deficiency in Cholesterol transport"
+},
+"answer": "D",
+"explanation": "Infant respiratory distress syndrome arises from the inadequate production of Dipalmitoyl-phosphatidylcholine, a crucial component of lung surfactant. This deficiency leads to increased surface tension in the alveoli, hindering proper breathing."
+},
+{
+"question": "Which lipoprotein is responsible for transporting dietary fats from the intestines to the liver?",
+"options": {
+"A": "Chylomicrons",
+"B": "VLDL",
+"C": "LDL",
+"D": "HDL",
+"E": "IDL"
+},
+"answer": "A",
+"explanation": "Chylomicrons, primarily composed of Triacylglycerols, are responsible for transporting dietary fats absorbed by the intestines to the liver. They are initially transported via the lymphatic system before entering the bloodstream."
+}
+]
