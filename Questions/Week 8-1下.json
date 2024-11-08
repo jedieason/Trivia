@@ -1,0 +1,590 @@
+[
+  {
+    "question": "What is the primary function of carnitine in fatty acid oxidation?",
+    "options": {
+      "A": "To inhibit the breakdown of fatty acids",
+      "B": "To transport long-chain fatty acids into the mitochondria",
+      "C": "To convert glucose into fatty acids",
+      "D": "To synthesize ketone bodies from acetyl-CoA",
+      "E": "To act as a cofactor for beta-oxidation enzymes"
+    },
+    "answer": "B",
+    "explanation": "Carnitine acts as a carrier molecule, transporting long-chain fatty acids across the mitochondrial membrane for beta-oxidation."
+  },
+  {
+    "question": "Which condition can be caused by a deficiency in carnitine or CPT I/II?",
+    "options": {
+      "A": "Ketosis",
+      "B": "Hyperglycemia",
+      "C": "Hypoglycemia",
+      "D": "Alkalosis",
+      "E": "Hyperketonemia"
+    },
+    "answer": "C",
+    "explanation": "Deficiencies in carnitine or CPT enzymes hinder fatty acid oxidation, leading to decreased energy production from fatty acids and reliance on glucose, potentially causing hypoglycemia."
+  },
+  {
+    "question": "Sulfonylurea drugs, used to treat Type II diabetes, work by:",
+    "options": {
+      "A": "Stimulating insulin production",
+      "B": "Inhibiting CPT I to reduce fatty acid oxidation",
+      "C": "Increasing glucose absorption by cells",
+      "D": "Promoting ketone body formation",
+      "E": "Enhancing gluconeogenesis in the liver"
+    },
+    "answer": "B",
+    "explanation": "Sulfonylurea drugs inhibit CPT I, the enzyme responsible for transporting fatty acids into mitochondria, thus reducing fatty acid oxidation and promoting glucose utilization."
+  },
+  {
+    "question": "Which enzyme deficiency can lead to acute fatty liver of pregnancy?",
+    "options": {
+      "A": "Carnitine transporter",
+      "B": "CPT II",
+      "C": "3-Hydroxyacyl-CoA dehydrogenase",
+      "D": "HMG-CoA lyase",
+      "E": "Malonyl-CoA decarboxylase"
+    },
+    "answer": "C",
+    "explanation": "A deficiency in 3-Hydroxyacyl-CoA dehydrogenase, an enzyme involved in beta-oxidation, can contribute to the development of acute fatty liver of pregnancy."
+  },
+  {
+    "question": "What is the primary metabolic consequence of Jamaican vomiting sickness?",
+    "options": {
+      "A": "Increased ketogenesis",
+      "B": "Inhibition of beta-oxidation",
+      "C": "Stimulation of gluconeogenesis",
+      "D": "Excessive glucose uptake by cells",
+      "E": "Enhanced fatty acid synthesis"
+    },
+    "answer": "B",
+    "explanation": "Jamaican vomiting sickness, caused by ingesting unripe Akee fruit, inhibits medium and short-chain acyl-CoA dehydrogenases, essential enzymes in beta-oxidation, leading to hypoglycemia."
+  },
+  {
+    "question": "Dicarboxylic aciduria is characterized by the presence of C6-C10 ω-dicarboxylic acids in urine. Which enzyme deficiency is responsible for this condition?",
+    "options": {
+      "A": "Long-chain acyl-CoA dehydrogenase",
+      "B": "Medium-chain acyl-CoA dehydrogenase",
+      "C": "Short-chain acyl-CoA dehydrogenase",
+      "D": "HMG-CoA synthase",
+      "E": "Acetyl-CoA carboxylase"
+    },
+    "answer": "B",
+    "explanation": "A deficiency in medium-chain acyl-CoA dehydrogenase impairs the breakdown of medium-chain fatty acids, resulting in the accumulation and excretion of C6-C10 ω-dicarboxylic acids in urine."
+  },
+  {
+    "question": "Zellweger syndrome is a genetic disorder characterized by:",
+    "options": {
+      "A": "Excessive ketone body production",
+      "B": "Absence of peroxisomes in tissues",
+      "C": "Hyperactivity of beta-oxidation enzymes",
+      "D": "Increased fatty acid synthesis",
+      "E": "Enhanced glucose utilization"
+    },
+    "answer": "B",
+    "explanation": "Zellweger syndrome is characterized by the absence of peroxisomes, leading to the accumulation of very long-chain fatty acids in brain tissue and severe neurological symptoms."
+  },
+  {
+    "question": "What are the primary causes of ketosis?",
+    "options": {
+      "A": "High carbohydrate intake, insulin resistance",
+      "B": "Prolonged fasting, carbohydrate-free diet, diabetes",
+      "C": "Excessive protein consumption, strenuous exercise",
+      "D": "Increased glucose utilization, enhanced fatty acid synthesis",
+      "E": "Deficiency in ketone body utilization by tissues"
+    },
+    "answer": "B",
+    "explanation": "Ketosis arises when the body lacks sufficient glucose for energy, often due to prolonged fasting, carbohydrate restriction, or impaired glucose utilization in diabetes."
+  },
+  {
+    "question": "Why can uncontrolled diabetes lead to ketoacidosis?",
+    "options": {
+      "A": "Overproduction of insulin lowers blood pH",
+      "B": "Excessive glucose utilization leads to acidosis",
+      "C": "Accumulation of ketone bodies, which are acidic, depletes alkali reserves",
+      "D": "Impaired fatty acid oxidation causes a buildup of acidic intermediates",
+      "E": "Increased lactic acid production due to anaerobic metabolism"
+    },
+    "answer": "C",
+    "explanation": "In uncontrolled diabetes, the body relies heavily on fatty acid oxidation for energy, producing large amounts of ketone bodies. These ketone bodies are acidic, and their excessive accumulation depletes the body's alkali reserves, leading to ketoacidosis."
+  },
+  {
+    "question": "Where are ketone bodies primarily synthesized?",
+    "options": {
+      "A": "Adipose tissue",
+      "B": "Skeletal muscle",
+      "C": "Brain",
+      "D": "Liver",
+      "E": "Pancreas"
+    },
+    "answer": "D",
+    "explanation": "Ketone bodies are primarily produced in the liver mitochondria, especially when fatty acid oxidation rates are high."
+  },
+  {
+    "question": "Which two enzymes are crucial for ketogenesis?",
+    "options": {
+      "A": "Acetyl-CoA carboxylase, fatty acid synthase",
+      "B": "HMG-CoA synthase, HMG-CoA lyase",
+      "C": "CPT I, CPT II",
+      "D": "3-Hydroxyacyl-CoA dehydrogenase, 3-Ketoacyl-CoA thiolase",
+      "E": "Malonyl acetyl transacylase, 3-ketoacyl synthase"
+    },
+    "answer": "B",
+    "explanation": "Ketogenesis involves the synthesis and breakdown of HMG-CoA, and the key enzymes involved are HMG-CoA synthase and HMG-CoA lyase."
+  },
+  {
+    "question": "Which of the following is NOT a regulatory point for ketogenesis?",
+    "options": {
+      "A": "Controlling the release of free fatty acids from adipose tissue",
+      "B": "Regulating CPT I activity in the liver to determine the balance between fatty acid oxidation and esterification",
+      "C": "Directing acetyl-CoA towards ketogenesis or the citric acid cycle",
+      "D": "Modulating glucose uptake by peripheral tissues",
+      "E": "Stimulating insulin secretion from the pancreas"
+    },
+    "answer": "E",
+    "explanation": "While insulin plays a role in overall glucose and lipid metabolism, it does not directly regulate the specific steps of ketogenesis. The other options represent key regulatory points for ketogenesis."
+  },
+  {
+    "question": "What is the primary substrate for fatty acid biosynthesis in mammals?",
+    "options": {
+      "A": "Amino acids",
+      "B": "Ketone bodies",
+      "C": "Glucose",
+      "D": "Lactate",
+      "E": "Glycerol"
+    },
+    "answer": "C",
+    "explanation": "Glucose serves as the primary precursor for fatty acid biosynthesis in mammals, providing the carbon backbone for the synthesis process."
+  },
+  {
+    "question": "Why is fatty acid biosynthesis suppressed in individuals with type 1 diabetes?",
+    "options": {
+      "A": "Excessive insulin signaling promotes fatty acid breakdown",
+      "B": "Increased ketone body production inhibits fatty acid synthesis",
+      "C": "Impaired glucose uptake limits the availability of substrate for fatty acid synthesis",
+      "D": "Elevated glucagon levels stimulate fatty acid oxidation",
+      "E": "Reduced gluconeogenesis restricts the supply of precursors for fatty acid synthesis"
+    },
+    "answer": "C",
+    "explanation": "In type 1 diabetes, cells cannot effectively take up glucose due to insulin deficiency. This lack of glucose, the primary substrate for fatty acid biosynthesis, suppresses the synthesis process."
+  },
+  {
+    "question": "How do unsaturated fatty acids contribute to cardiovascular health?",
+    "options": {
+      "A": "They increase blood cholesterol levels",
+      "B": "They promote inflammation in blood vessels",
+      "C": "They improve insulin sensitivity",
+      "D": "They influence cell membrane fluidity and permeability, potentially reducing cardiovascular risk",
+      "E": "They enhance platelet aggregation and blood clotting"
+    },
+    "answer": "D",
+    "explanation": "Unsaturated fatty acids, as components of cell membrane phospholipids, affect membrane fluidity and permeability. A higher ratio of unsaturated to saturated fatty acids in the diet is associated with a lower risk of cardiovascular disease."
+  },
+  {
+    "question": "Which essential fatty acids are precursors for the synthesis of eicosanoic acid?",
+    "options": {
+      "A": "Palmitic acid, stearic acid",
+      "B": "Oleic acid, linoleic acid, α-linolenic acid",
+      "C": "Myristic acid, lauric acid",
+      "D": "Arachidonic acid, eicosapentaenoic acid",
+      "E": "Docosahexaenoic acid, palmitoleic acid"
+    },
+    "answer": "B",
+    "explanation": "Animals have limited ability to desaturate fatty acids beyond a certain point. Thus, essential fatty acids like oleic, linoleic, and α-linolenic acids are required to synthesize longer-chain fatty acids like eicosanoic acid."
+  },
+  {
+    "question": "What is the mechanism of action of NSAIDs like aspirin and ibuprofen?",
+    "options": {
+      "A": "They stimulate prostaglandin synthesis",
+      "B": "They inhibit the production of leukotrienes",
+      "C": "They block the formation of thromboxanes",
+      "D": "They reduce inflammation by suppressing prostaglandin synthesis",
+      "E": "They enhance the activity of lipoxygenase"
+    },
+    "answer": "D",
+    "explanation": "NSAIDs work by inhibiting cyclooxygenase (COX) enzymes, which are responsible for the production of prostaglandins, key mediators of inflammation and pain."
+  },
+  {
+    "question": "Where does fatty acid synthesis primarily occur within the cell?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Mitochondria",
+      "C": "Cytoplasm",
+      "D": "Endoplasmic reticulum",
+      "E": "Golgi apparatus"
+    },
+    "answer": "C",
+    "explanation": "Fatty acid synthesis takes place primarily in the cytoplasm of the cell, involving a series of enzymatic reactions that build fatty acids from acetyl-CoA."
+  },
+  {
+    "question": "What is the first committed step in fatty acid biosynthesis?",
+    "options": {
+      "A": "Formation of acetyl-CoA from pyruvate",
+      "B": "Synthesis of palmitate from acetyl-CoA",
+      "C": "Desaturation of stearic acid to oleic acid",
+      "D": "Elongation of fatty acids in the endoplasmic reticulum",
+      "E": "Carboxylation of acetyl-CoA to form malonyl-CoA"
+    },
+    "answer": "E",
+    "explanation": "The synthesis of malonyl-CoA from acetyl-CoA, catalyzed by acetyl-CoA carboxylase, is the first irreversible and rate-limiting step in fatty acid biosynthesis."
+  },
+  {
+    "question": "Which enzyme plays a central role in regulating fatty acid biosynthesis?",
+    "options": {
+      "A": "Fatty acid synthase",
+      "B": "Acetyl-CoA carboxylase",
+      "C": "HMG-CoA reductase",
+      "D": "Carnitine palmitoyltransferase I",
+      "E": "Lipoprotein lipase"
+    },
+    "answer": "B",
+    "explanation": "Acetyl-CoA carboxylase, the enzyme responsible for malonyl-CoA synthesis, is highly regulated and serves as a key control point in fatty acid biosynthesis."
+  },
+  {
+    "question": "Which vitamin is essential for the activity of acetyl-CoA carboxylase?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin B7 (Biotin)",
+      "E": "Vitamin K"
+    },
+    "answer": "D",
+    "explanation": "Acetyl-CoA carboxylase requires biotin, a B-vitamin, as a cofactor to function properly in the carboxylation of acetyl-CoA to malonyl-CoA."
+  },
+  {
+    "question": "What is the function of the acyl carrier protein (ACP) in fatty acid synthesis?",
+    "options": {
+      "A": "To transport fatty acids across the mitochondrial membrane",
+      "B": "To store fatty acids in adipose tissue",
+      "C": "To act as a scaffold for the assembly of the fatty acid synthase complex",
+      "D": "To carry the growing fatty acid chain during synthesis",
+      "E": "To regulate the activity of acetyl-CoA carboxylase"
+    },
+    "answer": "D",
+    "explanation": "The acyl carrier protein (ACP) is a key component of the fatty acid synthase complex. It holds and shuttles the growing fatty acid chain between the various enzyme active sites during the synthesis process."
+  },
+  {
+    "question": "Which molecule provides the two-carbon units for fatty acid chain elongation?",
+    "options": {
+      "A": "Acetyl-CoA",
+      "B": "Malonyl-CoA",
+      "C": "Propionyl-CoA",
+      "D": "Succinyl-CoA",
+      "E": "Oxaloacetate"
+    },
+    "answer": "B",
+    "explanation": "During fatty acid synthesis, malonyl-CoA provides the two-carbon units that are sequentially added to the growing fatty acid chain."
+  },
+  {
+    "question": "What is the final product of fatty acid synthesis?",
+    "options": {
+      "A": "Stearic acid",
+      "B": "Oleic acid",
+      "C": "Palmitic acid",
+      "D": "Linoleic acid",
+      "E": "Arachidonic acid"
+    },
+    "answer": "C",
+    "explanation": "The fatty acid synthase complex produces palmitic acid (a 16-carbon saturated fatty acid) as the final product. This can be further modified through elongation or desaturation."
+  },
+  {
+    "question": "How does the pentose phosphate pathway contribute to fatty acid synthesis?",
+    "options": {
+      "A": "It provides ATP for the energy-requiring steps",
+      "B": "It supplies the necessary carbon skeletons for fatty acid chain elongation",
+      "C": "It generates NADPH, which is required for the reductive steps in fatty acid synthesis",
+      "D": "It regulates the activity of acetyl-CoA carboxylase",
+      "E": "It facilitates the transport of fatty acids across cellular membranes"
+    },
+    "answer": "C",
+    "explanation": "The pentose phosphate pathway is a major source of NADPH, which acts as a reducing agent in the steps catalyzed by 3-ketoacyl reductase and enoyl reductase during fatty acid synthesis."
+  },
+  {
+    "question": "How is acetyl-CoA, generated in the mitochondria, transported to the cytoplasm for fatty acid synthesis?",
+    "options": {
+      "A": "Direct diffusion across the mitochondrial membrane",
+      "B": "Conversion to citrate, transport to the cytoplasm, and cleavage back to acetyl-CoA",
+      "C": "Active transport via a specific acetyl-CoA transporter",
+      "D": "Conversion to ketone bodies, transport to the cytoplasm, and reconversion to acetyl-CoA",
+      "E": "Binding to a carrier protein that shuttles it through the mitochondrial membrane"
+    },
+    "answer": "B",
+    "explanation": "Acetyl-CoA combines with oxaloacetate to form citrate, which can be transported out of the mitochondria. In the cytoplasm, citrate is cleaved back into acetyl-CoA and oxaloacetate by ATP-citrate lyase."
+  },
+  {
+    "question": "What is the role of malic enzyme in fatty acid synthesis?",
+    "options": {
+      "A": "To convert malate to pyruvate, generating NADPH for fatty acid synthesis",
+      "B": "To catalyze the carboxylation of acetyl-CoA to malonyl-CoA",
+      "C": "To transport citrate from the mitochondria to the cytoplasm",
+      "D": "To activate acetyl-CoA carboxylase",
+      "E": "To elongate fatty acid chains in the endoplasmic reticulum"
+    },
+    "answer": "A",
+    "explanation": "Malic enzyme converts malate to pyruvate, generating NADPH, which is essential for the reductive steps in fatty acid synthesis."
+  },
+  {
+    "question": "Where does fatty acid chain elongation beyond 10 carbons occur?",
+    "options": {
+      "A": "Mitochondria",
+      "B": "Cytoplasm",
+      "C": "Endoplasmic reticulum",
+      "D": "Golgi apparatus",
+      "E": "Peroxisomes"
+    },
+    "answer": "C",
+    "explanation": "Fatty acid elongation beyond 10 carbons takes place in the endoplasmic reticulum, using malonyl-CoA as a two-carbon donor."
+  },
+  {
+    "question": "How does the consumption of sucrose (fructose) contribute to increased fatty acid synthesis compared to glucose consumption?",
+    "options": {
+      "A": "Fructose is directly converted to fatty acids",
+      "B": "Fructose metabolism bypasses the regulatory step of phosphofructokinase in glycolysis",
+      "C": "Fructose inhibits fatty acid oxidation",
+      "D": "Fructose stimulates insulin secretion more potently than glucose",
+      "E": "Fructose enhances the activity of acetyl-CoA carboxylase"
+    },
+    "answer": "B",
+    "explanation": "Fructose metabolism utilizes fructokinase, bypassing the control point of phosphofructokinase in glycolysis. This allows for a greater flux of carbon towards fatty acid synthesis."
+  },
+  {
+    "question": "What is the inactive form of acetyl-CoA carboxylase?",
+    "options": {
+      "A": "Monomeric form",
+      "B": "Dimeric form",
+      "C": "Polymeric form",
+      "D": "Phosphorylated form",
+      "E": "Dephosphorylated form"
+    },
+    "answer": "B",
+    "explanation": "Acetyl-CoA carboxylase exists in two forms: an inactive dimeric form and an active polymeric form."
+  },
+  {
+    "question": "Which molecule allosterically activates acetyl-CoA carboxylase?",
+    "options": {
+      "A": "ATP",
+      "B": "AMP",
+      "C": "Citrate",
+      "D": "Palmitoyl-CoA",
+      "E": "Malonyl-CoA"
+    },
+    "answer": "C",
+    "explanation": "Citrate, an indicator of abundant metabolic fuel, allosterically activates acetyl-CoA carboxylase, promoting fatty acid synthesis."
+  },
+  {
+    "question": "Which molecule allosterically inhibits acetyl-CoA carboxylase?",
+    "options": {
+      "A": "Glucose",
+      "B": "Pyruvate",
+      "C": "Lactate",
+      "D": "Palmitoyl-CoA",
+      "E": "Glycerol"
+    },
+    "answer": "D",
+    "explanation": "Palmitoyl-CoA, the end product of fatty acid synthesis, provides feedback inhibition by allosterically inhibiting acetyl-CoA carboxylase, preventing excessive fatty acid production."
+  },
+  {
+    "question": "How does phosphorylation affect the activity of acetyl-CoA carboxylase?",
+    "options": {
+      "A": "Phosphorylation activates acetyl-CoA carboxylase",
+      "B": "Phosphorylation has no effect on acetyl-CoA carboxylase",
+      "C": "Phosphorylation inhibits acetyl-CoA carboxylase",
+      "D": "Phosphorylation promotes the formation of the polymeric form of acetyl-CoA carboxylase",
+      "E": "Phosphorylation enhances the binding of citrate to acetyl-CoA carboxylase"
+    },
+    "answer": "C",
+    "explanation": "Phosphorylation of acetyl-CoA carboxylase by AMP-activated protein kinase (AMPK) inhibits its activity, reducing fatty acid synthesis."
+  },
+  {
+    "question": "Which hormone activates acetyl-CoA carboxylase by promoting its dephosphorylation?",
+    "options": {
+      "A": "Glucagon",
+      "B": "Epinephrine",
+      "C": "Cortisol",
+      "D": "Insulin",
+      "E": "Growth hormone"
+    },
+    "answer": "D",
+    "explanation": "Insulin signaling leads to the dephosphorylation and activation of acetyl-CoA carboxylase, promoting fatty acid synthesis."
+  },
+  {
+    "question": "Which of the following fatty acids is considered essential for animals?",
+    "options": {
+      "A": "Palmitic acid",
+      "B": "Stearic acid",
+      "C": "Oleic acid",
+      "D": "Linoleic acid",
+      "E": "Arachidonic acid"
+    },
+    "answer": "D",
+    "explanation": "Linoleic acid is an essential fatty acid because animals lack the enzymes to introduce double bonds beyond the Δ9 position."
+  },
+  {
+    "question": "What is the function of Δ9 desaturase in fatty acid metabolism?",
+    "options": {
+      "A": "To elongate fatty acid chains by adding two carbons",
+      "B": "To introduce a double bond at the Δ9 position of fatty acids",
+      "C": "To break down fatty acids via beta-oxidation",
+      "D": "To convert saturated fatty acids to unsaturated fatty acids",
+      "E": "To synthesize ketone bodies from acetyl-CoA"
+    },
+    "answer": "B",
+    "explanation": "Δ9 desaturase is an enzyme that introduces a double bond at the Δ9 position of fatty acids, such as in the conversion of stearoyl-CoA to oleoyl-CoA."
+  },
+  {
+    "question": "Why are omega-6 and omega-3 fatty acid families considered essential?",
+    "options": {
+      "A": "They can be synthesized from glucose",
+      "B": "They are not required for any biological processes",
+      "C": "They can be easily interconverted within the body",
+      "D": "They are precursors for other fatty acids that cannot be synthesized de novo",
+      "E": "They are not found in any dietary sources"
+    },
+    "answer": "D",
+    "explanation": "Omega-6 and omega-3 fatty acid families are essential because they are precursors for longer-chain polyunsaturated fatty acids that play important roles in various physiological functions and cannot be synthesized de novo."
+  },
+  {
+    "question": "What is the significance of the triene/tetraene ratio in assessing essential fatty acid deficiency?",
+    "options": {
+      "A": "A high ratio indicates adequate essential fatty acid intake",
+      "B": "A low ratio suggests sufficient essential fatty acid levels",
+      "C": "The ratio is not relevant to essential fatty acid status",
+      "D": "A high ratio reflects essential fatty acid deficiency",
+      "E": "The ratio is only applicable in infants"
+    },
+    "answer": "D",
+    "explanation": "The triene/tetraene ratio, which compares the levels of specific fatty acids in the blood, is used to assess essential fatty acid deficiency. A high ratio indicates a deficiency."
+  },
+  {
+    "question": "Which of the following is NOT a class of eicosanoids?",
+    "options": {
+      "A": "Prostaglandins",
+      "B": "Thromboxanes",
+      "C": "Leukotrienes",
+      "D": "Lipoxins",
+      "E": "Phospholipids"
+    },
+    "answer": "E",
+    "explanation": "Eicosanoids are a family of lipid signaling molecules derived from C20 polyunsaturated fatty acids. Prostaglandins, thromboxanes, leukotrienes, and lipoxins are all classes of eicosanoids."
+  },
+  {
+    "question": "Which enzyme is involved in the synthesis of prostaglandins and thromboxanes?",
+    "options": {
+      "A": "Lipoxygenase",
+      "B": "Cyclooxygenase",
+      "C": "Desaturase",
+      "D": "Elongase",
+      "E": "Phospholipase"
+    },
+    "answer": "B",
+    "explanation": "Cyclooxygenase (COX) enzymes are responsible for converting arachidonic acid into prostaglandins and thromboxanes."
+  },
+  {
+    "question": "What is the primary function of thromboxane TXA2?",
+    "options": {
+      "A": "To inhibit platelet aggregation",
+      "B": "To promote vasodilation",
+      "C": "To reduce inflammation",
+      "D": "To stimulate wound healing",
+      "E": "To promote vasoconstriction and platelet aggregation"
+    },
+    "answer": "E",
+    "explanation": "Thromboxane TXA2, produced by platelets, promotes vasoconstriction and platelet aggregation, playing a crucial role in blood clotting."
+  },
+  {
+    "question": "Which eicosanoid is a potent inhibitor of platelet aggregation?",
+    "options": {
+      "A": "Thromboxane TXA2",
+      "B": "Prostaglandin PGE2",
+      "C": "Leukotriene LTB4",
+      "D": "Prostacyclin PGI2",
+      "E": "Lipoxin LXA4"
+    },
+    "answer": "D",
+    "explanation": "Prostacyclin PGI2, synthesized by blood vessel walls, counteracts the effects of thromboxane TXA2 by inhibiting platelet aggregation."
+  },
+  {
+    "question": "Which enzyme is responsible for the synthesis of leukotrienes?",
+    "options": {
+      "A": "Cyclooxygenase",
+      "B": "Lipoxygenase",
+      "C": "Desaturase",
+      "D": "Elongase",
+      "E": "Phospholipase"
+    },
+    "answer": "B",
+    "explanation": "Leukotrienes are produced through the lipoxygenase pathway, which involves the enzyme lipoxygenase."
+  },
+  {
+    "question": "What is the primary role of leukotrienes in the immune system?",
+    "options": {
+      "A": "To suppress inflammation",
+      "B": "To promote antibody production",
+      "C": "To activate T cells",
+      "D": "To mediate allergic and inflammatory responses",
+      "E": "To inhibit pathogen recognition"
+    },
+    "answer": "D",
+    "explanation": "Leukotrienes are potent mediators of allergic and inflammatory responses, contributing to bronchoconstriction, mucus secretion, and immune cell recruitment."
+  },
+  {
+    "question": "Which condition can be exacerbated by essential fatty acid deficiency?",
+    "options": {
+      "A": "Obesity",
+      "B": "Diabetes",
+      "C": "Skin lesions and impaired lipid transport",
+      "D": "Hypertension",
+      "E": "Hypoglycemia"
+    },
+    "answer": "C",
+    "explanation": "Essential fatty acid deficiency can manifest in skin problems and difficulties with lipid transport due to the roles of essential fatty acids in membrane structure and function."
+  },
+  {
+    "question": "Which of the following is NOT a health concern associated with trans fatty acid consumption?",
+    "options": {
+      "A": "Increased risk of cardiovascular disease",
+      "B": "Exacerbation of essential fatty acid deficiency",
+      "C": "Lowering of LDL cholesterol levels",
+      "D": "Elevation of triglyceride levels",
+      "E": "Promotion of inflammation"
+    },
+    "answer": "C",
+    "explanation": "Trans fatty acids, commonly found in processed foods, are known to increase LDL cholesterol levels, a major risk factor for cardiovascular disease."
+  },
+  {
+    "question": "What is the rationale for developing NSAIDs that specifically target COX-2?",
+    "options": {
+      "A": "To enhance the production of beneficial prostaglandins",
+      "B": "To reduce gastrointestinal side effects associated with COX-1 inhibition",
+      "C": "To increase the risk of cardiovascular events",
+      "D": "To promote platelet aggregation",
+      "E": "To suppress the immune response"
+    },
+    "answer": "B",
+    "explanation": "COX-1 is involved in protecting the stomach lining, and its inhibition by NSAIDs can lead to gastrointestinal irritation. Developing COX-2-specific inhibitors aims to reduce these side effects."
+  },
+  {
+    "question": "Which of the following is NOT a potential therapeutic application of prostaglandins?",
+    "options": {
+      "A": "Treatment of inflammation",
+      "B": "Blood pressure regulation",
+      "C": "Induction of sleep",
+      "D": "Stimulation of hair growth",
+      "E": "Contraception"
+    },
+    "answer": "D",
+    "explanation": "Prostaglandins are involved in various physiological processes, and their therapeutic applications include the treatment of inflammation, blood pressure regulation, and contraception. PGD2 is also known to promote sleep."
+  },
+  {
+    "question": "How are leukotrienes involved in asthma?",
+    "options": {
+      "A": "They relax bronchial smooth muscle",
+      "B": "They reduce mucus production in the airways",
+      "C": "They inhibit inflammatory cell recruitment",
+      "D": "They contribute to bronchoconstriction and airway inflammation",
+      "E": "They suppress the immune response in the lungs"
+    },
+    "answer": "D",
+    "explanation": "In asthma, leukotrienes contribute to the pathophysiology by promoting bronchoconstriction, increasing mucus secretion, and enhancing airway inflammation."
+  }
+]
