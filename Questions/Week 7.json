@@ -1,0 +1,682 @@
+[
+{
+"question": "Which of the following is a characteristic of lipids?",
+"options": {
+"A": "They are highly soluble in water.",
+"B": "They are a homogeneous group of compounds.",
+"C": "They are the least efficient way for plants and animals to store energy.",
+"D": "They are important components of cell membranes.",
+"E": "They play a minor role in nutrition and health."
+},
+"answer": "D",
+"explanation": "Lipids are important components of cell membranes such as phospholipids and cholesterol."
+},
+{
+"question": "Which of the following is a simple lipid?",
+"options": {
+"A": "Phospholipid",
+"B": "Glycolipid",
+"C": "Sulfolipid",
+"D": "Wax",
+"E": "Lipoprotein"
+},
+"answer": "D",
+"explanation": "Simple lipids are esters formed from fatty acids and alcohols. Wax is an ester formed from a high molecular weight fatty acid and a monohydric alcohol."
+},
+{
+"question": "Which of the following describes a saturated fatty acid?",
+"options": {
+"A": "It contains one or more double bonds.",
+"B": "It is typically found in the trans form in nature.",
+"C": "It has a lower melting point than an unsaturated fatty acid with the same number of carbon atoms.",
+"D": "It is a major component of cell membranes.",
+"E": "It has all carbon-carbon single bonds."
+},
+"answer": "E",
+"explanation": "A saturated fatty acid is defined as a fatty acid with all carbon-carbon single bonds."
+},
+{
+"question": "Which of the following is a polyunsaturated fatty acid?",
+"options": {
+"A": "Palmitic acid",
+"B": "Oleic acid",
+"C": "Stearic acid",
+"D": "Linoleic acid",
+"E": "Myristic acid"
+},
+"answer": "D",
+"explanation": "A polyunsaturated fatty acid has two or more double bonds in the carbon chain of the fatty acid. Linoleic acid is a polyunsaturated fatty acid."
+},
+{
+"question": "Which of the following is NOT a derivative of eicosa polyenoic fatty acids?",
+"options": {
+"A": "Prostanoids",
+"B": "Leukotrienes",
+"C": "Lipoxins",
+"D": "Cholesterol",
+"E": "Thromboxanes"
+},
+"answer": "D",
+"explanation": "Eicosanoids are derived from eicosa polyenoic fatty acids, including prostanoids, leukotrienes, and lipoxins. Cholesterol is a sterol, not an eicosanoid."
+},
+{
+"question": "What is the function of prostaglandins in the body?",
+"options": {
+"A": "They act as structural components of cell membranes.",
+"B": "They are involved in the transport of lipids in the blood.",
+"C": "They serve as precursors for steroid hormones.",
+"D": "They act as local hormones in various tissues.",
+"E": "They are responsible for blood clotting."
+},
+"answer": "D",
+"explanation": "Prostaglandins are present in nearly all mammalian tissues and act as local hormones."
+},
+{
+"question": "Which of the following fatty acids is associated with anti-inflammatory effects?",
+"options": {
+"A": "Palmitic acid",
+"B": "Oleic acid",
+"C": "Linoleic acid",
+"D": "α-Linolenic acid",
+"E": "Stearic acid"
+},
+"answer": "D",
+"explanation": "Long-chain ω3 fatty acids, such as α-Linolenic acid, have anti-inflammatory effects."
+},
+{
+"question": "What is the significance of DHA in infant nutrition?",
+"options": {
+"A": "It is a precursor for vitamin D.",
+"B": "It is essential for the development of the immune system.",
+"C": "It is a major component of bone tissue.",
+"D": "It is crucial for brain development and cognitive function.",
+"E": "It is involved in the regulation of blood sugar levels."
+},
+"answer": "D",
+"explanation": "DHA is crucial for infant brain development as infants' brains grow rapidly. "
+},
+{
+"question": "Which of the following oils has the highest content of saturated fatty acids?",
+"options": {
+"A": "Sunflower oil",
+"B": "Corn oil",
+"C": "Olive oil",
+"D": "Soybean oil",
+"E": "Coconut oil"
+},
+"answer": "E",
+"explanation": "Coconut oil has the highest saturated fatty acid content among common oils."
+},
+{
+"question": "Which of the following statements about triacylglycerols (TG) is TRUE?",
+"options": {
+"A": "They are composed of a glycerol molecule and one fatty acid.",
+"B": "They are primarily found in cell membranes.",
+"C": "They have a hydrophilic head and a hydrophobic tail.",
+"D": "They are the primary form of lipid storage in adipose tissue.",
+"E": "They are the main component of myelin sheaths."
+},
+"answer": "D",
+"explanation": "Triacylglycerols are the main form of lipid storage in adipose tissue."
+},
+{
+"question": "What is the role of dipalmitoyl lecithin in the lungs?",
+"options": {
+"A": "It acts as a transport protein for oxygen.",
+"B": "It is involved in the production of mucus.",
+"C": "It helps to maintain the structural integrity of the alveoli.",
+"D": "It reduces surface tension in the alveoli, facilitating gas exchange.",
+"E": "It protects the lungs from infection."
+},
+"answer": "D",
+"explanation": "Dipalmitoyl lecithin reduces surface tension in the alveoli, increasing lung compliance and promoting gas exchange."
+},
+{
+"question": "What is the function of phosphatidylserine in cells?",
+"options": {
+"A": "It is a precursor for phosphatidylethanolamine.",
+"B": "It is involved in cell signaling and membrane trafficking.",
+"C": "It is a major component of myelin sheaths.",
+"D": "It is involved in cell apoptosis.",
+"E": "It is responsible for cell recognition."
+},
+"answer": "D",
+"explanation": "Phosphatidylserine is associated with cell apoptosis."
+},
+{
+"question": "Which of the following phospholipids plays a role in cell signaling and membrane vesicle transport?",
+"options": {
+"A": "Phosphatidylcholine",
+"B": "Phosphatidylethanolamine",
+"C": "Phosphatidylserine",
+"D": "Phosphatidylinositol",
+"E": "Sphingomyelin"
+},
+"answer": "D",
+"explanation": "Phosphatidylinositol, although present in smaller quantities in the cell membrane, plays a vital role in cell signaling and membrane vesicle transport."
+},
+{
+"question": "What is the function of cardiolipin in the body?",
+"options": {
+"A": "It is a major component of cell membranes.",
+"B": "It is involved in the transport of lipids in the blood.",
+"C": "It is a precursor for steroid hormones.",
+"D": "It plays a crucial role in mitochondrial function.",
+"E": "It is responsible for blood clotting."
+},
+"answer": "D",
+"explanation": "Cardiolipin is found exclusively in mitochondria and plays a significant role in mitochondrial function."
+},
+{
+"question": "Which of the following describes lysophosphatidylcholine?",
+"options": {
+"A": "It is a phospholipid with two fatty acids attached to glycerol.",
+"B": "It is a precursor for phosphatidylcholine.",
+"C": "It is a major component of myelin sheaths.",
+"D": "It is involved in the synthesis of prostaglandins.",
+"E": "It is a type of glycolipid."
+},
+"answer": "D",
+"explanation": "Lysophosphatidylcholine is an intermediate in the metabolism of phosphatidylcholine and is involved in the synthesis of prostaglandins."
+},
+{
+"question": "Which of the following statements regarding plasmalogens is CORRECT?",
+"options": {
+"A": "They are primarily found in the liver.",
+"B": "They have a glycerol backbone with two ether linkages.",
+"C": "They are a type of glycolipid.",
+"D": "They are involved in cell recognition.",
+"E": "They are highly susceptible to oxidation by reactive oxygen species."
+},
+"answer": "B",
+"options": {
+"A": "They are primarily found in the liver.",
+"B": "They have a glycerol backbone with two ether linkages.",
+"C": "They are a type of glycolipid.",
+"D": "They are involved in cell recognition.",
+"E": "They are highly susceptible to oxidation by reactive oxygen species."
+},
+"answer": "B",
+"explanation": "Plasmalogens have a glycerol backbone, but one of the fatty acids is attached via an ether linkage instead of an ester linkage."
+},
+{
+"question": "Which of the following is a major component of the myelin sheath?",
+"options": {
+"A": "Galactosylceramide",
+"B": "Glucosylceramide",
+"C": "Sulfatide",
+"D": "Ganglioside",
+"E": "Cholesterol"
+},
+"answer": "C",
+"explanation": "Sulfatide makes up a significant proportion of myelin."
+},
+{
+"question": "What is the function of gangliosides in the nervous system?",
+"options": {
+"A": "They provide structural support to nerve cells.",
+"B": "They are involved in the synthesis of neurotransmitters.",
+"C": "They act as receptors for hormones and bacterial toxins.",
+"D": "They insulate nerve fibers, speeding up nerve impulse transmission.",
+"E": "They are involved in the transport of nutrients to nerve cells."
+},
+"answer": "C",
+"explanation": "Gangliosides are responsible for cell-to-cell recognition and act as receptors for hormones and bacterial toxins."
+},
+{
+"question": "Which of the following statements about cholesterol is FALSE?",
+"options": {
+"A": "It is a precursor for bile acids.",
+"B": "It is a precursor for vitamin D.",
+"C": "It is a major component of plant cell walls.",
+"D": "It increases the fluidity of cell membranes.",
+"E": "It can be esterified with a long-chain fatty acid."
+},
+"answer": "C",
+"explanation": "Cholesterol is not a component of plant cell walls. Plants have ergosterol instead of cholesterol."
+},
+{
+"question": "What is the function of ubiquinone in the body?",
+"options": {
+"A": "It is a structural component of cell membranes.",
+"B": "It is involved in the synthesis of steroid hormones.",
+"C": "It is a component of the electron transport chain in mitochondria.",
+"D": "It acts as an antioxidant, protecting cells from damage.",
+"E": "It is involved in the digestion of fats."
+},
+"answer": "C",
+"explanation": "Ubiquinone, a polyprenoid, is involved in the electron transport chain within mitochondria."
+},
+{
+"question": "Which of the following is a product of lipid peroxidation?",
+"options": {
+"A": "Glucose",
+"B": "Amino acids",
+"C": "Nucleotides",
+"D": "Malondialdehyde",
+"E": "Glycogen"
+},
+"answer": "D",
+"explanation": "Malondialdehyde is a product of lipid peroxidation and is often used as a marker for the extent of lipid peroxidation in the body."
+},
+{
+"question": "What is the role of bile salts in lipid digestion?",
+"options": {
+"A": "They break down triglycerides into fatty acids and glycerol.",
+"B": "They emulsify fats, increasing their surface area for digestion.",
+"C": "They transport lipids through the bloodstream.",
+"D": "They activate pancreatic lipase, the enzyme responsible for fat digestion.",
+"E": "They inhibit the absorption of cholesterol in the small intestine."
+},
+"answer": "B",
+"explanation": "Bile salts aggregate into micelles and liposomes, combining with the products of fat digestion to form mixed micelles. These mixed micelles are important for the absorption of lipids in the small intestine."
+},
+{
+"question": "Which of the following is a potential medical application of liposomes?",
+"options": {
+"A": "Treatment of bacterial infections",
+"B": "Stimulation of the immune system",
+"C": "Repair of damaged tissues",
+"D": "Targeted drug delivery in cancer therapy",
+"E": "Prevention of blood clots"
+},
+"answer": "D",
+"explanation": "Liposomes have potential medical applications as drug carriers that can be combined with antibodies specific to tissues. This targeted delivery approach can be utilized in cancer therapy."
+},
+{
+"question": "Where does the oxidation of fatty acids primarily occur?",
+"options": {
+"A": "Cytoplasm",
+"B": "Nucleus",
+"C": "Golgi apparatus",
+"D": "Endoplasmic reticulum",
+"E": "Mitochondria"
+},
+"answer": "E",
+"explanation": "Fatty acids are primarily oxidized in the mitochondria to generate energy."
+},
+{
+"question": "What are the three ketone bodies produced by the liver during rapid fatty acid breakdown?",
+"options": {
+"A": "Acetoacetate, D-3-hydroxybutyrate, and acetone",
+"B": "Glucose, pyruvate, and lactate",
+"C": "Alanine, glycine, and serine",
+"D": "Cholesterol, ergosterol, and lanosterol",
+"E": "Insulin, glucagon, and epinephrine"
+},
+"answer": "A",
+"explanation": "When fatty acid breakdown proceeds rapidly, the liver produces acetoacetate, D-3-hydroxybutyrate, and acetone, collectively known as ketone bodies."
+},
+{
+"question": "Which of the following conditions is characterized by increased fatty acid oxidation and ketosis?",
+"options": {
+"A": "Obesity",
+"B": "Hypertension",
+"C": "Asthma",
+"D": "Diabetes mellitus",
+"E": "Arthritis"
+},
+"answer": "D",
+"explanation": "Increased fatty acid oxidation and ketosis are characteristic features of starvation and diabetes mellitus."
+},
+{
+"question": "What can cause hypoglycemia related to impaired fatty acid oxidation?",
+"options": {
+"A": "Excess insulin production",
+"B": "High carbohydrate intake",
+"C": "Carnitine deficiency",
+"D": "Overactive thyroid gland",
+"E": "Adrenal insufficiency"
+},
+"answer": "C",
+"explanation": "Hypoglycemia can occur when fatty acid oxidation cannot proceed, which is often linked to carnitine deficiency or enzyme deficiencies in fatty acid oxidation."
+},
+{
+"question": "What is the primary function of free fatty acids (FFAs) in the body?",
+"options": {
+"A": "They serve as structural components of cell membranes.",
+"B": "They are stored in adipose tissue as a reserve energy source.",
+"C": "They act as hormones, regulating various bodily functions.",
+"D": "They are transported in the blood to provide energy to tissues.",
+"E": "They are involved in the synthesis of proteins."
+},
+"answer": "D",
+"explanation": "Free fatty acids are transported in the blood to be used as an energy source by tissues."
+},
+{
+"question": "Which protein is responsible for transporting a majority of FFAs in the blood plasma?",
+"options": {
+"A": "Hemoglobin",
+"B": "Fibrinogen",
+"C": "Albumin",
+"D": "Collagen",
+"E": "Insulin"
+},
+"answer": "C",
+"explanation": "In blood plasma, most FFAs are bound to albumin to aid in their transport."
+},
+{
+"question": "What is the fate of glycerol released from adipose tissue during fat breakdown?",
+"options": {
+"A": "It is converted to glucose through gluconeogenesis.",
+"B": "It is oxidized to produce ATP.",
+"C": "It is converted to ketone bodies.",
+"D": "It is stored in the liver as glycogen.",
+"E": "It is excreted in the urine."
+},
+"answer": "A",
+"explanation": "Glycerol, released during fat breakdown, undergoes phosphorylation by glycerol kinase and eventually enters the glycolysis pathway."
+},
+{
+"question": "What is the first step in the activation of fatty acids for oxidation?",
+"options": {
+"A": "Transport into the mitochondria",
+"B": "Formation of a double bond between the second and third carbon atoms",
+"C": "Addition of water to the fatty acid molecule",
+"D": "Formation of acyl-CoA by acyl-CoA synthetase",
+"E": "Cleavage of the fatty acid into two-carbon units"
+},
+"answer": "D",
+"explanation": "The first step in fatty acid activation is the formation of acyl-CoA by acyl-CoA synthetase. This process requires ATP and converts free fatty acids into their active form for oxidation."
+},
+{
+"question": "Why is carnitine essential for fatty acid oxidation?",
+"options": {
+"A": "It provides energy for the activation of fatty acids.",
+"B": "It converts fatty acids into ketone bodies.",
+"C": "It transports activated fatty acids across the mitochondrial membrane.",
+"D": "It inhibits the synthesis of fatty acids, promoting their breakdown.",
+"E": "It is a coenzyme for enzymes involved in beta-oxidation."
+},
+"answer": "C",
+"explanation": "As acyl-CoA cannot cross the mitochondrial inner membrane, it is transported via the carnitine shuttle. This process involves the conversion of acyl-CoA to acylcarnitine by carnitine palmitoyltransferase I, transport of acylcarnitine into the mitochondrial matrix, and reconversion back to acyl-CoA by carnitine palmitoyltransferase II."
+},
+{
+"question": "What is the primary product of beta-oxidation?",
+"options": {
+"A": "Glucose",
+"B": "Ketone bodies",
+"C": "Amino acids",
+"D": "Acetyl-CoA",
+"E": "Lactic acid"
+},
+"answer": "D",
+"explanation": "Beta-oxidation is the process of breaking down fatty acids into acetyl-CoA units within the mitochondrial matrix."
+},
+{
+"question": "Which enzyme is responsible for the initial dehydrogenation step in beta-oxidation?",
+"options": {
+"A": "Thiolase",
+"B": "Acyl-CoA dehydrogenase",
+"C": "Δ2-Enoyl-CoA hydratase",
+"D": "L-3-Hydroxyacyl-CoA dehydrogenase",
+"E": "Carnitine palmitoyltransferase I"
+},
+"answer": "B",
+"explanation": "The first step in beta-oxidation, initial dehydrogenation, is catalyzed by acyl-CoA dehydrogenase. This enzyme removes two hydrogen atoms from the fatty acid, creating a double bond."
+},
+{
+"question": "In which step of beta-oxidation is NAD+ reduced to NADH?",
+"options": {
+"A": "Initial dehydrogenation",
+"B": "Hydration",
+"C": "Dehydrogenation",
+"D": "Thiolytic cleavage",
+"E": "Activation of fatty acids"
+},
+"answer": "C",
+"explanation": "During the dehydrogenation step, L-3-Hydroxyacyl-CoA dehydrogenase oxidizes the hydroxyl group on the third carbon, generating 3-Ketoacyl-CoA. NAD+ acts as a coenzyme in this step, being reduced to NADH."
+},
+{
+"question": "What is the final product of beta-oxidation of an odd-chain fatty acid?",
+"options": {
+"A": "Acetyl-CoA",
+"B": "Acetoacetate",
+"C": "Propionyl-CoA",
+"D": "Succinyl-CoA",
+"E": "Pyruvate"
+},
+"answer": "C",
+"explanation": "Odd-chain fatty acids are broken down into acetyl-CoA units until the final three-carbon unit, propionyl-CoA, is formed."
+},
+{
+"question": "What is the significance of propionyl-CoA produced from odd-chain fatty acid oxidation?",
+"options": {
+"A": "It is converted into glucose.",
+"B": "It is a precursor for ketone bodies.",
+"C": "It is used in the synthesis of cholesterol.",
+"D": "It is excreted in the urine.",
+"E": "It inhibits fatty acid oxidation."
+},
+"answer": "A",
+"explanation": "Propionyl-CoA, derived from odd-chain fatty acid oxidation, can be converted into succinyl-CoA, which can then enter the TCA cycle and contribute to glucose production."
+},
+{
+"question": "Which cellular compartment is involved in the breakdown of very long-chain fatty acids?",
+"options": {
+"A": "Nucleus",
+"B": "Golgi apparatus",
+"C": "Peroxisomes",
+"D": "Endoplasmic reticulum",
+"E": "Lysosomes"
+},
+"answer": "C",
+"explanation": "Peroxisomes utilize a modified beta-oxidation pathway to break down very long-chain fatty acids."
+},
+{
+"question": "How many cycles of beta-oxidation are required to completely break down a 16-carbon fatty acid?",
+"options": {
+"A": "4",
+"B": "7",
+"C": "8",
+"D": "15",
+"E": "16"
+},
+"answer": "B",
+"explanation": "A 16-carbon fatty acid will undergo 7 cycles of beta-oxidation (16/2 - 1 = 7) to be completely broken down into 8 acetyl-CoA units."
+},
+{
+"question": "What is the function of Aspartate-Argininosuccinate shunt?",
+"options": {
+"A": "It produces energy from amino acid metabolism.",
+"B": "It synthesizes essential amino acids.",
+"C": "It links the urea cycle with the citric acid cycle.",
+"D": "It regulates the pH of the cell.",
+"E": "It transports amino acids across cell membranes."
+},
+"answer": "C",
+"explanation": "The Aspartate-Argininosuccinate shunt links the urea cycle and the citric acid cycle, allowing for the exchange of intermediates between these two important metabolic pathways."
+},
+{
+"question": "Which enzyme catalyzes the conversion of Argininosuccinate to Fumarate and Arg in the Aspartate-Argininosuccinate shunt?",
+"options": {
+"A": "Arginase",
+"B": "Ornithine transcarbamoylase",
+"C": "Argininosuccinase",
+"D": "Aspartate aminotransferase",
+"E": "Pyruvate carboxylase"
+},
+"answer": "C",
+"explanation": "Argininosuccinase is the enzyme responsible for catalyzing the breakdown of Argininosuccinate into Fumarate and Arg in the Aspartate-Argininosuccinate shunt."
+},
+{
+"question": "Which of the following amino acids is NOT metabolized to produce Acetyl-CoA or Acetoacetyl-CoA?",
+"options": {
+"A": "Isoleucine",
+"B": "Leucine",
+"C": "Tryptophan",
+"D": "Threonine",
+"E": "Alanine"
+},
+"answer": "E",
+"explanation": "Alanine is not one of the seven amino acids metabolized to produce Acetyl-CoA or Acetoacetyl-CoA. These seven are isoleucine, leucine, phenylalanine, tyrosine, tryptophan, threonine, and lysine."
+},
+{
+"question": "What is the mnemonic for remembering the seven amino acids that are metabolized to produce Acetyl-CoA or Acetoacetyl-CoA?",
+"options": {
+"A": "WhAT'S Google Chrome?",
+"B": "HE is PooR QQ ~",
+"C": "DoughNut",
+"D": "Fxxk You!",
+"E": "If You Lose, you will shout: What The FxxK!"
+},
+"answer": "E",
+"explanation": "The mnemonic "If You Lose, you will shout: What The FxxK!" helps in remembering the seven amino acids that are metabolized to produce Acetyl-CoA or Acetoacetyl-CoA."
+},
+{
+"question": "How many Acetyl-CoA molecules are produced from the complete breakdown of one molecule of Leucine?",
+"options": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4",
+"E": "5"
+},
+"answer": "C",
+"explanation": "The complete breakdown of one molecule of Leucine yields three molecules of Acetyl-CoA."
+},
+{
+"question": "Which of the following neurotransmitters is a precursor of Tryptophan?",
+"options": {
+"A": "Dopamine",
+"B": "Epinephrine",
+"C": "Norepinephrine",
+"D": "Serotonin",
+"E": "Acetylcholine"
+},
+"answer": "D",
+"explanation": "Tryptophan is a precursor for the neurotransmitter serotonin."
+},
+{
+"question": "Phenylketonuria (PKU) is caused by a deficiency in which enzyme?",
+"options": {
+"A": "Tyrosine aminotransferase",
+"B": "p-Hydroxyphenylpyruvate dioxygenase",
+"C": "Homogentisate dioxygenase",
+"D": "Phenylalanine hydroxylase",
+"E": "Fumarylacetoacetase"
+},
+"answer": "D",
+"explanation": "Phenylketonuria (PKU) results from a deficiency in the enzyme phenylalanine hydroxylase."
+},
+{
+"question": "What accumulates in the blood and urine of individuals with PKU?",
+"options": {
+"A": "Tyrosine",
+"B": "Phenylpyruvate",
+"C": "Homogentisate",
+"D": "Fumarate",
+"E": "Succinyl-CoA"
+},
+"answer": "B",
+"explanation": "In individuals with PKU, the inability to convert phenylalanine to tyrosine leads to the accumulation of phenylpyruvate in the blood and urine."
+},
+{
+"question": "Which of the following conditions is associated with the accumulation of homogentisate?",
+"options": {
+"A": "Phenylketonuria",
+"B": "Tyrosinemia",
+"C": "Alkaptonuria",
+"D": "Nonketotic hyperglycinemia",
+"E": "Hyperhomocysteinemia"
+},
+"answer": "C",
+"explanation": "Alkaptonuria is characterized by the accumulation of homogentisate due to a deficiency in the enzyme homogentisate dioxygenase."
+},
+{
+"question": "What is the mnemonic for remembering the six amino acids that are metabolized to produce Pyruvate?",
+"options": {
+"A": "WhAT'S Google Chrome?",
+"B": "HE is PooR QQ ~",
+"C": "DoughNut",
+"D": "Fxxk You!",
+"E": "I’M TV."
+},
+"answer": "A",
+"explanation": "The mnemonic "What'S Google Chrome?" is used to remember the six amino acids metabolized to produce Pyruvate."
+},
+{
+"question": "What enzyme deficiency can lead to Nonketotic hyperglycinemia?",
+"options": {
+"A": "Glycine cleavage enzyme",
+"B": "D-Amino acid oxidase",
+"C": "Asparaginase",
+"D": "Aspartate aminotransferase",
+"E": "Arginase"
+},
+"answer": "A",
+"explanation": "A deficiency in the glycine cleavage enzyme can lead to Nonketotic hyperglycinemia, characterized by a buildup of glycine in the blood."
+},
+{
+"question": "Which of the following statements about alanine metabolism is TRUE?",
+"options": {
+"A": "Alanine is converted to glutamate by alanine aminotransferase.",
+"B": "Alanine is a precursor for ketone body synthesis.",
+"C": "Alanine can be easily converted to pyruvate and vice versa.",
+"D": "Alanine is an essential amino acid that must be obtained from the diet.",
+"E": "Alanine is primarily metabolized in the kidneys."
+},
+"answer": "C",
+"explanation": "Alanine and pyruvate can be readily interconverted due to the similarity in their structures, differing only by a keto group and an amino group."
+},
+{
+"question": "What is the mnemonic for remembering the two amino acids that are metabolized to produce Fumarate?",
+"options": {
+"A": "WhAT'S Google Chrome?",
+"B": "HE is PooR QQ ~",
+"C": "DoughNut",
+"D": "Fxxk You!",
+"E": "I’M TV."
+},
+"answer": "D",
+"explanation": "The mnemonic "Fxxk You!" is used to remember the two amino acids, phenylalanine and tyrosine, that are metabolized to produce fumarate."
+},
+{
+"question": "Which enzyme is responsible for converting Asparagine to Aspartate?",
+"options": {
+"A": "Asparaginase",
+"B": "Aspartate aminotransferase",
+"C": "Arginase",
+"D": "Ornithine transcarbamoylase",
+"E": "Pyruvate carboxylase"
+},
+"answer": "A",
+"explanation": "Asparaginase catalyzes the conversion of Asparagine to Aspartate, similar to the conversion of Glutamine to Glutamate."
+},
+{
+"question": "What is the mnemonic for remembering the four amino acids that are metabolized to produce Succinyl-CoA?",
+"options": {
+"A": "WhAT'S Google Chrome?",
+"B": "HE is PooR QQ ~",
+"C": "DoughNut",
+"D": "Fxxk You!",
+"E": "I’M TV."
+},
+"answer": "E",
+"explanation": "The mnemonic "I'M TV." helps in remembering the four amino acids: isoleucine, methionine, threonine, and valine, which are metabolized to produce Succinyl-CoA."
+},
+{
+"question": "What is the common structural feature of the five amino acids that are metabolized to produce α-Ketoglutarate?",
+"options": {
+"A": "They all contain a sulfur atom.",
+"B": "They all have an aromatic ring.",
+"C": "They all have a branched chain.",
+"D": "They all have a five-carbon chain.",
+"E": "They all contain a hydroxyl group."
+},
+"answer": "D",
+"explanation": "The five amino acids that are metabolized to produce α-Ketoglutarate (arginine, glutamine, histidine, proline, and glutamate) share a common structural feature: they all possess a five-carbon chain."
+},
+{
+"question": "Which coenzyme is involved in the transfer of one-carbon units during carbon metabolism?",
+"options": {
+"A": "NAD+",
+"B": "FAD",
+"C": "Coenzyme A",
+"D": "Tetrahydrofolate",
+"E": "ATP"
+},
+"answer": "D",
+"explanation": "Tetrahydrofolate (THF) is one of the coenzymes involved in the transfer of one-carbon units during carbon metabolism. It plays a crucial role in various metabolic reactions."
+}
+]
