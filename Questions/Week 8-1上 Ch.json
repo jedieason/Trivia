@@ -1,0 +1,374 @@
+[
+  {
+    "question": "下列關於脂肪酸 β-Oxidation 的敘述，何者正確？",
+    "options": {
+      "A": "每次 β-Oxidation 會從脂肪酸切除 3 個碳原子。",
+      "B": "C16 飽和脂肪酸需要 8 次 β-Oxidation 才能完全分解。",
+      "C": "β-Oxidation 過程中會產生 FADH2 和 NADPH。",
+      "D": "一個 Acetyl-CoA 進入檸檬酸循環後，可以產生 2 個 FADH2。",
+      "E": "β-Oxidation 產生的 NADH 和 FADH2 可以進入電子傳遞鏈產生 ATP。"
+    },
+    "answer": "E",
+    "explanation": "β-Oxidation 每次會切除 2 個碳原子，C16 飽和脂肪酸需要 7 次 β-Oxidation，過程中會產生 FADH2 和 NADH + H+，每個 Acetyl-CoA 進入檸檬酸循環後只會產生 1 個 FADH2，而這些 FADH2 和 NADH + H+ 最終會進入電子傳遞鏈產生 ATP。"
+  },
+  {
+    "question": "計算 Palmitate 氧化產生的 ATP 數量時，需要考慮哪一項因素？",
+    "options": {
+      "A": "環境溫度",
+      "B": "脂肪酸的飽和度",
+      "C": "形成 Palmitoyl-CoA 所需的能量",
+      "D": "細胞中粒線體的數量",
+      "E": "脂肪酸的來源"
+    },
+    "answer": "C",
+    "explanation": "根據參考資料，計算 Palmitate 的 ATP 生成量時，需扣除形成 Palmitoyl-CoA 所需的能量，通常估計為 2 個 ATP。"
+  },
+  {
+    "question": "Δ3-cis-acyl-CoA isomerase 在不飽和脂肪酸氧化中的作用為何？",
+    "options": {
+      "A": "將 Δ3-cis-acyl-CoA 轉化為 Δ2-trans-acyl-CoA。",
+      "B": "將 Δ4-cis-acyl-CoA 轉化為 Δ3-trans-acyl-CoA。",
+      "C": "將 Δ2-trans-acyl-CoA 轉化為 Δ3-cis-acyl-CoA。",
+      "D": "將 Δ4-cis-acyl-CoA 轉化為 Δ2-trans-acyl-CoA。",
+      "E": "將 Δ3-trans-acyl-CoA 轉化為 Δ2-cis-acyl-CoA。"
+    },
+    "answer": "A",
+    "explanation": "Δ3-cis-acyl-CoA isomerase 的作用是將 Δ3-cis-acyl-CoA 轉化為 Δ2-trans-acyl-CoA，以便後續 β-Oxidation 的酵素分解。"
+  },
+  {
+    "question": "與相同碳數的飽和脂肪酸相比，單元不飽和脂肪酸氧化產生的 ATP 較少的原因為何？",
+    "options": {
+      "A": "單元不飽和脂肪酸的 β-Oxidation 循環次數較少。",
+      "B": "單元不飽和脂肪酸的 β-Oxidation 過程中會產生較少的 Acetyl-CoA。",
+      "C": "單元不飽和脂肪酸的氧化需要額外的能量消耗。",
+      "D": "單元不飽和脂肪酸的氧化過程中，Acyl-CoA dehydrogenase 的作用被省略。",
+      "E": "單元不飽和脂肪酸的氧化會產生較少的 NADH。 "
+    },
+    "answer": "D",
+    "explanation": "由於 cis-Δ3-Enoyl-CoA isomerase 的作用，使得 Acyl-CoA dehydrogenase 產生雙鍵的步驟被省略，因此單元不飽和脂肪酸氧化產生的 FADH2 會少一個，最終導致 ATP 產量減少。"
+  },
+  {
+    "question": "Linoleoyl-CoA 氧化過程中，哪個步驟需要 NADPH？",
+    "options": {
+      "A": "Δ3-cis-Δ6-cis-Dienoyl-CoA 轉化為 Δ2-trans-Δ4-cis-Dienoyl-CoA。",
+      "B": "Δ2-trans-Δ4-cis-Dienoyl-CoA 轉化為 Δ3-trans-acyl-CoA。",
+      "C": "Δ3-trans-acyl-CoA 轉化為 Δ2-trans-acyl-CoA。",
+      "D": "Acetoacetyl-CoA 轉化為 HMG-CoA。",
+      "E": "HMG-CoA 轉化為 Acetoacetate。"
+    },
+    "answer": "B",
+    "explanation": "Linoleoyl-CoA 氧化過程中，Δ2-trans-Δ4-cis-Dienoyl-CoA reductase 會利用 NADPH + H+ 將 Δ2-trans-Δ4-cis-Dienoyl-CoA 轉化為 Δ3-trans-acyl-CoA。"
+  },
+  {
+    "question": "下列關於過氧化體中 β-Oxidation 的敘述，何者**錯誤**？",
+    "options": {
+      "A": "主要氧化長鏈或極長鏈脂肪酸。",
+      "B": "會產生 Acetyl-CoA 和 H2O2。",
+      "C": "H2O2 會經由 Catalase 分解成 H2O 和 O2。",
+      "D": "過氧化體中的 β-Oxidation 會產生 ATP。",
+      "E": "ω-3 脂肪酸可以促進過氧化體中的 β-Oxidation。 "
+    },
+    "answer": "D",
+    "explanation": "過氧化體中的 β-Oxidation 不會產生 ATP，而是在粒線體中，電子傳遞鏈運送 FADH2 的電子才會產生 ATP。"
+  },
+  {
+    "question": "下列哪種情況**不會**促進過氧化體中 β-Oxidation 的進行？",
+    "options": {
+      "A": "攝入大量脂肪",
+      "B": "服用 Clofibrate 藥物",
+      "C": "攝取 ω-3 脂肪酸",
+      "D": "PPARs 的活化",
+      "E": "禁食狀態"
+    },
+    "answer": "E",
+    "explanation": "禁食狀態主要會促進粒線體中的 β-Oxidation 和酮體生成，而不會特別促進過氧化體中的 β-Oxidation。"
+  },
+  {
+    "question": "奇數碳脂肪酸氧化後會產生哪種代謝物？",
+    "options": {
+      "A": "Acetyl-CoA",
+      "B": "Pyruvate",
+      "C": "Lactate",
+      "D": "Succinyl-CoA",
+      "E": "Oxaloacetate"
+    },
+    "answer": "D",
+    "explanation": "奇數碳脂肪酸氧化後會產生 Succinyl-CoA，並進入檸檬酸循環產生能量。"
+  },
+  {
+    "question": "下列關於酮體的敘述，何者**錯誤**？",
+    "options": {
+      "A": "酮體是肝臟以外組織的燃料來源。",
+      "B": "酮體可以通過血腦障壁進入中樞神經。",
+      "C": "紅血球可以利用酮體作為能量來源。",
+      "D": "肝臟細胞無法利用酮體作為能量來源。",
+      "E": "酮體可以減少肝臟對葡萄糖的需求。"
+    },
+    "answer": "C",
+    "explanation": "紅血球和肝臟細胞無法直接利用酮體作為能量來源。"
+  },
+  {
+    "question": "下列哪一種**不是**酮體？",
+    "options": {
+      "A": "Acetoacetate",
+      "B": "Acetone",
+      "C": "β-Hydroxybutyrate",
+      "D": "Pyruvate",
+      "E": "Acetoacetyl-CoA"
+    },
+    "answer": "E",
+    "explanation": "Acetoacetyl-CoA 是酮體生成的 中間產物，而非酮體本身。酮體包含 Acetoacetate、Acetone 和 β-Hydroxybutyrate。"
+  },
+  {
+    "question": "當 [NAD+]/[NADH] 的比值高時，酮體的代謝會傾向於產生哪一種物質？",
+    "options": {
+      "A": "Acetone",
+      "B": "β-Hydroxybutyrate",
+      "C": "Acetoacetate",
+      "D": "Acetoacetyl-CoA",
+      "E": "HMG-CoA"
+    },
+    "answer": "C",
+    "explanation": "當 [NAD+]/[NADH] 的比值高時，酮體的代謝會傾向於產生 Acetoacetate。"
+  },
+  {
+    "question": "下列關於酮體代謝的敘述，何者正確？",
+    "options": {
+      "A": "Acetone 可以重新合成 Acetyl-CoA。",
+      "B": "肝臟是唯一可以消耗酮體的器官。",
+      "C": "血液中酮體的主要形式是 Acetoacetate。",
+      "D": "肝臟以外的組織可以產生酮體。",
+      "E": "酮體的排泄途徑包括呼氣和尿液。 "
+    },
+    "answer": "E",
+    "explanation": "Acetone 無法重新合成 Acetyl-CoA，肝臟以外的組織無法產生酮體，血液中酮體的主要形式是 β-Hydroxybutyrate，酮體的排泄途徑包括呼氣和尿液。"
+  },
+  {
+    "question": "下列哪種情況會導致酮體生成增加？",
+    "options": {
+      "A": "高血糖",
+      "B": "高胰島素",
+      "C": "低血糖",
+      "D": "高蛋白質飲食",
+      "E": "高碳水化合物飲食"
+    },
+    "answer": "C",
+    "explanation": "低血糖或胰島素失常的時候，脂肪酸會被大量釋出並氧化成 Acetyl-CoA，最終導致酮體生成增加。"
+  },
+  {
+    "question": "下列哪個酵素**不參與**酮體的生成？",
+    "options": {
+      "A": "Thiolase",
+      "B": "HMG-CoA synthase",
+      "C": "HMG-CoA lyase",
+      "D": "Succinyl-CoA-acetoacetate-CoA transferase",
+      "E": "β-Hydroxybutyrate dehydrogenase"
+    },
+    "answer": "D",
+    "explanation": "Succinyl-CoA-acetoacetate-CoA transferase 參與酮體的分解，而非生成。"
+  },
+  {
+    "question": "下列哪個器官是酮體生成的主要部位？",
+    "options": {
+      "A": "腦",
+      "B": "心臟",
+      "C": "肌肉",
+      "D": "肝臟",
+      "E": "腎臟"
+    },
+    "answer": "D",
+    "explanation": "肝臟是唯一產生酮體的器官。"
+  },
+  {
+    "question": "酮體分解後產生的 Acetyl-CoA 可以進入哪個代謝途徑？",
+    "options": {
+      "A": "糖質新生",
+      "B": "脂肪酸合成",
+      "C": "檸檬酸循環",
+      "D": "尿素循環",
+      "E": "電子傳遞鏈"
+    },
+    "answer": "C",
+    "explanation": "酮體分解後產生的 Acetyl-CoA 可以進入檸檬酸循環以獲得能量。"
+  },
+  {
+    "question": "下列關於酮體代謝的敘述，何者**錯誤**？",
+    "options": {
+      "A": "1 mol 的 Acetoacetate 可以生成 19 mol ATP。",
+      "B": "1 mol 的 β-Hydroxybutyrate 可以生成 21.5 mol ATP。",
+      "C": "血液中酮體濃度超過 12 mM 時，氧化機制會達到飽和。",
+      "D": "Ketonemia 是 Ketosis 的指標。",
+      "E": "肝臟含有將 Acetoacetate 轉變為 Acetoacetyl-CoA 的酵素。"
+    },
+    "answer": "E",
+    "explanation": "肝臟缺乏將 Acetoacetate 轉變為 Acetoacetyl-CoA 的酵素，因此無法直接利用酮體。"
+  },
+  {
+    "question": "下列哪個激素會促進 Lipolysis？",
+    "options": {
+      "A": "胰島素",
+      "B": "升糖素",
+      "C": "生長激素",
+      "D": "甲狀腺素",
+      "E": "泌乳激素"
+    },
+    "answer": "B",
+    "explanation": "升糖素會促進 Lipolysis，使脂肪組織分解 TG 釋放 FFAs。"
+  },
+  {
+    "question": "CPT I 在脂肪酸代謝中扮演什麼角色？",
+    "options": {
+      "A": "催化 Acetyl-CoA 轉化為 Malonyl-CoA。",
+      "B": "將 Acyl-CoA 轉運到粒線體基質中。",
+      "C": "催化脂肪酸的 β-Oxidation。",
+      "D": "抑制脂肪酸的合成。",
+      "E": "促進酮體的生成。"
+    },
+    "answer": "B",
+    "explanation": "CPT I 的功能是將 Acyl-CoA 轉運到粒線體基質中，以便進行 β-Oxidation。"
+  },
+  {
+    "question": "Malonyl-CoA 對 CPT I 的活性有什麼影響？",
+    "options": {
+      "A": "促進",
+      "B": "抑制",
+      "C": "沒有影響",
+      "D": "取決於細胞類型",
+      "E": "取決於激素水平"
+    },
+    "answer": "B",
+    "explanation": "Malonyl-CoA 會抑制 CPT I 的活性，使脂肪酸的 β-Oxidation 減少，而傾向於脂肪的合成。"
+  },
+  {
+    "question": "下列哪種情況會導致 Malonyl-CoA 濃度增加？",
+    "options": {
+      "A": "禁食狀態",
+      "B": "低血糖",
+      "C": "高升糖素",
+      "D": "高胰島素",
+      "E": "高腎上腺素"
+    },
+    "answer": "D",
+    "explanation": "飽食狀態下，高胰島素會促進脂肪酸的合成，導致 Malonyl-CoA 濃度增加。"
+  },
+  {
+    "question": "下列哪種情況會導致 CPT I 活性增加？",
+    "options": {
+      "A": "飽食狀態",
+      "B": "高血糖",
+      "C": "高胰島素",
+      "D": "低血糖",
+      "E": "高 Malonyl-CoA"
+    },
+    "answer": "D",
+    "explanation": "飢餓狀態下，低血糖會促進脂肪酸的分解，導致 CPT I 活性增加。"
+  },
+  {
+    "question": "下列哪種代謝途徑會與生酮作用競爭 OAA？",
+    "options": {
+      "A": "糖解作用",
+      "B": "糖質新生",
+      "C": "脂肪酸合成",
+      "D": "電子傳遞鏈",
+      "E": "尿素循環"
+    },
+    "answer": "B",
+    "explanation": "糖質新生和檸檬酸循環都會利用 OAA，因此會與生酮作用競爭 OAA。"
+  },
+  {
+    "question": "下列哪種情況會促進生酮作用？",
+    "options": {
+      "A": "高血糖",
+      "B": "高胰島素",
+      "C": "低血糖",
+      "D": "高蛋白質飲食",
+      "E": "高碳水化合物飲食"
+    },
+    "answer": "C",
+    "explanation": "低血糖時，糖質新生會消耗大量 OAA，導致 Acetyl-CoA 無法進入檸檬酸循環，進而促進生酮作用。"
+  },
+  {
+    "question": "下列哪個酵素是脂肪酸合成的關鍵酵素？",
+    "options": {
+      "A": "CPT I",
+      "B": "ACC",
+      "C": "HMG-CoA synthase",
+      "D": "HMG-CoA lyase",
+      "E": "Thiolase"
+    },
+    "answer": "B",
+    "explanation": "ACC 是脂肪酸合成的第一步，將 Acetyl-CoA 轉變成 Malonyl-CoA。"
+  },
+  {
+    "question": "下列哪個激素會促進脂肪酸的合成？",
+    "options": {
+      "A": "升糖素",
+      "B": "腎上腺素",
+      "C": "胰島素",
+      "D": "生長激素",
+      "E": "甲狀腺素"
+    },
+    "answer": "C",
+    "explanation": "胰島素會促進脂肪酸的合成。"
+  },
+  {
+    "question": "Acyl-CoA 對脂肪酸合成有什麼影響？",
+    "options": {
+      "A": "促進",
+      "B": "抑制",
+      "C": "沒有影響",
+      "D": "取決於細胞類型",
+      "E": "取決於激素水平"
+    },
+    "answer": "B",
+    "explanation": "Acyl-CoA 是脂肪酸分解的產物，會抑制脂肪酸的合成。"
+  },
+  {
+    "question": "下列哪種情況會促進脂肪酸的氧化？",
+    "options": {
+      "A": "高血糖",
+      "B": "高胰島素",
+      "C": "低血糖",
+      "D": "高 Malonyl-CoA",
+      "E": "ACC 活性增加"
+    },
+    "answer": "C",
+    "explanation": "低血糖時，CPT I 活性增加，脂肪酸的氧化會被促進。"
+  },
+  {
+    "question": "下列哪種物質會抑制 CPT I 的活性？",
+    "options": {
+      "A": "Acetyl-CoA",
+      "B": "Citrate",
+      "C": "Malonyl-CoA",
+      "D": "OAA",
+      "E": "Succinyl-CoA"
+    },
+    "answer": "C",
+    "explanation": "Malonyl-CoA 會抑制 CPT I 的活性。"
+  },
+  {
+    "question": "脂肪酸在肝臟中代謝的主要調控位點有哪些？",
+    "options": {
+      "A": "ACC 和 CPT I",
+      "B": "HMG-CoA synthase 和 HMG-CoA lyase",
+      "C": "Thiolase 和 β-Hydroxybutyrate dehydrogenase",
+      "D": "Acyl-CoA dehydrogenase 和 Enoyl-CoA hydratase",
+      "E": "Δ3-cis-Δ6-cis-Dienoyl-CoA reductase 和 Δ3-cis → Δ2-trans-enoyl-CoA isomerase"
+    },
+    "answer": "A",
+    "explanation": "脂肪酸在肝臟中代謝的主要調控位點是 ACC 和 CPT I。"
+  },
+  {
+    "question": "禁食狀態下，肝臟細胞主要利用哪種物質合成酮體？",
+    "options": {
+      "A": "葡萄糖",
+      "B": "胺基酸",
+      "C": "脂肪酸",
+      "D": "膽固醇",
+      "E": "肝醣"
+    },
+    "answer": "C",
+    "explanation": "禁食狀態下，肝臟細胞會不斷分解脂肪酸產生 Acetyl-CoA，主要用來合成酮體。"
+  }
+]
