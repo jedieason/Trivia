@@ -1,0 +1,590 @@
+[
+{
+"question": "What is the primary function of ketone bodies in the human body?",
+"options": {
+"A": "To provide energy to the liver.",
+"B": "To regulate blood sugar levels.",
+"C": "To act as a building block for amino acids.",
+"D": "To transport oxygen throughout the body.",
+"E": "To fuel tissues outside of the liver."
+},
+"answer": "E",
+"explanation": "Ketone bodies are a crucial energy source for extrahepatic tissues, particularly when glucose availability is limited."
+},
+{
+"question": "Which of the following enzymes plays a critical role in the breakdown of ketone bodies?",
+"options": {
+"A": "HMG-CoA synthase",
+"B": "HMG-CoA lyase",
+"C": "Acetoacetate decarboxylase",
+"D": "Succinyl-CoA-acetoacetate-CoA transferase",
+"E": "D-3 Hydroxybutyrate dehydrogenase"
+},
+"answer": "D",
+"explanation": "Succinyl-CoA-acetoacetate-CoA transferase is responsible for transferring CoA from Succinyl-CoA to Acetoacetate, forming Acetoacetyl-CoA, which can then be broken down into Acetyl-CoA."
+},
+{
+"question": "What is the primary regulatory factor determining the balance between Acetoacetate and 3-Hydroxybutyrate production?",
+"options": {
+"A": "The concentration of Acetyl-CoA in the liver.",
+"B": "The activity of HMG-CoA lyase.",
+"C": "The availability of free fatty acids.",
+"D": "The ratio of NAD+ to NADH.",
+"E": "The rate of lipolysis in adipose tissue."
+},
+"answer": "D",
+"explanation": "A higher [NAD+]/[NADH] ratio favors the production of Acetoacetate, while a lower ratio favors the formation of 3-Hydroxybutyrate."
+},
+{
+"question": "Where does the process of ketogenesis primarily occur?",
+"options": {
+"A": "Adipose tissue",
+"B": "Brain cells",
+"C": "Red blood cells",
+"D": "Liver cells",
+"E": "Muscle tissue"
+},
+"answer": "D",
+"explanation": "While ketone bodies are utilized by various tissues, the liver is the primary site of their production."
+},
+{
+"question": "Which enzyme is responsible for the conversion of 3-Hydroxy-acyl-CoA to 3-Ketoacyl-CoA in the ketogenesis pathway?",
+"options": {
+"A": "Thiolase",
+"B": "HMG-CoA synthase",
+"C": "HMG-CoA lyase",
+"D": "Enoyl-CoA hydratase",
+"E": "Acyl-CoA dehydrogenase"
+},
+"answer": "E",
+"explanation": "The conversion of 3-Hydroxy-acyl-CoA to 3-Ketoacyl-CoA (Acetoacetyl-CoA) is the third step in β-oxidation, catalyzed by Acyl-CoA dehydrogenase."
+},
+{
+"question": "Which metabolic pathway directly competes with ketogenesis for oxaloacetate (OAA) in the liver?",
+"options": {
+"A": "Glycolysis",
+"B": "Glycogenolysis",
+"C": "Gluconeogenesis",
+"D": "Pentose Phosphate Pathway",
+"E": "Fatty Acid Synthesis"
+},
+"answer": "C",
+"explanation": "Both the citric acid cycle and gluconeogenesis utilize OAA. In hypoglycemic conditions, gluconeogenesis is favored, potentially limiting OAA availability for the citric acid cycle and promoting ketogenesis."
+},
+{
+"question": "Which of the following molecules acts as an inhibitor of carnitine palmitoyltransferase I (CPT I)?",
+"options": {
+"A": "Acetyl-CoA",
+"B": "Citrate",
+"C": "Malonyl-CoA",
+"D": "Succinyl-CoA",
+"E": "3-Hydroxy-3-methyglutaryl-CoA"
+},
+"answer": "C",
+"explanation": "Malonyl-CoA, an intermediate in fatty acid synthesis, inhibits CPT I, thereby reducing fatty acid oxidation and promoting fatty acid storage."
+},
+{
+"question": "Under what conditions is the activity of carnitine palmitoyltransferase I (CPT I) typically elevated?",
+"options": {
+"A": "High glucose availability",
+"B": "Increased insulin secretion",
+"C": "Elevated levels of Malonyl-CoA",
+"D": "Low blood glucose levels",
+"E": "Suppressed glucagon release"
+},
+"answer": "D",
+"explanation": "In hypoglycemic states, CPT I activity increases, facilitating the transport of fatty acids into the mitochondria for β-oxidation."
+},
+{
+"question": "What is the primary reason the liver cannot directly utilize ketone bodies for energy?",
+"options": {
+"A": "The liver lacks the necessary enzymes for ketone body uptake.",
+"B": "Ketone bodies are toxic to liver cells.",
+"C": "The liver prioritizes glucose as its primary energy source.",
+"D": "The liver lacks the enzyme to convert Acetoacetate to Acetoacetyl-CoA.",
+"E": "Ketone bodies are rapidly transported out of the liver."
+},
+"answer": "D",
+"explanation": "The liver is deficient in Succinyl-CoA-acetoacetate-CoA transferase, the enzyme required to convert Acetoacetate to Acetoacetyl-CoA."
+},
+{
+"question": "Which of the following is NOT a ketone body?",
+"options": {
+"A": "Acetone",
+"B": "Pyruvate",
+"C": "Acetoacetate",
+"D": "D-3-Hydroxybutyrate",
+"E": "β-Hydroxybutyrate"
+},
+"answer": "B",
+"explanation": "While pyruvate is a ketone, it's not classified as a ketone body. The three primary ketone bodies are acetone, acetoacetate, and D-3-Hydroxybutyrate (also known as β-Hydroxybutyrate)."
+},
+{
+"question": "Which hormone promotes the breakdown of triglycerides and the release of free fatty acids?",
+"options": {
+"A": "Insulin",
+"B": "Glucagon",
+"C": "Growth Hormone",
+"D": "Thyroid Hormone",
+"E": "Cortisol"
+},
+"answer": "B",
+"explanation": "Glucagon, released in response to low blood sugar, stimulates lipolysis in adipose tissue, increasing the availability of free fatty acids for ketogenesis."
+},
+{
+"question": "What is the main function of Acetyl-CoA carboxylase (ACC) in fatty acid metabolism?",
+"options": {
+"A": "To catalyze the breakdown of fatty acids.",
+"B": "To convert Acetyl-CoA into Malonyl-CoA.",
+"C": "To transport fatty acids into the mitochondria.",
+"D": "To regulate the activity of CPT I.",
+"E": "To promote the formation of ketone bodies."
+},
+"answer": "B",
+"explanation": "ACC is a key enzyme in fatty acid synthesis, responsible for converting Acetyl-CoA to Malonyl-CoA, the first committed step in the pathway."
+},
+{
+"question": "Which of the following statements is true regarding the oxidation of unsaturated fatty acids?",
+"options": {
+"A": "They yield more ATP than saturated fatty acids with the same number of carbons.",
+"B": "They are oxidized in the same manner as saturated fatty acids.",
+"C": "They require additional enzymes to rearrange double bonds.",
+"D": "They are exclusively oxidized in peroxisomes.",
+"E": "They do not contribute to the production of ketone bodies."
+},
+"answer": "C",
+"explanation": "The oxidation of unsaturated fatty acids requires specific enzymes like isomerases to reposition double bonds for β-oxidation to proceed."
+},
+{
+"question": "What is the function of Δ3-cis → Δ2-trans-enoyl-CoA isomerase in the oxidation of unsaturated fatty acids?",
+"options": {
+"A": "To add a double bond to the fatty acid chain.",
+"B": "To remove a double bond from the fatty acid chain.",
+"C": "To shorten the fatty acid chain by two carbons.",
+"D": "To convert a cis double bond to a trans double bond.",
+"E": "To transport the fatty acid into the peroxisome."
+},
+"answer": "D",
+"explanation": "This enzyme is crucial for converting a cis double bond at the β-γ position to a trans double bond at the α-β position, enabling the continuation of β-oxidation."
+},
+{
+"question": "Why does the oxidation of unsaturated fatty acids often yield less ATP compared to saturated fatty acids with the same number of carbons?",
+"options": {
+"A": "They require more energy to activate.",
+"B": "They bypass the FADH2-producing step in β-oxidation.",
+"C": "They are primarily oxidized in peroxisomes, which do not generate ATP.",
+"D": "They produce fewer Acetyl-CoA molecules.",
+"E": "They generate more heat during oxidation."
+},
+"answer": "B",
+"explanation": "The rearrangement of double bonds in unsaturated fatty acids can sometimes bypass the step catalyzed by Acyl-CoA dehydrogenase, resulting in less FADH2 production and consequently lower ATP yield."
+},
+{
+"question": "In what cellular compartment does β-oxidation primarily occur?",
+"options": {
+"A": "Nucleus",
+"B": "Golgi apparatus",
+"C": "Endoplasmic Reticulum",
+"D": "Mitochondria",
+"E": "Peroxisomes"
+},
+"answer": "D",
+"explanation": "The majority of β-oxidation takes place within the mitochondria, although peroxisomes also participate in the oxidation of certain fatty acids."
+},
+{
+"question": "What is the role of peroxisomes in fatty acid oxidation?",
+"options": {
+"A": "To oxidize short-chain fatty acids.",
+"B": "To synthesize fatty acids.",
+"C": "To store triglycerides.",
+"D": "To oxidize very long chain fatty acids.",
+"E": "To produce ketone bodies."
+},
+"answer": "D",
+"explanation": "Peroxisomes are involved in the oxidation of long-chain (14-20 carbons) and very long chain fatty acids (22 carbons and above)."
+},
+{
+"question": "What distinguishes fatty acid oxidation in peroxisomes from that in mitochondria?",
+"options": {
+"A": "Peroxisomes generate ATP through oxidative phosphorylation.",
+"B": "Peroxisomes produce H2O2 as a byproduct.",
+"C": "Peroxisomes completely oxidize fatty acids to CO2 and water.",
+"D": "Peroxisomes utilize NADPH instead of NADH.",
+"E": "Peroxisomes primarily oxidize unsaturated fatty acids."
+},
+"answer": "B",
+"explanation": "Unlike mitochondria, fatty acid oxidation in peroxisomes generates hydrogen peroxide (H2O2), which is then decomposed by the enzyme catalase."
+},
+{
+"question": "Which of the following is NOT a typical trigger for increased fatty acid oxidation in peroxisomes?",
+"options": {
+"A": "High intake of dietary fats.",
+"B": "Administration of Clofibrate, a lipid-lowering drug.",
+"C": "Increased consumption of omega-3 fatty acids.",
+"D": "High blood glucose levels.",
+"E": "Activation of peroxisome proliferator-activated receptors (PPARs)."
+},
+"answer": "D",
+"explanation": "High blood glucose levels typically promote fatty acid synthesis rather than oxidation."
+},
+{
+"question": "What is the fate of the odd-numbered carbon fatty acids after they undergo oxidation?",
+"options": {
+"A": "They are converted into glucose.",
+"B": "They form ketone bodies.",
+"C": "They are excreted unchanged.",
+"D": "They produce Succinyl-CoA, which enters the citric acid cycle.",
+"E": "They are stored as triglycerides in adipose tissue."
+},
+"answer": "D",
+"explanation": "Odd-numbered carbon fatty acids, upon oxidation, yield Succinyl-CoA, a key intermediate in the citric acid cycle."
+},
+{
+"question": "A deficiency in which vitamin can lead to Methylmalonic acidemia (MMA) due to impaired odd-numbered carbon fatty acid metabolism?",
+"options": {
+"A": "Vitamin A",
+"B": "Vitamin B12",
+"C": "Vitamin C",
+"D": "Vitamin D",
+"E": "Vitamin E"
+},
+"answer": "B",
+"explanation": "Vitamin B12 is essential for the proper metabolism of odd-numbered carbon fatty acids. A deficiency can disrupt this process, leading to MMA."
+},
+{
+"question": "What is the primary metabolic pathway for the complete oxidation of Acetyl-CoA?",
+"options": {
+"A": "Glycolysis",
+"B": "β-Oxidation",
+"C": "Citric acid cycle",
+"D": "Gluconeogenesis",
+"E": "Glycogenolysis"
+},
+"answer": "C",
+"explanation": "The citric acid cycle is the central metabolic pathway for the complete oxidation of Acetyl-CoA, generating energy in the form of ATP."
+},
+{
+"question": "What is the approximate ATP yield from the complete oxidation of one molecule of Acetoacetate?",
+"options": {
+"A": "2 ATP",
+"B": "10 ATP",
+"C": "19 ATP",
+"D": "26 ATP",
+"E": "38 ATP"
+},
+"answer": "C",
+"explanation": "The complete oxidation of one molecule of Acetoacetate yields approximately 19 ATP."
+},
+{
+"question": "Which of the following is considered the most reliable indicator of ketosis?",
+"options": {
+"A": "Blood glucose levels",
+"B": "Urine ketone levels",
+"C": "Blood ketone levels",
+"D": "Breath acetone levels",
+"E": "Liver glycogen levels"
+},
+"answer": "C",
+"explanation": "Ketonemia, the concentration of ketone bodies in the blood, is a more accurate indicator of ketosis than ketonuria, the presence of ketone bodies in the urine."
+},
+{
+"question": "What is the role of Acetoacetate decarboxylase in ketone body metabolism?",
+"options": {
+"A": "To synthesize Acetoacetate.",
+"B": "To convert Acetoacetate into Acetone.",
+"C": "To convert Acetoacetate into 3-Hydroxybutyrate.",
+"D": "To break down Acetoacetate into Acetyl-CoA.",
+"E": "To transport Acetoacetate out of the liver."
+},
+"answer": "B",
+"explanation": "Acetoacetate decarboxylase catalyzes the conversion of Acetoacetate to Acetone, a volatile ketone body that is excreted through the breath and urine."
+},
+{
+"question": "Which of the following statements is FALSE regarding Acetone?",
+"options": {
+"A": "It is produced from the decarboxylation of Acetoacetate.",
+"B": "It can be reconverted to Acetoacetate.",
+"C": "It is excreted through the lungs and urine.",
+"D": "It is a volatile ketone body.",
+"E": "It is produced in small amounts even under normal conditions."
+},
+"answer": "B",
+"explanation": "Unlike Acetoacetate and 3-Hydroxybutyrate, Acetone cannot be converted back to Acetoacetate."
+},
+{
+"question": "What is the primary function of Thiolase in both β-oxidation and ketogenesis?",
+"options": {
+"A": "To add water to the fatty acid chain.",
+"B": "To remove water from the fatty acid chain.",
+"C": "To cleave the fatty acid chain into two-carbon units.",
+"D": "To transfer CoA to the fatty acid chain.",
+"E": "To reduce a double bond in the fatty acid chain."
+},
+"answer": "C",
+"explanation": "Thiolase is involved in both the breakdown and synthesis of ketone bodies, catalyzing the cleavage or formation of a four-carbon unit from two Acetyl-CoA molecules."
+},
+{
+"question": "Which enzyme catalyzes the formation of 3-Hydroxy-3-methyglutaryl-CoA (HMG-CoA) in ketogenesis?",
+"options": {
+"A": "Thiolase",
+"B": "HMG-CoA synthase",
+"C": "HMG-CoA lyase",
+"D": "Enoyl-CoA hydratase",
+"E": "Acyl-CoA dehydrogenase"
+},
+"answer": "B",
+"explanation": "HMG-CoA synthase combines Acetoacetyl-CoA with Acetyl-CoA to form HMG-CoA, a key intermediate in both ketogenesis and cholesterol synthesis."
+},
+{
+"question": "What is the role of HMG-CoA lyase in the ketogenesis pathway?",
+"options": {
+"A": "To synthesize HMG-CoA.",
+"B": "To cleave HMG-CoA into Acetyl-CoA and Acetoacetate.",
+"C": "To convert HMG-CoA into cholesterol.",
+"D": "To transport HMG-CoA out of the mitochondria.",
+"E": "To regulate the activity of HMG-CoA synthase."
+},
+"answer": "B",
+"explanation": "HMG-CoA lyase breaks down HMG-CoA into Acetyl-CoA and Acetoacetate, the precursor to other ketone bodies."
+},
+{
+"question": "What is the typical concentration of ketone bodies in the blood of healthy individuals?",
+"options": {
+"A": "Less than 0.2 mM",
+"B": "Between 1 and 5 mM",
+"C": "Between 5 and 10 mM",
+"D": "Greater than 12 mM",
+"E": "Highly variable and unpredictable"
+},
+"answer": "A",
+"explanation": "Under normal physiological conditions, the concentration of ketone bodies in mammalian blood does not exceed 0.2 mM."
+},
+{
+"question": "Which of the following conditions can lead to an increase in ketone body production?",
+"options": {
+"A": "High carbohydrate intake",
+"B": "Prolonged fasting",
+"C": "Insulin overdose",
+"D": "Excessive protein consumption",
+"E": "Impaired fatty acid oxidation"
+},
+"answer": "B",
+"explanation": "During periods of prolonged fasting or low carbohydrate intake, the body shifts towards utilizing fatty acids for energy, leading to increased ketone body production."
+},
+{
+"question": "What is a potential consequence of excessively high levels of ketone bodies in the blood?",
+"options": {
+"A": "Alkalosis",
+"B": "Hypoglycemia",
+"C": "Hyperglycemia",
+"D": "Ketoacidosis",
+"E": "Increased blood pH"
+},
+"answer": "D",
+"explanation": "Elevated ketone body levels can lead to ketoacidosis, a potentially dangerous condition characterized by a drop in blood pH."
+},
+{
+"question": "Which of the following tissues CANNOT directly utilize ketone bodies for energy?",
+"options": {
+"A": "Brain",
+"B": "Muscle",
+"C": "Heart",
+"D": "Kidney",
+"E": "Red blood cells"
+},
+"answer": "E",
+"explanation": "Red blood cells, lacking mitochondria, cannot directly utilize ketone bodies as they rely solely on glucose for energy."
+},
+{
+"question": "What is the role of PPARs (peroxisome proliferator-activated receptors) in fatty acid metabolism?",
+"options": {
+"A": "To inhibit fatty acid synthesis.",
+"B": "To promote ketone body breakdown.",
+"C": "To enhance glucose uptake into cells.",
+"D": "To regulate the expression of genes involved in lipid metabolism.",
+"E": "To increase the activity of CPT I."
+},
+"answer": "D",
+"explanation": "PPARs are transcription factors that play a significant role in regulating the expression of genes involved in various aspects of lipid metabolism, including fatty acid oxidation and peroxisome biogenesis."
+},
+{
+"question": "How does the availability of glucose influence the balance between fatty acid synthesis and oxidation?",
+"options": {
+"A": "High glucose levels promote fatty acid oxidation.",
+"B": "Low glucose levels stimulate fatty acid synthesis.",
+"C": "Glucose availability does not affect fatty acid metabolism.",
+"D": "High glucose levels promote fatty acid synthesis.",
+"E": "Glucose primarily affects ketone body production."
+},
+"answer": "D",
+"explanation": "In the presence of abundant glucose, the body favors fatty acid synthesis and storage. Conversely, low glucose levels promote the breakdown and oxidation of fatty acids."
+},
+{
+"question": "Which of the following statements is TRUE regarding the hormonal regulation of fatty acid metabolism?",
+"options": {
+"A": "Insulin stimulates fatty acid synthesis.",
+"B": "Glucagon promotes fatty acid oxidation.",
+"C": "Epinephrine inhibits lipolysis.",
+"D": "Growth hormone suppresses ketone body production.",
+"E": "Thyroid hormone has no significant effect on fatty acid metabolism."
+},
+"answer": "A",
+"explanation": "Insulin, a key hormone released in response to high blood glucose levels, promotes the synthesis and storage of fatty acids."
+},
+{
+"question": "What is the primary transport form of fatty acids in the bloodstream?",
+"options": {
+"A": "Bound to albumin",
+"B": "As free fatty acids",
+"C": "Incorporated into lipoproteins",
+"D": "As ketone bodies",
+"E": "Attached to red blood cells"
+},
+"answer": "A",
+"explanation": "Free fatty acids are transported in the bloodstream bound to albumin, a protein that acts as a carrier."
+},
+{
+"question": "Which enzyme facilitates the entry of fatty acids into the mitochondria for β-oxidation?",
+"options": {
+"A": "ACC (Acetyl-CoA carboxylase)",
+"B": "CPT I (carnitine palmitoyltransferase I)",
+"C": "HMG-CoA synthase",
+"D": "HMG-CoA lyase",
+"E": "Thiolase"
+},
+"answer": "B",
+"explanation": "CPT I plays a crucial role in transporting fatty acids into the mitochondria by converting Acyl-CoA to Acyl-carnitine, allowing them to cross the mitochondrial membrane."
+},
+{
+"question": "What is the role of Malonyl-CoA in regulating fatty acid oxidation?",
+"options": {
+"A": "It activates CPT I.",
+"B": "It inhibits CPT I.",
+"C": "It promotes fatty acid elongation.",
+"D": "It enhances ketone body production.",
+"E": "It stimulates lipolysis in adipose tissue."
+},
+"answer": "B",
+"explanation": "Malonyl-CoA, produced during fatty acid synthesis, acts as an inhibitor of CPT I, preventing the entry of fatty acids into the mitochondria for oxidation."
+},
+{
+"question": "What are the three primary regulatory points in the pathway leading from triglycerides to ketone body production?",
+"options": {
+"A": "Glycolysis, citric acid cycle, electron transport chain",
+"B": "Lipolysis, β-oxidation, ketogenesis",
+"C": "Glycogen synthesis, glycogenolysis, gluconeogenesis",
+"D": "Protein synthesis, protein degradation, amino acid metabolism",
+"E": "Cholesterol synthesis, cholesterol uptake, cholesterol excretion"
+},
+"answer": "B",
+"explanation": "The three key regulatory points in this pathway are lipolysis (the breakdown of triglycerides), β-oxidation (the breakdown of fatty acids), and ketogenesis (the production of ketone bodies)."
+},
+{
+"question": "Which of the following statements is FALSE regarding the metabolism of ketone bodies?",
+"options": {
+"A": "They can be used as an energy source by the brain.",
+"B": "They are produced in the liver.",
+"C": "They are transported in the blood.",
+"D": "They can be converted back to glucose.",
+"E": "They are produced when glucose availability is limited."
+},
+"answer": "D",
+"explanation": "Ketone bodies cannot be converted back to glucose. They serve as an alternative fuel source when glucose is scarce, particularly for the brain and other glucose-dependent tissues."
+},
+{
+"question": "Why does the oxidation of palmitoyl-CoA (a 16-carbon fatty acid) yield a significant amount of ATP?",
+"options": {
+"A": "It undergoes multiple rounds of β-oxidation, generating many FADH2 and NADH.",
+"B": "It directly enters the citric acid cycle, bypassing the need for β-oxidation.",
+"C": "It is converted into glucose, which is then oxidized through glycolysis.",
+"D": "It is primarily oxidized in peroxisomes, which are highly efficient in ATP production.",
+"E": "It is a highly branched molecule, providing multiple sites for oxidation."
+},
+"answer": "A",
+"explanation": "Palmitoyl-CoA, through multiple rounds of β-oxidation, produces a substantial amount of FADH2 and NADH, which feed into the electron transport chain, generating ATP."
+},
+{
+"question": "What is the approximate number of ATP molecules generated from the complete oxidation of one molecule of palmitoyl-CoA?",
+"options": {
+"A": "16 ATP",
+"B": "32 ATP",
+"C": "78 ATP",
+"D": "108 or 131 ATP",
+"E": "Variable and dependent on cellular conditions"
+},
+"answer": "D",
+"explanation": "The complete oxidation of palmitoyl-CoA can yield approximately 108 or 131 ATP molecules, depending on the specific values used for the ATP yield of FADH2 and NADH."
+},
+{
+"question": "What is the net ATP yield from the complete oxidation of palmitoyl-CoA, considering the energy required for its activation?",
+"options": {
+"A": "2 ATP less than the total ATP yield",
+"B": "The same as the total ATP yield",
+"C": "2 ATP more than the total ATP yield",
+"D": "Highly variable and difficult to estimate",
+"E": "Dependent on the availability of oxygen"
+},
+"answer": "A",
+"explanation": "The activation of palmitoyl-CoA requires the equivalent of 2 ATP molecules. Therefore, the net ATP yield is 2 less than the total ATP produced from its complete oxidation."
+},
+{
+"question": "Which molecule serves as the primary energy carrier in cellular metabolism?",
+"options": {
+"A": "Glucose",
+"B": "ATP",
+"C": "NADH",
+"D": "FADH2",
+"E": "Acetyl-CoA"
+},
+"answer": "B",
+"explanation": "ATP (adenosine triphosphate) is the primary energy currency of cells, storing and transferring energy for various metabolic processes."
+},
+{
+"question": "What are the primary products of β-oxidation?",
+"options": {
+"A": "Glucose, pyruvate, ATP",
+"B": "Acetyl-CoA, FADH2, NADH",
+"C": "Ketone bodies, H2O2, CO2",
+"D": "Amino acids, urea, ammonia",
+"E": "Fatty acids, glycerol, phosphate"
+},
+"answer": "B",
+"explanation": "β-Oxidation breaks down fatty acids into Acetyl-CoA, FADH2, and NADH, which are subsequently utilized for energy production."
+},
+{
+"question": "How many carbon atoms are removed from a fatty acid chain during each cycle of β-oxidation?",
+"options": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4",
+"E": "Variable depending on the length of the fatty acid"
+},
+"answer": "B",
+"explanation": "Each cycle of β-oxidation cleaves two carbon atoms from the fatty acid chain in the form of Acetyl-CoA."
+},
+{
+"question": "What is the function of Acyl-CoA dehydrogenase in β-oxidation?",
+"options": {
+"A": "To add water to the fatty acid chain.",
+"B": "To remove water from the fatty acid chain.",
+"C": "To introduce a double bond into the fatty acid chain.",
+"D": "To transfer CoA to the fatty acid chain.",
+"E": "To reduce a double bond in the fatty acid chain."
+},
+"answer": "C",
+"explanation": "Acyl-CoA dehydrogenase catalyzes the formation of a double bond between the α and β carbons of the fatty acid chain during β-oxidation."
+},
+{
+"question": "What is the role of Enoyl-CoA hydratase in β-oxidation?",
+"options": {
+"A": "To add water across the double bond of the fatty acid chain.",
+"B": "To remove water from the fatty acid chain.",
+"C": "To introduce a double bond into the fatty acid chain.",
+"D": "To transfer CoA to the fatty acid chain.",
+"E": "To reduce a double bond in the fatty acid chain."
+},
+"answer": "A",
+"explanation": "Enoyl-CoA hydratase adds water across the double bond formed in the previous step, generating a hydroxyl group on the β carbon."
+}
+]
