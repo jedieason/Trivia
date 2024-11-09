@@ -298,10 +298,6 @@ body.dark-mode .copyright a {
         font-size: 3rem;
     }
     
-    .quiz-title {
-        font-size: 2rem;
-    }
-    
     .select-button {
         font-size: 0.9rem;
         padding: 10px 20px;
@@ -711,7 +707,7 @@ body.dark-mode .logout-button:hover {
     }
     
     .quiz-title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     
     .select-button {
