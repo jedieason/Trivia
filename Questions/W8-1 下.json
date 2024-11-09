@@ -1,0 +1,650 @@
+[
+{
+"question": "下列哪種疾病會導致 C26-C38 多烯酸 (polyenoic acids) 在腦組織中積累？",
+"options": {
+"A": "反芻病 (Refsum disease)",
+"B": "牙買加嘔吐病 (Jamaican vomiting sickness)",
+"C": "二羧酸尿症 (Dicarboxylic aciduria)",
+"D": "澤爾維格症候群 (Zellweger syndrome)",
+"E": "雙羔羊病 (Twin lamb disease)"
+},
+"answer": "D",
+"explanation": "澤爾維格症候群是一種遺傳性疾病，患者組織中缺乏過氧化物酶體 (peroxisomes)，導致 C26-C38 多烯酸在腦組織中積累，造成嚴重的  神經系統症狀。"
+},
+{
+"question": "下列關於酮體的敘述，何者正確？",
+"options": {
+"A": "酮體只能在肝臟中合成。",
+"B": "酮體是肝臟的主要能量來源。",
+"C": "酮體的合成主要發生在脂肪酸氧化速率較低時。",
+"D": "酮體是肝外組織的重要燃料。",
+"E": "酮體的合成不受 Acetyl-CoA 的調節。"
+},
+"answer": "D",
+"explanation": "酮體是肝臟以外組織的重要能量來源。"
+},
+{
+"question": "下列哪種酵素是脂肪酸生合成的關鍵酵素，且需要與生物素 (Biotin) 結合形成多酵素複合體才能發揮作用？",
+"options": {
+"A": "脂肪酸合成酶 (Fatty acid synthase)",
+"B": "乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase)",
+"C": "HMG-CoA 合成酶 (HMG-CoA synthase)",
+"D": "HMG-CoA 裂解酶 (HMG-CoA lyase)",
+"E": "肉鹼棕櫚醯轉移酶 I (Carnitine palmitoyltransferase I)"
+},
+"answer": "B",
+"explanation": "乙醯輔酶 A 羧化酶是脂肪酸生合成的關鍵酵素，它需要與生物素結合形成多酵素複合體才能發揮作用。"
+},
+{
+"question": "下列關於脂肪酸合成酵素複合體的敘述，何者**錯誤**？",
+"options": {
+"A": "它是一個由兩個單體組成的同源二聚體 (Homodimer)。",
+"B": "它含有六種酵素活性，以及可以攜帶醯基的蛋白 (Acyl carrier protein, ACP)。",
+"C": "它需要 NADPH 和 ATP 作為輔因子。",
+"D": "它在粒線體 (Mitochondria) 中進行脂肪酸的合成。",
+"E": "它可以將 Acetyl-CoA 和 Malonyl-CoA 合成棕櫚酸 (Palmitate)。"
+},
+"answer": "D",
+"explanation": "脂肪酸合成酵素複合體在細胞質中進行脂肪酸的合成，而不是在粒線體中。"
+},
+{
+"question": "下列哪種物質可以活化乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase)？",
+"options": {
+"A": "長鏈醯基輔酶 A (Acyl-CoA)",
+"B": "檸檬酸 (Citrate)",
+"C": "棕櫚醯輔酶 A (Palmitoyl-CoA)",
+"D": "AMPK",
+"E": "升糖素 (Glucagon)"
+},
+"answer": "B",
+"explanation": "檸檬酸可以透過異位調節 (allosteric regulation) 活化乙醯輔酶 A 羧化酶。"
+},
+{
+"question": "下列哪一種激素會促進脂肪酸的合成？",
+"options": {
+"A": "升糖素",
+"B": "腎上腺素",
+"C": "胰島素",
+"D": "皮質醇",
+"E": "生長激素"
+},
+"answer": "C",
+"explanation": "胰島素會促進脂肪酸合成酵素複合物和乙醯輔酶 A 羧化酶的基因表現，進而促進脂肪酸的合成。"
+},
+{
+"question": "下列哪種脂肪酸是動物的必需脂肪酸 (Essential Fatty Acid)？",
+"options": {
+"A": "油酸 (Oleic acid)",
+"B": "棕櫚酸 (Palmitic acid)",
+"C": "硬脂酸 (Stearic acid)",
+"D": "亞麻油酸 (Linoleic acid)",
+"E": "花生四烯酸 (Arachidonic acid)"
+},
+"answer": "D",
+"explanation": "亞麻油酸是動物的必需脂肪酸，需要從飲食中攝取。"
+},
+{
+"question": "下列哪種酵素可以將脂肪酸碳鏈延長？",
+"options": {
+"A": "Δ9 去飽和酶 (Δ9 desaturase)",
+"B": "環氧合酶 (Cyclooxygenase)",
+"C": "脂氧合酶 (Lipoxygenase)",
+"D": "脂肪酸延長酶 (Fatty acid elongase)",
+"E": "硫酯酶 (Thioesterase)"
+},
+"answer": "D",
+"explanation": "脂肪酸延長酶可以將脂肪酸碳鏈延長，每次增加兩個碳原子。"
+},
+{
+"question": "下列關於 Δ5,8,11-二十碳三烯酸 (Δ5,8,11-eicosatrienoic acid) 的敘述，何者正確？",
+"options": {
+"A": "它是一種 ω-6 脂肪酸。",
+"B": "它是一種必需脂肪酸。",
+"C": "它可以從油酸 (Oleic acid) 合成。",
+"D": "它的堆積表示體內亞麻油酸 (Linoleic acid) 充足。",
+"E": "它可以抑制花生四烯酸 (Arachidonic acid) 的釋放。",
+},
+"answer": "C",
+"explanation": "當體內缺乏必需脂肪酸時，油酸會大量產生 ω-9 家族的產物，最終造成 Δ5,8,11-二十碳三烯酸的堆積。"
+},
+{
+"question": "下列哪種藥物可以抑制環氧合酶 (Cyclooxygenase)？",
+"options": {
+"A": "胰島素",
+"B": "阿斯匹靈 (Aspirin)",
+"C": "磺胺類藥物 (Sulfonylurea drugs)",
+"D": "肉鹼 (Carnitine)",
+"E": "葡萄糖"
+},
+"answer": "B",
+"explanation": "阿斯匹靈是一種非類固醇抗發炎藥 (NSAID)，可以抑制環氧合酶-1 和環氧合酶-2。"
+},
+{
+"question": "下列哪種類二十烷酸 (Eicosanoid) 可以促進血管收縮和血小板凝集？",
+"options": {
+"A": "前列腺素 E2 (Prostaglandin E2)",
+"B": "前列環素 (Prostacyclin)",
+"C": "血栓素 A2 (Thromboxane A2)",
+"D": "白三烯 (Leukotriene)",
+"E": "脂氧素 (Lipoxin)"
+},
+"answer": "C",
+"explanation": "血栓素 A2 由血小板合成，可以促進血管收縮和血小板凝集。"
+},
+{
+"question": "下列關於前列腺素 (Prostaglandin) 的敘述，何者**錯誤**？",
+"options": {
+"A": "它們是由 20 個碳原子組成的多不飽和脂肪酸衍生物。",
+"B": "它們是局部荷爾蒙，透過細胞膜上的 G 蛋白偶聯受體 (G-protein–linked receptors) 發揮作用。",
+"C": "它們的合成需要環氧合酶 (Cyclooxygenase) 的參與。",
+"D": "它們可以促進發炎反應和免疫反應。",
+"E": "它們可以用於治療發炎、血壓和睡眠等問題。",
+},
+"answer": "D",
+"explanation": "促進發炎反應和免疫反應的是白三烯 (Leukotriene) 而不是前列腺素。"
+},
+{
+"question": "下列哪種物質會抑制肉鹼棕櫚醯轉移酶 I (Carnitine palmitoyltransferase I) 的活性？",
+"options": {
+"A": "肉鹼 (Carnitine)",
+"B": "丙二醯輔酶 A (Malonyl-CoA)",
+"C": "乙醯輔酶 A (Acetyl-CoA)",
+"D": "檸檬酸 (Citrate)",
+"E": "ATP"
+},
+"answer": "B",
+"explanation": "丙二醯輔酶 A 會抑制肉鹼棕櫚醯轉移酶 I 的活性，進而抑制脂肪酸的氧化。"
+},
+{
+"question": "下列哪種疾病與體內缺乏中鏈醯基輔酶 A 去氫酶 (Medium-chain acyl-CoA dehydrogenase) 有關？",
+"options": {
+"A": "反芻病",
+"B": "牙買加嘔吐病",
+"C": "二羧酸尿症",
+"D": "澤爾維格症候群",
+"E": "雙羔羊病"
+},
+"answer": "C",
+"explanation": "二羧酸尿症是由於體內缺乏中鏈醯基輔酶 A 去氫酶，導致尿液中含有 C6-C10 ω-二羧酸。"
+},
+{
+"question": "下列哪一種情況**不會**導致酮症 (Ketosis)？",
+"options": {
+"A": "長時間禁食",
+"B": "無醣飲食",
+"C": "第二型糖尿病",
+"D": "高脂肪飲食",
+"E": "高糖飲食"
+},
+"answer": "E",
+"explanation": "高糖飲食不會導致酮症，反而會促進胰島素分泌，抑制酮體的產生。"
+},
+{
+"question": "下列關於必需脂肪酸缺乏症 (EFA deficiency) 的敘述，何者**錯誤**？",
+"options": {
+"A": "可能會導致皮膚病變。",
+"B": "可能會影響前列腺素、血栓素、白三烯和脂氧素的合成。",
+"C": "可以透過三烯/四烯比例 (Triene/tetraene ratio) 檢測。",
+"D": "與細胞膜的形成無關。",
+"E": "反式脂肪會加重 EFA deficiency 的症狀。",
+},
+"answer": "D",
+"explanation": "必需脂肪酸是細胞膜的重要組成成分，缺乏必需脂肪酸會影響細胞膜的結構和功能。"
+},
+{
+"question": "下列關於脂肪酸 β 氧化的敘述，何者正確？",
+"options": {
+"A": "主要發生在細胞質中。",
+"B": "會將脂肪酸分解成丙酮酸 (Pyruvate)。",
+"C": "需要 NADPH 作為還原劑。",
+"D": "會產生大量的 ATP。",
+"E": "不受肉鹼 (Carnitine) 的影響。"
+},
+"answer": "D",
+"explanation": "脂肪酸 β 氧化會將脂肪酸分解成乙醯輔酶 A，並在粒線體中進行氧化磷酸化，產生大量的 ATP。"
+},
+{
+"question": "下列哪一種物質可以抑制乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase) 的活性？",
+"options": {
+"A": "檸檬酸 (Citrate)",
+"B": "胰島素",
+"C": "長鏈醯基輔酶 A (Acyl-CoA)",
+"D": "丙二醯輔酶 A (Malonyl-CoA)",
+"E": "生物素 (Biotin)"
+},
+"answer": "C",
+"explanation": "長鏈醯基輔酶 A 會抑制乙醯輔酶 A 羧化酶的活性，進而抑制脂肪酸的合成。"
+},
+{
+"question": "下列哪一種酵素可以催化花生四烯酸 (Arachidonic acid) 轉化成前列腺素 H2 (Prostaglandin H2)？",
+"options": {
+"A": "Δ9 去飽和酶",
+"B": "環氧合酶",
+"C": "脂氧合酶",
+"D": "脂肪酸延長酶",
+"E": "硫酯酶"
+},
+"answer": "B",
+"explanation": "環氧合酶可以催化花生四烯酸轉化成前列腺素 H2，這是前列腺素合成的關鍵步驟。"
+},
+{
+"question": "下列哪一種物質是合成奇數碳脂肪酸的起始物？",
+"options": {
+"A": "乙醯輔酶 A (Acetyl-CoA)",
+"B": "丙二醯輔酶 A (Malonyl-CoA)",
+"C": "丙醯輔酶 A (Propionyl-CoA)",
+"D": "肉鹼 (Carnitine)",
+"E": "檸檬酸 (Citrate)"
+},
+"answer": "C",
+"explanation": "如果要合成奇數碳的飽和脂肪酸，則需要以丙醯輔酶 A 作為起始物。"
+},
+{
+"question": "下列哪種情況會導致非酮性低血糖 (Nonketotic hypoglycemia)？",
+"options": {
+"A": "長時間禁食",
+"B": "無醣飲食",
+"C": "糖尿病",
+"D": "肉鹼缺乏症 (Carnitine deficiency)",
+"E": "高脂肪飲食"
+},
+"answer": "D",
+"explanation": "肉鹼缺乏症會導致脂肪酸無法進入粒線體進行 β 氧化，進而導致非酮性低血糖。"
+},
+{
+"question": "下列哪種酵素缺陷會影響白胺酸 (Leucine) 的分解？",
+"options": {
+"A": "肉鹼棕櫚醯轉移酶 I",
+"B": "肉鹼棕櫚醯轉移酶 II",
+"C": "3-羥醯基輔酶 A 去氫酶 (3-Hydroxyacyl-CoA dehydrogenase)",
+"D": "3-酮醯基輔酶 A 硫解酶 (3-Ketoacyl-CoA thiolase)",
+"E": "HMG-CoA 裂解酶"
+},
+"answer": "D",
+"explanation": "3-酮醯基輔酶 A 硫解酶和 HMG-CoA 裂解酶的缺陷會影響白胺酸的分解。"
+},
+{
+"question": "下列哪一種藥物可以抑制肉鹼棕櫚醯轉移酶 I (Carnitine palmitoyltransferase I)，用於治療第二型糖尿病？",
+"options": {
+"A": "阿斯匹靈",
+"B": "布洛芬 (Ibuprofen)",
+"C": "吲哚美辛 (Indomethacin)",
+"D": "格列本脲 (Glyburide)",
+"E": "甲福明 (Metformin)"
+},
+"answer": "D",
+"explanation": "磺醯脲類藥物 (Sulfonylurea drugs)，如格列本脲和甲苯磺丁脲 (Tolbutamide)，可以抑制肉鹼棕櫚醯轉移酶 I，減少脂肪酸的氧化，用於治療第二型糖尿病。"
+},
+{
+"question": "下列哪一種情況會導致酮酸中毒 (Ketoacidosis)？",
+"options": {
+"A": "短時間禁食",
+"B": "高糖飲食",
+"C": "輕度運動",
+"D": "未控制的糖尿病",
+"E": "高蛋白質飲食"
+},
+"answer": "D",
+"explanation": "在未控制的糖尿病患者中，酮體持續大量產生和排出，會消耗體內的鹼儲備，導致酮酸中毒。"
+},
+{
+"question": "下列哪一種脂肪酸可以被轉化成花生四烯酸 (Arachidonic acid)？",
+"options": {
+"A": "油酸",
+"B": "棕櫚酸",
+"C": "硬脂酸",
+"D": "亞麻油酸",
+"E": "α-亞麻油酸 (α-linolenic acid)"
+},
+"answer": "D",
+"explanation": "亞麻油酸可以透過一系列的去飽和和延長反應，轉化成花生四烯酸。"
+},
+{
+"question": "下列哪種酵素會參與不飽和脂肪酸的合成？",
+"options": {
+"A": "只有去飽和酶 (Desaturase)",
+"B": "只有延長酶 (Elongase)",
+"C": "去飽和酶和延長酶都需要",
+"D": "以上皆非",
+"E": "只有硫酯酶 (Thioesterase)"
+},
+"answer": "C",
+"explanation": "多不飽和脂肪酸的合成需要去飽和酶和延長酶的共同參與。"
+},
+{
+"question": "下列哪個敘述**不符合**脂肪酸合成酵素複合體 (Fatty acid synthase complex) 的多酵素功能優點？",
+"options": {
+"A": "可以將反應做良好的區隔，不需距離很遠",
+"B": "可以互相協調何時須作反應",
+"C": "由單一基因調控整個複合體",
+"D": "可以增加反應的效率",
+"E": "可以減少中間產物的累積"
+},
+"answer": "E",
+"explanation": "脂肪酸合成酵素複合體的多酵素功能可以提高反應效率，但無法減少中間產物的累積。"
+},
+{
+"question": "下列哪種輔酶在脂肪酸合成中扮演重要角色？",
+"options": {
+"A": "NADH",
+"B": "FADH2",
+"C": "NADPH",
+"D": "Coenzyme Q10",
+"E": "ATP"
+},
+"answer": "C",
+"explanation": "脂肪酸合成需要 NADPH 作為還原劑，主要由 Pentose phosphate pathway 提供。"
+},
+{
+"question": "下列哪種物質可以將檸檬酸 (Citrate) 從粒線體 (Mitochondria) 運送到細胞質？",
+"options": {
+"A": "肉鹼 (Carnitine)",
+"B": "丙二醯輔酶 A (Malonyl-CoA)",
+"C": "三羧酸轉運蛋白 (Tricarboxylate transporter)",
+"D": "ATP/ADP 交換轉運蛋白",
+"E": "葡萄糖轉運蛋白"
+},
+"answer": "C",
+"explanation": "檸檬酸可以透過三羧酸轉運蛋白從粒線體運送到細胞質，參與脂肪酸的合成。"
+},
+{
+"question": "下列哪種酵素可以將細胞質中的檸檬酸 (Citrate) 分解成乙醯輔酶 A (Acetyl-CoA)？",
+"options": {
+"A": "檸檬酸合成酶 (Citrate synthase)",
+"B": "異檸檬酸脫氫酶 (Isocitrate dehydrogenase)",
+"C": "α-酮戊二酸脫氫酶 (α-ketoglutarate dehydrogenase)",
+"D": "琥珀醯輔酶 A 合成酶 (Succinyl-CoA synthetase)",
+"E": "ATP-檸檬酸裂解酶 (ATP-citrate lyase)"
+},
+"answer": "E",
+"explanation": "ATP-檸檬酸裂解酶可以將細胞質中的檸檬酸分解成乙醯輔酶 A，提供脂肪酸合成所需的原料。"
+},
+{
+"question": "下列關於反式脂肪的敘述，何者**錯誤**？",
+"options": {
+"A": "會增加心血管疾病的風險",
+"B": "會與必需脂肪酸競爭，加重 EFA deficiency",
+"C": "是人體必需的營養素",
+"D": "主要來源是氫化植物油",
+"E": "攝取過量會影響健康"
+},
+"answer": "C",
+"explanation": "反式脂肪不是人體必需的營養素，攝取過量反而有害健康。"
+},
+{
+"question": "下列哪種疾病與過氧化物酶體 (Peroxisome) 的功能異常有關？",
+"options": {
+"A": "反芻病",
+"B": "牙買加嘔吐病",
+"C": "二羧酸尿症",
+"D": "澤爾維格症候群",
+"E": "雙羔羊病"
+},
+"answer": "D",
+"explanation": "澤爾維格症候群是一種遺傳性疾病，患者組織中缺乏過氧化物酶體，導致脂肪酸代謝異常。"
+},
+{
+"question": "下列哪種激素會透過 cAMP 訊息傳遞途徑，抑制乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase) 的活性？",
+"options": {
+"A": "胰島素",
+"B": "升糖素",
+"C": "生長激素",
+"D": "甲狀腺素",
+"E": "皮質醇"
+},
+"answer": "B",
+"explanation": "升糖素和腎上腺素會透過 cAMP 訊息傳遞途徑，活化 AMPKK，進而抑制乙醯輔酶 A 羧化酶的活性。"
+},
+{
+"question": "下列哪種酵素可以將棕櫚酸 (Palmitic acid) 去飽和，生成棕櫚油酸 (Palmitoleic acid)？",
+"options": {
+"A": "Δ4 去飽和酶",
+"B": "Δ5 去飽和酶",
+"C": "Δ6 去飽和酶",
+"D": "Δ9 去飽和酶",
+"E": "Δ12 去飽和酶"
+},
+"answer": "D",
+"explanation": "Δ9 去飽和酶可以將棕櫚酸去飽和，生成棕櫚油酸。"
+},
+{
+"question": "下列哪種物質是合成前列腺素 (Prostaglandin)、血栓素 (Thromboxane) 和白三烯 (Leukotriene) 的前驅物？",
+"options": {
+"A": "油酸",
+"B": "棕櫚酸",
+"C": "硬脂酸",
+"D": "亞麻油酸",
+"E": "花生四烯酸"
+},
+"answer": "E",
+"explanation": "花生四烯酸是合成前列腺素、血栓素和白三烯的前驅物。"
+},
+{
+"question": "下列哪種酵素會將花生四烯酸 (Arachidonic acid) 轉化成白三烯 (Leukotriene)？",
+"options": {
+"A": "Δ9 去飽和酶",
+"B": "環氧合酶",
+"C": "脂氧合酶",
+"D": "脂肪酸延長酶",
+"E": "硫酯酶"
+},
+"answer": "C",
+"explanation": "脂氧合酶可以將花生四烯酸轉化成白三烯，這是白三烯合成的關鍵步驟。"
+},
+{
+"question": "下列哪種物質會抑制血小板凝集？",
+"options": {
+"A": "血栓素 A2 (Thromboxane A2)",
+"B": "前列環素 (Prostacyclin)",
+"C": "白三烯 C4 (Leukotriene C4)",
+"D": "脂氧素 A4 (Lipoxin A4)",
+"E": "花生四烯酸"
+},
+"answer": "B",
+"explanation": "前列環素由血管壁合成，可以抑制血小板凝集，與血栓素 A2 的作用相反。"
+},
+{
+"question": "下列哪種物質是構成細胞膜磷脂質的主要成分，影響細胞膜的通透性？",
+"options": {
+"A": "飽和脂肪酸",
+"B": "不飽和脂肪酸",
+"C": "膽固醇",
+"D": "三酸甘油酯",
+"E": "磷酸"
+},
+"answer": "B",
+"explanation": "不飽和脂肪酸是構成細胞膜磷脂質的主要成分，會影響細胞膜的通透性。"
+},
+{
+"question": "下列哪一種狀況**不會**促進脂肪酸的合成？",
+"options": {
+"A": "高糖飲食",
+"B": "胰島素分泌增加",
+"C": "細胞質中檸檬酸 (Citrate) 濃度增加",
+"D": "長鏈醯基輔酶 A (Acyl-CoA) 濃度增加",
+"E": "乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase) 活性增加"
+},
+"answer": "D",
+"explanation": "長鏈醯基輔酶 A 會抑制乙醯輔酶 A 羧化酶的活性，進而抑制脂肪酸的合成。"
+},
+{
+"question": "下列哪種代謝途徑可以提供脂肪酸合成所需的 NADPH？",
+"options": {
+"A": "糖解作用 (Glycolysis)",
+"B": "檸檬酸循環 (Citric acid cycle)",
+"C": "電子傳遞鏈 (Electron transport chain)",
+"D": "磷酸戊醣途徑 (Pentose phosphate pathway)",
+"E": "β 氧化"
+},
+"answer": "D",
+"explanation": "磷酸戊醣途徑可以產生 NADPH，提供脂肪酸合成所需的還原力。"
+},
+{
+"question": "下列關於酮體的敘述，何者正確？",
+"options": {
+"A": "酮體是葡萄糖代謝的產物。",
+"B": "酮體只能在肝臟中被利用。",
+"C": "酮體的產生需要胰島素的參與。",
+"D": "酮體可以作為大腦的能量來源。",
+"E": "酮體的過度累積會導致鹼中毒。"
+},
+"answer": "D",
+"explanation": "當體內葡萄糖不足時，酮體可以作為大腦的能量來源。"
+},
+{
+"question": "下列哪一種酵素的缺陷會導致脂肪酸無法進入粒線體 (Mitochondria) 進行 β 氧化？",
+"options": {
+"A": "肉鹼棕櫚醯轉移酶 I (Carnitine palmitoyltransferase I)",
+"B": "肉鹼棕櫚醯轉移酶 II (Carnitine palmitoyltransferase II)",
+"C": "3-羥醯基輔酶 A 去氫酶",
+"D": "3-酮醯基輔酶 A 硫解酶",
+"E": "HMG-CoA 裂解酶"
+},
+"answer": "A",
+"explanation": "肉鹼棕櫚醯轉移酶 I 負責將脂肪酸轉運到粒線體內，其缺陷會導致脂肪酸無法進入粒線體進行 β 氧化。"
+},
+{
+"question": "下列哪種情況**不會**導致乙醯輔酶 A 羧化酶 (Acetyl-CoA carboxylase) 的活化？",
+"options": {
+"A": "高糖飲食",
+"B": "胰島素分泌增加",
+"C": "細胞質中檸檬酸 (Citrate) 濃度增加",
+"D": "AMPK 活性增加",
+"E": "長鏈醯基輔酶 A (Acyl-CoA) 濃度降低"
+},
+"answer": "D",
+"explanation": "AMPK 會抑制乙醯輔酶 A 羧化酶的活性，因此 AMPK 活性增加不會導致乙醯輔酶 A 羧化酶的活化。"
+},
+{
+"question": "下列哪種必需脂肪酸是 ω-3 脂肪酸？",
+"options": {
+"A": "油酸",
+"B": "棕櫚酸",
+"C": "硬脂酸",
+"D": "亞麻油酸",
+"E": "α-亞麻油酸"
+},
+"answer": "E",
+"explanation": "α-亞麻油酸是一種 ω-3 脂肪酸，是人體必需的脂肪酸。"
+},
+{
+"question": "下列哪種脂肪酸的延長主要發生在內質網 (Endoplasmic reticulum) 中？",
+"options": {
+"A": "短鏈脂肪酸 (Short-chain fatty acids)",
+"B": "中鏈脂肪酸 (Medium-chain fatty acids)",
+"C": "長鏈脂肪酸 (Long-chain fatty acids)",
+"D": "飽和脂肪酸",
+"E": "不飽和脂肪酸"
+},
+"answer": "C",
+"explanation": "在內質網的微粒體系統上，可以將 10 碳以上的飽和/不飽和脂肪酸進行延長。"
+},
+{
+"question": "下列哪種物質是合成酮體 (Ketone bodies) 的關鍵中間產物？",
+"options": {
+"A": "乙醯輔酶 A",
+"B": "丙二醯輔酶 A",
+"C": "檸檬酸",
+"D": "HMG-CoA",
+"E": "丙酮酸"
+},
+"answer": "D",
+"explanation": "HMG-CoA 是合成酮體的關鍵中間產物，會被 HMG-CoA 裂解酶分解成乙醯乙酸 (Acetoacetate)。"
+},
+{
+"question": "下列哪種酵素可以將乙醯輔酶 A (Acetyl-CoA) 轉化成丙二醯輔酶 A (Malonyl-CoA)，參與脂肪酸的合成？",
+"options": {
+"A": "乙醯輔酶 A 羧化酶",
+"B": "脂肪酸合成酶",
+"C": "HMG-CoA 合成酶",
+"D": "HMG-CoA 裂解酶",
+"E": "肉鹼棕櫚醯轉移酶 I"
+},
+"answer": "A",
+"explanation": "乙醯輔酶 A 羧化酶可以將乙醯輔酶 A 轉化成丙二醯輔酶 A，這是脂肪酸合成的關鍵步驟。"
+},
+{
+"question": "下列哪種物質會抑制脂肪酸的合成？",
+"options": {
+"A": "胰島素",
+"B": "長鏈醯基輔酶 A (Acyl-CoA)",
+"C": "檸檬酸 (Citrate)",
+"D": "丙二醯輔酶 A (Malonyl-CoA)",
+"E": "NADPH"
+},
+"answer": "B",
+"explanation": "長鏈醯基輔酶 A 會抑制乙醯輔酶 A 羧化酶的活性，進而抑制脂肪酸的合成。"
+},
+{
+"question": "下列哪種疾病與脂肪酸代謝異常有關？",
+"options": {
+"A": "囊腫性纖維化 (Cystic fibrosis)",
+"B": "克隆氏症 (Crohn's disease)",
+"C": "澤爾維格症候群",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "囊腫性纖維化、克隆氏症和澤爾維格症候群都與脂肪酸代謝異常有關。"
+},
+{
+"question": "下列哪種非類固醇抗發炎藥 (NSAID) 只會抑制環氧合酶-2 (COX-2)？",
+"options": {
+"A": "阿斯匹靈 (Aspirin)",
+"B": "布洛芬 (Ibuprofen)",
+"C": "吲哚美辛 (Indomethacin)",
+"D": "塞來昔布 (Celecoxib)",
+"E": "以上皆非"
+},
+"answer": "E",
+"explanation": "目前市面上沒有只抑制 COX-2 的非類固醇抗發炎藥，因為這類藥物有安全疑慮。"
+},
+{
+"question": "下列哪種類二十烷酸 (Eicosanoid) 具有促進發炎和免疫反應的作用？",
+"options": {
+"A": "前列腺素 E2",
+"B": "前列環素",
+"C": "血栓素 A2",
+"D": "白三烯",
+"E": "脂氧素"
+},
+"answer": "D",
+"explanation": "白三烯具有促進發炎和免疫反應的作用，在過敏和發炎反應中扮演重要角色。"
+},
+{
+"question": "下列哪種必需脂肪酸缺乏會導致二十碳三烯酸 (Eicosatrienoic acid, ETE) 的堆積？",
+"options": {
+"A": "油酸",
+"B": "棕櫚酸",
+"C": "硬脂酸",
+"D": "亞麻油酸",
+"E": "α-亞麻油酸"
+},
+"answer": "D",
+"explanation": "亞麻油酸缺乏會導致 ω-9 脂肪酸的合成增加，最終造成 ETE 的堆積。"
+},
+{
+"question": "下列哪種酵素會參與脂肪酸的 β 氧化？",
+"options": {
+"A": "乙醯輔酶 A 羧化酶",
+"B": "脂肪酸合成酶",
+"C": "HMG-CoA 合成酶",
+"D": "HMG-CoA 裂解酶",
+"E": "醯基輔酶 A 去氫酶 (Acyl-CoA dehydrogenase)"
+},
+"answer": "E",
+"explanation": "醯基輔酶 A 去氫酶會參與脂肪酸的 β 氧化，催化脂肪酸的氧化步驟。"
+},
+{
+"question": "下列哪種物質可以活化 AMPK，進而抑制脂肪酸的合成？",
+"options": {
+"A": "胰島素",
+"B": "長鏈醯基輔酶 A (Acyl-CoA)",
+"C": "檸檬酸 (Citrate)",
+"D": "丙二醯輔酶 A (Malonyl-CoA)",
+"E": "NADPH"
+},
+"answer": "B",
+"explanation": "長鏈醯基輔酶 A 可以活化 AMPK，進而抑制乙醯輔酶 A 羧化酶的活性，抑制脂肪酸的合成。"
+}
+]
