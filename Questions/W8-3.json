@@ -1,0 +1,566 @@
+[
+{
+"question": "What is the primary function of chylomicrons?",
+"options": {
+"A": "Transport cholesterol to cells.",
+"B": "Transport cholesterol back to the liver.",
+"C": "Transport lipids from the liver to other parts of the body.",
+"D": "Transport lipids from the small intestine to other parts of the body.",
+"E": "Synthesize triglycerides in the liver."
+},
+"answer": "D",
+"explanation": "Chylomicrons are responsible for transporting lipids absorbed from the small intestine to various tissues in the body."
+},
+{
+"question": "Which apolipoprotein is a truncated form of Apo B-100?",
+"options": {
+"A": "Apo A-I",
+"B": "Apo B-48",
+"C": "Apo C-II",
+"D": "Apo E",
+"E": "Apo A-II"
+},
+"answer": "B",
+"explanation": "Apo B-48, found primarily on chylomicrons, is a shorter version of Apo B-100."
+},
+{
+"question": "What is the role of lipoprotein lipase in lipid metabolism?",
+"options": {
+"A": "Synthesizes triglycerides from fatty acids.",
+"B": "Hydrolyzes triglycerides into free fatty acids and glycerol.",
+"C": "Transports cholesterol to cells.",
+"D": "Converts cholesterol to cholesterol esters.",
+"E": "Inhibits the uptake of LDL by the liver."
+},
+"answer": "B",
+"explanation": "Lipoprotein lipase, located on the surface of endothelial cells, breaks down triglycerides present in chylomicrons and VLDL."
+},
+{
+"question": "Which lipoprotein is responsible for transporting cholesterol to cells?",
+"options": {
+"A": "Chylomicrons",
+"B": "VLDL",
+"C": "IDL",
+"D": "LDL",
+"E": "HDL"
+},
+"answer": "D",
+"explanation": "LDL, often referred to as 'bad cholesterol,' carries cholesterol from the liver to peripheral tissues."
+},
+{
+"question": "Which apolipoprotein is a cofactor for lipoprotein lipase?",
+"options": {
+"A": "Apo A-I",
+"B": "Apo B-100",
+"C": "Apo C-II",
+"D": "Apo E",
+"E": "Apo A-II"
+},
+"answer": "C",
+"explanation": "Apo C-II, obtained from HDL, acts as a cofactor for lipoprotein lipase, enabling the enzyme to break down triglycerides."
+},
+{
+"question": "What is the function of HDL in lipid metabolism?",
+"options": {
+"A": "Transport cholesterol to cells.",
+"B": "Transport triglycerides from the liver to other parts of the body.",
+"C": "Transport cholesterol back to the liver.",
+"D": "Synthesize cholesterol in the liver.",
+"E": "Inhibit the breakdown of triglycerides."
+},
+"answer": "C",
+"explanation": "HDL is involved in reverse cholesterol transport, picking up cholesterol from peripheral tissues and delivering it to the liver."
+},
+{
+"question": "Where are chylomicrons synthesized?",
+"options": {
+"A": "Liver",
+"B": "Small intestine",
+"C": "Adipose tissue",
+"D": "Pancreas",
+"E": "Kidneys"
+},
+"answer": "B",
+"explanation": "Chylomicrons are assembled in the enterocytes of the small intestine following the absorption of dietary fats."
+},
+{
+"question": "What is the role of Apo E in lipid metabolism?",
+"options": {
+"A": "Acts as a cofactor for lipoprotein lipase.",
+"B": "Inhibits the activity of lipoprotein lipase.",
+"C": "Facilitates the uptake of chylomicron remnants and IDL by the liver.",
+"D": "Transports cholesterol to cells.",
+"E": "Activates LCAT."
+},
+"answer": "C",
+"explanation": "Apo E, present on chylomicron remnants and IDL, serves as a ligand for receptors on the liver, promoting their uptake and metabolism."
+},
+{
+"question": "Which enzyme is responsible for converting cholesterol to cholesterol esters in HDL?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Hepatic lipase",
+"C": "LCAT (Lecithin-Cholesterol Acyltransferase)",
+"D": "ACAT (Acyl-CoA:cholesterol acyltransferase)",
+"E": "HMG-CoA reductase"
+},
+"answer": "C",
+"explanation": "LCAT, activated by Apo A-I, esterifies free cholesterol within HDL particles, contributing to the maturation of HDL."
+},
+{
+"question": "What is the main difference between nascent chylomicrons and mature chylomicrons?",
+"options": {
+"A": "Nascent chylomicrons lack Apo B-48, while mature chylomicrons have it.",
+"B": "Nascent chylomicrons have Apo C and Apo E, while mature chylomicrons lack them.",
+"C": "Nascent chylomicrons are formed in the liver, while mature chylomicrons are formed in the small intestine.",
+"D": "Nascent chylomicrons lack Apo C and Apo E, while mature chylomicrons acquire them from HDL.",
+"E": "Nascent chylomicrons are larger than mature chylomicrons."
+},
+"answer": "D",
+"explanation": "Nascent chylomicrons, initially assembled in the intestine, obtain Apo C and Apo E from circulating HDL to become mature chylomicrons."
+},
+{
+"question": "What is the role of SR-B1 in HDL metabolism?",
+"options": {
+"A": "Synthesizes HDL particles.",
+"B": "Mediates the uptake of cholesterol esters from HDL by the liver.",
+"C": "Converts cholesterol to cholesterol esters.",
+"D": "Hydrolyzes triglycerides in HDL.",
+"E": "Inhibits the interaction of HDL with the liver."
+},
+"answer": "B",
+"explanation": "SR-B1, located on the liver, facilitates the selective transfer of cholesterol esters from HDL into the liver cells."
+},
+{
+"question": "Which of the following is NOT a function of apolipoproteins?",
+"options": {
+"A": "Structural component of lipoproteins.",
+"B": "Enzyme cofactors.",
+"C": "Enzyme inhibitors.",
+"D": "Ligands for lipoprotein receptors.",
+"E": "Transport oxygen in the blood."
+},
+"answer": "E",
+"explanation": "While apolipoproteins have various roles in lipid metabolism, including structural, enzymatic, and receptor-binding functions, they are not involved in oxygen transport."
+},
+{
+"question": "Which two apolipoproteins are ligands for the LDL receptor?",
+"options": {
+"A": "Apo A-I and Apo A-II",
+"B": "Apo B-100 and Apo E",
+"C": "Apo C-II and Apo C-III",
+"D": "Apo B-48 and Apo A-I",
+"E": "Apo E and Apo C-II"
+},
+"answer": "B",
+"explanation": "Both Apo B-100, the primary apolipoprotein on LDL, and Apo E can bind to the LDL receptor, mediating the uptake of LDL particles."
+},
+{
+"question": "How do nascent VLDL particles mature in the bloodstream?",
+"options": {
+"A": "By acquiring Apo B-100 from HDL.",
+"B": "By acquiring Apo C and Apo E from HDL.",
+"C": "By losing Apo B-100.",
+"D": "By being hydrolyzed by lipoprotein lipase.",
+"E": "By being converted to LDL."
+},
+"answer": "B",
+"explanation": "Newly secreted VLDL particles acquire Apo C and Apo E from circulating HDL to become fully functional."
+},
+{
+"question": "Which of the following statements about VLDL is true?",
+"options": {
+"A": "VLDL transports cholesterol from peripheral tissues to the liver.",
+"B": "VLDL is synthesized in the small intestine.",
+"C": "VLDL is the precursor to LDL.",
+"D": "VLDL contains only Apo B-48.",
+"E": "VLDL has a higher density than HDL."
+},
+"answer": "C",
+"explanation": "VLDL, assembled in the liver, undergoes lipolysis and transformations to eventually give rise to LDL particles."
+},
+{
+"question": "What is the role of insulin in VLDL metabolism?",
+"options": {
+"A": "Stimulates the synthesis of Apo B-100.",
+"B": "Promotes the transfer of triglycerides to VLDL2 to form VLDL1.",
+"C": "Enhances the activity of lipoprotein lipase.",
+"D": "Inhibits the synthesis of Apo B-100 and the formation of VLDL1.",
+"E": "Increases the secretion of VLDL from the liver."
+},
+"answer": "D",
+"explanation": "Insulin exerts a regulatory role by suppressing the synthesis of Apo B-100 and the maturation of VLDL2 into VLDL1."
+},
+{
+"question": "Which lipoprotein has the highest protein-to-lipid ratio?",
+"options": {
+"A": "Chylomicrons",
+"B": "VLDL",
+"C": "LDL",
+"D": "HDL",
+"E": "All lipoproteins have the same protein-to-lipid ratio."
+},
+"answer": "D",
+"explanation": "HDL, characterized by its role in reverse cholesterol transport, has the highest proportion of protein compared to other lipoproteins."
+},
+{
+"question": "Which of the following is a characteristic of orotic acid in relation to fatty liver disease?",
+"options": {
+"A": "It promotes the synthesis of VLDL.",
+"B": "It inhibits the release of VLDL from the liver.",
+"C": "It enhances the breakdown of triglycerides.",
+"D": "It is a precursor for phosphatidylcholine synthesis.",
+"E": "It protects against fatty acid oxidation."
+},
+"answer": "B",
+"explanation": "Orotic acid is known to interfere with the release of VLDL from the liver, contributing to the accumulation of triglycerides and the development of fatty liver."
+},
+{
+"question": "What is the function of MTP (Microsomal Triglyceride Transfer Protein) in VLDL assembly?",
+"options": {
+"A": "Transports VLDL from the ER to the Golgi.",
+"B": "Hydrolyzes triglycerides.",
+"C": "Synthesizes Apo B-100.",
+"D": "Facilitates the transfer of triglycerides to Apo B-100 in the ER.",
+"E": "Converts cholesterol to cholesterol esters."
+},
+"answer": "D",
+"explanation": "MTP plays a critical role in the assembly of VLDL by assisting in the loading of triglycerides onto Apo B-100 within the endoplasmic reticulum."
+},
+{
+"question": "Which metabolic pathway is upregulated in the liver in response to excessive alcohol consumption, leading to fatty liver?",
+"options": {
+"A": "Gluconeogenesis",
+"B": "Glycogenolysis",
+"C": "Ketogenesis",
+"D": "De novo lipogenesis",
+"E": "Cholesterol synthesis"
+},
+"answer": "D",
+"explanation": "Excess alcohol metabolism disrupts the NADH/NAD+ balance, leading to increased de novo lipogenesis, the synthesis of fatty acids from acetyl-CoA, and contributing to fatty liver."
+},
+{
+"question": "What is the role of choline in preventing fatty liver disease?",
+"options": {
+"A": "It inhibits the synthesis of triglycerides.",
+"B": "It promotes the breakdown of fatty acids.",
+"C": "It is a component of phosphatidylcholine, which is involved in VLDL synthesis.",
+"D": "It enhances the activity of lipoprotein lipase.",
+"E": "It prevents the oxidation of fatty acids."
+},
+"answer": "C",
+"explanation": "Choline is a precursor for phosphatidylcholine, a key phospholipid involved in VLDL assembly and secretion. Choline deficiency impairs VLDL formation and can lead to fatty liver."
+},
+{
+"question": "How does the lack of vitamin E or selenium contribute to fatty liver disease?",
+"options": {
+"A": "They are required for VLDL synthesis.",
+"B": "They inhibit the activity of lipoprotein lipase.",
+"C": "They promote the oxidation of fatty acids.",
+"D": "They protect against fatty acid oxidation and subsequent liver damage.",
+"E": "They enhance the uptake of LDL by the liver."
+},
+"answer": "D",
+"explanation": "Vitamin E and selenium act as antioxidants, protecting against oxidative stress and damage to the liver, including damage caused by lipid peroxidation. Their deficiency can exacerbate liver injury and contribute to fatty liver disease."
+},
+{
+"question": "Which enzyme is responsible for the initial step in alcohol metabolism?",
+"options": {
+"A": "Acetaldehyde dehydrogenase",
+"B": "Alcohol dehydrogenase",
+"C": "Lipoprotein lipase",
+"D": "LCAT",
+"E": "HMG-CoA reductase"
+},
+"answer": "B",
+"explanation": "Alcohol dehydrogenase (ADH) is the primary enzyme that catalyzes the conversion of alcohol to acetaldehyde."
+},
+{
+"question": "What is the function of the microsomal ethanol-oxidizing system (MEOS)?",
+"options": {
+"A": "Synthesizes triglycerides from alcohol.",
+"B": "Converts acetaldehyde to acetate.",
+"C": "Provides an alternative pathway for alcohol metabolism.",
+"D": "Inhibits the activity of alcohol dehydrogenase.",
+"E": "Increases the absorption of alcohol from the gut."
+},
+"answer": "C",
+"explanation": "The MEOS is a secondary pathway for alcohol metabolism that becomes more significant with chronic alcohol consumption, providing an alternative route for the breakdown of alcohol."
+},
+{
+"question": "Which molecule acts as a ligand for LRP1 (LDL receptor-related protein)?",
+"options": {
+"A": "Apo A-I",
+"B": "Apo B-48",
+"C": "Apo C-II",
+"D": "Apo E",
+"E": "Apo A-II"
+},
+"answer": "D",
+"explanation": "Apo E, found on chylomicron remnants and IDL, is recognized by LRP1, a receptor involved in the hepatic uptake of these lipoprotein particles."
+},
+{
+"question": "What is the difference in Apo B-100 conformation between VLDL and LDL?",
+"options": {
+"A": "Apo B-100 is absent in VLDL.",
+"B": "Apo B-100 is glycosylated in VLDL but not in LDL.",
+"C": "Apo B-100 is more tightly packed on the surface of LDL, exposing its receptor-binding domain.",
+"D": "Apo B-100 is phosphorylated in LDL but not in VLDL.",
+"E": "Apo B-100 is cleaved into smaller fragments in LDL."
+},
+"answer": "C",
+"explanation": "Due to the larger size of VLDL, Apo B-100 is spread out on its surface, concealing its LDL receptor-binding site. As VLDL transforms into LDL, the particle shrinks, exposing the binding site for interaction with the LDL receptor."
+},
+{
+"question": "What is the function of ARF-1 (ADP ribosylation factor 1) in VLDL assembly?",
+"options": {
+"A": "Inhibits the synthesis of Apo B-100.",
+"B": "Promotes the fusion of TG-rich particles with VLDL2 to form VLDL1.",
+"C": "Transports VLDL from the ER to the Golgi.",
+"D": "Hydrolyzes triglycerides.",
+"E": "Converts cholesterol to cholesterol esters."
+},
+"answer": "B",
+"explanation": "ARF-1 plays a role in the maturation of VLDL by facilitating the fusion of triglyceride-rich particles with VLDL2, leading to the formation of VLDL1."
+},
+{
+"question": "What happens to the Apo A-I released during HDL2 catabolism?",
+"options": {
+"A": "It is degraded by the liver.",
+"B": "It is excreted in the bile.",
+"C": "It is recycled to form new HDL particles.",
+"D": "It binds to LDL receptors.",
+"E": "It activates lipoprotein lipase."
+},
+"answer": "C",
+"explanation": "Apo A-I, liberated during the breakdown of HDL2, can be reused to form preβ-HDL, contributing to the continuous cycle of HDL formation and metabolism."
+},
+{
+"question": "Which cellular transporter is responsible for effluxing cholesterol from cells to preβ-HDL?",
+"options": {
+"A": "ABCA1",
+"B": "ABCG1",
+"C": "SR-B1",
+"D": "LRP1",
+"E": "MTP"
+},
+"answer": "A",
+"explanation": "ABCA1 facilitates the transport of cholesterol from within cells to preβ-HDL, an initial step in reverse cholesterol transport."
+},
+{
+"question": "Which of the following is NOT a function of the liver in lipid metabolism?",
+"options": {
+"A": "Synthesis of bile acids.",
+"B": "Production of ketone bodies.",
+"C": "Synthesis of triglycerides and phospholipids.",
+"D": "Assembly and secretion of VLDL.",
+"E": "Absorption of dietary fats."
+},
+"answer": "E",
+"explanation": "While the liver plays numerous roles in lipid metabolism, the absorption of dietary fats occurs primarily in the small intestine."
+},
+{
+"question": "What are the primary destinations of LDL after it is taken up by the liver?",
+"options": {
+"A": "Adipose tissue and muscle",
+"B": "Brain and kidneys",
+"C": "Excreted in the bile or recycled for HDL synthesis",
+"D": "Stored in the liver as cholesterol esters",
+"E": "Converted to ketone bodies"
+},
+"answer": "C",
+"explanation": "The liver utilizes the cholesterol obtained from LDL for various purposes, including bile acid synthesis and excretion, as well as contributing to the formation of HDL."
+},
+{
+"question": "Which of the following lipoprotein particles would have the lowest density?",
+"options": {
+"A": "HDL",
+"B": "LDL",
+"C": "IDL",
+"D": "VLDL",
+"E": "Chylomicrons"
+},
+"answer": "E",
+"explanation": "Chylomicrons, responsible for transporting dietary fats, have the lowest density among lipoproteins due to their high triglyceride content."
+},
+{
+"question": "What is the role of Apo C-III in lipid metabolism?",
+"options": {
+"A": "Acts as a cofactor for lipoprotein lipase.",
+"B": "Inhibits the activity of lipoprotein lipase.",
+"C": "Facilitates the uptake of chylomicron remnants by the liver.",
+"D": "Transports cholesterol to cells.",
+"E": "Activates LCAT."
+},
+"answer": "B",
+"explanation": "Apo C-III, along with Apo A-II, can act as an inhibitor of lipoprotein lipase, modulating the breakdown of triglycerides."
+},
+{
+"question": "What is the primary source of fatty acids used for VLDL synthesis in the liver?",
+"options": {
+"A": "Dietary fat absorbed from the small intestine",
+"B": "Breakdown of glycogen stores",
+"C": "De novo lipogenesis from acetyl-CoA",
+"D": "Hydrolysis of cholesterol esters",
+"E": "Breakdown of ketone bodies"
+},
+"answer": "C",
+"explanation": "The liver can synthesize fatty acids de novo from acetyl-CoA, providing a source of fatty acids for VLDL assembly."
+},
+{
+"question": "What is the main distinction between alcoholic and non-alcoholic fatty liver disease?",
+"options": {
+"A": "Alcoholic fatty liver disease involves inflammation, while non-alcoholic fatty liver disease does not.",
+"B": "Alcoholic fatty liver disease is reversible, while non-alcoholic fatty liver disease is not.",
+"C": "Alcoholic fatty liver disease is caused by excessive alcohol consumption, while non-alcoholic fatty liver disease has other underlying causes.",
+"D": "Alcoholic fatty liver disease affects only the liver, while non-alcoholic fatty liver disease can affect other organs.",
+"E": "Alcoholic fatty liver disease is more common in women, while non-alcoholic fatty liver disease is more common in men."
+},
+"answer": "C",
+"explanation": "The primary difference lies in the etiology: alcoholic fatty liver disease stems from excessive alcohol intake, while non-alcoholic fatty liver disease arises from other factors such as obesity, insulin resistance, and metabolic disorders."
+},
+{
+"question": "What is the significance of the Km value of lipoprotein lipase in different tissues?",
+"options": {
+"A": "It determines the rate of cholesterol synthesis in those tissues.",
+"B": "It reflects the affinity of lipoprotein lipase for triglycerides in those tissues.",
+"C": "It indicates the rate of VLDL uptake by those tissues.",
+"D": "It determines the rate of glucose utilization in those tissues.",
+"E": "It reflects the rate of HDL synthesis in those tissues."
+},
+"answer": "B",
+"explanation": "The Km value of lipoprotein lipase represents its affinity for triglycerides. Tissues with lower Km values, such as the heart, have a higher affinity for triglycerides, allowing them to preferentially utilize fatty acids for energy, particularly during periods of low glucose availability."
+},
+{
+"question": "What is the fate of the majority of free fatty acids (FFAs) released from chylomicrons during triglyceride hydrolysis?",
+"options": {
+"A": "Transported to the liver",
+"B": "Utilized by peripheral tissues for energy",
+"C": "Stored in adipose tissue",
+"D": "Converted to ketone bodies",
+"E": "Excreted in the bile"
+},
+"answer": "B",
+"explanation": "Most of the FFAs liberated from chylomicrons are taken up by tissues like muscle and adipose tissue for energy production or storage."
+},
+{
+"question": "Which transport proteins are responsible for the movement of free fatty acids (FFAs) across cell membranes?",
+"options": {
+"A": "Lipoprotein lipase and hepatic lipase",
+"B": "ABCA1 and ABCG1",
+"C": "SR-B1 and LRP1",
+"D": "Membrane-bound transport proteins",
+"E": "Albumin"
+},
+"answer": "D",
+"explanation": "FFAs rely on specialized transport proteins embedded in cell membranes to facilitate their movement into and out of cells."
+},
+{
+"question": "What is the role of pinocytosis in the secretion of chylomicrons and VLDL?",
+"options": {
+"A": "Synthesizes the lipid components of lipoproteins",
+"B": "Packages the lipoproteins into secretory vesicles",
+"C": "Transports the lipoproteins to the cell surface for release",
+"D": "Hydrolyzes triglycerides into free fatty acids",
+"E": "Converts cholesterol to cholesterol esters"
+},
+"answer": "B",
+"explanation": "Both chylomicrons and VLDL are packaged into vesicles through pinocytosis for their release from the cells where they are assembled."
+},
+{
+"question": "Where are nascent chylomicrons typically found?",
+"options": {
+"A": "Hepatic tissue",
+"B": "Lymphatic tissue of the intestine",
+"C": "Adipose tissue",
+"D": "Bloodstream",
+"E": "Pancreas"
+},
+"answer": "B",
+"explanation": "Newly formed chylomicrons are initially released into the lymphatic system of the intestine before entering the bloodstream."
+},
+{
+"question": "What is the function of COP II in VLDL assembly?",
+"options": {
+"A": "Synthesizes Apo B-100",
+"B": "Transports VLDL2 from the ER to the Golgi",
+"C": "Facilitates the transfer of triglycerides to Apo B-100",
+"D": "Converts cholesterol to cholesterol esters",
+"E": "Hydrolyzes triglycerides into free fatty acids"
+},
+"answer": "B",
+"explanation": "COP II coated vesicles mediate the transport of VLDL2 particles from the endoplasmic reticulum to the Golgi apparatus for further processing and maturation."
+},
+{
+"question": "What is the main difference between discoidal HDL and spherical HDL?",
+"options": {
+"A": "Discoidal HDL contains cholesterol esters, while spherical HDL does not.",
+"B": "Discoidal HDL is the mature form of HDL, while spherical HDL is the precursor.",
+"C": "Discoidal HDL is formed in the liver, while spherical HDL is formed in the intestine.",
+"D": "Discoidal HDL is the primary acceptor of cholesterol from peripheral tissues.",
+"E": "Discoidal HDL has a higher density than spherical HDL."
+},
+"answer": "D",
+"explanation": "Discoidal HDL, an early form of HDL, serves as the primary acceptor of cholesterol effluxed from peripheral cells. The esterification of cholesterol by LCAT transforms discoidal HDL into spherical HDL."
+},
+{
+"question": "Which enzyme is responsible for hydrolyzing phospholipids and triglycerides in HDL2, contributing to its conversion back to HDL3?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Hepatic lipase and endothelial lipase",
+"C": "LCAT",
+"D": "ACAT",
+"E": "HMG-CoA reductase"
+},
+"answer": "B",
+"explanation": "Hepatic lipase and endothelial lipase contribute to the remodeling of HDL2 by hydrolyzing its phospholipid and triglyceride components, leading to the formation of HDL3."
+},
+{
+"question": "What is the role of ABCG1 (ATP-binding cassette transporter G1) in cholesterol efflux?",
+"options": {
+"A": "Transports cholesterol from cells to preβ-HDL",
+"B": "Transports cholesterol esters from HDL to the liver",
+"C": "Transports cholesterol from cells to HDL3",
+"D": "Inhibits the uptake of LDL by the liver",
+"E": "Activates LCAT"
+},
+"answer": "C",
+"explanation": "ABCG1, along with SR-B1, mediates the efflux of cholesterol from cells to HDL3, contributing to reverse cholesterol transport."
+},
+{
+"question": "What is the primary function of ketogenesis in the liver?",
+"options": {
+"A": "Synthesize glucose from fatty acids",
+"B": "Produce an alternative energy source during periods of low glucose availability",
+"C": "Store excess fatty acids as triglycerides",
+"D": "Transport cholesterol to peripheral tissues",
+"E": "Synthesize bile acids from cholesterol"
+},
+"answer": "B",
+"explanation": "Ketogenesis, the production of ketone bodies from fatty acids, serves as a backup energy pathway, particularly when glucose levels are low, such as during prolonged fasting or carbohydrate restriction."
+},
+{
+"question": "What condition can result from excessive ketogenesis?",
+"options": {
+"A": "Hypoglycemia",
+"B": "Hypercholesterolemia",
+"C": "Ketoacidosis",
+"D": "Fatty liver disease",
+"E": "Hyperglycemia"
+},
+"answer": "C",
+"explanation": "If ketogenesis becomes overly active, it can lead to ketoacidosis, a dangerous condition characterized by a buildup of ketone bodies in the blood, lowering blood pH."
+},
+{
+"question": "What is the role of lysolecithin generated during LCAT activity?",
+"options": {
+"A": "Remains in the HDL particle",
+"B": "Is converted to cholesterol esters",
+"C": "Is transferred to the plasma and binds to albumin",
+"D": "Inhibits the activity of LCAT",
+"E": "Is taken up by the liver"
+},
+"answer": "C",
+"explanation": "Lysolecithin, produced as a byproduct of the LCAT reaction, is released from the HDL particle and binds to albumin in the plasma."
+}
+]
