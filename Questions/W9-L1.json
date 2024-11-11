@@ -1,0 +1,603 @@
+
+[
+  {
+    "question": "What is the role of DnaA in the initiation of DNA replication in *E. coli*?",
+    "options": {
+      "A": "It synthesizes RNA primers.",
+      "B": "It unwinds the DNA double helix.",
+      "C": "It binds to oriC and initiates DNA wrapping.",
+      "D": "It repairs damaged DNA.",
+      "E": "It connects Okazaki fragments."
+    },
+    "answer": "C",
+    "explanation": "DnaA-ATP binds to the binding site of oriC and causes the DNA to wrap around it, leading to the initiation of DNA replication. [Me]"
+  },
+  {
+    "question": "Which region of the DNA double helix is the first to unwind during replication?",
+    "options": {
+      "A": "The origin of replication (oriC)",
+      "B": "The DNA unwinding element (DUE)",
+      "C": "The Okazaki fragment",
+      "D": "The replication fork",
+      "E": "The leading strand"
+    },
+    "answer": "B",
+    "explanation": "The DUE, rich in A=T base pairs, is less stable and thus denatures easily, making it the initial unwinding point. [Me]"
+  },
+  {
+    "question": "What provides the energy for DnaB (helicase) to bind to the DUE?",
+    "options": {
+      "A": "Hydrolysis of ATP by DnaA",
+      "B": "Dephosphorylation of DnaC-ATP",
+      "C": "The formation of phosphodiester bonds",
+      "D": "The binding of SSB to single-stranded DNA",
+      "E": "The action of DNA gyrase"
+    },
+    "answer": "B",
+    "explanation": "The energy for DnaB binding comes from the dephosphorylation of DnaC-ATP. [Me]"
+  },
+  {
+    "question": "What is the function of SSB proteins during DNA replication?",
+    "options": {
+      "A": "To unwind the DNA double helix",
+      "B": "To synthesize RNA primers",
+      "C": "To stabilize single-stranded DNA and prevent reannealing",
+      "D": "To remove positive supercoils",
+      "E": "To connect Okazaki fragments"
+    },
+    "answer": "C",
+    "explanation": "SSBs bind to and stabilize the unstable single-stranded DNA, preventing it from reannealing or being recognized as damage. [Me]"
+  },
+  {
+    "question": "Why is DNA replication considered semi-discontinuous?",
+    "options": {
+      "A": "Because both strands are synthesized simultaneously.",
+      "B": "Because DNA polymerase can only synthesize DNA in the 5' to 3' direction.",
+      "C": "Because the leading strand is synthesized continuously, while the lagging strand is synthesized in fragments.",
+      "D": "Because DNA gyrase needs to remove positive supercoils periodically.",
+      "E": "Because RNA primers need to be continuously synthesized."
+    },
+    "answer": "C",
+    "explanation": "The semi-discontinuous nature arises from the continuous synthesis of the leading strand and the fragmented synthesis of the lagging strand, due to the directionality of DNA polymerase. [Me]"
+  },
+  {
+    "question": "During DNA synthesis, what acts as a nucleophile to attack the α-phosphate group of the incoming dNTP?",
+    "options": {
+      "A": "The 3' -OH group of the RNA primer",
+      "B": "The 5' phosphate group of the growing DNA strand",
+      "C": "The nitrogenous base of the dNTP",
+      "D": "A magnesium ion (Mg2+)",
+      "E": "The active site of DNA polymerase"
+    },
+    "answer": "A",
+    "explanation": "The 3' -OH of the RNA primer initiates the nucleophilic attack on the dNTP, forming the phosphodiester bond and extending the DNA strand. [Me]"
+  },
+  {
+    "question": "Why are RNA primers essential for DNA replication?",
+    "options": {
+      "A": "They provide the energy for DNA synthesis.",
+      "B": "They serve as a template for DNA polymerase.",
+      "C": "They provide the necessary 3' -OH group for DNA polymerase to initiate synthesis.",
+      "D": "They unwind the DNA double helix.",
+      "E": "They prevent the reannealing of single-stranded DNA."
+    },
+    "answer": "C",
+    "explanation": "The crucial 3' -OH group, absent on the DNA strand itself, is provided by the RNA primer, enabling DNA polymerase to begin synthesis. [Me]"
+  },
+  {
+    "question": "Apart from RNA, what other sources of the -OH group needed for DNA replication are known in nature?",
+    "options": {
+      "A": "Proteins with -OH groups in amino acids (Y, S, T)",
+      "B": "Carbohydrates with hydroxyl groups",
+      "C": "Lipids with hydroxyl groups",
+      "D": "Small molecules with hydroxyl groups",
+      "E": "Metal ions with coordinated water molecules"
+    },
+    "answer": "A",
+    "explanation": "While less common, some viruses utilize the -OH groups present on specific amino acids (Y, S, T) in proteins for DNA replication. [Me]"
+  },
+  {
+    "question": "Which enzyme is responsible for unwinding the DNA double helix at the replication fork?",
+    "options": {
+      "A": "DnaA",
+      "B": "DnaB (Helicase)",
+      "C": "DnaC",
+      "D": "DNA polymerase III",
+      "E": "DNA gyrase"
+    },
+    "answer": "B",
+    "explanation": "Helicase (DnaB) is the enzyme specifically tasked with breaking the hydrogen bonds of the double helix, generating single-stranded DNA for replication. [Me]"
+  },
+  {
+    "question": "What is the function of DNA gyrase during DNA replication?",
+    "options": {
+      "A": "To synthesize RNA primers",
+      "B": "To stabilize single-stranded DNA",
+      "C": "To remove positive supercoils generated during unwinding",
+      "D": "To connect Okazaki fragments",
+      "E": "To proofread newly synthesized DNA"
+    },
+    "answer": "C",
+    "explanation": "DNA gyrase counteracts the torsional stress created by helicase unwinding, preventing excessive supercoiling that could hinder replication. [Me]"
+  },
+  {
+    "question": "Which DNA polymerase plays the primary role in synthesizing new DNA strands in *E. coli*?",
+    "options": {
+      "A": "DNA polymerase I",
+      "B": "DNA polymerase II",
+      "C": "DNA polymerase III",
+      "D": "RNA polymerase",
+      "E": "Primase"
+    },
+    "answer": "C",
+    "explanation": "DNA polymerase III, with its high processivity and complex structure, is the main workhorse for generating new DNA strands during replication. [Me]"
+  },
+  {
+    "question": "Which of the following statements about DNA polymerase I is correct?",
+    "options": {
+      "A": "It is the most abundant DNA polymerase in *E. coli*.",
+      "B": "It has the highest processivity among the DNA polymerases.",
+      "C": "It is the main enzyme responsible for synthesizing new DNA strands.",
+      "D": "It is primarily involved in DNA repair and has low processivity.",
+      "E": "It is composed of multiple polypeptide chains."
+    },
+    "answer": "D",
+    "explanation": "DNA polymerase I is abundant and primarily involved in repair processes, explaining its relatively low processivity compared to DNA polymerase III. [Me]"
+  },
+  {
+    "question": "What is the function of DNA ligase in DNA replication?",
+    "options": {
+      "A": "To unwind the DNA double helix",
+      "B": "To synthesize RNA primers",
+      "C": "To stabilize single-stranded DNA",
+      "D": "To connect Okazaki fragments",
+      "E": "To proofread newly synthesized DNA"
+    },
+    "answer": "D",
+    "explanation": "DNA ligase is responsible for forming the phosphodiester bonds that join Okazaki fragments on the lagging strand, creating a continuous DNA strand. [Me]"
+  },
+  {
+    "question": "How was the existence of Okazaki fragments initially deduced?",
+    "options": {
+      "A": "By observing the discontinuous synthesis of the lagging strand.",
+      "B": "By detecting short DNA fragments in radioactive labeling experiments.",
+      "C": "By analyzing the structure of DNA polymerase.",
+      "D": "By studying the action of DNA ligase.",
+      "E": "By observing the unwinding of DNA by helicase."
+    },
+    "answer": "B",
+    "explanation": "Okazaki's experiments using radioactive isotopes revealed transient small DNA fragments, later identified as Okazaki fragments, supporting the discontinuous replication model. [Me]"
+  },
+  {
+    "question": "What observation in experiments with ligase-deficient mutant cells supported the existence of Okazaki fragments?",
+    "options": {
+      "A": "The accumulation of short DNA fragments even after long periods.",
+      "B": "The inability of the cells to replicate their DNA.",
+      "C": "The presence of extensive DNA supercoiling.",
+      "D": "The absence of RNA primers.",
+      "E": "The increased activity of DNA polymerase I."
+    },
+    "answer": "A",
+    "explanation": "The persistent presence of small DNA fragments in ligase-deficient cells, unable to join the fragments, confirmed their role as intermediates in replication. [Me]"
+  },
+  {
+    "question": "Which of the following statements about the coordination of leading and lagging strand synthesis is correct?",
+    "options": {
+      "A": "The lagging strand replicates in the opposite direction to the leading strand.",
+      "B": "The polymerases on both strands move at different speeds.",
+      "C": "The lagging strand bends 180 degrees to follow the same direction as the leading strand.",
+      "D": "There is no single-stranded DNA present during replication.",
+      "E": "The enzymes move along the DNA template during replication."
+    },
+    "answer": "C",
+    "explanation": "To maintain a coordinated process, the lagging strand loops around, allowing both polymerases to move in the same direction despite synthesizing DNA in opposite orientations. [Me]"
+  },
+  {
+    "question": "What is the correct order of events during lagging strand synthesis?",
+    "options": {
+      "A": "DNA Pol I removes RNA primer, DNA Pol III extends primer, ligase joins fragments.",
+      "B": "Ligase joins fragments, primase synthesizes primer, DNA Pol III extends primer.",
+      "C": "Primase synthesizes primer, DNA Pol III extends primer, DNA Pol I removes primer and replaces it with DNA, ligase joins fragments.",
+      "D": "DNA Pol III extends primer, DNA Pol I removes primer and replaces it with DNA, primase synthesizes primer, ligase joins fragments.",
+      "E": "Ligase joins fragments, DNA Pol I removes primer and replaces it with DNA, DNA Pol III extends primer, primase synthesizes primer."
+    },
+    "answer": "C",
+    "explanation": "This sequence reflects the stepwise process of lagging strand synthesis, from primer initiation to fragment joining. [Me]"
+  },
+  {
+    "question": "What is the definition of processivity in the context of DNA polymerases?",
+    "options": {
+      "A": "The speed at which the polymerase synthesizes DNA.",
+      "B": "The ability of the polymerase to proofread newly synthesized DNA.",
+      "C": "The number of nucleotides a polymerase can synthesize before dissociating from DNA.",
+      "D": "The ability of the polymerase to remove RNA primers.",
+      "E": "The affinity of the polymerase for the DNA template."
+    },
+    "answer": "C",
+    "explanation": "Processivity quantifies the polymerase's ability to remain associated with the DNA template, reflecting its stability during continuous synthesis. [Me]"
+  },
+  {
+    "question": "Which DNA polymerase is thought to be involved in DNA repair in *E. coli*?",
+    "options": {
+      "A": "DNA polymerase I",
+      "B": "DNA polymerase II",
+      "C": "DNA polymerase III",
+      "D": "RNA polymerase",
+      "E": "Primase"
+    },
+    "answer": "B",
+    "explanation": "While the exact role of DNA polymerase II is not fully elucidated, it is implicated in DNA repair processes. [Me]"
+  },
+  {
+    "question": "Which of the following is NOT a function of DNA polymerase III?",
+    "options": {
+      "A": "Synthesizing new DNA strands",
+      "B": "Proofreading newly synthesized DNA",
+      "C": "Removing RNA primers",
+      "D": "Extending RNA primers",
+      "E": "Maintaining high processivity"
+    },
+    "answer": "C",
+    "explanation": "The removal of RNA primers is a specific function of DNA polymerase I, not DNA polymerase III. [Me]"
+  },
+  {
+    "question": "Which protein is located on the lagging strand template during DNA replication?",
+    "options": {
+      "A": "DnaA",
+      "B": "Helicase (DnaB)",
+      "C": "DnaC",
+      "D": "DNA polymerase III",
+      "E": "DNA gyrase"
+    },
+    "answer": "B",
+    "explanation": "Helicase, positioned on the lagging strand template, unwinds the DNA, allowing primase and polymerase to access the strand for discontinuous synthesis. [Me]"
+  },
+  {
+    "question": "Why does single-stranded DNA need to be stabilized during replication?",
+    "options": {
+      "A": "To prevent it from being recognized as damaged DNA.",
+      "B": "To allow for the synthesis of RNA primers.",
+      "C": "To ensure the smooth progression of the replication fork.",
+      "D": "To prevent the formation of secondary structures.",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "Stabilizing single-stranded DNA serves multiple crucial purposes, including preventing damage recognition, facilitating primer synthesis, and maintaining the integrity of the replication process. [Me]"
+  },
+  {
+    "question": "What is the approximate length of an RNA primer synthesized by primase?",
+    "options": {
+      "A": "1-5 base pairs",
+      "B": "10-20 base pairs",
+      "C": "50-100 base pairs",
+      "D": "100-500 base pairs",
+      "E": "Over 1000 base pairs"
+    },
+    "answer": "B",
+    "explanation": "Primase generates short RNA primers, typically in the range of 10-20 base pairs, to provide the initial 3' -OH for DNA polymerase. [Me]"
+  },
+  {
+    "question": "What is the direction of synthesis for the new DNA strand during replication?",
+    "options": {
+      "A": "3' to 5'",
+      "B": "5' to 3'",
+      "C": "Both 3' to 5' and 5' to 3'",
+      "D": "The direction can vary depending on the strand.",
+      "E": "The direction is determined by the orientation of the replication fork."
+    },
+    "answer": "B",
+    "explanation": "Without exception, DNA polymerase can only synthesize DNA in the 5' to 3' direction, regardless of the strand being replicated. [Me]"
+  },
+  {
+    "question": "Which of the following enzymes is exclusively active on the lagging strand during DNA replication?",
+    "options": {
+      "A": "Helicase",
+      "B": "Primase",
+      "C": "DNA polymerase III",
+      "D": "DNA polymerase I",
+      "E": "DNA ligase"
+    },
+    "answer": "E",
+    "explanation": "DNA ligase is the only enzyme solely required for the lagging strand, as it joins the Okazaki fragments generated during discontinuous synthesis. [Me]"
+  },
+  {
+    "question": "What happens to the positive supercoils generated by helicase during DNA unwinding?",
+    "options": {
+      "A": "They are ignored by the replication machinery.",
+      "B": "They accumulate and eventually stop replication.",
+      "C": "They are removed by DNA gyrase.",
+      "D": "They are converted into negative supercoils.",
+      "E": "They facilitate the binding of SSB proteins."
+    },
+    "answer": "C",
+    "explanation": "DNA gyrase actively removes the positive supercoils, ensuring that the DNA remains manageable and replication can proceed without hindrance. [Me]"
+  },
+  {
+    "question": "What is the approximate number of nucleotides that DNA polymerase III can connect before dissociating from DNA?",
+    "options": {
+      "A": "10-20",
+      "B": "100-200",
+      "C": "1,000-2,000",
+      "D": "10,000-20,000",
+      "E": "500,000"
+    },
+    "answer": "E",
+    "explanation": "The high processivity of DNA polymerase III is reflected in its ability to synthesize a long stretch of DNA, approximately 500,000 nucleotides, before detaching. [Me]"
+  },
+  {
+    "question": "Why is the lagging strand synthesized in a discontinuous manner?",
+    "options": {
+      "A": "Because the lagging strand template is shorter than the leading strand template.",
+      "B": "Because primase can only synthesize RNA primers on the lagging strand.",
+      "C": "Because DNA polymerase can only synthesize DNA in the 5' to 3' direction, and the lagging strand template is oriented 3' to 5' at the replication fork.",
+      "D": "Because SSB proteins can only bind to the lagging strand.",
+      "E": "Because DNA gyrase only acts on the lagging strand."
+    },
+    "answer": "C",
+    "explanation": "The fundamental reason for discontinuous synthesis lies in the directionality of DNA polymerase and the antiparallel nature of the DNA strands. [Me]"
+  },
+  {
+    "question": "Which of the following is NOT true about Okazaki fragments?",
+    "options": {
+      "A": "They are short DNA fragments synthesized on the lagging strand.",
+      "B": "They are initiated by RNA primers.",
+      "C": "They are joined together by DNA ligase.",
+      "D": "They are synthesized continuously.",
+      "E": "They are eventually joined to form a complete lagging strand."
+    },
+    "answer": "D",
+    "explanation": "Okazaki fragments are the hallmark of discontinuous synthesis, being generated piecemeal on the lagging strand and later joined. [Me]"
+  },
+  {
+    "question": "What is the source of energy for the formation of phosphodiester bonds during DNA synthesis?",
+    "options": {
+      "A": "ATP hydrolysis",
+      "B": "GTP hydrolysis",
+      "C": "The release of pyrophosphate (PPi) from dNTPs",
+      "D": "The action of DNA gyrase",
+      "E": "The binding of SSB proteins"
+    },
+    "answer": "C",
+    "explanation": "The energy required for the bond formation comes from the inherent energy stored in the dNTPs, released upon the cleavage of pyrophosphate. [Me]"
+  },
+  {
+    "question": "Which of the following proteins prevents single-stranded DNA from forming secondary structures during replication?",
+    "options": {
+      "A": "DnaA",
+      "B": "Helicase",
+      "C": "SSB",
+      "D": "Primase",
+      "E": "DNA gyrase"
+    },
+    "answer": "C",
+    "explanation": "SSBs, by binding to single-stranded DNA, prevent it from folding back on itself and forming secondary structures that could disrupt the replication process. [Me]"
+  },
+  {
+    "question": "Which enzyme is responsible for removing RNA primers from the newly synthesized DNA strand?",
+    "options": {
+      "A": "DNA polymerase I",
+      "B": "DNA polymerase II",
+      "C": "DNA polymerase III",
+      "D": "RNA polymerase",
+      "E": "DNA ligase"
+    },
+    "answer": "A",
+    "explanation": "DNA polymerase I has the specific 5' to 3' exonuclease activity required to remove the RNA primers, paving the way for their replacement with DNA. [Me]"
+  },
+  {
+    "question": "What is the role of DnaC in the initiation of DNA replication?",
+    "options": {
+      "A": "It synthesizes RNA primers.",
+      "B": "It unwinds the DNA double helix.",
+      "C": "It delivers DnaB (helicase) to the DUE.",
+      "D": "It repairs damaged DNA.",
+      "E": "It connects Okazaki fragments."
+    },
+    "answer": "C",
+    "explanation": "DnaC acts as a chaperone protein, facilitating the binding of DnaB (helicase) to the DUE, which is essential for unwinding the DNA. [Me]"
+  },
+  {
+    "question": "Which of the following statements about the replication fork is FALSE?",
+    "options": {
+      "A": "It is formed by the unwinding of the DNA double helix.",
+      "B": "It moves in the direction of DNA unwinding.",
+      "C": "It represents the site of active DNA synthesis.",
+      "D": "It always moves in the 5' to 3' direction.",
+      "E": "It contains both leading and lagging strand synthesis machinery."
+    },
+    "answer": "D",
+    "explanation": "While the replication fork moves in the direction of unwinding, its direction relative to the DNA strands depends on the specific location within the replicating molecule. [Me]"
+  },
+  {
+    "question": "What is the main reason that DNA polymerase needs a primer to initiate synthesis?",
+    "options": {
+      "A": "The primer provides the energy for DNA synthesis.",
+      "B": "The primer serves as a template for DNA polymerase.",
+      "C": "The primer provides the necessary 3' -OH group for the addition of the first nucleotide.",
+      "D": "The primer unwinds the DNA double helix.",
+      "E": "The primer prevents the reannealing of single-stranded DNA."
+    },
+    "answer": "C",
+    "explanation": "DNA polymerase can only extend an existing chain; it cannot start a new one. The primer provides the essential 3' -OH for the initial nucleotide attachment. [Me]"
+  },
+  {
+    "question": "What is the function of the DUE (DNA Unwinding Element) in the initiation of DNA replication?",
+    "options": {
+      "A": "It serves as the binding site for DnaA.",
+      "B": "It is the site where the DNA double helix initially unwinds.",
+      "C": "It is a short RNA sequence that primes DNA synthesis.",
+      "D": "It prevents the reannealing of single-stranded DNA.",
+      "E": "It removes positive supercoils generated during unwinding."
+    },
+    "answer": "B",
+    "explanation": "The DUE's inherent instability, due to its A=T richness, makes it the designated spot for the initial separation of the DNA strands. [Me]"
+  },
+  {
+    "question": "Which of the following statements accurately describes the difference between DNA polymerase I and DNA polymerase III?",
+    "options": {
+      "A": "DNA polymerase I is involved in replication, while DNA polymerase III is involved in repair.",
+      "B": "DNA polymerase I has high processivity, while DNA polymerase III has low processivity.",
+      "C": "DNA polymerase I is a multi-subunit enzyme, while DNA polymerase III is a single polypeptide chain.",
+      "D": "DNA polymerase I removes RNA primers and replaces them with DNA, while DNA polymerase III is the primary enzyme for synthesizing new DNA strands.",
+      "E": "DNA polymerase I can only synthesize DNA in the 5' to 3' direction, while DNA polymerase III can synthesize DNA in both directions."
+    },
+    "answer": "D",
+    "explanation": "This accurately captures the division of labor between the two polymerases, highlighting their distinct roles in replication. [Me]"
+  },
+  {
+    "question": "During DNA replication, which of the following moves along the DNA template?",
+    "options": {
+      "A": "The DNA polymerases",
+      "B": "The RNA primer",
+      "C": "The SSB proteins",
+      "D": "The Okazaki fragments",
+      "E": "The DNA double helix"
+    },
+    "answer": "E",
+    "explanation": "Rather than the enzymes themselves translocating, it is the DNA that is pulled through the relatively stationary replication machinery. [Me]"
+  },
+  {
+    "question": "What is the role of the -OH group at the 3' end of the RNA primer during DNA replication?",
+    "options": {
+      "A": "It provides energy for the formation of phosphodiester bonds.",
+      "B": "It serves as a recognition site for DNA polymerase.",
+      "C": "It acts as a nucleophile to attack the incoming dNTP.",
+      "D": "It prevents the reannealing of single-stranded DNA.",
+      "E": "It stabilizes the structure of the replication fork."
+    },
+    "answer": "C",
+    "explanation": "The -OH group is the key player in the nucleophilic attack that drives the formation of the phosphodiester bond, extending the DNA strand. [Me]"
+  },
+  {
+    "question": "What would happen if DNA gyrase was absent during DNA replication?",
+    "options": {
+      "A": "DNA replication would proceed normally.",
+      "B": "DNA replication would be slower.",
+      "C": "DNA replication would stop due to the accumulation of positive supercoils.",
+      "D": "The RNA primers would not be removed properly.",
+      "E": "The Okazaki fragments would not be joined together."
+    },
+    "answer": "C",
+    "explanation": "Without DNA gyrase to alleviate the torsional stress, the DNA would become increasingly supercoiled, ultimately halting the progression of the replication fork. [Me]"
+  },
+  {
+    "question": "In the context of DNA replication, what does 'semi-discontinuous' refer to?",
+    "options": {
+      "A": "The simultaneous synthesis of both leading and lagging strands.",
+      "B": "The continuous synthesis of the leading strand and the discontinuous synthesis of the lagging strand.",
+      "C": "The alternating replication of the two DNA strands.",
+      "D": "The periodic removal of RNA primers.",
+      "E": "The action of DNA gyrase to remove supercoils."
+    },
+    "answer": "B",
+    "explanation": "The term highlights the fundamental difference in synthesis between the continuously synthesized leading strand and the fragmented lagging strand. [Me]"
+  },
+  {
+    "question": "Which of the following is a characteristic of enzymes involved in DNA repair?",
+    "options": {
+      "A": "High processivity",
+      "B": "Low processivity",
+      "C": "Ability to unwind DNA",
+      "D": "Ability to synthesize RNA primers",
+      "E": "Ability to connect Okazaki fragments"
+    },
+    "answer": "B",
+    "explanation": "Since repair often involves short stretches of DNA, the enzymes involved do not need the high processivity characteristic of replicative polymerases. [Me]"
+  },
+  {
+    "question": "Which of the following statements is TRUE regarding the movement of enzymes during DNA replication?",
+    "options": {
+      "A": "The enzymes move along the DNA template.",
+      "B": "The enzymes remain relatively stationary, and the DNA moves.",
+      "C": "The enzymes move in a random fashion along the DNA.",
+      "D": "The movement of the enzymes depends on the ATP concentration.",
+      "E": "The movement of the enzymes is not essential for DNA replication."
+    },
+    "answer": "B",
+    "explanation": "The current model suggests that the enzymes are anchored, and the DNA is threaded through them, facilitating efficient and coordinated replication. [Me]"
+  },
+  {
+    "question": "Why is the term 'Okazaki fragment' used instead of its Chinese translation?",
+    "options": {
+      "A": "To honor the scientist who discovered these fragments.",
+      "B": "To ensure consistency in scientific communication.",
+      "C": "Because the Chinese translation is too long.",
+      "D": "Because the Chinese translation does not accurately reflect the concept.",
+      "E": "To avoid confusion with other biological terms."
+    },
+    "answer": "B",
+    "explanation": "Using the established term 'Okazaki fragment' promotes clarity and avoids potential misinterpretations or inconsistencies in scientific discussions. [Me]"
+  },
+  {
+    "question": "What is the significance of the fact that both leading and lagging strand polymerases are similar to dimers?",
+    "options": {
+      "A": "It allows for the simultaneous synthesis of both strands.",
+      "B": "It increases the speed of DNA replication.",
+      "C": "It ensures that both strands are synthesized with the same fidelity.",
+      "D": "It facilitates the coordination of leading and lagging strand synthesis at the replication fork.",
+      "E": "It allows for the efficient removal of RNA primers."
+    },
+    "answer": "D",
+    "explanation": "The dimeric nature helps synchronize the movement and activity of the polymerases, despite the opposite orientations of the strands being replicated. [Me]"
+  },
+  {
+    "question": "Why does DNA replication require multiple enzymes?",
+    "options": {
+      "A": "To ensure the accuracy of DNA replication.",
+      "B": "To increase the speed of DNA replication.",
+      "C": "To coordinate the different stages of DNA replication.",
+      "D": "To overcome the challenges posed by the structure of DNA.",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "The complexity of DNA replication necessitates a team of enzymes, each with specialized roles, to ensure accurate, efficient, and coordinated duplication of the genetic material. [Me]"
+  },
+  {
+    "question": "What is the main function of the origin of replication (oriC)?",
+    "options": {
+      "A": "To serve as the binding site for the replication machinery.",
+      "B": "To initiate the unwinding of the DNA double helix.",
+      "C": "To provide the energy for DNA replication.",
+      "D": "To prevent the reannealing of single-stranded DNA.",
+      "E": "To regulate the timing of DNA replication."
+    },
+    "answer": "A",
+    "explanation": "oriC acts as the assembly point for the proteins involved in replication initiation, marking the start site for the process. [Me]"
+  },
+  {
+    "question": "Which of the following is NOT a potential challenge to DNA replication?",
+    "options": {
+      "A": "The antiparallel nature of the DNA strands.",
+      "B": "The need for a primer to initiate DNA synthesis.",
+      "C": "The formation of positive supercoils during unwinding.",
+      "D": "The instability of single-stranded DNA.",
+      "E": "The abundance of dNTPs in the cell."
+    },
+    "answer": "E",
+    "explanation": "While the other options represent obstacles that the replication machinery must overcome, the availability of dNTPs is a prerequisite for, not a hindrance to, replication. [Me]"
+  },
+  {
+    "question": "Which of the following is a key difference between DNA replication in prokaryotes and eukaryotes?",
+    "options": {
+      "A": "Prokaryotes use DNA polymerase, while eukaryotes use RNA polymerase.",
+      "B": "Prokaryotes have a single origin of replication, while eukaryotes have multiple origins.",
+      "C": "Prokaryotes do not require primers for DNA synthesis, while eukaryotes do.",
+      "D": "Prokaryotes replicate their DNA continuously, while eukaryotes replicate their DNA discontinuously.",
+      "E": "Prokaryotes do not have Okazaki fragments, while eukaryotes do."
+    },
+    "answer": "B",
+    "explanation": "The presence of multiple origins of replication in eukaryotes allows for the efficient duplication of their larger and more complex genomes. [Outside Source]"
+  },
+  {
+    "question": "What is the significance of the high fidelity of DNA replication?",
+    "options": {
+      "A": "It ensures that the genetic information is passed on accurately to daughter cells.",
+      "B": "It prevents the accumulation of mutations.",
+      "C": "It allows for the evolution of new species.",
+      "D": "It maintains the stability of the genome.",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "The high fidelity of replication is paramount for preserving genetic information, preventing detrimental mutations, and ensuring the long-term stability of the species. [Outside Source]"
+  }
+]
