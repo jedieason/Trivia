@@ -1,0 +1,470 @@
+[
+{
+"question": "下列關於核苷酸的敘述，何者錯誤？",
+"options": {
+"A": "核苷酸可作為組成核酸的前驅物",
+"B": "核苷酸可參與能量代謝",
+"C": "核苷酸可作為蛋白質合成的中間產物",
+"D": "核苷酸可調節酵素活性",
+"E": "核苷酸無法與脂質結合"
+},
+"answer": "E",
+"explanation": "核苷酸可以與脂質結合形成生物合成中的重要中間產物，例如 CDP-acylglycerol。"
+},
+{
+"question": "下列關於 ATP 的敘述，何者正確？",
+"options": {
+"A": "ATP 的高能磷酸鍵位於核糖和磷酸基之間",
+"B": "ATP 水解一個磷酸根會釋放約 7.3 kcal/mol 的能量",
+"C": "ATP 水解兩個磷酸根會釋放約 14.6 kcal/mol 的能量",
+"D": "ATP 的 α 和 β 磷酸根之間水解會產生磷酸二酯鍵",
+"E": "五號碳的氧與 α 磷酸形成醚類的鍵結"
+},
+"answer": "B",
+"explanation": "ATP 水解一個磷酸根會釋放約 7.3 kcal/mol 的能量。 其高能磷酸鍵位於磷酸根和磷酸根之間，水解兩個磷酸根會釋放約 10.9 kcal/mol 的能量，且 α 和 β 磷酸根之間水解會產生焦磷酸鍵。 五號碳的氧與 α 磷酸形成酯類的鍵結。"
+},
+{
+"question": "下列何者不屬於核苷酸的生理功能？",
+"options": {
+"A": "作為第二傳訊者",
+"B": "作為蛋白質合成的能量來源",
+"C": "參與醣類的代謝",
+"D": "參與脂肪的合成",
+"E": "作為細胞膜的主要成分"
+},
+"answer": "E",
+"explanation": "核苷酸的生理功能包含作為第二傳訊者、蛋白質合成的能量來源、參與醣類的代謝以及脂肪的合成。 細胞膜的主要成分為磷脂。"
+},
+{
+"question": "下列關於 cAMP 的敘述，何者錯誤？",
+"options": {
+"A": "cAMP 為環狀核苷酸",
+"B": "cAMP 參與荷爾蒙調控",
+"C": "cAMP 的細胞內濃度約為 1 µmol/L",
+"D": "cAMP 可作為第二傳訊者",
+"E": "cAMP 可促進平滑肌的舒張"
+},
+"answer": "C",
+"explanation": "cAMP 的細胞內濃度約為 1 nmol/L。"
+},
+{
+"question": "下列何者並非嘌呤或嘧啶的互變異構？",
+"options": {
+"A": "enamine-imine",
+"B": "keto-enol",
+"C": "syn-anti",
+"D": "amino-imino",
+"E": "lactam-lactim"
+},
+"answer": "C",
+"explanation": "Syn-anti 描述的是核苷的構型異構物，並非嘌呤或嘧啶的互變異構。 嘌呤和嘧啶的互變異構包含 enamine-imine、keto-enol、amino-imino 以及 lactam-lactim。"
+},
+{
+"question": "下列關於 5-Fluorouracil 的敘述，何者錯誤？",
+"options": {
+"A": "5-Fluorouracil 是一種核苷酸類似物",
+"B": "5-Fluorouracil 可抑制 Thymidylate synthase 的活性",
+"C": "5-Fluorouracil 可促進細胞壞死",
+"D": "5-Fluorouracil 可用於癌症化療",
+"E": "5-Fluorouracil 會被癌細胞吸收並轉換成多種衍生物"
+},
+"answer": "C",
+"explanation": "5-Fluorouracil 會促進細胞凋亡，而非細胞壞死。"
+},
+{
+"question": "下列關於細胞凋亡的敘述，何者錯誤？",
+"options": {
+"A": "細胞凋亡是一種程序性的細胞死亡",
+"B": "細胞凋亡會引發發炎反應",
+"C": "細胞凋亡會將細胞內容物包好形成 apoptotic body",
+"D": "細胞凋亡可由 Bcl-2 蛋白引發",
+"E": "細胞凋亡較不會對周遭細胞造成傷害"
+},
+"answer": "B",
+"explanation": "細胞壞死會引發發炎反應，而細胞凋亡不會。"
+},
+{
+"question": "下列關於 TP53 基因的敘述，何者錯誤？",
+"options": {
+"A": "TP53 基因會產生 p53 蛋白",
+"B": "p53 蛋白是一種抑癌蛋白",
+"C": "p53 蛋白可促進細胞凋亡",
+"D": "TP53 基因突變可能導致癌症",
+"E": "TP53 基因突變會促進細胞凋亡"
+},
+"answer": "E",
+"explanation": "TP53 基因突變可能導致 p53 蛋白功能喪失，進而抑制細胞凋亡。"
+},
+{
+"question": "下列哪種物質可以作為 Sulfated proteoglycan 的硫酸根提供者？",
+"options": {
+"A": "ATP",
+"B": "cAMP",
+"C": "S-Adenosylmethionine",
+"D": "Adenosine 3ʹ-phosphate-5ʹ-phosphosulfate",
+"E": "UDP-glucuronic acid"
+},
+"answer": "D",
+"explanation": "Adenosine 3ʹ-phosphate-5ʹ-phosphosulfate 可作為 Sulfated proteoglycan 的硫酸根提供者。"
+},
+{
+"question": "下列關於 S-Adenosylmethionine 的敘述，何者錯誤？",
+"options": {
+"A": "S-Adenosylmethionine 是一種保健食品",
+"B": "S-Adenosylmethionine 具有抗憂鬱症的效果",
+"C": "S-Adenosylmethionine 可緩解肝臟疾病",
+"D": "S-Adenosylmethionine 可緩解骨性關節炎",
+"E": "S-Adenosylmethionine 是一種核苷酸"
+},
+"answer": "E",
+"explanation": "S-Adenosylmethionine 是一種由 AMP 衍生而來的輔酶，並非核苷酸。"
+},
+{
+"question": "下列何者並非常見的 AMP 衍生輔酶？",
+"options": {
+"A": "NAD+",
+"B": "FAD",
+"C": "Coenzyme A",
+"D": "cAMP",
+"E": "ATP"
+},
+"answer": "E",
+"explanation": "ATP 是一種核苷酸，並非由 AMP 衍生而來的輔酶。 常見的 AMP 衍生輔酶包含 NAD+、FAD、Coenzyme A 以及 cAMP。"
+},
+{
+"question": "下列關於嘌呤和嘧啶的敘述，何者錯誤？",
+"options": {
+"A": "嘌呤和嘧啶都是含氮的異環化合物",
+"B": "嘌呤含有兩個環，嘧啶含有一個環",
+"C": "嘌呤的分子量較嘧啶大",
+"D": "嘌呤和嘧啶的共軛雙鍵會吸收紫外光",
+"E": "嘌呤和嘧啶都是強鹼"
+},
+"answer": "E",
+"explanation": "嘌呤和嘧啶都是弱鹼 (pKb = 10 ~ 11)。"
+},
+{
+"question": "嘌呤和嘧啶的平均吸收波長為何？",
+"options": {
+"A": "200 nm",
+"B": "220 nm",
+"C": "240 nm",
+"D": "260 nm",
+"E": "280 nm"
+},
+"answer": "D",
+"explanation": "嘌呤和嘧啶的平均吸收波長為 260 nm。"
+},
+{
+"question": "下列關於核苷的敘述，何者錯誤？",
+"options": {
+"A": "核苷由嘌呤或嘧啶與五碳醣組成",
+"B": "核苷中的五碳醣可以是核糖或去氧核糖",
+"C": "嘌呤以編號 9 的氮和五碳醣的 C-1 鍵結",
+"D": "嘧啶以編號 3 的氮和五碳醣的 C-1 鍵結",
+"E": "核苷中的嘌呤或嘧啶和五碳醣之間形成 N-glycosidic bond"
+},
+"answer": "D",
+"explanation": "嘧啶以編號 1 的氮和五碳醣的 C-1 鍵結。"
+},
+{
+"question": "下列關於核苷構型異構物的敘述，何者正確？",
+"options": {
+"A": "鹼基和五碳醣的環同側為 anti form",
+"B": "鹼基和五碳醣的環反側為 syn form",
+"C": "自然界中 syn form 的含量較多",
+"D": "syn form 和 anti form 之間的轉換不需要斷鍵",
+"E": "自然界中 anti form 的含量較多是因為立體阻礙較小"
+},
+"answer": "E",
+"explanation": "鹼基和五碳醣的環同側為 syn form，反側為 anti form。 自然界中 anti form 的含量較多是因為立體阻礙較小。 兩者之間的轉換需要斷鍵，因為 N−C 鍵無法自由旋轉。"
+},
+{
+"question": "下列關於核苷酸的敘述，何者錯誤？",
+"options": {
+"A": "核苷酸由含氮鹼基、五碳醣和磷酸基組成",
+"B": "五碳醣的 C-1 與含氮鹼基以 N-glycosidic bond 連接",
+"C": "五碳醣的 C-5 與磷酸根以酯鍵連接",
+"D": "兩個磷酸根之間以肽鍵連接",
+"E": "核苷酸的磷酸基可水解"
+},
+"answer": "D",
+"explanation": "兩個磷酸根之間以酸酐鍵連接。"
+},
+{
+"question": "下列何者是去氧核糖核苷酸的簡寫？",
+"options": {
+"A": "AMP",
+"B": "dAMP",
+"C": "ADP",
+"D": "dADP",
+"E": "ATP"
+},
+"answer": "B",
+"explanation": "去氧核糖核苷酸的簡寫是在核苷酸的前面加一個 d 來表示，例如 dAMP。"
+},
+{
+"question": "下列關於 TMP 和 dTMP 的敘述，何者正確？",
+"options": {
+"A": "TMP 和 dTMP 的結構不同",
+"B": "TMP 的 C-2 上接的是 OH",
+"C": "dTMP 的 C-2 上接的是 H",
+"D": "自然界中 TMP 和 dTMP 都存在",
+"E": "TMP 的含量較 dTMP 多"
+},
+"answer": "C",
+"explanation": "TMP 和 dTMP 相同，自然界中 TMP 從還原態的 dUMP 產生，C-2 上只能接 H (即以 dTMP 形式存在)。"
+},
+{
+"question": "下列關於核苷酸修飾的敘述，何者錯誤？",
+"options": {
+"A": "含氮鹼基可以接上甲基或 OH 等修飾",
+"B": "核苷酸修飾可以控制基因型的表達",
+"C": "核苷酸修飾可以用於基因組標記",
+"D": "核苷酸修飾只存在於實驗室合成中",
+"E": "核苷酸修飾可以影響基因型表現與否"
+},
+"answer": "D",
+"explanation": "核苷酸修飾可以存在於自然界中。"
+},
+{
+"question": "Hypoxanthine、Xanthine 和 Uric Acid 是哪種鹼基的修飾？",
+"options": {
+"A": "Adenine",
+"B": "Guanine",
+"C": "Cytosine",
+"D": "Thymine",
+"E": "Uracil"
+},
+"answer": "A",
+"explanation": "Hypoxanthine、Xanthine 和 Uric Acid 是 Adenine 和 Guanine 代謝的中間產物，最終形成尿酸排出體外。"
+},
+{
+"question": "咖啡因是由 Xanthine 經過何種修飾形成？",
+"options": {
+"A": "接上一個甲基",
+"B": "接上兩個甲基",
+"C": "接上三個甲基",
+"D": "接上四個甲基",
+"E": "接上五個甲基"
+},
+"answer": "C",
+"explanation": "咖啡因是由 Xanthine 接上三個甲基形成的 Trimethylxanthine。"
+},
+{
+"question": "可可鹼和茶鹼在 Xanthine 的哪些位置接上甲基？",
+"options": {
+"A": "N-1 和 N-3",
+"B": "N-1 和 N-7",
+"C": "N-3 和 N-7",
+"D": "N-3 和 N-9",
+"E": "N-7 和 N-9"
+},
+"answer": "C",
+"explanation": "可可鹼在 N-3、N-7 接上甲基，茶鹼在 N-1、N-3 接上甲基。"
+},
+{
+"question": "下列關於核苷酸酸性的敘述，何者錯誤？",
+"options": {
+"A": "核苷酸上的磷酸基會水解",
+"B": "第一個磷酸基的 pKa 約為 1.0",
+"C": "第二個磷酸基的 pKa 約為 6.2",
+"D": "在正常生理環境中，核苷酸帶正電",
+"E": "pKa = 1.0 的磷酸基較 pKa = 6.2 的磷酸基不穩定"
+},
+"answer": "D",
+"explanation": "在正常生理環境中，核苷酸帶負電。"
+},
+{
+"question": "下列關於核苷酸吸收紫外光的敘述，何者錯誤？",
+"options": {
+"A": "核苷酸的吸收光譜和 pH 值有關",
+"B": "在 pH ＝ 7.0 時，核苷酸的吸收峰在 260 nm",
+"C": "紫外光會讓核苷酸進入激發態",
+"D": "紫外光不會造成核苷酸的修飾",
+"E": "紫外光可能導致 DNA 的受損或突變"
+},
+"answer": "D",
+"explanation": "紫外光的吸收會讓核苷酸進入激發態，可能會造成核苷酸不正常的修飾。"
+},
+{
+"question": "下列關於胸腺嘧啶二聚體的敘述，何者錯誤？",
+"options": {
+"A": "胸腺嘧啶二聚體是由兩個 Thymine 之間形成共價鍵",
+"B": "胸腺嘧啶二聚體會導致 DNA 的受損",
+"C": "胸腺嘧啶二聚體是由紫外光造成",
+"D": "胸腺嘧啶二聚體會導致基因突變",
+"E": "胸腺嘧啶二聚體可以修復 DNA 損傷"
+},
+"answer": "E",
+"explanation": "胸腺嘧啶二聚體是 DNA 的損傷，而非 DNA 修復的機制。"
+},
+{
+"question": "下列關於 cGMP 的敘述，何者錯誤？",
+"options": {
+"A": "cGMP 為環狀核苷酸",
+"B": "cGMP 參與荷爾蒙調控",
+"C": "cGMP 可作為第二傳訊者",
+"D": "cGMP 可促進平滑肌的收縮",
+"E": "cGMP 可由 GTP 環化而成"
+},
+"answer": "D",
+"explanation": "cGMP 可促進平滑肌的舒張。"
+},
+{
+"question": "下列哪種酵素可以將 GTP 環化成 cGMP？",
+"options": {
+"A": "Adenylyl cyclase",
+"B": "Guanylyl cyclase",
+"C": "Phosphodiesterase",
+"D": "Thymidylate synthase",
+"E": "Protein kinase"
+},
+"answer": "B",
+"explanation": "Guanylyl cyclase 可以將 GTP 環化成 cGMP。"
+},
+{
+"question": "下列哪種物質可以抑制 cGMP 的分解？",
+"options": {
+"A": "NO",
+"B": "ATP",
+"C": "PDE5",
+"D": "GTP",
+"E": "cAMP"
+},
+"answer": "C",
+"explanation": "PDE5 (phosphodiesterase type 5 inhibitor) 可以抑制 cGMP 的分解。"
+},
+{
+"question": "下列關於 UDP-sugar 衍生物的敘述，何者錯誤？",
+"options": {
+"A": "UDP-sugar 衍生物參與醣類的 epimerization",
+"B": "UDP-sugar 衍生物參與肝醣的合成",
+"C": "UDP-sugar 衍生物參與雙醣的合成",
+"D": "UDP-sugar 衍生物參與醣蛋白的合成",
+"E": "UDP-sugar 衍生物參與核酸的合成"
+},
+"answer": "E",
+"explanation": "UDP-sugar 衍生物參與醣類的代謝，不參與核酸的合成。"
+},
+{
+"question": "下列哪種物質可以與膽紅素形成 Urinary glucuronide conjugate？",
+"options": {
+"A": "UDP-glucose",
+"B": "UDP-galactose",
+"C": "UDP-glucuronic acid",
+"D": "CDP-acylglycerol",
+"E": "S-Adenosylmethionine"
+},
+"answer": "C",
+"explanation": "UDP-glucuronic acid 可以與膽紅素形成 Urinary glucuronide conjugate。"
+},
+{
+"question": "下列哪種核苷酸參與脂肪的合成？",
+"options": {
+"A": "AMP",
+"B": "GMP",
+"C": "CMP",
+"D": "TMP",
+"E": "UMP"
+},
+"answer": "C",
+"explanation": "CTP 參與脂肪的合成。"
+},
+{
+"question": "下列關於磷酸酐的敘述，何者錯誤？",
+"options": {
+"A": "磷酸酐是由兩個磷酸根脫水形成",
+"B": "磷酸酐具有較高的 group transfer potential",
+"C": "磷酸酐又稱為焦磷酸",
+"D": "磷酸酐是一種酯類化合物",
+"E": "磷酸酐水解會釋放能量"
+},
+"answer": "D",
+"explanation": "磷酸酐是一種酸酐化合物。"
+},
+{
+"question": "下列關於核苷酸類似物的敘述，何者錯誤？",
+"options": {
+"A": "核苷酸類似物可以抑制合成核酸的酵素",
+"B": "核苷酸類似物可以作為合成核酸的材料",
+"C": "核苷酸類似物可以導致鹼基無法配對",
+"D": "核苷酸類似物只存在於自然界中",
+"E": "核苷酸類似物可以用於癌症化療"
+},
+"answer": "D",
+"explanation": "核苷酸類似物可以經由人工合成。"
+},
+{
+"question": "下列哪種物質是 Positive allosteric regulation 的例子？",
+"options": {
+"A": "酵素與變構調節物結合後被抑制",
+"B": "酵素與變構調節物結合後被活化",
+"C": "酵素與受質結合後被抑制",
+"D": "酵素與受質結合後被活化",
+"E": "酵素與抑制劑結合後被活化"
+},
+"answer": "B",
+"explanation": "Positive allosteric regulation 指的是酵素的變構調節位與變構調節物結合後，酵素被活化 (turn on)，可與受質結合。"
+},
+{
+"question": "下列哪種物質是 Negative allosteric regulation 的例子？",
+"options": {
+"A": "酵素與變構調節物結合後被抑制",
+"B": "酵素與變構調節物結合後被活化",
+"C": "酵素與受質結合後被抑制",
+"D": "酵素與受質結合後被活化",
+"E": "酵素與抑制劑結合後被活化"
+},
+"answer": "A",
+"explanation": "Negative allosteric regulation 指的是酵素的變構調節位與變構調節物結合後，改變酵素結構使其失去活性，酵素被抑制 (turn off)。"
+},
+{
+"question": "下列關於內醯胺的敘述，何者錯誤？",
+"options": {
+"A": "內醯胺的命名規則是根據環的大小",
+"B": "β-lactam 含有三個碳原子",
+"C": "γ-lactam 含有四個碳原子",
+"D": "δ-lactam 含有五個碳原子",
+"E": "ε-lactam 含有六個碳原子"
+},
+"answer": "B",
+"explanation": "β-lactam 含有四個原子，包含一個氮原子和三個碳原子。"
+},
+{
+"question": "下列哪種抗生素具有 β-lactam 的結構？",
+"options": {
+"A": "阿莫西林",
+"B": "紅黴素",
+"C": "四環素",
+"D": "氯黴素",
+"E": "盤尼西林"
+},
+"answer": "E",
+"explanation": "盤尼西林 (penicillin) 具有 β-lactam 的結構。"
+},
+{
+"question": "下列關於核苷酸在訊息傳導中角色的敘述，何者錯誤？",
+"options": {
+"A": "環狀 cAMP 和 cGMP 在荷爾蒙調節中扮演第二傳訊者",
+"B": "GTP 和 GDP 在 signal transduction pathway 中扮演重要角色",
+"C": "細胞膜上的受體與初級傳訊者結合後，會活化 G protein",
+"D": "G protein 被磷酸化後會使 GTP 變為 GDP",
+"E": "GTP-G protein 複合物會活化 Adenylyl cyclase"
+},
+"answer": "D",
+"explanation": "細胞膜上的受體與初級傳訊者結合後，受體上帶有 GDP 的 G protein 會被磷酸化，並使 GDP 變為 GTP。"
+},
+{
+"question": "下列哪種核苷酸衍生物可用於治療愛滋病？",
+"options": {
+"A": "ATP",
+"B": "cAMP",
+"C": "AZT",
+"D": "Acyclovir",
+"E": "Ganciclovir"
+},
+"answer": "C",
+"explanation": "AZT (疊氮胸苷) 是一種核苷酸衍生物，可用於治療愛滋病。雖然文章中沒有提到，但這是一個生物學的常識。AZT 可以抑制 HIV 病毒複製所需的酵素 (逆轉錄酶)。"
+}
+]
