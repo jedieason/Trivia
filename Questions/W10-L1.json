@@ -1,0 +1,530 @@
+[
+{
+"question": "What is the fundamental unit of chromatin structure in eukaryotic cells?",
+"options": {
+"A": "Histone octamer",
+"B": "DNA molecule",
+"C": "Nucleosome",
+"D": "Chromatin fiber",
+"E": "Chromosome scaffold"
+},
+"answer": "C",
+"explanation": "A nucleosome is the basic repeating unit of eukaryotic chromatin, consisting of a segment of DNA wrapped around a histone octamer."
+},
+{
+"question": "Which of the following histones is NOT part of the histone octamer?",
+"options": {
+"A": "H1",
+"B": "H2A",
+"C": "H2B",
+"D": "H3",
+"E": "H4"
+},
+"answer": "A",
+"explanation": "The histone octamer is composed of two copies each of H2A, H2B, H3, and H4. H1 is a linker histone that binds to the DNA between nucleosomes but is not part of the octamer itself."
+},
+{
+"question": "What is the primary function of histone proteins in chromatin?",
+"options": {
+"A": "To catalyze DNA replication",
+"B": "To repair damaged DNA",
+"C": "To package and organize DNA",
+"D": "To transport genetic information",
+"E": "To regulate gene expression"
+},
+"answer": "C",
+"explanation": "Histones are the major protein component of chromatin and play a crucial role in packaging and condensing DNA within the nucleus. This allows for the efficient storage and organization of the genetic material."
+},
+{
+"question": "Which type of covalent modification is associated with the activation of gene transcription?",
+"options": {
+"A": "Methylation of H1",
+"B": "Phosphorylation of H3",
+"C": "Acetylation of H3 and H4",
+"D": "ADP-ribosylation of H2A",
+"E": "SUMOylation of H2B"
+},
+"answer": "C",
+"explanation": "Acetylation of histones H3 and H4 is generally associated with increased accessibility of DNA and activation of gene transcription. This modification neutralizes the positive charge of lysine residues on histones, reducing their interaction with negatively charged DNA."
+},
+{
+"question": "Which of the following statements about histone methylation is TRUE?",
+"options": {
+"A": "It always leads to gene silencing",
+"B": "It is involved in DNA repair mechanisms",
+"C": "It can either activate or repress gene expression",
+"D": "It is exclusively associated with heterochromatin formation",
+"E": "It prevents histone acetylation"
+},
+"answer": "C",
+"explanation": "Histone methylation, the addition of methyl groups to histone proteins, can have varied effects on gene expression. Depending on the specific amino acid residue and the degree of methylation, it can either activate or repress gene transcription."
+},
+{
+"question": "What is the role of histone phosphorylation in chromatin structure?",
+"options": {
+"A": "It facilitates DNA replication",
+"B": "It promotes chromatin condensation",
+"C": "It activates gene transcription",
+"D": "It is involved in DNA repair",
+"E": "It regulates histone methylation"
+},
+"answer": "B",
+"explanation": "Phosphorylation of histone H1 is associated with chromatin condensation, particularly during chromosome condensation in mitosis. It is thought to alter the interaction of H1 with DNA, contributing to the tighter packing of chromatin."
+},
+{
+"question": "Which covalent modification is associated with DNA repair processes?",
+"options": {
+"A": "Acetylation",
+"B": "Methylation",
+"C": "Phosphorylation",
+"D": "ADP-ribosylation",
+"E": "SUMOylation"
+},
+"answer": "D",
+"explanation": "ADP-ribosylation of histones has been implicated in DNA repair mechanisms. It is thought to play a role in signaling DNA damage and recruiting repair machinery to the affected sites."
+},
+{
+"question": "What is the function of monoubiquitylation in the context of chromatin?",
+"options": {
+"A": "It promotes histone degradation",
+"B": "It regulates gene expression",
+"C": "It facilitates DNA replication",
+"D": "It is involved in DNA repair",
+"E": "It stabilizes nucleosome structure"
+},
+"answer": "B",
+"explanation": "Monoubiquitylation, the attachment of a single ubiquitin molecule to a histone, has been linked to the regulation of gene expression. It can influence both gene activation and silencing, as well as heterochromatin formation."
+},
+{
+"question": "How does SUMOylation affect gene transcription?",
+"options": {
+"A": "It enhances gene expression",
+"B": "It represses gene expression",
+"C": "It has no direct effect on gene transcription",
+"D": "It promotes alternative splicing",
+"E": "It facilitates mRNA export from the nucleus"
+},
+"answer": "B",
+"explanation": "SUMOylation, the covalent attachment of Small Ubiquitin-related Modifier (SUMO) proteins to histones, is generally associated with the repression of gene transcription. It is thought to recruit transcriptional repressors and modify chromatin structure to limit gene expression."
+},
+{
+"question": "What is the central concept of epigenetics?",
+"options": {
+"A": "Changes in DNA sequence due to mutations",
+"B": "Heritable changes in gene expression without alterations to the underlying DNA sequence",
+"C": "The role of environmental factors in shaping genetic traits",
+"D": "The study of gene expression patterns in different cell types",
+"E": "The regulation of protein synthesis by RNA molecules"
+},
+"answer": "B",
+"explanation": "Epigenetics focuses on heritable changes in gene expression that occur without modifications to the DNA sequence itself. These changes can be influenced by factors like histone modifications and DNA methylation, leading to phenotypic variations even with identical genetic codes."
+},
+{
+"question": "What is the function of histone acetyltransferases (HATs)?",
+"options": {
+"A": "They remove acetyl groups from histones",
+"B": "They add acetyl groups to histones",
+"C": "They methylate histones",
+"D": "They phosphorylate histones",
+"E": "They degrade histones"
+},
+"answer": "B",
+"explanation": "Histone acetyltransferases (HATs) are enzymes that catalyze the addition of acetyl groups to lysine residues on histone proteins. This modification is often associated with increased gene expression."
+},
+{
+"question": "How do histone deacetylases (HDACs) affect chromatin structure?",
+"options": {
+"A": "They promote chromatin relaxation",
+"B": "They induce chromatin condensation",
+"C": "They facilitate DNA replication",
+"D": "They repair damaged DNA",
+"E": "They regulate histone methylation"
+},
+"answer": "B",
+"explanation": "Histone deacetylases (HDACs) remove acetyl groups from histones, which typically leads to chromatin condensation and transcriptional repression. This is because the removal of acetyl groups allows for stronger interactions between histones and DNA, making the chromatin less accessible to transcriptional machinery."
+},
+{
+"question": "What is a potential implication of increased HDAC activity in cancer cells?",
+"options": {
+"A": "Activation of tumor suppressor genes",
+"B": "Increased DNA repair activity",
+"C": "Suppression of oncogene expression",
+"D": "Enhanced immune response against cancer cells",
+"E": "Silencing of tumor suppressor genes"
+},
+"answer": "E",
+"explanation": "Elevated HDAC activity in cancer cells can contribute to the silencing of tumor suppressor genes. By removing acetyl groups from histones, HDACs can promote chromatin condensation and repress the expression of genes that normally help to regulate cell growth and prevent tumor development."
+},
+{
+"question": "Which of the following factors can influence epigenetic modifications?",
+"options": {
+"A": "Environmental toxins",
+"B": "Diet",
+"C": "Age",
+"D": "Stress",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "Epigenetic modifications are not fixed and can be influenced by a wide range of environmental and lifestyle factors, including exposure to toxins, dietary habits, aging, and stress levels. These factors can alter patterns of histone modifications and DNA methylation, leading to changes in gene expression and potentially impacting health outcomes."
+},
+{
+"question": "How many base pairs of DNA are wrapped around a histone octamer?",
+"options": {
+"A": "146",
+"B": "164",
+"C": "182",
+"D": "200",
+"E": "218"
+},
+"answer": "A",
+"explanation": "Approximately 146 base pairs of DNA wrap around a histone octamer in a left-handed superhelical turn, forming the core particle of a nucleosome. This packaging helps to condense and protect the DNA molecule."
+},
+{
+"question": "What is the role of histone H1 in chromatin organization?",
+"options": {
+"A": "It is part of the histone octamer",
+"B": "It binds to the DNA linker region between nucleosomes",
+"C": "It facilitates histone acetylation",
+"D": "It promotes nucleosome disassembly",
+"E": "It regulates DNA replication"
+},
+"answer": "B",
+"explanation": "Histone H1, often referred to as the linker histone, binds to the DNA segment that links adjacent nucleosomes. It helps to further condense chromatin by bringing nucleosomes closer together."
+},
+{
+"question": "What is the function of the chromosome scaffold?",
+"options": {
+"A": "To provide a framework for chromatin attachment",
+"B": "To regulate histone modifications",
+"C": "To initiate DNA replication",
+"D": "To repair damaged DNA",
+"E": "To transport chromosomes during cell division"
+},
+"answer": "A",
+"explanation": "The chromosome scaffold is a proteinaceous structure that serves as a framework for the attachment and organization of chromatin loops and domains. It contributes to the higher-order structure of chromosomes."
+},
+{
+"question": "During interphase, how are chromatin fibers organized within the nucleus?",
+"options": {
+"A": "They are randomly dispersed throughout the nucleus",
+"B": "They are tightly condensed into chromosomes",
+"C": "They form loops and domains attached to the nuclear matrix",
+"D": "They are segregated into distinct compartments based on gene activity",
+"E": "They are associated with the nuclear envelope"
+},
+"answer": "C",
+"explanation": "In interphase, chromatin fibers form loops and domains that are anchored to the nuclear matrix, a network of proteins within the nucleus. This organization helps to spatially arrange and regulate different regions of the genome."
+},
+{
+"question": "What is the approximate packing ratio achieved by DNA condensation in chromatin?",
+"options": {
+"A": "10",
+"B": "100",
+"C": "1,000",
+"D": "8,000",
+"E": "100,000"
+},
+"answer": "D",
+"explanation": "The intricate packaging of DNA in chromatin results in a remarkable packing ratio of approximately 8,000. This means that the DNA molecule is condensed to about 1/8,000th of its extended length, allowing it to fit within the confines of the nucleus."
+},
+{
+"question": "Which of the following is characteristic of euchromatin?",
+"options": {
+"A": "Highly condensed chromatin structure",
+"B": "Transcriptionally inactive",
+"C": "Rich in repetitive DNA sequences",
+"D": "Relatively open and accessible chromatin structure",
+"E": "Resistant to DNase I digestion"
+},
+"answer": "D",
+"explanation": "Euchromatin is characterized by a relatively open and accessible chromatin structure, allowing for active gene transcription. This less condensed state makes it more susceptible to digestion by enzymes like DNase I."
+},
+{
+"question": "What distinguishes heterochromatin from euchromatin?",
+"options": {
+"A": "Heterochromatin is transcriptionally active, while euchromatin is inactive",
+"B": "Heterochromatin is less condensed than euchromatin",
+"C": "Heterochromatin is rich in genes, while euchromatin is primarily composed of repetitive sequences",
+"D": "Heterochromatin is more condensed and less transcriptionally active than euchromatin",
+"E": "Heterochromatin is found only in the cytoplasm, while euchromatin is located in the nucleus"
+},
+"answer": "D",
+"explanation": "Heterochromatin is characterized by a more condensed and tightly packed chromatin structure compared to euchromatin. This dense packaging generally makes it less accessible to transcriptional machinery, resulting in lower levels of gene expression."
+},
+{
+"question": "Which of the following regions of a chromosome is typically composed of constitutive heterochromatin?",
+"options": {
+"A": "Telomeres",
+"B": "Gene promoters",
+"C": "Origins of replication",
+"D": "Enhancers",
+"E": "Ribosomal RNA gene clusters"
+},
+"answer": "A",
+"explanation": "Constitutive heterochromatin, which remains permanently condensed, is commonly found in regions like centromeres and telomeres. These regions play structural roles in chromosomes and are generally not involved in gene expression."
+},
+{
+"question": "What is the difference between constitutive and facultative heterochromatin?",
+"options": {
+"A": "Constitutive heterochromatin is permanently condensed, while facultative heterochromatin can switch between condensed and decondensed states",
+"B": "Constitutive heterochromatin is found in all cell types, while facultative heterochromatin is specific to certain cell lineages",
+"C": "Constitutive heterochromatin is rich in genes, while facultative heterochromatin is primarily composed of repetitive sequences",
+"D": "Constitutive heterochromatin is actively transcribed, while facultative heterochromatin is silenced",
+"E": "Constitutive heterochromatin is involved in DNA replication, while facultative heterochromatin plays a role in DNA repair"
+},
+"answer": "A",
+"explanation": "Constitutive heterochromatin remains in a condensed state throughout the cell cycle and in all cell types. In contrast, facultative heterochromatin can switch between condensed and decondensed states, depending on developmental stage or cellular signals. This allows for the dynamic regulation of gene expression."
+},
+{
+"question": "What is the role of retinoblastoma protein (pRb) in chromatin regulation?",
+"options": {
+"A": "It promotes chromatin decondensation",
+"B": "It inhibits DNA replication",
+"C": "It activates gene transcription",
+"D": "It is involved in DNA repair",
+"E": "It represses transcription by re-condensing chromatin"
+},
+"answer": "E",
+"explanation": "Retinoblastoma protein (pRb) plays a role in regulating the cell cycle and transcription. One of its functions is to repress transcription by promoting chromatin condensation. It can bind to and recruit chromatin-modifying enzymes that compact chromatin, thereby limiting gene expression."
+},
+{
+"question": "What happens to chromatin during the M phase of the cell cycle?",
+"options": {
+"A": "It decondenses into an extended form",
+"B": "It replicates to produce two identical copies",
+"C": "It undergoes extensive recombination",
+"D": "It condenses into highly compact chromosomes",
+"E": "It is degraded and recycled"
+},
+"answer": "D",
+"explanation": "During the M phase, or mitosis, chromatin undergoes a dramatic condensation process, forming highly compact structures known as chromosomes. This condensation is essential for the accurate segregation of genetic material into daughter cells during cell division."
+},
+{
+"question": "What structures connect sister chromatids?",
+"options": {
+"A": "Telomeres",
+"B": "Centromeres",
+"C": "Kinetochores",
+"D": "Histone octamers",
+"E": "Nuclear pores"
+},
+"answer": "B",
+"explanation": "Sister chromatids, the two identical copies of a duplicated chromosome, are held together by a specialized region called the centromere. This connection ensures that sister chromatids remain paired until they are properly separated during cell division."
+},
+{
+"question": "What is the function of the kinetochore?",
+"options": {
+"A": "To protect chromosome ends from degradation",
+"B": "To initiate DNA replication",
+"C": "To regulate gene expression",
+"D": "To serve as the attachment site for microtubules during cell division",
+"E": "To repair damaged DNA"
+},
+"answer": "D",
+"explanation": "The kinetochore is a protein complex that assembles on the centromere of a chromosome. It serves as the attachment point for microtubules, the dynamic fibers that pull sister chromatids apart during cell division."
+},
+{
+"question": "Why are centromeres enriched in AT-rich DNA sequences?",
+"options": {
+"A": "AT base pairs are more stable than GC base pairs",
+"B": "AT-rich sequences facilitate DNA replication",
+"C": "AT base pairs form stronger hydrogen bonds",
+"D": "AT-rich sequences bind tightly to histone proteins",
+"E": "AT base pairs provide flexibility for bending and spindle attachment"
+},
+"answer": "E",
+"explanation": "Centromeres, where kinetochores assemble and microtubules attach, are often enriched in AT-rich DNA sequences. This is because AT base pairs have two hydrogen bonds, compared to three in GC base pairs, making AT-rich regions more flexible and easier to bend. This flexibility is important for centromere function during chromosome segregation."
+},
+{
+"question": "What is the primary function of telomeres?",
+"options": {
+"A": "To regulate gene expression",
+"B": "To initiate DNA replication",
+"C": "To protect chromosome ends from degradation and fusion",
+"D": "To serve as attachment sites for the nuclear envelope",
+"E": "To repair damaged DNA"
+},
+"answer": "C",
+"explanation": "Telomeres are specialized DNA-protein structures found at the ends of linear chromosomes. They protect chromosome ends from degradation, fusion with other chromosomes, and being recognized as DNA damage. This protection is crucial for maintaining chromosome stability and preventing genomic instability."
+},
+{
+"question": "What type of DNA sequence is characteristic of telomeres?",
+"options": {
+"A": "AT-rich repeats",
+"B": "GC-rich repeats",
+"C": "Random nucleotide sequences",
+"D": "Tandem repeats of TG sequences",
+"E": "Palindromic sequences"
+},
+"answer": "D",
+"explanation": "Telomeres are typically composed of tandem repeats of short TG-rich sequences, such as TTAGGG in humans. These repeats can extend for thousands of base pairs at chromosome ends, providing a buffer zone to protect coding sequences from erosion during DNA replication."
+},
+{
+"question": "How does the structure of telomeric DNA contribute to its protective function?",
+"options": {
+"A": "The repetitive sequences form a tight double helix that resists degradation",
+"B": "The TG-rich sequences can fold back on themselves to form a protective loop structure",
+"C": "The telomeric DNA binds tightly to histone proteins, preventing access by nucleases",
+"D": "The telomeric DNA is highly methylated, which inhibits DNA repair enzymes",
+"E": "The telomeric DNA is associated with specialized proteins that prevent its degradation"
+},
+"answer": "B",
+"explanation": "The repetitive TG-rich sequences in telomeric DNA can fold back on themselves, forming a loop structure called a T-loop. This loop, along with associated proteins, helps to protect the chromosome end by preventing it from being recognized as a DNA break and from undergoing unwanted fusion events."
+},
+{
+"question": "What is the role of telomerase in maintaining telomere length?",
+"options": {
+"A": "It repairs DNA damage at telomeres",
+"B": "It degrades telomeric DNA sequences",
+"C": "It adds nucleotides to the ends of chromosomes using an RNA template",
+"D": "It prevents telomere shortening during DNA replication",
+"E": "It regulates the expression of telomere-associated genes"
+},
+"answer": "C",
+"explanation": "Telomerase is a specialized enzyme, a reverse transcriptase, that helps to maintain telomere length by adding nucleotide repeats to chromosome ends. It carries its own RNA template that it uses to synthesize telomeric DNA, counteracting the gradual shortening that occurs during DNA replication."
+},
+{
+"question": "What type of enzyme is telomerase?",
+"options": {
+"A": "DNA polymerase",
+"B": "RNA polymerase",
+"C": "Ligase",
+"D": "Reverse transcriptase",
+"E": "Helicase"
+},
+"answer": "D",
+"explanation": "Telomerase is classified as a reverse transcriptase because it uses an RNA template to synthesize DNA. This is unusual, as most DNA polymerases use a DNA template to make new DNA."
+},
+{
+"question": "What are introns?",
+"options": {
+"A": "Coding sequences in DNA that are translated into protein",
+"B": "Non-coding sequences in DNA that are transcribed but later removed from RNA transcripts",
+"C": "Regulatory sequences that control gene expression",
+"D": "Repetitive DNA elements that have no known function",
+"E": "Sequences that protect chromosome ends from degradation"
+},
+"answer": "B",
+"explanation": "Introns are non-coding sequences found within genes. They are transcribed into RNA along with coding sequences (exons) but are later removed during RNA processing, a process called splicing. The remaining exons are joined together to form the mature messenger RNA (mRNA) that will be translated into protein."
+},
+{
+"question": "What is the approximate percentage of the human genome that is composed of repetitive sequences?",
+"options": {
+"A": "Less than 1%",
+"B": "10%",
+"C": "30%",
+"D": "50%",
+"E": "Over 90%"
+},
+"answer": "C",
+"explanation": "While more than half of the human genome consists of unique, non-repetitive DNA sequences, a substantial portion, at least 30%, is composed of repetitive DNA elements. These repeats can vary in length and function, and some have been implicated in genetic variation and disease."
+},
+{
+"question": "What are LINEs and SINEs?",
+"options": {
+"A": "Types of histone proteins",
+"B": "Enzymes involved in DNA replication",
+"C": "Classes of repetitive DNA elements",
+"D": "Regulatory sequences that control gene expression",
+"E": "Structural components of chromosomes"
+},
+"answer": "C",
+"explanation": "LINEs (Long Interspersed Nuclear Elements) and SINEs (Short Interspersed Nuclear Elements) are two major classes of repetitive DNA elements found in eukaryotic genomes. LINEs are typically 6-7 kbp long and can transpose (move) within the genome, while SINEs are shorter, around 70-300 bp, and rely on LINEs for their transposition."
+},
+{
+"question": "How do retroposons contribute to the presence of repetitive sequences in DNA?",
+"options": {
+"A": "They induce errors during DNA replication, leading to duplication of DNA segments",
+"B": "They are viruses that integrate their DNA into the host genome",
+"C": "They are transcribed into RNA, reverse transcribed back into DNA, and then inserted into new genomic locations",
+"D": "They facilitate recombination between homologous chromosomes",
+"E": "They promote the formation of DNA loops and hairpins"
+},
+"answer": "C",
+"explanation": "Retroposons, including LINEs, are mobile genetic elements that contribute to the expansion of repetitive sequences in DNA. They are transcribed into RNA, then reverse transcribed back into DNA by an enzyme called reverse transcriptase. These newly synthesized DNA copies can then integrate into different locations within the genome, leading to the accumulation of repetitive elements."
+},
+{
+"question": "What is the Alu family of repetitive elements?",
+"options": {
+"A": "A type of LINE element found in primates",
+"B": "A type of SINE element found in the human genome",
+"C": "A type of microsatellite repeat associated with genetic diseases",
+"D": "A type of telomeric repeat that protects chromosome ends",
+"E": "A type of regulatory element that controls gene expression"
+},
+"answer": "B",
+"explanation": "The Alu family is a prominent example of SINE elements found in the human genome. These short repetitive sequences, named for the AluI restriction enzyme recognition site they contain, make up a significant portion of the human genome and have been implicated in genetic diversity and disease."
+},
+{
+"question": "What are microsatellites?",
+"options": {
+"A": "Small, non-coding RNA molecules that regulate gene expression",
+"B": "Short, repetitive DNA sequences with variations in repeat number",
+"C": "Genes that encode proteins involved in DNA repair",
+"D": "Regulatory elements that control the timing of DNA replication",
+"E": "Structural components of the nuclear matrix"
+},
+"answer": "B",
+"explanation": "Microsatellites, also known as Simple Sequence Repeats (SSRs) or Short Tandem Repeats (STRs), are short, repetitive DNA sequences consisting of 1-6 base pair units repeated multiple times in tandem. The number of repeats can vary between individuals, making microsatellites useful markers for genetic analysis and forensics."
+},
+{
+"question": "How are microsatellites used in forensic applications?",
+"options": {
+"A": "To determine the age of a DNA sample",
+"B": "To identify the species of origin of a DNA sample",
+"C": "To amplify specific DNA sequences for analysis",
+"D": "To compare DNA profiles for individual identification",
+"E": "To detect mutations associated with genetic diseases"
+},
+"answer": "D",
+"explanation": "Microsatellites are highly polymorphic, meaning they exhibit significant variation in repeat number among individuals. This variation makes them valuable tools in forensic applications, where they can be used to compare DNA profiles from different individuals and establish or exclude matches for identification purposes."
+},
+{
+"question": "In addition to forensic applications, what other uses do microsatellites have?",
+"options": {
+"A": "Paternity testing",
+"B": "Population genetics studies",
+"C": "Genetic mapping",
+"D": "Disease diagnosis",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "The inherent variability of microsatellites makes them versatile tools in various genetic applications. Their uses extend to paternity testing, population genetics studies to track gene flow and relationships, genetic mapping to locate genes on chromosomes, and even disease diagnosis by identifying microsatellite instability in certain cancers."
+},
+{
+"question": "What is unique about mitochondrial DNA (mtDNA) compared to nuclear DNA?",
+"options": {
+"A": "It is linear and packaged with histones",
+"B": "It is inherited from both parents",
+"C": "It contains only non-coding sequences",
+"D": "It is circular and encodes some of its own proteins",
+"E": "It is not subject to mutations"
+},
+"answer": "D",
+"explanation": "Mitochondrial DNA (mtDNA) is distinct from nuclear DNA in several ways. It is circular rather than linear, lacks histone packaging, and importantly, encodes some of the proteins necessary for mitochondrial function, including those involved in oxidative phosphorylation."
+},
+{
+"question": "Which of the following proteins is encoded by mitochondrial DNA?",
+"options": {
+"A": "Histone H3",
+"B": "DNA polymerase",
+"C": "RNA polymerase",
+"D": "Cytochrome b",
+"E": "Insulin"
+},
+"answer": "D",
+"explanation": "Mitochondrial DNA (mtDNA) carries genes for several proteins involved in mitochondrial function, including components of the electron transport chain, such as cytochrome b. These proteins are essential for cellular respiration and energy production."
+},
+{
+"question": "How is mitochondrial DNA inherited?",
+"options": {
+"A": "Equally from both parents",
+"B": "Primarily from the father",
+"C": "Primarily from the mother",
+"D": "Randomly from either parent",
+"E": "It is not inherited but is synthesized de novo in each cell"
+},
+"answer": "C",
+"explanation": "Mitochondrial DNA (mtDNA) is primarily inherited maternally. During fertilization, sperm mitochondria are typically eliminated or degraded, leaving the maternal mitochondria to be passed on to the offspring. This maternal inheritance pattern has implications for tracing lineages and studying evolutionary relationships."
+}
+]
