@@ -594,5 +594,8 @@
 "B": "By directly inhibiting pyrimidine synthesis.",
 "C": "By promoting the breakdown of pyrimidine nucleotides.",
 "D": "By interfering with the absorption of orotic."
+},
+"answer": "A",
+"explanation": "Allopurinol can inhibit the enzyme Orotate phosphoribosyl transferase, which is necessary for the conversion of orotic acid to orotidine-5'-monophosphate (OMP) in the pyrimidine synthesis pathway. This inhibition leads to an accumulation of orotic acid, contributing to the development of Orotic aciduria. While Allopurinol is primarily used to manage hyperuricemia by inhibiting xanthine oxidase, its effect on Orotate phosphoribosyl transferase can inadvertently lead to orotic acid accumulation."
 }
-  ]
+]
