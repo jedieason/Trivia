@@ -1,0 +1,686 @@
+[
+{
+"question": "Which of the following is NOT a main type of lipoprotein?",
+"options": {
+"A": "Chylomicrons",
+"B": "Very-low-density lipoproteins (VLDL)",
+"C": "Glycoproteins",
+"D": "Low-density lipoproteins (LDL)",
+"E": "High-density lipoproteins (HDL)"
+},
+"answer": "C",
+"explanation": "The four main types of lipoproteins are chylomicrons, very-low-density lipoproteins (VLDL), low-density lipoproteins (LDL), and high-density lipoproteins (HDL). Glycoproteins are proteins that have carbohydrate groups attached to them."
+},
+{
+"question": "What is the function of chylomicrons?",
+"options": {
+"A": "Transport cholesterol to tissues",
+"B": "Intestinal absorption of lipids",
+"C": "Involved in cholesterol transport and reverse cholesterol transport",
+"D": "Export triglycerides from the liver",
+"E": "Synthesize cholesterol"
+},
+"answer": "B",
+"explanation": "Chylomicrons are responsible for the intestinal absorption of lipids."
+},
+{
+"question": "Which apolipoprotein is found in HDL?",
+"options": {
+"A": "Apo B-48",
+"B": "Apo C-II",
+"C": "Apo E",
+"D": "Apo A-1",
+"E": "Apo B-100"
+},
+"answer": "D",
+"explanation": "HDL contains apolipoproteins A (Apo A), particularly Apo A-1."
+},
+{
+"question": "Which of the following is the longest single polypeptide apolipoprotein?",
+"options": {
+"A": "Apo A-1",
+"B": "Apo B-48",
+"C": "Apo C-II",
+"D": "Apo E",
+"E": "Apo B-100"
+},
+"answer": "E",
+"explanation": "LDL contains Apo B-100, which is the longest single polypeptide apolipoprotein."
+},
+{
+"question": "What is the function of Apo C-II?",
+"options": {
+"A": "Inhibits lipoprotein lipase",
+"B": "Interacts with LDL receptors on tissues for lipoprotein uptake",
+"C": "Acts as a cofactor for lipoprotein lipase",
+"D": "Interacts with HDL receptors",
+"E": "Transports cholesterol to tissues"
+},
+"answer": "C",
+"explanation": "Apo C-II acts as a cofactor for lipoprotein lipase, an enzyme that hydrolyzes triglycerides in lipoproteins."
+},
+{
+"question": "Which apolipoproteins interact with LDL receptors on tissues for lipoprotein uptake?",
+"options": {
+"A": "Apo B-100 and Apo C-II",
+"B": "Apo A-1 and Apo E",
+"C": "Apo B-48 and Apo C-II",
+"D": "Apo B-100 and Apo E",
+"E": "Apo A-1 and Apo B-48"
+},
+"answer": "D",
+"explanation": "Apo B-100 and Apo E interact with LDL receptors on tissues for lipoprotein uptake."
+},
+{
+"question": "Which of the following is a truncated form of Apo B-100?",
+"options": {
+"A": "Apo A-1",
+"B": "Apo B-48",
+"C": "Apo C-II",
+"D": "Apo E",
+"E": "None of the above"
+},
+"answer": "B",
+"explanation": "Chylomicrons contain Apo B-48, which is a truncated form of Apo B-100."
+},
+{
+"question": "Where is Apo B synthesized?",
+"options": {
+"A": "Golgi apparatus",
+"B": "Smooth endoplasmic reticulum (SER)",
+"C": "Cytoplasm",
+"D": "Nucleus",
+"E": "Rough endoplasmic reticulum (RER)"
+},
+"answer": "E",
+"explanation": "Apo B is synthesized in the rough endoplasmic reticulum (RER)."
+},
+{
+"question": "What happens to chylomicrons after they acquire Apo C and Apo E from HDL?",
+"options": {
+"A": "They are taken up by the liver",
+"B": "They become substrates for lipoprotein lipase",
+"C": "They transport cholesterol to tissues",
+"D": "They are stored in adipose tissue",
+"E": "They are converted to VLDL"
+},
+"answer": "B",
+"explanation": "Chylomicrons acquire Apo C and Apo E from HDL, becoming substrates for lipoprotein lipase."
+},
+{
+"question": "Which organ's lipoprotein lipase has a low Km, delivering fatty acids even in a starved state?",
+"options": {
+"A": "Brain",
+"B": "Liver",
+"C": "Heart",
+"D": "Adipose tissue",
+"E": "Skeletal muscle"
+},
+"answer": "C",
+"explanation": "Heart LPL has a low Km, delivering FA to the heart even in a starved state."
+},
+{
+"question": "What effect does insulin have on lipoprotein lipase synthesis in adipose tissue?",
+"options": {
+"A": "No effect",
+"B": "Inhibits synthesis",
+"C": "Enhances synthesis",
+"D": "Decreases activity",
+"E": "Increases Km"
+},
+"answer": "C",
+"explanation": "Insulin enhances LPL synthesis in adipose tissue."
+},
+{
+"question": "How are chylomicron remnants taken up by the liver?",
+"options": {
+"A": "Via HDL receptors",
+"B": "Via LDL (Apo B-100, Apo E) receptors and LDL receptor-related protein",
+"C": "Via phagocytosis",
+"D": "Via diffusion",
+"E": "Via active transport"
+},
+"answer": "B",
+"explanation": "Chylomicron remnants are taken up by the liver via LDL (Apo B-100, Apo E) receptors and LDL receptor-related protein."
+},
+{
+"question": "Which of the following lipoproteins are taken up by the liver via LDL receptors and further metabolized to LDL?",
+"options": {
+"A": "Chylomicrons",
+"B": "Intermediate-density lipoproteins (IDL) and VLDL remnants",
+"C": "HDL",
+"D": "VLDL",
+"E": "Chylomicron remnants"
+},
+"answer": "B",
+"explanation": "Intermediate-density lipoproteins (IDL) and VLDL remnants are taken up by the liver via LDL receptors and further metabolized to LDL."
+},
+{
+"question": "What is the role of Class B scavenger receptor B1 (SR-B1) in HDL metabolism?",
+"options": {
+"A": "It mediates the uptake of cholesterol esters (CE) in the liver",
+"B": "It facilitates the efflux of cholesterol from tissues",
+"C": "It is involved in reverse cholesterol transport",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "Class B scavenger receptor B1 (SR-B1), the HDL receptor, has a dual role: uptake of cholesterol esters (CE) in the liver and efflux of cholesterol from tissues. It is also involved in reverse cholesterol transport."
+},
+{
+"question": "Which enzyme esterifies cholesterol to form HDL2?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Acyl-CoA:cholesterol acyltransferase (ACAT)",
+"E": "Cholesterol ester transfer protein (CETP)"
+},
+"answer": "B",
+"explanation": "In reverse cholesterol transport, HDL3 accepts cholesterol, which is esterified by lecithin-cholesterol acyltransferase (LCAT) to form HDL2."
+},
+{
+"question": "What is the function of microsomal triacylglycerol transfer protein (MTP) in hepatic VLDL secretion?",
+"options": {
+"A": "It inhibits VLDL assembly",
+"B": "It is involved in VLDL assembly",
+"C": "It converts VLDL2 to VLDL1",
+"D": "It transports VLDL to the Golgi apparatus",
+"E": "It hydrolyzes triglycerides in VLDL"
+},
+"answer": "B",
+"explanation": "Microsomal triacylglycerol transfer protein (MTP) is involved in VLDL assembly."
+},
+{
+"question": "Where do VLDL2 particles fuse with triacylglycerol-rich lipid droplets to form VLDL1?",
+"options": {
+"A": "Rough endoplasmic reticulum (RER)",
+"B": "Smooth endoplasmic reticulum (SER)",
+"C": "Golgi apparatus",
+"D": "Cytoplasm",
+"E": "Nucleus"
+},
+"answer": "C",
+"explanation": "VLDL2 particles fuse with triacylglycerol-rich lipid droplets in the Golgi apparatus to form VLDL1."
+},
+{
+"question": "Which of the following is NOT a source of fatty acids for VLDL synthesis?",
+"options": {
+"A": "De novo synthesis from acetyl-CoA",
+"B": "Uptake of FFA",
+"C": "Breakdown of cholesterol",
+"D": "Dietary fat",
+"E": "Lipolysis in adipose tissue"
+},
+"answer": "C",
+"explanation": "The sources of fatty acids for VLDL synthesis are de novo synthesis from acetyl-CoA and the uptake of FFA."
+},
+{
+"question": "What effect does insulin have on Apo B-100 synthesis?",
+"options": {
+"A": "No effect",
+"B": "Stimulates synthesis",
+"C": "Inhibits synthesis",
+"D": "Enhances degradation",
+"E": "Increases transcription"
+},
+"answer": "C",
+"explanation": "Insulin inhibits Apo B-100 synthesis."
+},
+{
+"question": "What does insulin inhibit in the context of hepatic VLDL secretion?",
+"options": {
+"A": "Apo B-100 synthesis",
+"B": "Conversion of VLDL2 to VLDL1",
+"C": "Both A and B",
+"D": "Neither A nor B",
+"E": "Microsomal triacylglycerol transfer protein (MTP) activity"
+},
+"answer": "C",
+"explanation": "Insulin inhibits Apo B-100 synthesis and the conversion of VLDL2 to VLDL1."
+},
+{
+"question": "What are the two main categories of nonalcoholic fatty liver disease (NAFLD)?",
+"options": {
+"A": "Increased FFA delivery to the liver and metabolic blocks in hepatic lipid metabolism",
+"B": "Viral infection and alcohol consumption",
+"C": "Genetic mutations and environmental toxins",
+"D": "Autoimmune disorders and malnutrition",
+"E": "None of the above"
+},
+"answer": "A",
+"explanation": "The two main categories of nonalcoholic fatty liver disease (NAFLD) are increased FFA delivery to the liver and metabolic blocks in hepatic lipid metabolism."
+},
+{
+"question": "Deficiency of which lipotropic factor can lead to fatty liver?",
+"options": {
+"A": "Vitamin A",
+"B": "Vitamin D",
+"C": "Choline",
+"D": "Iron",
+"E": "Calcium"
+},
+"answer": "C",
+"explanation": "Choline deficiency, a lipotropic factor, can lead to fatty liver."
+},
+{
+"question": "What contributes to fat accumulation in the liver in alcoholic fatty liver?",
+"options": {
+"A": "Increased NADH/NAD+ ratio and hyperlacticacidemia",
+"B": "Decreased FFA delivery to the liver",
+"C": "Increased insulin sensitivity",
+"D": "Enhanced lipolysis in adipose tissue",
+"E": "None of the above"
+},
+"answer": "A",
+"explanation": "An increased NADH/NAD+ ratio and hyperlacticacidemia contribute to fat accumulation in the liver in alcoholic fatty liver."
+},
+{
+"question": "What is the primary storage site for triacylglycerols?",
+"options": {
+"A": "Liver",
+"B": "Muscle",
+"C": "Adipose tissue",
+"D": "Brain",
+"E": "Blood"
+},
+"answer": "C",
+"explanation": "Adipose tissue is the primary storage site for triacylglycerols."
+},
+{
+"question": "Why is glycerol 3-phosphate derived from glycolysis in adipose tissue?",
+"options": {
+"A": "Adipose tissue lacks glycerol kinase",
+"B": "Adipose tissue has high levels of glycerol kinase",
+"C": "Glycolysis is the only source of glycerol 3-phosphate",
+"D": "Glycerol 3-phosphate cannot be transported into adipose tissue",
+"E": "None of the above"
+},
+"answer": "A",
+"explanation": "Glycerol 3-phosphate is derived from glycolysis in adipose tissue because adipose tissue lacks glycerol kinase."
+},
+{
+"question": "Which enzyme catalyzes lipolysis?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Hormone-sensitive lipase (HSL)",
+"E": "Acyl-CoA synthetase"
+},
+"answer": "D",
+"explanation": "Hormone-sensitive lipase (HSL) catalyzes lipolysis, the breakdown of triacylglycerols into FFA and glycerol."
+},
+{
+"question": "What enzyme converts FFA to acyl-CoA?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Hormone-sensitive lipase (HSL)",
+"E": "Acyl-CoA synthetase"
+},
+"answer": "E",
+"explanation": "FFA are converted to acyl-CoA by acyl-CoA synthetase."
+},
+{
+"question": "What affects plasma FFA levels in adipose tissue?",
+"options": {
+"A": "The rate of lipolysis",
+"B": "The rate of re-esterification",
+"C": "Both A and B",
+"D": "Neither A nor B",
+"E": "The rate of glucose uptake"
+},
+"answer": "C",
+"explanation": "A continuous cycle of lipolysis and re-esterification occurs in adipose tissue. The rate of re-esterification affects plasma FFA levels."
+},
+{
+"question": "What is the effect of increased glucose uptake in adipose tissue?",
+"options": {
+"A": "Increased esterification of FFA",
+"B": "Decreased FFA release into the circulation",
+"C": "Increased glycerol release",
+"D": "Both A and B",
+"E": "All of the above"
+},
+"answer": "D",
+"explanation": "Increased glucose uptake in adipose tissue leads to increased esterification of FFA and decreased FFA release into the circulation (glycerol release is not affected)."
+},
+{
+"question": "Which of the following is NOT an effect of insulin in adipose tissue?",
+"options": {
+"A": "Enhances glucose uptake via GLUT4",
+"B": "Inhibits HSL activity",
+"C": "Reduces FFA release",
+"D": "Promotes lipolysis",
+"E": "Reduces glycerol release"
+},
+"answer": "D",
+"explanation": "Insulin enhances glucose uptake via GLUT4, inhibits HSL activity, and reduces FFA and glycerol release."
+},
+{
+"question": "Which hormones promote lipolysis by activating HSL?",
+"options": {
+"A": "Insulin",
+"B": "Epinephrine, norepinephrine, glucagon",
+"C": "Thyroid hormone",
+"D": "Growth hormone",
+"E": "Cortisol"
+},
+"answer": "B",
+"explanation": "Other hormones (e.g., epinephrine, norepinephrine, glucagon) promote lipolysis by activating HSL."
+},
+{
+"question": "How do hormones mediate lipolysis?",
+"options": {
+"A": "Through direct interaction with HSL",
+"B": "Through cAMP-dependent pathways",
+"C": "Through receptor tyrosine kinase pathways",
+"D": "Through nuclear receptor signaling",
+"E": "None of the above"
+},
+"answer": "B",
+"explanation": "Hormones mediate lipolysis through cAMP-dependent pathways."
+},
+{
+"question": "What is the function of perilipin in the basal state?",
+"options": {
+"A": "It activates HSL",
+"B": "It coats lipid droplets, protecting them from lipolysis",
+"C": "It promotes lipolysis",
+"D": "It transports FFA to mitochondria",
+"E": "It enhances glucose uptake"
+},
+"answer": "B",
+"explanation": "In the basal state, perilipin coats lipid droplets, protecting them from lipolysis."
+},
+{
+"question": "What happens to perilipin upon hormonal stimulation?",
+"options": {
+"A": "It is degraded",
+"B": "It remains unchanged",
+"C": "It rearranges, exposing lipid droplets to lipases",
+"D": "It inhibits HSL",
+"E": "It promotes re-esterification of FFA"
+},
+"answer": "C",
+"explanation": "Upon hormonal stimulation, perilipin rearranges, exposing lipid droplets to lipases."
+},
+{
+"question": "What is the function of brown adipose tissue?",
+"options": {
+"A": "Store energy",
+"B": "Generate heat (thermogenesis)",
+"C": "Produce hormones",
+"D": "Insulate the body",
+"E": "Synthesize cholesterol"
+},
+"answer": "B",
+"explanation": "Brown adipose tissue is specialized adipose tissue that generates heat (thermogenesis)."
+},
+{
+"question": "Which neurotransmitter stimulates lipolysis in brown adipose tissue?",
+"options": {
+"A": "Acetylcholine",
+"B": "Dopamine",
+"C": "Serotonin",
+"D": "Norepinephrine",
+"E": "GABA"
+},
+"answer": "D",
+"explanation": "Norepinephrine stimulates lipolysis in brown adipose tissue."
+},
+{
+"question": "What is the function of thermogenin (uncoupling protein 1)?",
+"options": {
+"A": "It couples oxidative phosphorylation in mitochondria",
+"B": "It uncouples oxidative phosphorylation in mitochondria, dissipating energy as heat",
+"C": "It inhibits lipolysis",
+"D": "It promotes fatty acid oxidation",
+"E": "It enhances glucose uptake"
+},
+"answer": "B",
+"explanation": "Thermogenin (uncoupling protein 1) uncouples oxidative phosphorylation in mitochondria, dissipating energy as heat."
+},
+{
+"question": "What is cholesterol synthesized from?",
+"options": {
+"A": "Glucose",
+"B": "Fatty acids",
+"C": "Amino acids",
+"D": "Acetyl-CoA",
+"E": "Glycerol"
+},
+"answer": "D",
+"explanation": "Cholesterol is synthesized from acetyl-CoA."
+},
+{
+"question": "What is the rate-determining step (RDS) in cholesterol synthesis?",
+"options": {
+"A": "The conversion of acetyl-CoA to mevalonate",
+"B": "The reduction of 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonate",
+"C": "The formation of squalene",
+"D": "The cyclization of squalene",
+"E": "The conversion of lanosterol to cholesterol"
+},
+"answer": "B",
+"explanation": "The RDS in cholesterol synthesis is the reduction of 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonate. This reaction is catalyzed by HMG-CoA reductase and requires NADPH."
+},
+{
+"question": "What catalyzes the conversion of 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonate?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Acyl-CoA:cholesterol acyltransferase (ACAT)",
+"E": "Cholesterol ester transfer protein (CETP)"
+},
+"answer": "C",
+"explanation": "The conversion of 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) to mevalonate is catalyzed by **HMG-CoA reductase**."
+},
+{
+"question": "How many molecules of farnesyl diphosphate condense to form squalene?",
+"options": {
+"A": "One",
+"B": "Two",
+"C": "Three",
+"D": "Four",
+"E": "Five"
+},
+"answer": "B",
+"explanation": "Two molecules of farnesyl diphosphate condense to form squalene."
+},
+{
+"question": "How does cholesterol regulate HMG-CoA reductase (HMGcR) mRNA expression?",
+"options": {
+"A": "It activates the transcription factor sterol regulatory element binding protein (SREBP)",
+"B": "It represses the transcription factor sterol regulatory element binding protein (SREBP)",
+"C": "It directly binds to HMGcR mRNA",
+"D": "It enhances HMGcR mRNA degradation",
+"E": "It has no effect on HMGcR mRNA expression"
+},
+"answer": "B",
+"explanation": "Cholesterol represses the transcription factor sterol regulatory element binding protein (SREBP), which in turn represses HMG-CoA reductase (HMGcR) mRNA expression."
+},
+{
+"question": "Which hormones increase HMG-CoA reductase activity?",
+"options": {
+"A": "Insulin and glucagon",
+"B": "Glucagon and glucocorticoids",
+"C": "Insulin and thyroid hormone",
+"D": "Growth hormone and epinephrine",
+"E": "None of the above"
+},
+"answer": "C",
+"explanation": "Insulin and thyroid hormone increase HMG-CoA reductase activity."
+},
+{
+"question": "Which hormones decrease HMG-CoA reductase activity?",
+"options": {
+"A": "Insulin and glucagon",
+"B": "Glucagon and glucocorticoids",
+"C": "Insulin and thyroid hormone",
+"D": "Growth hormone and epinephrine",
+"E": "None of the above"
+},
+"answer": "B",
+"explanation": "Glucagon and glucocorticoids decrease HMG-CoA reductase activity."
+},
+{
+"question": "What mediates cholesterol uptake?",
+"options": {
+"A": "HDL receptors",
+"B": "LDL receptors",
+"C": "Chylomicrons",
+"D": "VLDL",
+"E": "SR-B1"
+},
+"answer": "B",
+"explanation": "Cholesterol uptake is mediated by LDL receptors."
+},
+{
+"question": "What facilitates cholesterol efflux?",
+"options": {
+"A": "HDL receptors",
+"B": "LDL receptors",
+"C": "Chylomicrons",
+"D": "VLDL",
+"E": "SR-B1"
+},
+"answer": "E",
+"explanation": "Cholesterol efflux is facilitated by SR-B1."
+},
+{
+"question": "Which enzyme esterifies cholesterol for storage?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Acyl-CoA:cholesterol acyltransferase (ACAT)",
+"E": "Cholesterol ester transfer protein (CETP)"
+},
+"answer": "D",
+"explanation": "Cholesterol is esterified by acyl-CoA:cholesterol acyltransferase (ACAT) for storage."
+},
+{
+"question": "What is the function of PCSK9?",
+"options": {
+"A": "It enhances cholesterol uptake",
+"B": "It targets LDL receptors for degradation, reducing cholesterol uptake",
+"C": "It promotes cholesterol synthesis",
+"D": "It inhibits cholesterol esterification",
+"E": "It facilitates cholesterol efflux"
+},
+"answer": "B",
+"explanation": "PCSK9 is a protein that targets LDL receptors for degradation, reducing cholesterol uptake."
+},
+{
+"question": "What is the function of cholesterol ester transfer protein (CETP)?",
+"options": {
+"A": "It transfers cholesterol from HDL to other lipoproteins",
+"B": "It transfers cholesterol from other lipoproteins to HDL",
+"C": "It transfers CE from HDL to other lipoproteins",
+"D": "It transfers CE from other lipoproteins to HDL",
+"E": "It inhibits LCAT activity"
+},
+"answer": "C",
+"explanation": "Cholesterol ester transfer protein (CETP) facilitates the transfer of CE from HDL to other lipoproteins, which relieves product inhibition on LCAT."
+},
+{
+"question": "Which enzyme is responsible for all cholesterol esterification in plasma?",
+"options": {
+"A": "Lipoprotein lipase",
+"B": "Lecithin-cholesterol acyltransferase (LCAT)",
+"C": "HMG-CoA reductase",
+"D": "Acyl-CoA:cholesterol acyltransferase (ACAT)",
+"E": "Cholesterol ester transfer protein (CETP)"
+},
+"answer": "B",
+"explanation": "Plasma LCAT is responsible for all cholesterol esterification in plasma."
+},
+{
+"question": "Where are primary bile acids synthesized from cholesterol?",
+"options": {
+"A": "Liver",
+"B": "Intestine",
+"C": "Kidney",
+"D": "Pancreas",
+"E": "Spleen"
+},
+"answer": "A",
+"explanation": "Primary bile acids are synthesized from cholesterol in the liver."
+},
+{
+"question": "What is the first step in bile acid synthesis?",
+"options": {
+"A": "The conversion of cholesterol to 7α-hydroxycholesterol by 7α-hydroxylase",
+"B": "The conjugation of bile acids with glycine or taurine",
+"C": "The transport of bile acids into the bile canaliculi",
+"D": "The deconjugation of bile acids by gut bacteria",
+"E": "The reabsorption of bile acids in the ileum"
+},
+"answer": "A",
+"explanation": "The first step in bile acid synthesis is the conversion of cholesterol to 7α-hydroxycholesterol by 7α-hydroxylase."
+},
+{
+"question": "What are primary bile acids metabolized by gut bacteria to?",
+"options": {
+"A": "Cholesterol",
+"B": "Secondary bile acids",
+"C": "Fatty acids",
+"D": "Amino acids",
+"E": "Glucose"
+},
+"answer": "B",
+"explanation": "Primary bile acids (e.g., cholic acid, chenodeoxycholic acid) are metabolized by gut bacteria to secondary bile acids (e.g., deoxycholic acid, lithocholic acid)."
+},
+{
+"question": "What is the mechanism of action of statins?",
+"options": {
+"A": "They inhibit HMG-CoA reductase, lowering cholesterol synthesis",
+"B": "They enhance LDL receptor expression",
+"C": "They promote cholesterol excretion",
+"D": "They inhibit cholesterol absorption",
+"E": "They activate LCAT"
+},
+"answer": "A",
+"explanation": "Statins are hypolipidemic drugs that inhibit HMG-CoA reductase, lowering cholesterol synthesis."
+},
+{
+"question": "Which of the following is the rate-limiting step in the synthesis of triacylglycerol?",
+"options": {
+"A": "The conversion of glycerol to glycerol 3-phosphate",
+"B": "The formation of phosphatidate",
+"C": "The conversion of phosphatidate to diacylglycerol",
+"D": "The conversion of 1,2-diacylglycerol to triacylglycerol by diacylglycerol transferase (DGAT)",
+"E": "The activation of choline by ATP"
+},
+"answer": "D",
+"explanation": "The rate-determining step (RDS) in triacylglycerol synthesis is the conversion of 1,2-diacylglycerol to triacylglycerol by diacylglycerol transferase (DGAT)."
+},
+{
+"question": "How are choline and ethanolamine activated in the synthesis of acylglycerols?",
+"options": {
+"A": "By phosphorylation",
+"B": "By acetylation",
+"C": "By methylation",
+"D": "By ATP",
+"E": "By NADPH"
+},
+"answer": "D",
+"explanation": "Choline and ethanolamine are activated by ATP and linked to CDP."
+},
+{
+"question": "What are sphingolipids synthesized from?",
+"options": {
+"A": "Glycerol",
+"B": "Cholesterol",
+"C": "Ceramide",
+"D": "Phosphatidate",
+"E": "Diacylglycerol"
+},
+"answer": "C",
+"explanation": "Sphingolipids are synthesized from ceramide."
+}
+]
