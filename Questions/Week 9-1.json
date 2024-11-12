@@ -1,0 +1,446 @@
+[
+{
+"question": "Which of the following statements about the structure of chromatin is INCORRECT?",
+"options": {
+"A": "Chromatin is found in the nucleus of eukaryotic cells.",
+"B": "Chromatin is composed of double-stranded DNA molecules.",
+"C": "Chromatin contains histone proteins, which are acidic and larger than nonhistone proteins.",
+"D": "Chromatin includes nonhistone proteins, which play various roles in DNA replication and gene expression.",
+"E": "Chromatin contains a small amount of RNA."
+},
+"answer": "C",
+"explanation": "Nonhistone proteins are typically acidic and larger than histone proteins."
+},
+{
+"question": "What is the fundamental unit of chromatin?",
+"options": {
+"A": "Histone octamer",
+"B": "Nucleosome",
+"C": "Chromatin fiber",
+"D": "Chromosome scaffold",
+"E": "DNA double helix"
+},
+"answer": "B",
+"explanation": "The nucleosome, which resembles a bead-like structure, is the basic building block of chromatin."
+},
+{
+"question": "Which of the following histones is NOT involved in the formation of the histone octamer?",
+"options": {
+"A": "H1",
+"B": "H2A",
+"C": "H2B",
+"D": "H3",
+"E": "H4"
+},
+"answer": "A",
+"explanation": "The histone octamer is composed of two H2A-H2B dimers and one (H3-H4)2 tetramer. H1 does not participate in the octamer formation."
+},
+{
+"question": "What is the function of the histone octamer?",
+"options": {
+"A": "To regulate gene expression by binding to specific DNA sequences.",
+"B": "To act as a scaffold for the assembly of other chromatin proteins.",
+"C": "To protect DNA from degradation by nucleases.",
+"D": "To facilitate the replication of DNA.",
+"E": "To condense chromatin into chromosomes during cell division."
+},
+"answer": "C",
+"explanation": "A set of 146 base pairs of DNA wraps around a histone octamer in 1.75 turns, protecting it from nuclease degradation."
+},
+{
+"question": "Which of the following is NOT a type of covalent modification that can occur on histones?",
+"options": {
+"A": "Glycosylation",
+"B": "Methylation",
+"C": "Phosphorylation",
+"D": "Acetylation",
+"E": "SUMOylation"
+},
+"answer": "A",
+"explanation": "Histones H2A, H2B, H3, and H4 can undergo six types of covalent modifications: acetylation, methylation, phosphorylation, ADP-ribosylation, monoubiquitylation, and SUMOylation."
+},
+{
+"question": "The acetylation of histones H3 and H4 is associated with:",
+"options": {
+"A": "Gene silencing",
+"B": "DNA replication",
+"C": "Chromosome condensation",
+"D": "Gene activation",
+"E": "DNA repair"
+},
+"answer": "D",
+"explanation": "The acetylation of histones H3 and H4 is linked to the activation of gene transcription."
+},
+{
+"question": "Which histone modification is involved in chromosome condensation?",
+"options": {
+"A": "Methylation of H3",
+"B": "Phosphorylation of H1",
+"C": "Acetylation of H4",
+"D": "Ubiquitylation of H2A",
+"E": "SUMOylation of H2B"
+},
+"answer": "B",
+"explanation": "The phosphorylation of histone H1 is associated with the condensation of chromosomes."
+},
+{
+"question": "ADP-ribosylation of histones is primarily involved in:",
+"options": {
+"A": "DNA repair",
+"B": "Gene activation",
+"C": "Chromosome segregation",
+"D": "Heterochromatin formation",
+"E": "mRNA splicing"
+},
+"answer": "A",
+"explanation": "ADP-ribosylation of histones plays a role in DNA repair mechanisms."
+},
+{
+"question": "What is the role of monoubiquitylation of histones?",
+"options": {
+"A": "Regulation of DNA replication",
+"B": "Repair of DNA damage",
+"C": "Control of gene expression",
+"D": "Stabilization of nucleosomes",
+"E": "Formation of mitotic spindle"
+},
+"answer": "C",
+"explanation": "Monoubiquitylation of histones is implicated in the regulation of gene expression, including heterochromatic gene silencing."
+},
+{
+"question": "Which histone modification is associated with gene silencing?",
+"options": {
+"A": "Phosphorylation",
+"B": "Acetylation",
+"C": "SUMOylation",
+"D": "ADP-ribosylation",
+"E": "Monoubiquitylation"
+},
+"answer": "C",
+"explanation": "SUMOylation of histones is linked to the suppression of gene transcription."
+},
+{
+"question": "What is the primary focus of epigenetics?",
+"options": {
+"A": "The study of inherited changes in DNA sequence.",
+"B": "The analysis of gene expression patterns in different cell types.",
+"C": "The investigation of how environmental factors influence gene expression.",
+"D": "The study of heritable changes in gene expression that occur without alterations to the DNA sequence.",
+"E": "The examination of the structure and function of chromosomes."
+},
+"answer": "D",
+"explanation": "Epigenetics is the study of heritable changes in gene expression that occur without changes to the underlying DNA sequence, often due to modifications of histones or DNA itself."
+},
+{
+"question": "What is the function of histone acetyltransferases (HATs)?",
+"options": {
+"A": "To remove acetyl groups from histones.",
+"B": "To add acetyl groups to histones.",
+"C": "To methylate histones.",
+"D": "To phosphorylate histones.",
+"E": "To ubiquitylate histones."
+},
+"answer": "B",
+"explanation": "HATs add acetyl groups to histones, leading to a more open chromatin structure and allowing for gene expression."
+},
+{
+"question": "What is the function of histone deacetylases (HDACs)?",
+"options": {
+"A": "To remove acetyl groups from histones.",
+"B": "To add acetyl groups to histones.",
+"C": "To methylate histones.",
+"D": "To phosphorylate histones.",
+"E": "To ubiquitylate histones."
+},
+"answer": "A",
+"explanation": "HDACs remove acetyl groups from histones, leading to tighter chromatin packing and gene silencing."
+},
+{
+"question": "Which of the following statements regarding HDACs and cancer is CORRECT?",
+"options": {
+"A": "HDACs are typically downregulated in cancer cells.",
+"B": "HDAC inhibitors are being investigated as potential cancer therapies.",
+"C": "HDACs promote the expression of tumor suppressor genes.",
+"D": "HDAC activity leads to a more relaxed chromatin structure in cancer cells.",
+"E": "HDACs are rarely mutated in cancer."
+},
+"answer": "B",
+"explanation": "HDACs are believed to be involved in cancer development, and HDAC inhibitors are being explored as possible cancer treatments."
+},
+{
+"question": "Which of the following factors can influence epigenetic modifications?",
+"options": {
+"A": "Environmental toxins",
+"B": "Diet",
+"C": "Age",
+"D": "Medications",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "Environmental hormones, pharmaceuticals, chemicals, age, and diet can all impact epigenetic modifications."
+},
+{
+"question": "Which of the following statements about euchromatin is CORRECT?",
+"options": {
+"A": "It is the more densely packed form of chromatin.",
+"B": "It is generally transcriptionally inactive.",
+"C": "It is resistant to DNase I digestion.",
+"D": "It is enriched in repetitive DNA sequences.",
+"E": "It is the more loosely packed and active portion of chromatin."
+},
+"answer": "E",
+"explanation": "Euchromatin is the less condensed and more active region of chromatin, where gene expression is more likely to occur."
+},
+{
+"question": "Heterochromatin is characterized by:",
+"options": {
+"A": "High transcriptional activity",
+"B": "Sensitivity to DNase I digestion",
+"C": "Loose packing of chromatin fibers",
+"D": "Presence of actively transcribed genes",
+"E": "Dense packing and low transcriptional activity"
+},
+"answer": "E",
+"explanation": "Heterochromatin is the more condensed and less active part of chromatin."
+},
+{
+"question": "Which type of heterochromatin is ALWAYS condensed and inactive?",
+"options": {
+"A": "Facultative heterochromatin",
+"B": "Constitutive heterochromatin",
+"C": "Euchromatin",
+"D": "Chromatin fiber",
+"E": "Nucleosome"
+},
+"answer": "B",
+"explanation": "Constitutive heterochromatin remains condensed and inactive at all times and is found in regions like centromeres and telomeres."
+},
+{
+"question": "Which of the following statements about facultative heterochromatin is TRUE?",
+"options": {
+"A": "It is permanently condensed and inactive.",
+"B": "It is found in the centromeres and telomeres of chromosomes.",
+"C": "It can sometimes decondense and become transcriptionally active.",
+"D": "It is the most abundant type of chromatin in eukaryotic cells.",
+"E": "It is highly sensitive to DNase I digestion."
+},
+"answer": "C",
+"explanation": "Facultative heterochromatin, while usually condensed, can sometimes open up and be transcribed."
+},
+{
+"question": "What is the function of the retinoblastoma protein (pRb) in the context of chromatin regulation?",
+"options": {
+"A": "To promote the acetylation of histones.",
+"B": "To activate gene transcription.",
+"C": "To prevent the condensation of chromosomes.",
+"D": "To reassemble chromatin and suppress transcription.",
+"E": "To recruit DNA repair machinery."
+},
+"answer": "D",
+"explanation": "When chromatin opens up for transcription, pRb reassembles it to inhibit transcription."
+},
+{
+"question": "Which of the following statements about the centromere is INCORRECT?",
+"options": {
+"A": "It is a specialized region of the chromosome that connects sister chromatids.",
+"B": "It is rich in GC sequences, which provide strong binding sites for kinetochore proteins.",
+"C": "It serves as the attachment point for microtubules during cell division.",
+"D": "It is essential for the proper segregation of chromosomes.",
+"E": "It is associated with a protein complex called the kinetochore."
+},
+"answer": "B",
+"explanation": "Centromeres are rich in AT sequences, not GC sequences. AT-rich regions have weaker bonding, making them more flexible for spindle fiber attachment and chromosome separation."
+},
+{
+"question": "What is the function of the kinetochore?",
+"options": {
+"A": "To protect the ends of chromosomes from degradation.",
+"B": "To regulate gene expression.",
+"C": "To initiate DNA replication.",
+"D": "To provide a site for the attachment of spindle fibers.",
+"E": "To repair damaged DNA."
+},
+"answer": "D",
+"explanation": "The kinetochore, located at the centromere, acts as the attachment point for spindle fibers during cell division."
+},
+{
+"question": "Which of the following describes the structure of telomeres?",
+"options": {
+"A": "Repetitive CG sequences that form a triple helix structure.",
+"B": "Repetitive AT sequences that form a hairpin loop structure.",
+"C": "Repetitive TG sequences that form a hairpin loop structure.",
+"D": "Unique sequences that bind to specific proteins.",
+"E": "Random sequences that vary between individuals."
+},
+"answer": "C",
+"explanation": "Telomeres, situated at chromosome ends, are rich in repeating TG sequences (like (TTAGG)n) that form a protective hairpin structure."
+},
+{
+"question": "What is the function of telomerase?",
+"options": {
+"A": "To degrade telomeric DNA.",
+"B": "To repair damaged telomeres.",
+"C": "To synthesize telomeric DNA.",
+"D": "To regulate the expression of telomere-associated genes.",
+"E": "To prevent the fusion of chromosomes."
+},
+"answer": "C",
+"explanation": "Telomerase, a reverse transcriptase enzyme, uses its own RNA template to synthesize DNA and add it to telomeres, extending their length."
+},
+{
+"question": "Which of the following statements about primary transcripts of DNA is FALSE?",
+"options": {
+"A": "They are also known as mRNA precursors or hnRNA.",
+"B": "They contain both introns and exons.",
+"C": "They are directly translated into proteins.",
+"D": "They undergo splicing to remove introns.",
+"E": "They are transcribed from the DNA template."
+},
+"answer": "C",
+"explanation": "Primary transcripts need to undergo splicing to remove introns and become mature mRNA before they can be translated into proteins."
+},
+{
+"question": "What is the approximate percentage of the human genome that consists of repetitive sequences?",
+"options": {
+"A": "Less than 10%",
+"B": "10-20%",
+"C": "20-30%",
+"D": "30% or more",
+"E": "Over 50%"
+},
+"answer": "D",
+"explanation": "While more than half of eukaryotic DNA is single and non-repetitive, at least 30% of human DNA is made up of repetitive sequences."
+},
+{
+"question": "Which of the following is NOT a type of repetitive DNA sequence found in the human genome?",
+"options": {
+"A": "Long interspersed repeat sequences (LINEs)",
+"B": "Short interspersed repeat sequences (SINEs)",
+"C": "Microsatellites",
+"D": "Telomeric repeats",
+"E": "Coding sequences"
+},
+"answer": "E",
+"explanation": "Coding sequences are not considered repetitive DNA sequences. Repetitive DNA sequences in the human genome include LINEs, SINEs, microsatellites, and telomeric repeats."
+},
+{
+"question": "What is the approximate size range of LINEs?",
+"options": {
+"A": "1-6 bp",
+"B": "70-300 bp",
+"C": "6-7 kbp",
+"D": "10-100 kbp",
+"E": "Over 1 million bp"
+},
+"answer": "C",
+"explanation": "LINEs are approximately 6 to 7 kbp in length."
+},
+{
+"question": "What is the approximate size range of SINEs?",
+"options": {
+"A": "1-6 bp",
+"B": "70-300 bp",
+"C": "6-7 kbp",
+"D": "10-100 kbp",
+"E": "Over 1 million bp"
+},
+"answer": "B",
+"explanation": "SINEs are approximately 70 to 300 bp in length."
+},
+{
+"question": "How are repetitive sequences generated in the genome?",
+"options": {
+"A": "Errors during DNA replication",
+"B": "Exposure to environmental mutagens",
+"C": "Viral integration into the host genome",
+"D": "Activity of retroposons",
+"E": "Chromosomal rearrangements"
+},
+"answer": "D",
+"explanation": "Repetitive sequences arise due to the action of retroposons, which are transcribed into RNA and then reverse transcribed back into multiple DNA copies that are inserted back into the genome."
+},
+{
+"question": "What is a characteristic feature of microsatellites?",
+"options": {
+"A": "They are long, repetitive sequences scattered throughout the genome.",
+"B": "They are short, tandem repeats of 1-6 bp sequences.",
+"C": "They are primarily found in the coding regions of genes.",
+"D": "They are highly conserved across different species.",
+"E": "They are transcribed into functional RNA molecules."
+},
+"answer": "B",
+"explanation": "Microsatellites are short, tandem repeats of DNA sequences that are 1-6 base pairs long."
+},
+{
+"question": "Which of the following is a common repeat motif found in microsatellites?",
+"options": {
+"A": "GGGTTT",
+"B": "ATATAT",
+"C": "CACACA",
+"D": "GCGCGC",
+"E": "All of the above"
+},
+"answer": "C",
+"explanation": "While microsatellites can include repeats of CG, AT, and CA, the most common motif is a repeat of AC."
+},
+{
+"question": "Microsatellite polymorphism refers to:",
+"options": {
+"A": "Variations in the sequence of the repeat unit.",
+"B": "Differences in the number of repeat units among individuals.",
+"C": "Mutations within the microsatellite sequence.",
+"D": "The presence or absence of a microsatellite at a particular locus.",
+"E": "The methylation status of the microsatellite region."
+},
+"answer": "B",
+"explanation": "Microsatellite polymorphism describes the variations in the number of repeat units within a microsatellite region among different individuals."
+},
+{
+"question": "What is a major application of microsatellites in molecular biology?",
+"options": {
+"A": "Gene expression analysis",
+"B": "DNA sequencing",
+"C": "Protein structure determination",
+"D": "Molecular markers",
+"E": "Drug discovery"
+},
+"answer": "D",
+"explanation": "Due to their polymorphism, microsatellites can serve as molecular markers and have applications in areas such as forensic analysis and paternity testing."
+},
+{
+"question": "Which of the following statements about mitochondrial DNA (mtDNA) is TRUE?",
+"options": {
+"A": "It is linear and located in the nucleus.",
+"B": "It is inherited from both parents.",
+"C": "It encodes all of the proteins required for mitochondrial function.",
+"D": "It is circular and can synthesize some of its own proteins.",
+"E": "It is highly susceptible to mutations."
+},
+"answer": "D",
+"explanation": "Mitochondria possess circular DNA that can independently synthesize some of the proteins needed for their function."
+},
+{
+"question": "Which of the following mitochondrial proteins is encoded by mtDNA?",
+"options": {
+"A": "ATP synthase",
+"B": "RNA polymerase",
+"C": "DNA polymerase",
+"D": "Cytochrome b",
+"E": "Ribosomal RNA"
+},
+"answer": "D",
+"explanation": "Mitochondrial DNA encodes for proteins such as NADH dehydrogenase and cytochrome b."
+},
+{
+"question": "Which parent primarily contributes mitochondrial DNA to offspring?",
+"options": {
+"A": "Father",
+"B": "Mother",
+"C": "Both equally",
+"D": "It varies depending on the species",
+"E": "It is randomly determined"
+},
+"answer": "B",
+"explanation": "Mitochondrial DNA is mainly inherited maternally. Sperm mitochondrial DNA is tagged and degraded."
+}
+]
