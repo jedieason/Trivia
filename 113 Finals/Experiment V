@@ -1,0 +1,602 @@
+[
+{
+"question": "下列關於基因轉殖的敘述，何者**錯誤**？",
+"options": {
+"A": "基因轉殖技術可用於大量複製重組 DNA 質體",
+"B": "基因轉殖技術需要改變細菌細胞膜的通透性",
+"C": "基因轉殖技術可以將外部基因送入細菌體內",
+"D": "基因轉殖技術僅限於使用物理方法",
+"E": "基因轉殖技術可以使細菌表現特定的蛋白質"
+},
+"answer": "D",
+"explanation": "基因轉殖可以使用化學或物理方法來改變細菌細胞膜的通透性。"
+},
+{
+"question": "本實驗使用的 **competent cell** 是什麼？",
+"options": {
+"A": "經過基因改造，能夠產生特定蛋白質的細菌",
+"B": "能夠抵抗 Ampicillin 的細菌",
+"C": "經過處理，細胞膜通透性改變，更容易接受外源 DNA 的細菌",
+"D": "能夠在 42°C 下生存的細菌",
+"E": "用於生產重組 DNA 的細菌"
+},
+"answer": "C",
+"explanation": "Competent cell (勝任細胞) 是指經過化學或物理方法處理，改變其細胞膜通透性，使其更容易接受外源 DNA（如質體或噬菌體 DNA）的細菌。"
+},
+{
+"question": "實驗中使用的 **Solution 1** 主要包含哪些成分？",
+"options": {
+"A": "T4 DNA ligase, Tris-HCl, DTT, ATP, MgCl2, BSA",
+"B": "Ampicillin, LB agar",
+"C": "fve 基因片段, pGEX-2T 載體片段",
+"D": "competent cell",
+"E": "玻璃珠"
+},
+"answer": "C",
+"explanation": "Solution 1 包含 fve 基因片段 (insert) 和 pGEX-2T 載體片段 (vector)。"
+},
+{
+"question": "實驗中使用的 **Solution 2** 的主要功能是什麼？",
+"options": {
+"A": "提供細菌生長所需的營養",
+"B": "抑制細菌生長",
+"C": "促進 DNA 片段的连接",
+"D": "溶解 DNA 片段",
+"E": "增加細胞膜的通透性"
+},
+"answer": "C",
+"explanation": "Solution 2 包含 T4 DNA ligase 和其他成分，用於促進 DNA 片段的連接。"
+},
+{
+"question": "**Solution 3** 在實驗中扮演什麼角色？",
+"options": {
+"A": "阳性对照组",
+"B": "阴性对照组",
+"C": "實驗組",
+"D": "促進 DNA 片段連接的催化劑",
+"E": "用於溶解 DNA 片段的溶劑"
+},
+"answer": "B",
+"explanation": "Solution 3 是陰性對照組，只包含 Solution 1 和连接缓冲液，不包含 T4 DNA ligase。"
+},
+{
+"question": "**Solution 4** 在實驗中扮演什麼角色？",
+"options": {
+"A": "阳性对照组",
+"B": "阴性对照组",
+"C": "實驗組",
+"D": "促進 DNA 片段連接的催化劑",
+"E": "用於溶解 DNA 片段的溶劑"
+},
+"answer": "A",
+"explanation": "Solution 4 是陽性對照組，只包含 pGEX-2T 載體片段，不包含 fve 基因片段。"
+},
+{
+"question": "實驗步驟 **Part A** 的主要目的是什麼？",
+"options": {
+"A": "製備 competent cell",
+"B": "將重組 DNA 送入細菌",
+"C": "篩選含有重組 DNA 的細菌",
+"D": "连接 fve 基因片段和 pGEX-2T 載體片段",
+"E": "培養細菌"
+},
+"answer": "D",
+"explanation": "實驗步驟 Part A 是接合作用 (ligation)，目的是將 fve 基因片段和 pGEX-2T 載體片段连接起來。"
+},
+{
+"question": "實驗步驟 **Part B** 的主要目的是什麼？",
+"options": {
+"A": "製備 competent cell",
+"B": "將重組 DNA 送入細菌",
+"C": "篩選含有重組 DNA 的細菌",
+"D": "连接 fve 基因片段和 pGEX-2T 載體片段",
+"E": "培養細菌"
+},
+"answer": "B",
+"explanation": "實驗步驟 Part B 是轉形作用 (transformation)，目的是將重組 DNA 送入細菌。"
+},
+{
+"question": "為什麼要在冰上靜置 competent cell 和 DNA 混合物 10 分鐘？",
+"options": {
+"A": "減緩細菌的代謝活性",
+"B": "增加細胞膜的通透性",
+"C": "促進 DNA 的连接",
+"D": "促進 DNA 進入細菌",
+"E": "抑制細菌的生長"
+},
+"answer": "A",
+"explanation": "在冰上靜置可以減緩細菌的代謝活性，使其更容易接受外源 DNA。"
+},
+{
+"question": "為什麼要進行 42°C 熱衝擊？",
+"options": {
+"A": "殺死大部分的細菌",
+"B": "增加細胞膜的通透性",
+"C": "促進 DNA 的连接",
+"D": "促進 DNA 進入細菌",
+"E": "啟動 DNA 的複製"
+},
+"answer": "B",
+"explanation": "42°C 熱衝擊可以短暫地增加細胞膜的通透性，讓 DNA 更容易進入細菌。"
+},
+{
+"question": "為什麼要在 LB agar plate 上滾動玻璃珠？",
+"options": {
+"A": "使菌落均勻分佈在培養皿上",
+"B": "破碎細菌細胞",
+"C": "促進 DNA 的连接",
+"D": "促進 DNA 進入細菌",
+"E": "增加培養皿的氧氣含量"
+},
+"answer": "A",
+"explanation": "在 LB agar plate 上滾動玻璃珠可以使菌落均勻分佈在培養皿上，方便之後計算菌落數目。"
+},
+{
+"question": "培養皿在 37°C incubator 中倒置培養的原因是什麼？",
+"options": {
+"A": "防止培養基水分蒸發",
+"B": "避免污染",
+"C": "促進細菌的生長",
+"D": "促進 DNA 的複製",
+"E": "讓菌落均勻分佈在培養皿上"
+},
+"answer": "A",
+"explanation": "培養皿倒置培養可以防止培養基水分蒸發，滴落在培養皿蓋子上。"
+},
+{
+"question": "本實驗使用哪種抗生素篩選含有重組 DNA 的細菌？",
+"options": {
+"A": "Kanamycin",
+"B": "Tetracycline",
+"C": "Chloramphenicol",
+"D": "Ampicillin",
+"E": "Streptomycin"
+},
+"answer": "D",
+"explanation": "實驗使用含有 Ampicillin 的 LB agar plate 來篩選含有重組 DNA 的細菌。"
+},
+{
+"question": "**pGEX-2T** 載體中含有哪些基因？",
+"options": {
+"A": "Ampicillin 抗性基因, fve 基因",
+"B": "Ampicillin 抗性基因, GST 基因",
+"C": "fve 基因, GST 基因",
+"D": "Kanamycin 抗性基因, fve 基因",
+"E": "Tetracycline 抗性基因, GST 基因"
+},
+"answer": "B",
+"explanation": "從實驗的附圖可以看出，pGEX-2T 載體中含有 Ampicillin 抗性基因 (Ampr) 和 GST 基因。"
+},
+{
+"question": "根據實驗附圖，**pGEX-FIP-fve** 的大小是多少？",
+"options": {
+"A": "342 bp",
+"B": "5.24 kb",
+"C": "5.582 kb",
+"D": "4.9 kb",
+"E": "無法從附圖得知"
+},
+"answer": "C",
+"explanation": "附圖顯示 pGEX-2T 載體的大小是 5.24 kb，fve 基因片段的大小是 342 bp，因此 pGEX-FIP-fve 的大小是 5.582 kb。"
+},
+{
+"question": "下列哪個限制酶可以用於切開 **pGEX-2T** 載體？",
+"options": {
+"A": "HindIII",
+"B": "BamHI",
+"C": "SalI",
+"D": "XhoI",
+"E": "NotI"
+},
+"answer": "B",
+"explanation": "附圖顯示 pGEX-2T 載體上有一個 BamHI 的限制酶切位點。"
+},
+{
+"question": "為什麼要避免質體載體重新 annealing？",
+"options": {
+"A": "防止質體載體降解",
+"B": "确保 fve 基因片段可以插入到質體載體中",
+"C": "防止細菌被質體載體毒害",
+"D": "增加轉形作用的效率",
+"E": "防止質體載體複製"
+},
+"answer": "B",
+"explanation": "如果質體載體重新 annealing，fve 基因片段就無法插入到質體載體中，導致無法形成重組 DNA。"
+},
+{
+"question": "本實驗的結果報告截止日期是？",
+"options": {
+"A": "10/4",
+"B": "10/11",
+"C": "10/18",
+"D": "10/25",
+"E": "11/1"
+},
+"answer": "B",
+"explanation": "注意事項提到下次實驗課 (10/11) 交此次結報。"
+},
+{
+"question": "下列哪個敘述最能描述 **recombinant DNA**？",
+"options": {
+"A": "來自同一生物體的不同 DNA 片段組合而成的 DNA",
+"B": "經過突變的 DNA",
+"C": "來自不同來源的 DNA 片段組合而成的 DNA",
+"D": "人工合成的 DNA",
+"E": "細菌染色體 DNA"
+},
+"answer": "C",
+"explanation": "重組 DNA (recombinant DNA) 是由來源不同的 DNA 片段所組合而成之 DNA。"
+},
+{
+"question": "實驗中使用 **LB agar plate** 的目的是什麼？",
+"options": {
+"A": "提供細菌生長所需的營養",
+"B": "抑制細菌生長",
+"C": "促進 DNA 的连接",
+"D": "溶解 DNA 片段",
+"E": "增加細胞膜的通透性"
+},
+"answer": "A",
+"explanation": "LB agar plate 是一種培養基，提供細菌生長所需的營養。"
+},
+{
+"question": "**DTT** 在 Solution 2 中的作用是什麼？",
+"options": {
+"A": "維持反應溶液的 pH 值",
+"B": "提供能量",
+"C": "作為輔因子",
+"D": "防止蛋白質氧化",
+"E": "抑制細菌生長"
+},
+"answer": "D",
+"explanation": "DTT (二硫蘇糖醇) 是一種還原劑，可以防止蛋白質氧化。"
+},
+{
+"question": "**BSA** 在 Solution 2 中的作用是什麼？",
+"options": {
+"A": "維持反應溶液的 pH 值",
+"B": "提供能量",
+"C": "作為輔因子",
+"D": "防止蛋白質非特異性吸附",
+"E": "抑制細菌生長"
+},
+"answer": "D",
+"explanation": "BSA (牛血清白蛋白) 可以防止蛋白質非特異性吸附到反應管壁上。"
+},
+{
+"question": "**positive control** 的作用是什麼？",
+"options": {
+"A": "驗證實驗步驟是否正確",
+"B": "驗證實驗結果是否可靠",
+"C": "作為實驗的基準線",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "positive control 可以驗證實驗步驟是否正確、實驗結果是否可靠，以及作為實驗的基準線。"
+},
+{
+"question": "**negative control** 的作用是什麼？",
+"options": {
+"A": "驗證實驗步驟是否正確",
+"B": "排除其他因素對實驗結果的影響",
+"C": "作為實驗的基準線",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "negative control 可以驗證實驗步驟是否正確、排除其他因素對實驗結果的影響，以及作為實驗的基準線。"
+},
+{
+"question": "實驗中如何避免質體載體重新 annealing？",
+"options": {
+"A": "使用高濃度的 fve 基因片段",
+"B": "使用低溫反應",
+"C": "使用特定的酶",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "A",
+"explanation": "使用高濃度的 fve 基因片段可以增加 fve 基因片段與質體載體結合的機率，從而避免質體載體重新 annealing。"
+},
+{
+"question": "實驗中使用的 **pGEX-2T** 載體屬於哪種類型？",
+"options": {
+"A": "克隆載體",
+"B": "表達載體",
+"C": "穿梭載體",
+"D": "噬菌體載體",
+"E": "酵母菌載體"
+},
+"answer": "B",
+"explanation": "pGEX-2T 載體是一種表達載體，用於在細菌中表達 GST 融合蛋白。"
+},
+{
+"question": "**GST** 基因在 pGEX-2T 載體中的作用是什麼？",
+"options": {
+"A": "作為篩選標記",
+"B": "促進蛋白質表達",
+"C": "方便蛋白質純化",
+"D": "提高蛋白質穩定性",
+"E": "以上皆是"
+},
+"answer": "C",
+"explanation": "GST (穀胱甘肽-S-轉移酶) 基因可以與目標蛋白質融合表達，方便利用親和層析法純化目標蛋白質。"
+},
+{
+"question": "**fve** 基因在本實驗中代表什麼？",
+"options": {
+"A": "抗生素抗性基因",
+"B": "報告基因",
+"C": "目標基因",
+"D": "調控基因",
+"E": "結構基因"
+},
+"answer": "C",
+"explanation": "fve 基因是本實驗中要插入到 pGEX-2T 載體中的目標基因。"
+},
+{
+"question": "實驗中使用 **T4 DNA ligase** 的目的是什麼？",
+"options": {
+"A": "切開 DNA",
+"B": "连接 DNA",
+"C": "複製 DNA",
+"D": "轉錄 DNA",
+"E": "修復 DNA"
+},
+"answer": "B",
+"explanation": "T4 DNA ligase 是一種酶，用於催化 DNA 片段的连接。"
+},
+{
+"question": "**ATP** 在 Solution 2 中的作用是什麼？",
+"options": {
+"A": "維持反應溶液的 pH 值",
+"B": "提供能量",
+"C": "作為輔因子",
+"D": "防止蛋白質氧化",
+"E": "抑制細菌生長"
+},
+"answer": "B",
+"explanation": "ATP (腺苷三磷酸) 是一種能量分子，為 T4 DNA ligase 的催化反應提供能量。"
+},
+{
+"question": "**MgCl2** 在 Solution 2 中的作用是什麼？",
+"options": {
+"A": "維持反應溶液的 pH 值",
+"B": "提供能量",
+"C": "作為輔因子",
+"D": "防止蛋白質氧化",
+"E": "抑制細菌生長"
+},
+"answer": "C",
+"explanation": "MgCl2 (氯化鎂) 是 T4 DNA ligase 的輔因子，可以促進酶的活性。"
+},
+{
+"question": "實驗中使用的 **EcoRI** 限制酶可以切開哪種 DNA 序列？",
+"options": {
+"A": "GAATTC",
+"B": "GGATCC",
+"C": "CCCGGG",
+"D": "AAGCTT",
+"E": "GTCGAC"
+},
+"answer": "A",
+"explanation": "EcoRI 限制酶可以識別並切開 GAATTC 的 DNA 序列。"
+},
+{
+"question": "實驗中使用的 **competent cell** 需要具備哪些特性？",
+"options": {
+"A": "高轉形效率",
+"B": "低背景值",
+"C": "良好的生長狀態",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "實驗中使用的 competent cell 需要具備高轉形效率、低背景值和良好的生長狀態，才能確保實驗結果的準確性和可靠性。"
+},
+{
+"question": "實驗中使用的 **LB agar plate** 需要添加哪種抗生素？",
+"options": {
+"A": "與 pGEX-2T 載體中抗性基因相對應的抗生素",
+"B": "任何一種抗生素",
+"C": "不需要添加抗生素",
+"D": "兩種以上不同種類的抗生素",
+"E": "以上皆非"
+},
+"answer": "A",
+"explanation": "LB agar plate 需要添加與 pGEX-2T 載體中抗性基因相對應的抗生素，才能篩選出含有重組 DNA 的細菌。"
+},
+{
+"question": "實驗中如何計算 **colony number**？",
+"options": {
+"A": "在顯微鏡下觀察並計數",
+"B": "使用特定的儀器進行計數",
+"C": "直接用肉眼觀察並計數",
+"D": "以上皆可",
+"E": "以上皆非"
+},
+"answer": "C",
+"explanation": "實驗中可以直接用肉眼觀察 LB agar plate 上的菌落並計數。"
+},
+{
+"question": "實驗中 **negative control** 的 colony number 應該為何？",
+"options": {
+"A": "0",
+"B": "與 positive control 相近",
+"C": "比 positive control 少",
+"D": "比 positive control 多",
+"E": "以上皆有可能"
+},
+"answer": "C",
+"explanation": "negative control 的 colony number 應該比 positive control 少，因為 negative control 中沒有加入 T4 DNA ligase，因此 fve 基因片段無法插入到 pGEX-2T 載體中，形成的重組 DNA 較少。"
+},
+{
+"question": "實驗中為什麼要設定 **positive control** 和 **negative control**？",
+"options": {
+"A": "驗證實驗步驟是否正確",
+"B": "排除其他因素對實驗結果的影響",
+"C": "作為實驗的基準線",
+"D": "提高實驗結果的準確性和可靠性",
+"E": "以上皆是"
+},
+"answer": "E",
+"explanation": "設定 positive control 和 negative control 可以驗證實驗步驟是否正確、排除其他因素對實驗結果的影響、作為實驗的基準線，以及提高實驗結果的準確性和可靠性。"
+},
+{
+"question": "實驗中為什麼要使用 **sterile** 的器材？",
+"options": {
+"A": "避免污染",
+"B": "提高實驗結果的準確性",
+"C": "防止實驗失敗",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "使用 sterile 的器材可以避免污染、提高實驗結果的準確性，以及防止實驗失敗。"
+},
+{
+"question": "實驗中使用的 **LB agar plate with Ampicillin** 的作用是什麼？",
+"options": {
+"A": "提供細菌生長所需的營養",
+"B": "抑制沒有 pGEX-2T 載體的細菌生長",
+"C": "促進 DNA 的连接",
+"D": "溶解 DNA 片段",
+"E": "增加細胞膜的通透性"
+},
+"answer": "B",
+"explanation": "LB agar plate with Ampicillin 可以抑制沒有 pGEX-2T 載體的細菌生長，因為 pGEX-2T 載體含有 Ampicillin 抗性基因，可以讓細菌在含有 Ampicillin 的環境下存活。"
+},
+{
+"question": "實驗中使用 **heat block** 的目的是什麼？",
+"options": {
+"A": "融化瓊脂",
+"B": "滅菌器材",
+"C": "進行熱衝擊",
+"D": "培養細菌",
+"E": "乾燥器材"
+},
+"answer": "C",
+"explanation": "heat block 可以精確控制溫度，用於進行 42°C 熱衝擊。"
+},
+{
+"question": "實驗中使用 **P20** 和 **P200** 的目的是什麼？",
+"options": {
+"A": "吸取和分配微量液體",
+"B": "混合溶液",
+"C": "粉碎細胞",
+"D": "測量溶液 pH 值",
+"E": "觀察菌落"
+},
+"answer": "A",
+"explanation": "P20 和 P200 是微量移液器，用於吸取和分配微量液體。"
+},
+{
+"question": "實驗中使用 **Eppendorf** 的目的是什麼？",
+"options": {
+"A": "儲存和混合溶液",
+"B": "培養細菌",
+"C": "觀察菌落",
+"D": "測量溶液 pH 值",
+"E": "乾燥器材"
+},
+"answer": "A",
+"explanation": "Eppendorf 是微量離心管，用於儲存和混合溶液。"
+},
+{
+"question": "實驗中使用的 **glass beads** 需要做什麼處理？",
+"options": {
+"A": "滅菌",
+"B": "預冷",
+"C": "乾燥",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "實驗中使用的 glass beads 需要滅菌、預冷和乾燥，才能避免污染和影響實驗結果。"
+},
+{
+"question": "實驗中為什麼要使用 **cold** 的 LB agar plate？",
+"options": {
+"A": "減緩細菌的代謝活性",
+"B": "避免熱衝擊後細菌死亡",
+"C": "促進 DNA 的连接",
+"D": "促進 DNA 進入細菌",
+"E": "抑制細菌的生長"
+},
+"answer": "B",
+"explanation": "使用 cold 的 LB agar plate 可以避免熱衝擊後細菌死亡，因為熱衝擊會短暫地增加細胞膜的通透性，使細菌對溫度變化更敏感。"
+},
+{
+"question": "實驗中為什麼要將 LB agar plate **倒置** 培養？",
+"options": {
+"A": "防止培養基水分蒸發",
+"B": "避免污染",
+"C": "促進細菌的生長",
+"D": "促進 DNA 的複製",
+"E": "讓菌落均勻分佈在培養皿上"
+},
+"answer": "A",
+"explanation": "將 LB agar plate 倒置培養可以防止培養基水分蒸發，滴落在培養皿蓋子上，影響菌落的生長。"
+},
+{
+"question": "實驗中為什麼要將 LB agar plate 儲存在 **4°C**？",
+"options": {
+"A": "減緩細菌的代謝活性",
+"B": "避免污染",
+"C": "促進細菌的生長",
+"D": "促進 DNA 的複製",
+"E": "抑制細菌的生長"
+},
+"answer": "E",
+"explanation": "將 LB agar plate 儲存在 4°C 可以抑制細菌的生長，避免菌落過度生長，影響結果觀察。"
+},
+{
+"question": "實驗中 **colony number** 代表什麼意義？",
+"options": {
+"A": "成功轉形的細菌數量",
+"B": "所有細菌的數量",
+"C": "重組 DNA 的數量",
+"D": "質體載體的數量",
+"E": "以上皆非"
+},
+"answer": "A",
+"explanation": "colony number 代表成功轉形的細菌數量，因為只有含有重組 DNA 的細菌才能在含有 Ampicillin 的 LB agar plate 上生長形成菌落。"
+},
+{
+"question": "實驗中如何判斷 **transformation** 是否成功？",
+"options": {
+"A": "觀察 LB agar plate 上是否有菌落生長",
+"B": "比較 positive control 和 negative control 的 colony number",
+"C": "進行 DNA 序列分析",
+"D": "以上皆是",
+"E": "以上皆非"
+},
+"answer": "D",
+"explanation": "可以透過觀察 LB agar plate 上是否有菌落生長、比較 positive control 和 negative control 的 colony number，以及進行 DNA 序列分析來判斷 transformation 是否成功。"
+},
+{
+"question": "實驗中 **ligation** 的效率會受到哪些因素影響？",
+"options": {
+"A": "DNA 片段的濃度",
+"B": "T4 DNA ligase 的活性",
+"C": "反應溫度",
+"D": "反應時間",
+"E": "以上皆是"
+},
+"answer": "E",
+"explanation": "ligation 的效率會受到 DNA 片段的濃度、T4 DNA ligase 的活性、反應溫度和反應時間等因素影響。"
+},
+{
+"question": "實驗中 **transformation** 的效率會受到哪些因素影響？",
+"options": {
+"A": "competent cell 的狀態",
+"B": "DNA 的質量",
+"C": "熱衝擊的條件",
+"D": "DNA 的濃度",
+"E": "以上皆是"
+},
+"answer": "E",
+"explanation": "transformation 的效率會受到 competent cell 的狀態、DNA 的質量、熱衝擊的條件和 DNA 的濃度等因素影響。"
+}
+]
