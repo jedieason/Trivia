@@ -1,0 +1,542 @@
+[
+  {
+    "question": "Which of the following is a defining characteristic of schizophrenia?",
+    "options": {
+      "A": "A persistent feeling of sadness and hopelessness",
+      "B": "An exaggerated sense of self-importance and grandiosity",
+      "C": "A separation between thoughts and emotions, leading to altered perceptions",
+      "D": "An intense fear of social situations and negative evaluation",
+      "E": "Recurring panic attacks with physical symptoms like a racing heart"
+    },
+    "answer": "C",
+    "explanation": "Schizophrenia is characterized by a split between thought and emotion, involving changes in thoughts, perceptions, or consciousness."
+  },
+  {
+    "question": "Which of these is an example of a positive symptom of schizophrenia?",
+    "options": {
+      "A": "Apathy and lack of motivation",
+      "B": "Slowed speech and movement",
+      "C": "Hallucinations, such as hearing voices",
+      "D": "Flat affect and reduced emotional expression",
+      "E": "Difficulty initiating and persisting in activities"
+    },
+    "answer": "C",
+    "explanation": "Positive symptoms of schizophrenia are marked by excesses in functioning, including hallucinations."
+  },
+  {
+    "question": "What is the term for false beliefs based on incorrect inferences about reality, often seen in schizophrenia?",
+    "options": {
+      "A": "Hallucinations",
+      "B": "Delusions",
+      "C": "Alogia",
+      "D": "Avolition",
+      "E": "Anhedonia"
+    },
+    "answer": "B",
+    "explanation": "Delusions are false beliefs that are not based on reality and are a symptom of schizophrenia."
+  },
+  {
+    "question": "Which negative symptom of schizophrenia is characterized by a reduced amount of speech and a slow, monotonous tone of voice?",
+    "options": {
+      "A": "Flat affect",
+      "B": "Alogia",
+      "C": "Avolition",
+      "D": "Anhedonia",
+      "E": "Catatonia"
+    },
+    "answer": "B",
+    "explanation": "Alogia is a negative symptom of schizophrenia characterized by reduced speech and altered tone of voice."
+  },
+  {
+    "question": "Why are negative symptoms of schizophrenia associated with a poorer prognosis?",
+    "options": {
+      "A": "They are more difficult to treat with medication.",
+      "B": "They often lead to social isolation and withdrawal.",
+      "C": "They indicate a more severe form of the disorder.",
+      "D": "They are more disruptive to daily functioning.",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "Negative symptoms can make it harder to engage in therapy, maintain relationships, and perform daily tasks, leading to a poorer prognosis."
+  },
+  {
+    "question": "Which statement accurately reflects the concept of psychotic symptoms existing on a continuum?",
+    "options": {
+      "A": "Only individuals diagnosed with schizophrenia experience psychotic symptoms.",
+      "B": "Psychotic experiences are always severe and debilitating.",
+      "C": "There's a clear and distinct line separating normal experiences from psychotic symptoms.",
+      "D": "Individuals can have psychosis-like experiences without meeting criteria for schizophrenia.",
+      "E": "Psychotic symptoms are always caused by underlying medical conditions."
+    },
+    "answer": "D",
+    "explanation": "The sources explain that psychotic symptoms exist on a spectrum, with some individuals experiencing subclinical symptoms without having a disorder."
+  },
+  {
+    "question": "Which cognitive function is often impaired in schizophrenia, impacting a person's ability to understand the intentions of others?",
+    "options": {
+      "A": "Episodic memory",
+      "B": "Working memory",
+      "C": "Processing speed",
+      "D": "Social cognition",
+      "E": "Attention"
+    },
+    "answer": "D",
+    "explanation": "Social cognition, particularly theory of mind, is often impaired in individuals with schizophrenia."
+  },
+  {
+    "question": "What is the current understanding of the genetic basis of schizophrenia?",
+    "options": {
+      "A": "A single gene is responsible for causing schizophrenia.",
+      "B": "Schizophrenia is entirely caused by environmental factors.",
+      "C": "Genetic factors play no role in the development of schizophrenia.",
+      "D": "A combination of multiple genes increases vulnerability to schizophrenia.",
+      "E": "Schizophrenia is directly inherited from parents."
+    },
+    "answer": "D",
+    "explanation": "The text states that there is no single gene responsible for schizophrenia; rather, multiple genes contribute to vulnerability."
+  },
+  {
+    "question": "Which neurotransmitter is often implicated in the biological basis of schizophrenia?",
+    "options": {
+      "A": "Serotonin",
+      "B": "Norepinephrine",
+      "C": "GABA",
+      "D": "Dopamine",
+      "E": "Acetylcholine"
+    },
+    "answer": "D",
+    "explanation": "The sources mention that an excess of dopamine activity is often found in individuals with schizophrenia."
+  },
+  {
+    "question": "Which brain region, involved in working memory and cognitive control, often shows abnormalities in individuals with schizophrenia?",
+    "options": {
+      "A": "Amygdala",
+      "B": "Hippocampus",
+      "C": "Hypothalamus",
+      "D": "Dorsolateral prefrontal cortex",
+      "E": "Brainstem"
+    },
+    "answer": "D",
+    "explanation": "The dorsolateral prefrontal cortex (DLPFC) and its connections are often affected in schizophrenia."
+  },
+  {
+    "question": "Which of these is an environmental factor that can increase the risk of developing schizophrenia?",
+    "options": {
+      "A": "Having a sibling with schizophrenia",
+      "B": "Exposure to certain viruses during pregnancy",
+      "C": "Growing up in a rural environment",
+      "D": "High levels of social support",
+      "E": "Regular exercise"
+    },
+    "answer": "B",
+    "explanation": "The sources list problems during pregnancy, including infections, as a potential environmental risk factor."
+  },
+  {
+    "question": "What is the term for critical or emotionally overinvolved attitudes from family members towards a person with schizophrenia?",
+    "options": {
+      "A": "Family burden",
+      "B": "Expressed emotion",
+      "C": "Negative feedback loop",
+      "D": "Emotional contagion",
+      "E": "Codependency"
+    },
+    "answer": "B",
+    "explanation": "Expressed emotion is a term used to describe negative or overly involved family interactions that can contribute to stress in individuals with schizophrenia."
+  },
+  {
+    "question": "Which statement accurately describes anxiety disorders?",
+    "options": {
+      "A": "They are rare and affect only a small percentage of the population.",
+      "B": "They involve experiencing excessive anxiety in the absence of real danger.",
+      "C": "They are always caused by specific traumatic events.",
+      "D": "They are easily treated with medication alone.",
+      "E": "They are characterized by a lack of emotional response."
+    },
+    "answer": "B",
+    "explanation": "The sources define anxiety disorders as involving excessive anxiety that is out of proportion to the actual threat."
+  },
+  {
+    "question": "How do anxiety disorders affect the autonomic nervous system?",
+    "options": {
+      "A": "They suppress the fight-or-flight response.",
+      "B": "They lead to a state of chronic relaxation.",
+      "C": "They cause a decrease in heart rate and blood pressure.",
+      "D": "They result in physical symptoms due to constant arousal.",
+      "E": "They have no impact on the autonomic nervous system."
+    },
+    "answer": "D",
+    "explanation": "The text explains that anxiety disorders keep the autonomic nervous system in a state of arousal, leading to physical symptoms."
+  },
+  {
+    "question": "Which anxiety disorder is characterized by chronic, excessive worry that is not tied to any specific threat?",
+    "options": {
+      "A": "Social anxiety disorder",
+      "B": "Specific phobia",
+      "C": "Panic disorder",
+      "D": "Generalized anxiety disorder",
+      "E": "Obsessive-compulsive disorder"
+    },
+    "answer": "D",
+    "explanation": "Generalized anxiety disorder (GAD) involves persistent worry and anxiety that is not focused on a specific object or situation."
+  },
+  {
+    "question": "What is the core fear associated with social anxiety disorder?",
+    "options": {
+      "A": "Being alone in public places",
+      "B": "Encounters with specific objects or animals",
+      "C": "Having a panic attack in a crowded place",
+      "D": "Negative evaluation or scrutiny from others",
+      "E": "Contamination and germs"
+    },
+    "answer": "D",
+    "explanation": "Social anxiety disorder is characterized by a fear of social situations due to concerns about being judged or evaluated negatively."
+  },
+  {
+    "question": "What distinguishes a specific phobia from normal fear or dislike?",
+    "options": {
+      "A": "The fear is persistent and irrational.",
+      "B": "The fear is based on a real and present danger.",
+      "C": "The fear does not lead to avoidance behavior.",
+      "D": "The fear is only experienced occasionally.",
+      "E": "The fear is easily managed with relaxation techniques."
+    },
+    "answer": "A",
+    "explanation": "Specific phobias involve an irrational and persistent fear that is disproportionate to the actual threat posed by the object or situation."
+  },
+  {
+    "question": "Which physical symptom is commonly associated with panic attacks?",
+    "options": {
+      "A": "Slowed heart rate",
+      "B": "Decreased blood pressure",
+      "C": "Numbness or tingling in the extremities",
+      "D": "Pounding heart and sweating",
+      "E": "Muscle weakness and fatigue"
+    },
+    "answer": "D",
+    "explanation": "Panic attacks are characterized by sudden and intense anxiety, often accompanied by physical symptoms like a racing heart, sweating, and shortness of breath."
+  },
+  {
+    "question": "What is the defining feature of agoraphobia?",
+    "options": {
+      "A": "Fear of spiders and other insects",
+      "B": "Fear of public speaking",
+      "C": "Fear of being in situations where escape is difficult or help unavailable",
+      "D": "Fear of heights",
+      "E": "Fear of enclosed spaces"
+    },
+    "answer": "C",
+    "explanation": "Agoraphobia is a fear of situations where escape might be difficult or help unavailable if something bad were to happen."
+  },
+  {
+    "question": "How do obsessions and compulsions interact in obsessive-compulsive disorder (OCD)?",
+    "options": {
+      "A": "Obsessions are unwanted thoughts, while compulsions are repetitive behaviors to reduce anxiety.",
+      "B": "Obsessions are persistent fears, while compulsions are irrational beliefs.",
+      "C": "Obsessions are physical sensations, while compulsions are emotional responses.",
+      "D": "Obsessions are negative thoughts, while compulsions are positive actions.",
+      "E": "Obsessions are uncontrollable urges, while compulsions are avoidance behaviors."
+    },
+    "answer": "A",
+    "explanation": "The sources describe OCD as involving intrusive thoughts (obsessions) that lead to repetitive behaviors (compulsions) aimed at reducing anxiety."
+  },
+  {
+    "question": "What is the primary cause of posttraumatic stress disorder (PTSD)?",
+    "options": {
+      "A": "Genetic predisposition",
+      "B": "Exposure to a major traumatic event",
+      "C": "Chronic stress and burnout",
+      "D": "Substance abuse",
+      "E": "Social isolation"
+    },
+    "answer": "B",
+    "explanation": "PTSD develops after experiencing a significant traumatic event, such as accidents, violence, or war-related trauma."
+  },
+  {
+    "question": "Which symptom is characteristic of PTSD?",
+    "options": {
+      "A": "Excessive worry about everyday matters",
+      "B": "Fear of social situations and scrutiny",
+      "C": "Re-experiencing the traumatic event through flashbacks",
+      "D": "Persistent fear of specific objects or situations",
+      "E": "Compulsive behaviors to reduce anxiety"
+    },
+    "answer": "C",
+    "explanation": "Individuals with PTSD often re-experience the traumatic event through intrusive memories, nightmares, or flashbacks."
+  },
+  {
+    "question": "What is the role of genetics in the development of anxiety disorders?",
+    "options": {
+      "A": "Specific genes directly cause anxiety disorders.",
+      "B": "Genes play no role in the development of anxiety disorders.",
+      "C": "Genes can make individuals more susceptible to anxiety and influence brain responses to stress.",
+      "D": "Anxiety disorders are always inherited from parents.",
+      "E": "Genetic testing can accurately predict who will develop an anxiety disorder."
+    },
+    "answer": "C",
+    "explanation": "While no single gene causes anxiety disorders, genetic factors can increase vulnerability and affect how the brain responds to stress."
+  },
+  {
+    "question": "What is behavioral inhibition in the context of anxiety disorders?",
+    "options": {
+      "A": "A type of therapy used to treat anxiety",
+      "B": "A personality trait characterized by shyness and withdrawal from unfamiliar situations",
+      "C": "A neurological mechanism that suppresses fear responses",
+      "D": "A medication used to reduce anxiety symptoms",
+      "E": "A form of exposure therapy for phobias"
+    },
+    "answer": "B",
+    "explanation": "The text mentions inhibited childhood temperament, including behavioral inhibition, as a potential biological factor in anxiety disorders."
+  },
+  {
+    "question": "Which cognitive distortion is common in anxiety disorders?",
+    "options": {
+      "A": "Interpreting neutral situations as positive",
+      "B": "Focusing on the positive aspects of a situation",
+      "C": "Having realistic expectations of oneself and others",
+      "D": "Misinterpreting harmless situations as threatening",
+      "E": "Engaging in balanced and rational thinking"
+    },
+    "answer": "D",
+    "explanation": "The sources describe how individuals with anxiety disorders often misinterpret harmless situations as dangerous."
+  },
+  {
+    "question": "How does classical conditioning contribute to the development of phobias?",
+    "options": {
+      "A": "It helps individuals overcome their fear through gradual exposure.",
+      "B": "It leads to the association of a neutral stimulus with a fear response.",
+      "C": "It reinforces avoidance behaviors through negative reinforcement.",
+      "D": "It teaches individuals coping mechanisms to manage anxiety.",
+      "E": "It is not relevant to the development of phobias."
+    },
+    "answer": "B",
+    "explanation": "Classical conditioning can play a role in phobias by pairing a neutral stimulus with a fearful experience, leading to a conditioned fear response."
+  },
+  {
+    "question": "How does operant conditioning contribute to the maintenance of phobias?",
+    "options": {
+      "A": "It encourages individuals to face their fears.",
+      "B": "It weakens the association between the feared object and the fear response.",
+      "C": "It reinforces avoidance behavior by reducing anxiety.",
+      "D": "It promotes extinction of the fear response through repeated exposure.",
+      "E": "It is not involved in the maintenance of phobias."
+    },
+    "answer": "C",
+    "explanation": "Operant conditioning can maintain phobias because avoiding the feared object or situation provides temporary relief from anxiety, reinforcing the avoidance behavior."
+  },
+  {
+    "question": "What is the lifetime prevalence of schizophrenia?",
+    "options": {
+      "A": "0.1-0.3%",
+      "B": "0.3-0.7%",
+      "C": "1-2%",
+      "D": "5-10%",
+      "E": "15-20%"
+    },
+    "answer": "B",
+    "explanation": "According to the source, the lifetime prevalence of schizophrenia is between 0.3 and 0.7%."
+  },
+  {
+    "question": "Which of the following statements about the gender distribution of schizophrenia is true?",
+    "options": {
+      "A": "Schizophrenia is more common in females.",
+      "B": "Schizophrenia is more common in males.",
+      "C": "The prevalence of schizophrenia is roughly equal in males and females.",
+      "D": "Gender does not play a role in the development of schizophrenia.",
+      "E": "The relationship between gender and schizophrenia is not yet understood."
+    },
+    "answer": "C",
+    "explanation": "The source states that the ratio of females to males with schizophrenia is 1:1."
+  },
+  {
+    "question": "Which of these cognitive functions is NOT typically impaired in schizophrenia?",
+    "options": {
+      "A": "Long-term memory",
+      "B": "Working memory",
+      "C": "Processing speed",
+      "D": "Attention",
+      "E": "Executive functioning"
+    },
+    "answer": "A",
+    "explanation": "While the source mentions impairments in episodic memory, which is a type of long-term memory, it does not specifically state that long-term memory as a whole is impaired."
+  },
+  {
+    "question": "Aside from the dorsolateral prefrontal cortex, which brain region is also noted as being reduced in individuals with schizophrenia?",
+    "options": {
+      "A": "Amygdala",
+      "B": "Hippocampus",
+      "C": "Hypothalamus",
+      "D": "Thalamus",
+      "E": "Cerebellum"
+    },
+    "answer": "B",
+    "explanation": "The source mentions that schizophrenia is associated with reduced brain tissue, especially in the frontal lobes and medial temporal lobes, which includes the hippocampus."
+  },
+  {
+    "question": "What is the term for the type of brain matter that is involved in the transmission of signals between different brain regions?",
+    "options": {
+      "A": "Gray matter",
+      "B": "White matter",
+      "C": "Cerebrospinal fluid",
+      "D": "Meninges",
+      "E": "Corpus callosum"
+    },
+    "answer": "B",
+    "explanation": "The source mentions that schizophrenia is associated with a reduction in both gray and white matter in the brain. White matter is responsible for communication between different brain regions."
+  },
+  {
+    "question": "Which of these is a birth complication that has been linked to an increased risk of developing schizophrenia?",
+    "options": {
+      "A": "Premature birth",
+      "B": "Low birth weight",
+      "C": "Oxygen deprivation during birth",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "While the source simply states 'birth complications,' all of the listed options are recognized birth complications that have been associated with an increased risk of developing schizophrenia."
+  },
+  {
+    "question": "Aside from cannabis, use of which substance has been linked to an increased risk of developing schizophrenia?",
+    "options": {
+      "A": "Alcohol",
+      "B": "Tobacco",
+      "C": "Amphetamines",
+      "D": "Opioids",
+      "E": "Hallucinogens"
+    },
+    "answer": "C",
+    "explanation": "While the source only lists cannabis, research suggests that amphetamine use, particularly in high doses or prolonged use, can trigger psychosis and increase the risk of developing schizophrenia in vulnerable individuals."
+  },
+  {
+    "question": "What is the name of the psychological model that emphasizes the interaction between predisposing vulnerabilities and environmental stressors in the development of mental disorders?",
+    "options": {
+      "A": "Biopsychosocial model",
+      "B": "Diathesis-stress model",
+      "C": "Cognitive-behavioral model",
+      "D": "Psychodynamic model",
+      "E": "Humanistic model"
+    },
+    "answer": "B",
+    "explanation": "The source mentions the stress-vulnerability model, which is another term for the diathesis-stress model. This model highlights the interplay between individual vulnerabilities (diathesis) and environmental stressors in the development of mental disorders."
+  },
+  {
+    "question": "Which of these is NOT a common symptom of generalized anxiety disorder?",
+    "options": {
+      "A": "Muscle tension",
+      "B": "Fatigue",
+      "C": "Irritability",
+      "D": "Hallucinations",
+      "E": "Difficulty concentrating"
+    },
+    "answer": "D",
+    "explanation": "While the source lists several symptoms of GAD, hallucinations are not typically associated with this disorder. Hallucinations are more commonly seen in psychotic disorders like schizophrenia."
+  },
+  {
+    "question": "What is the approximate 1-year prevalence of generalized anxiety disorder in the United States?",
+    "options": {
+      "A": "1.2%",
+      "B": "3.1%",
+      "C": "6.8%",
+      "D": "12.1%",
+      "E": "25%"
+    },
+    "answer": "B",
+    "explanation": "The source provides a table indicating the 1-year prevalence of GAD as 3.1%."
+  },
+  {
+    "question": "Which anxiety disorder typically has the youngest median age of onset?",
+    "options": {
+      "A": "Generalized anxiety disorder",
+      "B": "Social anxiety disorder",
+      "C": "Specific phobia",
+      "D": "Panic disorder",
+      "E": "Obsessive-compulsive disorder"
+    },
+    "answer": "C",
+    "explanation": "According to the table provided in the source, specific phobia has a median age of onset of 7-9 years old, which is younger than the other listed disorders."
+  },
+  {
+    "question": "Which anxiety disorder has the highest lifetime prevalence rate among females?",
+    "options": {
+      "A": "Generalized anxiety disorder",
+      "B": "Social anxiety disorder",
+      "C": "Specific phobia",
+      "D": "Panic disorder",
+      "E": "Posttraumatic stress disorder"
+    },
+    "answer": "C",
+    "explanation": "The table shows that specific phobia has a lifetime prevalence rate of 60-90% among females, the highest percentage compared to the other disorders."
+  },
+  {
+    "question": "Which of these is NOT a key feature of social anxiety disorder?",
+    "options": {
+      "A": "Fear of situations where one might be judged",
+      "B": "Avoidance of social situations",
+      "C": "Physical symptoms like sweating and trembling in social situations",
+      "D": "Recurrent, unexpected panic attacks",
+      "E": "Belief that one will behave in a humiliating or embarrassing way"
+    },
+    "answer": "D",
+    "explanation": "While panic attacks can occur in social anxiety disorder, they are not a defining feature. Recurrent, unexpected panic attacks are the hallmark of panic disorder."
+  },
+  {
+    "question": "Which type of phobia is characterized by a fear of enclosed spaces?",
+    "options": {
+      "A": "Acrophobia",
+      "B": "Agoraphobia",
+      "C": "Arachnophobia",
+      "D": "Claustrophobia",
+      "E": "Social phobia"
+    },
+    "answer": "D",
+    "explanation": "Claustrophobia is the specific term for the fear of enclosed spaces."
+  },
+  {
+    "question": "What is the typical cycle of obsessive-compulsive disorder?",
+    "options": {
+      "A": "Obsession → Relief → Compulsion → Anxiety",
+      "B": "Compulsion → Anxiety → Obsession → Relief",
+      "C": "Anxiety → Obsession → Relief → Compulsion",
+      "D": "Relief → Compulsion → Anxiety → Obsession",
+      "E": "Obsession → Compulsion → Anxiety → Relief"
+    },
+    "answer": "C",
+    "explanation": "The source describes the OCD cycle as anxiety leading to an obsession, followed by a compulsion performed to relieve the anxiety, which then reinforces the obsession."
+  },
+  {
+    "question": "Which of these traumatic experiences is LEAST likely to lead to posttraumatic stress disorder?",
+    "options": {
+      "A": "Car accident",
+      "B": "Physical assault",
+      "C": "Natural disaster",
+      "D": "Job loss",
+      "E": "War combat"
+    },
+    "answer": "D",
+    "explanation": "While job loss can be a stressful event, it is not typically considered a traumatic event in the same category as the other options, which involve a threat to life or safety."
+  },
+  {
+    "question": "What is the term for the psychological tendency to pay more attention to threatening information?",
+    "options": {
+      "A": "Confirmation bias",
+      "B": "Attentional bias",
+      "C": "Cognitive dissonance",
+      "D": "Self-fulfilling prophecy",
+      "E": "Learned helplessness"
+    },
+    "answer": "B",
+    "explanation": "The source mentions that individuals with anxiety disorders often focus excessive attention on perceived threats, which is known as attentional bias."
+  },
+  {
+    "question": "Which of these is a cognitive-behavioral therapy technique used to treat anxiety disorders?",
+    "options": {
+      "A": "Exposure therapy",
+      "B": "Cognitive restructuring",
+      "C": "Relaxation techniques",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Cognitive-behavioral therapy (CBT) for anxiety disorders typically includes exposure therapy, cognitive restructuring to challenge negative thoughts, and relaxation techniques to manage physical symptoms."
+  }
+]
