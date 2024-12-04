@@ -1,0 +1,662 @@
+[
+{
+"question": "What is the definition of attribution?",
+"options": {
+"A": "The process of assigning blame for an event or action.",
+"B": "People's explanations for why events or actions occur.",
+"C": "The tendency to judge people based on their group membership.",
+"D": "The process of forming opinions and beliefs about the world.",
+"E": "The ability to understand and predict human behavior."
+},
+"answer": "B",
+"explanation": "Attribution refers to the reasons people give for events or actions, including the behavior of others."
+},
+{
+"question": "Which of the following is an example of an internal attribution?",
+"options": {
+"A": "Failing a test because the questions were too difficult.",
+"B": "Getting a promotion because of hard work and dedication.",
+"C": "Missing a flight due to a traffic jam.",
+"D": "Winning a lottery because of good luck.",
+"E": "Having a car accident because of slippery roads."
+},
+"answer": "B",
+"explanation": "An internal attribution assigns the cause of an event to personal factors, such as ability, effort, or personality. In this case, attributing the promotion to hard work and dedication reflects an internal attribution."
+},
+{
+"question": "Which of the following is an example of an external attribution?",
+"options": {
+"A": "Succeeding in a job interview because of excellent communication skills.",
+"B": "Failing an exam because of feeling anxious and stressed.",
+"C": "Getting a job offer because the company is expanding rapidly.",
+"D": "Receiving a poor performance review because of a lack of effort.",
+"E": "Winning a competition because of natural talent."
+},
+"answer": "C",
+"explanation": "External attribution attributes the cause of an event to external factors or circumstances. Here, the job offer is attributed to the company's expansion, which is an external factor."
+},
+{
+"question": "What is the actor-observer bias?",
+"options": {
+"A": "The tendency to overestimate the influence of personal factors on the behavior of others.",
+"B": "The tendency to attribute our own successes to internal factors and our failures to external factors.",
+"C": "The tendency to view members of our own group more favorably than members of other groups.",
+"D": "The tendency to make judgments about people based on first impressions.",
+"E": "The tendency to attribute our own behaviors to external factors and the behaviors of others to internal factors."
+},
+"answer": "E",
+"explanation": "The actor-observer bias describes the tendency to explain our own actions by situational factors while attributing the actions of others to their personality or disposition."
+},
+{
+"question": "Why is attributing others' behavior to their personality traits considered an effortless process?",
+"options": {
+"A": "Because it requires less cognitive effort than considering situational factors.",
+"B": "Because we are naturally inclined to judge others.",
+"C": "Because personality traits are stable and predictable.",
+"D": "Because it allows us to make sense of the world around us.",
+"E": "Because we tend to overestimate the importance of personality."
+},
+"answer": "A",
+"explanation": "Attributing behavior to personality traits is considered effortless because it requires less cognitive effort compared to analyzing potential situational influences on behavior."
+},
+{
+"question": "What is self-serving bias?",
+"options": {
+"A": "The tendency to attribute our successes to external factors and our failures to internal factors.",
+"B": "The tendency to seek out information that confirms our existing beliefs.",
+"C": "The tendency to overestimate our own abilities and knowledge.",
+"D": "The tendency to attribute our successes to internal factors and our failures to external factors.",
+"E": "The tendency to conform to the opinions of others."
+},
+"answer": "D",
+"explanation": "Self-serving bias is the inclination to attribute our successes to our own qualities (internal factors) while blaming our failures on external circumstances."
+},
+{
+"question": "How does time affect self-serving bias?",
+"options": {
+"A": "Self-serving bias weakens over time.",
+"B": "Self-serving bias remains constant over time.",
+"C": "Self-serving bias strengthens over time.",
+"D": "Time has no effect on self-serving bias.",
+"E": "The effect of time on self-serving bias is unpredictable."
+},
+"answer": "C",
+"explanation": "The sources state that self-serving bias becomes more pronounced as time passes after an event."
+},
+{
+"question": "What is a stereotype?",
+"options": {
+"A": "A positive attitude toward a particular group of people.",
+"B": "A belief about the characteristics of members of a specific social group.",
+"C": "A negative feeling or emotion associated with a stereotype.",
+"D": "Unfair or unjust treatment of individuals based on their group membership.",
+"E": "A tendency to favor members of one's own group."
+},
+"answer": "B",
+"explanation": "A stereotype is a widely held belief that assigns certain characteristics to individuals based solely on their belonging to a particular group."
+},
+{
+"question": "Why are stereotypes considered normal cognitive processes?",
+"options": {
+"A": "Because they are based on accurate information about social groups.",
+"B": "Because they help us to simplify and understand the complex social world.",
+"C": "Because they allow us to make quick judgments about people.",
+"D": "Because they reflect our innate prejudices and biases.",
+"E": "Because they are essential for social interaction."
+},
+"answer": "B",
+"explanation": "Stereotypes, while potentially problematic, stem from our brain's attempt to simplify the vast social environment, reflecting efficient cognitive processes."
+},
+{
+"question": "Which of the following is NOT a problem associated with stereotyping?",
+"options": {
+"A": "Oversimplification of the social world.",
+"B": "Overgeneralization about members of a group.",
+"C": "Increased understanding of individual differences.",
+"D": "Potential for self-fulfilling prophecies.",
+"E": "Potential for prejudice and discrimination."
+},
+"answer": "C",
+"explanation": "Stereotypes tend to oversimplify the social world and neglect individual variations within groups, making 'increased understanding of individual differences' an inaccurate outcome of stereotyping."
+},
+{
+"question": "What is a self-fulfilling prophecy?",
+"options": {
+"A": "The tendency to behave in ways that contradict others' expectations.",
+"B": "The process by which stereotypes become internalized.",
+"C": "The belief that we are in control of our own destiny.",
+"D": "The tendency to behave in ways that confirm our own or others' expectations.",
+"E": "The ability to accurately predict future events."
+},
+"answer": "D",
+"explanation": "A self-fulfilling prophecy occurs when individuals act in a manner that aligns with pre-existing expectations, either their own or those held by others, thereby reinforcing the initial expectation."
+},
+{
+"question": "What is in-group favoritism?",
+"options": {
+"A": "The tendency to perceive members of our own group as more homogeneous than members of other groups.",
+"B": "The belief that our own group is superior to other groups.",
+"C": "The tendency to treat members of our own group better than members of other groups.",
+"D": "The fear of being judged negatively by members of our own group.",
+"E": "The tendency to avoid contact with members of other groups."
+},
+"answer": "C",
+"explanation": "In-group favoritism refers to the preferential treatment and positive evaluation we give to individuals who belong to the same group as us, compared to those in out-groups."
+},
+{
+"question": "What is out-group homogeneity?",
+"options": {
+"A": "The tendency to perceive members of out-groups as less diverse than members of our own group.",
+"B": "The belief that members of out-groups are all the same.",
+"C": "The tendency to overestimate the size of out-groups.",
+"D": "The fear of being stereotyped by members of an out-group.",
+"E": "The tendency to attribute negative characteristics to out-groups."
+},
+"answer": "A",
+"explanation": "Out-group homogeneity describes the perception of members belonging to groups other than our own as being more similar to each other than the members within our own group."
+},
+{
+"question": "What is the difference between prejudice and discrimination?",
+"options": {
+"A": "Prejudice is a behavior, while discrimination is an attitude.",
+"B": "Prejudice is an attitude, while discrimination is a behavior.",
+"C": "Prejudice is based on personal experience, while discrimination is based on stereotypes.",
+"D": "Prejudice is a conscious belief, while discrimination is an unconscious bias.",
+"E": "Prejudice and discrimination are the same thing."
+},
+"answer": "B",
+"explanation": "Prejudice involves negative feelings and beliefs toward a group, whereas discrimination refers to unfair actions directed at individuals due to their group affiliation."
+},
+{
+"question": "What are the three components of attitudes?",
+"options": {
+"A": "Cognitive, affective, behavioral",
+"B": "Strength, accessibility, ambivalence",
+"C": "Explicit, implicit, unconscious",
+"D": "Positive, negative, neutral",
+"E": "Personal, social, cultural"
+},
+"answer": "A",
+"explanation": "Attitudes consist of three components: cognitive (beliefs), affective (emotions), and behavioral (actions)."
+},
+{
+"question": "What are the three dimensions of attitudes?",
+"options": {
+"A": "Cognitive, affective, behavioral",
+"B": "Strength, accessibility, ambivalence",
+"C": "Explicit, implicit, unconscious",
+"D": "Positive, negative, neutral",
+"E": "Personal, social, cultural"
+},
+"answer": "B",
+"explanation": "Attitudes are characterized by their strength, accessibility (how easily they come to mind), and ambivalence (holding both positive and negative feelings)."
+},
+{
+"question": "Which type of attitude is more likely to influence behavior?",
+"options": {
+"A": "An attitude that is weak and unstable",
+"B": "An attitude that is not personally relevant",
+"C": "An attitude that is based on indirect experience",
+"D": "An attitude that is strong, stable, and personally relevant",
+"E": "An attitude that is highly ambivalent"
+},
+"answer": "D",
+"explanation": "Attitudes that are strong, stable, personally meaningful, easily accessible, and based on direct experience are more likely to guide actions."
+},
+{
+"question": "What is the difference between explicit and implicit attitudes?",
+"options": {
+"A": "Explicit attitudes are unconscious, while implicit attitudes are conscious.",
+"B": "Explicit attitudes are learned, while implicit attitudes are innate.",
+"C": "Explicit attitudes are easy to change, while implicit attitudes are difficult to change.",
+"D": "Explicit attitudes are consciously held and expressed, while implicit attitudes are automatic and subtle.",
+"E": "Explicit attitudes are based on logic, while implicit attitudes are based on emotion."
+},
+"answer": "D",
+"explanation": "Explicit attitudes are those we are aware of and can readily describe, while implicit attitudes operate at a subconscious level, influencing our responses without conscious awareness."
+},
+{
+"question": "What is the Implicit Association Test (IAT) designed to measure?",
+"options": {
+"A": "Personality traits",
+"B": "Intelligence",
+"C": "Cognitive abilities",
+"D": "Explicit attitudes",
+"E": "Implicit attitudes"
+},
+"answer": "E",
+"explanation": "The Implicit Association Test is a tool used to assess implicit attitudes by measuring the speed at which people associate certain concepts."
+},
+{
+"question": "What is cognitive dissonance?",
+"options": {
+"A": "A state of mental relaxation and harmony",
+"B": "A state of heightened awareness and focus",
+"C": "A state of mental discomfort due to conflicting attitudes or behaviors",
+"D": "A state of emotional stability and resilience",
+"E": "A state of increased motivation and drive"
+},
+"answer": "C",
+"explanation": "Cognitive dissonance arises when individuals experience a conflict between their attitudes or between their attitudes and their behaviors, leading to psychological discomfort."
+},
+{
+"question": "What is one way that people try to reduce cognitive dissonance?",
+"options": {
+"A": "By ignoring the conflicting thoughts or behaviors",
+"B": "By seeking out information that supports their existing beliefs",
+"C": "By changing their attitudes or behaviors to align with each other",
+"D": "By blaming others for their own inconsistencies",
+"E": "By avoiding situations that trigger cognitive dissonance"
+},
+"answer": "C",
+"explanation": "To alleviate the discomfort of cognitive dissonance, individuals might adjust their attitudes or behaviors to make them more consistent with one another."
+},
+{
+"question": "What is the goal of persuasion?",
+"options": {
+"A": "To force people to change their beliefs",
+"B": "To manipulate people for personal gain",
+C": "To influence the thoughts, feelings, and actions of others",
+"D": "To create conflict and disagreement",
+"E": "To maintain the status quo"
+},
+"answer": "C",
+"explanation": "Persuasion aims to change or influence the beliefs, attitudes, and behaviors of other individuals."
+},
+{
+"question": "What are the three elements of the triad of trustworthiness in persuasion?",
+"options": {
+"A": "Authority, attractiveness, credibility",
+"B": "Logic, emotion, evidence",
+"C": "Fear, guilt, hope",
+"D": "Scarcity, reciprocity, consistency",
+"E": "Repetition, simplicity, clarity"
+},
+"answer": "A",
+"explanation": "The source of persuasion is critical, and it often boils down to the triad of trustworthiness: authority, attractiveness, and credibility."
+},
+{
+"question": "What is the elaboration likelihood model?",
+"options": {
+"A": "A model of memory formation and retrieval",
+"B": "A model of emotional intelligence",
+"C": "A model of persuasion that explains how people process information",
+"D": "A model of group decision making",
+"E": "A model of social influence"
+},
+"answer": "C",
+"explanation": "The elaboration likelihood model is a framework in social psychology that describes how individuals process persuasive messages, considering both central and peripheral routes to persuasion."
+},
+{
+"question": "What is the foot-in-the-door technique?",
+"options": {
+"A": "Making a large request followed by a smaller request",
+"B": "Making a small request followed by a larger request",
+"C": "Using threats or intimidation to gain compliance",
+"D": "Appealing to people's emotions",
+"E": "Using logic and reason to persuade"
+},
+"answer": "B",
+"explanation": "The foot-in-the-door technique involves gaining agreement to a small request initially, which then increases the likelihood of compliance with a larger request later on."
+},
+{
+"question": "What is the door-in-the-face technique?",
+"options": {
+"A": "Making a large request followed by a smaller request",
+"B": "Making a small request followed by a larger request",
+"C": "Using threats or intimidation to gain compliance",
+"D": "Appealing to people's emotions",
+"E": "Using logic and reason to persuade"
+},
+"answer": "A",
+"explanation": "The door-in-the-face technique starts with an excessive request that is likely to be refused, followed by a more reasonable request that appears more acceptable in comparison."
+},
+{
+"question": "What is the principle of reciprocity in persuasion?",
+"options": {
+"A": "The tendency to like people who are similar to us",
+"B": "The obligation to return favors",
+"C": "The fear of being punished for noncompliance",
+"D": "The desire to be consistent with our past behavior",
+"E": "The belief that authority figures are trustworthy"
+},
+"answer": "B",
+"explanation": "The principle of reciprocity is a social norm that suggests individuals feel compelled to return favors or kindness, increasing the likelihood of compliance with a request after receiving a concession."
+},
+{
+"question": "What is conformity?",
+"options": {
+"A": "The ability to resist social pressure",
+"B": "The process of forming our own opinions and beliefs",
+"C": "Adjusting our behavior or opinions to match those of others",
+"D": "The tendency to obey authority figures",
+"E": "The belief that we are unique and special"
+},
+"answer": "C",
+"explanation": "Conformity refers to the act of changing one's behavior or beliefs to align with those of other people or to meet social expectations."
+},
+{
+"question": "What is informational social influence?",
+"options": {
+"A": "Conforming to the behavior of others to avoid social rejection",
+"B": "Conforming to the behavior of others because we believe they have accurate information",
+"C": "Conforming to the behavior of others because we admire them",
+"D": "Conforming to the behavior of others to gain social approval",
+"E": "Conforming to the behavior of others to avoid punishment"
+},
+"answer": "B",
+"explanation": "Informational social influence leads us to conform to the actions of others when we perceive them as possessing knowledge or information that we lack, particularly in uncertain situations."
+},
+{
+"question": "What is normative social influence?",
+"options": {
+"A": "Conforming to the behavior of others to avoid social rejection",
+"B": "Conforming to the behavior of others because we believe they have accurate information",
+"C": "Conforming to the behavior of others because we admire them",
+"D": "Conforming to the behavior of others to gain social approval",
+"E": "Conforming to the behavior of others to avoid punishment"
+},
+"answer": "A",
+"explanation": "Normative social influence drives conformity to avoid negative social consequences like rejection or disapproval, even when we may disagree with the group."
+},
+{
+"question": "What was the main finding of Asch's conformity experiment?",
+"options": {
+"A": "People are more likely to conform when they are uncertain about the correct answer",
+"B": "People are more likely to conform when they are in a large group",
+"C": "People are more likely to conform when they are under pressure from an authority figure",
+"D": "People are more likely to conform when they have low self-esteem",
+"E": "People are generally resistant to social pressure"
+},
+"answer": "B",
+"explanation": "Asch's experiment demonstrated that conformity increased in proportion to the group size, up to a point where the effect plateaued."
+},
+{
+"question": "How does the presence of a dissenter affect conformity?",
+"options": {
+"A": "It increases conformity",
+"B": "It decreases conformity",
+"C": "It has no effect on conformity",
+"D": "It makes people more uncertain about the correct answer",
+"E": "It makes people more likely to rebel against authority"
+},
+"answer": "B",
+"explanation": "When even a single person disagrees with the group, it significantly reduces the pressure to conform, as it weakens the perception of unanimous agreement."
+},
+{
+"question": "What is obedience?",
+"options": {
+"A": "The tendency to conform to social norms",
+"B": "The process of forming our own opinions and beliefs",
+"C": "Adjusting our behavior or opinions to match those of others",
+"D": "Complying with direct commands, usually from an authority figure",
+"E": "The belief that we are unique and special"
+},
+"answer": "D",
+"explanation": "Obedience involves following orders or instructions given by someone perceived as being in a position of authority."
+},
+{
+"question": "What was the main purpose of Milgram's obedience studies?",
+"options": {
+"A": "To study the effects of punishment on learning",
+"B": "To investigate the factors that influence conformity",
+"C": "To understand why people obey orders, even when they conflict with their morals",
+"D": "To test the limits of human endurance",
+"E": "To develop new methods of persuasion"
+},
+"answer": "C",
+"explanation": "Milgram conducted his experiments to understand the psychological factors contributing to obedience, particularly in the context of following orders that could harm others, inspired by the actions of German citizens during WWII."
+},
+{
+"question": "Which of the following factors increased obedience in Milgram's studies?",
+"options": {
+"A": "When the teacher could see the learner",
+"B": "When the teacher had to touch the learner",
+"C": "When the experimenter gave orders over the phone",
+"D": "When the participant was concerned about how others viewed them",
+"E": "When the participant had a strong moral conscience"
+},
+"answer": "D",
+"explanation": "Individuals who were more worried about the opinions of others demonstrated higher levels of obedience in Milgram's experiments."
+},
+{
+"question": "Which of the following factors decreased obedience in Milgram's studies?",
+"options": {
+"A": "When the teacher could see the learner",
+"B": "When the teacher had to touch the learner",
+"C": "When the experimenter was present in the room",
+"D": "When the participant was concerned about how others viewed them",
+"E": "When the participant was in a position of authority"
+},
+"answer": "A",
+"explanation": "Obedience levels decreased when the 'teacher' in Milgram's experiment was able to see the 'learner,' as the visual proximity to the potential victim made the consequences of their actions more salient."
+},
+{
+"question": "What is one criticism of Milgram's obedience studies?",
+"options": {
+"A": "The participants were not representative of the general population",
+"B": "The findings were not statistically significant",
+"C": "The experiment was not conducted in a controlled setting",
+"D": "The study raised ethical concerns about the potential harm to participants",
+"E": "The results were easily explained by other psychological theories"
+},
+"answer": "D",
+"explanation": "Milgram's research was controversial due to ethical concerns surrounding the stress and potential psychological impact on participants, raising questions about the long-term consequences of their involvement."
+},
+{
+"question": "What is social facilitation?",
+"options": {
+"A": "The tendency for people to perform worse in the presence of others",
+"B": "The tendency for people to perform better in the presence of others",
+"C": "The tendency for people to conform to the opinions of others",
+"D": "The tendency for people to obey authority figures",
+"E": "The tendency for people to work less hard in a group"
+},
+"answer": "B",
+"explanation": "Social facilitation describes the phenomenon where the mere presence of others enhances an individual's performance on a task, particularly for well-learned or simple tasks."
+},
+{
+"question": "What is social loafing?",
+"options": {
+"A": "The tendency for people to perform worse in the presence of others",
+"B": "The tendency for people to perform better in the presence of others",
+"C": "The tendency for people to conform to the opinions of others",
+"D": "The tendency for people to obey authority figures",
+"E": "The tendency for people to exert less effort when working in a group"
+},
+"answer": "E",
+"explanation": "Social loafing occurs when individuals reduce their effort when working as part of a group compared to when working alone, often attributed to diffusion of responsibility."
+},
+{
+"question": "What is diffusion of responsibility?",
+"options": {
+"A": "The tendency for people to blame others for their own mistakes",
+"B": "The belief that one is not personally accountable in a group setting",
+"C": "The process of dividing tasks among group members",
+"D": "The tendency for groups to make riskier decisions than individuals",
+"E": "The process of reaching a consensus in a group"
+},
+"answer": "B",
+"explanation": "Diffusion of responsibility occurs when individuals feel less personal accountability for their actions or lack of action when in a group, as the responsibility is spread among members."
+},
+{
+"question": "What are social roles?",
+"options": {
+"A": "The different positions people hold in society",
+"B": "The expectations about how individuals in certain positions should behave",
+"C": "The rules that govern social behavior",
+"D": "The norms and values of a particular culture",
+"E": "The different groups that people belong to"
+},
+"answer": "B",
+"explanation": "Social roles define the expected patterns of behavior associated with specific positions or statuses within a group or society."
+},
+{
+"question": "What is deindividuation?",
+"options": {
+"A": "The process of becoming more self-aware",
+"B": "A state of reduced self-awareness and individuality in a group setting",
+"C": "The tendency to conform to social norms",
+"D": "The process of developing a strong sense of identity",
+"E": "The ability to resist social pressure"
+},
+"answer": "B",
+"explanation": "Deindividuation describes a psychological state characterized by decreased self-awareness and a diminished sense of personal responsibility, often occurring in group settings."
+},
+{
+"question": "What was the main finding of the Stanford Prison Simulation?",
+"options": {
+"A": "People are naturally inclined to be cruel and abusive",
+"B": "Social roles can have a powerful influence on behavior",
+"C": "Group dynamics always lead to positive outcomes",
+"D": "Personality traits are the primary determinant of behavior",
+"E": "Situational factors have little impact on behavior"
+},
+"answer": "B",
+"explanation": "The Stanford Prison Simulation demonstrated the profound influence of social roles on behavior, as participants assigned as "guards" exhibited authoritarian and abusive behavior towards those designated as "prisoners.""
+},
+{
+"question": "What is the risky-shift effect?",
+"options": {
+"A": "The tendency for groups to make riskier decisions than individuals",
+"B": "The tendency for groups to make more conservative decisions than individuals",
+"C": "The tendency for group decisions to be more extreme than individual decisions",
+"D": "The tendency for groups to avoid making decisions altogether",
+"E": "The tendency for group decisions to be influenced by a dominant leader"
+},
+"answer": "A",
+"explanation": "The risky-shift effect describes the phenomenon where groups tend to make riskier decisions compared to individual decision-making."
+},
+{
+"question": "What is group polarization?",
+"options": {
+"A": "The tendency for groups to make riskier decisions than individuals",
+"B": "The tendency for groups to make more conservative decisions than individuals",
+"C": "The tendency for group decisions to be more extreme than individual decisions, either riskier or more cautious",
+"D": "The tendency for groups to avoid making decisions altogether",
+"E": "The tendency for group decisions to be influenced by a dominant leader"
+},
+"answer": "C",
+"explanation": "Group polarization describes the tendency for group discussions to intensify the preexisting inclinations of group members, leading to more extreme decisions, which could be towards greater risk or increased caution depending on the initial leanings of the group."
+},
+{
+"question": "What is groupthink?",
+"options": {
+"A": "A process of critical thinking and evaluation of ideas",
+"B": "A process of creative problem solving",
+"C": "A process of consensus building and collaboration",
+"D": "A flawed decision-making process in which group harmony is prioritized over critical thinking",
+"E": "A process of conflict resolution and negotiation"
+},
+"answer": "D",
+"explanation": "Groupthink occurs when a group prioritizes consensus and avoids critical evaluation of alternative viewpoints or potential drawbacks, leading to poor decision-making."
+},
+{
+"question": "Which of the following is NOT a strategy for preventing groupthink?",
+"options": {
+"A": "Encouraging open and honest discussion of all viewpoints",
+"B": "Appointing a devil's advocate to challenge the group's assumptions",
+"C": "Suppressing dissenting opinions to maintain group harmony",
+"D": "Seeking input from outside experts",
+"E": "Breaking the group into smaller subgroups to consider different perspectives"
+},
+"answer": "C",
+"explanation": "To prevent groupthink, it is crucial to encourage dissent and open discussion of different viewpoints, making 'suppressing dissenting opinions' a counterproductive strategy."
+},
+{
+"question": "Which of the following best describes the relationship between stereotypes and self-fulfilling prophecies?",
+"options": {
+"A": "Stereotypes are always based on self-fulfilling prophecies.",
+"B": "Self-fulfilling prophecies can reinforce and perpetuate stereotypes.",
+"C": "Stereotypes and self-fulfilling prophecies are unrelated concepts.",
+"D": "Self-fulfilling prophecies always lead to positive outcomes.",
+"E": "Stereotypes are always accurate reflections of reality."
+},
+"answer": "B",
+"explanation": "Self-fulfilling prophecies can solidify stereotypes as expectations about a group lead to behaviors that confirm those expectations, creating a cycle that reinforces the initial stereotype, even if it wasn't accurate initially."
+},
+{
+"question": "Which of the following persuasion techniques relies on the norm of reciprocity?",
+"options": {
+"A": "Foot-in-the-door",
+"B": "Door-in-the-face",
+"C": "Lowballing",
+"D": "That's-not-all",
+"E": "Fear-then-relief"
+},
+"answer": "B",
+"explanation": "The door-in-the-face technique leverages the reciprocity principle by starting with an outlandish request. When the initial request is rejected, the persuader offers a smaller, more reasonable request, which the target is more likely to accept due to feeling obligated to reciprocate the concession."
+},
+{
+"question": "What is the key difference between conformity and obedience?",
+"options": {
+"A": "Conformity involves yielding to social pressure, while obedience involves following direct commands.",
+"B": "Conformity is a negative behavior, while obedience is a positive behavior.",
+"C": "Conformity is influenced by group size, while obedience is influenced by authority figures.",
+"D": "Conformity is a conscious process, while obedience is an unconscious process.",
+"E": "Conformity and obedience are essentially the same thing."
+},
+"answer": "A",
+"explanation": "Conformity refers to aligning our behavior or beliefs with those of a group due to social pressure, while obedience involves following direct orders from an authority figure."
+},
+{
+"question": "How does group size influence conformity?",
+"options": {
+"A": "Conformity decreases as group size increases.",
+"B": "Conformity increases as group size increases up to a certain point, then levels off.",
+"C": "Group size has no effect on conformity.",
+"D": "Conformity only occurs in groups of three or more people.",
+"E": "Conformity is highest in very small groups."
+},
+"answer": "B",
+"explanation": "Asch's research indicated that conformity increases as the group size expands, but this effect plateaus after a certain point, meaning that adding more people beyond that point does not lead to significantly greater conformity."
+},
+{
+"question": "In Milgram's obedience studies, what percentage of participants administered the highest level of shock?",
+"options": {
+"A": "10%",
+"B": "25%",
+"C": "50%",
+"D": "65%",
+"E": "90%"
+},
+"answer": "D",
+"explanation": "While the specific percentage might vary slightly depending on the experimental conditions, a significant majority of participants, around 65%, administered the highest level of shock in Milgram's original obedience study, highlighting the potent influence of authority."
+},
+{
+"question": "What is the primary difference between the foot-in-the-door and door-in-the-face persuasion techniques?",
+"options": {
+"A": "Foot-in-the-door starts with a small request, while door-in-the-face starts with a large request.",
+"B": "Foot-in-the-door relies on commitment, while door-in-the-face relies on reciprocity.",
+"C": "Foot-in-the-door is more effective for inducing long-term behavior change, while door-in-the-face is more effective for inducing immediate compliance.",
+"D": "Foot-in-the-door works best in face-to-face interactions, while door-in-the-face works best over the phone or online.",
+"E": "Foot-in-the-door is more ethical than door-in-the-face."
+},
+"answer": "A",
+"explanation": "The fundamental distinction lies in the initial request: foot-in-the-door begins with a minor request, gradually escalating, while door-in-the-face starts with an excessive request, followed by a more reasonable one."
+},
+{
+"question": "Which of the following is a potential consequence of deindividuation?",
+"options": {
+"A": "Increased self-awareness and personal responsibility",
+"B": "Enhanced critical thinking and decision-making",
+"C": "Reduced inhibitions and increased impulsive behavior",
+"D": "Greater adherence to social norms and ethical standards",
+"E": "Improved communication and cooperation within a group"
+},
+"answer": "C",
+"explanation": "Deindividuation often leads to a decrease in self-awareness and personal responsibility, which can result in a loosening of inhibitions and an increase in impulsive or even antisocial behavior."
+},
+{
+"question": "Which of the following is an example of social loafing?",
+"options": {
+"A": "A student putting in less effort on a group project than on an individual assignment.",
+"B": "An athlete running faster in a relay race than in an individual race.",
+"C": "A person conforming to the opinions of a group even when they disagree.",
+"D": "A person donating money to charity after being asked by a friend.",
+"E": "A person obeying the orders of a police officer."
+},
+"answer": "A",
+"explanation": "Social loafing is demonstrated when someone expends less effort on a task when working in a group, as illustrated by the student putting in less work on a group project compared to an individual assignment."
+}
+]
