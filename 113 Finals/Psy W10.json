@@ -1,0 +1,602 @@
+[
+{
+"question": "Which of the following is NOT a domain of human development?",
+"options": {
+"A": "Cognitive",
+"B": "Physical",
+"C": "Emotional",
+"D": "Social",
+"E": "Financial"
+},
+"answer": "E",
+"explanation": "Human development encompasses cognitive, physical, emotional, and social domains. Financial status is not considered a core developmental domain."
+},
+{
+"question": "What is the definition of 'development' in the context of human growth?",
+"options": {
+"A": "The increase in physical size and weight over time.",
+"B": "The sequence of predictable emotional changes experienced throughout life.",
+"C": "The acquisition of knowledge and skills through formal education.",
+"D": "The series of age-related changes that occur from conception to death.",
+"E": "The biological and environmental factors that influence personality formation."
+},
+"answer": "D",
+"explanation": "Development refers to the comprehensive, age-related changes an individual undergoes throughout their lifespan, from conception to death."
+},
+{
+"question": "Which of the following is a characteristic of secure attachment in infants?",
+"options": {
+"A": "The infant avoids contact with the caregiver upon their return.",
+"B": "The infant displays indifference towards the caregiver's presence or absence.",
+"C": "The infant is easily comforted by the caregiver when distressed.",
+"D": "The infant exhibits clingy and demanding behavior towards the caregiver.",
+"E": "The infant shows extreme distress when separated from the caregiver but resists comfort upon reunion."
+},
+"answer": "C",
+"explanation": "Securely attached infants find comfort and reassurance in their caregiver's presence, especially during times of distress."
+},
+{
+"question": "According to Harlow's monkey experiment, what is the primary factor that drives infant attachment?",
+"options": {
+"A": "Provision of food",
+"B": "Physical warmth",
+"C": "Visual stimulation",
+"D": "Comfort and security",
+"E": "Social interaction"
+},
+"answer": "D",
+"explanation": "Harlow's experiment demonstrated that infant monkeys prioritized comfort and security over food, preferring a cloth surrogate mother over a wire one that provided nourishment."
+},
+{
+"question": "Which attachment style is characterized by an infant's mixed feelings towards the caregiver, showing distress upon separation but resisting comfort upon return?",
+"options": {
+"A": "Secure attachment",
+"B": "Insecure-avoidant attachment",
+"C": "Anxious-ambivalent attachment",
+"D": "Disorganized attachment",
+"E": "Resistant attachment"
+},
+"answer": "C",
+"explanation": "Infants with an anxious-ambivalent attachment style exhibit both a desire for closeness and a resistance to it, creating an emotional push-and-pull dynamic with their caregiver."
+},
+{
+"question": "What is the term for the rapid increase in vocabulary that typically occurs around 18 months of age?",
+"options": {
+"A": "Language explosion",
+"B": "Vocabulary spurt",
+"C": "Word burst",
+"D": "Lexical surge",
+"E": "Semantic bloom"
+},
+"answer": "B",
+"explanation": "The vocabulary spurt refers to the significant and accelerated expansion of a child's vocabulary that typically occurs around 18 months."
+},
+{
+"question": "Which of the following describes 'telegraphic speech' in language development?",
+"options": {
+"A": "Using complete and grammatically correct sentences.",
+"B": "Communicating through gestures and facial expressions.",
+"C": "Employing only essential content words to convey meaning.",
+"D": "Speaking in a high-pitched and exaggerated tone.",
+"E": "Repeating the same word or phrase multiple times."
+},
+"answer": "C",
+"explanation": "Telegraphic speech, observed in early language development, involves using primarily content words (nouns, verbs) while omitting less crucial grammatical elements."
+},
+{
+"question": "What is 'over-extension' in language development?",
+"options": {
+"A": "Using a word in a very specific and limited context.",
+"B": "Applying grammatical rules too rigidly, even in exceptions.",
+"C": "Repeating the same word or phrase excessively.",
+"D": "Using a word to represent a broader category than it actually does.",
+"E": "Failing to understand the meaning of a word despite repeated exposure."
+},
+"answer": "D",
+"explanation": "Over-extension occurs when a child uses a word to refer to a wider range of objects or concepts than its conventional meaning allows, often based on perceived similarities."
+},
+{
+"question": "Which cognitive ability allows individuals to understand that others have thoughts and beliefs different from their own?",
+"options": {
+"A": "Object permanence",
+"B": "Egocentrism",
+"C": "Conservation",
+"D": "Theory of mind",
+"E": "Centration"
+},
+"answer": "D",
+"explanation": "Theory of mind is the capacity to attribute mental states to oneself and others, recognizing that different individuals can hold different perspectives and beliefs."
+},
+{
+"question": "According to Piaget's theory, in which stage do children develop object permanence?",
+"options": {
+"A": "Sensorimotor stage",
+"B": "Preoperational stage",
+"C": "Concrete operational stage",
+"D": "Formal operational stage",
+"E": "Post-operational stage"
+},
+"answer": "A",
+"explanation": "Object permanence, the understanding that objects continue to exist even when out of sight, is a key milestone achieved during Piaget's sensorimotor stage."
+},
+{
+"question": "What is 'centration' in Piaget's theory of cognitive development?",
+"options": {
+"A": "The ability to focus on multiple aspects of a situation simultaneously.",
+"B": "The tendency to fixate on a single feature of an object or event.",
+"C": "The understanding that the quantity of a substance remains the same despite changes in its appearance.",
+"D": "The ability to think abstractly and reason hypothetically.",
+"E": "The ability to take another person's perspective."
+},
+"answer": "B",
+"explanation": "Centration, common in the preoperational stage, refers to a child's tendency to focus on only one aspect of a situation while neglecting other relevant features."
+},
+{
+"question": "Which of Piaget's stages is characterized by the development of logical thinking about concrete objects and events?",
+"options": {
+"A": "Sensorimotor stage",
+"B": "Preoperational stage",
+"C": "Concrete operational stage",
+"D": "Formal operational stage",
+"E": "Post-operational stage"
+},
+"answer": "C",
+"explanation": "The concrete operational stage marks a shift towards logical reasoning applied to tangible objects and situations, with children mastering concepts like conservation."
+},
+{
+"question": "What is the main focus of Vygotsky's sociocultural theory of cognitive development?",
+"options": {
+"A": "The role of innate cognitive structures in shaping development.",
+"B": "The impact of social interaction and cultural context on learning.",
+"C": "The importance of reinforcement and punishment in shaping behavior.",
+"D": "The influence of genetic factors on cognitive abilities.",
+"E": "The role of unconscious processes in driving cognitive development."
+},
+"answer": "B",
+"explanation": "Vygotsky's theory emphasizes the significant role of social interaction, cultural tools, and guidance from more knowledgeable individuals in fostering cognitive development."
+},
+{
+"question": "Which of the following statements reflects a key difference between Piaget's and Vygotsky's theories?",
+"options": {
+"A": "Piaget focuses on social interaction, while Vygotsky emphasizes individual exploration.",
+"B": "Piaget emphasizes universal stages, while Vygotsky highlights cultural variations.",
+"C": "Piaget views development as continuous, while Vygotsky sees it as discontinuous.",
+"D": "Piaget focuses on language development, while Vygotsky prioritizes motor skills.",
+"E": "Piaget believes in innate cognitive structures, while Vygotsky rejects this notion."
+},
+"answer": "B",
+"explanation": "Piaget's theory proposes universal stages of cognitive development, whereas Vygotsky's theory acknowledges the influence of cultural context and variations in developmental pathways."
+},
+{
+"question": "Which brain structure undergoes significant development and reorganization during adolescence?",
+"options": {
+"A": "Brainstem",
+"B": "Cerebellum",
+"C": "Prefrontal cortex",
+"D": "Hippocampus",
+"E": "Amygdala"
+},
+"answer": "C",
+"explanation": "The prefrontal cortex, responsible for executive functions, decision-making, and impulse control, undergoes substantial development and maturation during adolescence."
+},
+{
+"question": "What is the term for the close emotional bonds of affection that develop between infants and their caregivers?",
+"options": {
+"A": "Bonding",
+"B": "Attachment",
+"C": "Affection",
+"D": "Connection",
+"E": "Relationship"
+},
+"answer": "B",
+"explanation": "Attachment refers to the deep and enduring emotional connection that forms between infants and their primary caregivers, providing a sense of security and comfort."
+},
+{
+"question": "Which of the following is NOT a factor that can influence the development of attachment?",
+"options": {
+"A": "The infant's temperament",
+"B": "Caregiver sensitivity",
+"C": "Cultural norms and practices",
+"D": "The infant's physical appearance",
+"E": "Early life experiences"
+},
+"answer": "D",
+"explanation": "While an infant's temperament, caregiver sensitivity, cultural practices, and early experiences play roles in attachment formation, their physical appearance does not directly influence this process."
+},
+{
+"question": "Which type of attachment is associated with caregivers who are consistently responsive and sensitive to their infant's needs?",
+"options": {
+"A": "Secure attachment",
+"B": "Insecure-avoidant attachment",
+"C": "Anxious-ambivalent attachment",
+"D": "Disorganized attachment",
+"E": "Resistant attachment"
+},
+"answer": "A",
+"explanation": "Secure attachment is fostered by caregivers who consistently and appropriately respond to their infant's cues, providing a secure base for exploration and emotional regulation."
+},
+{
+"question": "Which of the following describes the concept of 'fast mapping' in language development?",
+"options": {
+"A": "The ability to articulate words clearly and accurately.",
+"B": "The process of memorizing lists of vocabulary words.",
+"C": "The rapid association of a word with its underlying concept after a single exposure.",
+"D": "The tendency to overgeneralize grammatical rules to irregular words.",
+"E": "The ability to understand complex sentence structures."
+},
+"answer": "C",
+"explanation": "Fast mapping refers to a child's remarkable ability to quickly grasp the meaning of a new word after hearing it used only once or a few times."
+},
+{
+"question": "What is the approximate vocabulary size of an average first-grader?",
+"options": {
+"A": "100 words",
+"B": "500 words",
+"C": "1,000 words",
+"D": "5,000 words",
+"E": "10,000 words"
+},
+"answer": "E",
+"explanation": "By the time children reach first grade, their vocabulary typically expands to around 10,000 words, reflecting their growing language abilities."
+},
+{
+"question": "What is 'over-regularization' in language development?",
+"options": {
+"A": "Using the same word to represent a wide range of objects or concepts.",
+"B": "Speaking in short, grammatically incomplete sentences.",
+"C": "Failing to understand the meaning of common words.",
+"D": "Applying grammatical rules to irregular words, resulting in incorrect forms.",
+"E": "Having difficulty pronouncing certain sounds or words."
+},
+"answer": "D",
+"explanation": "Over-regularization occurs when children apply regular grammatical rules to irregular verbs or nouns, leading to errors like "goed" instead of "went" or "tooths" instead of "teeth.""
+},
+{
+"question": "Which of the following is a characteristic of the preoperational stage in Piaget's theory?",
+"options": {
+"A": "Abstract thinking",
+"B": "Logical reasoning",
+"C": "Egocentrism",
+"D": "Conservation",
+"E": "Hypothetical thinking"
+},
+"answer": "C",
+"explanation": "Egocentrism, a hallmark of the preoperational stage, refers to a child's difficulty in taking another person's perspective or understanding that others may have different viewpoints."
+},
+{
+"question": "What is the concept of 'conservation' in Piaget's theory?",
+"options": {
+"A": "The ability to preserve and protect natural resources.",
+"B": "The understanding that the quantity of a substance remains constant despite changes in its appearance.",
+"C": "The tendency to focus on only one feature of an object or event.",
+"D": "The ability to think abstractly and hypothetically.",
+"E": "The ability to arrange objects in order based on a single dimension, such as size."
+},
+"answer": "B",
+"explanation": "Conservation refers to the child's grasp that certain properties of an object, such as volume, number, or mass, remain the same even when its shape or arrangement changes."
+},
+{
+"question": "Which of the following is NOT a stage in Piaget's theory of cognitive development?",
+"options": {
+"A": "Sensorimotor",
+"B": "Preoperational",
+"C": "Post-conventional",
+"D": "Concrete operational",
+"E": "Formal operational"
+},
+"answer": "C",
+"explanation": "Piaget's theory outlines four main stages of cognitive development: sensorimotor, preoperational, concrete operational, and formal operational. The post-conventional stage is part of Kohlberg's theory of moral development, not Piaget's."
+},
+{
+"question": "What is the primary focus of Kohlberg's theory of moral development?",
+"options": {
+"A": "The development of empathy and compassion.",
+"B": "The influence of culture on moral values.",
+"C": "The stages of reasoning individuals use to make moral judgments.",
+"D": "The role of emotions in moral decision-making.",
+"E": "The impact of punishment on moral behavior."
+},
+"answer": "C",
+"explanation": "Kohlberg's theory focuses on the different levels of moral reasoning that individuals progress through as they develop their understanding of right and wrong."
+},
+{
+"question": "What type of emotions are considered 'moral emotions,' such as pride, embarrassment, and shame?",
+"options": {
+"A": "Primary emotions",
+"B": "Basic emotions",
+"C": "Self-conscious emotions",
+"D": "Social emotions",
+"E": "Complex emotions"
+},
+"answer": "C",
+"explanation": "Moral emotions, like pride, shame, and guilt, are self-conscious emotions that involve an evaluation of oneself in relation to social standards and expectations."
+},
+{
+"question": "What is a key characteristic of 'normal aging' in terms of cognitive function?",
+"options": {
+"A": "Rapid decline in memory and cognitive abilities.",
+"B": "Significant impairment in problem-solving skills.",
+"C": "Gradual decline in brain tissue, primarily after age 60.",
+"D": "Inability to learn new information or skills.",
+"E": "Severe personality changes and emotional instability."
+},
+"answer": "C",
+"explanation": "Normal aging involves a gradual reduction in brain tissue volume, typically starting around age 60, but does not necessarily lead to severe cognitive impairment."
+},
+{
+"question": "Which of the following is a hallmark symptom of Alzheimer's disease?",
+"options": {
+"A": "Difficulty remembering newly learned information.",
+"B": "Sudden onset of paralysis or loss of sensation.",
+"C": "Impaired vision and hearing.",
+"D": "Severe and persistent headaches.",
+"E": "Uncontrolled muscle movements and tremors."
+},
+"answer": "A",
+"explanation": "One of the early and prominent signs of Alzheimer's disease is difficulty in retaining new information due to the progressive damage to brain regions involved in memory."
+},
+{
+"question": "What percentage of dementia cases are estimated to be caused by Alzheimer's disease?",
+"options": {
+"A": "10-20%",
+"B": "20-30%",
+"C": "30-40%",
+"D": "40-50%",
+"E": "60-80%"
+},
+"answer": "E",
+"explanation": "Alzheimer's disease is the most common cause of dementia, accounting for a significant majority of cases, estimated to be between 60% and 80%."
+},
+{
+"question": "Which brain structure is particularly affected by the structural deterioration associated with Alzheimer's disease?",
+"options": {
+"A": "Cerebellum",
+"B": "Brainstem",
+"C": "Thalamus",
+"D": "Hippocampus",
+"E": "Amygdala"
+},
+"answer": "D",
+"explanation": "The hippocampus, crucial for memory formation and retrieval, is one of the brain areas most severely impacted by the neurodegeneration characteristic of Alzheimer's disease."
+},
+{
+"question": "What is the term for the progression of muscular coordination required for physical activities?",
+"options": {
+"A": "Physical development",
+"B": "Growth spurt",
+"C": "Fine motor skills",
+"D": "Gross motor skills",
+"E": "Motor development"
+},
+"answer": "E",
+"explanation": "Motor development refers to the advancement and refinement of muscular coordination needed for various physical actions and movements."
+},
+{
+"question": "Which of the following is NOT a typical developmental milestone in early motor development?",
+"options": {
+"A": "Sitting up without support",
+"B": "Crawling on hands and knees",
+"C": "Speaking in full sentences",
+"D": "Standing with assistance",
+"E": "Walking without support"
+},
+"answer": "C",
+"explanation": "While sitting, crawling, standing, and walking are all significant motor milestones, speaking in full sentences falls under language development, not motor development."
+},
+{
+"question": "Which of the following is an example of a 'developmental norm'?",
+"options": {
+"A": "A child who is exceptionally tall for their age.",
+"B": "The average age at which children begin to walk independently.",
+"C": "A child who shows advanced cognitive abilities compared to their peers.",
+"D": "A child who experiences delayed language development.",
+"E": "A child who exhibits unique and unconventional behaviors."
+},
+"answer": "B",
+"explanation": "Developmental norms represent the typical ages or timeframes within which children achieve specific developmental milestones, like walking independently."
+},
+{
+"question": "According to the sources, which of the following is a factor that can contribute to insecure-avoidant attachment?",
+"options": {
+"A": "Caregiver neglect",
+"B": "Child abuse",
+"C": "Parental responsiveness",
+"D": "Secure home environment",
+"E": "Consistent discipline"
+},
+"answer": "B",
+"explanation": "Experiences of child abuse are linked to the development of insecure-avoidant attachment, where children may minimize their emotional expression and avoid seeking comfort from their caregiver."
+},
+{
+"question": "Which type of attachment is associated with caregivers who are inconsistent or neglectful in their responses to the infant?",
+"options": {
+"A": "Secure attachment",
+"B": "Insecure-avoidant attachment",
+"C": "Anxious-ambivalent attachment",
+"D": "Disorganized attachment",
+"E": "Resistant attachment"
+},
+"answer": "C",
+"explanation": "Anxious-ambivalent attachment can arise from inconsistent or unpredictable caregiver responses, leading infants to experience uncertainty and distress in their relationship."
+},
+{
+"question": "What is the significance of babbling in language development?",
+"options": {
+"A": "It indicates a delay in language acquisition.",
+"B": "It serves no purpose in language development.",
+"C": "It is an early stage of vocalization that precedes meaningful speech.",
+"D": "It is a sign of cognitive impairment.",
+"E": "It is a form of telegraphic speech."
+},
+"answer": "C",
+"explanation": "Babbling is a crucial early stage in language development, where infants experiment with sounds and vocal patterns, laying the foundation for speech production."
+},
+{
+"question": "What is meant by 'receptive vocabulary' in language development?",
+"options": {
+"A": "The words a child can use in spoken or written communication.",
+"B": "The words a child can understand but may not yet be able to produce.",
+"C": "The words a child learns through formal vocabulary instruction.",
+"D": "The words a child uses incorrectly due to over-regularization.",
+"E": "The words a child invents to express new concepts or ideas."
+},
+"answer": "B",
+"explanation": "Receptive vocabulary refers to the words a child comprehends when others use them, even if they cannot yet articulate those words themselves."
+},
+{
+"question": "Which statement accurately describes the relationship between receptive vocabulary and productive vocabulary in young children?",
+"options": {
+"A": "Receptive vocabulary is typically smaller than productive vocabulary.",
+"B": "Receptive vocabulary and productive vocabulary develop at the same pace.",
+"C": "Receptive vocabulary is typically larger than productive vocabulary.",
+"D": "Receptive vocabulary only includes concrete nouns, while productive vocabulary includes all word types.",
+"E": "Receptive vocabulary is primarily developed through reading, while productive vocabulary is developed through speaking."
+},
+"answer": "C",
+"explanation": "Children generally understand more words than they can actively use in their own speech, meaning their receptive vocabulary surpasses their productive vocabulary."
+},
+{
+"question": "At what age do children typically begin to combine words into simple sentences?",
+"options": {
+"A": "6 months",
+"B": "12 months",
+"C": "18 months",
+"D": "24 months",
+"E": "36 months"
+},
+"answer": "D",
+"explanation": "Around the age of 2 years (24 months), children start combining words into basic sentences, marking a significant step in their language development."
+},
+{
+"question": "Which of the following is an example of 'under-extension' in language development?",
+"options": {
+"A": "Using the word 'dog' to refer to all four-legged animals.",
+"B": "Using the word 'car' only to refer to the family's specific car.",
+"C": "Saying 'goed' instead of 'went'.",
+"D": "Using the word 'ball' to refer to both a ball and a round fruit.",
+"E": "Failing to understand the meaning of the word 'happy'."
+},
+"answer": "B",
+"explanation": "Under-extension occurs when a child uses a word in a more restricted way than its conventional meaning, often applying it only to a specific instance or object."
+},
+{
+"question": "What is a key feature of the formal operational stage in Piaget's theory?",
+"options": {
+"A": "Object permanence",
+"B": "Egocentrism",
+"C": "Conservation",
+"D": "Abstract thinking",
+"E": "Centration"
+},
+"answer": "D",
+"explanation": "The formal operational stage, the final stage in Piaget's theory, is marked by the ability to engage in abstract reasoning, hypothetical thinking, and systematic problem-solving."
+},
+{
+"question": "Which of the following is a criticism or challenge to Piaget's stage theory of cognitive development?",
+"options": {
+"A": "It overemphasizes the role of social interaction in learning.",
+"B": "It accurately predicts the exact timing of cognitive milestones for all children.",
+"C": "It may underestimate children's cognitive abilities at certain ages.",
+"D": "It acknowledges the influence of cultural context on cognitive development.",
+"E": "It views cognitive development as a smooth and continuous process."
+},
+"answer": "C",
+"explanation": "One critique of Piaget's theory is that it might not fully capture the complexity of cognitive development, potentially underestimating children's capabilities at different stages."
+},
+{
+"question": "According to Vygotsky's theory, how do children acquire cognitive skills?",
+"options": {
+"A": "Through independent exploration and discovery.",
+"B": "Through genetic inheritance and biological maturation.",
+"C": "Through direct instruction from teachers and parents.",
+"D": "Through collaborative interactions with more experienced members of their society.",
+"E": "Through trial and error learning."
+},
+"answer": "D",
+"explanation": "Vygotsky emphasizes the importance of social interaction and guidance from skilled individuals in facilitating children's cognitive development, highlighting the role of collaborative learning."
+},
+{
+"question": "What is the 'zone of proximal development' in Vygotsky's theory?",
+"options": {
+"A": "The stage of cognitive development a child has currently reached.",
+"B": "The difference between a child's actual developmental level and their potential developmental level with guidance.",
+"C": "The range of tasks a child can perform independently without assistance.",
+"D": "The period of rapid cognitive growth that occurs during early childhood.",
+"E": "The set of innate cognitive abilities that all children are born with."
+},
+"answer": "B",
+"explanation": "The zone of proximal development represents the gap between what a child can achieve independently and what they can accomplish with support from a more knowledgeable person, highlighting the potential for learning and growth through guidance."
+},
+{
+"question": "What is the main idea behind Erikson's eight stages of psychosocial development?",
+"options": {
+"A": "Individuals face specific social and emotional challenges at different points in their lives.",
+"B": "Cognitive development drives all aspects of social and emotional growth.",
+"C": "Personality is fully formed during early childhood and remains stable throughout life.",
+"D": "Social and emotional development are primarily influenced by genetic factors.",
+"E": "Culture plays no significant role in shaping individual development."
+},
+"answer": "A",
+"explanation": "Erikson's theory proposes that individuals navigate a series of psychosocial crises or challenges at various stages of life, influencing their social and emotional development."
+},
+{
+"question": "What does James Marcia's framework of identity statuses explore?",
+"options": {
+"A": "The different attachment styles observed in infants.",
+"B": "The stages of moral reasoning individuals progress through.",
+"C": "The process of identity formation and the various states individuals may experience.",
+"D": "The impact of culture on personality development.",
+"E": "The cognitive changes associated with aging."
+},
+"answer": "C",
+"explanation": "James Marcia's identity statuses describe the different ways individuals approach and experience the process of forming their sense of self and identity."
+},
+{
+"question": "What is the 'false belief test' used to assess?",
+"options": {
+"A": "A child's understanding of object permanence.",
+"B": "A child's ability to conserve number and quantity.",
+"C": "A child's level of egocentrism.",
+"D": "A child's development of theory of mind.",
+"E": "A child's language comprehension skills."
+},
+"answer": "D",
+"explanation": "The false belief test is a classic tool used to evaluate whether a child has developed theory of mind, specifically their ability to recognize that others can hold beliefs that differ from reality."
+},
+{
+"question": "At approximately what age do children typically begin to pass the false belief test, indicating the emergence of theory of mind?",
+"options": {
+"A": "1 year old",
+"B": "2 years old",
+"C": "3 years old",
+"D": "4 years old",
+"E": "5 years old"
+},
+"answer": "D",
+"explanation": "Research suggests that children typically start passing the false belief test around the age of 4, signifying the development of their theory of mind and their ability to understand others' perspectives."
+},
+{
+"question": "What is the term for an abnormal condition characterized by multiple cognitive deficits, including memory impairment?",
+"options": {
+"A": "Amnesia",
+"B": "Delirium",
+"C": "Dementia",
+"D": "Depression",
+"E": "Aphasia"
+},
+"answer": "C",
+"explanation": "Dementia is a broad term used to describe a cluster of cognitive impairments, including memory loss, impaired judgment, and difficulty with language and problem-solving, often affecting daily functioning."
+},
+{
+"question": "Which of the following is NOT a common cognitive change associated with normal aging?",
+"options": {
+"A": "Gradual decline in processing speed",
+"B": "Increased difficulty in learning new information",
+"C": "Complete loss of problem-solving abilities",
+"D": "Changes in memory function",
+"E": "Mild forgetfulness"
+},
+"answer": "C",
+"explanation": "While normal aging can lead to some cognitive changes, it does not typically result in the complete loss of problem-solving skills. However, older adults may experience a gradual slowing in processing speed and some memory changes."
+}
+]
