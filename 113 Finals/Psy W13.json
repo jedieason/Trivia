@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Which psychological perspective emphasizes the subjective experience of the individual and their capacity for personal growth?",
+    "options": {
+      "A": "Psychodynamic",
+      "B": "Behavioral",
+      "C": "Humanistic",
+      "D": "Cognitive",
+      "E": "Biological"
+    },
+    "answer": "C",
+    "explanation": "The humanistic perspective focuses on individual experiences, free will, and the drive for self-actualization."
+  },
+  {
+    "question": "According to Carl Rogers, what is the term for the collection of beliefs about one's own nature, unique qualities, and typical behavior?",
+    "options": {
+      "A": "Self-esteem",
+      "B": "Self-efficacy",
+      "C": "Self-concept",
+      "D": "Self-actualization",
+      "E": "Self-regulation"
+    },
+    "answer": "C",
+    "explanation": "Rogers defines self-concept as the individual's perception of their own characteristics and abilities."
+  },
+  {
+    "question": "What term describes the discrepancy between a person's self-concept and their actual experiences?",
+    "options": {
+      "A": "Cognitive dissonance",
+      "B": "Self-discrepancy",
+      "C": "Incongruence",
+      "D": "Self-doubt",
+      "E": "Identity crisis"
+    },
+    "answer": "C",
+    "explanation": "Incongruence refers to the mismatch between how someone sees themselves and their real-life experiences."
+  },
+  {
+    "question": "According to humanistic theories, how does conditional love from parents influence a child's development?",
+    "options": {
+      "A": "It promotes a healthy sense of self.",
+      "B": "It leads to unconditional positive regard.",
+      "C": "It fosters a need to distort experiences to feel worthy.",
+      "D": "It encourages self-actualization.",
+      "E": "It has no significant impact on personality development."
+    },
+    "answer": "C",
+    "explanation": "Conditional love can lead to children developing a distorted view of themselves in order to feel accepted and loved."
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a person raised with unconditional positive regard, according to Rogers?",
+    "options": {
+      "A": "Congruent self-concept",
+      "B": "Openness to experience",
+      "C": "Recurrent anxiety",
+      "D": "Acceptance of self and others",
+      "E": "Trust in one's own feelings"
+    },
+    "answer": "C",
+    "explanation": "Unconditional positive regard promotes a healthy self-concept and reduces anxiety."
+  },
+  {
+    "question": "Which theorist proposed a hierarchy of needs, suggesting that basic needs must be met before higher-level needs can be pursued?",
+    "options": {
+      "A": "Sigmund Freud",
+      "B": "Carl Jung",
+      "C": "Abraham Maslow",
+      "D": "Alfred Adler",
+      "E": "Karen Horney"
+    },
+    "answer": "C",
+    "explanation": "Maslow's hierarchy of needs places basic physiological needs at the bottom, followed by safety, love and belonging, esteem, and finally self-actualization."
+  },
+  {
+    "question": "What is the term used by Maslow to describe the process of fully developing one's potential?",
+    "options": {
+      "A": "Self-esteem",
+      "B": "Self-efficacy",
+      "C": "Self-concept",
+      "D": "Self-actualization",
+      "E": "Self-regulation"
+    },
+    "answer": "D",
+    "explanation": "Self-actualization is the highest level in Maslow's hierarchy, representing the fulfillment of one's potential."
+  },
+  {
+    "question": "Which of the following is NOT a way to begin the journey of self-actualization, according to Maslow?",
+    "options": {
+      "A": "Resisting change to maintain stability",
+      "B": "Taking responsibility for one's actions",
+      "C": "Examining one's motives and desires",
+      "D": "Experiencing life authentically and directly",
+      "E": "Getting involved in activities that align with one's values"
+    },
+    "answer": "A",
+    "explanation": "Maslow encourages embracing change and personal growth on the path to self-actualization."
+  },
+  {
+    "question": "What is a major criticism of the humanistic perspective?",
+    "options": {
+      "A": "It focuses too much on negative aspects of human nature.",
+      "B": "It lacks empirical support and relies heavily on subjective experiences.",
+      "C": "It ignores the influence of unconscious processes on behavior.",
+      "D": "It overemphasizes the role of genetic factors in personality.",
+      "E": "It fails to acknowledge the importance of social and cultural contexts."
+    },
+    "answer": "B",
+    "explanation": "Critics argue that humanistic theories are difficult to test scientifically and lack sufficient empirical evidence."
+  },
+  {
+    "question": "Which personality perspective emphasizes the role of genetics and biological factors in shaping personality?",
+    "options": {
+      "A": "Psychodynamic",
+      "B": "Behavioral",
+      "C": "Humanistic",
+      "D": "Cognitive",
+      "E": "Biological"
+    },
+    "answer": "E",
+    "explanation": "The biological perspective focuses on the influence of genes, brain structures, and neurotransmitters on personality traits."
+  },
+  {
+    "question": "What is the primary focus of the trait approach to personality?",
+    "options": {
+      "A": "Identifying and measuring stable personality characteristics.",
+      "B": "Understanding the unconscious motivations behind behavior.",
+      "C": "Examining the influence of environmental factors on personality.",
+      "D": "Exploring the impact of childhood experiences on adult personality.",
+      "E": "Analyzing the cognitive processes involved in personality development."
+    },
+    "answer": "A",
+    "explanation": "The trait approach aims to categorize and quantify individual differences in personality traits."
+  },
+  {
+    "question": "Which of the following theorists proposed the concept of central traits as the basic building blocks of personality?",
+    "options": {
+      "A": "Gordon Allport",
+      "B": "Raymond Cattell",
+      "C": "Hans Eysenck",
+      "D": "Robert McCrae",
+      "E": "Paul Costa"
+    },
+    "answer": "A",
+    "explanation": "Allport distinguished between central traits, which are fundamental to an individual's personality, and secondary traits, which are more situational."
+  },
+  {
+    "question": "According to Raymond Cattell, what are the underlying dimensions of personality that are reflected in observable traits?",
+    "options": {
+      "A": "Archetypes",
+      "B": "Defense mechanisms",
+      "C": "Factors",
+      "D": "Cognitive schemas",
+      "E": "Locus of control"
+    },
+    "answer": "C",
+    "explanation": "Cattell used factor analysis to identify underlying factors that contribute to observable personality traits."
+  },
+  {
+    "question": "Which theorist proposed a three-factor theory of personality based on the dimensions of neuroticism, extraversion, and psychoticism?",
+    "options": {
+      "A": "Gordon Allport",
+      "B": "Raymond Cattell",
+      "C": "Hans Eysenck",
+      "D": "Robert McCrae",
+      "E": "Paul Costa"
+    },
+    "answer": "C",
+    "explanation": "Eysenck's model focuses on these three fundamental dimensions of personality."
+  },
+  {
+    "question": "What are the five personality traits included in McCrae & Costa’s five-factor model?",
+    "options": {
+      "A": "Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+      "B": "Introversion, Stability, Psychoticism, Agreeableness, Openness",
+      "C": "Extraversion, Neuroticism, Psychoticism, Conscientiousness, Agreeableness",
+      "D": "Openness, Conscientiousness, Introversion, Stability, Agreeableness",
+      "E": "Neuroticism, Psychoticism, Extraversion, Conscientiousness, Openness"
+    },
+    "answer": "A",
+    "explanation": "The five-factor model, also known as the Big Five, includes these five broad traits."
+  },
+  {
+    "question": "What evidence supports the idea that personality traits have a genetic component?",
+    "options": {
+      "A": "Adopted children show stronger personality similarities to their adoptive parents.",
+      "B": "Identical twins raised together have more similar personalities than fraternal twins raised together.",
+      "C": "Siblings raised in the same environment have very different personalities.",
+      "D": "Personality traits are easily changed through environmental interventions.",
+      "E": "There is no scientific evidence to support the heritability of personality traits."
+    },
+    "answer": "B",
+    "explanation": "Studies have shown that identical twins, who share 100% of their genes, have more similar personalities than fraternal twins, who share only 50% of their genes, even when raised apart."
+  },
+  {
+    "question": "What is a major criticism of the biological perspective on personality?",
+    "options": {
+      "A": "It overemphasizes the influence of environmental factors on personality.",
+      "B": "It fails to consider the interaction between genes and environment.",
+      "C": "It ignores the role of unconscious processes in shaping personality.",
+      "D": "It relies too heavily on subjective interpretations of behavior.",
+      "E": "It lacks empirical support and relies on anecdotal evidence."
+    },
+    "answer": "B",
+    "explanation": "Critics argue that the biological perspective may underestimate the complex interplay between genetic predispositions and environmental influences."
+  },
+  {
+    "question": "Which perspective views personality as a result of learned responses to patterns of reinforcement?",
+    "options": {
+      "A": "Psychodynamic",
+      "B": "Behavioral",
+      "C": "Humanistic",
+      "D": "Cognitive",
+      "E": "Biological"
+    },
+    "answer": "B",
+    "explanation": "The behavioral perspective emphasizes learning principles, such as conditioning, in shaping behavior and personality."
+  },
+  {
+    "question": "According to Rotter's Expectancy Theory, what does locus of control refer to?",
+    "options": {
+      "A": "The extent to which individuals believe they have control over events in their lives.",
+      "B": "The level of self-efficacy individuals possess in specific situations.",
+      "C": "The degree of congruence between an individual's self-concept and their experiences.",
+      "D": "The unconscious defense mechanisms used to cope with anxiety and stress.",
+      "E": "The five basic personality traits that characterize individuals."
+    },
+    "answer": "A",
+    "explanation": "Locus of control refers to the perceived control individuals have over the outcomes in their lives."
+  },
+  {
+    "question": "Individuals who believe that their efforts and abilities determine their success are said to have:",
+    "options": {
+      "A": "An internal locus of control",
+      "B": "An external locus of control",
+      "C": "High self-efficacy",
+      "D": "Low self-esteem",
+      "E": "A strong superego"
+    },
+    "answer": "A",
+    "explanation": "People with an internal locus of control believe they have agency in shaping their own lives."
+  },
+  {
+    "question": "Individuals who believe that external factors, such as luck or fate, determine their outcomes are said to have:",
+    "options": {
+      "A": "An internal locus of control",
+      "B": "An external locus of control",
+      "C": "High self-efficacy",
+      "D": "Low self-esteem",
+      "E": "A strong superego"
+    },
+    "answer": "B",
+    "explanation": "Those with an external locus of control attribute successes and failures to forces outside of their control."
+  },
+  {
+    "question": "Which theorist emphasized the reciprocal determinism between personal factors, behavior, and the environment?",
+    "options": {
+      "A": "Julian Rotter",
+      "B": "Albert Bandura",
+      "C": "Walter Mischel",
+      "D": "Carl Rogers",
+      "E": "Abraham Maslow"
+    },
+    "answer": "B",
+    "explanation": "Bandura's social cognitive theory highlights the constant interplay between these three factors."
+  },
+  {
+    "question": "What is the term for an individual's belief in their ability to achieve specific outcomes?",
+    "options": {
+      "A": "Self-esteem",
+      "B": "Self-efficacy",
+      "C": "Self-concept",
+      "D": "Self-actualization",
+      "E": "Self-regulation"
+    },
+    "answer": "B",
+    "explanation": "Self-efficacy refers to the confidence in one's capabilities to succeed in particular tasks or situations."
+  },
+  {
+    "question": "According to Walter Mischel, why do people sometimes behave differently in different situations?",
+    "options": {
+      "A": "Personality traits are unstable and change frequently.",
+      "B": "Unconscious motives override conscious intentions.",
+      "C": "Behavior is influenced by the interaction of personality and situational factors.",
+      "D": "Genetic predispositions determine behavior regardless of the situation.",
+      "E": "People lack self-awareness and act impulsively."
+    },
+    "answer": "C",
+    "explanation": "Mischel's cognitive-affective personality system emphasizes the importance of both individual differences and situational contexts in shaping behavior."
+  },
+  {
+    "question": "What type of personality assessment aims to explore the unconscious by having individuals interpret ambiguous stimuli?",
+    "options": {
+      "A": "Projective measures",
+      "B": "Objective measures",
+      "C": "Behavioral observations",
+      "D": "Cognitive tests",
+      "E": "Physiological assessments"
+    },
+    "answer": "A",
+    "explanation": "Projective tests, such as the Rorschach inkblot test, use ambiguous stimuli to elicit responses that reveal unconscious thoughts and feelings."
+  },
+  {
+    "question": "Which of the following is an example of a projective personality test?",
+    "options": {
+      "A": "The Big Five Inventory",
+      "B": "The NEO Personality Inventory",
+      "C": "The Minnesota Multiphasic Personality Inventory (MMPI)",
+      "D": "The Rorschach inkblot test",
+      "E": "The Myers-Briggs Type Indicator (MBTI)"
+    },
+    "answer": "D",
+    "explanation": "The Rorschach test asks individuals to describe what they see in inkblot images, allowing for a wide range of interpretations that can reveal underlying personality dynamics."
+  },
+  {
+    "question": "What type of personality assessment uses straightforward questionnaires or observer ratings to measure specific traits?",
+    "options": {
+      "A": "Projective measures",
+      "B": "Objective measures",
+      "C": "Behavioral observations",
+      "D": "Cognitive tests",
+      "E": "Physiological assessments"
+    },
+    "answer": "B",
+    "explanation": "Objective measures rely on standardized questions and rating scales to assess personality traits."
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of abnormal behavior?",
+    "options": {
+      "A": "Statistical rarity",
+      "B": "Deviation from social norms",
+      "C": "Personal distress",
+      "D": "Adaptive functioning",
+      "E": "Potential danger to self or others"
+    },
+    "answer": "D",
+    "explanation": "Abnormal behavior is often maladaptive, meaning it interferes with an individual's ability to function effectively in daily life."
+  },
+  {
+    "question": "Which of the following is a classification system used to diagnose mental disorders?",
+    "options": {
+      "A": "The Diagnostic and Statistical Manual of Mental Disorders (DSM-5)",
+      "B": "The International Classification of Diseases (ICD-10)",
+      "C": "The Myers-Briggs Type Indicator (MBTI)",
+      "D": "The Big Five Inventory",
+      "E": "The Rorschach inkblot test"
+    },
+    "answer": "A",
+    "explanation": "The DSM-5 is a widely used manual for diagnosing and classifying mental disorders."
+  },
+  {
+    "question": "What term describes the cause or origin of a psychological disorder?",
+    "options": {
+      "A": "Diagnosis",
+      "B": "Prognosis",
+      "C": "Etiology",
+      "D": "Comorbidity",
+      "E": "Prevalence"
+    },
+    "answer": "C",
+    "explanation": "Etiology refers to the factors that contribute to the development of a disorder."
+  },
+  {
+    "question": "What term refers to the predicted course or outcome of a disorder?",
+    "options": {
+      "A": "Diagnosis",
+      "B": "Prognosis",
+      "C": "Etiology",
+      "D": "Comorbidity",
+      "E": "Prevalence"
+    },
+    "answer": "B",
+    "explanation": "Prognosis is the expected progression and potential for recovery from a disorder."
+  },
+  {
+    "question": "What term describes the presence of two or more disorders in the same individual?",
+    "options": {
+      "A": "Diagnosis",
+      "B": "Prognosis",
+      "C": "Etiology",
+      "D": "Comorbidity",
+      "E": "Prevalence"
+    },
+    "answer": "D",
+    "explanation": "Comorbidity refers to the co-occurrence of multiple disorders, which can complicate diagnosis and treatment."
+  },
+  {
+    "question": "Which of the following is NOT a primary symptom category in the DSM-5?",
+    "options": {
+      "A": "Neurodevelopmental disorders",
+      "B": "Personality disorders",
+      "C": "Mood disorders",
+      "D": "Cognitive disorders",
+      "E": "Substance use disorders"
+    },
+    "answer": "D",
+    "explanation": "While cognitive impairments can be a symptom of various disorders, 'Cognitive disorders' is not a primary category in the DSM-5."
+  },
+  {
+    "question": "Which mood disorder is characterized by alternating periods of mania and depression?",
+    "options": {
+      "A": "Major depressive disorder",
+      "B": "Persistent depressive disorder (dysthymia)",
+      "C": "Bipolar disorder",
+      "D": "Generalized anxiety disorder",
+      "E": "Post-traumatic stress disorder (PTSD)"
+    },
+    "answer": "C",
+    "explanation": "Bipolar disorder involves shifts between extreme mood states, including periods of elevated mood (mania) and periods of low mood (depression)."
+  },
+  {
+    "question": "Which of the following is NOT a symptom of a major depressive episode?",
+    "options": {
+      "A": "Depressed mood most of the day",
+      "B": "Increased energy and activity levels",
+      "C": "Loss of interest or pleasure in activities",
+      "D": "Feelings of worthlessness or excessive guilt",
+      "E": "Significant changes in appetite or weight"
+    },
+    "answer": "B",
+    "explanation": "Major depressive episodes are characterized by decreased energy and activity levels, not increased."
+  },
+  {
+    "question": "What is the minimum duration required for a diagnosis of persistent depressive disorder (dysthymia)?",
+    "options": {
+      "A": "2 weeks",
+      "B": "1 month",
+      "C": "6 months",
+      "D": "1 year",
+      "E": "2 years"
+    },
+    "answer": "E",
+    "explanation": "Dysthymia involves a chronic, low-grade depressed mood that persists for at least two years."
+  },
+  {
+    "question": "Which of the following is a key symptom of a manic episode?",
+    "options": {
+      "A": "Decreased self-esteem",
+      "B": "Increased need for sleep",
+      "C": "Slowed speech and thoughts",
+      "D": "Inflated self-esteem or grandiosity",
+      "E": "Loss of interest in pleasurable activities"
+    },
+    "answer": "D",
+    "explanation": "Mania is characterized by elevated mood, inflated self-importance, and a decreased need for sleep."
+  },
+  {
+    "question": "What is the main difference between a manic episode and a hypomanic episode?",
+    "options": {
+      "A": "The presence or absence of psychotic symptoms",
+      "B": "The duration and severity of the mood disturbance",
+      "C": "The type of depressive symptoms experienced",
+      "D": "The presence or absence of a family history of mood disorders",
+      "E": "The individual's response to medication"
+    },
+    "answer": "B",
+    "explanation": "Hypomanic episodes are similar to manic episodes but shorter in duration and less severe in intensity."
+  },
+  {
+    "question": "Which type of bipolar disorder involves a history of at least one manic episode?",
+    "options": {
+      "A": "Bipolar I disorder",
+      "B": "Bipolar II disorder",
+      "C": "Cyclothymic disorder",
+      "D": "Major depressive disorder with mixed features",
+      "E": "Persistent depressive disorder with hypomanic episodes"
+    },
+    "answer": "A",
+    "explanation": "Bipolar I disorder is characterized by the presence of at least one full-blown manic episode."
+  },
+  {
+    "question": "Which type of bipolar disorder involves hypomanic episodes but not full-blown manic episodes?",
+    "options": {
+      "A": "Bipolar I disorder",
+      "B": "Bipolar II disorder",
+      "C": "Cyclothymic disorder",
+      "D": "Major depressive disorder with mixed features",
+      "E": "Persistent depressive disorder with hypomanic episodes"
+    },
+    "answer": "B",
+    "explanation": "Bipolar II disorder includes hypomanic episodes along with major depressive episodes."
+  },
+  {
+    "question": "Which of the following is a biological factor that may contribute to mood disorders?",
+    "options": {
+      "A": "Early childhood trauma",
+      "B": "Distorted thinking patterns",
+      "C": "Learned helplessness",
+      "D": "Imbalances in neurotransmitters like serotonin",
+      "E": "Poor social skills"
+    },
+    "answer": "D",
+    "explanation": "Research suggests that imbalances in neurotransmitters, particularly serotonin, are implicated in the development of mood disorders."
+  },
+  {
+    "question": "What psychological factor involves drawing negative conclusions based on limited evidence?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification",
+      "E": "Personalization"
+    },
+    "answer": "A",
+    "explanation": "Arbitrary inference is a cognitive distortion where individuals jump to negative conclusions without sufficient evidence."
+  },
+  {
+    "question": "What psychological factor involves focusing on negative details while ignoring positive aspects of a situation?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification",
+      "E": "Personalization"
+    },
+    "answer": "B",
+    "explanation": "Selective abstraction involves attending to negative aspects of an experience while disregarding positive ones."
+  },
+  {
+    "question": "What psychological factor involves applying a single negative experience to a wide range of situations?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification",
+      "E": "Personalization"
+    },
+    "answer": "C",
+    "explanation": "Overgeneralization occurs when individuals extend a negative experience to unrelated situations."
+  },
+  {
+    "question": "What psychological factor involves exaggerating the importance of negative events and minimizing the significance of positive events?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification and minimization",
+      "E": "Personalization"
+    },
+    "answer": "D",
+    "explanation": "Magnification and minimization distort the perception of events, making negative ones seem bigger and positive ones smaller."
+  },
+  {
+    "question": "What psychological factor involves blaming oneself for events that are not under one's control?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification",
+      "E": "Personalization"
+    },
+    "answer": "E",
+    "explanation": "Personalization is a cognitive distortion where individuals assume responsibility for events that are not their fault."
+  },
+  {
+    "question": "What psychological factor involves viewing situations in extreme, all-or-nothing terms?",
+    "options": {
+      "A": "Arbitrary inference",
+      "B": "Selective abstraction",
+      "C": "Overgeneralization",
+      "D": "Magnification",
+      "E": "All-or-nothing thinking"
+    },
+    "answer": "E",
+    "explanation": "All-or-nothing thinking, also known as black-and-white thinking, involves seeing things as either entirely good or bad, with no middle ground."
+  },
+  {
+    "question": "What psychological theory suggests that depression can result from a perceived lack of control over negative events?",
+    "options": {
+      "A": "Cognitive dissonance theory",
+      "B": "Social learning theory",
+      "C": "Attachment theory",
+      "D": "Learned helplessness theory",
+      "E": "Psychoanalytic theory"
+    },
+    "answer": "D",
+    "explanation": "Learned helplessness proposes that when individuals feel unable to escape or avoid negative situations, they may develop a sense of hopelessness and passivity, which can contribute to depression."
+  },
+  {
+    "question": "Which of the following is NOT a factor that can contribute to the development of mood disorders, according to the biopsychosocial approach?",
+    "options": {
+      "A": "Genetic predispositions",
+      "B": "Neurochemical imbalances",
+      "C": "Stressful life events",
+      "D": "Negative thinking patterns",
+      "E": "Astrological influences"
+    },
+    "answer": "E",
+    "explanation": "The biopsychosocial approach considers biological, psychological, and social factors in the development of mood disorders. Astrological influences are not recognized as scientific explanations for mood disorders."
+  },
+  {
+    "question": "What is the diathesis-stress model?",
+    "options": {
+      "A": "A model that explains how personality traits influence stress responses",
+      "B": "A theory that emphasizes the role of unconscious conflicts in mood disorders",
+      "C": "A model that proposes that disorders arise from an interaction between vulnerability and stress",
+      "D": "A perspective that focuses on the impact of social factors on mental health",
+      "E": "A model that describes the stages of grief and loss"
+    },
+    "answer": "C",
+    "explanation": "The diathesis-stress model suggests that individuals with a predisposition (diathesis) for a disorder are more likely to develop it when exposed to significant stress."
+  }
+]
