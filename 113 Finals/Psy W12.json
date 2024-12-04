@@ -1,0 +1,242 @@
+[
+{
+"question": "Which of the following is NOT a characteristic of personality?",
+"options": {
+"A": "Consistency",
+"B": "Distinctiveness",
+"C": "Instability",
+"D": "Uniqueness",
+"E": "Behavioral traits"
+},
+"answer": "C",
+"explanation": "Personality is characterized by **consistency** and **distinctiveness** in an individual's behavioral traits."
+},
+{
+"question": "Which psychological perspective posits that unconscious factors govern people's behavior?",
+"options": {
+"A": "Humanistic",
+"B": "Biological",
+"C": "Social-Cognitive",
+"D": "Psychodynamic",
+"E": "Behavioral"
+},
+"answer": "D",
+"explanation": "The **psychodynamic** perspective suggests that unconscious factors, often stemming from childhood experiences, shape adult personalities."
+},
+{
+"question": "According to psychodynamic theory, which component of personality operates based on the pleasure principle?",
+"options": {
+"A": "Id",
+"B": "Ego",
+"C": "Superego",
+"D": "Conscious",
+"E": "Preconscious"
+},
+"answer": "A",
+"explanation": "The **id** is the primitive, instinctive part of personality that seeks immediate gratification according to the pleasure principle."
+},
+{
+"question": "Which component of personality internalizes societal standards and acts as a moral compass?",
+"options": {
+"A": "Id",
+"B": "Ego",
+"C": "Superego",
+"D": "Conscious",
+"E": "Preconscious"
+},
+"answer": "C",
+"explanation": "The **superego** represents the moral component of personality, incorporating social standards and striving for ideal behavior."
+},
+{
+"question": "Which personality component acts as a mediator, balancing the demands of the id, superego, and reality?",
+"options": {
+"A": "Id",
+"B": "Ego",
+"C": "Superego",
+"D": "Conscious",
+"E": "Preconscious"
+},
+"answer": "B",
+"explanation": "The **ego**, operating on the reality principle, makes decisions by considering the demands of the id, the superego, and the external world."
+},
+{
+"question": "A person who skips a workout to watch their favorite TV show is likely influenced by which personality component?",
+"options": {
+"A": "Id",
+"B": "Ego",
+"C": "Superego",
+"D": "Conscious",
+"E": "Preconscious"
+},
+"answer": "A",
+"explanation": "Skipping a workout for immediate pleasure suggests the influence of the **id**, which prioritizes gratification over long-term goals."
+},
+{
+"question": "Someone who adheres strictly to rules and regulations, even when inconvenient, might have a dominant:",
+"options": {
+"A": "Id",
+"B": "Ego",
+"C": "Superego",
+"D": "Conscious",
+"E": "Preconscious"
+},
+"answer": "C",
+"explanation": "Rigidity in following rules aligns with the **superego's** focus on moral principles and societal expectations."
+},
+{
+"question": "Which level of awareness encompasses thoughts and feelings that are readily accessible?",
+"options": {
+"A": "Conscious",
+"B": "Preconscious",
+"C": "Unconscious",
+"D": "Subconscious",
+"E": "Superego"
+},
+"answer": "A",
+"explanation": "The **conscious** level of awareness includes everything a person is aware of at a specific moment."
+},
+{
+"question": "Memories and stored knowledge that can be easily recalled reside in which level of awareness?",
+"options": {
+"A": "Conscious",
+"B": "Preconscious",
+"C": "Unconscious",
+"D": "Subconscious",
+"E": "Superego"
+},
+"answer": "B",
+"explanation": "The **preconscious** level contains information that is not currently in conscious awareness but can be easily retrieved."
+},
+{
+"question": "Which level of awareness, according to psychodynamic theory, significantly influences behavior despite being inaccessible?",
+"options": {
+"A": "Conscious",
+"B": "Preconscious",
+"C": "Unconscious",
+"D": "Subconscious",
+"E": "Superego"
+},
+"answer": "C",
+"explanation": "The **unconscious** mind, although inaccessible to conscious awareness, holds thoughts, feelings, and memories believed to powerfully influence behavior."
+},
+{
+"question": "What are unconscious psychological strategies that protect individuals from unpleasant emotions?",
+"options": {
+"A": "Coping Mechanisms",
+"B": "Defense Mechanisms",
+"C": "Cognitive Distortions",
+"D": "Behavioral Patterns",
+"E": "Personality Traits"
+},
+"answer": "B",
+"explanation": "**Defense mechanisms** are unconscious processes that shield individuals from anxiety, guilt, and other negative emotions."
+},
+{
+"question": "A student who fails a test blames the teacher's teaching style instead of their lack of preparation. This exemplifies:",
+"options": {
+"A": "Repression",
+"B": "Projection",
+"C": "Displacement",
+"D": "Reaction Formation",
+"E": "Rationalization"
+},
+"answer": "E",
+"explanation": "Blaming external factors for personal shortcomings is a form of **rationalization**, a defense mechanism that creates excuses to protect self-esteem."
+},
+{
+"question": "Forgetting a traumatic childhood experience illustrates which defense mechanism?",
+"options": {
+"A": "Repression",
+"B": "Projection",
+"C": "Displacement",
+"D": "Reaction Formation",
+"E": "Rationalization"
+},
+"answer": "A",
+"explanation": "**Repression** involves pushing distressing thoughts or memories into the unconscious to avoid anxiety."
+},
+{
+"question": "A person with strong aggressive impulses becomes a pacifist advocate. This could be an example of:",
+"options": {
+"A": "Repression",
+"B": "Projection",
+"C": "Displacement",
+"D": "Reaction Formation",
+"E": "Rationalization"
+},
+"answer": "D",
+"explanation": "Adopting beliefs and behaviors opposite to one's true feelings is characteristic of **reaction formation**, a way to manage unacceptable impulses."
+},
+{
+"question": "Which defense mechanism involves redirecting emotions from a threatening target to a safer one?",
+"options": {
+"A": "Repression",
+"B": "Projection",
+"C": "Displacement",
+"D": "Reaction Formation",
+"E": "Rationalization"
+},
+"answer": "C",
+"explanation": "**Displacement** involves shifting emotional reactions, often anger, from the original source to a less threatening substitute."
+},
+{
+"question": "An adult throwing a tantrum when they don't get their way might be exhibiting:",
+"options": {
+"A": "Repression",
+"B": "Projection",
+"C": "Displacement",
+"D": "Reaction Formation",
+"E": "Regression"
+},
+"answer": "E",
+"explanation": "**Regression** involves reverting to immature behaviors when faced with stress or frustration."
+},
+{
+"question": "Which perspective emphasizes personal growth, self-acceptance, and the pursuit of one's full potential?",
+"options": {
+"A": "Psychodynamic",
+"B": "Humanistic",
+"C": "Biological",
+"D": "Social-Cognitive",
+"E": "Trait"
+},
+"answer": "B",
+"explanation": "The **humanistic** perspective focuses on positive aspects of human nature, such as self-actualization and the drive for personal growth."
+},
+{
+"question": "Which personality perspective focuses on identifying and measuring stable personality characteristics?",
+"options": {
+"A": "Psychodynamic",
+"B": "Humanistic",
+"C": "Biological",
+"D": "Social-Cognitive",
+"E": "Trait"
+},
+"answer": "E",
+"explanation": "The **trait** perspective emphasizes identifying and describing enduring personality traits that influence behavior."
+},
+{
+"question": "The 'Big Five' personality traits include all of the following EXCEPT:",
+"options": {
+"A": "Openness to experience",
+"B": "Conscientiousness",
+"C": "Extraversion",
+"D": "Agreeableness",
+"E": "Intelligence"
+},
+"answer": "E",
+"explanation": "While intelligence is an important individual characteristic, it is not one of the **Big Five** personality traits. The Big Five include: **openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism**."
+},
+{
+"question": "Which perspective examines how thoughts, feelings, and behaviors are influenced by social interactions and environmental factors?",
+"options": {
+"A": "Psychodynamic",
+"B": "Humanistic",
+"C": "Biological",
+"D": "Social-Cognitive",
+"E": "Trait"
+},
+"answer": "D",
+"explanation": "The **social-cognitive** perspective highlights the interplay between individual factors and social learning in shaping personality."
+}
+]
