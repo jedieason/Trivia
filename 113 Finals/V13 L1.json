@@ -1,0 +1,518 @@
+[
+{
+"question": "Which of the following is NOT a mechanism of gene regulation at the genome level in eukaryotes?",
+"options": {
+"A": "Rearrangement",
+"B": "Deletion",
+"C": "Translocation",
+"D": "Amplification",
+"E": "Phosphorylation"
+},
+"answer": "E",
+"explanation": "Gene regulation at the genome level in eukaryotes includes rearrangement, deletion, translocation, and amplification. Phosphorylation is a post-translational modification and does not directly regulate genes at the genome level."
+},
+{
+"question": "What is a common characteristic of drug-resistance genes in cancer cells?",
+"options": {
+"A": "They are frequently located on enzymes.",
+"B": "They are often silenced by DNA methylation.",
+"C": "They are typically translocated to different chromosomes.",
+"D": "They are usually deleted during tumor development.",
+"E": "They are rarely transcribed in normal cells."
+},
+"answer": "A",
+"explanation": "Drug-resistance genes are often located on enzymes that are targeted by anticancer drugs. Amplification of these genes can lead to increased enzyme production and drug resistance."
+},
+{
+"question": "Which type of chromatin is associated with active gene expression?",
+"options": {
+"A": "Heterochromatin",
+"B": "Euchromatin",
+"C": "Methylated DNA",
+"D": "Condensed chromatin",
+"E": "Silenced chromatin"
+},
+"answer": "B",
+"explanation": "Euchromatin is an open and accessible form of chromatin associated with active gene expression. Heterochromatin, on the other hand, is a condensed and inactive form of chromatin."
+},
+{
+"question": "What is the role of CpG islands in gene regulation?",
+"options": {
+"A": "They enhance transcription by binding to RNA polymerase.",
+"B": "They silence genes by attracting histone deacetylases.",
+"C": "They can be methylated to repress gene expression.",
+"D": "They serve as binding sites for ribosomes during translation.",
+"E": "They are involved in the splicing of pre-mRNA."
+},
+"answer": "C",
+"explanation": "CpG islands are regions in the promoter region of genes that are rich in cytosine and guanine nucleotides. Methylation of cytosine residues in CpG islands can lead to gene silencing by making the DNA more compact and inaccessible to transcription factors."
+},
+{
+"question": "What is the difference between cis-regulatory elements and trans-regulatory elements?",
+"options": {
+"A": "Cis-regulatory elements are proteins, while trans-regulatory elements are DNA sequences.",
+"B": "Cis-regulatory elements are DNA sequences that regulate nearby genes, while trans-regulatory elements are proteins that can act on distant genes.",
+"C": "Cis-regulatory elements are involved in transcription, while trans-regulatory elements are involved in translation.",
+"D": "Cis-regulatory elements are found in prokaryotes, while trans-regulatory elements are found in eukaryotes.",
+"E": "Cis-regulatory elements are non-coding, while trans-regulatory elements are coding."
+},
+"answer": "B",
+"explanation": "Cis-regulatory elements are non-coding DNA sequences that regulate the expression of nearby genes, often by binding to transcription factors. Trans-regulatory elements, on the other hand, are proteins that can bind to cis-regulatory elements on different chromosomes and regulate gene expression."
+},
+{
+"question": "Which of the following is an example of a cis-regulatory element?",
+"options": {
+"A": "TATA-binding protein (TBP)",
+"B": "RNA polymerase II",
+"C": "Enhancer",
+"D": "Diffusible repressor",
+"E": "Histone acetyltransferase"
+},
+"answer": "C",
+"explanation": "Enhancers are cis-regulatory elements that enhance the transcription of genes. Other examples include promoters and silencers."
+},
+{
+"question": "What is the role of VDJ recombination in immune response?",
+"options": {
+"A": "It generates diversity in antibody variable regions.",
+"B": "It activates T cells to attack infected cells.",
+"C": "It silences genes that are not needed for immune function.",
+"D": "It amplifies genes involved in cytokine production.",
+"E": "It repairs DNA damage caused by pathogens."
+},
+"answer": "A",
+"explanation": "VDJ recombination is a process of gene rearrangement that occurs during the development of B cells and T cells. It involves the shuffling and joining of gene segments encoding the variable regions of immunoglobulins (antibodies) and T cell receptors, leading to a vast diversity of antigen recognition sites."
+},
+{
+"question": "Which chromosome is involved in the Philadelphia chromosome translocation associated with chronic myelogenous leukemia (CML)?",
+"options": {
+"A": "Chromosome 9",
+"B": "Chromosome 11",
+"C": "Chromosome 17",
+"D": "Chromosome 21",
+"E": "Chromosome 22"
+},
+"answer": "E",
+"explanation": "The Philadelphia chromosome is formed by a translocation between chromosome 9 and chromosome 22. This translocation fuses the ABL gene on chromosome 9 with the BCR gene on chromosome 22, creating the BCR/ABL fusion gene that drives CML."
+},
+{
+"question": "How does DNase I sensitivity provide information about gene activity?",
+"options": {
+"A": "DNase I cleaves only active genes, leaving inactive genes intact.",
+"B": "DNase I preferentially degrades DNA in open and accessible chromatin regions, indicating active genes.",
+"C": "DNase I binds specifically to promoter regions of active genes.",
+"D": "DNase I activity is inhibited by histone modifications associated with gene silencing.",
+"E": "DNase I cleaves DNA randomly, regardless of gene activity."
+},
+"answer": "B",
+"explanation": "DNase I is an enzyme that degrades DNA. It preferentially cleaves DNA in open and accessible chromatin regions, which are typically associated with active genes. This sensitivity to DNase I digestion can be used as an indicator of gene activity."
+},
+{
+"question": "What is the primary function of the core promoter in eukaryotic gene expression?",
+"options": {
+"A": "It serves as the binding site for regulatory transcription factors.",
+"B": "It enhances transcription by looping DNA to bring distant elements closer.",
+"C": "It determines the tissue-specificity of gene expression.",
+"D": "It is the site where RNA polymerase and general transcription factors bind to initiate transcription.",
+"E": "It is involved in the processing of pre-mRNA."
+},
+"answer": "D",
+"explanation": "The core promoter is the region of DNA where RNA polymerase and general transcription factors bind to initiate transcription. The TATA box is a common sequence found in core promoters."
+},
+{
+"question": "What distinguishes proximal control elements from distal control elements?",
+"options": {
+"A": "Proximal control elements are found in introns, while distal control elements are found in exons.",
+"B": "Proximal control elements bind to RNA polymerase, while distal control elements bind to transcription factors.",
+"C": "Proximal control elements are located near the promoter, while distal control elements can be located far away.",
+"D": "Proximal control elements regulate translation, while distal control elements regulate transcription.",
+"E": "Proximal control elements are found in prokaryotes, while distal control elements are found in eukaryotes."
+},
+"answer": "C",
+"explanation": "Proximal control elements are regulatory DNA sequences located near the promoter, while distal control elements, such as enhancers and silencers, can be located far away from the promoter."
+},
+{
+"question": "Which of the following is a characteristic of enhancers?",
+"options": {
+"A": "They are always located upstream of the promoter.",
+"B": "They can function regardless of their orientation or distance from the promoter.",
+"C": "They bind directly to RNA polymerase to initiate transcription.",
+"D": "They are only active in specific cell types.",
+"E": "They are transcribed into RNA molecules."
+},
+"answer": "B",
+"explanation": "Enhancers are DNA sequences that can enhance transcription from a distance, regardless of their orientation or location relative to the promoter. They can be upstream, downstream, or even within introns."
+},
+{
+"question": "How do enhancers contribute to the regulation of gene expression?",
+"options": {
+"A": "They block the binding of RNA polymerase to the promoter.",
+"B": "They degrade mRNA molecules to prevent translation.",
+"C": "They modify histones to make DNA inaccessible to transcription factors.",
+"D": "They bind to transcription factors that interact with the basal transcription complex.",
+"E": "They alter the splicing pattern of pre-mRNA."
+},
+"answer": "D",
+"explanation": "Enhancers bind to transcription factors, also known as trans-acting factors. These transcription factors then interact with the basal transcription complex at the promoter, helping to stabilize RNA polymerase binding and promote transcription."
+},
+{
+"question": "What is the significance of DNA bending and looping in the function of distal control elements?",
+"options": {
+"A": "It allows distal control elements to be transcribed into RNA.",
+"B": "It prevents the binding of transcription factors to distal control elements.",
+"C": "It enables distal control elements to interact with the promoter even when located far away.",
+"D": "It facilitates the degradation of mRNA molecules.",
+"E": "It changes the reading frame during translation."
+},
+"answer": "C",
+"explanation": "DNA bending and looping allow distal control elements, such as enhancers, to come into close proximity with the promoter region, even if they are located thousands of base pairs away. This physical interaction is essential for their regulatory function."
+},
+{
+"question": "How can enhancers and silencers contribute to tissue-specific gene expression?",
+"options": {
+"A": "They are only present in specific cell types.",
+"B": "They bind to transcription factors that are only expressed in specific cell types.",
+"C": "They are methylated in a tissue-specific manner.",
+"D": "They are degraded in cells where they are not needed.",
+"E": "They are transcribed at different rates in different cell types."
+},
+"answer": "B",
+"explanation": "Enhancers and silencers can contribute to tissue-specific gene expression by binding to transcription factors that are only expressed in certain cell types. The presence or absence of these specific transcription factors determines whether a gene is activated or repressed in a particular tissue."
+},
+{
+"question": "What is the main reason for the diversity of gene expression patterns in different eukaryotic cells?",
+"options": {
+"A": "Differences in the core promoter sequence",
+"B": "Variations in the number and types of control elements and transcription factors present.",
+"C": "Differences in the rate of DNA replication",
+"D": "Variations in the efficiency of translation",
+"E": "Differences in the structure of ribosomes"
+},
+"answer": "B",
+"explanation": "The diversity of gene expression patterns in different eukaryotic cells is primarily due to variations in the number and types of control elements and transcription factors present. While all cells have the same basic machinery for transcription, the specific combination of regulatory elements and factors determines which genes are expressed in each cell type."
+},
+{
+"question": "What is the purpose of Chromatin Immunoprecipitation-sequencing (ChIP-seq)?",
+"options": {
+"A": "To identify the genes that are being transcribed in a cell.",
+"B": "To determine the DNA sequence of a specific gene.",
+"C": "To measure the rate of protein synthesis.",
+"D": "To analyze the modifications of histones.",
+"E": "To map the binding sites of transcription factors on the genome."
+},
+"answer": "E",
+"explanation": "Chromatin Immunoprecipitation-sequencing (ChIP-seq) is a technique used to identify the regions of DNA that a specific protein, such as a transcription factor, binds to. This information helps researchers understand how transcription factors regulate gene expression."
+},
+{
+"question": "How does covalent modification affect the activity of transcription factors?",
+"options": {
+"A": "It alters the DNA sequence recognized by the transcription factor.",
+"B": "It prevents the transcription factor from binding to DNA.",
+"C": "It changes the transcription factor's ability to interact with other proteins or DNA.",
+"D": "It degrades the transcription factor.",
+"E": "It transports the transcription factor out of the nucleus."
+},
+"answer": "C",
+"explanation": "Covalent modifications, such as phosphorylation, can alter the structure and function of transcription factors. This can change their ability to bind to DNA, interact with other proteins involved in transcription, or activate or repress gene expression."
+},
+{
+"question": "What is the function of a ligand in the context of transcription factor regulation?",
+"options": {
+"A": "It acts as a repressor, preventing transcription factor binding.",
+"B": "It binds to DNA and prevents transcription.",
+"C": "It enhances transcription by stabilizing the transcription factor.",
+"D": "It modifies the transcription factor to activate it.",
+"E": "It transports the transcription factor into the nucleus."
+},
+"answer": "D",
+"explanation": "A ligand is a molecule that binds to a protein, often causing a change in the protein's conformation or activity. In the case of transcription factors, ligands can activate or inactivate them. For example, steroid hormones act as ligands for their receptors, which are transcription factors."
+},
+{
+"question": "How does the location of a transcription factor influence its activity?",
+"options": {
+"A": "Transcription factors in the cytoplasm are inactive.",
+"B": "Transcription factors must be localized to the nucleus to regulate gene expression.",
+"C": "Transcription factors are only active when bound to ribosomes.",
+"D": "Transcription factors are degraded in the cytoplasm.",
+"E": "Transcription factors are modified in the Golgi apparatus."
+},
+"answer": "B",
+"explanation": "Transcription factors must be localized to the nucleus to regulate gene expression because that's where DNA is located. The nuclear membrane acts as a barrier, and the movement of transcription factors between the cytoplasm and the nucleus provides another layer of regulation."
+},
+{
+"question": "What is the role of dimerization in the function of some transcription factors?",
+"options": {
+"A": "It allows the transcription factor to bind to multiple DNA sites simultaneously.",
+"B": "It prevents the transcription factor from being degraded.",
+"C": "It enables the transcription factor to interact with RNA polymerase.",
+"D": "It facilitates the transport of the transcription factor into the nucleus.",
+"E": "It allows the transcription factor to bind to DNA and regulate gene expression."
+},
+"answer": "E",
+"explanation": "Some transcription factors must form dimers (pairs) to bind to DNA and regulate gene expression. This dimerization can increase their affinity for DNA and enhance their regulatory activity."
+},
+{
+"question": "Why is the regulation of transcription factor activity crucial for cell survival?",
+"options": {
+"A": "It ensures that the correct proteins are produced at the right time and in the right amounts.",
+"B": "It prevents the accumulation of toxic proteins.",
+"C": "It maintains the integrity of the genome.",
+"D": "It regulates the cell cycle and prevents uncontrolled cell division.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "The regulation of transcription factor activity is essential for cell survival because it controls the expression of genes involved in various cellular processes, including metabolism, growth, development, and response to environmental stimuli."
+},
+{
+"question": "What is the common feature of different transcription factor-DNA binding motifs?",
+"options": {
+"A": "They all bind to DNA through beta sheets.",
+"B": "They all form dimers to interact with DNA.",
+"C": "They all use alpha helices to interact with the major groove of DNA.",
+"D": "They all require zinc ions for DNA binding.",
+"E": "They all recognize palindromic DNA sequences."
+},
+"answer": "C",
+"explanation": "While transcription factor-DNA binding motifs have different structural features, they all share the common theme of using alpha helices to interact with the major groove of DNA, which allows for specific recognition of DNA sequences."
+},
+{
+"question": "Which of the following transcription factor-DNA binding motifs is found in both prokaryotes and eukaryotes?",
+"options": {
+"A": "Helix-turn-helix",
+"B": "Helix-loop-helix",
+"C": "Leucine zipper",
+"D": "Zinc finger",
+"E": "Homeodomain"
+},
+"answer": "A",
+"explanation": "The helix-turn-helix motif is a simple and ancient DNA binding motif found in both prokaryotic and eukaryotic transcription factors."
+},
+{
+"question": "What is the function of the leucine zipper in transcription factor dimerization?",
+"options": {
+"A": "It forms hydrogen bonds with DNA bases.",
+"B": "It interacts with RNA polymerase.",
+"C": "It holds two transcription factor monomers together.",
+"D": "It recognizes specific DNA sequences.",
+"E": "It facilitates the transport of the dimer into the nucleus."
+},
+"answer": "C",
+"explanation": "The leucine zipper is a structural motif that helps hold two transcription factor monomers together to form a dimer. The leucine residues, spaced every seven amino acids, interact hydrophobically to create a zipper-like structure that stabilizes the dimer."
+},
+{
+"question": "Why is the leucine zipper not considered the DNA-binding domain of a transcription factor?",
+"options": {
+"A": "It lacks alpha helices.",
+"B": "It does not interact directly with DNA.",
+"C": "It is only found in prokaryotes.",
+"D": "It is too small to bind to DNA.",
+"E": "It is not a conserved motif."
+},
+"answer": "B",
+"explanation": "While the leucine zipper is essential for dimerization, it is not the DNA-binding domain itself. The DNA-binding domain is typically located on an adjacent region of the protein and uses alpha helices to interact with the major groove of DNA."
+},
+{
+"question": "What is the role of zinc ions in the zinc finger motif?",
+"options": {
+"A": "They catalyze the formation of peptide bonds.",
+"B": "They stabilize the structure of the DNA-binding domain.",
+"C": "They interact directly with DNA bases.",
+"D": "They prevent the degradation of the transcription factor.",
+"E": "They facilitate the transport of the transcription factor into the nucleus."
+},
+"answer": "B",
+"explanation": "Zinc ions play a crucial role in stabilizing the structure of the zinc finger motif. They coordinate with cysteine and histidine residues in the protein, creating a finger-like projection that inserts into the major groove of DNA."
+},
+{
+"question": "How do steroid hormone receptors regulate gene expression?",
+"options": {
+"A": "They bind to DNA directly without the need for a ligand.",
+"B": "They act as repressors, preventing the binding of other transcription factors.",
+"C": "They bind to their ligands in the cytoplasm and then translocate to the nucleus to regulate transcription.",
+"D": "They are located on the cell membrane and transmit signals to the nucleus.",
+"E": "They modify histones to make DNA more accessible to transcription factors."
+},
+"answer": "C",
+"explanation": "Steroid hormone receptors are located in the cytoplasm. Upon binding to their ligands (steroid hormones), they translocate to the nucleus, where they act as transcription factors to regulate gene expression."
+},
+{
+"question": "What type of DNA sequence is often recognized by steroid hormone receptors?",
+"options": {
+"A": "Random sequences",
+"B": "CpG islands",
+"C": "TATA boxes",
+"D": "Inverted repeats",
+"E": "Enhancer sequences"
+},
+"answer": "D",
+"explanation": "Steroid hormone receptors often recognize inverted repeat sequences in DNA. These sequences are palindromic, meaning they read the same backwards and forwards on opposite strands of DNA."
+},
+{
+"question": "What is the function of homeotic genes?",
+"options": {
+"A": "They control the production of hormones.",
+"B": "They regulate the immune response.",
+"C": "They determine the body plan and segment identity during development.",
+"D": "They are involved in DNA repair.",
+"E": "They control cell division."
+},
+"answer": "C",
+"explanation": "Homeotic genes are master regulatory genes that control the development of body segments and the arrangement of body structures during embryonic development. Mutations in homeotic genes can lead to dramatic changes in body plan, such as the development of legs in place of antennae."
+},
+{
+"question": "Which DNA-binding motif is characteristic of homeotic genes?",
+"options": {
+"A": "Helix-turn-helix",
+"B": "Helix-loop-helix",
+"C": "Leucine zipper",
+"D": "Zinc finger",
+"E": "Homeodomain"
+},
+"answer": "E",
+"explanation": "Homeotic genes contain a conserved DNA-binding domain called the homeodomain, which is a type of helix-turn-helix motif. This homeodomain allows them to bind to specific DNA sequences and regulate the expression of genes involved in development."
+},
+{
+"question": "What is the primary function of alternative splicing in eukaryotic gene expression?",
+"options": {
+"A": "It removes introns from pre-mRNA.",
+"B": "It adds a poly(A) tail to the 3' end of mRNA.",
+"C": "It allows the production of multiple protein isoforms from a single gene.",
+"D": "It degrades mRNA molecules that are no longer needed.",
+"E": "It regulates the transport of mRNA from the nucleus to the cytoplasm."
+},
+"answer": "C",
+"explanation": "Alternative splicing is a regulatory mechanism that allows a single gene to code for multiple protein isoforms by selectively including or excluding different exons during mRNA processing."
+},
+{
+"question": "How does alternative splicing contribute to the diversity of proteins in eukaryotes?",
+"options": {
+"A": "It increases the number of genes in the genome.",
+"B": "It alters the DNA sequence of genes.",
+"C": "It allows different combinations of exons to be included in mature mRNA.",
+"D": "It changes the genetic code.",
+"E": "It introduces mutations into proteins."
+},
+"answer": "C",
+"explanation": "Alternative splicing generates protein diversity by allowing different combinations of exons to be included in mature mRNA. This means that a single gene can give rise to multiple mRNA transcripts, each encoding a slightly different protein isoform with potentially different functions."
+},
+{
+"question": "What is the role of alternative splicing in the production of membrane-bound and secreted IgM?",
+"options": {
+"A": "It changes the promoter used for transcription.",
+"B": "It alters the stability of the mRNA.",
+"C": "It includes or excludes exons encoding the transmembrane domain.",
+"D": "It changes the site of translation.",
+"E": "It modifies the protein after translation."
+},
+"answer": "C",
+"explanation": "Alternative splicing determines whether IgM is produced as a membrane-bound or secreted form. The inclusion of exons encoding the transmembrane domain results in membrane-bound IgM, while the exclusion of these exons leads to the production of secreted IgM."
+},
+{
+"question": "What is the primary function of microRNAs (miRNAs)?",
+"options": {
+"A": "To enhance transcription by binding to promoters.",
+"B": "To degrade proteins that are no longer needed.",
+"C": "To silence gene expression by targeting mRNA molecules.",
+"D": "To transport mRNA from the nucleus to the cytoplasm.",
+"E": "To modify histones and alter chromatin structure."
+},
+"answer": "C",
+"explanation": "MicroRNAs (miRNAs) are small non-coding RNA molecules that play a crucial role in gene silencing. They target specific mRNA molecules, leading to their degradation or translational repression."
+},
+{
+"question": "What is the typical length of a mature microRNA (miRNA)?",
+"options": {
+"A": "2-5 nucleotides",
+"B": "10-15 nucleotides",
+"C": "20-25 nucleotides",
+"D": "50-100 nucleotides",
+"E": "Over 200 nucleotides"
+},
+"answer": "C",
+"explanation": "Mature microRNAs (miRNAs) are typically around 20-25 nucleotides in length. This small size allows them to bind to complementary sequences in target mRNA molecules with high specificity."
+},
+{
+"question": "Which enzyme is responsible for processing microRNA (miRNA) precursors into mature miRNAs?",
+"options": {
+"A": "RNA polymerase II",
+"B": "Drosha",
+"C": "Dicer",
+"D": "Exportin",
+"E": "RISC"
+},
+"answer": "C",
+"explanation": "Dicer is an enzyme that processes microRNA (miRNA) precursors into mature miRNAs. It cleaves the precursor molecule, removing the loop structure and generating a double-stranded RNA duplex."
+},
+{
+"question": "What is the role of the RNA-induced silencing complex (RISC) in miRNA-mediated gene silencing?",
+"options": {
+"A": "It transcribes miRNA genes.",
+"B": "It transports miRNAs from the nucleus to the cytoplasm.",
+"C": "It processes miRNA precursors into mature miRNAs.",
+"D": "It guides the miRNA to its target mRNA.",
+"E": "It degrades the miRNA after it has bound to its target."
+},
+"answer": "D",
+"explanation": "The RNA-induced silencing complex (RISC) is a multi-protein complex that plays a central role in miRNA-mediated gene silencing. It binds to the mature miRNA and uses it as a guide to find and target complementary mRNA molecules."
+},
+{
+"question": "What is the difference between RNA interference (RNAi) and miRNA-mediated gene silencing?",
+"options": {
+"A": "RNAi uses double-stranded RNA, while miRNA uses single-stranded RNA.",
+"B": "RNAi targets only viral RNA, while miRNA targets cellular RNA.",
+"C": "RNAi is a natural process, while miRNA is an artificial technique.",
+"D": "RNAi always leads to mRNA degradation, while miRNA can also repress translation.",
+"E": "RNAi occurs in the cytoplasm, while miRNA occurs in the nucleus."
+},
+"answer": "D",
+"explanation": "While both RNA interference (RNAi) and miRNA-mediated gene silencing involve small RNA molecules, RNAi typically leads to the degradation of the target mRNA, while miRNA can either degrade the mRNA or repress its translation."
+},
+{
+"question": "What determines whether a miRNA will lead to mRNA degradation or translational repression?",
+"options": {
+"A": "The length of the miRNA",
+"B": "The type of cell in which the miRNA is expressed",
+"C": "The presence of a specific protein cofactor",
+"D": "The degree of complementarity between the miRNA and the target mRNA",
+"E": "The location of the target site on the mRNA"
+},
+"answer": "D",
+"explanation": "The degree of complementarity between the miRNA and the target mRNA determines the outcome of miRNA-mediated gene silencing. Perfect complementarity usually leads to mRNA degradation, while imperfect complementarity often results in translational repression."
+},
+{
+"question": "What is the function of ubiquitin in protein degradation?",
+"options": {
+"A": "It acts as a protease, directly degrading proteins.",
+"B": "It tags proteins for degradation by the proteasome.",
+"C": "It transports proteins to the lysosome for degradation.",
+"D": "It inhibits protein synthesis.",
+"E": "It repairs damaged proteins."
+},
+"answer": "B",
+"explanation": "Ubiquitin is a small protein that acts as a molecular tag, marking proteins for degradation by the proteasome. It is attached to target proteins through a process called ubiquitination."
+},
+{
+"question": "What is the proteasome?",
+"options": {
+"A": "An organelle responsible for protein synthesis",
+"B": "An enzyme that degrades ubiquitin",
+"C": "A cellular compartment where proteins are stored",
+"D": "A large protein complex that degrades ubiquitinated proteins",
+"E": "A protein that transports ubiquitinated proteins to the lysosome"
+},
+"answer": "D",
+"explanation": "The proteasome is a large, barrel-shaped protein complex that degrades ubiquitinated proteins. It acts as a cellular garbage disposal, breaking down proteins that are no longer needed or are damaged."
+},
+{
+"question": "How does polyubiquitination enhance protein degradation?",
+"options": {
+"A": "It increases the affinity of the protein for the proteasome.",
+"B": "It activates the proteasome.",
+"C": "It prevents protein synthesis.",
+"D": "It unfolds the protein, making it easier to degrade.",
+"E": "It transports the protein to the lysosome."
+},
+"answer": "A",
+"explanation": "Polyubiquitination, the attachment of multiple ubiquitin molecules to a protein, increases the affinity of the protein for the proteasome, ensuring its efficient recognition and degradation."
+}
+]
