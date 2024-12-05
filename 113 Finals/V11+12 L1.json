@@ -1,0 +1,602 @@
+[
+{
+"question": "What is the primary function of messenger RNA (mRNA)?",
+"options": {
+"A": "Catalyze chemical reactions",
+"B": "Transport amino acids",
+"C": "Serve as a template for protein synthesis",
+"D": "Store genetic information",
+"E": "Form the structural component of ribosomes"
+},
+"answer": "C",
+"explanation": "mRNA acts as a template that carries genetic information from DNA to the ribosomes, where proteins are synthesized."
+},
+{
+"question": "Which of the following statements accurately describes the difference between prokaryotic and eukaryotic mRNA?",
+"options": {
+"A": "Prokaryotic mRNA is monocistronic, while eukaryotic mRNA is polycistronic.",
+"B": "Prokaryotic mRNA is polycistronic, while eukaryotic mRNA is monocistronic.",
+"C": "Prokaryotic mRNA undergoes extensive post-transcriptional modifications, while eukaryotic mRNA does not.",
+"D": "Prokaryotic mRNA is translated in the nucleus, while eukaryotic mRNA is translated in the cytoplasm.",
+"E": "Prokaryotic mRNA contains introns, while eukaryotic mRNA does not."
+},
+"answer": "B",
+"explanation": "Prokaryotic mRNA can encode multiple proteins (polycistronic), while eukaryotic mRNA typically encodes a single protein (monocistronic)."
+},
+{
+"question": "What is the approximate percentage of mRNA in the total RNA content of a cell?",
+"options": {
+"A": "80%",
+"B": "50%",
+"C": "25%",
+"D": "15%",
+"E": "2-5%"
+},
+"answer": "E",
+"explanation": "mRNA constitutes a relatively small proportion of the total RNA, accounting for about 2-5%."
+},
+{
+"question": "Which type of RNA is the most abundant and forms a significant part of ribosomes?",
+"options": {
+"A": "mRNA",
+"B": "tRNA",
+"C": "rRNA",
+"D": "snRNA",
+"E": "lncRNA"
+},
+"answer": "C",
+"explanation": "Ribosomal RNA (rRNA) is the most prevalent type of RNA, making up approximately 80% of total RNA. It plays a crucial role in protein synthesis as a component of ribosomes."
+},
+{
+"question": "What is the function of transfer RNA (tRNA)?",
+"options": {
+"A": "Carry genetic information from DNA to ribosomes",
+"B": "Catalyze the formation of peptide bonds between amino acids",
+"C": "Transport amino acids to the ribosomes for protein synthesis",
+"D": "Degrade mRNA molecules",
+"E": "Form complexes with proteins to regulate gene expression"
+},
+"answer": "C",
+"explanation": "tRNA molecules act as carriers, delivering amino acids to the ribosomes during protein synthesis. Each tRNA molecule is specific for a particular amino acid."
+},
+{
+"question": "Which of the following is a characteristic of prokaryotic transcription and translation?",
+"options": {
+"A": "Transcription and translation occur sequentially in separate cellular compartments.",
+"B": "Transcription and translation are coupled processes that occur simultaneously.",
+"C": "mRNA undergoes extensive processing before translation.",
+"D": "Multiple ribosomes can translate a single mRNA molecule simultaneously.",
+"E": "Translation is initiated by the binding of a ribosome to the 5' cap of mRNA."
+},
+"answer": "B",
+"explanation": "In prokaryotes, transcription and translation happen concurrently in the cytoplasm, allowing for rapid protein synthesis."
+},
+{
+"question": "Which statement correctly describes the role of the sigma (σ) subunit in bacterial RNA polymerase?",
+"options": {
+"A": "It catalyzes the formation of phosphodiester bonds between nucleotides.",
+"B": "It unwinds the DNA double helix ahead of the transcription bubble.",
+"C": "It recognizes and binds to the promoter region of DNA.",
+"D": "It helps terminate transcription by forming a hairpin loop structure.",
+"E": "It removes introns from the pre-mRNA transcript."
+},
+"answer": "C",
+"explanation": "The sigma subunit is responsible for guiding RNA polymerase to the promoter sequence on the DNA, enabling the initiation of transcription."
+},
+{
+"question": "What happens to the sigma subunit after the initiation of transcription in bacteria?",
+"options": {
+"A": "It remains bound to the RNA polymerase throughout the elongation process.",
+"B": "It is degraded by cellular proteases.",
+"C": "It dissociates from the RNA polymerase.",
+"D": "It moves ahead of the RNA polymerase, unwinding the DNA double helix.",
+"E": "It binds to the terminator sequence, signaling the end of transcription."
+},
+"answer": "C",
+"explanation": "Once transcription begins, the sigma subunit detaches from the RNA polymerase, allowing the elongation phase to proceed."
+},
+{
+"question": "Which of the following best describes the 'transcription bubble'?",
+"options": {
+"A": "A region of DNA where the double helix is unwound to allow RNA polymerase to access the template strand.",
+"B": "A complex of proteins that regulate the initiation of transcription.",
+"C": "A sequence of nucleotides at the end of a gene that signals the termination of transcription.",
+"D": "A modified nucleotide added to the 5' end of eukaryotic mRNA.",
+"E": "A structure formed by the interaction between tRNA and mRNA during translation."
+},
+"answer": "A",
+"explanation": "The transcription bubble is a temporarily unwound segment of DNA where RNA polymerase synthesizes RNA using one of the DNA strands as a template."
+},
+{
+"question": "What is the role of the -10 and -35 regions in prokaryotic promoters?",
+"options": {
+"A": "They code for specific amino acid sequences in the resulting protein.",
+"B": "They serve as binding sites for ribosomes during translation.",
+"C": "They are recognized by the sigma subunit of RNA polymerase.",
+"D": "They signal the termination of transcription.",
+"E": "They are involved in mRNA splicing."
+},
+"answer": "C",
+"explanation": "The -10 and -35 regions are consensus sequences within the promoter region of prokaryotic genes. They are crucial for the recognition and binding of RNA polymerase, facilitated by the sigma subunit."
+},
+{
+"question": "Which of the following events marks the transition from the initiation to the elongation phase of prokaryotic transcription?",
+"options": {
+"A": "The binding of RNA polymerase to the promoter region.",
+"B": "The formation of the transcription bubble.",
+"C": "The release of the sigma subunit from RNA polymerase.",
+"D": "The addition of the first few nucleotides to the RNA transcript.",
+"E": "The formation of a hairpin loop structure in the RNA transcript."
+},
+"answer": "C",
+"explanation": "The departure of the sigma subunit from the RNA polymerase complex signifies the shift from the initiation phase to the elongation phase of transcription."
+},
+{
+"question": "Which of the following distinguishes intrinsic terminators from Rho-dependent terminators in bacteria?",
+"options": {
+"A": "Intrinsic terminators require the binding of a protein factor to halt transcription.",
+"B": "Rho-dependent terminators rely on the formation of a hairpin loop structure in the RNA transcript.",
+"C": "Intrinsic terminators involve a sequence of uracil nucleotides in the RNA transcript.",
+"D": "Rho-dependent terminators are characterized by a string of cytosine nucleotides in the DNA template strand.",
+"E": "Intrinsic terminators utilize a helicase enzyme to separate the RNA transcript from the DNA template."
+},
+"answer": "C",
+"explanation": "Intrinsic terminators induce transcription termination through the formation of a hairpin loop in the RNA transcript followed by a series of uracil residues that weaken the interaction with the DNA template."
+},
+{
+"question": "What is the function of the Rho protein in Rho-dependent termination?",
+"options": {
+"A": "It synthesizes a short RNA molecule that binds to the RNA transcript.",
+"B": "It acts as a helicase, unwinding the RNA-DNA hybrid to release the RNA transcript.",
+"C": "It modifies the RNA polymerase, reducing its processivity.",
+"D": "It cleaves the RNA transcript at a specific site.",
+"E": "It binds to the promoter region, preventing further initiation of transcription."
+},
+"answer": "B",
+"explanation": "Rho protein exhibits helicase activity, disrupting the RNA-DNA hybrid formed during transcription. This separation of the RNA transcript from the DNA template leads to the termination of transcription."
+},
+{
+"question": "Which eukaryotic RNA polymerase is responsible for transcribing most protein-coding genes?",
+"options": {
+"A": "RNA polymerase I",
+"B": "RNA polymerase II",
+"C": "RNA polymerase III",
+"D": "RNA polymerase IV",
+"E": "RNA polymerase V"
+},
+"answer": "B",
+"explanation": "RNA polymerase II is primarily involved in the transcription of genes that encode proteins, producing pre-mRNA molecules that are further processed into mature mRNA."
+},
+{
+"question": "What is the function of α-amanitin?",
+"options": {
+"A": "It enhances the activity of RNA polymerase II.",
+"B": "It inhibits the activity of RNA polymerase II.",
+"C": "It promotes the degradation of mRNA molecules.",
+"D": "It facilitates the splicing of pre-mRNA.",
+"E": "It acts as a transcription factor, binding to specific DNA sequences."
+},
+"answer": "B",
+"explanation": "α-amanitin is a toxin that specifically targets and inhibits RNA polymerase II, interfering with the production of mRNA and ultimately protein synthesis."
+},
+{
+"question": "Which of the following is an example of a cis-acting element in eukaryotic gene regulation?",
+"options": {
+"A": "A transcription factor",
+"B": "A silencer sequence",
+"C": "A hormone receptor",
+"D": "A histone protein",
+"E": "A ribosomal protein"
+},
+"answer": "B",
+"explanation": "A silencer sequence is a DNA segment that, when bound by repressor proteins, reduces or prevents the transcription of a nearby gene. It is a cis-acting element as it affects the expression of genes on the same DNA molecule."
+},
+{
+"question": "What is the role of trans-acting factors in eukaryotic gene regulation?",
+"options": {
+"A": "They are DNA sequences that enhance or repress gene expression.",
+"B": "They are proteins that bind to cis-acting elements to regulate transcription.",
+"C": "They are enzymes that modify histones, altering chromatin structure.",
+"D": "They are small RNA molecules that interfere with mRNA translation.",
+"E": "They are signaling molecules that activate transcription factors."
+},
+"answer": "B",
+"explanation": "Trans-acting factors are proteins that bind to specific DNA sequences (cis-acting elements) to modulate the transcription of genes. They can activate or repress gene expression."
+},
+{
+"question": "Which of the following is a difference in the location of the Pribnow box in prokaryotes and the TATA box in eukaryotes?",
+"options": {
+"A": "The Pribnow box is located at position -10, while the TATA box is at position -25.",
+"B": "The Pribnow box is located at position -25, while the TATA box is at position -10.",
+"C": "The Pribnow box is located upstream of the transcription start site, while the TATA box is downstream.",
+"D": "The Pribnow box is located within the coding region of the gene, while the TATA box is in the promoter region.",
+"E": "The Pribnow box is found only in bacteria, while the TATA box is present in all organisms."
+},
+"answer": "A",
+"explanation": "The Pribnow box is typically found around position -10 in prokaryotic promoters, while the TATA box is located around position -25 in eukaryotic promoters. Both are important for the initiation of transcription."
+},
+{
+"question": "Which of the following modifications is NOT typically found in mature eukaryotic mRNA?",
+"options": {
+"A": "Addition of a 5' cap",
+"B": "Addition of a 3' poly(A) tail",
+"C": "Removal of introns",
+"D": "Methylation of cytosine bases",
+"E": "Phosphorylation of adenosine bases"
+},
+"answer": "E",
+"explanation": "While 5' capping, 3' polyadenylation, intron removal, and cytosine methylation are common mRNA modifications in eukaryotes, phosphorylation of adenosine bases is not a typical modification found in mature mRNA."
+},
+{
+"question": "Which of the following statements regarding RNA polymerase in prokaryotes is true?",
+"options": {
+"A": "Prokaryotes have multiple types of RNA polymerase, each specific for different types of RNA.",
+"B": "The sigma subunit of RNA polymerase is required for elongation of the RNA transcript.",
+"C": "RNA polymerase in prokaryotes can initiate transcription without the need for a promoter.",
+"D": "Prokaryotic RNA polymerase is responsible for the synthesis of mRNA, tRNA, and rRNA.",
+"E": "Prokaryotic RNA polymerase is located within the nucleus of the cell."
+},
+"answer": "D",
+"explanation": "Prokaryotes have a single type of RNA polymerase that transcribes all types of RNA, including mRNA, tRNA, and rRNA."
+},
+{
+"question": "Which of the following features is NOT characteristic of the genetic code?",
+"options": {
+"A": "It is universal, meaning the same codons code for the same amino acids in all organisms.",
+"B": "It is degenerate, meaning multiple codons can code for the same amino acid.",
+"C": "It is unambiguous, meaning each codon codes for only one specific amino acid.",
+"D": "It is non-overlapping, meaning each nucleotide is part of only one codon.",
+"E": "It is read in a 3' to 5' direction along the mRNA molecule."
+},
+"answer": "E",
+"explanation": "The genetic code is read in a 5' to 3' direction along the mRNA molecule, not 3' to 5'. This ensures the correct sequence of amino acids is incorporated into the growing polypeptide chain during translation."
+},
+{
+"question": "What is the significance of the fact that the genetic code is degenerate?",
+"options": {
+"A": "It allows for a greater diversity of proteins to be synthesized from a limited number of genes.",
+"B": "It reduces the impact of mutations, as a change in a single nucleotide may not alter the amino acid sequence.",
+"C": "It makes the genetic code more efficient, as fewer tRNA molecules are needed to recognize all codons.",
+"D": "It enables the regulation of gene expression at the level of translation.",
+"E": "It allows for the synthesis of proteins with different amino acid sequences from the same gene."
+},
+"answer": "B",
+"explanation": "The degeneracy of the genetic code provides a buffer against mutations. If a single nucleotide is changed, it might still code for the same amino acid, thus minimizing the potential detrimental effects of the mutation."
+},
+{
+"question": "What is the role of the Shine-Dalgarno sequence in prokaryotic translation?",
+"options": {
+"A": "It serves as the initiation codon, signaling the start of protein synthesis.",
+"B": "It is a sequence in mRNA that is recognized by the ribosome, facilitating the binding of the mRNA to the ribosome.",
+"C": "It is a sequence in tRNA that binds to a specific amino acid.",
+"D": "It is a sequence in DNA that signals the termination of transcription.",
+"E": "It is a sequence in rRNA that catalyzes the formation of peptide bonds between amino acids."
+},
+"answer": "B",
+"explanation": "The Shine-Dalgarno sequence is a short ribosome binding site located upstream of the start codon in prokaryotic mRNA. It plays a crucial role in the initiation of translation by facilitating the binding of the mRNA to the ribosome."
+},
+{
+"question": "Which of the following is NOT a step in the initiation of translation in eukaryotes?",
+"options": {
+"A": "The small ribosomal subunit binds to the 5' cap of the mRNA.",
+"B": "The initiator tRNA, carrying methionine, binds to the start codon.",
+"C": "The large ribosomal subunit joins the complex.",
+"D": "The ribosome scans the mRNA for the Shine-Dalgarno sequence.",
+"E": "Translation initiation factors facilitate the assembly of the initiation complex."
+},
+"answer": "D",
+"explanation": "The Shine-Dalgarno sequence is specific to prokaryotic translation initiation. In eukaryotes, the small ribosomal subunit typically binds to the 5' cap of the mRNA and scans for the start codon (AUG). "
+},
+{
+"question": "What is the function of aminoacyl-tRNA synthetase enzymes?",
+"options": {
+"A": "They catalyze the formation of peptide bonds between amino acids during translation.",
+"B": "They transport amino acids to the ribosomes for protein synthesis.",
+"C": "They attach the correct amino acid to its corresponding tRNA molecule.",
+"D": "They degrade tRNA molecules that are no longer needed.",
+"E": "They modify mRNA molecules, adding a poly(A) tail."
+},
+"answer": "C",
+"explanation": "Aminoacyl-tRNA synthetases are a group of enzymes that ensure the fidelity of translation by accurately pairing each amino acid with its specific tRNA molecule."
+},
+{
+"question": "During the elongation phase of translation, what happens when a tRNA molecule carrying the correct amino acid enters the A site of the ribosome?",
+"options": {
+"A": "The amino acid on the tRNA in the A site forms a peptide bond with the growing polypeptide chain in the P site.",
+"B": "The tRNA in the A site moves to the P site, displacing the tRNA that was previously there.",
+"C": "The tRNA in the A site is ejected from the ribosome.",
+"D": "The mRNA molecule translocates one codon to the left.",
+"E": "The ribosome dissociates from the mRNA molecule."
+},
+"answer": "A",
+"explanation": "When a tRNA with the correct anticodon enters the A site, its amino acid forms a peptide bond with the amino acid chain attached to the tRNA in the P site. This process extends the polypeptide chain."
+},
+{
+"question": "Which of the following is a stop codon in the genetic code?",
+"options": {
+"A": "AUG",
+"B": "UAA",
+"C": "GGG",
+"D": "CCC",
+"E": "AAA"
+},
+"answer": "B",
+"explanation": "UAA, along with UAG and UGA, are stop codons that signal the termination of translation. When a ribosome encounters a stop codon, a release factor binds to the A site, leading to the release of the completed polypeptide chain."
+},
+{
+"question": "What happens during the termination phase of translation?",
+"options": {
+"A": "The ribosome encounters a stop codon, and a release factor binds to the A site.",
+"B": "The polypeptide chain is transferred to a new tRNA molecule.",
+"C": "The mRNA molecule is degraded.",
+"D": "The ribosome translocates to the next codon.",
+"E": "A new amino acid is added to the growing polypeptide chain."
+},
+"answer": "A",
+"explanation": "When a stop codon is reached, release factors recognize it and bind to the ribosome. This triggers the hydrolysis of the bond between the polypeptide chain and the tRNA in the P site, releasing the completed protein."
+},
+{
+"question": "Which of the following statements about ribosomes is FALSE?",
+"options": {
+"A": "Ribosomes are composed of rRNA and proteins.",
+"B": "Ribosomes have two subunits, a large subunit and a small subunit.",
+"C": "Ribosomes are the sites of protein synthesis.",
+"D": "Ribosomes are found free in the cytoplasm and bound to the endoplasmic reticulum.",
+"E": "Ribosomes are responsible for transcribing DNA into RNA."
+},
+"answer": "E",
+"explanation": "Ribosomes are not involved in the transcription of DNA into RNA. Transcription is carried out by RNA polymerase. Ribosomes are specifically involved in the translation of mRNA into protein."
+},
+{
+"question": "Which of the following is a characteristic of eukaryotic mRNA that distinguishes it from prokaryotic mRNA?",
+"options": {
+"A": "It is polycistronic.",
+"B": "It is translated immediately after transcription.",
+"C": "It contains a Shine-Dalgarno sequence for ribosome binding.",
+"D": "It undergoes processing, including the addition of a 5' cap and a 3' poly(A) tail.",
+"E": "It is synthesized in the cytoplasm."
+},
+"answer": "D",
+"explanation": "Eukaryotic mRNA undergoes significant post-transcriptional modifications, including the addition of a 5' cap and a 3' poly(A) tail, which are not present in prokaryotic mRNA. These modifications enhance stability, export, and translation of the mRNA."
+},
+{
+"question": "What is the purpose of the 5' cap on eukaryotic mRNA?",
+"options": {
+"A": "It protects the mRNA from degradation by exonucleases.",
+"B": "It facilitates the binding of the ribosome to the mRNA.",
+"C": "It signals the termination of translation.",
+"D": "It is involved in the splicing of introns.",
+"E": "It helps transport the mRNA out of the nucleus."
+},
+"answer": "A",
+"explanation": "The 5' cap, a modified guanine nucleotide added to the beginning of the mRNA, plays a protective role by preventing the mRNA from being degraded by enzymes that break down RNA from the 5' end."
+},
+{
+"question": "What is the function of the 3' poly(A) tail on eukaryotic mRNA?",
+"options": {
+"A": "It facilitates the binding of the ribosome to the mRNA.",
+"B": "It protects the mRNA from degradation by exonucleases.",
+"C": "It signals the termination of translation.",
+"D": "It is involved in the splicing of introns.",
+"E": "It helps transport the mRNA out of the nucleus."
+},
+"answer": "B",
+"explanation": "The 3' poly(A) tail, a string of adenine nucleotides added to the end of the mRNA, helps protect the mRNA from degradation by enzymes that break down RNA from the 3' end. It also contributes to mRNA stability and export from the nucleus."
+},
+{
+"question": "What is the process of RNA splicing?",
+"options": {
+"A": "The addition of a 5' cap to the mRNA molecule.",
+"B": "The removal of introns from the pre-mRNA molecule.",
+"C": "The addition of a 3' poly(A) tail to the mRNA molecule.",
+"D": "The binding of the ribosome to the mRNA molecule.",
+"E": "The transport of mRNA from the nucleus to the cytoplasm."
+},
+"answer": "B",
+"explanation": "RNA splicing is a crucial step in eukaryotic gene expression where introns, non-coding regions within the pre-mRNA, are removed, and the remaining exons, protein-coding regions, are joined together to form the mature mRNA."
+},
+{
+"question": "Which of the following is a function of small nuclear RNAs (snRNAs)?",
+"options": {
+"A": "They transport amino acids to the ribosomes for protein synthesis.",
+"B": "They catalyze the formation of peptide bonds between amino acids during translation.",
+"C": "They are involved in the processing of pre-mRNA molecules, particularly in splicing.",
+"D": "They form part of the structure of ribosomes.",
+"E": "They regulate gene expression by binding to mRNA molecules."
+},
+"answer": "C",
+"explanation": "snRNAs play a critical role in splicing by forming complexes with proteins to create spliceosomes. Spliceosomes recognize and remove introns from pre-mRNA, facilitating the formation of mature mRNA."
+},
+{
+"question": "What is the role of microRNAs (miRNAs) in gene regulation?",
+"options": {
+"A": "They enhance the translation of target mRNA molecules.",
+"B": "They promote the degradation of target mRNA molecules.",
+"C": "They bind to DNA and prevent the transcription of target genes.",
+"D": "They modify histones, altering chromatin structure and gene expression.",
+"E": "They act as transcription factors, activating the expression of target genes."
+},
+"answer": "B",
+"explanation": "miRNAs are small RNA molecules that regulate gene expression post-transcriptionally. They bind to complementary sequences on target mRNA molecules, leading to mRNA degradation or translational repression, effectively silencing the expression of those genes."
+},
+{
+"question": "Which of the following statements about the regulation of gene expression is FALSE?",
+"options": {
+"A": "Gene expression can be regulated at the transcriptional level, controlling the production of RNA.",
+"B": "Gene expression can be regulated at the post-transcriptional level, affecting mRNA processing, stability, and translation.",
+"C": "Gene expression can be regulated at the translational level, influencing the rate of protein synthesis.",
+"D": "Gene expression can be regulated at the post-translational level, modifying protein activity, localization, and stability.",
+"E": "Gene expression is always constitutive, meaning genes are constantly transcribed and translated at the same rate."
+},
+"answer": "E",
+"explanation": "Gene expression is not always constitutive. It is tightly regulated and can vary significantly depending on cell type, developmental stage, environmental cues, and other factors."
+},
+{
+"question": "Which of the following is an example of post-translational modification of a protein?",
+"options": {
+"A": "Splicing of introns from pre-mRNA",
+"B": "Addition of a 5' cap to mRNA",
+"C": "Phosphorylation of a protein",
+"D": "Binding of a transcription factor to DNA",
+"E": "Degradation of mRNA by a microRNA"
+},
+"answer": "C",
+"explanation": "Phosphorylation, the addition of a phosphate group to a protein, is a common post-translational modification that can alter protein activity, localization, and interactions."
+},
+{
+"question": "Which of the following is a mechanism by which eukaryotic cells can regulate the accessibility of DNA for transcription?",
+"options": {
+"A": "DNA methylation",
+"B": "Histone modification",
+"C": "Chromatin remodeling",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "Eukaryotic cells employ several mechanisms to control DNA accessibility. DNA methylation, histone modification (e.g., acetylation, methylation), and chromatin remodeling complexes can alter the structure of chromatin, influencing the binding of transcription factors and the initiation of transcription."
+},
+{
+"question": "Which of the following statements about DNA methylation is true?",
+"options": {
+"A": "DNA methylation typically activates gene expression.",
+"B": "DNA methylation involves the addition of a methyl group to a cytosine base in DNA.",
+"C": "DNA methylation is a reversible modification.",
+"D": "DNA methylation patterns are not heritable.",
+"E": "DNA methylation is a common feature of prokaryotic genomes."
+},
+"answer": "B",
+"explanation": "DNA methylation, the addition of a methyl group to cytosine bases, often occurs in CpG dinucleotides. It is a key epigenetic modification that can influence gene expression and is typically associated with gene silencing."
+},
+{
+"question": "Which of the following is NOT a function of histone proteins?",
+"options": {
+"A": "They package and organize DNA into chromatin.",
+"B": "They regulate the accessibility of DNA for transcription.",
+"C": "They are subject to various modifications that can alter chromatin structure.",
+"D": "They catalyze the formation of peptide bonds between amino acids during translation.",
+"E": "They interact with other proteins to control gene expression."
+},
+"answer": "D",
+"explanation": "Histone proteins do not play a role in translation. Their primary functions are related to the organization and regulation of DNA within the nucleus. They are not involved in the process of protein synthesis."
+},
+{
+"question": "What is the role of enhancers in eukaryotic gene regulation?",
+"options": {
+"A": "They are DNA sequences that bind to repressor proteins, inhibiting transcription.",
+"B": "They are proteins that bind to DNA and activate transcription.",
+"C": "They are DNA sequences that can enhance the transcription of genes located far away on the same chromosome.",
+"D": "They are RNA molecules that degrade mRNA, silencing gene expression.",
+"E": "They are modifications to histone proteins that alter chromatin structure."
+},
+"answer": "C",
+"explanation": "Enhancers are DNA sequences that can stimulate the transcription of genes even if they are located at a considerable distance from the gene they regulate. They can loop and interact with the promoter region of the target gene, influencing the assembly of the transcription machinery."
+},
+{
+"question": "Which of the following is an example of a post-transcriptional mechanism of gene regulation?",
+"options": {
+"A": "Binding of a transcription factor to a promoter",
+"B": "Alternative splicing of pre-mRNA",
+"C": "Methylation of DNA",
+"D": "Acetylation of histone proteins",
+"E": "Chromatin remodeling"
+},
+"answer": "B",
+"explanation": "Alternative splicing, where different combinations of exons are included in the mature mRNA, is a post-transcriptional regulatory mechanism that allows for the production of multiple protein isoforms from a single gene."
+},
+{
+"question": "Which of the following statements about RNA interference (RNAi) is true?",
+"options": {
+"A": "RNAi is a mechanism of gene regulation that involves the degradation of target mRNA molecules by small interfering RNAs (siRNAs).",
+"B": "RNAi is a natural process found in many organisms, including plants, animals, and fungi.",
+"C": "RNAi can be used as a tool to silence the expression of specific genes.",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "RNA interference (RNAi) is a powerful gene silencing mechanism that utilizes siRNAs, derived from double-stranded RNA, to target and degrade complementary mRNA molecules. It is a naturally occurring process with applications in research and therapeutics."
+},
+{
+"question": "Which of the following statements about the central dogma of molecular biology is FALSE?",
+"options": {
+"A": "Genetic information flows from DNA to RNA to protein.",
+"B": "DNA replication ensures the faithful transmission of genetic information from one generation to the next.",
+"C": "Transcription is the process of synthesizing RNA from a DNA template.",
+"D": "Translation is the process of synthesizing protein from an RNA template.",
+"E": "Proteins can be reverse transcribed back into RNA."
+},
+"answer": "E",
+"explanation": "While the central dogma describes the flow of genetic information from DNA to RNA to protein, proteins cannot be reverse transcribed back into RNA. The flow of information is generally unidirectional."
+},
+{
+"question": "What is the main difference between the structure of DNA and RNA?",
+"options": {
+"A": "DNA is double-stranded, while RNA is single-stranded.",
+"B": "DNA contains the sugar deoxyribose, while RNA contains the sugar ribose.",
+"C": "DNA contains the base thymine, while RNA contains the base uracil.",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "DNA and RNA differ in their structure. DNA is a double-stranded helix with deoxyribose sugar and the bases adenine, guanine, cytosine, and thymine. RNA is typically single-stranded, contains ribose sugar, and has uracil instead of thymine."
+},
+{
+"question": "What is the significance of the 5' to 3' directionality of nucleic acids?",
+"options": {
+"A": "It determines the direction of DNA replication.",
+"B": "It determines the direction of transcription.",
+"C": "It determines the direction of translation.",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "The inherent 5' to 3' directionality of nucleic acids is crucial for all processes involving DNA and RNA. DNA polymerase synthesizes DNA, RNA polymerase transcribes RNA, and ribosomes translate mRNA, all in the 5' to 3' direction."
+},
+{
+"question": "Which of the following is a type of mutation that can occur in DNA?",
+"options": {
+"A": "Point mutations, where a single nucleotide is changed.",
+"B": "Insertions, where one or more nucleotides are added.",
+"C": "Deletions, where one or more nucleotides are removed.",
+"D": "Inversions, where a segment of DNA is flipped.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "DNA mutations can take various forms, including point mutations (substitutions), insertions, deletions, inversions, and translocations. These mutations can alter the genetic information encoded in DNA, potentially affecting protein structure and function."
+},
+{
+"question": "What is the difference between a genotype and a phenotype?",
+"options": {
+"A": "Genotype refers to the genetic makeup of an organism, while phenotype refers to the observable characteristics of an organism.",
+"B": "Genotype is determined by the environment, while phenotype is determined by genes.",
+"C": "Genotype is expressed only in homozygous individuals, while phenotype is expressed in both homozygous and heterozygous individuals.",
+"D": "Genotype is the result of translation, while phenotype is the result of transcription.",
+"E": "Genotype and phenotype are synonymous terms."
+},
+"answer": "A",
+"explanation": "Genotype represents the genetic composition of an individual, while phenotype describes the outward expression of those genes. The phenotype is influenced by both the genotype and environmental factors."
+},
+{
+"question": "Which of the following statements about gene regulation is true?",
+"options": {
+"A": "Gene regulation ensures that genes are expressed only when and where they are needed.",
+"B": "Gene regulation allows cells to respond to changes in their environment.",
+"C": "Gene regulation is essential for cell differentiation and development.",
+"D": "Dysregulation of gene expression can lead to diseases such as cancer.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "Gene regulation is a fundamental process that governs the expression of genes in a precise and controlled manner. It is essential for a wide range of cellular processes, from basic metabolism to development and disease."
+},
+{
+"question": "Which of the following is a potential consequence of a mutation in a gene encoding a transcription factor?",
+"options": {
+"A": "The transcription factor may be unable to bind to its target DNA sequence.",
+"B": "The transcription factor may lose its ability to activate or repress transcription.",
+"C": "The expression of genes regulated by the transcription factor may be altered.",
+"D": "The mutation may have no effect on the function of the transcription factor.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "Mutations in transcription factors can have a wide range of consequences, from disrupting DNA binding to altering their regulatory function. These changes can significantly impact the expression of genes under their control."
+} 
+]
