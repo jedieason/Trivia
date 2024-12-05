@@ -1,0 +1,542 @@
+[
+{
+"question": "What is the primary reason why proteins are more functionally diverse than RNA?",
+"options": {
+"A": "Proteins have a more stable structure due to the lack of a 2'-OH group.",
+"B": "Proteins are encoded directly by DNA, while RNA is transcribed from DNA.",
+"C": "Proteins can form more complex structures due to their diverse amino acid composition and interactions.",
+"D": "Proteins can catalyze a wider range of reactions compared to ribozymes.",
+"E": "Proteins are more abundant in cells compared to RNA molecules."
+},
+"answer": "C",
+"explanation": "Proteins can exhibit a wide array of structures due to the diverse chemical properties of the 20 amino acids, including hydrophobic and hydrophilic regions, noncovalent bonding, and secondary structure formation. These characteristics allow proteins to fold into intricate three-dimensional shapes that support their varied functions."
+},
+{
+"question": "In rapidly growing bacteria, what percentage of energy is dedicated to protein synthesis?",
+"options": {
+"A": "10%",
+"B": "35%",
+"C": "50%",
+"D": "70%",
+"E": "90%"
+},
+"answer": "E",
+"explanation": "Protein synthesis is a highly energy-demanding process. In rapidly growing bacteria, it consumes approximately 90% of the cell's energy. This highlights the essential role of protein synthesis in bacterial growth and survival."
+},
+{
+"question": "What is the approximate rate at which a bacterial ribosome synthesizes a protein?",
+"options": {
+"A": "1 residue per second",
+"B": "5 residues per second",
+"C": "10 residues per second",
+"D": "20 residues per second",
+"E": "100 residues per second"
+},
+"answer": "D",
+"explanation": "Bacterial ribosomes exhibit remarkable efficiency in protein synthesis. They can incorporate approximately 20 amino acid residues into a growing polypeptide chain per second."
+},
+{
+"question": "Early researchers used radioactive isotopes to track protein movement within cells. Where were these labeled proteins primarily found?",
+"options": {
+"A": "Nucleus",
+"B": "Golgi apparatus",
+"C": "Mitochondria",
+"D": "Rough endoplasmic reticulum (rER)",
+"E": "Cytoplasm"
+},
+"answer": "D",
+"explanation": "Radioactive isotope labeling studies revealed that newly synthesized proteins are primarily localized to the rough endoplasmic reticulum (rER). This observation suggested that the rER plays a crucial role in protein synthesis and processing."
+},
+{
+"question": "What are the small, ribonucleoprotein particles attached to the endoplasmic reticulum responsible for protein synthesis called?",
+"options": {
+"A": "Lysosomes",
+"B": "Peroxisomes",
+"C": "Ribosomes",
+"D": "Proteasomes",
+"E": "Nucleosomes"
+},
+"answer": "C",
+"explanation": "The small particles on the endoplasmic reticulum involved in protein synthesis are ribosomes. Ribosomes are complex molecular machines composed of RNA and protein that translate the genetic code from mRNA into a polypeptide chain."
+},
+{
+"question": "What is the name of the hypothesis proposed by Crick that suggested the existence of an intermediary molecule linking mRNA to amino acids during protein synthesis?",
+"options": {
+"A": "Central Dogma",
+"B": "Adaptor hypothesis",
+"C": "RNA world hypothesis",
+"D": "Wobble hypothesis",
+"E": "One gene-one enzyme hypothesis"
+},
+"answer": "B",
+"explanation": "Crick's adaptor hypothesis postulated the existence of an adaptor molecule that would mediate the translation of the genetic code from mRNA into amino acids. This hypothesis paved the way for the discovery of tRNA as the adaptor molecule."
+},
+{
+"question": "What serves as the adaptor molecule in protein synthesis, bridging the gap between mRNA codons and specific amino acids?",
+"options": {
+"A": "mRNA",
+"B": "rRNA",
+"C": "tRNA",
+"D": "DNA",
+"E": "siRNA"
+},
+"answer": "C",
+"explanation": "tRNA molecules act as the adaptors in protein synthesis. They possess an anticodon region that binds to a specific mRNA codon and an amino acid attachment site that carries the corresponding amino acid."
+},
+{
+"question": "What is the rationale for having three nucleotides in a codon to code for one amino acid?",
+"options": {
+"A": "Two nucleotides would not provide enough combinations to code for all 20 amino acids.",
+"B": "Three nucleotides provide an optimal balance between coding capacity and tRNA complexity.",
+"C": "Four nucleotides would result in an excessive number of possible codons, leading to redundancy.",
+"D": "Three nucleotides minimize the impact of mutations by allowing for silent mutations.",
+"E": "Three nucleotides ensure that the genetic code is non-overlapping."
+},
+"answer": "B",
+"explanation": "A three-nucleotide codon system offers a balance between coding capacity and tRNA complexity. With four possible nucleotides, three-nucleotide codons provide 64 possible combinations, enough to code for all 20 amino acids while maintaining manageable tRNA diversity."
+},
+{
+"question": "On which molecule are codons found, and on which molecule are anticodons found?",
+"options": {
+"A": "Codons on tRNA, anticodons on mRNA",
+"B": "Codons on mRNA, anticodons on tRNA",
+"C": "Codons on rRNA, anticodons on tRNA",
+"D": "Codons on DNA, anticodons on RNA",
+"E": "Codons on protein, anticodons on mRNA"
+},
+"answer": "B",
+"explanation": "Codons are located on mRNA molecules and represent the three-nucleotide sequences that specify amino acids. Anticodons are found on tRNA molecules and are complementary to the mRNA codons, ensuring the accurate incorporation of amino acids during protein synthesis."
+},
+{
+"question": "Why is an overlapping genetic code considered impractical?",
+"options": {
+"A": "Overlapping codons would make the genetic code ambiguous.",
+"B": "Overlapping codons would limit the diversity of amino acid sequences.",
+"C": "Overlapping codons would increase the likelihood of frameshift mutations.",
+"D": "Overlapping codons would require a larger number of tRNA molecules.",
+"E": "Overlapping codons would slow down the process of protein synthesis."
+},
+"answer": "B",
+"explanation": "An overlapping genetic code would severely restrict the possible amino acid sequences in proteins. It would limit the flexibility in codon usage and make it difficult to achieve the diversity of protein structures and functions observed in nature."
+},
+{
+"question": "How many potential reading frames exist for a given stretch of DNA?",
+"options": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "6",
+"E": "9"
+},
+"answer": "D",
+"explanation": "A DNA sequence has six potential reading frames because each strand can be read in three different ways, depending on where the reading frame starts. This arises from the fact that codons are non-overlapping triplets of nucleotides."
+},
+{
+"question": "Which type of mutation involves the insertion or deletion of nucleotides, potentially altering the reading frame of a gene?",
+"options": {
+"A": "Silent mutation",
+"B": "Missense mutation",
+"C": "Nonsense mutation",
+"D": "Frameshift mutation",
+"E": "Point mutation"
+},
+"answer": "D",
+"explanation": "Frameshift mutations occur when nucleotides are inserted or deleted from a DNA sequence, shifting the reading frame of the gene. This alteration can lead to a completely different amino acid sequence downstream of the mutation, often resulting in a non-functional protein."
+},
+{
+"question": "In the context of frameshift mutations, what is a suppressor mutation?",
+"options": {
+"A": "A mutation that reverses the effect of a previous frameshift mutation.",
+"B": "A mutation that introduces a premature stop codon.",
+"C": "A mutation that changes one amino acid to another.",
+"D": "A mutation that silences gene expression.",
+"E": "A mutation that enhances the effect of a previous frameshift mutation."
+},
+"answer": "A",
+"explanation": "A suppressor mutation can counteract the effect of a prior frameshift mutation. It typically involves another insertion or deletion that restores the original reading frame, allowing for the production of a functional protein, even if the amino acid sequence might slightly differ from the original."
+},
+{
+"question": "What was a key limitation in Marshall Nirenberg's early experiments to decipher the genetic code?",
+"options": {
+"A": "Inability to isolate ribosomes from E. coli extracts.",
+"B": "Lack of a method to synthesize RNA sequences with a defined order of nucleotides.",
+"C": "Difficulty in detecting the incorporation of radioactively labeled amino acids into proteins.",
+"D": "Absence of a technique to separate proteins based on their size and charge.",
+"E": "Limited understanding of the structure and function of tRNA molecules."
+},
+"answer": "B",
+"explanation": "A significant challenge in Nirenberg's initial experiments was the inability to create RNA molecules with a predetermined sequence of nucleotides. They could only generate RNA polymers with varying proportions of different nucleotides, limiting their ability to directly assign specific codons to amino acids."
+},
+{
+"question": "Which component of protein synthesis was confirmed to be crucial through the analysis of ribosomes bound to specific amino acids?",
+"options": {
+"A": "mRNA",
+"B": "rRNA",
+"C": "tRNA",
+"D": "DNA",
+"E": "Ribosomal proteins"
+},
+"answer": "C",
+"explanation": "By examining ribosomes and identifying tRNA molecules attached to them with specific amino acids, researchers validated the critical role of tRNA in protein synthesis. This observation provided strong support for Crick's adaptor hypothesis."
+},
+{
+"question": "What is the start codon, and which amino acid does it code for?",
+"options": {
+"A": "UAA, Methionine",
+"B": "UAG, Leucine",
+"C": "UGA, Valine",
+"D": "AUG, Methionine",
+"E": "AUG, Isoleucine"
+},
+"answer": "D",
+"explanation": "The start codon AUG initiates protein synthesis and codes for the amino acid methionine. It signals the ribosome to begin translating the mRNA sequence into a polypeptide chain."
+},
+{
+"question": "What are the three stop codons, and do they code for any amino acids?",
+"options": {
+"A": "AUG, UAG, UGA; they code for methionine, stop, and tryptophan, respectively.",
+"B": "UAA, UAG, UGA; they do not code for any amino acids.",
+"C": "UAA, UAG, AUG; they code for stop, stop, and methionine, respectively.",
+"D": "UAA, UAC, UAG; they code for stop, tyrosine, and stop, respectively.",
+"E": "UAG, UGA, UGG; they code for stop, stop, and tryptophan, respectively."
+},
+"answer": "B",
+"explanation": "The three stop codons are UAA, UAG, and UGA. Unlike other codons that specify amino acids, stop codons do not have corresponding tRNA molecules and signal the termination of protein synthesis."
+},
+{
+"question": "What is the term for the phenomenon where multiple codons can code for the same amino acid?",
+"options": {
+"A": "Redundancy",
+"B": "Degeneracy",
+"C": "Ambiguity",
+"D": "Universality",
+"E": "Wobbling"
+},
+"answer": "B",
+"explanation": "The degeneracy of the genetic code refers to the fact that most amino acids are encoded by more than one codon. This redundancy provides a level of tolerance to mutations, as changes in the third position of a codon often do not alter the specified amino acid."
+},
+{
+"question": "What type of mutation results in a change in the DNA sequence but does not alter the amino acid sequence of the protein?",
+"options": {
+"A": "Silent mutation",
+"B": "Missense mutation",
+"C": "Nonsense mutation",
+"D": "Frameshift mutation",
+"E": "Point mutation"
+},
+"answer": "A",
+"explanation": "Silent mutations occur when a DNA base change does not lead to a change in the amino acid incorporated into the protein. This is often due to the degeneracy of the genetic code, where multiple codons can specify the same amino acid."
+},
+{
+"question": "Which type of mutation is considered more detrimental to protein function: a nonsense mutation or a missense mutation?",
+"options": {
+"A": "Nonsense mutation, as it introduces a premature stop codon.",
+"B": "Missense mutation, as it always changes the amino acid sequence.",
+"C": "Both are equally detrimental, as they both alter the protein sequence.",
+"D": "Neither is detrimental, as the genetic code is degenerate.",
+"E": "It depends on the specific location and nature of the mutation."
+},
+"answer": "A",
+"explanation": "Nonsense mutations are generally more disruptive than missense mutations. A nonsense mutation creates a premature stop codon, leading to a truncated protein that is often non-functional. A missense mutation might only change a single amino acid, and its impact on protein function depends on the specific amino acid substitution and its location within the protein."
+},
+{
+"question": "In which position of a codon is a nucleotide mutation most likely to result in a nonsense mutation?",
+"options": {
+"A": "First position",
+"B": "Second position",
+"C": "Third position",
+"D": "All positions are equally likely.",
+"E": "It depends on the specific codon being mutated."
+},
+"answer": "A",
+"explanation": "Mutations in the first position of a codon have the highest probability of causing a nonsense mutation. This is because there are more codons that can be converted to stop codons by a single nucleotide change in the first position compared to the second or third position."
+},
+{
+"question": "What is the significance of the wobble effect in protein synthesis?",
+"options": {
+"A": "It allows for the recognition of multiple codons by a single tRNA.",
+"B": "It prevents frameshift mutations during translation.",
+"C": "It ensures the accurate pairing of codons and anticodons.",
+"D": "It facilitates the binding of tRNA to the ribosome.",
+"E": "It promotes the formation of peptide bonds between amino acids."
+},
+"answer": "A",
+"explanation": "The wobble effect describes the flexibility in base pairing between the third position of a codon and the first position of the anticodon. This flexibility allows a single tRNA to recognize and bind to multiple codons that differ only in their third nucleotide, reducing the number of tRNA molecules required for protein synthesis."
+},
+{
+"question": "Which modified nucleotide is often found in the anticodon of tRNA and plays a role in wobble base pairing?",
+"options": {
+"A": "Adenine",
+"B": "Guanine",
+"C": "Cytosine",
+"D": "Uracil",
+"E": "Inosine"
+},
+"answer": "E",
+"explanation": "Inosine (I) is a modified nucleotide frequently found in the first position of tRNA anticodons. Inosine can form hydrogen bonds with adenine (A), uracil (U), and cytosine (C), allowing a single tRNA to recognize multiple codons with variations in their third nucleotide."
+},
+{
+"question": "What type of base substitution involves a purine replacing another purine or a pyrimidine replacing another pyrimidine?",
+"options": {
+"A": "Transition",
+"B": "Transversion",
+"C": "Insertion",
+"D": "Deletion",
+"E": "Inversion"
+},
+"answer": "A",
+"explanation": "A transition mutation occurs when one purine (A or G) is replaced by another purine or one pyrimidine (C or T) is replaced by another pyrimidine. Transitions are more common than transversions, likely due to the structural similarities between purines and between pyrimidines."
+},
+{
+"question": "What type of base substitution involves a purine being replaced by a pyrimidine or vice versa?",
+"options": {
+"A": "Transition",
+"B": "Transversion",
+"C": "Insertion",
+"D": "Deletion",
+"E": "Inversion"
+},
+"answer": "B",
+"explanation": "Transversion mutations involve the replacement of a purine by a pyrimidine or a pyrimidine by a purine. These mutations require more significant structural changes in the DNA molecule compared to transitions."
+},
+{
+"question": "Which type of mutation results in a codon that specifies a different amino acid?",
+"options": {
+"A": "Silent mutation",
+"B": "Missense mutation",
+"C": "Nonsense mutation",
+"D": "Frameshift mutation",
+"E": "Point mutation"
+},
+"answer": "B",
+"explanation": "Missense mutations arise from a change in the DNA sequence that leads to the incorporation of a different amino acid into the protein. The impact of a missense mutation on protein function depends on the chemical properties of the original and substituted amino acids and their location within the protein."
+},
+{
+"question": "Which type of mutation leads to the formation of a truncated protein due to the introduction of a premature stop codon?",
+"options": {
+"A": "Silent mutation",
+"B": "Missense mutation",
+"C": "Nonsense mutation",
+"D": "Frameshift mutation",
+"E": "Point mutation"
+},
+"answer": "C",
+"explanation": "Nonsense mutations result in the premature termination of protein synthesis due to the creation of a stop codon within the coding sequence. This leads to the production of a shorter, often non-functional protein."
+},
+{
+"question": "How do scientists exploit nonsense mutations to investigate the functions of specific proteins?",
+"options": {
+"A": "By introducing nonsense mutations to create truncated proteins and observing the resulting phenotypic changes.",
+"B": "By studying the natural occurrence of nonsense mutations in populations to understand disease mechanisms.",
+"C": "By using nonsense mutations to silence gene expression and assess the impact on cellular processes.",
+"D": "By repairing nonsense mutations to restore protein function and observe the phenotypic consequences.",
+"E": "By analyzing the frequency of nonsense mutations to estimate the rate of evolution."
+},
+"answer": "A",
+"explanation": "Researchers can introduce nonsense mutations into genes to generate truncated proteins, allowing them to study the effects of protein truncation on cellular functions and phenotypes. This approach helps in elucidating the roles of specific protein domains and their importance in various biological processes."
+},
+{
+"question": "What is the phenomenon called when the ribosome deviates from the standard reading frame during translation?",
+"options": {
+"A": "Wobble effect",
+"B": "Frameshift mutation",
+"C": "Translational frameshifting",
+"D": "Ribosomal slippage",
+"E": "Codon skipping"
+},
+"answer": "C",
+"explanation": "Translational frameshifting occurs when the ribosome shifts its reading frame during translation, deviating from the typical three-nucleotide codon reading pattern. This can lead to the production of alternative protein products from the same mRNA molecule."
+},
+{
+"question": "Which viral protein is known to be produced through translational frameshifting, allowing for the generation of both a structural protein and a polymerase?",
+"options": {
+"A": "Spike protein",
+"B": "Envelope protein",
+"C": "Gag protein",
+"D": "Reverse transcriptase",
+"E": "Integrase"
+},
+"answer": "C",
+"explanation": "The viral gag protein, a structural component of some viruses, is often produced through translational frameshifting. This mechanism enables the synthesis of both the shorter gag protein and a longer polymerase protein from the same mRNA sequence, optimizing the production of proteins needed in different quantities."
+},
+{
+"question": "What are two main factors that contribute to translational frameshifting?",
+"options": {
+"A": "High GC content in mRNA and abundant tRNA availability",
+"B": "Presence of rare codons and secondary structures in mRNA",
+"C": "Mutations in ribosomal proteins and low cellular ATP levels",
+"D": "Elevated temperature and exposure to UV radiation",
+"E": "Viral infection and activation of cellular stress response"
+},
+"answer": "B",
+"explanation": "Translational frameshifting is often promoted by the presence of rare codons, which cause ribosome pausing, and secondary structures in the mRNA, such as pseudoknots or stem-loops, which can physically impede ribosome movement."
+},
+{
+"question": "What is the purpose of the slippery sequence in mRNA in the context of translational frameshifting?",
+"options": {
+"A": "To promote the binding of tRNA molecules to the ribosome.",
+"B": "To enhance the fidelity of codon-anticodon pairing.",
+"C": "To facilitate the movement of the ribosome along the mRNA.",
+"D": "To induce a pause in ribosome translocation, promoting frameshifting.",
+"E": "To signal the termination of protein synthesis."
+},
+"answer": "D",
+"explanation": "The slippery sequence, rich in adenine (A) and uracil (U) nucleotides, allows for alternative base pairing with the tRNA in the ribosome. This altered pairing, along with the presence of a downstream secondary structure, can induce a -1 frameshift, enabling the production of an extended protein."
+},
+{
+"question": "How does the abundance of a particular tRNA molecule influence the likelihood of translational frameshifting?",
+"options": {
+"A": "Abundant tRNA molecules prevent frameshifting by ensuring rapid amino acid incorporation.",
+"B": "Scarce tRNA molecules can lead to ribosome pausing at rare codons, increasing the chance of frameshifting.",
+"C": "The abundance of tRNA molecules has no impact on frameshifting.",
+"D": "Excess tRNA molecules can promote frameshifting by overloading the ribosome.",
+"E": "tRNA abundance only affects the rate of protein synthesis, not frameshifting."
+},
+"answer": "B",
+"explanation": "The availability of tRNA molecules carrying specific amino acids can influence frameshifting. Rare codons, corresponding to less abundant tRNAs, can cause the ribosome to stall, increasing the probability of a +1 frameshift, essentially skipping over the rare codon."
+},
+{
+"question": "What is the function of myosin and actin proteins in muscle cells?",
+"options": {
+"A": "They provide structural support to muscle fibers.",
+"B": "They transport nutrients and oxygen within muscle cells.",
+"C": "They regulate the pH balance of the muscle cell environment.",
+"D": "They generate force and movement through their interaction.",
+"E": "They synthesize and degrade proteins within muscle cells."
+},
+"answer": "D",
+"explanation": "Myosin and actin are the primary proteins responsible for muscle contraction. Myosin, the thicker filament, interacts with the thinner actin filaments, generating the sliding motion that leads to muscle shortening and force production."
+},
+{
+"question": "Why is DNA considered more stable than RNA?",
+"options": {
+"A": "DNA is double-stranded, while RNA is typically single-stranded.",
+"B": "DNA lacks a 2'-OH group on its sugar molecule, making it less susceptible to hydrolysis.",
+"C": "DNA is located in the nucleus, while RNA is found throughout the cell.",
+"D": "DNA is replicated more accurately than RNA.",
+"E": "DNA is associated with histone proteins, providing additional stability."
+},
+"answer": "B",
+"explanation": "The absence of a 2'-OH group on the sugar molecule in DNA contributes to its greater stability compared to RNA. The 2'-OH group in RNA makes it more prone to hydrolysis, a chemical reaction that breaks down the RNA molecule."
+},
+{
+"question": "According to the RNA world hypothesis, what type of molecule is thought to have been the primary carrier of genetic information in early life forms?",
+"options": {
+"A": "DNA",
+"B": "RNA",
+"C": "Protein",
+"D": "Lipids",
+"E": "Carbohydrates"
+},
+"answer": "B",
+"explanation": "The RNA world hypothesis proposes that RNA, rather than DNA, was the central molecule in early life forms. This hypothesis is supported by the fact that RNA can both store genetic information and catalyze chemical reactions, suggesting it could have played a dual role in primitive cells."
+},
+{
+"question": "What is the name given to RNA molecules that possess catalytic activity?",
+"options": {
+"A": "mRNA",
+"B": "rRNA",
+"C": "tRNA",
+"D": "Ribozymes",
+"E": "SiRNA"
+},
+"answer": "D",
+"explanation": "Ribozymes are RNA molecules that exhibit enzymatic activity. Their existence supports the RNA world hypothesis, suggesting that RNA might have been the primary biological catalyst in early life before the evolution of protein enzymes."
+},
+{
+"question": "Which of the following foods is NOT a good source of protein?",
+"options": {
+"A": "Fish",
+"B": "Eggs",
+"C": "Milk",
+"D": "Beans",
+"E": "Lettuce"
+},
+"answer": "E",
+"explanation": "Lettuce is primarily composed of carbohydrates and water and is not a significant source of protein. Fish, eggs, milk, and beans, on the other hand, are known to be rich in protein."
+},
+{
+"question": "How is the amino acid sequence of a protein determined?",
+"options": {
+"A": "Randomly by the ribosome during translation",
+"B": "By the arrangement of nucleotides in the DNA sequence",
+"C": "By the abundance of different tRNA molecules in the cell",
+"D": "By the three-dimensional structure of the protein",
+"E": "By the availability of amino acids in the cellular environment"
+},
+"answer": "B",
+"explanation": "The order of nucleotides in the DNA sequence dictates the order of amino acids in a protein. This sequence is transcribed into mRNA, and the ribosome then translates the mRNA codons into a specific amino acid sequence."
+},
+{
+"question": "What is the primary level of protein structure that determines its ultimate three-dimensional shape and function?",
+"options": {
+"A": "Primary structure",
+"B": "Secondary structure",
+"C": "Tertiary structure",
+"D": "Quaternary structure",
+"E": "All levels contribute equally"
+},
+"answer": "A",
+"explanation": "The primary structure of a protein, the linear sequence of amino acids, ultimately determines its overall three-dimensional shape and function. The specific sequence of amino acids influences how the protein folds into higher-order structures and interacts with other molecules."
+},
+{
+"question": "What percentage of a bacterial cell's dry weight is composed of components involved in translation?",
+"options": {
+"A": "5%",
+"B": "15%",
+"C": "25%",
+"D": "35%",
+"E": "50%"
+},
+"answer": "D",
+"explanation": "The machinery involved in translation constitutes a significant portion of a bacterial cell's dry weight. Ribosomes, tRNA molecules, and other factors involved in protein synthesis account for over 35% of the cell's dry weight, highlighting the essential role of protein production in bacterial cells."
+},
+{
+"question": "Why has the mechanism of protein synthesis remained highly conserved throughout evolution?",
+"options": {
+"A": "Because it is a simple and efficient process that requires minimal energy.",
+"B": "Because any changes to the mechanism would be detrimental to cell survival.",
+"C": "Because it is a fundamental process essential for the survival and function of all organisms.",
+"D": "Because it evolved early in life and has not faced selective pressure to change.",
+"E": "Because all organisms share a common ancestor that utilized this mechanism."
+},
+"answer": "C",
+"explanation": "Protein synthesis is fundamental to life. The intricate process of translating genetic information into functional proteins is crucial for the growth, development, and survival of all organisms, explaining why it has been highly conserved throughout evolutionary history."
+},
+{
+"question": "Which statement about the genetic code is INCORRECT?",
+"options": {
+"A": "The genetic code is degenerate, meaning multiple codons can code for the same amino acid.",
+"B": "The genetic code is unambiguous, meaning each codon specifies only one amino acid.",
+"C": "The genetic code is non-overlapping, meaning each nucleotide is part of only one codon.",
+"D": "The genetic code is universal, meaning it is the same in all organisms.",
+"E": "The genetic code is punctuated, meaning there are spaces between codons."
+},
+"answer": "E",
+"explanation": "The genetic code is not punctuated. Codons are read consecutively without any spaces or separators between them. The ribosome moves along the mRNA in a stepwise manner, reading one codon after another."
+},
+{
+"question": "In the context of mitochondrial DNA, what is an exception to the universality of the genetic code?",
+"options": {
+"A": "The start codon AUG codes for a different amino acid in mitochondria.",
+"B": "Some stop codons are read as coding for amino acids in mitochondria.",
+"C": "Mitochondria use a different set of tRNA molecules compared to the cytoplasm.",
+"D": "Mitochondrial DNA has a higher mutation rate than nuclear DNA.",
+"E": "Mitochondrial genes are not transcribed into mRNA before translation."
+},
+"answer": "B",
+"explanation": "While the genetic code is largely universal, there are exceptions in mitochondrial DNA. Notably, the stop codon UGA is read as tryptophan in mitochondria, and the codons AGA and AGG, which typically code for arginine, act as stop codons in mitochondria."
+},
+{
+"question": "If a mutation must occur in a codon, which nucleotide position is most likely to minimize the impact on the resulting protein?",
+"options": {
+"A": "First position",
+"B": "Second position",
+"C": "Third position",
+"D": "Any position is equally likely to minimize the impact.",
+"E": "It is impossible to predict the impact without knowing the specific codon."
+},
+"answer": "C",
+"explanation": "Mutations in the third position of a codon are often silent mutations due to the wobble effect. The degeneracy of the genetic code allows for variations in the third nucleotide of many codons without altering the specified amino acid. Therefore, a mutation in the third position is most likely to have a minimal effect on the protein."
+}
+]
