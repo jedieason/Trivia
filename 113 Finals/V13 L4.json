@@ -1,0 +1,542 @@
+[
+{
+"question": "During the elongation phase of prokaryotic protein synthesis, how many high-energy phosphate bonds are consumed to add one amino acid to the peptide chain?",
+"options": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4",
+"E": "5"
+},
+"answer": "D",
+"explanation": "Adding one amino acid requires 4 high-energy phosphate bonds. Two are consumed during the activation phase when aminoacyl synthetase attaches the amino acid to tRNA. Then, one is used by Tu during the binding of the second aminoacyl synthetase, and another is consumed by EF-G during translocation."
+},
+{
+"question": "What is the role of Ts in prokaryotic protein synthesis?",
+"options": {
+"A": "Catalyzes the formation of the peptide bond",
+"B": "Delivers the first aminoacyl-tRNA to the ribosome",
+"C": "Translocates the ribosome along the mRNA",
+"D": "Acts as a guanine nucleotide exchange factor for Tu",
+"E": "Terminates protein synthesis by recognizing stop codons"
+},
+"answer": "D",
+"explanation": "Ts functions as a guanine nucleotide exchange factor (GEF) for Tu. It facilitates the removal of GDP from Tu and the subsequent binding of a high-energy GTP, enabling Tu to be reused in the process."
+},
+{
+"question": "Which antibiotic mimics the 3' end of aminoacyl-tRNA and causes premature termination of translation?",
+"options": {
+"A": "Tetracycline",
+"B": "Chloramphenicol",
+"C": "Streptomycin",
+"D": "Puromycin",
+"E": "Cycloheximide"
+},
+"answer": "D",
+"explanation": "Puromycin has a structure similar to the 3' end of aminoacyl-tRNA, allowing it to enter the A site of the ribosome and bind to the growing peptide chain. This leads to the formation of peptidyl-puromycin and the premature release of the incomplete polypeptide."
+},
+{
+"question": "Which ribosomal site does the release factor (RF) bind to during termination of translation in prokaryotes?",
+"options": {
+"A": "E site",
+"B": "P site",
+"C": "A site",
+"D": "Small ribosomal subunit",
+"E": "Large ribosomal subunit"
+},
+"answer": "C",
+"explanation": "When the ribosome encounters a stop codon on the mRNA, the release factor (RF) binds to the A site. This binding event promotes the hydrolysis of the bond between the polypeptide chain and the tRNA in the P site, leading to the release of the completed protein."
+},
+{
+"question": "What is the function of EF-G in prokaryotic protein synthesis?",
+"options": {
+"A": "Delivers aminoacyl-tRNA to the ribosome",
+"B": "Catalyzes the formation of the peptide bond",
+"C": "Translocates the ribosome along the mRNA",
+"D": "Initiates protein synthesis by binding to the start codon",
+"E": "Terminates protein synthesis by recognizing stop codons"
+},
+"answer": "C",
+"explanation": "EF-G, an elongation factor, plays a crucial role in the translocation step of protein synthesis. It binds to the A site of the ribosome and, through GTP hydrolysis, shifts the tRNAs from the A and P sites to the P and E sites respectively. This movement exposes the next codon on the mRNA for the incoming aminoacyl-tRNA."
+},
+{
+"question": "Which of the following statements accurately describes the coupled transcription and translation process in prokaryotes?",
+"options": {
+"A": "Transcription occurs in the nucleus, while translation takes place in the cytoplasm.",
+"B": "Translation begins after the mRNA molecule has been fully transcribed and processed.",
+"C": "Multiple ribosomes can simultaneously translate a single mRNA molecule.",
+"D": "Prokaryotic mRNA undergoes extensive post-transcriptional modifications before translation.",
+"E": "Coupled transcription and translation is a slower process compared to separate transcription and translation."
+},
+"answer": "C",
+"explanation": "In prokaryotes, the absence of a nuclear membrane allows ribosomes to attach to mRNA molecules even before transcription is complete. This phenomenon, known as coupled transcription and translation, permits multiple ribosomes to translate the same mRNA concurrently, forming structures called polysomes."
+},
+{
+"question": "What role does Vitamin C play in the synthesis of collagen?",
+"options": {
+"A": "Acts as a cofactor for the enzyme that catalyzes peptide bond formation",
+"B": "Facilitates the formation of disulfide bonds between collagen molecules",
+"C": "Promotes the hydroxylation of proline residues",
+"D": "Inhibits the degradation of collagen by proteases",
+"E": "Enhances the transport of collagen from the endoplasmic reticulum to the Golgi apparatus"
+},
+"answer": "C",
+"explanation": "Vitamin C is essential for the hydroxylation of proline residues in collagen. This modification is crucial for the stability and proper assembly of collagen molecules, and a deficiency in Vitamin C can lead to the loss of collagen integrity."
+},
+{
+"question": "Which post-translational modification is involved in targeting proteins for degradation?",
+"options": {
+"A": "Phosphorylation",
+"B": "Glycosylation",
+"C": "Ubiquitination",
+"D": "Methylation",
+"E": "Carboxylation"
+},
+"answer": "C",
+"explanation": "Ubiquitination involves the attachment of ubiquitin molecules to a target protein. This tagging serves as a signal for the proteasome, a cellular complex responsible for protein degradation, to recognize and break down the marked protein."
+},
+{
+"question": "Which amino acid residues are typically targeted for N-linked glycosylation?",
+"options": {
+"A": "Serine and Threonine",
+"B": "Lysine and Arginine",
+"C": "Asparagine",
+"D": "Glutamic acid and Aspartic acid",
+"E": "Cysteine"
+},
+"answer": "C",
+"explanation": "N-linked glycosylation occurs on asparagine residues within specific consensus sequences in the protein. The process begins in the endoplasmic reticulum and involves the transfer of a pre-assembled oligosaccharide chain from a lipid carrier to the asparagine side chain."
+},
+{
+"question": "Which cellular compartment is the primary site for the formation of disulfide bonds in proteins?",
+"options": {
+"A": "Cytoplasm",
+"B": "Nucleus",
+"C": "Endoplasmic reticulum",
+"D": "Golgi apparatus",
+"E": "Mitochondria"
+},
+"answer": "C",
+"explanation": "Disulfide bonds form between cysteine residues in proteins and are primarily established in the endoplasmic reticulum (ER). The oxidizing environment of the ER lumen favors the formation of these bonds, which contribute to protein stability and folding."
+},
+{
+"question": "What is the role of dolichol phosphate in N-linked glycosylation?",
+"options": {
+"A": "Acts as a chaperone protein to assist protein folding",
+"B": "Provides the energy required for glycosylation",
+"C": "Serves as a membrane anchor for the glycosyltransferases",
+"D": "Functions as a lipid carrier for the oligosaccharide precursor",
+"E": "Cleaves the signal peptide from the newly synthesized protein"
+},
+"answer": "D",
+"explanation": "Dolichol phosphate is a lipid molecule embedded in the endoplasmic reticulum membrane. It acts as a carrier for the oligosaccharide precursor during N-linked glycosylation, facilitating the assembly and transfer of the sugar chain to the target asparagine residue on the protein."
+},
+{
+"question": "Which of the following is a characteristic feature of polysomes in prokaryotes?",
+"options": {
+"A": "They are formed by the association of multiple ribosomes with a single mRNA molecule.",
+"B": "They are exclusively involved in the translation of proteins destined for secretion.",
+"C": "They are located in the nucleus and are responsible for mRNA processing.",
+"D": "They are composed of a single ribosome translating multiple mRNA molecules simultaneously.",
+"E": "They are found only in prokaryotes that are actively undergoing cell division."
+},
+"answer": "A",
+"explanation": "Polysomes are structures formed by the simultaneous attachment of multiple ribosomes to a single mRNA molecule. This arrangement allows for the efficient and rapid translation of proteins in prokaryotes, where transcription and translation are coupled."
+},
+{
+"question": "What is the function of aminoacyl-tRNA synthetase in protein synthesis?",
+"options": {
+"A": "Catalyzes the formation of the peptide bond between amino acids",
+"B": "Transports amino acids from the cytoplasm to the ribosome",
+"C": "Attaches the correct amino acid to its corresponding tRNA molecule",
+"D": "Hydrolyzes GTP to provide energy for translation",
+"E": "Recognizes and binds to stop codons on the mRNA"
+},
+"answer": "C",
+"explanation": "Aminoacyl-tRNA synthetase is a group of enzymes that play a critical role in ensuring the accuracy of protein synthesis. Each synthetase is specific for a particular amino acid and its cognate tRNA, catalyzing the covalent attachment of the amino acid to the tRNA's 3' end. This process, known as aminoacylation, ensures that the correct amino acid is incorporated into the growing polypeptide chain based on the mRNA codon."
+},
+{
+"question": "Which of the following antibiotics specifically inhibits peptidyl transferase activity in bacteria?",
+"options": {
+"A": "Puromycin",
+"B": "Tetracycline",
+"C": "Chloramphenicol",
+"D": "Streptomycin",
+"E": "Cycloheximide"
+},
+"answer": "C",
+"explanation": "Chloramphenicol is an antibiotic that acts by inhibiting the peptidyl transferase activity of the bacterial ribosome. This enzyme is responsible for catalyzing the formation of peptide bonds between amino acids during protein synthesis. Notably, chloramphenicol does not affect peptidyl transferase in eukaryotic cells, making it a useful antibiotic for treating bacterial infections."
+},
+{
+"question": "Which of the following post-translational modifications involves the addition of a fatty acid to a protein?",
+"options": {
+"A": "Phosphorylation",
+"B": "Glycosylation",
+"C": "Ubiquitination",
+"D": "Methylation",
+"E": "Palmitoylation"
+},
+"answer": "E",
+"explanation": "Palmitoylation is a type of lipid modification in which a palmitic acid, a saturated fatty acid, is attached to a cysteine residue in a protein. This modification can influence protein localization, stability, and interactions with membranes."
+},
+{
+"question": "What effect does the methylation of histone H3K9 have on gene expression?",
+"options": {
+"A": "Promotes gene activation by loosening chromatin structure",
+"B": "Enhances transcription factor binding to DNA",
+"C": "Leads to the formation of heterochromatin and gene silencing",
+"D": "Increases the accessibility of DNA to RNA polymerase",
+"E": "Has no effect on gene expression"
+},
+"answer": "C",
+"explanation": "Methylation of histone H3 at lysine 9 (H3K9) is associated with the formation of heterochromatin, a tightly packed form of chromatin that is generally transcriptionally inactive. This modification can contribute to gene silencing by limiting the accessibility of DNA to transcription factors and RNA polymerase."
+},
+{
+"question": "Which molecule acts as a guanine nucleotide exchange factor (GEF) for Tu during prokaryotic protein synthesis?",
+"options": {
+"A": "IF-2",
+"B": "EF-G",
+"C": "RF",
+"D": "Ts",
+"E": "RRF"
+},
+"answer": "D",
+"explanation": "Ts (elongation factor Ts) is a GEF that interacts with Tu (elongation factor Tu) to promote the exchange of GDP for GTP. This exchange is essential for the regeneration of active Tu, allowing it to continue delivering aminoacyl-tRNAs to the ribosome during protein synthesis."
+},
+{
+"question": "Which of the following is a key difference between prokaryotic and eukaryotic translation initiation?",
+"options": {
+"A": "Prokaryotes use a specialized initiator tRNA carrying formylmethionine (fMet), while eukaryotes use a regular methionine tRNA.",
+"B": "Prokaryotic ribosomes bind directly to the Shine-Dalgarno sequence on the mRNA, while eukaryotic ribosomes scan the mRNA for the start codon.",
+"C": "Prokaryotic translation initiation involves fewer initiation factors compared to eukaryotic initiation.",
+"D": "Prokaryotic translation initiation occurs in the nucleus, while eukaryotic initiation takes place in the cytoplasm.",
+"E": "Prokaryotes utilize a cap-dependent mechanism for translation initiation, while eukaryotes rely on an internal ribosome entry site (IRES)."
+},
+"answer": "A",
+"explanation": "A fundamental difference between prokaryotic and eukaryotic translation initiation lies in the initiator tRNA. Prokaryotes employ a special initiator tRNA that carries formylmethionine (fMet), a modified form of methionine. In contrast, eukaryotes use a regular methionine tRNA to initiate protein synthesis."
+},
+{
+"question": "What is the function of the drug tunicamycin?",
+"options": {
+"A": "Inhibits the formation of peptide bonds",
+"B": "Blocks the translocation of the ribosome along the mRNA",
+"C": "Prevents the attachment of amino acids to tRNA molecules",
+"D": "Interferes with the initiation of translation",
+"E": "Inhibits N-linked glycosylation"
+},
+"answer": "E",
+"explanation": "Tunicamycin is a drug that specifically targets N-linked glycosylation. It inhibits the first step of this pathway, preventing the transfer of N-acetylglucosamine (GlcNAc) to dolichol phosphate, the lipid carrier molecule that assembles the oligosaccharide precursor."
+},
+{
+"question": "Which post-translational modification is commonly observed on lysine residues in proteins?",
+"options": {
+"A": "Phosphorylation",
+"B": "Glycosylation",
+"C": "Ubiquitination",
+"D": "Methylation",
+"E": "Carboxylation"
+},
+"answer": "D",
+"explanation": "Lysine residues in proteins can be subjected to methylation, a post-translational modification involving the addition of one, two, or three methyl groups to the lysine side chain. This modification can have diverse effects on protein function, including altering protein-protein interactions and influencing gene expression."
+},
+{
+"question": "Which of the following statements about the structure of collagen is true?",
+"options": {
+"A": "Collagen is composed of a single polypeptide chain arranged in an alpha helix.",
+"B": "Collagen consists of three left-handed helices intertwined to form a right-handed triple helix.",
+"C": "Collagen is rich in cysteine residues, which form disulfide bonds to stabilize the structure.",
+"D": "Collagen contains a high proportion of charged amino acids, making it soluble in water.",
+"E": "Collagen is a globular protein with a compact, spherical shape."
+},
+"answer": "B",
+"explanation": "Collagen's unique structure involves three left-handed polypeptide chains, each rich in glycine, proline, and hydroxyproline, that coil around each other to form a right-handed triple helix. This triple-helical structure provides collagen with its tensile strength and contributes to its structural role in tissues."
+},
+{
+"question": "What is the function of HP1 in relation to histone modifications?",
+"options": {
+"A": "Catalyzes the methylation of histone H3K9",
+"B": "Removes methyl groups from histone H3K4",
+"C": "Binds to methylated H3K9 and promotes heterochromatin formation",
+"D": "Acetylates histone tails to activate gene expression",
+"E": "Deubiquitinates proteins to prevent their degradation"
+},
+"answer": "C",
+"explanation": "HP1 (heterochromatin protein 1) is a reader protein that specifically recognizes and binds to methylated H3K9. This interaction is crucial for the establishment and maintenance of heterochromatin, a compact and transcriptionally silent form of chromatin. By binding to methylated H3K9, HP1 contributes to the higher-order organization of chromatin and the repression of gene expression."
+},
+{
+"question": "Which of the following enzymes is responsible for removing the signal peptide from insulin during its maturation process?",
+"options": {
+"A": "Aminoacyl-tRNA synthetase",
+"B": "Peptidyl transferase",
+"C": "Protease",
+"D": "Carboxypeptidase E",
+"E": "Glycosyltransferase"
+},
+"answer": "C",
+"explanation": "During insulin maturation, a protease enzyme cleaves the signal peptide, a short amino acid sequence that directs the protein to the endoplasmic reticulum. This cleavage is essential for the proper folding and subsequent processing of insulin."
+},
+{
+"question": "Which of the following high-energy phosphate bonds is consumed during the activation stage of amino acid attachment to tRNA?",
+"options": {
+"A": "ATP → ADP + Pi",
+"B": "GTP → GDP + Pi",
+"C": "CTP → CDP + Pi",
+"D": "UTP → UDP + Pi",
+"E": "ATP → AMP + PPi"
+},
+"answer": "E",
+"explanation": "The activation stage of amino acid attachment to tRNA requires the hydrolysis of ATP to AMP and pyrophosphate (PPi). This reaction, catalyzed by aminoacyl-tRNA synthetase, provides the energy needed to form the high-energy bond between the amino acid and its cognate tRNA."
+},
+{
+"question": "Which of the following correctly describes the orientation of the mRNA molecule in the electron micrograph depicting polysomes?",
+"options": {
+"A": "The 5' end is on the left, and the 3' end is on the right.",
+"B": "The 3' end is on the left, and the 5' end is on the right.",
+"C": "The orientation of the mRNA cannot be determined from the electron micrograph.",
+"D": "The mRNA is circular and does not have distinct 5' and 3' ends.",
+"E": "The mRNA is fragmented and does not have a continuous 5' to 3' orientation."
+},
+"answer": "B",
+"explanation": "In the electron micrograph showing polysomes, the 3' end of the mRNA is on the left, and the 5' end is on the right. The longer polypeptide chains at the 3' end indicate that translation has progressed further in that region."
+},
+{
+"question": "Which of the following statements about the ribosome binding site in prokaryotic mRNA is true?",
+"options": {
+"A": "It is located at the 5' end of the mRNA and is called the 5' cap.",
+"B": "It is a sequence of nucleotides that is complementary to the 3' end of the 16S rRNA.",
+"C": "It is a stem-loop structure that binds to initiation factors to start translation.",
+"D": "It is a poly(A) tail that protects the mRNA from degradation.",
+"E": "It is a sequence of codons that signals the end of translation."
+},
+"answer": "B",
+"explanation": "The ribosome binding site in prokaryotic mRNA, also known as the Shine-Dalgarno sequence, is a short sequence of nucleotides located upstream of the start codon. It is complementary to a sequence in the 3' end of the 16S rRNA, a component of the small ribosomal subunit. This base pairing interaction is crucial for the proper positioning of the ribosome on the mRNA during translation initiation."
+},
+{
+"question": "Which of the following toxins catalytically inactivates ribosomes by removing specific sugar residues from the 28S rRNA?",
+"options": {
+"A": "Puromycin",
+"B": "Tetracycline",
+"C": "Chloramphenicol",
+"D": "Streptomycin",
+"E": "Ricin"
+},
+"answer": "E",
+"explanation": "Ricin, a highly toxic protein, exerts its deadly effect by targeting ribosomes. It acts as an N-glycosidase enzyme that specifically removes an adenine base from a conserved loop in the 28S rRNA. This depurination event disrupts ribosome function, leading to the inhibition of protein synthesis and cell death."
+},
+{
+"question": "Which of the following statements accurately describes the function of EF-Tu in prokaryotic protein synthesis?",
+"options": {
+"A": "EF-Tu catalyzes the formation of the peptide bond between amino acids.",
+"B": "EF-Tu binds to the A site of the ribosome and promotes the translocation of tRNAs.",
+"C": "EF-Tu delivers aminoacyl-tRNAs to the ribosome and ensures their correct positioning.",
+"D": "EF-Tu recognizes and binds to stop codons, terminating protein synthesis.",
+"E": "EF-Tu acts as a guanine nucleotide exchange factor for EF-G, facilitating its release from the ribosome."
+},
+"answer": "C",
+"explanation": "EF-Tu is a GTP-binding protein that plays a crucial role in delivering aminoacyl-tRNAs to the ribosome during the elongation phase of protein synthesis. It forms a ternary complex with GTP and an aminoacyl-tRNA, ensuring that the correct tRNA, based on the mRNA codon, enters the A site of the ribosome."
+},
+{
+"question": "What is the main function of IF-2 in prokaryotic translation initiation?",
+"options": {
+"A": "Binds to the Shine-Dalgarno sequence on the mRNA",
+"B": "Delivers the initiator tRNA carrying formylmethionine (fMet) to the P site of the ribosome",
+"C": "Prevents premature binding of the large ribosomal subunit to the small subunit",
+"D": "Hydrolyzes GTP to provide energy for the formation of the initiation complex",
+"E": "Scans the mRNA for the start codon and positions the ribosome accordingly"
+},
+"answer": "B",
+"explanation": "IF-2 is a GTP-binding protein that plays a key role in delivering the initiator tRNA, charged with formylmethionine (fMet), to the P site of the ribosome during the formation of the initiation complex in prokaryotic translation."
+},
+{
+"question": "Which of the following steps in protein synthesis DOES NOT require the hydrolysis of GTP?",
+"options": {
+"A": "Binding of aminoacyl-tRNA to the A site of the ribosome",
+"B": "Translocation of the ribosome along the mRNA",
+"C": "Formation of the peptide bond between amino acids",
+"D": "Release of the completed polypeptide chain from the ribosome",
+"E": "Dissociation of the ribosome into its subunits after translation termination"
+},
+"answer": "C",
+"explanation": "The formation of the peptide bond between amino acids during protein synthesis is catalyzed by the peptidyl transferase activity of the ribosome. This reaction does not require the hydrolysis of GTP; the energy for peptide bond formation is derived from the high-energy ester bond between the amino acid and its tRNA."
+},
+{
+"question": "Which of the following is a function of carboxypeptidase E in the processing of insulin?",
+"options": {
+"A": "Catalyzes the formation of disulfide bonds between cysteine residues",
+"B": "Removes the signal peptide from the preproinsulin molecule",
+"C": "Cleaves the C-peptide from proinsulin to generate mature insulin",
+"D": "Trims excess amino acids from the carboxyl terminus of insulin",
+"E": "Adds a carbohydrate chain to the insulin molecule"
+},
+"answer": "D",
+"explanation": "Carboxypeptidase E is involved in the final step of insulin maturation. It acts as an exoprotease that removes basic residues from the carboxyl terminus of insulin, ensuring the production of the correct, biologically active form of the hormone."
+},
+{
+"question": "Which of the following statements about the differences between prokaryotic and eukaryotic protein synthesis is FALSE?",
+"options": {
+"A": "Prokaryotes use fMet-tRNAfMet as the initiator tRNA, while eukaryotes use Met-tRNAMet.",
+"B": "Transcription and translation are coupled in prokaryotes, but occur separately in eukaryotes.",
+"C": "Prokaryotic ribosomes are smaller (70S) than eukaryotic ribosomes (80S).",
+"D": "Prokaryotic mRNAs are typically polycistronic, while eukaryotic mRNAs are monocistronic.",
+"E": "Prokaryotic translation initiation involves binding to the Shine-Dalgarno sequence, while eukaryotic initiation involves scanning for the start codon."
+},
+"answer": "D",
+"explanation": "While many prokaryotic mRNAs are polycistronic, meaning they encode multiple proteins, eukaryotic mRNAs are typically monocistronic, encoding a single protein. The statement that prokaryotic mRNAs are always polycistronic is incorrect."
+},
+{
+"question": "Which of the following post-translational modifications is NOT typically associated with the endoplasmic reticulum (ER)?",
+"options": {
+"A": "N-linked glycosylation",
+"B": "Formation of disulfide bonds",
+"C": "Signal peptide cleavage",
+"D": "O-linked glycosylation",
+"E": "Protein folding"
+},
+"answer": "D",
+"explanation": "While N-linked glycosylation, disulfide bond formation, signal peptide cleavage, and protein folding are common processes in the ER, O-linked glycosylation primarily occurs in the Golgi apparatus, not the ER."
+},
+{
+"question": "What is the function of the ribosome recycling factor (RRF) in prokaryotic translation termination?",
+"options": {
+"A": "Releases the completed polypeptide chain from the tRNA",
+"B": "Recognizes stop codons and promotes the dissociation of the ribosome",
+"C": "Cooperates with EF-G to disassemble the ribosome into its subunits",
+"D": "Degrades the mRNA after translation is complete",
+"E": "Prevents premature termination of translation"
+},
+"answer": "C",
+"explanation": "RRF, in conjunction with EF-G and GTP hydrolysis, facilitates the disassembly of the ribosome into its large and small subunits after translation termination. This recycling of ribosomal components allows them to participate in new rounds of protein synthesis."
+},
+{
+"question": "Which of the following statements about the effects of methylation on gene expression is true?",
+"options": {
+"A": "Methylation of DNA always leads to gene activation.",
+"B": "Methylation of histones always leads to gene repression.",
+"C": "Methylation can have different effects on gene expression depending on the context.",
+"D": "Methylation is a reversible modification that cannot be removed from DNA or histones.",
+"E": "Methylation is only observed in prokaryotes and not in eukaryotes."
+},
+"answer": "C",
+"explanation": "Methylation can have varying effects on gene expression depending on the specific site and context. For instance, DNA methylation is often associated with gene silencing, while histone methylation can either activate or repress gene expression depending on the specific lysine residue modified."
+},
+{
+"question": "Which of the following antibiotics inhibits the binding of aminoacyl-tRNA to the A site of the ribosome?",
+"options": {
+"A": "Puromycin",
+"B": "Tetracycline",
+"C": "Chloramphenicol",
+"D": "Streptomycin",
+"E": "Cycloheximide"
+},
+"answer": "B",
+"explanation": "Tetracycline exerts its antibiotic effect by binding to the A site of the bacterial ribosome, effectively blocking the entry of aminoacyl-tRNAs and inhibiting protein synthesis."
+},
+{
+"question": "Which of the following statements about the role of GTP in protein synthesis is FALSE?",
+"options": {
+"A": "GTP hydrolysis provides energy for the binding of aminoacyl-tRNA to the ribosome.",
+"B": "GTP hydrolysis is required for the translocation of the ribosome along the mRNA.",
+"C": "GTP hydrolysis is involved in the release of the completed polypeptide chain from the ribosome.",
+"D": "GTP hydrolysis is necessary for the formation of the peptide bond between amino acids.",
+"E": "GTP hydrolysis facilitates the dissociation of the ribosome into its subunits after translation termination."
+},
+"answer": "D",
+"explanation": "While GTP hydrolysis is crucial for various steps in protein synthesis, it is not directly involved in the formation of the peptide bond. The energy for peptide bond formation comes from the high-energy ester bond between the amino acid and its tRNA."
+},
+{
+"question": "Which of the following correctly describes the order of events during the elongation phase of prokaryotic protein synthesis?",
+"options": {
+"A": "Peptide bond formation, translocation, aminoacyl-tRNA binding",
+"B": "Aminoacyl-tRNA binding, peptide bond formation, translocation",
+"C": "Translocation, aminoacyl-tRNA binding, peptide bond formation",
+"D": "Peptide bond formation, aminoacyl-tRNA binding, translocation",
+"E": "Aminoacyl-tRNA binding, translocation, peptide bond formation"
+},
+"answer": "B",
+"explanation": "The elongation phase of prokaryotic protein synthesis follows a specific sequence: (1) binding of the aminoacyl-tRNA to the A site of the ribosome, (2) formation of the peptide bond between the incoming amino acid and the growing polypeptide chain, and (3) translocation of the ribosome along the mRNA to expose the next codon."
+},
+{
+"question": "Which of the following enzymes is NOT directly involved in post-translational modifications of proteins?",
+"options": {
+"A": "Kinase",
+"B": "Glycosyltransferase",
+"C": "Methyltransferase",
+"D": "Peptidyl transferase",
+"E": "Ubiquitin ligase"
+},
+"answer": "D",
+"explanation": "Peptidyl transferase is the ribosomal enzyme responsible for catalyzing peptide bond formation during translation, not a post-translational modifying enzyme. Kinases, glycosyltransferases, methyltransferases, and ubiquitin ligases are all enzymes involved in various post-translational modifications."
+},
+{
+"question": "Which of the following statements about the effects of ricin on protein synthesis is true?",
+"options": {
+"A": "Ricin inhibits aminoacyl-tRNA synthetase, preventing the charging of tRNAs with amino acids.",
+"B": "Ricin blocks the binding of aminoacyl-tRNAs to the A site of the ribosome.",
+"C": "Ricin interferes with the formation of the peptide bond by inhibiting peptidyl transferase.",
+"D": "Ricin depurinates a specific adenine base in the 28S rRNA, leading to ribosome inactivation.",
+"E": "Ricin promotes premature termination of translation by mimicking a release factor."
+},
+"answer": "D",
+"explanation": "Ricin's toxic mechanism involves the removal of a specific adenine base from a conserved loop in the 28S rRNA. This depurination event disrupts the ribosome's ability to interact with elongation factors and effectively halts protein synthesis."
+},
+{
+"question": "What is the significance of the formation of disulfide bonds in proteins?",
+"options": {
+"A": "Disulfide bonds increase protein flexibility and allow for conformational changes.",
+"B": "Disulfide bonds contribute to protein stability by forming covalent links between cysteine residues.",
+"C": "Disulfide bonds facilitate protein degradation by targeting proteins to the proteasome.",
+"D": "Disulfide bonds are essential for the transport of proteins across cell membranes.",
+"E": "Disulfide bonds are only found in proteins that function as enzymes."
+},
+"answer": "B",
+"explanation": "Disulfide bonds, formed between the sulfhydryl groups of cysteine residues, contribute significantly to protein stability. These covalent bonds act as cross-links within or between polypeptide chains, enhancing the protein's resistance to unfolding and denaturation."
+},
+{
+"question": "Which of the following statements about the function of IF-1 in prokaryotic translation initiation is true?",
+"options": {
+"A": "IF-1 delivers the initiator tRNA to the P site of the ribosome.",
+"B": "IF-1 binds to the A site of the ribosome and prevents premature tRNA binding.",
+"C": "IF-1 helps to dissociate the ribosome into its subunits after translation termination.",
+"D": "IF-1 recognizes the Shine-Dalgarno sequence on the mRNA and facilitates ribosome binding.",
+"E": "IF-1 hydrolyzes GTP to provide energy for the formation of the initiation complex."
+},
+"answer": "B",
+"explanation": "IF-1, a small protein, binds to the A site of the small ribosomal subunit during translation initiation in prokaryotes. This binding prevents the premature entry of an aminoacyl-tRNA into the A site before the initiator tRNA has been properly positioned in the P site."
+},
+{
+"question": "Which of the following is NOT a characteristic feature of heterochromatin?",
+"options": {
+"A": "Highly condensed chromatin structure",
+"B": "Enriched in histone modifications like H3K9 methylation",
+"C": "Generally transcriptionally inactive",
+"D": "Replicated early in the S phase of the cell cycle",
+"E": "Located at the periphery of the nucleus"
+},
+"answer": "D",
+"explanation": "Heterochromatin, unlike euchromatin, is replicated late in the S phase of the cell cycle. This delayed replication is consistent with its condensed structure and generally inactive transcriptional state."
+},
+{
+"question": "Which of the following steps in the N-linked glycosylation pathway occurs on the cytoplasmic side of the endoplasmic reticulum membrane?",
+"options": {
+"A": "Transfer of N-acetylglucosamine (GlcNAc) to dolichol phosphate",
+"B": "Addition of mannose residues to the growing oligosaccharide chain",
+"C": "Flipping of the dolichol-linked oligosaccharide into the ER lumen",
+"D": "Transfer of the oligosaccharide chain to the asparagine residue of the protein",
+"E": "Removal of glucose residues from the oligosaccharide after transfer to the protein"
+},
+"answer": "A",
+"explanation": "The initial step in N-linked glycosylation, the transfer of GlcNAc to dolichol phosphate, takes place on the cytoplasmic side of the ER membrane. Subsequent steps in the pathway, including the addition of mannose residues and the flipping of the dolichol-linked oligosaccharide, occur in the ER lumen."
+},
+{
+"question": "Which of the following statements about the role of aminoacyl-tRNA synthetases in ensuring the fidelity of protein synthesis is true?",
+"options": {
+"A": "Aminoacyl-tRNA synthetases have proofreading mechanisms to correct mischarged tRNAs.",
+"B": "Aminoacyl-tRNA synthetases recognize only the anticodon of the tRNA and ignore the amino acid.",
+"C": "Aminoacyl-tRNA synthetases are promiscuous enzymes that can attach any amino acid to any tRNA.",
+"D": "Aminoacyl-tRNA synthetases rely solely on the shape of the amino acid to ensure correct charging.",
+"E": "Aminoacyl-tRNA synthetases play no role in maintaining the accuracy of protein synthesis."
+},
+"answer": "A",
+  "explanation": "Aminoacyl-tRNA synthetases ensure the fidelity of protein synthesis by attaching the correct amino acid to its corresponding tRNA and employing proofreading mechanisms to detect and correct errors. This maintains the accuracy of translation by preventing mischarged tRNAs from incorporating incorrect amino acids into proteins."
+}
+]
