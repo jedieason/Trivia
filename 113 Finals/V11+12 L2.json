@@ -1,0 +1,458 @@
+[
+{
+"question": "What is the function of basal expression in eukaryotic RNA transcription?",
+"options": {
+"A": "Responding to environmental factors like hormones and heat.",
+"B": "Guiding RNA polymerase II to the correct location and determining the frequency of initiation.",
+"C": "Acting as an enhancer, repressor, or silencer to regulate gene expression.",
+"D": "Binding to specific DNA sequences and interacting with trans-acting factors.",
+"E": "Recruiting coactivators and adaptors to bridge the distance between regulatory elements and the transcription machinery."
+},
+"answer": "B",
+"explanation": "Basal expression, which includes elements like the TATA box, is responsible for guiding RNA polymerase II to the transcription start site and setting the baseline rate of transcription initiation."
+},
+{
+"question": "Which of the following statements about regulated expression in eukaryotic RNA transcription is **INCORRECT**?",
+"options": {
+"A": "It is controlled by elements located distally from the transcription start site.",
+"B": "It can respond to environmental stimuli such as heat shock.",
+"C": "It can function as enhancers, repressors, or silencers.",
+"D": "It always acts in a unidirectional manner, regulating only downstream genes.",
+"E": "It can involve the binding of trans-acting factors to specific DNA sequences."
+},
+"answer": "D",
+"explanation": "Unlike the unidirectional TATA box, regulated expression elements can act bidirectionally, influencing the transcription of both upstream and downstream genes."
+},
+{
+"question": "What is the role of cis-elements in eukaryotic gene regulation?",
+"options": {
+"A": "They are proteins that bind to specific DNA sequences and regulate transcription.",
+"B": "They are non-coding RNA molecules that interact with trans-acting factors.",
+"C": "They are DNA sequences that can interact with trans-acting factors to control gene expression.",
+"D": "They are enzymes involved in the modification and processing of mRNA.",
+"E": "They are structural components of the transcription complex."
+},
+"answer": "C",
+"explanation": "Cis-elements are DNA sequences that do not code for proteins but serve as binding sites for trans-acting factors, which can activate or repress gene expression. Importantly, cis-elements regulate genes located on the same DNA molecule."
+},
+{
+"question": "What is the function of coactivators and adaptors in eukaryotic transcription regulation?",
+"options": {
+"A": "They directly bind to DNA and initiate transcription.",
+"B": "They unwind the DNA double helix at the promoter region.",
+"C": "They phosphorylate RNA polymerase II to activate its polymerization function.",
+"D": "They bridge the distance between trans-acting factors and the DNA-binding proteins.",
+"E": "They recognize and bind to the polyadenylation signal sequence."
+},
+"answer": "D",
+"explanation": "Coactivators and adaptors, like TBP-associated factors (TAFs), help to connect trans-acting factors (activators or repressors) to the transcription machinery by reducing the physical distance between these elements. This is important because activators and repressors can be located far away from the promoter they regulate."
+},
+{
+"question": "Why might siRNA be less effective in regulating gene expression in cells with a tetraploid chromosome structure?",
+"options": {
+"A": "The tetraploid structure makes the DNA more susceptible to degradation.",
+"B": "siRNA cannot efficiently target genes in cells with multiple chromosome copies.",
+"C": "The tightly packed DNA in tetraploid cells can hinder siRNA's access to its target gene.",
+"D": "Tetraploid cells have a more robust RNA repair system, reducing siRNA's impact.",
+"E": "siRNA primarily targets RNA molecules in the cytoplasm, not chromosomal DNA."
+},
+"answer": "C",
+"explanation": "The example of using siRNA to target the p53 gene highlights how chromosome structure can impact RNA transcription regulation. In tetraploid cells, the denser packing of DNA can make it difficult for siRNA to penetrate and effectively target the gene."
+},
+{
+"question": "Which of the following statements about general transcription factors (GTFs) in eukaryotic transcription is **CORRECT**?",
+"options": {
+"A": "Eukaryotic RNA polymerases can independently recognize and bind to promoters.",
+"B": "GTFs are required for the initiation of transcription by all three eukaryotic RNA polymerases.",
+"C": "TFIIH is responsible for recognizing and binding to the TATA box sequence.",
+"D": "RNA polymerase II requires six GTFs to form a functional transcription complex.",
+"E": "The assembly of the transcription complex begins with the binding of TFIIE to RNA polymerase II."
+},
+"answer": "D",
+"explanation": "Unlike prokaryotic RNA polymerases, eukaryotic RNA polymerases, specifically RNA polymerase II, cannot initiate transcription on their own and require the assistance of six GTFs: TFIIA, TFIIB, TFIID, TFIIE, TFIIF, and TFIIH."
+},
+{
+"question": "What is the function of TFIID in the eukaryotic transcription complex?",
+"options": {
+"A": "It unwinds the DNA double helix at the promoter.",
+"B": "It phosphorylates RNA polymerase II to activate transcription.",
+"C": "It recruits RNA polymerase II to the promoter region.",
+"D": "It stabilizes the binding of TFIIB and TBP to the DNA.",
+"E": "It recognizes and binds to the TATA box sequence."
+},
+"answer": "E",
+"explanation": "TFIID plays a critical role in initiating transcription by recognizing and binding to the TATA box sequence through its subunit, TBP (TATA-binding protein)."
+},
+{
+"question": "Which of the following transcription factors is responsible for unwinding the DNA double helix at the promoter during eukaryotic transcription initiation?",
+"options": {
+"A": "TFIIA",
+"B": "TFIIB",
+"C": "TFIID",
+"D": "TFIIE",
+"E": "TFIIH"
+},
+"answer": "E",
+"explanation": "TFIIH has both helicase and kinase activities. Its helicase function unwinds the DNA strands at the promoter, allowing RNA polymerase II to access the template strand."
+},
+{
+"question": "Which amino acid in the carboxy-terminal domain (CTD) of RNA polymerase II is phosphorylated to activate the enzyme's polymerization function?",
+"options": {
+"A": "Tyrosine",
+"B": "Serine",
+"C": "Proline",
+"D": "Threonine",
+"E": "Asparagine"
+},
+"answer": "B",
+"explanation": "The CTD of RNA polymerase II contains a repeating sequence of seven amino acids. Phosphorylation of the fifth serine residue (Ser5) in this repeat by TFIIH's kinase subunit is essential for activating the polymerase activity and enabling transcription elongation."
+},
+{
+"question": "What is the role of the phosphorylated CTD of RNA polymerase II?",
+"options": {
+"A": "It serves as a binding platform for factors involved in mRNA processing.",
+"B": "It directly catalyzes the splicing of pre-mRNA.",
+"C": "It facilitates the transport of mRNA from the nucleus to the cytoplasm.",
+"D": "It terminates transcription by dissociating RNA polymerase II from the DNA.",
+"E": "It recruits general transcription factors to the promoter region."
+},
+"answer": "A",
+"explanation": "The phosphorylated CTD acts as a scaffold, attracting and binding factors necessary for various mRNA processing steps, including 5' capping, splicing, and 3' polyadenylation."
+},
+{
+"question": "What distinguishes the 3' end processing of eukaryotic mRNA from prokaryotic mRNA?",
+"options": {
+"A": "Prokaryotic mRNA undergoes splicing, while eukaryotic mRNA does not.",
+"B": "Eukaryotic mRNA receives a 5' cap, while prokaryotic mRNA does not.",
+"C": "Prokaryotic mRNA has a poly-A tail, while eukaryotic mRNA does not.",
+"D": "Eukaryotic mRNA has a specific polyadenylation signal sequence, while prokaryotic mRNA does not.",
+"E": "Prokaryotic mRNA is transcribed and translated simultaneously, while eukaryotic mRNA is not."
+},
+"answer": "D",
+"explanation": "Eukaryotic mRNAs are characterized by the presence of a specific polyadenylation signal sequence, AAUAAA, which is recognized by various enzymes involved in 3' end processing. Prokaryotic mRNAs lack this signal and do not undergo polyadenylation."
+},
+{
+"question": "What is the primary function of the poly-A tail in eukaryotic mRNA?",
+"options": {
+"A": "It facilitates the binding of ribosomes to the mRNA.",
+"B": "It protects the mRNA from degradation by exonucleases.",
+"C": "It enhances the splicing of introns from the pre-mRNA.",
+"D": "It signals the transport of mRNA from the nucleus to the cytoplasm.",
+"E": "It serves as a recognition site for RNA polymerase II."
+},
+"answer": "B",
+"explanation": "The poly-A tail, added to the 3' end of eukaryotic mRNAs, plays a crucial role in protecting the mRNA molecule from enzymatic degradation by 3' to 5' exonucleases."
+},
+{
+"question": "Which of the following mRNA molecules does **NOT** have a poly-A tail?",
+"options": {
+"A": "Messenger RNA encoding for a heat shock protein",
+"B": "Messenger RNA encoding for the p53 tumor suppressor protein",
+"C": "Messenger RNA encoding for the hormone calcitonin",
+"D": "Histone mRNA",
+"E": "Messenger RNA encoding for the enzyme glucokinase"
+},
+"answer": "D",
+"explanation": "Unlike most eukaryotic mRNAs, histone mRNAs lack a poly-A tail. Instead, they utilize a stem-loop structure near their 3' end for stability and regulation."
+},
+{
+"question": "Which enzyme is responsible for adding the poly-A tail to eukaryotic mRNA?",
+"options": {
+"A": "RNA polymerase II",
+"B": "Endonuclease",
+"C": "Poly(A) polymerase",
+"D": "RNase",
+"E": "Helicase"
+},
+"answer": "C",
+"explanation": "Poly(A) polymerase is the enzyme responsible for catalyzing the addition of adenine nucleotides to the 3' end of the cleaved mRNA, forming the poly-A tail."
+},
+{
+"question": "What is the role of the protein Xrn2 in transcription termination?",
+"options": {
+"A": "It acts as an anti-terminator, preventing premature termination.",
+"B": "It phosphorylates RNA polymerase II to signal termination.",
+"C": "It degrades the remaining RNA molecule after cleavage.",
+"D": "It unwinds the DNA-RNA hybrid to release the RNA polymerase.",
+"E": "It recognizes and binds to the polyadenylation signal sequence."
+},
+"answer": "C",
+"explanation": "Xrn2 is an RNase involved in transcription termination. It degrades the RNA fragment downstream of the cleavage site, ensuring the complete termination of transcription."
+},
+{
+"question": "What are the components of a spliceosome?",
+"options": {
+"A": "Proteins and ribosomal RNA",
+"B": "DNA and RNA polymerases",
+"C": "Small nuclear ribonucleoproteins (snRNPs)",
+"D": "Transfer RNA and aminoacyl-tRNA synthetases",
+"E": "Ribosomes and messenger RNA"
+},
+"answer": "C",
+"explanation": "Spliceosomes, the molecular machinery responsible for splicing, are complex structures composed of small nuclear RNAs (snRNAs) and numerous proteins, forming snRNPs."
+},
+{
+"question": "Which of the following snRNAs is **NOT** involved in mRNA splicing?",
+"options": {
+"A": "U1",
+"B": "U2",
+"C": "U3",
+"D": "U4",
+"E": "U5"
+},
+"answer": "C",
+"explanation": "While U1, U2, U4, U5, and U6 snRNAs participate in mRNA splicing, U3 snRNA is involved in other processes within the nucleus and is not part of the spliceosome."
+},
+{
+"question": "What is the function of U1 snRNA during mRNA splicing?",
+"options": {
+"A": "It recognizes and binds to the branch point within the intron.",
+"B": "It catalyzes the formation of the lariat structure.",
+"C": "It recognizes and binds to the 3' splice site.",
+"D": "It helps assemble the inactive spliceosome complex.",
+"E": "It recognizes and binds to the 5' splice site."
+},
+"answer": "E",
+"explanation": "U1 snRNA plays a critical role in initiating splicing by recognizing and base-pairing with the conserved GU sequence at the 5' splice site of the intron."
+},
+{
+"question": "What nucleotide sequence marks the 3' splice site of an intron?",
+"options": {
+"A": "GU",
+"B": "AG",
+"C": "AAUAAA",
+"D": "AUG",
+"E": "CCA"
+},
+"answer": "B",
+"explanation": "The 3' splice site of an intron is characterized by a conserved AG dinucleotide sequence, which is essential for proper splicing."
+},
+{
+"question": "What is the role of the branch point during mRNA splicing?",
+"options": {
+"A": "It serves as the site for U1 snRNA binding.",
+"B": "It marks the beginning of the intron sequence.",
+"C": "It provides the nucleophile for the first transesterification reaction.",
+"D": "It is the site where the two exons are joined together.",
+"E": "It is recognized and bound by the U5 snRNA."
+},
+"answer": "C",
+"explanation": "The branch point, typically an adenine nucleotide within the intron, is crucial for splicing. Its 2'-OH group acts as the nucleophile, attacking the 5' splice site and initiating the formation of the lariat structure."
+},
+{
+"question": "What is a ribozyme?",
+"options": {
+"A": "A protein enzyme that catalyzes RNA splicing",
+"B": "A small RNA molecule that guides the spliceosome",
+"C": "A complex of proteins and RNA involved in translation",
+"D": "An RNA molecule with catalytic activity",
+"E": "A DNA sequence that regulates gene expression"
+},
+"answer": "D",
+"explanation": "Ribozymes are RNA molecules that possess enzymatic activity. The spliceosome, while containing proteins, relies on the catalytic properties of its RNA components for splicing."
+},
+{
+"question": "Which ions are required for the catalytic activity of the spliceosome?",
+"options": {
+"A": "Sodium and potassium",
+"B": "Calcium and chloride",
+"C": "Iron and zinc",
+"D": "Magnesium and manganese",
+"E": "Copper and cobalt"
+},
+"answer": "D",
+"explanation": "Structural analysis of the spliceosome has revealed that its catalytic activity depends on the presence of divalent metal ions, specifically magnesium (Mg2+) and manganese (Mn2+). These ions likely play a role in stabilizing the RNA structure and facilitating the transesterification reactions."
+},
+{
+"question": "What is the primary difference between Group I and Group II self-splicing introns?",
+"options": {
+"A": "Group I introns require a guanosine cofactor, while Group II introns do not.",
+"B": "Group I introns form a lariat structure, while Group II introns do not.",
+"C": "Group I introns are found in the nucleus, while Group II introns are found in organelles.",
+"D": "Group I introns utilize a protein enzyme for splicing, while Group II introns do not.",
+"E": "Group I introns are removed in a linear form, while Group II introns form a circular structure."
+},
+"answer": "A",
+"explanation": "Group I self-splicing introns utilize an external guanosine nucleotide as a cofactor, while Group II introns rely on an internal adenosine residue for splicing."
+},
+{
+"question": "Which cellular compartments contain Group II self-splicing introns?",
+"options": {
+"A": "Nucleus and cytoplasm",
+"B": "Endoplasmic reticulum and Golgi apparatus",
+"C": "Lysosomes and peroxisomes",
+"D": "Mitochondria and chloroplasts",
+"E": "Vacuoles and ribosomes"
+},
+"answer": "D",
+"explanation": "Group II introns, capable of self-splicing, are primarily found in the genomes of organelles like mitochondria and chloroplasts."
+},
+{
+"question": "What are the three main steps involved in tRNA maturation?",
+"options": {
+"A": "Transcription, translation, and protein folding",
+"B": "5' and 3' cleavage, splicing, and base modification with CCA addition",
+"C": "Capping, polyadenylation, and splicing",
+"D": "Initiation, elongation, and termination",
+"E": "Replication, transcription, and translation"
+},
+"answer": "B",
+"explanation": "The maturation of tRNA involves three key steps: (1) cleavage of the 5' and 3' ends by RNases, (2) removal of introns through splicing, and (3) modification of bases and addition of the CCA sequence to the 3' end."
+},
+{
+"question": "Which enzyme is responsible for cleaving the 5' end of pre-tRNA during its maturation?",
+"options": {
+"A": "RNase D",
+"B": "RNase P",
+"C": "Endonuclease",
+"D": "Exonuclease",
+"E": "Poly(A) polymerase"
+},
+"answer": "B",
+"explanation": "RNase P, a ribozyme with both protein and RNA components, catalyzes the removal of the 5' leader sequence from pre-tRNA during its processing."
+},
+{
+"question": "What is the function of the CCA sequence added to the 3' end of mature tRNA?",
+"options": {
+"A": "It serves as the binding site for the amino acid.",
+"B": "It protects the tRNA from degradation.",
+"C": "It interacts with the ribosome during translation.",
+"D": "It facilitates the transport of tRNA to the cytoplasm.",
+"E": "It is involved in the recognition of the mRNA codon."
+},
+"answer": "A",
+"explanation": "The CCA sequence, added to the 3' end of all tRNAs, is essential for tRNA function. The amino acid corresponding to the tRNA's anticodon is attached to the terminal adenosine of the CCA sequence."
+},
+{
+"question": "Which type of chemical reaction is involved in both Group I and Group II self-splicing?",
+"options": {
+"A": "Hydrolysis",
+"B": "Phosphorylation",
+"C": "Transesterification",
+"D": "Oxidation",
+"E": "Reduction"
+},
+"answer": "C",
+"explanation": "Both Group I and Group II self-splicing mechanisms rely on two transesterification reactions. In these reactions, phosphodiester bonds are broken and reformed, ultimately leading to the removal of the intron and the joining of the exons."
+},
+{
+"question": "What is the significance of alternative splicing in eukaryotic gene expression?",
+"options": {
+"A": "It allows for the production of multiple protein isoforms from a single gene.",
+"B": "It enhances the rate of transcription initiation.",
+"C": "It ensures the accurate removal of all introns from pre-mRNA.",
+"D": "It regulates the transport of mRNA from the nucleus to the cytoplasm.",
+"E": "It controls the degradation of mRNA molecules in the cytoplasm."
+},
+"answer": "A",
+"explanation": "Alternative splicing is a crucial regulatory mechanism that allows a single gene to produce multiple protein isoforms with potentially diverse functions. This is achieved by selectively including or excluding different exons during the splicing process."
+},
+{
+"question": "Which of the following is **NOT** a type of alternative splicing?",
+"options": {
+"A": "Exon skipping",
+"B": "Intron retention",
+"C": "Alternative 5' donor site selection",
+"D": "Alternative 3' acceptor site selection",
+"E": "Alternative polyadenylation site selection"
+},
+"answer": "E",
+"explanation": "While alternative polyadenylation site selection can lead to mRNA variants with different 3' ends, it is not considered a type of alternative splicing. Alternative splicing specifically refers to variations in the selection of splice sites within the pre-mRNA."
+},
+{
+"question": "How can the choice of polyadenylation site affect gene expression?",
+"options": {
+"A": "It can alter the stability and translational efficiency of the mRNA.",
+"B": "It can change the amino acid sequence of the encoded protein.",
+"C": "It can prevent the splicing of introns from the pre-mRNA.",
+"D": "It can inhibit the binding of RNA polymerase II to the promoter.",
+"E": "It can activate the degradation of mRNA molecules in the nucleus."
+},
+"answer": "A",
+"explanation": "The selection of different polyadenylation sites can influence gene expression by producing mRNA isoforms with varying lengths of their 3' untranslated regions (3' UTRs). These differences in 3' UTR length can impact mRNA stability, translation efficiency, and even the subcellular localization of the mRNA."
+},
+{
+"question": "What is the relationship between alternative splicing and the complexity of an organism's proteome?",
+"options": {
+"A": "Organisms with simpler proteomes tend to have higher rates of alternative splicing.",
+"B": "Alternative splicing reduces the diversity of proteins that can be produced from a genome.",
+"C": "There is no clear correlation between alternative splicing and the complexity of an organism's proteome.",
+"D": "Alternative splicing contributes to the expansion of the proteome, allowing for greater functional diversity.",
+"E": "Alternative splicing primarily affects the regulation of gene expression at the transcriptional level."
+},
+"answer": "D",
+"explanation": "Alternative splicing significantly contributes to the complexity of an organism's proteome. It allows a limited number of genes to generate a much larger pool of protein isoforms, enhancing the functional diversity and adaptability of the organism."
+},
+{
+"question": "What is the function of the enzyme glucokinase?",
+"options": {
+"A": "It catalyzes the conversion of glucose to glucose-6-phosphate.",
+"B": "It regulates blood calcium levels.",
+"C": "It triggers inflammatory responses.",
+"D": "It is a tumor suppressor protein.",
+"E": "It is a transcription factor involved in gene regulation."
+},
+"answer": "A",
+"explanation": "Glucokinase is a key enzyme in glucose metabolism, responsible for phosphorylating glucose to glucose-6-phosphate, the first step in glycolysis."
+},
+{
+"question": "How does alternative splicing affect the glucokinase gene?",
+"options": {
+"A": "It produces glucokinase isoforms with different enzymatic activities.",
+"B": "It results in glucokinase proteins with variations in their N-terminal amino acid sequence.",
+"C": "It alters the subcellular localization of glucokinase in different tissues.",
+"D": "It regulates the expression of glucokinase at the transcriptional level.",
+"E": "It modifies the 3' UTR of glucokinase mRNA, affecting its stability."
+},
+"answer": "B",
+"explanation": "Alternative splicing of the glucokinase gene leads to tissue-specific isoforms with differences in their N-terminal amino acid sequence. While their enzymatic activity remains similar, these variations may influence their regulation and kinetic properties."
+},
+{
+"question": "How can the choice of promoter influence the expression of a gene?",
+"options": {
+"A": "Different promoters can have varying affinities for RNA polymerase, affecting transcription rates.",
+"B": "Promoter selection determines the alternative splicing pattern of the pre-mRNA.",
+"C": "The choice of promoter influences the stability of the mRNA molecule.",
+"D": "Promoter usage dictates the subcellular localization of the protein product.",
+"E": "Alternative promoters can lead to the production of proteins with different amino acid sequences."
+},
+"answer": "A",
+"explanation": "The selection of different promoters for a gene can impact its expression levels. Promoters vary in their strength, meaning their ability to recruit RNA polymerase and initiate transcription can differ. This results in varying rates of transcription and ultimately affects the amount of protein produced."
+},
+{
+"question": "Which of the following mechanisms contributes to the diversity of protein products from a single gene in eukaryotes?",
+"options": {
+"A": "Alternative splicing",
+"B": "Selection of different polyadenylation sites",
+"C": "Choice of different promoters",
+"D": "All of the above",
+"E": "None of the above"
+},
+"answer": "D",
+"explanation": "Eukaryotic cells employ multiple mechanisms to diversify their proteome from a limited number of genes. Alternative splicing, selection of polyadenylation sites, and the use of different promoters all contribute to generating various protein isoforms from a single gene."
+},
+{
+"question": "Why is RNA considered a more favorable target for editing compared to DNA?",
+"options": {
+"A": "RNA is more stable than DNA and less susceptible to degradation.",
+"B": "RNA lacks the repair systems present in DNA, making editing more efficient.",
+"C": "RNA editing can directly alter protein sequences without modifying the genome.",
+"D": "RNA is more accessible for editing due to its localization in the cytoplasm.",
+"E": "RNA editing techniques are more advanced and widely applicable than DNA editing methods."
+},
+"answer": "B",
+"explanation": "RNA is often preferred for editing because it lacks the sophisticated repair mechanisms found in DNA. This makes RNA editing more efficient and less prone to reversal. Additionally, editing RNA allows for transient changes in protein expression without permanently altering the genome."
+},
+{
+"question": "What is a potential concern associated with RNA editing for therapeutic applications?",
+"options": {
+"A": "RNA editing can permanently alter the DNA sequence, leading to unintended consequences.",
+"B": "Edited RNA molecules may trigger an immune response, causing adverse reactions.",
+"C": "RNA editing is a highly inefficient process with limited therapeutic potential.",
+"D": "RNA editing cannot specifically target disease-causing genes.",
+"E": "RNA editing techniques are ethically controversial and face regulatory hurdles."
+},
+"answer": "B",
+"explanation": "One of the challenges in developing RNA editing therapies is the potential for triggering immune responses. The introduction of modified RNA molecules into cells can be recognized as foreign by the immune system, leading to inflammation or other adverse effects."
+}
+]
