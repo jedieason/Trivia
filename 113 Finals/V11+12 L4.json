@@ -1,0 +1,578 @@
+[
+{
+"question": "Which of the following is NOT a characteristic of constitutive genes?",
+"options": {
+"A": "They are constantly active.",
+"B": "They are involved in maintaining basic cellular functions.",
+"C": "They are also known as housekeeping genes.",
+"D": "Their expression levels are tightly regulated.",
+"E": "Their products are consistently required by the cell."
+},
+"answer": "D",
+"explanation": "Constitutive genes are constantly expressed and not subject to tight regulation as their products are always needed for basic cellular functions."
+},
+{
+"question": "What is the primary mechanism by which gene expression is regulated in cells?",
+"options": {
+"A": "DNA replication",
+"B": "mRNA translation",
+"C": "Transcription initiation",
+"D": "Post-translational modification",
+"E": "Chromatin remodeling"
+},
+"answer": "C",
+"explanation": "The majority of gene regulation occurs at the stage of transcription initiation, as it is the most efficient point of control."
+},
+{
+"question": "How do repressor proteins inhibit gene expression?",
+"options": {
+"A": "By binding to the promoter and blocking RNA polymerase.",
+"B": "By enhancing the binding of RNA polymerase to the promoter.",
+"C": "By modifying the structure of the mRNA transcript.",
+"D": "By degrading the protein product of the gene.",
+"E": "By promoting the degradation of the mRNA transcript."
+},
+"answer": "A",
+"explanation": "Repressor proteins bind to the operator region of the promoter, preventing RNA polymerase from binding and initiating transcription."
+},
+{
+"question": "What is the role of DNA-bending proteins in gene regulation?",
+"options": {
+"A": "To prevent DNA replication.",
+"B": "To facilitate the interaction between regulatory proteins and RNA polymerase.",
+"C": "To inhibit the binding of regulatory proteins to DNA.",
+"D": "To degrade the DNA molecule.",
+"E": "To repair damaged DNA segments."
+},
+"answer": "B",
+"explanation": "When regulatory proteins are located far from RNA polymerase, DNA-bending proteins can create DNA loops, bringing the regulatory proteins closer to the polymerase to facilitate their interaction."
+},
+{
+"question": "Which of the following describes the diauxic growth phenomenon observed in E. coli when grown in a medium containing both glucose and lactose?",
+"options": {
+"A": "E. coli utilizes both glucose and lactose simultaneously.",
+"B": "E. coli utilizes lactose first, followed by glucose.",
+"C": "E. coli utilizes glucose first, followed by lactose.",
+"D": "E. coli cannot utilize either glucose or lactose.",
+"E": "E. coli utilizes glucose and lactose at an equal rate."
+},
+"answer": "C",
+"explanation": "E. coli prefers glucose as an energy source and will utilize it first before switching to lactose when glucose is depleted. This results in a two-phase growth pattern."
+},
+{
+"question": "In the context of the lac operon, what is the function of the lacZ gene?",
+"options": {
+"A": "It encodes for the repressor protein that binds to the operator.",
+"B": "It encodes for the enzyme β-galactosidase, which breaks down lactose.",
+"C": "It encodes for the permease protein that transports lactose into the cell.",
+"D": "It encodes for the transacetylase enzyme involved in lactose metabolism.",
+"E": "It encodes for the RNA polymerase that transcribes the lac operon genes."
+},
+"answer": "B",
+"explanation": "The lacZ gene within the lac operon codes for the enzyme β-galactosidase, responsible for hydrolyzing lactose into glucose and galactose."
+},
+{
+"question": "What does the term 'polycistronic' refer to in the context of gene expression?",
+"options": {
+"A": "A single promoter controlling the expression of multiple genes.",
+"B": "Multiple promoters controlling the expression of a single gene.",
+"C": "A single gene encoding for multiple proteins.",
+"D": "Multiple genes encoding for a single protein.",
+"E": "A single mRNA molecule encoding for a single protein."
+},
+"answer": "A",
+"explanation": "Polycistronic refers to the arrangement where a single promoter regulates the expression of several genes, as seen in the lac operon of prokaryotes."
+},
+{
+"question": "What is the function of the lacI gene in the lac operon?",
+"options": {
+"A": "It encodes for the enzyme β-galactosidase.",
+"B": "It encodes for the permease protein that transports lactose into the cell.",
+"C": "It encodes for the repressor protein that binds to the operator.",
+"D": "It encodes for the transacetylase enzyme involved in lactose metabolism.",
+"E": "It encodes for the RNA polymerase that transcribes the lac operon genes."
+},
+"answer": "C",
+"explanation": "The lacI gene, positioned upstream of the promoter, codes for the LacI repressor protein which regulates the lac operon."
+},
+{
+"question": "In Jacob and Monod's experiments on the lac operon, what did the genotype i-z+ indicate?",
+"options": {
+"A": "A normal lacI gene and a mutant lacZ gene.",
+"B": "A mutant lacI gene and a normal lacZ gene.",
+"C": "Mutant lacI and lacZ genes.",
+"D": "Normal lacI and lacZ genes.",
+"E": "A partially functional lacI gene and a normal lacZ gene."
+},
+"answer": "B",
+"explanation": "The genotype i-z+ represents a mutation in the lacI gene, leading to a non-functional repressor, while the lacZ gene remains normal."
+},
+{
+"question": "What is the role of IPTG in studies of the lac operon?",
+"options": {
+"A": "It acts as a substrate for β-galactosidase.",
+"B": "It inhibits the activity of β-galactosidase.",
+"C": "It acts as an inducer by binding to the repressor protein.",
+"D": "It promotes the binding of the repressor protein to the operator.",
+"E": "It enhances the transcription of the lac operon genes."
+},
+"answer": "C",
+"explanation": "IPTG is a non-metabolizable analog of lactose that functions as an inducer in lac operon studies. It binds to the repressor, preventing it from inhibiting gene expression."
+},
+{
+"question": "Which of the following best describes the function of an operator in an operon?",
+"options": {
+"A": "It encodes for the repressor protein.",
+"B": "It is a DNA sequence that binds to RNA polymerase.",
+"C": "It is a DNA sequence that binds to regulatory proteins, controlling gene expression.",
+"D": "It is a protein that enhances the transcription of genes.",
+"E": "It is a protein that inhibits the translation of mRNA."
+},
+"answer": "C",
+"explanation": "The operator is a specific DNA sequence within the operon where regulatory proteins, such as repressors or inducers, bind to modulate gene transcription."
+},
+{
+"question": "What is the significance of the overlapping region between the operator and the promoter in the lac operon?",
+"options": {
+"A": "It allows for simultaneous binding of RNA polymerase and the repressor protein.",
+"B": "It prevents the binding of RNA polymerase when the repressor is bound.",
+"C": "It enhances the binding of RNA polymerase to the promoter.",
+"D": "It allows for the transcription of the lacI gene.",
+"E": "It facilitates the binding of the CAP-cAMP complex."
+},
+"answer": "B",
+"explanation": "The overlap between the operator and promoter sequences enables the repressor protein, when bound to the operator, to physically hinder RNA polymerase from attaching to the promoter and initiating transcription."
+},
+{
+"question": "How does glucose regulate the expression of the lac operon?",
+"options": {
+"A": "Glucose directly binds to the operator and inhibits transcription.",
+"B": "Glucose enhances the binding of the repressor protein to the operator.",
+"C": "Glucose inhibits the activity of adenylate cyclase, leading to decreased cAMP levels.",
+"D": "Glucose promotes the formation of the CAP-cAMP complex.",
+"E": "Glucose directly binds to RNA polymerase and prevents transcription."
+},
+"answer": "C",
+"explanation": "Glucose indirectly regulates the lac operon by suppressing adenylate cyclase activity, which reduces cAMP levels. This prevents the formation of the CAP-cAMP complex needed for optimal gene expression."
+},
+{
+"question": "What is the role of the catabolite activator protein (CAP) in the regulation of the lac operon?",
+"options": {
+"A": "It binds to the operator and inhibits transcription.",
+"B": "It enhances the binding of RNA polymerase to the promoter in the presence of cAMP.",
+"C": "It acts as a repressor protein, preventing gene expression.",
+"D": "It degrades the mRNA transcript of the lac operon genes.",
+"E": "It binds to lactose and facilitates its transport into the cell."
+},
+"answer": "B",
+"explanation": "CAP, when bound to cAMP, forms a complex that binds to the lac promoter, facilitating the binding of RNA polymerase and enhancing transcription."
+},
+{
+"question": "How does CAP activate gene expression in the lac operon?",
+"options": {
+"A": "By binding to the operator and displacing the repressor protein.",
+"B": "By interacting with the α subunit of RNA polymerase and promoting its binding to the promoter.",
+"C": "By modifying the structure of the DNA molecule.",
+"D": "By degrading the repressor protein.",
+"E": "By enhancing the translation of the lac operon mRNA."
+},
+"answer": "B",
+"explanation": "The activated CAP-cAMP complex interacts with the C-terminal domain (CTD) of the α subunit of RNA polymerase, promoting its binding to the promoter region and facilitating transcription initiation."
+},
+{
+"question": "What is the primary difference in the regulatory mechanism between the lac operon and the trp operon?",
+"options": {
+"A": "The lac operon is inducible, while the trp operon is repressible.",
+"B": "The lac operon is repressible, while the trp operon is inducible.",
+"C": "The lac operon is regulated by glucose, while the trp operon is regulated by lactose.",
+"D": "The lac operon is regulated by allolactose, while the trp operon is regulated by glucose.",
+"E": "The lac operon is found in eukaryotes, while the trp operon is found in prokaryotes."
+},
+"answer": "A",
+"explanation": "The lac operon is induced by the presence of lactose (or its analog, allolactose), while the trp operon is repressed by the presence of tryptophan."
+},
+{
+"question": "What is the function of tryptophan in the regulation of the trp operon?",
+"options": {
+"A": "It acts as an inducer, promoting gene expression.",
+"B": "It acts as a co-repressor, binding to the repressor protein and activating it.",
+"C": "It directly binds to the operator and inhibits transcription.",
+"D": "It inhibits the binding of RNA polymerase to the promoter.",
+"E": "It enhances the degradation of the trp operon mRNA."
+},
+"answer": "B",
+"explanation": "Tryptophan functions as a co-repressor in the trp operon. It binds to the inactive repressor protein, causing a conformational change that allows the repressor to bind to the operator and inhibit transcription."
+},
+{
+"question": "What is the mechanism of attenuation in the regulation of the trp operon?",
+"options": {
+"A": "Regulation of transcription based on the availability of tryptophan.",
+"B": "Regulation of translation based on the availability of tryptophan.",
+"C": "Regulation of DNA replication based on the availability of tryptophan.",
+"D": "Regulation of mRNA splicing based on the availability of tryptophan.",
+"E": "Regulation of protein degradation based on the availability of tryptophan."
+},
+"answer": "B",
+"explanation": "Attenuation in the trp operon is a regulatory mechanism at the translational level. It controls the completion of transcription based on the concentration of tryptophan-charged tRNA (Trp-tRNAtrp)."
+},
+{
+"question": "What role do the leader sequence and the formation of hairpin structures play in the attenuation mechanism of the trp operon?",
+"options": {
+"A": "The leader sequence encodes for a regulatory protein that controls transcription.",
+"B": "The formation of hairpin structures in the leader sequence determines whether transcription continues or terminates.",
+"C": "The leader sequence binds to the repressor protein, preventing it from binding to the operator.",
+"D": "The formation of hairpin structures in the leader sequence enhances the binding of RNA polymerase to the promoter.",
+"E": "The leader sequence encodes for a small peptide that inhibits the translation of the trp operon genes."
+},
+"answer": "B",
+"explanation": "The leader sequence in the trp operon mRNA can form different hairpin structures depending on the availability of tryptophan. These structures determine whether RNA polymerase continues transcribing the operon or terminates prematurely."
+},
+{
+"question": "What happens when tryptophan levels are low in the context of attenuation in the trp operon?",
+"options": {
+"A": "The ribosome stalls at the Trp codons in the leader sequence, preventing the formation of the terminator hairpin and allowing transcription to continue.",
+"B": "The ribosome quickly translates the leader sequence, allowing the formation of the terminator hairpin and causing transcription to terminate.",
+"C": "The repressor protein binds to the operator, inhibiting transcription.",
+"D": "The CAP-cAMP complex binds to the promoter, enhancing transcription.",
+"E": "The trp operon genes are not transcribed."
+},
+"answer": "A",
+"explanation": "When tryptophan is scarce, the ribosome pauses at the Trp codons in the leader sequence. This stalling prevents the formation of the terminator hairpin, allowing RNA polymerase to continue transcribing the operon."
+},
+{
+"question": "What is the purpose of the DNase I footprinting technique?",
+"options": {
+"A": "To determine the sequence of a DNA molecule.",
+"B": "To identify the binding sites of proteins on DNA.",
+"C": "To amplify specific DNA sequences.",
+"D": "To cut DNA molecules at specific recognition sites.",
+"E": "To separate DNA fragments based on their size."
+},
+"answer": "B",
+"explanation": "DNase I footprinting is used to identify the specific regions of DNA where proteins bind. It involves using DNase I to cleave DNA, and the bound protein protects its binding site from cleavage, creating a 'footprint' on a gel."
+},
+{
+"question": "What is the first step in the DNase I footprinting technique?",
+"options": {
+"A": "Incubating the DNA with a protein of interest.",
+"B": "Digesting the DNA with DNase I.",
+"C": "Radioactively labeling the 5' end of the DNA molecule.",
+"D": "Running the DNA fragments on a gel electrophoresis.",
+"E": "Analyzing the DNA sequence."
+},
+"answer": "C",
+"explanation": "The initial step in DNase I footprinting is to radioactively label the 5' end of the DNA molecule being studied. This allows for visualization of the DNA fragments after digestion."
+},
+{
+"question": "Why is DNase I used in limited amounts in the footprinting technique?",
+"options": {
+"A": "To completely digest the DNA molecule.",
+"B": "To ensure that each DNA molecule is cut only once on average.",
+"C": "To prevent the degradation of the protein of interest.",
+"D": "To enhance the binding of the protein to DNA.",
+"E": "To minimize the cost of the experiment."
+},
+"answer": "B",
+"explanation": "DNase I is used in limited quantities to ensure that, ideally, each DNA molecule is cleaved only once, creating a range of fragment sizes for analysis."
+},
+{
+"question": "How is the binding site of a protein determined in the DNase I footprinting technique?",
+"options": {
+"A": "By observing a band of increased intensity on the gel.",
+"B": "By analyzing the sequence of the DNA fragments.",
+"C": "By identifying a region on the gel where DNA fragments are missing.",
+"D": "By comparing the results to a control sample without the protein.",
+"E": "By measuring the size of the DNA fragments."
+},
+"answer": "C",
+"explanation": "In DNase I footprinting, the protein binding site is identified by a 'footprint' on the gel, a gap in the ladder of DNA fragments where the protein protected the DNA from DNase I cleavage."
+},
+{
+"question": "What structural feature of the lac operator was revealed by DNase I footprinting experiments?",
+"options": {
+"A": "The lac operator is a short, linear sequence of DNA.",
+"B": "The lac operator contains a long, repetitive sequence of DNA.",
+"C": "The lac operator is an imperfect palindrome, suggesting the repressor protein binds as a dimer.",
+"D": "The lac operator contains multiple binding sites for the repressor protein.",
+"E": "The lac operator overlaps with the binding site of the CAP-cAMP complex."
+},
+"answer": "C",
+"explanation": "DNase I footprinting revealed that the lac operator sequence exhibits an imperfect palindromic structure. This finding suggests that the repressor protein binds to the DNA as a dimer, with each subunit recognizing a half of the palindromic sequence."
+},
+{
+"question": "What is a palindrome in the context of DNA sequences?",
+"options": {
+"A": "A sequence that reads the same backward as it does forward.",
+"B": "A sequence that is repeated multiple times in the genome.",
+"C": "A sequence that encodes for a protein with a symmetrical structure.",
+"D": "A sequence that is highly conserved among different species.",
+"E": "A sequence that is prone to mutations."
+},
+"answer": "A",
+"explanation": "A DNA palindrome is a sequence that reads the same in the 5' to 3' direction on both strands, creating a symmetrical sequence."
+},
+{
+"question": "Which structural motif is commonly found in bacterial DNA-binding proteins, including the lac repressor and CAP?",
+"options": {
+"A": "Zinc finger",
+"B": "Leucine zipper",
+"C": "Helix-loop-helix",
+"D": "Helix-turn-helix",
+"E": "Beta sheet"
+},
+"answer": "D",
+"explanation": "The helix-turn-helix motif is a common structural element found in many bacterial DNA-binding proteins, including the lac repressor and CAP. It allows these proteins to recognize and bind to specific DNA sequences."
+},
+{
+"question": "How does the helix-turn-helix motif facilitate DNA binding?",
+"options": {
+"A": "The first helix binds to the sugar-phosphate backbone, while the second helix interacts with the major groove of the DNA.",
+"B": "The first helix interacts with the major groove, while the second helix stabilizes the binding by interacting with the sugar-phosphate backbone.",
+"C": "The first helix interacts with the minor groove, while the second helix stabilizes the binding by interacting with the sugar-phosphate backbone.",
+"D": "The first and second helices both interact with the major groove of the DNA.",
+"E": "The first and second helices both interact with the minor groove of the DNA."
+},
+"answer": "B",
+"explanation": "In the helix-turn-helix motif, the second helix (recognition helix) is positioned within the major groove of the DNA, enabling interactions with specific base pairs. The first helix provides structural support by interacting with the sugar-phosphate backbone."
+},
+{
+"question": "What is the role of the 'turn' in the helix-turn-helix motif?",
+"options": {
+"A": "It allows for flexibility in the protein structure.",
+"B": "It provides a binding site for cofactors.",
+"C": "It orients the recognition helix for proper interaction with the major groove.",
+"D": "It facilitates dimerization of the protein.",
+"E": "It enhances the affinity of the protein for DNA."
+},
+"answer": "C",
+"explanation": "The 'turn' in the helix-turn-helix motif is crucial for correctly positioning the recognition helix within the major groove, allowing it to make specific contacts with the DNA bases."
+},
+{
+"question": "Why is the major groove of DNA a preferred site for protein binding?",
+"options": {
+"A": "The major groove is wider and provides more space for protein interactions.",
+"B": "The major groove exposes more chemical groups of the DNA bases, allowing for greater specificity in protein binding.",
+"C": "The major groove is more flexible than the minor groove, allowing for conformational changes upon protein binding.",
+"D": "The major groove is more accessible to proteins due to the arrangement of the sugar-phosphate backbone.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "The major groove of DNA is more favorable for protein binding due to its wider structure, increased exposure of base-specific chemical groups, greater flexibility, and accessibility compared to the minor groove."
+},
+{
+"question": "How do amino acid residues in the recognition helix of a DNA-binding protein contribute to sequence-specific DNA binding?",
+"options": {
+"A": "They form covalent bonds with the DNA bases.",
+"B": "They interact with the sugar-phosphate backbone of DNA.",
+"C": "They form hydrogen bonds and electrostatic interactions with specific chemical groups in the major groove.",
+"D": "They intercalate between DNA base pairs.",
+"E": "They induce conformational changes in the DNA structure."
+},
+"answer": "C",
+"explanation": "Amino acid residues within the recognition helix establish specific interactions with the exposed chemical groups of DNA bases in the major groove. These interactions involve hydrogen bonds and electrostatic forces, enabling the protein to recognize and bind to a particular DNA sequence."
+},
+{
+"question": "What type of interaction is most likely to occur between a positively charged amino acid residue in a DNA-binding protein and the DNA molecule?",
+"options": {
+"A": "Hydrogen bonding with a base.",
+"B": "Electrostatic interaction with the sugar-phosphate backbone.",
+"C": "Hydrophobic interaction with a base.",
+"D": "Covalent bonding with a base.",
+"E": "Intercalation between base pairs."
+},
+"answer": "B",
+"explanation": "Positively charged amino acid residues in a DNA-binding protein are likely to engage in electrostatic interactions with the negatively charged phosphate groups in the sugar-phosphate backbone of the DNA molecule."
+},
+{
+"question": "What is the main difference between constitutive genes and regulated genes?",
+"options": {
+"A": "Constitutive genes are only found in prokaryotes, while regulated genes are found in both prokaryotes and eukaryotes.",
+"B": "Constitutive genes are always expressed, while regulated genes are only expressed under specific conditions.",
+"C": "Constitutive genes are involved in specialized cellular functions, while regulated genes are involved in basic cellular functions.",
+"D": "Constitutive genes are transcribed by RNA polymerase II, while regulated genes are transcribed by RNA polymerase I.",
+"E": "Constitutive genes are not subject to mutations, while regulated genes are susceptible to mutations."
+},
+"answer": "B",
+"explanation": "The key difference lies in their expression patterns: constitutive genes are continuously expressed, while regulated genes are turned on or off based on cellular needs or environmental cues."
+},
+{
+"question": "Why is the regulation of gene expression important for cells?",
+"options": {
+"A": "It allows cells to respond to changes in their environment.",
+"B": "It conserves energy by preventing the production of unnecessary proteins.",
+"C": "It enables cells to differentiate into specialized cell types.",
+"D": "It ensures the proper timing and coordination of cellular processes.",
+"E": "All of the above"
+},
+"answer": "E",
+"explanation": "Gene regulation is crucial for cellular adaptation, energy conservation, differentiation, and the precise orchestration of various biological processes."
+},
+{
+"question": "What is the role of extracellular signals in gene regulation?",
+"options": {
+"A": "They directly bind to DNA and activate gene expression.",
+"B": "They inhibit the binding of RNA polymerase to the promoter.",
+"C": "They trigger signal transduction pathways that ultimately affect the activity of regulatory proteins.",
+"D": "They modify the structure of DNA, making it more accessible for transcription.",
+"E": "They degrade mRNA transcripts, preventing protein synthesis."
+},
+"answer": "C",
+"explanation": "Extracellular signals initiate signaling cascades within the cell, influencing the activity of regulatory proteins such as activators and repressors, which then modulate gene expression."
+},
+{
+"question": "How do activators enhance gene expression?",
+"options": {
+"A": "By binding to the operator and blocking the repressor protein.",
+"B": "By interacting with RNA polymerase and promoting its binding to the promoter.",
+"C": "By modifying the structure of DNA, making it more accessible for transcription.",
+"D": "By stabilizing the mRNA transcript, preventing its degradation.",
+"E": "By enhancing the translation of the mRNA transcript."
+},
+"answer": "B, C",
+"explanation": "Activator proteins can enhance gene expression by facilitating RNA polymerase binding to the promoter, and some activators can modify DNA structure to increase its accessibility for transcription."
+},
+{
+"question": "What is the significance of the basal level of gene expression?",
+"options": {
+"A": "It represents the maximum level of gene expression.",
+"B": "It ensures that a minimal amount of protein product is always present in the cell.",
+"C": "It prevents the complete silencing of a gene.",
+"D": "It is the same for all genes in a cell.",
+"E": "It is not affected by regulatory proteins."
+},
+"answer": "B, C",
+"explanation": "The basal level of gene expression ensures a minimum amount of protein product is available, and prevents genes from being completely inactive."
+},
+{
+"question": "What is the role of allosteric conformational changes in the regulation of gene expression?",
+"options": {
+"A": "They alter the DNA sequence, leading to changes in gene expression.",
+"B": "They modify the structure of RNA polymerase, preventing it from binding to the promoter.",
+"C": "They change the shape of regulatory proteins, affecting their ability to bind to DNA or other molecules.",
+"D": "They enhance the degradation of mRNA transcripts, reducing protein synthesis.",
+"E": "They promote the binding of ribosomes to mRNA, increasing protein synthesis."
+},
+"answer": "C",
+"explanation": "Allosteric conformational changes involve modifications to the 3D structure of proteins, often induced by the binding of a molecule. In the context of gene regulation, such changes can impact the ability of regulatory proteins to bind DNA or interact with other molecules involved in transcription."
+},
+{
+"question": "What is the difference between a catabolic pathway and an anabolic pathway in the context of gene regulation?",
+"options": {
+"A": "Catabolic pathways break down molecules and are often induced by the presence of the substrate, while anabolic pathways synthesize molecules and are often repressed by the end product.",
+"B": "Catabolic pathways synthesize molecules and are often repressed by the end product, while anabolic pathways break down molecules and are often induced by the presence of the substrate.",
+"C": "Catabolic pathways are regulated at the transcriptional level, while anabolic pathways are regulated at the translational level.",
+"D": "Catabolic pathways are only found in prokaryotes, while anabolic pathways are found in both prokaryotes and eukaryotes.",
+"E": "Catabolic pathways are energy-releasing, while anabolic pathways are energy-consuming."
+},
+"answer": "A",
+"explanation": "Catabolic pathways, involved in the breakdown of molecules, are often activated by the presence of the substrate to be degraded. Anabolic pathways, which build complex molecules, are frequently inhibited by the accumulation of their end product."
+},
+{
+"question": "What is an example of a catabolic pathway regulated at the gene expression level?",
+"options": {
+"A": "The trp operon in E. coli.",
+"B": "The lac operon in E. coli.",
+"C": "Glycolysis.",
+"D": "The citric acid cycle.",
+"E": "Photosynthesis."
+},
+"answer": "B",
+"explanation": "The lac operon in E. coli, responsible for the breakdown of lactose, is a prime example of a catabolic pathway controlled at the gene expression level."
+},
+{
+"question": "What is an example of an anabolic pathway regulated at the gene expression level?",
+"options": {
+"A": "The trp operon in E. coli.",
+"B": "The lac operon in E. coli.",
+"C": "Glycolysis.",
+"D": "The citric acid cycle.",
+"E": "Photosynthesis."
+},
+"answer": "A",
+"explanation": "The trp operon in E. coli, involved in the biosynthesis of tryptophan, exemplifies an anabolic pathway regulated at the gene expression level."
+},
+{
+"question": "What is the role of effectors in the regulation of gene expression?",
+"options": {
+"A": "They are proteins that bind to DNA and activate gene expression.",
+"B": "They are enzymes that degrade mRNA transcripts, preventing protein synthesis.",
+"C": "They are small molecules that bind to regulatory proteins and influence their activity.",
+"D": "They are DNA sequences that bind to RNA polymerase, promoting transcription.",
+"E": "They are signaling molecules that trigger signal transduction pathways."
+},
+"answer": "C",
+"explanation": "Effectors are typically small molecules that can bind to regulatory proteins, causing conformational changes that alter their ability to modulate gene expression."
+},
+{
+"question": "What is the function of the leader peptide in the attenuation mechanism of the trp operon?",
+"options": {
+"A": "It inhibits the binding of RNA polymerase to the promoter.",
+"B": "It binds to the repressor protein, preventing it from binding to the operator.",
+"C": "Its translation is sensitive to tryptophan levels, influencing the formation of hairpin structures in the leader sequence.",
+"D": "It enhances the degradation of the trp operon mRNA.",
+"E": "It acts as a signaling molecule, triggering a signal transduction pathway."
+},
+"answer": "C",
+"explanation": "The translation of the leader peptide, which contains Trp codons, is directly influenced by the availability of tryptophan. This sensitivity to tryptophan levels dictates the formation of specific hairpin structures in the leader sequence, ultimately determining whether transcription continues or terminates prematurely."
+},
+{
+"question": "How does the concentration of charged tRNA molecules affect the attenuation mechanism of the trp operon?",
+"options": {
+"A": "High levels of charged tRNA promote the formation of the terminator hairpin, leading to transcription termination.",
+"B": "Low levels of charged tRNA promote the formation of the terminator hairpin, leading to transcription termination.",
+"C": "High levels of charged tRNA prevent the formation of the terminator hairpin, allowing transcription to continue.",
+"D": "Low levels of charged tRNA prevent the formation of the terminator hairpin, allowing transcription to continue.",
+"E": "The concentration of charged tRNA molecules has no effect on attenuation."
+},
+"answer": "A",
+"explanation": "When the concentration of charged tryptophan tRNA (Trp-tRNAtrp) is high, the ribosome smoothly translates the leader peptide, allowing the formation of the terminator hairpin structure and leading to the termination of transcription."
+},
+{
+"question": "What is the significance of the two adjacent Trp codons in the leader sequence of the trp operon mRNA?",
+"options": {
+"A": "They enhance the binding of RNA polymerase to the promoter.",
+"B": "They act as a sensor for the availability of tryptophan in the cell.",
+"C": "They encode for a regulatory protein that controls transcription.",
+"D": "They promote the formation of the terminator hairpin structure.",
+"E": "They inhibit the binding of the ribosome to the mRNA."
+},
+"answer": "B",
+"explanation": "The presence of two consecutive Trp codons in the leader sequence serves as a critical sensor for the cellular levels of tryptophan. The ribosome's ability to translate these codons depends on the availability of Trp-tRNAtrp, effectively linking tryptophan concentration to the attenuation mechanism."
+},
+{
+"question": "What is the outcome of transcription when the ribosome stalls at the Trp codons in the leader sequence of the trp operon mRNA?",
+"options": {
+"A": "Transcription terminates prematurely.",
+"B": "Transcription continues, allowing the production of enzymes for tryptophan synthesis.",
+"C": "The repressor protein binds to the operator, inhibiting transcription.",
+"D": "The CAP-cAMP complex binds to the promoter, enhancing transcription.",
+"E": "The trp operon genes are not transcribed."
+},
+"answer": "B",
+"explanation": "When the ribosome stalls at the Trp codons due to low tryptophan levels, it prevents the formation of the terminator hairpin structure. This allows RNA polymerase to continue transcribing the operon, leading to the production of enzymes needed for tryptophan biosynthesis."
+},
+{
+"question": "What is the role of the regulatory gene in an operon?",
+"options": {
+"A": "It encodes for the structural proteins involved in the metabolic pathway.",
+"B": "It encodes for a regulatory protein that controls the expression of the structural genes.",
+"C": "It is the site where RNA polymerase binds to initiate transcription.",
+"D": "It is a DNA sequence that binds to the repressor protein.",
+"E": "It is a small molecule that binds to the repressor protein and influences its activity."
+},
+"answer": "B",
+"explanation": "The regulatory gene in an operon is responsible for producing a regulatory protein, typically a repressor or an activator, which governs the expression of the structural genes within the operon."
+},
+{
+"question": "What is the difference between a trans-acting factor and a cis-acting element in gene regulation?",
+"options": {
+"A": "Trans-acting factors are proteins, while cis-acting elements are DNA sequences.",
+"B": "Trans-acting factors bind to DNA, while cis-acting elements bind to proteins.",
+"C": "Trans-acting factors can regulate genes on different DNA molecules, while cis-acting elements only regulate genes on the same DNA molecule.",
+"D": "Trans-acting factors are involved in prokaryotic gene regulation, while cis-acting elements are involved in eukaryotic gene regulation.",
+"E": "Trans-acting factors are specific to a particular gene, while cis-acting elements can regulate multiple genes."
+},
+"answer": "A, C",
+"explanation": "Trans-acting factors, typically proteins, can diffuse and regulate genes located on different DNA molecules. Cis-acting elements are DNA sequences that exert their regulatory effects"
+}
+]
