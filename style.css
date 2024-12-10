@@ -160,12 +160,12 @@ body {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #1E1E2D;
+    background-color: #121212;
     color: #E4E6EF;
 }
 
 body.dark-mode .start-screen {
-    background: linear-gradient(135deg, #1E1E2D 0%, #2B2B3B 100%);
+    background: linear-gradient(135deg, #000 0%, #2B2B3B 100%);
 }
 
 body.dark-mode .start-title {
