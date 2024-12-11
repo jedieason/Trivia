@@ -562,6 +562,7 @@ async function fetchJsonFiles() {
 // 在頁面加載時呼叫fetchJsonFiles
 window.addEventListener('DOMContentLoaded', fetchJsonFiles);
 
+// script.js
 const weeGPTButton = document.getElementById('WeeGPT');
 
 weeGPTButton.addEventListener('click', async () => {
@@ -575,13 +576,9 @@ weeGPTButton.addEventListener('click', async () => {
 
     // 顯示加載狀態
     currentQuestion.explanation = '正在生成詳解，請稍候...';
-
-        // 更新頁面上的詳解區域
-        document.getElementById('explanation-text').innerHTML = marked.parse(explanation);
-        document.getElementById('explanation').style.display = 'block';
-
-        // 隱藏確認按鈕
-        document.getElementById('confirm-btn').style.display = 'none';
+    document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
+    document.getElementById('explanation').style.display = 'block';
+    document.getElementById('confirm-btn').style.display = 'none';
     console.log('正在生成詳解，請稍候...');
 
     try {
@@ -602,6 +599,10 @@ weeGPTButton.addEventListener('click', async () => {
         console.log('詳解已更新！');
     } catch (error) {
         console.error(error);
+        // 顯示錯誤訊息給使用者
+        currentQuestion.explanation = '生成詳解時出現錯誤，請稍後再試。';
+        document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
+        document.getElementById('explanation').style.display = 'block';
         console.log('生成詳解時出現錯誤，請稍後再試。');
     }
 });
