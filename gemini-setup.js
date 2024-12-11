@@ -28,7 +28,7 @@ const model = genAI.getGenerativeModel({
 
 // 定義生成詳解的函數並暴露到全局作用域
 window.generateExplanation = async function(question, options) {
-    const prompt = `請回答以下題目，並提供一個詳盡的解釋，可適時補充相關的觀念。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n請以以下格式回答：\n\n**答案**：<您的答案>\n\n**詳解**：<您的詳細解釋>`;
+    const prompt = `Please answer the following question and provide a detailed explanation (important), supplementing with relevant concepts as needed.\n\nQuestion: ${question}\nOptions: \n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\nAnswer in the following format\n\n**Answer**: <Your answer>\n\n**Explanation**: <Your explanation>`;
 
     try {
         // 呼叫 generateContent
