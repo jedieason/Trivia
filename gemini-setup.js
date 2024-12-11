@@ -27,17 +27,17 @@ const model = genAI.getGenerativeModel({
 
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
-    const prompt = `Please answer the following question and provide a detailed explanation, supplementing with relevant concepts as needed.
+    const prompt = `Please answer the following question and address the user's concerns with, supplementing with relevant concepts as needed.
 
 Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
 
-User Question: ${userQuestion}
+User's concern: ${userQuestion}
 
 Note that all of your responses should only be in a single line. Answer in the following format:
 
-**<Your answer>**, <Your explanation>`;
+**<Your answer>**, <Why is the user's concern right or wrong>`;
 
     try {
         // Call generateContent
