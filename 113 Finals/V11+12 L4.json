@@ -572,7 +572,7 @@
 "D": "Trans-acting factors are involved in prokaryotic gene regulation, while cis-acting elements are involved in eukaryotic gene regulation.",
 "E": "Trans-acting factors are specific to a particular gene, while cis-acting elements can regulate multiple genes."
 },
-"answer": "A, C",
+"answer": "C",
 "explanation": "Trans-acting factors, typically proteins, can diffuse and regulate genes located on different DNA molecules. Cis-acting elements are DNA sequences that exert their regulatory effects"
 }
 ]
