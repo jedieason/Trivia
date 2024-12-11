@@ -579,7 +579,7 @@ weeGPTButton.addEventListener('click', () => {
         return;
     }
     // Toggle visibility of input section
-    inputSection.style.display = inputSection.style.display === 'block' ? 'none' : 'block';
+    inputSection.style.display = inputSection.style.display === 'flex' ? 'none' : 'flex';
 });
 
 // Event listener for Send button
