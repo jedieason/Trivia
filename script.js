@@ -561,3 +561,39 @@ async function fetchJsonFiles() {
 
 // 在頁面加載時呼叫fetchJsonFiles
 window.addEventListener('DOMContentLoaded', fetchJsonFiles);
+
+const weeGPTButton = document.getElementById('WeeGPT');
+
+weeGPTButton.addEventListener('click', async () => {
+    if (!currentQuestion.question || !currentQuestion.options) {
+        showCustomAlert('目前沒有題目可供分析。');
+        return;
+    }
+
+    const question = currentQuestion.question;
+    const options = currentQuestion.options;
+
+    // 顯示加載狀態
+    showCustomAlert('正在生成詳解，請稍候...');
+
+    try {
+        // 呼叫全局的 generateExplanation 函數
+        const explanation = await window.generateExplanation(question, options);
+
+        // 更新 currentQuestion 的 explanation
+        currentQuestion.explanation = explanation;
+
+        // 更新頁面上的詳解區域
+        document.getElementById('explanation-text').innerHTML = marked.parse(explanation);
+        document.getElementById('explanation').style.display = 'block';
+
+        // 隱藏確認按鈕
+        document.getElementById('confirm-btn').style.display = 'none';
+
+        // 顯示成功訊息
+        showCustomAlert('詳解已更新！');
+    } catch (error) {
+        console.error(error);
+        showCustomAlert('生成詳解時出現錯誤，請稍後再試。');
+    }
+});
