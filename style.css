@@ -787,7 +787,6 @@ body.dark-mode .logout-button:hover {
             text-transform: uppercase;
             letter-spacing: 0.5px;
             position: relative;
-            overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 130, 200, 0.3);
         }
 
