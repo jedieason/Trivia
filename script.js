@@ -58,6 +58,8 @@ function loadNewQuestion() {
         });
     }
 
+    document.getElementById('WeeGPTInputSection').style.display = 'none';
+
     // 重置狀態
     acceptingAnswers = true;
     selectedOption = null;
