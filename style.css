@@ -772,32 +772,49 @@ body.dark-mode .logout-button:hover {
 }
 
 #WeeGPTInputSection button {
-    width: 100px;
-    height: 50px;
-    background-color: #4a4a5a;
-    color: white;
-    border: none;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-right: 8px;
-    border-radius: 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
+            width: 70px;
+            height: 40px;
+            background: linear-gradient(156deg, #005edb, #aa0000);;
+            color: white;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+            margin-right: 8px;
+            border-radius: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 130, 200, 0.3);
+        }
 
-#WeeGPTInputSection button:hover {
-    background-color: #5a5a6a;
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+        #WeeGPTInputSection button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: all 0.5s ease;
+        }
 
-#WeeGPTInputSection button:active {
-    transform: scale(0.95);
-    background-color: #3a3a4a;
-}
+        #WeeGPTInputSection button:hover::before {
+            left: 100%;
+        }
+
+        #WeeGPTInputSection button:hover {
+            transform: scale(1.1) rotate(3deg);
+            box-shadow: 0 6px 20px rgba(0, 130, 200, 0.4);
+        }
+
+        #WeeGPTInputSection button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 10px rgba(0, 130, 200, 0.2);
+        }
 
 @media (max-width: 600px) {
     #WeeGPTInputSection {
