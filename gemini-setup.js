@@ -2,7 +2,7 @@
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 
 // 請替換為您的 Gemini API 金鑰
-const API_KEY = "YOUR_GEMINI_API_KEY"; // 替換為您的真實 API 金鑰
+const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // 替換為您的真實 API 金鑰
 
 // 初始化 Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
