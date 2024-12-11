@@ -79,7 +79,7 @@ function loadNewQuestion() {
     currentQuestion = questions.pop(); // 取出一題
 
     // 更新題目文本
-    document.getElementById('question').innerHTML = marked.parse(currentQuestion.question);
+    document.getElementById('explanation-text').innerHTML = currentQuestion.explanation.replace(/\n/g, '<br>');
 
     // 檢查題型
     const optionKeys = Object.keys(currentQuestion.options);
