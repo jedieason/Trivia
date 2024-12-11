@@ -359,6 +359,12 @@ function reverseQuestion() {
 
 // 按鍵按下事件（可選）
 document.addEventListener('keydown', function(event) {
+    // Check if the focused element is the userQuestionInput
+    if (event.target === userQuestionInput) {
+        // Let the userQuestionInput's own listener handle the Enter key
+        return;
+    }
+
     const validOptions = Object.keys(currentQuestion.options);
     if (acceptingAnswers && validOptions.includes(event.key.toUpperCase())) {
         const optionButton = document.querySelector(`.option-button[data-option='${event.key.toUpperCase()}']`);
@@ -373,6 +379,7 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
+
 
 // 新增選擇按鈕的功能
 document.getElementById('button-row').addEventListener('click', function(event) {
@@ -635,5 +642,13 @@ sendQuestionBtn.addEventListener('click', async () => {
         document.getElementById('explanation').style.display = 'block';
         document.getElementById('confirm-btn').style.display = 'none';
         console.log('Error generating explanation. Please try again later.');
+    }
+});
+
+// Add this event listener after initializing userQuestionInput
+userQuestionInput.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Prevent the default action (e.g., form submission)
+        sendQuestionBtn.click(); // Simulate a click on the send button
     }
 });
