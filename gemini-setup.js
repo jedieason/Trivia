@@ -29,7 +29,7 @@ const model = genAI.getGenerativeModel({
 
 // 定義生成詳解的函數並暴露到全局作用域
 window.generateExplanation = async function(question, options) {
-    const prompt = `請為以下題目提供一個詳盡的解釋，但不要包含正確答案和詳解本身。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n詳解：`;
+    const prompt = `請回答以下題目，病提供一個詳盡的解釋。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n詳解：`;
 
     try {
         const chatHistory = [
