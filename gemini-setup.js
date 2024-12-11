@@ -1,8 +1,5 @@
-// gemini-setup.js
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
-
-// 請替換為您的 Gemini API 金鑰
-const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // 替換為您的真實 API 金鑰
+const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // 請務必替換為您的真實 API 金鑰
 
 // 初始化 Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
@@ -32,24 +29,16 @@ window.generateExplanation = async function(question, options) {
     const prompt = `請回答以下題目，病提供一個詳盡的解釋。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n詳解：`;
 
     try {
-        const chatHistory = [
-            { role: "system", content: "你是WeeGPT。你是由 Weee Wee ，會以精簡的方式回答使用者的問題，你只能以正體中文或英文進行回答（依使用者的輸入語言而定）。" }
-        ];
+        // 直接以用戶訊息開始對話
+        const result = await model.generateContent([prompt]);
 
-        const chat = model.startChat({
-            history: chatHistory,
-            generationConfig: {
-                maxOutputTokens: 150,
-            },
-        });
+        // 假設 generateContent 返回的結果包含完整的回應
+        const text = result.choices[0].text.trim();
 
-        const result = await chat.sendMessage(prompt);
-        const response = await result.response;
-        const text = await response.text();
-
-        return text.trim();
+        return text;
     } catch (error) {
         console.error('Error fetching AI response:', error);
         throw new Error("生成詳解時出現錯誤。");
     }
 };
+
