@@ -28,7 +28,7 @@ const model = genAI.getGenerativeModel({
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
     const prompt = `Please answer the following question and address the user's concerns with detailed explanation, supplementing with relevant concepts as needed.
-
+Answer in either English or Traditional Chinese.
 Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
