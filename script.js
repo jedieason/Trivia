@@ -597,7 +597,7 @@ sendQuestionBtn.addEventListener('click', async () => {
     const options = currentQuestion.options;
 
     // Show loading state with spinner
-    currentQuestion.explanation = 'Generating answers... <div class="spinner"></div>';
+    currentQuestion.explanation = 'Generating answers...';
     document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
     document.getElementById('explanation').style.display = 'block';
     document.getElementById('confirm-btn').style.display = 'none';
