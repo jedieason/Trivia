@@ -27,7 +27,7 @@ const model = genAI.getGenerativeModel({
 
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
-    const prompt = `Please answer the following question and address the user's concerns with, supplementing with relevant concepts as needed.
+    const prompt = `Please answer the following question and address the user's concerns with detailed explanation, supplementing with relevant concepts as needed.
 
 Question: ${question}
 Options: 
