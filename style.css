@@ -783,7 +783,3 @@ body.dark-mode .logout-button:hover {
 #WeeGPTInputSection button:active {
     transform: scale(0.98);
 }
-
-#WeeGPTInputSection {
-    display: none;
-}
