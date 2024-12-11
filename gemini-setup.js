@@ -33,11 +33,11 @@ Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
 
-My concern: ${userQuestion}
+My prompt: ${userQuestion}
 
 Note that all of your responses should only be in a single line. Answer in the following format:
 
-**<Your answer>**, <explanations to the question or to my concerns if provided.>`;
+**<Your answer>**, <responds to my prompts.>`;
 
     try {
         // Call generateContent
