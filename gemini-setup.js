@@ -37,7 +37,7 @@ My concern: ${userQuestion}
 
 Note that all of your responses should only be in a single line. Answer in the following format:
 
-**<Your answer>**, <why is my concern right or wrong>`;
+**<Your answer>**, <explanations to the question or to my concerns if provided.>`;
 
     try {
         // Call generateContent
