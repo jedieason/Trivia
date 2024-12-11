@@ -33,11 +33,11 @@ Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
 
-User's concern: ${userQuestion}
+My concern: ${userQuestion}
 
 Note that all of your responses should only be in a single line. Answer in the following format:
 
-**<Your answer>**, <Why is the user's concern right or wrong>`;
+**<Your answer>**, <why is my concern right or wrong>`;
 
     try {
         // Call generateContent
