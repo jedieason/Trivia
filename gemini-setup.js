@@ -1,9 +1,8 @@
-// gemini-setup.js
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // 請務必替換為您的真實 API 金鑰
+const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // Replace with your actual API key
 
-// 初始化 Gemini API
+// Initialize Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ 
     model: "gemini-1.5-flash",
@@ -26,26 +25,36 @@ const model = genAI.getGenerativeModel({
     }
 });
 
-// 定義生成詳解的函數並暴露到全局作用域
-window.generateExplanation = async function(question, options) {
-    const prompt = `Please answer the following question and provide a detailed explanation, supplementing with relevant concepts as needed.\n\nQuestion: ${question}\nOptions: \n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\nNote that all of your respond should only be in a single line. Answer in the following format\n\n**<Your answer>**, <Your explanation>`;
+// Define the generateExplanation function and expose it globally
+window.generateExplanation = async function(question, options, userQuestion) {
+    const prompt = `Please answer the following question and provide a detailed explanation, supplementing with relevant concepts as needed.
+
+Question: ${question}
+Options: 
+${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
+
+User Question: ${userQuestion}
+
+Note that all of your responses should only be in a single line. Answer in the following format:
+
+**<Your answer>**, <Your explanation>`;
 
     try {
-        // 呼叫 generateContent
+        // Call generateContent
         const result = await model.generateContent([prompt]);
 
-        // 新增日誌以檢查回應結構
+        // Log AI response for debugging
         console.log('AI Response:', result);
 
-        // 根據成功專案的回應結構，使用 result.response.text()
+        // Extract text from response
         if (result && result.response) {
             const text = await result.response.text();
             return text.trim();
         } else {
-            throw new Error("AI 回應格式不正確。");
+            throw new Error("AI response format is incorrect.");
         }
     } catch (error) {
         console.error('Error fetching AI response:', error);
-        throw new Error("生成詳解時出現錯誤。");
+        throw new Error("An error occurred while generating the explanation.");
     }
 };
