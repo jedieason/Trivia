@@ -321,7 +321,7 @@ body.dark-mode .copyright a {
     display: none;
     flex-direction: column;
     width: 95%;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -732,7 +732,6 @@ body.dark-mode .logout-button:hover {
 #WeeGPTInputSection {
     display: flex;
     align-items: center;
-    max-width: 700px;
     margin: 30px auto;
     background-color: #f9f9fc;
     border-radius: 24px;
