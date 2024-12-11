@@ -802,7 +802,6 @@ body.dark-mode .logout-button:hover {
 
 @media (max-width: 600px) {
     #WeeGPTInputSection {
-        max-width: 95%;
-        margin: 10px auto;
+        margin: 0px 0px 20px 0px;
     }
 }
