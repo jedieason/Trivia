@@ -729,57 +729,84 @@ body.dark-mode .logout-button:hover {
 }
 
 
-/* Input Section Styles */
-/* Input Section Styles */
 #WeeGPTInputSection {
     display: flex;
     align-items: center;
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #f9f9fc;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     overflow: hidden;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e6e6eb;
+    transition: all 0.3s ease;
+}
+
+#WeeGPTInputSection:focus-within {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
 }
 
 #WeeGPTInputSection textarea {
     flex-grow: 1;
-    padding: 12px 15px;
+    padding: 15px 20px;
     border: none;
     resize: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+    line-height: 1.6;
+    color: #2c2c3a;
     outline: none;
-    min-height: 50px;
-    max-height: 150px;
+    min-height: 60px;
+    max-height: 180px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
 }
 
 #WeeGPTInputSection textarea::placeholder {
-    color: #999;
+    color: #a0a0b3;
+    transition: color 0.3s ease;
+}
+
+#WeeGPTInputSection textarea:focus::placeholder {
+    color: #c0c0d0;
+}
+
+#WeeGPTInputSection textarea:focus {
+    background-color: #f0f0f8;
 }
 
 #WeeGPTInputSection button {
-    width: 80px;
-    height: 40px;
-    background-color: black;
+    width: 100px;
+    height: 50px;
+    background-color: #4a4a5a;
     color: white;
     border: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
-    margin-right: 5px;
-    border-radius: 12px;
+    transition: all 0.3s ease;
+    margin-right: 8px;
+    border-radius: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 #WeeGPTInputSection button:hover {
-    background-color: #333;
+    background-color: #5a5a6a;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #WeeGPTInputSection button:active {
-    transform: scale(0.98);
+    transform: scale(0.95);
+    background-color: #3a3a4a;
+}
+
+@media (max-width: 600px) {
+    #WeeGPTInputSection {
+        max-width: 95%;
+        margin: 20px auto;
+    }
 }
