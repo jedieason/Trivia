@@ -772,10 +772,6 @@ body.dark-mode .logout-button:hover {
     color: #c0c0d0;
 }
 
-#WeeGPTInputSection textarea:focus {
-    background-color: #f0f0f8;
-}
-
 #WeeGPTInputSection button {
     width: 100px;
     height: 50px;
