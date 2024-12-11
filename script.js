@@ -574,6 +574,14 @@ weeGPTButton.addEventListener('click', async () => {
     const options = currentQuestion.options;
 
     // 顯示加載狀態
+    currentQuestion.explanation = '正在生成詳解，請稍候...';
+
+        // 更新頁面上的詳解區域
+        document.getElementById('explanation-text').innerHTML = marked.parse(explanation);
+        document.getElementById('explanation').style.display = 'block';
+
+        // 隱藏確認按鈕
+        document.getElementById('confirm-btn').style.display = 'none';
     console.log('正在生成詳解，請稍候...');
 
     try {
