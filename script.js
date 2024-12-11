@@ -574,7 +574,7 @@ weeGPTButton.addEventListener('click', async () => {
     const options = currentQuestion.options;
 
     // 顯示加載狀態
-    showCustomAlert('正在生成詳解，請稍候...');
+    console.log('正在生成詳解，請稍候...');
 
     try {
         // 呼叫全局的 generateExplanation 函數
@@ -591,9 +591,9 @@ weeGPTButton.addEventListener('click', async () => {
         document.getElementById('confirm-btn').style.display = 'none';
 
         // 顯示成功訊息
-        showCustomAlert('詳解已更新！');
+        console.log('詳解已更新！');
     } catch (error) {
         console.error(error);
-        showCustomAlert('生成詳解時出現錯誤，請稍後再試。');
+        console.log('生成詳解時出現錯誤，請稍後再試。');
     }
 });
