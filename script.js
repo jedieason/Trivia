@@ -15,6 +15,8 @@ const GITHUB_USER = 'jedieason'; // 替換為您的GitHub用戶名
 const GITHUB_REPO = 'Trivia'; // 替換為您的存儲庫名稱
 const GITHUB_FOLDER_PATH = '113 Finals'; // JSON檔案所在的目錄
 
+const userQuestionInput = document.getElementById('userQuestion');
+
 let expandTimeout;
 
 // 初始化測驗
@@ -148,6 +150,7 @@ function loadNewQuestion() {
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
     document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
+    userQuestionInput.value = '';
 }
 
 // 更新詳解中的選項標籤
@@ -569,7 +572,6 @@ window.addEventListener('DOMContentLoaded', fetchJsonFiles);
 const weeGPTButton = document.getElementById('WeeGPT');
 const inputSection = document.getElementById('WeeGPTInputSection');
 const sendQuestionBtn = document.getElementById('sendQuestionBtn');
-const userQuestionInput = document.getElementById('userQuestion');
 const explanationDiv = document.getElementById('explanation');
 const explanationText = document.getElementById('explanation-text');
 const confirmBtn = document.getElementById('confirm-btn');
