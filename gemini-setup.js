@@ -1,4 +1,6 @@
+// gemini-setup.js
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
+
 const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // 請務必替換為您的真實 API 金鑰
 
 // 初始化 Gemini API
@@ -26,19 +28,24 @@ const model = genAI.getGenerativeModel({
 
 // 定義生成詳解的函數並暴露到全局作用域
 window.generateExplanation = async function(question, options) {
-    const prompt = `請回答以下題目，病提供一個詳盡的解釋。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n詳解：`;
+    const prompt = `請回答以下題目，並提供一個詳盡的解釋。\n\n題目：${question}\n選項：\n${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}\n\n詳解：`;
 
     try {
-        // 直接以用戶訊息開始對話
+        // 呼叫 generateContent
         const result = await model.generateContent([prompt]);
 
-        // 假設 generateContent 返回的結果包含完整的回應
-        const text = result.choices[0].text.trim();
+        // 新增日誌以檢查回應結構
+        console.log('AI Response:', result);
 
-        return text;
+        // 根據成功專案的回應結構，使用 result.response.text()
+        if (result && result.response) {
+            const text = await result.response.text();
+            return text.trim();
+        } else {
+            throw new Error("AI 回應格式不正確。");
+        }
     } catch (error) {
         console.error('Error fetching AI response:', error);
         throw new Error("生成詳解時出現錯誤。");
     }
 };
-
