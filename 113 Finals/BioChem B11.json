@@ -1,0 +1,172 @@
+[
+   {
+      "question":"Consider the characteristics of phosphoinositide second messengers. Choose the incorrect statement.",
+      "options":{
+         "A":"DAG remains in the membrane and serves as a secondary messenger to activate Protein Kinase C (PKC).",
+         "B":"IP3 is water-soluble and diffuses in the cytosol to release calcium from the endoplasmic reticulum.",
+         "C":"IP3 is hydrophobic, will bind to plasma membrane.",
+         "D":"Phospholipase C cleaves PIP2 to produce IP3 and DAG."
+      },
+      "answer":"C",
+      "explanation":"IP3 is water-soluble and diffuses into the cytosol, making option (C) incorrect."
+   },
+   {
+      "question":"Phospholipase C can form two products when reacting with PIP2. Which is the structure of one of the products?",
+      "options":{
+         "A":"IP3",
+         "B":"IP2",
+         "C":"IP1",
+         "D":"Inositol"
+      },
+      "answer":"A",
+      "explanation":"Phospholipase C hydrolyzes PIP2 to produce IP3 and DAG, with IP3 being one of the products."
+   },
+   {
+      "question":"Which of the following statements about diacylglycerol is correct?",
+      "options":{
+         "A":"It is a hydrophilic molecule.",
+         "B":"It moves to the endoplasmic reticulum (ER).",
+         "C":"It activates protein kinase C.",
+         "D":"It facilitates the influx of calcium ions into the cell."
+      },
+      "answer":"C",
+      "explanation":"DAG remains in the membrane and activates protein kinase C."
+   },
+   {
+      "question":"Localized increases in the cytosolic level of free Ca2+ are critical to its function as a second messenger. Which of the following is not correct for Ca2+ calmodulin interaction?",
+      "options":{
+         "A":"Each calmodulin molecule binds six Ca2+ in a cooperative fashion.",
+         "B":"Binding of Ca2+ causes calmodulin to undergo a conformational change leading to active calmodulin.",
+         "C":"Since binding of Ca2+ is cooperative, a small change in the level of cytosolic Ca2+ leads to a large change in the level of active calmodulin.",
+         "D":"One of the enzymes activated by Ca2+ calmodulin, cAMP phosphodiesterase, degrades cAMP."
+      },
+      "answer":"A",
+      "explanation":"Calmodulin binds up to four Ca2+ ions, not six."
+   },
+   {
+      "question":"cAMP binds to which subunit of PKA?",
+      "options":{
+         "A":"Catalytic subunit",
+         "B":"cAMP does not bind to a subunit",
+         "C":"Regulatory subunit",
+         "D":"Catalytic and regulatory subunit"
+      },
+      "answer":"C",
+      "explanation":"cAMP binds to the regulatory subunits of PKA, causing them to release the catalytic subunits."
+   },
+   {
+      "question":"Which of the following statements is not involved in the stimulation of RTKs?",
+      "options":{
+         "A":"Ligands bind to the extracellular domain.",
+         "B":"Dimerization of receptors.",
+         "C":"Production of second messenger.",
+         "D":"Phosphorylation of tyrosine residue."
+      },
+      "answer":"C",
+      "explanation":"RTKs primarily activate through dimerization and phosphorylation, not by producing secondary messengers."
+   },
+   {
+      "question":"Which of the following statements about integrins is correct?",
+      "options":{
+         "A":"Integrins can integrate information from both the extracellular and intracellular environments.",
+         "B":"Integrins promote piliferous structures firing through motile force.",
+         "C":"Integrins promote homologous recombination.",
+         "D":"None of the above."
+      },
+      "answer":"A",
+      "explanation":"Integrins mediate interactions between cells and their environment by transmitting signals across the membrane."
+   },
+   {
+      "question":"The cytoplasmic domain of the receptors of which of the following proteins does NOT function as tyrosine kinase?",
+      "options":{
+         "A":"Epithelial growth factor",
+         "B":"Platelet-derived growth factor",
+         "C":"Insulin",
+         "D":"Asialoglycoprotein"
+      },
+      "answer":"D",
+      "explanation":"Asialoglycoprotein receptors lack tyrosine kinase activity."
+   },
+   {
+      "question":"Nitric oxide (NO) acts as an intracellular second messenger by stimulating:",
+      "options":{
+         "A":"Phosphodiesterase",
+         "B":"Nitric oxide synthase",
+         "C":"Adenylyl cyclase",
+         "D":"Guanylate cyclase"
+      },
+      "answer":"D",
+      "explanation":"Nitric oxide activates guanylate cyclase, increasing cGMP levels."
+   },
+   {
+      "question":"Which of the following best characterizes ligand-receptor binding interaction?",
+      "options":{
+         "A":"Scatchard plot",
+         "B":"Michaelis-Menten equation",
+         "C":"Beer-Lambert equation",
+         "D":"Nernst equation"
+      },
+      "answer":"A",
+      "explanation":"Scatchard plots analyze ligand-receptor interactions by representing binding affinity and the number of binding sites."
+   },
+   {
+      "question":"The operator in lac operon can normally be bound by:",
+      "options":{
+         "A":"Enhancer",
+         "B":"Attenuator",
+         "C":"Repressor",
+         "D":"Inducer",
+         "E":"mRNA"
+      },
+      "answer":"C",
+      "explanation":"The operator in the lac operon is bound by the repressor protein, which prevents transcription of the downstream genes."
+   },
+   {
+      "question":"Small signal molecules that regulate transcription are NOT known to?",
+      "options":{
+         "A":"Prevent activator proteins from binding to DNA sites.",
+         "B":"Cause repressor proteins to bind to DNA sites.",
+         "C":"Cause activator proteins to bind to DNA sites.",
+         "D":"Release repressor proteins from DNA sites.",
+         "E":"Directly bind to DNA sites."
+      },
+      "answer":"E",
+      "explanation":"Small signal molecules typically regulate transcription indirectly, rather than binding directly to DNA sites."
+   },
+   {
+      "question":"Attenuation in the trp operon of E. coli:",
+      "options":{
+         "A":"Can fine-tune adjustment through small changes in trp levels.",
+         "B":"Can adjust transcription when transcription is already ongoing.",
+         "C":"Acts on the translation of a fully transcribed mRNA.",
+         "D":"Functions because the repressor binds to the operator."
+      },
+      "answer":"A",
+      "explanation":"Attenuation fine-tunes transcription based on tryptophan levels by prematurely terminating transcription when tryptophan is abundant."
+   },
+   {
+      "question":"Which of the following is not involved in steroid hormone action?",
+      "options":{
+         "A":"Transcription activation and repression",
+         "B":"Hormone-receptor complexes",
+         "C":"Specific DNA sequence",
+         "D":"Cell surface receptor",
+         "E":"Zinc finger"
+      },
+      "answer":"D",
+      "explanation":"Steroid hormones act through intracellular receptors, not cell surface receptors, to regulate transcription."
+   },
+   {
+      "question":"Which segment of genes is related to the organogenesis of fly larvae?",
+      "options":{
+         "A":"Segment polarity genes",
+         "B":"Segmentation genes",
+         "C":"Homeobox genes",
+         "D":"Chromatin remodeling genes",
+         "E":"Gap gene"
+      },
+      "answer":"C",
+      "explanation":"Homeobox genes are master regulators of development and are crucial for organogenesis in fly larvae."
+   }
+]
+   
