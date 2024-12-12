@@ -66,15 +66,16 @@
             letter-spacing: 0.5px;
         }
 
-        .editable {
-            background-color: #f2f2f7;
-            border: none;
-            border-radius: 10px;
-            padding: 12px;
-            margin-bottom: 12px;
-            font-size: 15px;
-            transition: background-color 0.3s ease;
-        }
+            .editable {
+                background-color: #f2f2f7;
+                border: none;
+                border-radius: 10px;
+                padding: 12px;
+                font-size: 15px;
+                min-height: 50px;
+                transition: background-color 0.3s ease;
+                white-space: pre-wrap; /* 添加這行 */
+            }
 
         .editable:focus {
             outline: none;
