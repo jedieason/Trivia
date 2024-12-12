@@ -820,3 +820,62 @@ body.dark-mode .logout-button:hover {
         margin: 0px 0px 20px 0px;
     }
 }
+
+
+
+
+/* Restore */
+
+  /* Restore Button Styling */
+  .restoreBtn_C3D4 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #3b3c56;
+    background-color: #ffffff;
+    border: 2px solid #3b3c56;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.6s ease, color 0.6s ease;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Text Styling */
+  .restoreBtn_C3D4 .btnText_E5F6 {
+    position: relative;
+    z-index: 2;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+  }
+
+  /* Long Thin Arrow Styling */
+  .restoreBtn_C3D4::after {
+    content: '⟵';
+    position: absolute;
+    top: -5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transform: translateX(-20px);
+  }
+
+  /* Hover Effects */
+  .restoreBtn_C3D4:hover {
+    background-color: #3b3c56;
+    color: #ffffff;
+  }
+
+  .restoreBtn_C3D4:hover .btnText_E5F6 {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  .restoreBtn_C3D4:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+  }
