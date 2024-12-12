@@ -774,7 +774,7 @@ body.dark-mode .logout-button:hover {
 #WeeGPTInputSection button {
             width: 75px;
             height: 40px;
-            background: linear-gradient(156deg, #005edb, #aa0000);;
+            background: linear-gradient(156deg, #006dff, #ff0909);;
             color: white;
             border: none;
             font-family: 'Inter', sans-serif;
