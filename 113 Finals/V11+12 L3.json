@@ -1,518 +1,542 @@
 [
-{
-"question": "Where does the transcription of most rRNA occur in eukaryotic cells?",
-"options": {
-"A": "Cytoplasm",
-"B": "Nucleolus",
-"C": "Mitochondria",
-"D": "Golgi apparatus",
-"E": "Endoplasmic reticulum"
-},
-"answer": "B",
-"explanation": "Most rRNA synthesis is carried out by RNA polymerase I in the nucleolus of eukaryotic cells."
-},
-{
-"question": "What is the function of methylation during pre-rRNA processing?",
-"options": {
-"A": "To add a poly-A tail",
-"B": "To initiate transcription",
-"C": "To protect exons from degradation",
-"D": "To facilitate splicing of introns",
-"E": "To transport rRNA out of the nucleus"
-},
-"answer": "C",
-"explanation": "Methylation of exons in pre-rRNA serves as a protective mechanism, preventing their degradation during the subsequent cleavage steps."
-},
-{
-"question": "Which of the following statements accurately describes the difference in RNA transcripts between prokaryotic and eukaryotic cells?",
-"options": {
-"A": "Prokaryotic mRNA is monocistronic, while eukaryotic mRNA is polycistronic.",
-"B": "Eukaryotic mRNA undergoes modification and splicing, while prokaryotic mRNA does not.",
-"C": "Intron removal occurs in both prokaryotic and eukaryotic cells.",
-"D": "Prokaryotic rRNA and eukaryotic rRNA are cleaved into fragments of the same length.",
-"E": "Prokaryotic mRNA contains a single gene, while eukaryotic mRNA contains multiple genes."
-},
-"answer": "B",
-"explanation": "A key distinction is that eukaryotic mRNA undergoes modification and splicing processes, while prokaryotic mRNA does not."
-},
-{
-"question": "Which RNA polymerase is responsible for synthesizing 5S rRNA in eukaryotic cells?",
-"options": {
-"A": "RNA polymerase I",
-"B": "RNA polymerase II",
-"C": "RNA polymerase III",
-"D": "RNA polymerase IV",
-"E": "RNA polymerase V"
-},
-"answer": "C",
-"explanation": "While most rRNA is synthesized by RNA polymerase I, 5S rRNA is produced by RNA polymerase III in eukaryotic cells."
-},
-{
-"question": "Which cellular process can occur simultaneously with transcription in prokaryotic cells?",
-"options": {
-"A": "DNA replication",
-"B": "Translation",
-"C": "RNA splicing",
-"D": "Post-translational modification",
-"E": "Protein folding"
-},
-"answer": "B",
-"explanation": "In prokaryotes, transcription and translation can happen concurrently due to the absence of a nuclear membrane separating these processes."
-},
-{
-"question": "Where does transcription primarily take place in eukaryotic cells?",
-"options": {
-"A": "Cytoplasm",
-"B": "Nucleus",
-"C": "Ribosomes",
-"D": "Mitochondria",
-"E": "Endoplasmic reticulum"
-},
-"answer": "B",
-"explanation": "Unlike prokaryotes, transcription in eukaryotic cells is confined to the nucleus, where the genetic material is stored."
-},
-{
-"question": "During which phases of the cell cycle does the majority of transcription occur in eukaryotic cells?",
-"options": {
-"A": "S and M phases",
-"B": "G1 and S phases",
-"C": "G2 and M phases",
-"D": "G0 and G1 phases",
-"E": "G1 and G2 phases"
-},
-"answer": "E",
-"explanation": "Most transcription in eukaryotes happens during the G1 and G2 phases of the cell cycle, periods of cell growth and preparation for division."
-},
-{
-"question": "Which of the following RNA polymerases is found in plant cells but not in mammalian cells?",
-"options": {
-"A": "RNA polymerase I",
-"B": "RNA polymerase II",
-"C": "RNA polymerase III",
-"D": "RNA polymerase IV",
-"E": "None of the above"
-},
-"answer": "D",
-"explanation": "Plant cells possess additional RNA polymerases, such as RNA polymerase IV and V, which are not present in mammalian cells."
-},
-{
-"question": "Where does the processing of pre-RNA occur in prokaryotic cells?",
-"options": {
-"A": "Nucleus",
-"B": "Cytoplasm",
-"C": "Ribosomes",
-"D": "Endoplasmic reticulum",
-"E": "Golgi apparatus"
-},
-"answer": "B",
-"explanation": "In prokaryotes, pre-RNA processing occurs in the cytoplasm, as there is no distinct nuclear compartment."
-},
-{
-"question": "Which of the following is NOT a transcription factor involved in the initiation of transcription in eukaryotic cells?",
-"options": {
-"A": "TFIIA",
-"B": "TFIIB",
-"C": "TFIID",
-"D": "TFIIE",
-"E": "Sigma factor"
-},
-"answer": "E",
-"explanation": "Eukaryotic transcription initiation involves specific transcription factors like TFIIA, TFIIB, TFIID, TFIIE, TFIIF, and TFIIH, which recognize the TATA box. Sigma factor is a transcription factor specific to prokaryotes."
-},
-{
-"question": "Approximately how many polypeptides make up a typical eukaryotic RNA polymerase?",
-"options": {
-"A": "2-3",
-"B": "5",
-"C": "10-15",
-"D": "20-25",
-"E": "Over 50"
-},
-"answer": "C",
-"explanation": "Eukaryotic RNA polymerases are more complex than their prokaryotic counterparts, consisting of 10 to 15 polypeptides."
-},
-{
-"question": "What type of RNA molecule often contains multiple genes in prokaryotic cells?",
-"options": {
-"A": "rRNA",
-"B": "mRNA",
-"C": "tRNA",
-"D": "snRNA",
-"E": "miRNA"
-},
-"answer": "B",
-"explanation": "Prokaryotic mRNA can be polycistronic, meaning it carries the genetic information for multiple proteins."
-},
-{
-"question": "Which modification is added to the 5' end of eukaryotic mRNA during hnRNA processing?",
-"options": {
-"A": "Poly-A tail",
-"B": "Intron",
-"C": "Exon",
-"D": "7-methylguanosine cap",
-"E": "Methyl group"
-},
-"answer": "D",
-"explanation": "A 7-methylguanosine cap is added to the 5' end of eukaryotic mRNA during hnRNA processing, playing a role in stability and translation initiation."
-},
-{
-"question": "Which rRNA molecules are derived from a single primary transcript in prokaryotic cells?",
-"options": {
-"A": "28S, 18S, and 5.8S rRNA",
-"B": "18S, 5.8S, and 5S rRNA",
-"C": "23S, 16S, and 5S rRNA",
-"D": "28S, 16S, and 5S rRNA",
-"E": "23S, 18S, and 5S rRNA"
-},
-"answer": "C",
-"explanation": "Prokaryotic cells generate 23S, 16S, and 5S rRNA from a single primary transcript, while eukaryotic cells utilize two separate transcripts for their rRNA production."
-},
-{
-"question": "What is the process by which some RNA viruses synthesize DNA from an RNA template?",
-"options": {
-"A": "Transcription",
-"B": "Translation",
-"C": "Replication",
-"D": "Reverse transcription",
-"E": "RNA editing"
-},
-"answer": "D",
-"explanation": "Certain RNA viruses, known as retroviruses, possess the ability to perform reverse transcription, creating DNA from their RNA genome."
-},
-{
-"question": "Which type of RNA virus can directly serve as mRNA for protein synthesis?",
-"options": {
-"A": "Positive strand RNA virus",
-"B": "Negative strand RNA virus",
-"C": "Retrovirus",
-"D": "Double-stranded RNA virus",
-"E": "Viroid"
-},
-"answer": "A",
-"explanation": "Positive strand RNA viruses have a genome that can directly function as mRNA, allowing for immediate protein production upon infection."
-},
-{
-"question": "What enzyme is required by negative strand RNA viruses to synthesize mRNA?",
-"options": {
-"A": "DNA polymerase",
-"B": "RNA polymerase",
-"C": "Reverse transcriptase",
-"D": "RNA-dependent RNA polymerase",
-"E": "DNA-dependent RNA polymerase"
-},
-"answer": "D",
-"explanation": "Negative strand RNA viruses rely on an enzyme called RNA-dependent RNA polymerase to create a complementary positive strand mRNA, which can then be translated into proteins."
-},
-{
-"question": "Which enzyme is responsible for integrating viral DNA into the host cell's chromosome in retroviruses?",
-"options": {
-"A": "Reverse transcriptase",
-"B": "Integrase",
-"C": "Protease",
-"D": "RNA polymerase",
-"E": "DNA polymerase"
-},
-"answer": "B",
-"explanation": "Retroviruses utilize an enzyme called integrase to insert the DNA copy of their genome into the host cell's chromosome, ensuring the viral genetic material is replicated along with the host's DNA."
-},
-{
-"question": "Which of the following activities is associated with reverse transcriptase (RT)?",
-"options": {
-"A": "RNA-dependent RNA polymerase activity",
-"B": "DNA-dependent DNA polymerase activity",
-"C": "RNA-dependent DNA polymerase activity",
-"D": "Both B and C",
-"E": "All of the above"
-},
-"answer": "D",
-"explanation": "Reverse transcriptase exhibits both RNA-dependent DNA polymerase activity, synthesizing the first cDNA strand, and DNA-dependent DNA polymerase activity, generating the second DNA strand."
-},
-{
-"question": "What is the function of the 'gag' gene in retroviruses?",
-"options": {
-"A": "Encoding the viral envelope protein",
-"B": "Regulating viral RNA transcription",
-"C": "Assisting in the assembly of viral components",
-"D": "Binding to the host cell receptor",
-"E": "Promoting viral DNA integration"
-},
-"answer": "C",
-"explanation": "The 'gag' gene in retroviruses plays a crucial role in the assembly of viral proteins and genetic material into new virus particles."
-},
-{
-"question": "What is the role of the 'env' gene in retroviruses?",
-"options": {
-"A": "Encoding the viral capsid protein",
-"B": "Producing the viral envelope",
-"C": "Regulating viral RNA splicing",
-"D": "Facilitating viral DNA reverse transcription",
-"E": "Mediating viral entry into the host cell"
-},
-"answer": "B",
-"explanation": "The 'env' gene in retroviruses is responsible for the production of the viral envelope, a lipid membrane derived from the host cell that surrounds the virus particle."
-},
-{
-"question": "Which region of the retroviral genome contains the promoter for viral gene expression?",
-"options": {
-"A": "gag",
-"B": "pol",
-"C": "env",
-"D": "LTR",
-"E": "tat"
-},
-"answer": "D",
-"explanation": "The Long Terminal Repeat (LTR) regions of the retroviral genome harbor the promoter sequences that drive the expression of viral genes."
-},
-{
-"question": "What is the function of the 'tat' gene in retroviruses?",
-"options": {
-"A": "Encoding the viral capsid protein",
-"B": "Promoting viral DNA integration",
-"C": "Regulating viral RNA transcription",
-"D": "Facilitating viral assembly",
-"E": "Mediating viral budding"
-},
-"answer": "C",
-"explanation": "The 'tat' gene in retroviruses encodes a protein that plays a role in regulating and stabilizing the transcription of viral RNA, ensuring efficient gene expression."
-},
-{
-"question": "What is the primary function of telomerase?",
-"options": {
-"A": "Repairing DNA damage",
-"B": "Initiating DNA replication",
-"C": "Transcribing RNA from DNA",
-"D": "Extending telomeres at chromosome ends",
-"E": "Degrading damaged RNA molecules"
-},
-"answer": "D",
-"explanation": "Telomerase is an enzyme that specifically acts to lengthen the protective telomere sequences found at the ends of chromosomes."
-},
-{
-"question": "In which types of cells is telomerase activity typically detectable?",
-"options": {
-"A": "Skin cells",
-"B": "Muscle cells",
-"C": "Nerve cells",
-"D": "Stem cells",
-"E": "All of the above"
-},
-"answer": "D",
-"explanation": "Active telomerase is primarily found in cells that undergo continuous division, such as stem cells, germ cells, and cancer cells."
-},
-{
-"question": "What is the relationship between telomere length and cellular aging?",
-"options": {
-"A": "Telomere length increases with age.",
-"B": "Telomere length decreases with age.",
-"C": "Telomere length remains constant throughout life.",
-"D": "Telomere length is unrelated to aging.",
-"E": "Telomere length fluctuates randomly with age."
-},
-"answer": "B",
-"explanation": "In most somatic cells, telomeres shorten with each cell division, contributing to the process of cellular aging."
-},
-{
-"question": "What type of molecule does telomerase use as a template to synthesize DNA?",
-"options": {
-"A": "DNA",
-"B": "RNA",
-"C": "Protein",
-"D": "Lipid",
-"E": "Carbohydrate"
-},
-"answer": "B",
-"explanation": "Telomerase is a unique enzyme in that it carries its own RNA molecule, which serves as a template for the addition of DNA sequences to telomeres."
-},
-{
-"question": "What is the significance of telomerase activity in cancer cells?",
-"options": {
-"A": "It contributes to uncontrolled cell growth.",
-"B": "It inhibits tumor formation.",
-"C": "It promotes DNA repair mechanisms.",
-"D": "It triggers apoptosis (programmed cell death).",
-"E": "It has no specific role in cancer cells."
-},
-"answer": "A",
-"explanation": "High telomerase activity is often observed in cancer cells, allowing them to bypass normal cellular aging and continue dividing indefinitely."
-},
-{
-"question": "Which of the following describes the action of telomerase?",
-"options": {
-"A": "Telomerase adds nucleotides to the 5' end of the chromosome.",
-"B": "Telomerase removes nucleotides from the 3' end of the chromosome.",
-"C": "Telomerase synthesizes a new DNA strand complementary to the existing telomere.",
-"D": "Telomerase repairs damaged DNA sequences within the telomere.",
-"E": "Telomerase prevents the degradation of telomeric DNA."
-},
-"answer": "C",
-"explanation": "Telomerase functions by synthesizing a new DNA strand that is complementary to the existing telomeric sequence, effectively extending the telomere."
-},
-{
-"question": "What is a ribozyme?",
-"options": {
-"A": "A protein enzyme that catalyzes RNA synthesis.",
-"B": "An RNA molecule with catalytic activity.",
-"C": "A DNA sequence that regulates gene expression.",
-"D": "A complex of RNA and protein involved in translation.",
-"E": "A type of virus that infects bacteria."
-},
-"answer": "B",
-"explanation": "Ribozymes are RNA molecules that possess the ability to catalyze biochemical reactions, expanding the known functions of RNA beyond its traditional role in genetic information transfer."
-},
-{
-"question": "Which of the following can be a substrate for a ribozyme?",
-"options": {
-"A": "RNA",
-"B": "DNA",
-"C": "Protein",
-"D": "Both A and B",
-"E": "All of the above"
-},
-"answer": "A",
-"explanation": "Ribozymes primarily act on RNA molecules, either as separate targets (intermolecular) or on a portion of their own structure (intramolecular)."
-},
-{
-"question": "Which type of chemical reaction is NOT typically catalyzed by ribozymes?",
-"options": {
-"A": "Transesterification",
-"B": "Peptide bond formation",
-"C": "Phosphodiester bond hydrolysis",
-"D": "RNA cleavage",
-"E": "RNA ligation"
-},
-"answer": "B",
-"explanation": "Ribozymes are not known to catalyze peptide bond formation, a process central to protein synthesis that is typically carried out by ribosomes, which are complexes of RNA and proteins."
-},
-{
-"question": "Which of the following is an example of a ribozyme?",
-"options": {
-"A": "DNA polymerase",
-"B": "RNA polymerase",
-"C": "Hammerhead ribozyme",
-"D": "Reverse transcriptase",
-"E": "Telomerase"
-},
-"answer": "C",
-"explanation": "The hammerhead ribozyme is a well-studied example of a ribozyme, known for its distinct secondary structure and ability to cleave RNA molecules."
-},
-{
-"question": "What is the characteristic shape of the hammerhead ribozyme?",
-"options": {
-"A": "Linear",
-"B": "Circular",
-"C": "Hairpin loop",
-"D": "Hammer-like",
-"E": "Cloverleaf"
-},
-"answer": "D",
-"explanation": "The hammerhead ribozyme derives its name from its secondary structure, which resembles the shape of a hammer, formed through specific base pairing interactions within the RNA molecule."
-},
-{
-"question": "What type of ion is often required for the catalytic activity of hammerhead ribozymes?",
-"options": {
-"A": "Sodium (Na+)",
-"B": "Potassium (K+)",
-"C": "Calcium (Ca2+)",
-"D": "Magnesium (Mg2+)",
-"E": "Iron (Fe2+)"
-},
-"answer": "D",
-"explanation": "Hammerhead ribozymes, like many other enzymes, require the presence of specific metal ions, often magnesium (Mg2+), for proper folding and catalytic function."
-},
-{
-"question": "What is the mechanism of action of the self-splicing rRNA intron from Tetrahymena?",
-"options": {
-"A": "It utilizes a protein enzyme to remove itself from the rRNA precursor.",
-"B": "It undergoes a series of conformational changes that lead to its excision.",
-"C": "It catalyzes its own removal through a series of transesterification reactions.",
-"D": "It recruits other RNA molecules to assist in its splicing.",
-"E": "It forms a complex with DNA, leading to its removal from the transcript."
-},
-"answer": "C",
-"explanation": "The self-splicing rRNA intron from Tetrahymena is notable for its ability to catalyze its own removal from the rRNA precursor molecule through a series of transesterification reactions, without the need for protein enzymes."
-},
-{
-"question": "What is the role of the internal guide sequence (IGS) in the self-splicing rRNA intron from Tetrahymena?",
-"options": {
-"A": "Encoding a protein required for splicing.",
-"B": "Binding to a complementary sequence on the intron, facilitating its removal.",
-"C": "Directing the intron to the correct location in the rRNA precursor.",
-"D": "Recruiting splicing factors to the intron.",
-"E": "Protecting the intron from degradation."
-},
-"answer": "B",
-"explanation": "The internal guide sequence (IGS) within the self-splicing intron plays a crucial role in base pairing with a complementary sequence on the intron itself, guiding the precise folding and alignment necessary for self-excision."
-},
-{
-"question": "What is the significance of the self-splicing rRNA intron from Tetrahymena being a reversible reaction?",
-"options": {
-"A": "It allows the intron to be re-inserted into the rRNA precursor.",
-"B": "It enables the intron to catalyze multiple splicing events.",
-"C": "It demonstrates the potential for RNA molecules to act as catalysts.",
-"D": "It suggests a possible mechanism for early RNA-based life forms.",
-"E": "All of the above"
-},
-"answer": "E",
-"explanation": "The reversible nature of the self-splicing intron highlights the dynamic capabilities of RNA molecules, suggesting potential roles in early RNA-based life forms and the evolution of catalytic mechanisms."
-},
-{
-"question": "What is the main concept proposed by the RNA world hypothesis?",
-"options": {
-"A": "RNA was the primary genetic material in early life.",
-"B": "DNA evolved before RNA.",
-"C": "Proteins were the first catalysts in early life.",
-"D": "RNA played a minor role in the origin of life.",
-"E": "Life originated on another planet."
-},
-"answer": "A",
-"explanation": "The RNA world hypothesis posits that RNA, with its dual capacity for information storage and catalytic activity, served as the primary genetic material and functional molecule in early life, predating DNA and proteins."
-},
-{
-"question": "Why is RNA considered a more likely candidate than DNA as the first genetic material in early life?",
-"options": {
-"A": "RNA is more stable than DNA.",
-"B": "RNA has a more complex structure than DNA.",
-"C": "RNA can replicate itself more efficiently than DNA.",
-"D": "RNA requires fewer enzymes for synthesis than DNA.",
-"E": "RNA is more readily available in the environment than DNA."
-},
-"answer": "D",
-"explanation": "RNA's simpler structure, compared to DNA, makes it a more plausible candidate for the first genetic material, as it would have required fewer complex enzymes for its synthesis under the conditions of early Earth."
-},
-{
-"question": "According to the RNA world hypothesis, what was the likely order of events in the evolution of early life?",
-"options": {
-"A": "DNA -> RNA -> Protein",
-"B": "Protein -> RNA -> DNA",
-"C": "RNA -> DNA -> Protein",
-"D": "Protein -> DNA -> RNA",
-"E": "RNA -> Protein -> DNA"
-},
-"answer": "E",
-"explanation": "The RNA world hypothesis suggests a progression from an RNA-based world to a DNA-protein world, with RNA initially serving both genetic and catalytic roles, later giving rise to DNA for information storage and proteins for more diverse catalytic functions."
-},
-{
-"question": "What is one of the main challenges to the RNA world hypothesis?",
-"options": {
-"A": "There is no evidence that RNA can self-replicate.",
-"B": "RNA is too unstable to have served as the first genetic material.",
-"C": "The origin of the first nucleotides and ribozymes remains unclear.",
-"D": "DNA has been found in fossils that predate the existence of RNA.",
-"E": "None of the above"
-},
-"answer": "C",
-"explanation": "A key unanswered question in the RNA world hypothesis is the source of the first nucleotides, the building blocks of RNA, and the formation of the first ribozymes, which would have been necessary for RNA replication and other essential functions."
-},
-{
-"question": "What structural feature makes RNA more susceptible to degradation than DNA?",
-"options": {
-"A": "The presence of uracil instead of thymine in RNA.",
-"B": "The double-stranded nature of DNA compared to the single-stranded nature of RNA.",
-"C": "The presence of a hydroxyl group on the 2' carbon of the ribose sugar in RNA.",
-"D": "The phosphate backbone of DNA is more stable than that of RNA.",
-"E": "The shorter length of RNA molecules compared to DNA molecules."
-},
-"answer": "C",
-"explanation": "The presence of a hydroxyl group (-OH) at the 2' position of the ribose sugar in RNA makes it more chemically reactive and prone to hydrolysis, leading to its greater instability compared to DNA, which lacks this hydroxyl group."
-}
+  {
+    "question": "Where does the synthesis of the majority of rRNA occur in eukaryotes?",
+    "options": {
+      "A": "Cytoplasm",
+      "B": "Nucleolus",
+      "C": "Golgi apparatus",
+      "D": "Endoplasmic reticulum",
+      "E": "Mitochondria"
+    },
+    "answer": "B",
+    "explanation": "The nucleolus is the site of rRNA synthesis by RNA polymerase I, producing the 45S pre-rRNA."
+  },
+  {
+    "question": "What is the function of methylation in rRNA processing?",
+    "options": {
+      "A": "To initiate transcription",
+      "B": "To signal degradation of pre-rRNA",
+      "C": "To protect exons from cleavage",
+      "D": "To facilitate transport through the nuclear pore",
+      "E": "To bind ribosomal proteins"
+    },
+    "answer": "C",
+    "explanation": "Methylation marks the exons of the 45S pre-rRNA, protecting these regions from enzymatic cleavage during processing."
+  },
+  {
+    "question": "Which statement accurately describes the difference in mRNA structure between prokaryotes and eukaryotes?",
+    "options": {
+      "A": "Prokaryotic mRNA is monocistronic, while eukaryotic mRNA is polycistronic.",
+      "B": "Prokaryotic mRNA is polycistronic, while eukaryotic mRNA is monocistronic.",
+      "C": "Both prokaryotic and eukaryotic mRNAs are polycistronic.",
+      "D": "Both prokaryotic and eukaryotic mRNAs are monocistronic.",
+      "E": "Prokaryotic mRNA contains introns, while eukaryotic mRNA does not."
+    },
+    "answer": "B",
+    "explanation": "Prokaryotic mRNA often carries multiple genes (polycistronic), whereas eukaryotic mRNA typically encodes a single gene (monocistronic)."
+  },
+  {
+    "question": "Which process is unique to eukaryotic RNA transcript processing?",
+    "options": {
+      "A": "Transcription",
+      "B": "Translation",
+      "C": "Capping",
+      "D": "Splicing",
+      "E": "Polyadenylation"
+    },
+    "answer": "D",
+    "explanation": "The removal of introns through splicing is a characteristic feature of eukaryotic RNA processing."
+  },
+  {
+    "question": "What distinguishes 5S rRNA synthesis in eukaryotes?",
+    "options": {
+      "A": "It is synthesized by RNA polymerase II.",
+      "B": "It is synthesized in the cytoplasm.",
+      "C": "It can be produced independently.",
+      "D": "It is not methylated.",
+      "E": "It does not undergo cleavage."
+    },
+    "answer": "C",
+    "explanation": "Eukaryotic 5S rRNA can be synthesized independently, unlike other rRNA components."
+  },
+  {
+    "question": "Which of the following is a characteristic of prokaryotic transcription and translation?",
+    "options": {
+      "A": "Transcription and translation occur in separate cellular compartments.",
+      "B": "Transcription and translation are coupled processes.",
+      "C": "Transcription occurs primarily in the G1 and G2 phases of the cell cycle.",
+      "D": "Transcription initiation requires specific transcription factors.",
+      "E": "RNA polymerase is composed of 10-15 polypeptides."
+    },
+    "answer": "B",
+    "explanation": "In prokaryotes, transcription and translation occur simultaneously in the cytoplasm, referred to as coupled transcription-translation."
+  },
+  {
+    "question": "Where does transcription primarily occur in eukaryotic cells?",
+    "options": {
+      "A": "Cytoplasm",
+      "B": "Nucleus",
+      "C": "Golgi apparatus",
+      "D": "Endoplasmic reticulum",
+      "E": "Mitochondria"
+    },
+    "answer": "B",
+    "explanation": "Eukaryotic transcription takes place within the nucleus, separated from the cytoplasm where translation occurs."
+  },
+  {
+    "question": "Which statement best describes the role of transcription factors in eukaryotes?",
+    "options": {
+      "A": "They are involved in RNA degradation.",
+      "B": "They regulate the transport of RNA out of the nucleus.",
+      "C": "They catalyze the formation of peptide bonds.",
+      "D": "They are essential for the initiation of transcription.",
+      "E": "They are responsible for splicing of pre-mRNA."
+    },
+    "answer": "D",
+    "explanation": "Eukaryotic transcription requires the involvement of specific transcription factors, such as TFIIA, TFIIB, TFIID, TFIIE, TFIIF, and TFIIH, which recognize and bind to the TATA box to initiate transcription."
+  },
+  {
+    "question": "How many types of RNA polymerase are typically found in mammalian cells?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "answer": "C",
+    "explanation": "Mammalian cells possess three types of RNA polymerase: RNA polymerase I, II, and III, each responsible for the synthesis of different RNA types (rRNA, mRNA, and tRNA, respectively)."
+  },
+  {
+    "question": "What is a distinguishing feature of pre-RNA processing in eukaryotes compared to prokaryotes?",
+    "options": {
+      "A": "It occurs in the cytoplasm.",
+      "B": "It does not involve the addition of surplus nucleotides.",
+      "C": "It includes the addition of a 5' cap and a 3' poly-A tail.",
+      "D": "It results in the formation of polycistronic RNA.",
+      "E": "It does not involve any modifications."
+    },
+    "answer": "C",
+    "explanation": "Eukaryotic pre-RNA processing involves modifications like the addition of a 5' cap (7-methylguanosine) and a 3' poly-A tail, which are not present in prokaryotes."
+  },
+  {
+    "question": "Which rRNA components are derived from a single primary transcript in prokaryotes?",
+    "options": {
+      "A": "28S, 18S, 5.8S",
+      "B": "28S, 18S, 5S",
+      "C": "23S, 16S, 5.8S",
+      "D": "23S, 16S, 5S",
+      "E": "18S, 5.8S, 5S"
+    },
+    "answer": "D",
+    "explanation": "Prokaryotes generate 23S, 16S, and 5S rRNA from a single primary transcript."
+  },
+  {
+    "question": "What is reverse transcription?",
+    "options": {
+      "A": "The synthesis of RNA from a DNA template.",
+      "B": "The synthesis of DNA from an RNA template.",
+      "C": "The replication of DNA.",
+      "D": "The replication of RNA.",
+      "E": "The translation of RNA into protein."
+    },
+    "answer": "B",
+    "explanation": "Reverse transcription is the process where some RNA viruses use their RNA as a template to synthesize DNA."
+  },
+  {
+    "question": "How do retroviruses integrate their genetic material into the host cell?",
+    "options": {
+      "A": "By directly injecting their RNA into the host nucleus.",
+      "B": "By fusing their envelope with the host cell membrane.",
+      "C": "By converting their RNA into DNA and inserting it into the host genome.",
+      "D": "By replicating their RNA within the host cytoplasm.",
+      "E": "By binding to host cell surface receptors and triggering endocytosis."
+    },
+    "answer": "C",
+    "explanation": "Retroviruses employ reverse transcriptase to convert their RNA into DNA, which is then integrated into the host cell's chromosome."
+  },
+  {
+    "question": "Which type of RNA virus can directly serve as mRNA for protein synthesis?",
+    "options": {
+      "A": "Negative-strand RNA virus",
+      "B": "Positive-strand RNA virus",
+      "C": "Retrovirus",
+      "D": "Double-stranded RNA virus",
+      "E": "Viroid"
+    },
+    "answer": "B",
+    "explanation": "Positive-strand RNA viruses, such as poliovirus, have RNA that can function directly as mRNA to produce proteins."
+  },
+  {
+    "question": "What enzyme is essential for negative-strand RNA viruses to synthesize proteins?",
+    "options": {
+      "A": "DNA polymerase",
+      "B": "RNA polymerase II",
+      "C": "Reverse transcriptase",
+      "D": "RNA-dependent RNA polymerase",
+      "E": "Ribonuclease"
+    },
+    "answer": "D",
+    "explanation": "Negative-strand RNA viruses require RNA-dependent RNA polymerase to create a complementary positive-strand mRNA before protein synthesis can occur."
+  },
+  {
+    "question": "What is the function of the RNA-dependent DNA polymerase activity of reverse transcriptase?",
+    "options": {
+      "A": "To synthesize a second DNA strand complementary to the first.",
+      "B": "To degrade the viral RNA after DNA synthesis.",
+      "C": "To integrate the viral DNA into the host chromosome.",
+      "D": "To synthesize the first cDNA strand complementary to the viral RNA.",
+      "E": "To transcribe viral genes into mRNA."
+    },
+    "answer": "D",
+    "explanation": "The RNA-dependent DNA polymerase activity of reverse transcriptase creates the initial complementary DNA (cDNA) strand using the viral RNA as a template."
+  },
+  {
+    "question": "Why are retroviruses prone to mutations?",
+    "options": {
+      "A": "They have a high rate of RNA replication.",
+      "B": "Their reverse transcriptase lacks proofreading mechanisms.",
+      "C": "They integrate into the host genome randomly.",
+      "D": "They infect immune cells, leading to immune deficiency.",
+      "E": "They undergo frequent recombination events."
+    },
+    "answer": "B",
+    "explanation": "Unlike DNA replication, retroviral reverse transcription lacks stringent error-checking mechanisms, making them susceptible to mutations."
+  },
+  {
+    "question": "What is the role of the LTR (Long Terminal Repeat) in retroviruses?",
+    "options": {
+      "A": "Encoding viral structural proteins.",
+      "B": "Facilitating integration into the host genome.",
+      "C": "Producing the viral envelope.",
+      "D": "Regulating viral RNA transcription.",
+      "E": "Binding to host cell receptors."
+    },
+    "answer": "B",
+    "explanation": "The LTR contains the promoter region that helps insert the viral DNA into the host genome, enabling it to replicate along with the host cell."
+  },
+  {
+    "question": "Which viral genes are responsible for assembling the complete virus particle?",
+    "options": {
+      "A": "LTR and env",
+      "B": "gag and pol",
+      "C": "env and tat",
+      "D": "tat and LTR",
+      "E": "pol and env"
+    },
+    "answer": "B",
+    "explanation": "The *gag* and *pol* genes in retroviruses code for proteins that assemble the various components into a complete virus particle."
+  },
+  {
+    "question": "What is the function of the *tat* gene in retroviruses?",
+    "options": {
+      "A": "Encoding viral structural proteins.",
+      "B": "Facilitating integration into the host genome.",
+      "C": "Producing the viral envelope.",
+      "D": "Stabilizing and regulating viral RNA transcription.",
+      "E": "Binding to host cell receptors."
+    },
+    "answer": "D",
+    "explanation": "The *tat* gene plays a crucial role in stabilizing and controlling the transcription of the entire retroviral RNA."
+  },
+  {
+    "question": "What is the primary function of telomerase?",
+    "options": {
+      "A": "To repair DNA damage.",
+      "B": "To synthesize ribosomal RNA.",
+      "C": "To extend the telomeres of chromosomes.",
+      "D": "To transcribe messenger RNA.",
+      "E": "To initiate DNA replication."
+    },
+    "answer": "C",
+    "explanation": "Telomerase acts as a reverse transcriptase, using an RNA template to synthesize DNA and extend the telomeres at the ends of chromosomes."
+  },
+  {
+    "question": "In which types of cells is active telomerase typically found?",
+    "options": {
+      "A": "Skin cells",
+      "B": "Muscle cells",
+      "C": "Nerve cells",
+      "D": "Stem cells",
+      "E": "All somatic cells"
+    },
+    "answer": "D",
+    "explanation": "Active telomerase is predominantly found in specific cell types, including hematopoietic cells, stem cells, germ cells, and cancer cells."
+  },
+  {
+    "question": "What is the relationship between telomere length and aging?",
+    "options": {
+      "A": "Telomeres lengthen with age.",
+      "B": "Telomere length remains constant throughout life.",
+      "C": "Telomeres shorten with age.",
+      "D": "Telomere length is unrelated to aging.",
+      "E": "Telomeres become more stable with age."
+    },
+    "answer": "C",
+    "explanation": "In most somatic cells, telomeres progressively shorten with each cell division, contributing to the aging process."
+  },
+  {
+    "question": "How does telomerase extend telomeres?",
+    "options": {
+      "A": "By adding nucleotides to the 5' end of the chromosome.",
+      "B": "By removing nucleotides from the 3' end of the chromosome.",
+      "C": "By using its RNA template to synthesize DNA and add it to the 3' end.",
+      "D": "By ligating Okazaki fragments together.",
+      "E": "By unwinding the DNA double helix."
+    },
+    "answer": "C",
+    "explanation": "Telomerase carries an RNA sequence that binds to the complementary 3' end of the chromosome's telomere. It then uses this RNA template to synthesize DNA, effectively extending the telomere."
+  },
+  {
+    "question": "What is the purpose of creating an immortalized cell line?",
+    "options": {
+      "A": "To study the effects of aging.",
+      "B": "To develop new cancer treatments.",
+      "C": "To produce large quantities of specific proteins.",
+      "D": "To model human diseases in vitro.",
+      "E": "All of the above."
+    },
+    "answer": "E",
+    "explanation": "Immortalized cell lines, with their ability to divide indefinitely, are valuable tools in various research areas, including aging research, cancer studies, protein production, and disease modeling."
+  },
+  {
+    "question": "What are ribozymes?",
+    "options": {
+      "A": "Enzymes that synthesize RNA.",
+      "B": "Enzymes that degrade RNA.",
+      "C": "RNA molecules with catalytic activity.",
+      "D": "Proteins that bind to RNA.",
+      "E": "Small nuclear RNAs involved in splicing."
+    },
+    "answer": "C",
+    "explanation": "Ribozymes are RNA molecules that possess catalytic capabilities, acting as enzymes to facilitate specific biochemical reactions."
+  },
+  {
+    "question": "What are the possible substrates for ribozymes?",
+    "options": {
+      "A": "Only other RNA molecules.",
+      "B": "Only DNA molecules.",
+      "C": "Only proteins.",
+      "D": "Both RNA and DNA molecules.",
+      "E": "RNA, DNA, and proteins."
+    },
+    "answer": "A",
+    "explanation": "Ribozymes typically act on RNA molecules, either other RNA molecules (intermolecular) or a portion of the ribozyme itself (intramolecular)."
+  },
+  {
+    "question": "Which of the following is NOT a type of ribozyme activity?",
+    "options": {
+      "A": "Transesterification",
+      "B": "Phosphodiester bond hydrolysis",
+      "C": "Peptide bond formation",
+      "D": "RNA cleavage",
+      "E": "RNA ligation"
+    },
+    "answer": "C",
+    "explanation": "While ribozymes can catalyze transesterification, phosphodiester bond hydrolysis, RNA cleavage, and ligation, peptide bond formation is typically associated with ribosomes and protein synthesis."
+  },
+  {
+    "question": "What is the characteristic structure of a hammerhead ribozyme?",
+    "options": {
+      "A": "A single-stranded RNA molecule.",
+      "B": "A double-stranded RNA molecule.",
+      "C": "Two RNA strands forming a secondary structure resembling a hammer.",
+      "D": "A complex of RNA and protein.",
+      "E": "A circular RNA molecule."
+    },
+    "answer": "C",
+    "explanation": "Hammerhead ribozymes consist of two RNA strands that interact through GC pairing to create a secondary structure resembling a hammer."
+  },
+  {
+    "question": "What type of reaction does a hammerhead ribozyme catalyze?",
+    "options": {
+      "A": "DNA replication",
+      "B": "RNA transcription",
+      "C": "Protein synthesis",
+      "D": "Self-cleavage of RNA",
+      "E": "Ligation of DNA fragments"
+    },
+    "answer": "D",
+    "explanation": "Hammerhead ribozymes are known for their ability to perform self-cleavage, cutting the RNA molecule at a specific site."
+  },
+  {
+    "question": "Where does self-cleavage occur in a hammerhead ribozyme?",
+    "options": {
+      "A": "At any random location.",
+      "B": "At a specific site marked by a GU sequence.",
+      "C": "At the 5' end of the RNA molecule.",
+      "D": "At the 3' end of the RNA molecule.",
+      "E": "At a specific site marked by a CA sequence."
+    },
+    "answer": "E",
+    "explanation": "The self-cleavage activity of a hammerhead ribozyme occurs at a specific location within the RNA molecule marked by a CA sequence."
+  },
+  {
+    "question": "What is the source of the L-19 IVS ribozyme?",
+    "options": {
+      "A": "A bacterial mRNA",
+      "B": "A viral RNA genome",
+      "C": "A spliced Tetrahymena intron",
+      "D": "A human ribosomal RNA",
+      "E": "A synthetic RNA molecule"
+    },
+    "answer": "C",
+    "explanation": "The L-19 IVS ribozyme originates from a spliced intron found in the rRNA of Tetrahymena."
+  },
+  {
+    "question": "What is the function of the L-19 IVS ribozyme in vitro?",
+    "options": {
+      "A": "To splice pre-mRNA.",
+      "B": "To replicate DNA.",
+      "C": "To synthesize proteins.",
+      "D": "To add and remove nucleotides from RNA.",
+      "E": "To degrade RNA molecules."
+    },
+    "answer": "D",
+    "explanation": "In laboratory settings (in vitro), the L-19 IVS ribozyme exhibits the ability to add and remove nucleotides from RNA molecules."
+  },
+  {
+    "question": "How does the L-19 IVS ribozyme extend an oligo-RNA?",
+    "options": {
+      "A": "By acting as a template for DNA polymerase.",
+      "B": "By using ATP as an energy source to add nucleotides.",
+      "C": "By transferring a C nucleotide from its 3' end to the oligo-RNA.",
+      "D": "By cleaving the oligo-RNA and adding the cleaved fragment to itself.",
+      "E": "By binding to the oligo-RNA and preventing its degradation."
+    },
+    "answer": "C",
+    "explanation": "The L-19 IVS ribozyme can extend an oligo-RNA by transferring a C nucleotide from its own 3' end to the oligo-RNA through a series of transesterification reactions."
+  },
+  {
+    "question": "What reaction is involved in the nucleotide addition and removal activity of the L-19 IVS ribozyme?",
+    "options": {
+      "A": "Oxidation-reduction",
+      "B": "Hydrolysis",
+      "C": "Transesterification",
+      "D": "Phosphorylation",
+      "E": "Methylation"
+    },
+    "answer": "C",
+    "explanation": "The L-19 IVS ribozyme utilizes transesterification reactions to add and remove nucleotides from RNA molecules."
+  },
+  {
+    "question": "What is the function of the self-splicing rRNA intron from Tetrahymena in vivo?",
+    "options": {
+      "A": "To degrade mRNA.",
+      "B": "To synthesize proteins.",
+      "C": "To replicate DNA.",
+      "D": "To catalyze the removal of itself from the rRNA precursor.",
+      "E": "To regulate gene expression."
+    },
+    "answer": "D",
+    "explanation": "Within the living organism (in vivo), the self-splicing rRNA intron from Tetrahymena acts to excise itself from the rRNA precursor molecule."
+  },
+  {
+    "question": "What molecule initiates the splicing reaction in the Tetrahymena rRNA intron?",
+    "options": {
+      "A": "ATP",
+      "B": "GTP",
+      "C": "CTP",
+      "D": "UTP",
+      "E": "A free guanosine (G)"
+    },
+    "answer": "E",
+    "explanation": "A free guanosine (G) molecule attacks the 5' splice junction, triggering the self-splicing reaction in the Tetrahymena rRNA intron."
+  },
+  {
+    "question": "What is the internal guide sequence (IGS) responsible for?",
+    "options": {
+      "A": "Encoding ribosomal proteins.",
+      "B": "Recognizing the 5' splice site.",
+      "C": "Initiating transcription of rRNA.",
+      "D": "Terminating translation of mRNA.",
+      "E": "Transporting rRNA out of the nucleus."
+    },
+    "answer": "B",
+    "explanation": "The internal guide sequence (IGS) within the Tetrahymena rRNA intron plays a crucial role in recognizing and binding to the 5' splice site, ensuring accurate splicing."
+  },
+  {
+    "question": "How can the Tetrahymena rRNA intron facilitate the joining of two RNA molecules in vitro?",
+    "options": {
+      "A": "By acting as a template for DNA polymerase.",
+      "B": "By providing a template and catalyzing the ligation reaction.",
+      "C": "By using ATP as an energy source to join the molecules.",
+      "D": "By cleaving itself and attaching the fragments to the RNA molecules.",
+      "E": "By binding to the RNA molecules and preventing their degradation."
+    },
+    "answer": "B",
+    "explanation": "In vitro, the Tetrahymena rRNA intron can be manipulated to join two RNA molecules. By removing its P1 region and introducing a synthetic template, it can ligate two RNA substrates after removing a G nucleotide, demonstrating a simple RNA replication mechanism."
+  },
+  {
+    "question": "What is the central idea of the RNA world hypothesis?",
+    "options": {
+      "A": "DNA was the primary carrier of genetic information in early life.",
+      "B": "Proteins were the first catalysts in early life.",
+      "C": "RNA played a central role in both heredity and catalysis in early life.",
+      "D": "Life originated on another planet and was transported to Earth.",
+      "E": "The first cells were formed spontaneously from inorganic matter."
+    },
+    "answer": "C",
+    "explanation": "The RNA world hypothesis proposes that RNA, with its dual functions of carrying genetic information and acting as a catalyst, played a central role in the origin and early evolution of life."
+  },
+  {
+    "question": "Why is RNA considered a more likely candidate for early life than DNA?",
+    "options": {
+      "A": "RNA is more stable than DNA.",
+      "B": "RNA is more complex than DNA.",
+      "C": "RNA requires more enzymes for synthesis than DNA.",
+      "D": "RNA can self-replicate, while DNA cannot.",
+      "E": "RNA is more readily available in the environment than DNA."
+    },
+    "answer": "D",
+    "explanation": "While less stable than DNA, RNA is simpler in structure and can catalyze its own replication, making it a more plausible candidate for early life."
+  },
+  {
+    "question": "What is the significance of NH4CN in the RNA world hypothesis?",
+    "options": {
+      "A": "It is a precursor for the synthesis of amino acids.",
+      "B": "It is a source of energy for early life.",
+      "C": "It is a component of the primordial soup.",
+      "D": "It is involved in the formation of adenine.",
+      "E": "It protects RNA from degradation."
+    },
+    "answer": "D",
+    "explanation": "NH4CN is proposed to be a key component in the prebiotic synthesis of adenine, one of the four nitrogenous bases found in RNA."
+  },
+  {
+    "question": "What is a major challenge to the RNA world hypothesis?",
+    "options": {
+      "A": "The lack of evidence for RNA in ancient fossils.",
+      "B": "The inability of RNA to store genetic information.",
+      "C": "The instability of RNA under early Earth conditions.",
+      "D": "The absence of a mechanism for RNA to evolve into DNA.",
+      "E": "The difficulty in explaining the origin of the first ribozymes."
+    },
+    "answer": "E",
+    "explanation": "One of the main criticisms of the RNA world hypothesis is the difficulty in explaining the origin of the first ribozymes and the source of the building blocks and energy required for their formation."
+  },
+  {
+    "question": "What structural feature makes DNA more stable than RNA?",
+    "options": {
+      "A": "The presence of thymine instead of uracil.",
+      "B": "The double-stranded nature of DNA.",
+      "C": "The absence of a 2' hydroxyl group in DNA.",
+      "D": "The shorter length of DNA molecules.",
+      "E": "The higher energy content of DNA."
+    },
+    "answer": "C",
+    "explanation": "The lack of a 2' hydroxyl group in DNA's deoxyribose sugar makes it less susceptible to hydrolysis, contributing to its greater stability compared to RNA."
+  },
+  {
+    "question": "How does the 2' hydroxyl group contribute to RNA instability?",
+    "options": {
+      "A": "It facilitates base pairing.",
+      "B": "It participates in hydrogen bonding.",
+      "C": "It acts as a nucleophile, attacking the phosphate backbone.",
+      "D": "It enhances the interaction with proteins.",
+      "E": "It stabilizes the RNA tertiary structure."
+    },
+    "answer": "C",
+    "explanation": "The 2' hydroxyl group in RNA's ribose sugar can act as a nucleophile, attacking the phosphate group of the adjacent nucleotide. This leads to the formation of a 2',3'-cyclic phosphate, causing RNA strand breakage."
+  }
 ]
