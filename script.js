@@ -519,18 +519,39 @@ function gatherEditedContent() {
     const jsonFileName = selectedJson || 'default.json';
     const question = document.querySelector('#popupWindow .editable:nth-child(2)').innerText;
     const optionsText = document.querySelector('#popupWindow .editable:nth-child(3)').innerText;
-    const options = optionsText.split('\n').reduce((acc, option) => {
-        const [key, value] = option.split(': ');
-        acc[key] = value;
-        return acc;
-    }, {});
     const answer = document.querySelector('#popupWindow .editable:nth-child(5)').innerText;
     const explanation = document.querySelector('#popupWindow .editable:nth-child(7)').innerText;
+
+    // 新增：解析選項
+    let options = {};
+    const optionRegex = /([A-E]):\s*([^A-E:]*)/g;
+    let match;
+    while ((match = optionRegex.exec(optionsText)) !== null) {
+        const label = match[1];
+        const text = match[2].trim();
+        options[label] = text;
+    }
+
+    // 如果沒有匹配到任何選項，嘗試按換行符分割
+    if (Object.keys(options).length === 0) {
+        options = optionsText.split('\n').reduce((acc, option) => {
+            const [key, value] = option.split(': ');
+            if (key && value) acc[key.trim()] = value.trim();
+            return acc;
+        }, {});
+    }
+
+    // 確保有至少兩個選項
+    if (Object.keys(options).length < 2) {
+        showCustomAlert('請確保每個選項都以 A、B、C、D、E 開頭並分行。');
+        return;
+    }
 
     const formattedContent = `${currentDate}\n${jsonFileName}\n{\n"question": "${question}",\n"options": ${JSON.stringify(options, null, 2)},\n"answer": "${answer}",\n"explanation": "${explanation}"\n}`;
 
     sendToGoogleDocs(formattedContent);
 }
+
 
 function sendToGoogleDocs(content) {
     const url = 'https://script.google.com/macros/s/AKfycbxte_ckNlaaEKZJDTBO4I0rWiHvvvfoO1NpmLh8BttISEWuD6A7PmqM63AYDAzPwB-x/exec'; // Replace with your web app URL
