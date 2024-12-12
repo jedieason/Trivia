@@ -37,7 +37,7 @@ My prompt: ${userQuestion}
 
 Note that all of your responses should only be in a single line. Answer in the following format:
 
-**<Your answer>**. <Responds to my prompts>.`;
+**<Your answer.>** <Responds to my prompts.>`;
 
     try {
         // Call generateContent
