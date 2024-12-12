@@ -150,7 +150,6 @@ function loadNewQuestion() {
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
     document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
-    userQuestionInput.value = '';
 }
 
 // 更新詳解中的選項標籤
@@ -631,7 +630,7 @@ sendQuestionBtn.addEventListener('click', async () => {
         document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
         document.getElementById('explanation').style.display = 'block';
         document.getElementById('confirm-btn').style.display = 'none';
-
+        userQuestionInput.value = '';
         // Log success
         console.log('Explanation updated successfully!');
     } catch (error) {
