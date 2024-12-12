@@ -2,7 +2,6 @@ const deBugButton = document.getElementById('deBug');
         const popupWindow = document.getElementById('popupWindow');
         const sendButton = document.getElementById('sendButton');
         const closeButton = document.getElementById('closeButton');
-
         /**
          * 創建粒子效果，粒子根據動作（開啟或關閉）向內或向外移動
          * @param {HTMLElement} targetElement - 目標視窗元素
