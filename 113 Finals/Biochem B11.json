@@ -52,7 +52,7 @@
          "D":"Catalytic and regulatory subunit"
       },
       "answer":"C",
-      "explanation":"cAMP binds to the regulatory subunits of PKA, causing them to release the catalytic subunits."
+      "explanation":"cAMP binds to the regulatory subunits of Protein Kinase A (PKA), causing a conformational change that releases the catalytic subunits, thereby activating PKA."
    },
    {
       "question":"Which of the following statements is not involved in the stimulation of RTKs?",
@@ -63,7 +63,7 @@
          "D":"Phosphorylation of tyrosine residue."
       },
       "answer":"C",
-      "explanation":"RTKs primarily activate through dimerization and phosphorylation, not by producing secondary messengers."
+      "explanation":"receptor tyrosine kinases (RTKs) involves three main steps: ligand binding (A), RTK dimerization (B), and phosphorylation of Tyr residues (D), exposing active sites and initiating downstream signaling"
    },
    {
       "question":"Which of the following statements about integrins is correct?",
@@ -74,7 +74,7 @@
          "D":"None of the above."
       },
       "answer":"A",
-      "explanation":"Integrins mediate interactions between cells and their environment by transmitting signals across the membrane."
+      "explanation":"Integrins are transmembrane heterodimeric proteins, meaning they are composed of two different subunits that work together to mediate cell adhesion and signaling. They are located on the cell membrane and mediate interactions between cells and the extracellular matrix (ECM), regulating behaviors such as growth, migration, and differentiation."
    },
    {
       "question":"The cytoplasmic domain of the receptors of which of the following proteins does NOT function as tyrosine kinase?",
@@ -85,7 +85,7 @@
          "D":"Asialoglycoprotein"
       },
       "answer":"D",
-      "explanation":"Asialoglycoprotein receptors lack tyrosine kinase activity."
+      "explanation":"Options A-C refer to RTK hormone receptors. Asialoglycoprotein receptors belong to the C-type lectin receptor family. These receptors do not function as tyrosine kinases because they lack the kinase domain necessary for phosphorylating tyrosine residues, which is critical for signal transduction pathways in RTKs."
    },
    {
       "question":"Nitric oxide (NO) acts as an intracellular second messenger by stimulating:",
@@ -131,7 +131,7 @@
          "E":"Directly bind to DNA sites."
       },
       "answer":"E",
-      "explanation":"Small signal molecules typically regulate transcription indirectly, rather than binding directly to DNA sites."
+      "explanation":"Small signaling molecules typically do not bind directly to DNA. Instead, they indirectly regulate transcription by affecting other regulatory proteins, such as activators and repressors. Here, it likely refers to molecules such as cAMP, IP3, DAG, or other small molecules involved in signaling pathways. These molecules typically mediate cellular responses by activating proteins or pathways."
    },
    {
       "question":"Attenuation in the trp operon of E. coli:",
@@ -142,7 +142,7 @@
          "D":"Functions because the repressor binds to the operator."
       },
       "answer":"A",
-      "explanation":"Attenuation fine-tunes transcription based on tryptophan levels by prematurely terminating transcription when tryptophan is abundant."
+      "explanation":"Attenuation is an mRNA-level regulatory mechanism that alters RNA structure to reduce its expression.\nWhen tryptophan levels are high, regions 3 and 4 of the RNA form a hairpin loop, preventing translation and producing only short peptides.\nWhen tryptophan levels are low, regions 2 and 3 pair, exposing region 4 for ribosome binding to produce enzymes necessary for tryptophan synthesis.\nDuring times of no protein synthesis, regions 1 and 2 pair, as do regions 3 and 4, halting translation."
    },
    {
       "question":"Which of the following is not involved in steroid hormone action?",
@@ -154,7 +154,7 @@
          "E":"Zinc finger"
       },
       "answer":"D",
-      "explanation":"Steroid hormones act through intracellular receptors, not cell surface receptors, to regulate transcription."
+      "explanation":"Steroid hormone receptors are located inside the cell (cytoplasm or nucleus) and not on the cell membrane. Membrane receptors typically mediate signals for water-soluble hormones such as insulin or adrenaline."
    },
    {
       "question":"Which segment of genes is related to the organogenesis of fly larvae?",
@@ -166,7 +166,17 @@
          "E":"Gap gene"
       },
       "answer":"C",
-      "explanation":"Homeobox genes are master regulators of development and are crucial for organogenesis in fly larvae."
-   }
+      "explanation":"Homeobox genes (e.g., HOX genes) regulate embryonic development and organogenesis. They control segmental differentiation and induce cell specialization within segments, forming specific organs and structures."
+   },
+   {
+      "question": "Which of the following statements about cellular and molecular details is incorrect?",
+      "options": {
+          "A": "Phosphatidylinositol is primarily found on the inner leaflet of the plasma membrane.",
+          "B": "Van der Waals forces are used to detect membrane surface height via cantilever adjustment.",
+          "C": "Tyrosine’s amphipathic properties help stabilize membrane proteins at the lipid-water interface.",
+          "D": "Phenylalanine prefers the lipid-water interface due to its polar aromatic ring."
+      },
+      "answer": "D",
+      "explanation": "Phenylalanine prefers the hydrophobic membrane core, not the lipid-water interface."
+  }
 ]
-   
