@@ -21,6 +21,8 @@ let expandTimeout;
 
 // 初始化測驗
 async function initQuiz() {
+    localStorage.removeItem('quizProgress');
+    
     await loadQuestions();
     document.querySelector('.start-screen').style.display = 'none';
     document.querySelector('.quiz-container').style.display = 'flex';
@@ -150,6 +152,7 @@ function loadNewQuestion() {
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
     document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
+    saveProgress();
 }
 
 // 更新詳解中的選項標籤
@@ -231,6 +234,7 @@ function confirmAnswer() {
     document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
     document.getElementById('explanation').style.display = 'block';
     document.getElementById('confirm-btn').style.display = 'none';
+    saveProgress();
 }
 
 // 更新對數
@@ -290,11 +294,14 @@ document.getElementById('startGame').addEventListener('click', () => {
         showCustomAlert('Please select a question bank first!');
         return;
     }
-    initQuiz();
+    initQuiz().then(() => {
+        saveProgress();
+    });
 });
 document.getElementById('confirm-btn').addEventListener('click', confirmAnswer);
 document.getElementById('next-btn').addEventListener('click', loadNewQuestion);
 document.getElementById('copy-btn').addEventListener('click', copyQuestion);
+document.getElementById('restore').addEventListener('click', restoreProgress);
 
 // 新增：Reverse button 的事件監聽器
 document.getElementById('reverseButton').addEventListener('click', reverseQuestion);
@@ -651,3 +658,125 @@ userQuestionInput.addEventListener('keydown', function(event) {
         sendQuestionBtn.click(); // Simulate a click on the send button
     }
 });
+
+function saveProgress() {
+    const progress = {
+        questions: questions,
+        currentQuestion: currentQuestion,
+        correct: correct,
+        wrong: wrong,
+        questionHistory: questionHistory,
+        selectedJson: selectedJson
+    };
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
+}
+
+function restoreProgress() {
+    const savedProgress = localStorage.getItem('quizProgress');
+    if (!savedProgress) {
+        showCustomAlert('沒有找到已保存的進度！');
+        return;
+    }
+
+    try {
+        const progress = JSON.parse(savedProgress);
+        questions = progress.questions;
+        currentQuestion = progress.currentQuestion;
+        correct = progress.correct;
+        wrong = progress.wrong;
+        questionHistory = progress.questionHistory;
+        selectedJson = progress.selectedJson;
+
+        // 更新 UI
+        document.querySelector('.start-screen').style.display = 'none';
+        document.querySelector('.quiz-container').style.display = 'flex';
+        document.querySelector('.quiz-title').innerText = `${selectedJson.split('/').pop().replace('.json', '')} Trivia`;
+        document.getElementById('correct').innerText = correct;
+        document.getElementById('wrong').innerText = wrong;
+
+        // 加載當前題目
+        loadQuestionFromState();
+
+        showCustomAlert('進度已成功恢復！');
+    } catch (error) {
+        console.error('恢復進度時出錯：', error);
+        showCustomAlert('恢復進度時出錯，請重試。');
+    }
+}
+
+function loadQuestionFromState() {
+    if (!currentQuestion || !currentQuestion.question) {
+        showEndScreen();
+        return;
+    }
+
+    // 更新題目文本
+    document.getElementById('question').innerHTML = marked.parse(currentQuestion.question);
+
+    // 檢查題型
+    const optionKeys = Object.keys(currentQuestion.options);
+    let optionLabels = [];
+    let shouldShuffle = true;
+
+    if (optionKeys.length === 2 && optionKeys.includes('T') && optionKeys.includes('F')) {
+        // 是非題
+        optionLabels = ['T', 'F'];
+        shouldShuffle = false;
+    } else {
+        // 單選題
+        optionLabels = ['A', 'B', 'C', 'D', 'E'];
+        shouldShuffle = true;
+    }
+
+    // 獲取選項條目
+    let optionEntries = Object.entries(currentQuestion.options);
+
+    // 如果需要洗牌，則洗牌選項
+    if (shouldShuffle) {
+        shuffle(optionEntries);
+    }
+
+    // 正確構建 labelMapping
+    let labelMapping = {};
+    for (let i = 0; i < optionEntries.length; i++) {
+        const [originalLabel, _] = optionEntries[i];
+        labelMapping[originalLabel] = optionLabels[i];
+    }
+
+    // 更新選項
+    const optionsContainer = document.getElementById('options');
+    optionsContainer.innerHTML = '';
+    let newOptions = {};
+    let newAnswer = '';
+    for (let i = 0; i < optionEntries.length; i++) {
+        const [label, text] = optionEntries[i];
+        const newLabel = optionLabels[i];
+        newOptions[newLabel] = text;
+
+        const button = document.createElement('button');
+        button.classList.add('option-button');
+        button.dataset.option = newLabel;
+        button.innerText = `${newLabel}: ${text}`;
+        button.addEventListener('click', selectOption);
+        optionsContainer.appendChild(button);
+
+        if (label === currentQuestion.answer) {
+            newAnswer = newLabel;
+        }
+    }
+
+    // 更新題目的選項和答案
+    currentQuestion.options = newOptions;
+    currentQuestion.answer = newAnswer;
+
+    // 更新詳解中的選項標籤
+    currentQuestion.explanation = updateExplanationOptions(currentQuestion.explanation, labelMapping);
+
+    // 更新模態窗口的內容
+    document.querySelector('#popupWindow .editable:nth-child(2)').innerText = currentQuestion.question;
+    const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
+    document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
+    document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is no detailed explanation for this question.';
+}
+
