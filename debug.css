@@ -1,68 +1,103 @@
 #popupWindow {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    padding: 20px;
-    backdrop-filter: blur(10px);
-    z-index: 2000;
-}
+            display: none;  /* 修改這裡 */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            background-color: white;
+            width: 380px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+            padding: 24px;
+            z-index: 1000;
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
 
-body.dark-mode #popupWindow{
-background-color: rgba(50, 50, 50, 0.5);
-}
-/* 顯示時的狀態 */
-#popupWindow.show {
-    opacity: 1;
-    visibility: visible;
-}
-/* 按鈕隱藏時的狀態 */
-#toggleButton.hide {
-    opacity: 0;
-    pointer-events: none;
-}
-#sendButton {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #a55555;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-#sendButton:hover {
-    opacity: 0.8;
-}
-.editable {
-    border: 1px solid #ddd;
-    padding: 5px;
-    margin-bottom: 10px;
-    min-height: 20px;
-}
-.non-editable {
-    color: #666;
-    margin-bottom: 5px;
-}
-#closeButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.content {
-    margin-bottom: 40px;  /* 為發送按鈕添加空間 */
-}
+        #popupWindow.show {
+            display: block;  /* 添加這行 */
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+        }
+
+        #closeButton {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            background-color: #f2f2f7;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #closeButton::before,
+        #closeButton::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 2px;
+            background-color: #8e8e93;
+            transform: rotate(45deg);
+        }
+
+        #closeButton::after {
+            transform: rotate(-45deg);
+        }
+
+        #closeButton:hover {
+            background-color: #e5e5ea;
+        }
+
+        .content {
+            margin-top: 10px;
+        }
+
+        .non-editable {
+            color: #8e8e93;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .editable {
+            background-color: #f2f2f7;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 12px;
+            font-size: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .editable:focus {
+            outline: none;
+            background-color: #e5e5ea;
+        }
+
+        #sendButton {
+            width: 100%;
+            background-color: #007aff;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        #sendButton:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
 .particle {
     position: absolute;
     background-color: rgba(119, 119, 119, 0.414);
