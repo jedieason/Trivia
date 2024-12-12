@@ -365,13 +365,33 @@ function reverseQuestion() {
 
 // 按鍵按下事件（可選）
 document.addEventListener('keydown', function(event) {
+    // 檢查是否在Start畫面 (start-screen尚未隱藏)
+    if (document.querySelector('.start-screen').style.display !== 'none') {
+        if (event.key === 'Enter') {
+            if (!selectedJson) {
+                showCustomAlert('Please select a question bank first!');
+                return;
+            }
+            document.getElementById('startGame').click();
+            return;
+        }
+    }
+
+    // 檢查Custom Alert是否顯示中
+    if (customAlert.style.display === 'flex') {
+        if (event.key === 'Enter') {
+            modalConfirmBtn.click();
+            return;
+        }
+    }
+
     // Check if the focused element is the userQuestionInput
     if (event.target === userQuestionInput) {
         // Let the userQuestionInput's own listener handle the Enter key
         return;
     }
 
-    const validOptions = Object.keys(currentQuestion.options);
+    const validOptions = currentQuestion && currentQuestion.options ? Object.keys(currentQuestion.options) : [];
     if (acceptingAnswers && validOptions.includes(event.key.toUpperCase())) {
         const optionButton = document.querySelector(`.option-button[data-option='${event.key.toUpperCase()}']`);
         if (optionButton) {
@@ -385,6 +405,7 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
+
 
 
 // 新增選擇按鈕的功能
