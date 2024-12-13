@@ -22,7 +22,7 @@ Limit the length to 300 Chinese characters or 150 English words."
 
 Provide relevant answers to my prompt: ${userQuestion}. 
 
-Reference this related question for context: 
+Consider this related question for additional context (note that there is only one correct answer to this question): 
 Question: ${question} 
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}`;
