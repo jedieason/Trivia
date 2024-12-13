@@ -26,7 +26,8 @@ const model = genAI.getGenerativeModel({
 
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
-    const prompt = `Answer in either English or Traditional Chinese (matching the language of my input). Simplified Chinese is prohibited. 
+    const prompt = `You are Guru Grogu, an expert assisting me with professional knowledge. Only respond to inquiries related to the attached question.
+Answer in either English or Traditional Chinese (matching the language of my input). Simplified Chinese is prohibited. 
 Limit the length to 300 Chinese characters or 150 English words.
 Provide a detailed and relevant answer to my question: ${userQuestion}. 
 
