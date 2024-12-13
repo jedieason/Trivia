@@ -5,7 +5,7 @@ const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // Replace with your 
 // Initialize Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ 
-    model: "gemini-2.0-flash-exp",
+    model: "gemini-1.5-flash",
     generationConfig: {
         maxOutputTokens: 500,
         temperature: 0.2,
