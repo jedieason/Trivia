@@ -12,7 +12,7 @@ const model = genAI.getGenerativeModel({
         topP: 0.8,
         topK: 20,
     },
-    systemInstruction: "Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED. Do not include any introductory phrases or opening remarks; provide the answer in a concise and structured manner.",
+    systemInstruction: "Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED. Do not include any introductory phrases or opening remarks; provide your response in a concise and structured manner.",
 });
 
 // Define the generateExplanation function and expose it globally
