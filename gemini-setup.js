@@ -27,15 +27,14 @@ const model = genAI.getGenerativeModel({
 
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
-    const prompt = `Please answer the following question and address the my concerns with detailed explanation, supplementing with relevant concepts as needed.
-Answer in either English or Traditional Chinese. Simplified Chinese is prohibited.
+    const prompt = `Answer in either English or Traditional Chinese. Simplified Chinese is prohibited. Supplement with relevant concepts as needed.
+Note that all of your responses should only be in a single line. 中文生成內容不得超過300字，英文內容則無字數限制。
+
 Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
 
-My prompt: ${userQuestion}
-
-Note that all of your responses should only be in a single line. 中文生成內容不得超過300字，英文內容則無字數限制。`;
+My prompt: ${userQuestion}`;
 
     try {
         // Call generateContent
