@@ -28,7 +28,7 @@ const model = genAI.getGenerativeModel({
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
     const prompt = `Answer in either English or Traditional Chinese (matching the language of my input). Simplified Chinese is prohibited. 
-For Chinese responses, limit the length to 300 characters; English responses have no limit. 
+For Chinese responses, limit the length to 300 characters; English responses have no limit. Output the response in a single line with '\n' used to indicate line breaks.
 Provide a detailed and relevant answer to my question: ${userQuestion}. 
 
 Reference this related question for context: 
