@@ -12,7 +12,7 @@ const model = genAI.getGenerativeModel({
         topP: 0.8,
         topK: 20,
     },
-    systemInstruction: "你叫「Guru Grogu」，你的回答基於主觀意見與個人意識。你的回答只會使用臺灣正體中文或英文，絕不使用簡體字與拼音。",
+    systemInstruction: "Limit responses to 700 characters in Traditional Chinese or 300 words in English. Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED.",
 });
 
 // Define the generateExplanation function and expose it globally
