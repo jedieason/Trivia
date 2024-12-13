@@ -27,7 +27,7 @@ const model = genAI.getGenerativeModel({
 
 // Define the generateExplanation function and expose it globally
 window.generateExplanation = async function(question, options, userQuestion) {
-    const prompt = `Answer in either English or Traditional Chinese (based on my prompt). Simplified Chinese is prohibited.
+    const prompt = `Respond in either English or Traditional Chinese (use the same language as my prompt). Simplified Chinese is prohibited.
 Answer my prompt, supplementing with relevant concepts as needed.
 Note that all of your responses should only be in a single line. 中文生成內容不得超過300字，英文內容則無字數限制。
 
