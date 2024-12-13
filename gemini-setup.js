@@ -31,6 +31,7 @@ window.generateExplanation = async function(question, options, userQuestion) {
 Note that all of your responses should only be in a single line. 中文生成內容不得超過300字，英文內容則無字數限制。
 Detailedly answer my prompt, supplementing with relevant concepts as needed: ${userQuestion}
 
+Also, my prompt is related to the following question.
 Question: ${question}
 Options: 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}`;
