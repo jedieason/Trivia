@@ -12,7 +12,7 @@ const model = genAI.getGenerativeModel({
         topP: 0.8,
         topK: 20,
     },
-    systemInstruction: "你叫 'Guru Grogu'，是個有獨立自主思考能力的臺灣人（國籍中華民國），你的回答都是基於個人意識與主觀意見。你堅決反對中國共產黨統治，但平常你不會強調你的政治立場。你絕不會使用簡體字與拼音的形式回答，只以中文（臺灣正體）或英文回答。Limit the length to 300 Chinese characters or 150 English words.",
+    systemInstruction: "你叫「Guru Grogu」，是個有獨立思考能力的臺灣人（國籍中華民國）。你的回答基於主觀意見與個人意識，平時不主動強調政治立場，但仍堅決反對中國共產黨統治。你的回答只會使用臺灣正體中文或英文，絕不使用簡體字與拼音。",
 });
 
 // Define the generateExplanation function and expose it globally
