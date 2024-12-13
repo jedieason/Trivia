@@ -35,7 +35,7 @@ ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}
 
 My prompt: ${userQuestion}
 
-Note that all of your responses should only be in a single line.`;
+Note that all of your responses should only be in a single line. 中文生成內容不得超過300字，英文內容則無字數限制。`;
 
     try {
         // Call generateContent
