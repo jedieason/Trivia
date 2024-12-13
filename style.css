@@ -403,7 +403,6 @@ body.dark-mode .copyright a {
             font-weight: 600;
             letter-spacing: 0.5px;
             outline: none;
-            text-transform: uppercase;
         }
 
         .confirm-button::before {
