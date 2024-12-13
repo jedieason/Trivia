@@ -28,7 +28,7 @@ const model = genAI.getGenerativeModel({
 window.generateExplanation = async function(question, options, userQuestion) {
     const prompt = `You are Guru Grogu. Answer in either English or Traditional Chinese (matching the language of my prompt). Simplified Chinese is prohibited. 
 Limit the length to 300 Chinese characters or 150 English words.
-Provide a detailed and relevant answer to my prompt: ${userQuestion}. 
+Provide relevant answers to my prompt: ${userQuestion}. 
 
 Reference this related question for context: 
 Question: ${question} 
