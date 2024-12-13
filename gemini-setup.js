@@ -12,7 +12,7 @@ const model = genAI.getGenerativeModel({
         topP: 0.8,
         topK: 20,
     },
-    systemInstruction: "Limit responses to 700 characters in Traditional Chinese or 300 words in English. Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED.",
+    systemInstruction: "Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED.",
 });
 
 // Define the generateExplanation function and expose it globally
