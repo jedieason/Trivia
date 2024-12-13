@@ -432,16 +432,16 @@
 "explanation": "Activator proteins can enhance gene expression by facilitating RNA polymerase binding to the promoter, and some activators can modify DNA structure to increase its accessibility for transcription."
 },
 {
-"question": "What is the significance of the basal level of gene expression?",
-"options": {
-"A": "It represents the maximum level of gene expression.",
-"B": "It ensures that a minimal amount of protein product is always present in the cell.",
-"C": "It prevents the complete silencing of a gene.",
-"D": "It is the same for all genes in a cell.",
-"E": "It is not affected by regulatory proteins."
-},
-"answer": "B, C",
-"explanation": "The basal level of gene expression ensures a minimum amount of protein product is available, and prevents genes from being completely inactive."
+  "question": "What is the significance of the basal level of gene expression?",
+  "options": {
+    "A": "It represents the maximum level of gene expression.",
+    "B": "It ensures that a minimal amount of protein product is always present in the cell.",
+    "C": "It prevents the complete silencing of a gene.",
+    "D": "It is the same for all genes in a cell.",
+    "E": "It is not affected by regulatory proteins."
+  },
+  "answer": "B",
+  "explanation": "The basal level of gene expression ensures a minimum amount of protein product is available, which is essential for cellular function."
 },
 {
 "question": "What is the role of allosteric conformational changes in the regulation of gene expression?",
