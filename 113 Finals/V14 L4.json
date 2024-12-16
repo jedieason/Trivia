@@ -1,0 +1,494 @@
+[
+  {
+    "question": "In the context of molecular systems biology, what is the primary limitation of using immunoblotting (immunoblot) for identifying protein components?",
+    "options": {
+      "A": "It requires highly specialized equipment that is not widely available.",
+      "B": "It is unable to identify proteins with low abundance in the sample.",
+       "C":"The process is exceptionally time-consuming and expensive to analyze the entire human proteome.",
+      "D": "It can only detect proteins that have been modified by specific enzymes.",
+       "E": "The results are often ambiguous due to the non-specificity of the antibodies used."
+    },
+    "answer": "C",
+    "explanation": "Immunoblotting is not efficient for analyzing the entire human proteome (~24,000 proteins) due to the excessive time and financial resources required, as illustrated by the calculation of 5.48 years and NT$ 240,000,000."
+  },
+  {
+    "question": "According to the provided text, why do proteins of differing molecular weights separate during SDS-PAGE despite having a similar charge-to-mass ratio?",
+      "options": {
+        "A": "The differing number of SDS molecules attached to each protein.",
+        "B": "Variations in the applied electrical field across the gel.",
+        "C":"The differing physical resistance encountered by each protein when moving through the gel matrix pore.",
+        "D": "The inconsistent temperature distribution within the gel during electrophoresis.",
+        "E": "The different starting locations of each protein during gel loading."
+      },
+      "answer": "C",
+      "explanation": "While all proteins in SDS-PAGE have a similar charge-to-mass ratio due to SDS binding, they experience different resistance due to size and structure, causing them to migrate at different rates through the gel's pores."
+  },
+ {
+    "question": "Which of the following best describes the key advantage of using aptamers (SOMAmers) in protein analysis compared to antibodies?",
+    "options": {
+      "A": "Aptamers have a higher affinity for their target proteins than antibodies.",
+      "B": "Aptamers are less prone to degradation and denaturation than antibodies.",
+      "C":"Aptamers can be more easily synthesized and purified at a lower cost than antibodies.",
+      "D": "Aptamers are capable of detecting a broader range of protein modifications than antibodies.",
+      "E": "Aptamers can be readily used in vivo, whereas antibodies cannot."
+    },
+    "answer": "C",
+    "explanation": "Aptamers, being single-stranded DNA or RNA, are more cost-effective to synthesize and purify compared to protein antibodies."
+  },
+  {
+    "question": "In the SELEX process for aptamer selection, what is the primary purpose of the PCR amplification step?",
+    "options": {
+       "A":"To increase the amount of DNA sequences that bind to the target protein with high affinity.",
+       "B": "To remove DNA sequences that do not bind to the target protein.",
+       "C": "To modify the DNA sequences to enhance their binding affinity.",
+      "D": "To label the DNA sequences for subsequent detection.",
+      "E": "To convert the DNA sequences into RNA."
+    },
+    "answer": "A",
+    "explanation": "PCR amplification is used to exponentially increase the number of the selected aptamer sequences that show high affinity for the target protein, thus enriching the pool with the desired sequences."
+  },
+  {
+    "question": "What is the key technology employed in SomaScan that allows it to quantify multiple proteins simultaneously without the use of antibodies or gel electrophoresis?",
+      "options": {
+        "A": "Quantitative PCR",
+        "B": "Enzyme-linked immunosorbent assay (ELISA)",
+        "C":"Microarray analysis of SOMAmer probes that capture specific proteins.",
+        "D": "Capillary electrophoresis",
+        "E":"High-performance liquid chromatography (HPLC)"
+     },
+      "answer": "C",
+      "explanation": "SomaScan uses a microarray to analyze the abundance of SOMAmers, which are associated with specific proteins. By quantifying the SOMAmers, the corresponding proteins are also indirectly quantified."
+  },
+   {
+    "question": "Which of the following best describes the mechanism of ion generation in MALDI-TOF mass spectrometry?",
+    "options": {
+      "A": "Ionization by electrospray through a fine capillary.",
+      "B": "Ionization by electron impact in a vacuum.",
+       "C":"Laser-induced desorption and ionization of analyte molecules embedded in a matrix.",
+      "D": "Ionization by a chemical reaction with a derivatizing agent.",
+      "E": "Ionization through high-voltage electrical field."
+    },
+    "answer": "C",
+      "explanation": "MALDI-TOF uses a laser to cause desorption and ionization of analyte molecules embedded within a matrix."
+  },
+   {
+    "question": "In MALDI-TOF mass spectrometry, what characteristic of ions is used to determine their mass-to-charge ratio?",
+    "options": {
+      "A": "Their ability to interact with a magnetic field.",
+       "B":"Their time of flight in a field free space.",
+      "C": "Their intensity of absorption of UV light.",
+      "D": "Their fragmentation pattern when subjected to a collision.",
+       "E":"Their chemical reactivity when mixed with different solutions."
+   },
+    "answer": "B",
+    "explanation": "MALDI-TOF determines the mass-to-charge ratio based on the time it takes for ions to travel through a field-free space to a detector."
+  },
+    {
+      "question": "What does the ‘fingerprint’ in the context of a MALDI-TOF spectrum represent?",
+        "options": {
+          "A": "The unique spatial arrangement of atoms in a protein.",
+          "B":"The unique pattern of peptide fragments produced after digestion of a protein by an enzyme, such as trypsin.",
+           "C": "The specific sequence of amino acids in the protein.",
+          "D": "The pattern of post-translational modifications on the protein.",
+          "E":"The secondary structure of the protein, based on the protein's light absorption."
+        },
+        "answer": "B",
+         "explanation": "The 'fingerprint' of a protein in MALDI-TOF is the distinct pattern of peptide fragments produced when a protein is digested with enzymes like trypsin, which is unique to each protein due to its unique sequence."
+    },
+  {
+    "question": "If a MALDI-TOF experiment yields different signal intensities for a single protein across repeated runs, which factor is least likely to contribute to these variations, assuming all procedures were performed perfectly?",
+      "options": {
+          "A": "The differential levels of protease enzyme activity during different digestion procedures.",
+           "B": "The slight variations in the quantity of sample loaded into the mass spectrometer.",
+          "C":"The minor fluctuations in the time duration of flight for peptides across repeated experiments.",
+          "D": "The differing degree to which proteins were cleaved during sample preparation.",
+          "E": "The changes in ambient temperature in the lab during experiment."
+      },
+       "answer": "C",
+       "explanation": "The varying signal intensities are less likely due to slight fluctuations in the time of flight during experiments, assuming the instruments work well. The signal strength is more sensitive to the extent of protein digestion by protease and the amount loaded during sample preparation."
+  },
+ {
+    "question": "What is the first step in LC-MS/MS that separates peptides from a mixture?",
+     "options": {
+        "A": "Electrospray ionization.",
+        "B":"Liquid chromatography.",
+        "C": "Time-of-flight analysis.",
+        "D": "Collision-induced dissociation.",
+         "E": "The application of an electric field to separate molecules by their charge"
+      },
+     "answer": "B",
+     "explanation":"In LC-MS/MS, liquid chromatography is used first to separate peptides based on their chemical properties, before mass spectrometry analysis."
+  },
+    {
+      "question": "What is the function of the collision cell in tandem mass spectrometry (MS/MS)?",
+        "options": {
+          "A": "To ionize the sample molecules.",
+          "B": "To separate ions based on their mass-to-charge ratio.",
+           "C":"To fragment the precursor ions into product ions.",
+          "D": "To detect the arrival of ions.",
+          "E":"To accelerate ions towards the detector."
+       },
+       "answer": "C",
+       "explanation": "The collision cell in tandem mass spectrometry (MS/MS) is used to break precursor ions into product ions by collision with an inert gas, generating fragments for subsequent mass analysis."
+    },
+ {
+    "question": "In LC-MS/MS, why is it necessary to perform a second round of mass spectrometry (MS2) after the first (MS1)?",
+      "options": {
+         "A": "To improve the mass resolution of the precursor ions.",
+         "B": "To separate ions based on different charge states.",
+          "C":"To obtain structural information of the peptides for identification.",
+         "D": "To increase the overall signal intensity.",
+         "E":"To reduce the amount of noise in the mass spectra."
+      },
+      "answer": "C",
+       "explanation": "MS2 provides information about peptide sequences through the analysis of fragmented ions, allowing for more precise identification compared to the results from MS1 alone."
+    },
+ {
+    "question": "In LC-MS/MS, when comparing the MS2 spectra of different candidate peptides with the sample peptide, what indicates a high probability that a candidate peptide matches the sample?",
+    "options": {
+        "A": "The candidate peptide has a higher mass-to-charge ratio than the sample peptide.",
+       "B": "The candidate peptide shows a lower signal intensity than the sample peptide.",
+       "C":"The candidate peptide’s MS2 spectrum closely matches the sample’s MS2 spectrum.",
+        "D": "The candidate peptide elutes faster during the liquid chromatography step.",
+        "E":"The candidate peptide has more amino acid residues than the sample peptide."
+     },
+     "answer": "C",
+     "explanation": "A high degree of similarity between the MS2 spectra of a candidate peptide and a sample peptide suggests that the candidate peptide is likely to be the same as the sample."
+ },
+ {
+     "question": "Which approach is most suitable for detecting low-abundance proteins present in specific subcellular organelles within a cell?",
+      "options": {
+          "A": "Performing whole-cell proteomics followed by bioinformatics analysis.",
+           "B":"Isolating subcellular organelles before performing mass spectrometry analysis.",
+          "C": "Using immunoblotting with highly specific antibodies.",
+          "D": "Analyzing the mRNA expression levels using RNA-Seq.",
+           "E":"Applying metabolic labeling to enrich low-abundance proteins."
+      },
+      "answer": "B",
+       "explanation": "Isolating subcellular organelles before mass spectrometry helps focus the analysis on a specific subcellular compartment, avoiding overlooking of low-abundance proteins due to their dilution in the whole cell."
+ },
+ {
+    "question": "If one is interested in identifying proteins that interact with a particular target protein, which method would be the most effective according to the text?",
+      "options": {
+         "A": "Analyzing the protein structure using X-ray crystallography.",
+        "B": "Using protein mass spectrometry after pulling down the target protein with a Protein A-Antibody complex.",
+       "C": "Using immunoblotting with a battery of antibodies against known proteins.",
+       "D": "Analyzing protein translocation using a fluorescent microscopy.",
+         "E": "Performing RNA sequencing for protein transcript levels"
+    },
+    "answer": "B",
+    "explanation": "Using Protein A-Antibody complex to pull down the target protein and its interacting partners, then analyzing the complex using protein mass spectrometry would identify the interacting partners."
+  },
+ {
+    "question": "According to the text, how can one use protein mass spectrometry to study protein translocation following a cellular stimulation?",
+     "options": {
+        "A": "By using fluorescent protein tagging and imaging in real-time.",
+          "B":"By comparing proteomic profiles of subcellular fractions before and after cell stimulation.",
+        "C": "By comparing the protein expression levels using quantitative PCR.",
+         "D": "By analyzing the protein sequence using Edman degradation.",
+         "E": "By measuring the protein stability using pulse-chase analysis."
+      },
+      "answer": "B",
+     "explanation":"By isolating cell nuclei before and after stimulation and using mass spectrometry to analyze their protein content, you can identify which proteins translocate in response to the stimulation."
+ },
+ {
+     "question": "What is the primary purpose of using a UV-sensitive adaptor in the SomaScan method?",
+      "options": {
+         "A": "To enhance the binding affinity of the SOMAmer to the target protein.",
+         "B":"To facilitate the release of the SOMAmer-protein complex from the bead upon UV irradiation.",
+        "C": "To label the SOMAmer for subsequent detection by microarray.",
+        "D": "To increase the stability of the SOMAmer-bead interaction.",
+        "E": "To reduce the non-specific binding of proteins to the bead."
+      },
+      "answer": "B",
+      "explanation":"The UV-sensitive adaptor is designed to break the bond between the SOMAmer and the bead when exposed to UV light, allowing the release of the SOMAmer-protein complex for subsequent analysis."
+ },
+  {
+    "question": "Which property of a SOMAmer enables its high diversity in binding specific targets?",
+      "options": {
+          "A": "Its ability to bind any kind of organic molecules.",
+          "B": "Its enzymatic activity.",
+          "C":"Its high degree of sequence variability by changing base sequences, resulting in various shapes that can bind proteins.",
+          "D": "Its protein structure.",
+        "E": "Its high level of glycosylation."
+      },
+       "answer": "C",
+       "explanation": "The high diversity of SOMAmers arises from the vast number of possible sequences due to changes in the base sequences. This leads to different structural shapes to bind to different targets."
+  },
+ {
+    "question": "In the context of mass spectrometry, what does 'tandem' specifically refer to in the term 'Tandem Mass Spectrometry' (MS/MS)?",
+    "options": {
+        "A": "The use of two different types of detectors.",
+       "B":"The process of two consecutive mass analyses of the same sample.",
+      "C": "The process of ionizing molecules with two different methods.",
+      "D":"The application of two different electrical fields.",
+      "E":"The use of two different types of matrix."
+    },
+    "answer": "B",
+      "explanation":"The term 'tandem' indicates that the analysis is performed in two sequential stages, involving a first stage for mass selection and a second stage for fragmentation and mass analysis of the resulting fragments."
+  },
+    {
+    "question": "In MALDI-TOF, what causes ions with different mass-to-charge ratios to reach the detector at different times?",
+        "options": {
+         "A": "Variations in their electrical charge within the mass spectrometer.",
+         "B": "Different velocities in the magnetic field based on their mass.",
+        "C":"The different speeds based on the ratio between their mass and charge in a field-free space.",
+         "D": "Variations in their initial kinetic energy after being ionized.",
+         "E": "Variations in the way they interact with matrix molecules."
+        },
+      "answer": "C",
+      "explanation":"Ions with different mass-to-charge ratios travel through a field-free space at different speeds and thus reach the detector at different times. Ions with lower mass-to-charge ratios move faster and arrive sooner than ions with higher mass-to-charge ratios."
+  },
+   {
+      "question": "How does the ‘matrix’ function in MALDI-TOF mass spectrometry?",
+        "options": {
+           "A":"It absorbs laser energy and transfers it to the analyte, causing ionization and desorption of the analyte.",
+          "B": "It acts as a carrier to deliver analyte molecules through the mass spectrometer.",
+          "C": "It neutralizes the charge of the analyte ions to allow better detection.",
+         "D": "It helps to separate analyte molecules based on their size and charge.",
+        "E": "It reduces the background noise by filtering out unwanted signals."
+        },
+       "answer": "A",
+       "explanation":"In MALDI-TOF, the matrix absorbs the laser energy and facilitates the desorption and ionization of analyte molecules without excessive fragmentation."
+   },
+  {
+    "question": "What is the main purpose of using trypsin in sample preparation for mass spectrometry?",
+      "options": {
+        "A": "To facilitate the binding of proteins to the matrix.",
+        "B": "To denature proteins and simplify their analysis.",
+         "C":"To cleave proteins at specific sites, generating peptide fragments suitable for mass spectrometry.",
+        "D": "To label proteins with heavy isotopes for quantitative analysis.",
+        "E": "To amplify the abundance of proteins of interest."
+     },
+      "answer": "C",
+     "explanation": "Trypsin cleaves proteins at specific locations (carboxyl side of lysine and arginine residues) to produce smaller peptide fragments for mass spectrometry."
+ },
+ {
+    "question": "Which of the following statements is correct regarding the interpretation of a mass spectrum in MALDI-TOF?",
+      "options": {
+        "A": "The x-axis represents the charge, and the y-axis represents the mass.",
+        "B": "The x-axis represents the mass, and the y-axis represents the charge.",
+        "C":"The x-axis represents the mass-to-charge ratio, and the y-axis represents signal intensity.",
+        "D": "The x-axis represents signal intensity, and the y-axis represents the mass-to-charge ratio.",
+        "E": "The x-axis represents the time of flight, and y-axis represents the charge."
+      },
+    "answer": "C",
+     "explanation":"In a MALDI-TOF spectrum, the x-axis represents the mass-to-charge ratio (m/z), while the y-axis represents the intensity of the signal detected, which correlates with the abundance of each ion."
+ },
+ {
+    "question": "Which of the following accurately describes the liquid chromatography step in LC-MS/MS?",
+    "options": {
+        "A": "It breaks apart the analyte into smaller fragments using inert gas.",
+        "B": "It ionizes the analyte for mass spectrometry detection.",
+         "C":"It separates a complex mixture of peptides based on their physical or chemical properties.",
+        "D": "It analyzes the time of flight of the charged molecules.",
+        "E":"It uses an electrical field to separate peptides based on their charge."
+     },
+    "answer": "C",
+    "explanation": "Liquid chromatography is used to separate the complex mixture of peptides before they enter the mass spectrometer, which enhances the effectiveness of downstream analysis."
+  },
+  {
+      "question": "What is the primary role of a ‘Precursor Peptide’ in LC-MS/MS?",
+        "options": {
+           "A": "It is the final product after multiple rounds of fragmentation.",
+           "B":"It is a peptide ion that is selected for further fragmentation.",
+          "C": "It is a peptide that binds to the matrix to facilitate ionization.",
+          "D": "It is a peptide that neutralizes the charge of other peptides.",
+           "E": "It is the peptide that is used as a control during sample loading."
+        },
+       "answer": "B",
+        "explanation": "In MS/MS, a 'Precursor Peptide' is the specific peptide ion selected from MS1 which is then isolated and further fragmented in a collision cell for MS2."
+    },
+ {
+    "question": "In LC-MS/MS, what is the purpose of the series of metal rods with varying electrical charges in the first mass analyzer?",
+     "options": {
+         "A":"To select a specific precursor ion to pass through, while blocking others.",
+        "B": "To uniformly distribute the incoming peptides.",
+          "C": "To further ionize the peptides entering the mass analyzer.",
+        "D": "To accelerate the peptides towards the detector.",
+         "E": "To neutralize the charge of the peptides."
+      },
+    "answer": "A",
+     "explanation":"The metal rods with varying electrical charges in the first mass analyzer of an LC-MS/MS setup are used to select a specific precursor ion for subsequent analysis and fragmentation. They act like a filter."
+  },
+    {
+      "question": "During a protein interaction study using mass spectrometry, if a researcher fails to observe a known protein interaction, what could be the most probable explanation?",
+        "options": {
+            "A": "The interacting proteins are not expressed in the cell type being analyzed.",
+            "B": "The cell was not treated with the correct stimuli.",
+            "C":"The interacting proteins have low affinity, easily dissociated during sample preparation.",
+           "D": "The mass spectrometer was not calibrated correctly.",
+           "E":"The cell sample was degraded due to incorrect storage."
+        },
+      "answer": "C",
+      "explanation": "Low-affinity interactions are easily disrupted by mechanical or chemical stress during sample preparation, often leading to the loss of interacting protein signals during mass spec."
+  },
+  {
+    "question": "In analyzing protein translocation using mass spectrometry, how can one differentiate between proteins that were initially in the cytoplasm but moved to the nucleus versus proteins that were originally in the nucleus and remained there?",
+     "options": {
+        "A":"By comparing the proteomic profiles of the cytoplasm and the nucleus before and after stimulation.",
+       "B": "By comparing the expression levels of mRNA coding proteins of the nucleus and cytoplasm.",
+       "C": "By labeling proteins in the cytoplasm and nucleus using fluorescent labels, then performing microscopy.",
+        "D": "By performing immunoblotting using an antibody specific for a nuclear localized protein.",
+         "E": "By using a combination of 2D gel and mass spectrometry."
+      },
+     "answer": "A",
+     "explanation":"By comparing the proteomic profiles of the nucleus before and after stimulation, proteins that translocated into the nucleus would show increased abundance post-stimulation while those that remained would show a similar abundance."
+ },
+    {
+    "question": "Which characteristic of aptamers makes them suitable for various applications in biosensing and therapeutics?",
+        "options": {
+          "A": "Their high immunogenicity.",
+          "B":"Their ability to bind to target molecules with high specificity and affinity.",
+          "C": "Their complex three-dimensional structures.",
+          "D": "Their inherent instability and sensitivity.",
+          "E":"Their high molecular weight."
+       },
+      "answer": "B",
+      "explanation":"Aptamers have a high specificity and affinity for target molecules, which makes them suitable for diverse biosensing and therapeutic applications. They can recognize specific target molecules selectively, like how antibodies bind antigens."
+  },
+   {
+    "question": "During the selection process of aptamers using SELEX, which strategy is employed to progressively enrich high-affinity aptamers?",
+    "options": {
+      "A": "Increasing the concentration of the target protein over iterative rounds.",
+      "B":"Repeating cycles of binding, washing and PCR amplification.",
+      "C": "Introducing random mutations into the target proteins.",
+      "D": "Changing the concentration of the primers used in PCR.",
+       "E":"Reducing the temperature of binding during selection."
+    },
+   "answer": "B",
+    "explanation": "The selection of aptamers using SELEX involves iterative cycles of binding to the target protein, washing away non-binding molecules and amplification of bound molecules using PCR, progressively enriching high-affinity aptamers over multiple cycles."
+  },
+   {
+      "question": "According to the text, which feature of the SOMAmers is the key to their potential to bind an extensive array of target molecules?",
+        "options": {
+            "A": "Their high-molecular weight nature, that aids in binding large targets.",
+           "B":"Their structural flexibility resulting from single strand DNA/RNA which allows them to form various shapes.",
+           "C": "Their ability to form stable covalent bonds with their target.",
+           "D":"Their enzymatic activity and high specificity for a small number of target.",
+          "E":"Their ability to undergo modifications and change the functional groups."
+       },
+     "answer": "B",
+     "explanation":"The flexible structures arising from their single-stranded nature allows SOMAmers to adopt a variety of shapes, enabling them to bind to a diverse range of targets effectively."
+   },
+    {
+        "question": "What step is unique to SomaScan that differentiates it from typical mass spectrometry based proteomics approaches?",
+          "options": {
+             "A": "The use of gel electrophoresis to separate proteins.",
+              "B": "The use of antibodies to pull down target proteins.",
+            "C": "The use of a UV-sensitive adaptor to release SOMAmer-protein complexes.",
+             "D": "The use of liquid chromatography to separate peptides.",
+             "E": "The use of trypsin digestion to generate peptides."
+            },
+           "answer": "C",
+          "explanation":"The utilization of a UV-sensitive adaptor to release the SOMAmer-protein complex from the bead is a distinct step of the SomaScan method and is not present in typical mass spec-based proteomics approaches, allowing quantification of a large number of proteins."
+   },
+    {
+      "question": "When using SomaScan, the signal intensity of the spots on the microarray is directly proportional to what?",
+       "options": {
+         "A": "The binding affinity of the SOMAmer to the target protein.",
+           "B": "The length of the SOMAmer probe.",
+           "C":"The quantity of the corresponding SOMAmer present in the sample.",
+         "D": "The molecular weight of the target protein.",
+         "E":"The binding affinity between biotin and the bead."
+        },
+     "answer": "C",
+      "explanation": "In SomaScan, the signal intensity of the spots on the microarray is directly proportional to the quantity of the SOMAmer, which is indirectly proportional to the amount of its target protein."
+   },
+  {
+    "question": "If a researcher wants to perform a large-scale analysis of protein expression in a cell, which method would be most efficient in terms of time and throughput?",
+        "options": {
+           "A": "Immunoblotting.",
+           "B": "Traditional 2D gel electrophoresis followed by MALDI-TOF.",
+          "C":"Protein mass spectrometry, such as LC-MS/MS or SomaScan.",
+          "D": "Quantitative PCR for each protein.",
+          "E": "ELISA based protein assay."
+        },
+        "answer": "C",
+        "explanation":"Protein mass spectrometry, like LC-MS/MS or SomaScan, offers the best balance of speed and high throughput capabilities for large scale protein analysis compared to immunoblotting, 2D gels, and qPCR assays."
+    },
+    {
+    "question": "Which of the following is an advantage of MALDI-TOF compared to LC-MS/MS for protein identification?",
+        "options": {
+           "A": "MALDI-TOF provides more detailed structural information of the proteins.",
+           "B": "MALDI-TOF does not require sample digestion.",
+            "C":"MALDI-TOF can identify proteins based on their unique peptide fingerprint derived from specific protease cut.",
+           "D": "MALDI-TOF allows analysis of complex protein mixtures more efficiently.",
+           "E": "MALDI-TOF can separate peptides by their hydrophobicity."
+        },
+       "answer": "C",
+      "explanation":"MALDI-TOF identifies proteins by comparing the unique pattern of peaks, that result from enzymatic digestion of proteins, with known peptide masses and profiles. This allows protein identification based on unique fingerprints."
+   },
+  {
+     "question": "If one were analyzing a peptide using tandem mass spectrometry and observed that the MS2 spectrum was difficult to interpret due to a complex mixture of fragmented ions, which approach would best solve this problem?",
+      "options": {
+        "A": "Use a lower collision energy to reduce fragmentation.",
+        "B": "Use a different type of matrix in the MALDI-TOF.",
+          "C":"Careful selection of a specific precursor ion of better purity during MS1.",
+       "D": "Increase the number of metal rods in the MS analyzer.",
+          "E": "Use a different enzyme for protein digestion."
+     },
+      "answer": "C",
+      "explanation":"The issue of complex MS2 spectra resulting from a mixture of fragmented ions would be best solved by using purer precursor ions, which can be achieved by careful selection during MS1 analysis."
+  },
+  {
+      "question": "For which of the following experiments would it be most beneficial to use LC-MS/MS rather than MALDI-TOF?",
+        "options": {
+          "A": "Analyzing the peptide masses of a highly purified protein.",
+          "B": "Identifying proteins from a complex mixture, such as a whole cell lysate.",
+           "C": "Identifying specific post-translational modification sites on a protein.",
+           "D":"Studying protein-protein interactions.",
+          "E": "Analyzing the thermal stability of a purified protein."
+        },
+      "answer": "B",
+      "explanation":"LC-MS/MS is best suited for complex protein mixtures because it includes a prior liquid chromatography separation step. In comparison, MALDI-TOF is usually better suited for pure proteins, or proteins separated on a 2D-gel.",
+    },
+  {
+        "question": "In an experiment to study protein translocation, why is it essential to have both a stimulated (experimental) and an unstimulated (control) cell population?",
+            "options": {
+               "A": "To increase the total amount of proteins available for analysis.",
+                "B":"To differentiate between proteins that translocate as a result of the stimulus and those that do not.",
+                "C": "To ensure the mass spectrometer is properly calibrated.",
+                "D": "To identify proteins that are degraded or unstable during the experiment.",
+               "E": "To increase the signal-to-noise ratio during analysis."
+             },
+        "answer": "B",
+        "explanation":"Comparing the stimulated and unstimulated groups is crucial for protein translocation experiments as it allows the researcher to identify proteins that have moved or not moved as a result of stimulus."
+  },
+ {
+    "question": "What is a major advantage of using aptamers in applications like biosensing over traditional antibodies, particularly in terms of cost and manufacturing?",
+      "options": {
+         "A": "Aptamers have higher binding affinity than antibodies.",
+         "B":"Aptamers can be synthesized chemically, making production cheaper and more scalable than for antibodies.",
+       "C": "Aptamers are more stable in vivo than antibodies.",
+         "D": "Aptamers have a larger target protein binding range.",
+        "E": "Aptamers can recognize more diverse target proteins compared to antibodies."
+       },
+    "answer": "B",
+    "explanation":"Aptamers are synthesized chemically. Thus, manufacturing of aptamers is more cost effective and more scalable compared to the production of antibodies, which requires biological methods."
+  },
+    {
+        "question": "Which analytical method is best suited to studying post-translational modifications of proteins?",
+            "options": {
+               "A":"Mass spectrometry.",
+               "B": "Immunoblotting.",
+               "C":"SDS-PAGE.",
+              "D":"ELISA",
+              "E": "RNA sequencing"
+            },
+          "answer": "A",
+          "explanation":"Mass spectrometry can identify changes to a protein's mass due to post-translational modifications by analyzing changes in peptide mass and fragmentation. The other listed methods are less suited for direct identification of such modifications."
+   },
+ {
+        "question": "What is the primary advantage of analyzing subcellular fractions using mass spectrometry, compared to analyzing whole-cell lysates?",
+            "options": {
+                "A": "It is less expensive and time consuming.",
+               "B":"It allows for the detection of low abundance proteins specific to each subcellular location.",
+                 "C":"It does not require lysis of cells.",
+                 "D":"It offers a higher throughput in analysis.",
+                  "E":"It can quantify mRNA expression levels."
+            },
+            "answer": "B",
+          "explanation":"Analyzing subcellular fractions reduces the complexity of a protein sample, allowing low-abundance proteins to be detected which are usually masked when using whole cell lysate."
+   }
+]
