@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <!-- 原有的 meta 和標籤 -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="Images/icon.png" type="image/png">
-    <title>Trivia</title>
+    <link rel="icon" href="Images/logo.png" type="image/png">
+    <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="debug.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
 </head>
 <body>
     <!-- 開始畫面 -->
     <div class="start-screen">
-        <div class="start-title">Trivia</div>
+        <div class="start-title">Quiz</div>
         <div class="header-right-homepage">
             <button id="modeToggle-header" class="toggle-button">
                 <img src="Images/moon.svg" alt="Switch to dark mode" width="15" height="15">
@@ -32,25 +34,19 @@
         <button id="startGame" class="start-button">Start</button>
         <!-- Restore -->
         <button class="restoreBtn_C3D4" id="restore">
-            <span class="btnText_E5F6">Restore</span>
+            <span class="btnText_E5F6">Where did I leave off?</span>
         </button>
-        <!-- 切換模式按鈕 -->
         <div class="language">
-            <button class="language-button">English</button>
-            <span class="separator">|</span>
-            <button class="language-button">正體中文</button>
+            <button class="language-button">Site uses Traditional Chinese</button>
         </div>
     </div>
     
     <!-- 測驗內容 -->
     <div class="quiz-container">
         <div class="header">
-            <div class="quiz-title">Trivia</div>
+            <div class="quiz-title">Quiz</div>
             <div class="header-right">
                 <img id="reverseButton" src="Images/reverse.svg" alt="Reverse" width="23" height="23" style="cursor: pointer;">
-                <button id="modeToggle" class="toggle-button">
-                    <img src="Images/moon.svg" alt="Switch to dark mode" width="15" height="15">
-                </button>
 <!--                 <button class="login-button">Login</button> -->
                 <div class="user-info button-container" style="display: none;">
                     <img class="user-button user-profile" src="" alt="User Profile" style="display: none;" id="userProfileBtn">
@@ -77,7 +73,7 @@
         <div class="explanation" id="explanation">
             <div class="explanation-text" id="explanation-text"></div>
             <div id="WeeGPTInputSection" style="display: none;">
-                <textarea id="userQuestion" placeholder="Ask Gemini 2.0..."></textarea>
+                <input id="userQuestion" placeholder="Ask Gemini 2.0..."></input>
                 <button id="sendQuestionBtn">Send</button>
             </div>
             <div class="explanation-buttons">
@@ -86,11 +82,11 @@
                     <img id="deBug" src="Images/debug.svg" alt="Debug" width="30" height="30" style="cursor: pointer;">
                     <img id="WeeGPT" src="Images/WeeGPT.svg" alt="WeeGPT" width="24" height="24" style="cursor: pointer;">
                 </div>
-                <button id="next-btn" class="next-button">Next</button>
+                <button id="next-btn" class="next-button">Next Question</button>
             </div>
         </div>
         <div class="copyright">
-            Copyright © 2024 <a href="https://instagram.com/jedieason">Jedieason</a>. All rights reserved.
+            © 2024 <a href="https://instagram.com/jedieason" target="_blank">Jedieason</a> All rights reserved
         </div>
     </div>
 
@@ -98,7 +94,7 @@
     <div id="customAlert" class="modal">
         <div class="modal-content">
             <p id="modal-message">Choose something</p>
-            <button id="modalConfirmBtn" class="modal-confirm-button">Got it!</button>
+            <button id="modalConfirmBtn" class="modal-confirm-button">Got it</button>
         </div>
     </div>
 
@@ -109,12 +105,12 @@
             <div class="non-editable">Question:</div>
             <div class="editable" contenteditable="true"></div>
             <div class="editable" contenteditable="true"></div>
-            <div class="non-editable">Answer:</div>
+            <div class="non-editable">Options:</div>
             <div class="editable" contenteditable="true"></div>
             <div class="non-editable">Explanation:</div>
             <div class="editable" contenteditable="true"></div>
         </div>
-        <button id="sendButton">Caught a bug</button>
+        <button id="sendButton">Bug found</button>
     </div>
       <script type="importmap">
         {
