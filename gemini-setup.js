@@ -1,7 +1,6 @@
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyDJ4UcQQzGv7x7fVocx5lOPcSCCsb4dQmQ"; // Replace with your actual API key
-
+const API_KEY = "AIzaSyBNSAN553F5bmfDl3Z9PipiQWRS02MaNuI"; // 我知道寫在前端很糟糕但我真的懶得搞一個後端！！！
 // Initialize Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ 
@@ -12,16 +11,14 @@ const model = genAI.getGenerativeModel({
         topP: 0.8,
         topK: 20,
     },
-    systemInstruction: "Answer in either English or Traditional Chinese (Taiwan), depending on the language of my prompt. Simplified Chinese and pinyin are STRICTLY PROHIBITED. Do not include any introductory phrases or opening remarks.",
+    systemInstruction: "You are WeeGPT trained by Jedieason. Answer in English. Answer my question. The content of my query will be based on the topic attached after my question, but that topic is not the main focus of your answer. Simplified Chinese and pinyin are STRICTLY PROHIBITED. Do not include any introductory phrases or opening remarks.",
 });
 
 // Define the generateExplanation function and expose it globally
-window.generateExplanation = async function(question, options, userQuestion) {
-const prompt = `Provide relevant answers to my prompt: ${userQuestion}. 
+window.generateExplanation = async function(question, options, userQuestion, defaultAnswer) {
+const prompt = `The default answer for the following question is ${defaultAnswer}, and I'd like to ask: ${userQuestion}？
 
-Consider this related question for additional context (note that there is only one correct answer to this question): 
-Question: ${question} 
-Options: 
+${question} 
 ${Object.entries(options).map(([key, value]) => `${key}: ${value}`).join('\n')}`;
 
     try {
