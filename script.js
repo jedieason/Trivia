@@ -14,7 +14,7 @@ let questionHistory = [];
 // GitHub API相關資訊
 const GITHUB_USER = 'jedieason'; // 替換為您的GitHub用戶名
 const GITHUB_REPO = 'Trivia'; // 替換為您的存儲庫名稱
-const GITHUB_FOLDER_PATH = '113 Finals'; // JSON檔案所在的目錄
+const GITHUB_FOLDER_PATH = '113-2'; // JSON檔案所在的目錄
 
 const userQuestionInput = document.getElementById('userQuestion');
 
@@ -28,8 +28,7 @@ window.MathJax = {
         fontCache: 'global'
     }
 };
-
-// 初始化測驗
+document.querySelector('.quiz-title').innerText = `${fileName} Trivia`;// 初始化測驗
 async function initQuiz() {
     localStorage.removeItem('quizProgress');
     
@@ -39,7 +38,7 @@ async function initQuiz() {
     
     // Update the quiz title with the current file name
     const fileName = selectedJson.split('/').pop().replace('.json', '');
-    document.querySelector('.quiz-title').innerText = `${fileName} Questions`;
+    document.querySelector('.quiz-title').innerText = `${fileName} Trivia`;
 
     loadNewQuestion();
 }
@@ -111,7 +110,7 @@ function loadNewQuestion() {
     // 更新題目文本，若為多選題則加上標籤
     const questionDiv = document.getElementById('question');
     if (currentQuestion.isMultiSelect) {
-        questionDiv.innerHTML = '<div class="multi-label">Multi</div>' + marked.parse(currentQuestion.question);
+        questionDiv.innerHTML = '<div class="multi-label">多</div>' + marked.parse(currentQuestion.question);
     } else {
         questionDiv.innerHTML = marked.parse(currentQuestion.question);
     }
@@ -135,7 +134,7 @@ function loadNewQuestion() {
         shouldShuffle = false;
     } else {
         // 單選題（或多選題）都用這組標籤
-        optionLabels = ['A', 'B', 'C', 'D', 'E'];
+        optionLabels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
         shouldShuffle = true;
     }
 
@@ -195,16 +194,16 @@ function loadNewQuestion() {
     const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
-    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is currently no explanation for this question. If you have any questions, feel free to ask Gemini 2.0!';
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || '這題目前還沒有詳解，有任何疑問歡迎詢問 Guru Grogu！';
     saveProgress();
 }
 
 // 更新詳解中的選項標籤
 function updateExplanationOptions(explanation, labelMapping) {
     if (!explanation) {
-        return 'There is currently no explanation for this question. If you have any questions, feel free to ask Gemini 2.0!';
+        return '這題目前還沒有詳解，有任何疑問歡迎詢問 Guru Grogu！';
     }
-    return explanation.replace(/\((A|B|C|D|E)\)/g, function(match, label) {
+    return explanation.replace(/\((A|B|C|D|E|F|G|H|I|J|K|L)\)/g, function(match, label) {
         let newLabel = labelMapping[label] || label;
         return `(${newLabel})`;
     });
@@ -263,7 +262,7 @@ modalConfirmBtn.addEventListener('click', () => {
 function confirmAnswer() {
     if (currentQuestion.isMultiSelect) {
         if (selectedOptions.length === 0) {
-            showCustomAlert('Please select an option, even a guess is fine!');
+            showCustomAlert('Pick an option, even a wild guess counts!');
             return;
         }
         acceptingAnswers = false;
@@ -295,7 +294,7 @@ function confirmAnswer() {
         }
     } else {
         if (!selectedOption) {
-            showCustomAlert('Please select an option, even a guess is fine!');
+            showCustomAlert('Pick an option, even a wild guess counts!');
             return;
         }
         acceptingAnswers = false;
@@ -338,7 +337,7 @@ function updateWrong() {
 
 function showEndScreen() {
     isTestCompleted = true;
-    showCustomAlert(`Test completed!\nCorrect: ${correct} questions; Incorrect: ${wrong} questions.`);
+    showCustomAlert(`Trivia complete!\nYou nailed ${correct} and flubbed ${wrong} questions.`);
 }
 
 function copyQuestion() {
@@ -365,7 +364,7 @@ function copyQuestion() {
     }
     textToCopy += '\nExplanation:\n' + (currentQuestion.explanation || 'No explanation provided.');
     navigator.clipboard.writeText(textToCopy).then(function() {
-        showCustomAlert('Question copied!');
+        showCustomAlert('題目已複製！');
     }, function(err) {
         alert('Could not copy text: ' + err);
     });
@@ -373,7 +372,7 @@ function copyQuestion() {
 
 document.getElementById('startGame').addEventListener('click', () => {
     if (!selectedJson) {
-        showCustomAlert('You haven\'t selected a question bank, what do you want to play!');
+        showCustomAlert('Please select a trivia bank!');
         return;
     }
     initQuiz().then(() => {
@@ -389,7 +388,7 @@ document.getElementById('reverseButton').addEventListener('click', reverseQuesti
 
 function reverseQuestion() {
     if (questionHistory.length === 0) {
-        showCustomAlert('There is no previous question!');
+        showCustomAlert('No previous trivia available!');
         return;
     }
     if (currentQuestion.question) {
@@ -437,14 +436,14 @@ function reverseQuestion() {
     const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
-    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is currently no explanation for this question. If you have any questions, feel free to ask Gemini 2.0!';
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || '這題目前還沒有詳解，有任何疑問歡迎詢問 Guru Grogu！';
 }
 
 document.addEventListener('keydown', function(event) {
     if (document.querySelector('.start-screen').style.display !== 'none') {
         if (event.key === 'Enter') {
             if (!selectedJson) {
-                showCustomAlert('You haven\'t selected a question bank, what do you want to play!');
+                showCustomAlert('No trivia selected, what are you even playing?!');
                 return;
             }
             document.getElementById('startGame').click();
@@ -458,6 +457,11 @@ document.addEventListener('keydown', function(event) {
         }
     }
     if (event.target === userQuestionInput) {
+        return;
+    }
+    if (event.key.toLowerCase() === 'q') {
+        event.preventDefault();
+        weeGPTButton.click();
         return;
     }
     const validOptions = currentQuestion && currentQuestion.options ? Object.keys(currentQuestion.options) : [];
@@ -555,7 +559,7 @@ function gatherEditedContent() {
         }, {});
     }
     if (Object.keys(options).length < 2) {
-        showCustomAlert('Please ensure each option starts with A, B, C, D, E and is on a separate line.');
+        showCustomAlert('Please ensure every option starts with A, B, C, D, E on a new line. Seriously.');
         return;
     }
     const formattedContent = `${currentDate}\n${jsonFileName}\n{\n"question": "${question}",\n"options": ${JSON.stringify(options, null, 2)},\n"answer": "${answer}",\n"explanation": "${explanation}"\n}`;
@@ -588,6 +592,7 @@ window.addEventListener("beforeunload", function (event) {
     event.returnValue = '';
 });
 
+// 修改後的 fetchJsonFiles()：讀取 113-2 目錄，判斷檔案或資料夾
 async function fetchJsonFiles() {
     const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${GITHUB_FOLDER_PATH}`;
     try {
@@ -597,29 +602,82 @@ async function fetchJsonFiles() {
         }
         const data = await response.json();
         const buttonContainer = document.getElementById('button-row');
+        buttonContainer.innerHTML = '';  // 清空原有按鈕
         data.forEach(item => {
-            if (item.type === 'file' && item.name.endsWith('.json')) {
-                const relativePath = item.path.replace(/\\/g, '/');
-                const button = document.createElement('button');
-                button.classList.add('select-button');
-                button.dataset.json = relativePath;
-                button.innerText = item.name.replace('.json', '');
-                button.addEventListener('click', () => {
+            if (item.type === 'dir') {
+                // 若是資料夾，建立一個可展開的按鈕
+                const folderButton = document.createElement('button');
+                folderButton.classList.add('select-button');
+                folderButton.dataset.dir = item.path;
+                folderButton.innerText = item.name;
+                folderButton.addEventListener('click', () => {
+                    fetchFolderFiles(item.path);
+                });
+                buttonContainer.appendChild(folderButton);
+            } else if (item.type === 'file' && item.name.endsWith('.json')) {
+                // 若資料夾內也直接放檔案，就直接顯示
+                const fileButton = document.createElement('button');
+                fileButton.classList.add('select-button');
+                fileButton.dataset.json = item.path;
+                fileButton.innerText = item.name.replace('.json', '');
+                fileButton.addEventListener('click', () => {
                     const allButtons = document.querySelectorAll('.select-button');
                     allButtons.forEach(btn => btn.classList.remove('selected'));
-                    button.classList.add('selected');
-                    selectedJson = button.dataset.json;
+                    fileButton.classList.add('selected');
+                    selectedJson = fileButton.dataset.json;
                 });
-                buttonContainer.appendChild(button);
+                buttonContainer.appendChild(fileButton);
             }
         });
     } catch (error) {
         console.error('Error fetching JSON files from GitHub:', error);
-        showCustomAlert('Failed to load, what now?');
+        showCustomAlert('Oh no, can\'t load the trivia bank! Any ideas?');
     }
 }
 
+// 新增：讀取指定資料夾內的 JSON 檔案
+async function fetchFolderFiles(folderPath) {
+    const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${folderPath}`;
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error(`GitHub API error: ${response.status}`);
+        }
+        const data = await response.json();
+        const buttonContainer = document.getElementById('button-row');
+        buttonContainer.innerHTML = '';  // 清空按鈕容器
+
+        // 新增返回上一層的按鈕
+        data.forEach(item => {
+            if (item.type === 'file' && item.name.endsWith('.json')) {
+                const fileButton = document.createElement('button');
+                fileButton.classList.add('select-button');
+                fileButton.dataset.json = item.path;
+                fileButton.innerText = item.name.replace('.json', '');
+                fileButton.addEventListener('click', () => {
+                    const allButtons = document.querySelectorAll('.select-button');
+                    allButtons.forEach(btn => btn.classList.remove('selected'));
+                    fileButton.classList.add('selected');
+                    selectedJson = fileButton.dataset.json;
+                });
+                buttonContainer.appendChild(fileButton);
+            }
+        });
+        const backButton = document.createElement('button');
+        backButton.classList.add('back-button');
+        backButton.innerText = '← 返回';
+        backButton.addEventListener('click', fetchJsonFiles);
+        buttonContainer.appendChild(backButton);
+
+    } catch (error) {
+        console.error('Error fetching folder files from GitHub:', error);
+        showCustomAlert('Yikes, folder contents failed to load! What now?');
+    }
+}
+
+// 初始讀取時改為執行 fetchJsonFiles()
 window.addEventListener('DOMContentLoaded', fetchJsonFiles);
+
 
 // WeeGPT相關程式碼
 const weeGPTButton = document.getElementById('WeeGPT');
@@ -635,61 +693,48 @@ weeGPTButton.addEventListener('click', () => {
         return;
     }
     inputSection.style.display = inputSection.style.display === 'flex' ? 'none' : 'flex';
+    if (inputSection.style.display === 'flex') {
+        userQuestionInput.focus();
+    }
 });
 
 sendQuestionBtn.addEventListener('click', async () => {
     const userQuestion = userQuestionInput.value.trim();
     if (!userQuestion) {
-        alert('Please enter your question.');
         return;
     }
     inputSection.style.display = 'none';
     const defaultAnswer = currentQuestion.answer;
     const question = currentQuestion.question;
     const options = currentQuestion.options;
-    currentQuestion.explanation = 'Generating explanation, please wait...';
+    currentQuestion.explanation = '<span class="typing-effect">Guru Grogu is typing his legendary wisdom...</span>';
     document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
-    renderMathInElement(document.getElementById('explanation-text'), {
-        delimiters: [
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-            { left: "$$", right: "$$", display: true },
-            { left: "\\[", right: "\\]", display: true }
-        ]
-    });
-    document.getElementById('explanation').style.display = 'block';
-    document.getElementById('confirm-btn').style.display = 'none';
-    console.log('Generating explanation, please wait...');
+
+    // 組成要傳送的資料物件
+    const data = {
+        question,
+        options,
+        userQuestion,
+        defaultAnswer
+    };
+
     try {
-        const explanation = await window.generateExplanation(question, options, userQuestion, defaultAnswer);
-        currentQuestion.explanation = explanation;
-        document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
-        renderMathInElement(document.getElementById('explanation-text'), {
-            delimiters: [
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "$$", right: "$$", display: true },
-                { left: "\\[", right: "\\]", display: true }
-            ]
+        const response = await fetch("https://us-central1-geminiapiformedbot.cloudfunctions.net/triviaFunction", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
         });
-        document.getElementById('explanation').style.display = 'block';
-        document.getElementById('confirm-btn').style.display = 'none';
+        const result = await response.json();
+        currentQuestion.explanation = result.response;
+        document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
         userQuestionInput.value = '';
         console.log('Explanation updated successfully!');
     } catch (error) {
         console.error(error);
-        currentQuestion.explanation = 'An error occurred while generating the explanation. Please try again later.';
+        currentQuestion.explanation = 'Oops, error generating response. Guru Grogu might need a coffee break.';
         document.getElementById('explanation-text').innerHTML = marked.parse(currentQuestion.explanation);
-        renderMathInElement(document.getElementById('explanation-text'), {
-            delimiters: [
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "$$", right: "$$", display: true },
-                { left: "\\[", right: "\\]", display: true }
-            ]
-        });
-        document.getElementById('explanation').style.display = 'block';
-        document.getElementById('confirm-btn').style.display = 'none';
         console.log('Error generating explanation. Please try again later.');
     }
 });
@@ -720,7 +765,7 @@ function saveProgress() {
 function restoreProgress() {
     const savedProgress = localStorage.getItem('quizProgress');
     if (!savedProgress) {
-        showCustomAlert('No saved progress found!');
+        showCustomAlert('No saved progress found. Starting fresh, eh?');
         return;
     }
     try {
@@ -733,14 +778,14 @@ function restoreProgress() {
         selectedJson = progress.selectedJson;
         document.querySelector('.start-screen').style.display = 'none';
         document.querySelector('.quiz-container').style.display = 'flex';
-        document.querySelector('.quiz-title').innerText = `${selectedJson.split('/').pop().replace('.json', '')} Questions`;
+        document.querySelector('.quiz-title').innerText = `${selectedJson.split('/').pop().replace('.json', '')} 題矣`;
         document.getElementById('correct').innerText = correct;
         document.getElementById('wrong').innerText = wrong;
         loadQuestionFromState();
-        showCustomAlert('Progress successfully restored!');
+        showCustomAlert('進度已成功恢復！');
     } catch (error) {
         console.error('恢復進度時出錯：', error);
-        showCustomAlert('Error restoring progress, please try again.');
+        showCustomAlert('Oops, error restoring progress. Give it another shot.');
     }
 }
 
@@ -765,7 +810,7 @@ function loadQuestionFromState() {
         optionLabels = ['T', 'F'];
         shouldShuffle = false;
     } else {
-        optionLabels = ['A', 'B', 'C', 'D', 'E'];
+        optionLabels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
         shouldShuffle = true;
     }
     let optionEntries = Object.entries(currentQuestion.options);
@@ -808,5 +853,5 @@ function loadQuestionFromState() {
     const optionsText = Object.entries(currentQuestion.options).map(([key, value]) => `${key}: ${value}`).join('\n');
     document.querySelector('#popupWindow .editable:nth-child(3)').innerText = optionsText;
     document.querySelector('#popupWindow .editable:nth-child(5)').innerText = currentQuestion.answer;
-    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || 'There is currently no explanation for this question. If you have any questions, feel free to ask Gemini 2.0!';
+    document.querySelector('#popupWindow .editable:nth-child(7)').innerText = currentQuestion.explanation || '這題目前還沒有詳解，有任何疑問歡迎詢問 Guru Grogu！';
 }
