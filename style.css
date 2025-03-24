@@ -1,16 +1,40 @@
 /* Import Google Fonts for a premium look */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap');
 
+@font-face {
+    font-family: 'YuWeiShuFaYunMoFanTi';
+    src: url('fonts/YuWeiShuFaYunMoFanTi.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifTC';
+    src: url('fonts/NotoSerifTC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKtc';
+    src: url('fonts/NotoSerifCJKtc.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Base Styles */
 body {
-    font-family: "source-han-serif-tc", "Noto Serif TC", "Songti TC", "Poppins", "PMingLiU", "SimSun", serif;
+    font-family: "source-han-serif-tc", "Noto Serif TC", "NotoSerifCJKtc", "Songti TC", "Poppins", "PMingLiU", "NotoSerifTC", "SimSun", serif;
     color: #2D3436;
     margin: 0;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     background-color: white;
 }
 
-button, select, option, textarea {
+button, select, option, input {
     font-family: inherit; /* 或者明確指定字體 */
 }
 
@@ -25,14 +49,14 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: white;
     gap: 28px;
     position: relative;
     transition: all 0.4s ease;
 }
 
 .start-title {
-    font-family: "source-han-serif-tc", "Noto Serif TC", "PMingLiU", "SimSun", serif;
+    font-family: "YuWeiShuFaYunMoFanTi", "source-han-serif-tc", "Noto Serif TC", "PMingLiU", "SimSun", serif;
     color: #1A1A1A;
     font-size: 4rem;
     letter-spacing: 3px;
@@ -44,10 +68,27 @@ p {
 }
 
 /* Button Styles */
+        .back-button {
+            font-size: 1rem;
+            color: #262b34;  /* Deep slate blue */
+            border: none;  /* Vibrant blue-purple */
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            position: absolute;
+            top: 31px;
+            left: 30px;
+            background-color: transparent;
+        }
+
+        .back-button:hover, .back-button.selected {
+            color: #92a0ba;
+        }
+
         .select-button {
             padding: 12px 24px;
             font-size: 1rem;
-            background-color: #FFFFFF;
+            background-color: #ffffff50;
             color: #4A5568;  /* Deep slate blue */
             border: 2px solid #62597A;  /* Vibrant blue-purple */
             border-radius: 12px;
@@ -84,12 +125,13 @@ p {
         }
 
         .start-button {
-            padding: 14px 36px;
+            padding: 14px 30px;
             font-size: 1.2rem;
             background-color: #62597A;  /* Deep blue-purple */
             color: #FFFFFF;
             border: none;
             border-radius: 30px;
+            letter-spacing: 3px
             cursor: pointer;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             font-weight: 500;
@@ -126,7 +168,7 @@ p {
 
 
 .quiz-title {
-    font-family: "source-han-serif-tc", "Noto Serif TC", "PMingLiU", "SimSun", serif;
+    font-family: "YuWeiShuFaYunMoFanTi", "source-han-serif-tc", "Noto Serif TC", "PMingLiU", "SimSun", serif;
     color: #1A1A1A;
     font-size: 2.5rem;
     font-weight: 600;
@@ -222,7 +264,7 @@ body.dark-mode .start-title {
 }
 
 body.dark-mode .select-button {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ffffff;
     border: 2px solid #62597A;
 }
@@ -239,8 +281,13 @@ body.dark-mode .start-button {
     border: 2px solid #62597A;
 }
 
+body.dark-mode .restoreBtn_C3D4 {
+    color: lightgray;
+    background-color: transparent;
+}
+
 body.dark-mode .start-button:hover {
-    background-color: #62597A;
+    background-color: transparent;
     color: #ffffff;
 }
 
@@ -279,7 +326,6 @@ body.dark-mode .question-content {
 body.dark-mode .option-button {
     background-color: #1e1e1e;
     color: #ffffff;
-    border: 2px solid transparent;
 }
 
 body.dark-mode .option-button:hover {
@@ -337,18 +383,6 @@ body.dark-mode .copyright {
 
 body.dark-mode .copyright a {
     color: #888888;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .start-title {
-        font-size: 3rem;
-    }
-    
-    .select-button {
-        font-size: 0.9rem;
-        padding: 10px 20px;
-    }
 }
 
 /* Original CSS Elements Not Renewed */
@@ -809,7 +843,7 @@ body.dark-mode .logout-button:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
     .start-title {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .quiz-title {
@@ -820,9 +854,9 @@ body.dark-mode .logout-button:hover {
         font-size: 0.9rem;
         padding: 8px 16px;
     }
-    
-    .multi-label {
-        margin-top: 10px;
+
+    #WeeGPTInputSection {
+        margin: 0px 0px 20px 0px;
     }
 }
 
@@ -912,13 +946,6 @@ body.dark-mode .logout-button:hover {
             box-shadow: 0 2px 10px rgba(0, 130, 200, 0.2);
         }
 
-@media (max-width: 600px) {
-    #WeeGPTInputSection {
-        margin: 0px 0px 20px 0px;
-    }
-}
-
-
 
 
 /* Restore */
@@ -932,7 +959,7 @@ body.dark-mode .logout-button:hover {
     padding: 5px 20px;
     font-size: 14px;
     color: #3b3c56;
-    background-color: #ffffff;
+    background-color: #ffffff50;
     border: 2px solid #3b3c56;
     border-radius: 50px;
     cursor: pointer;
@@ -991,3 +1018,25 @@ body.dark-mode .logout-button:hover {
         width: 9px;
         height: 16px;
     }
+
+
+@keyframes moveLight {
+    from { left: -50%; }
+    to { left: 100%; }
+}
+
+.typing-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.typing-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to right, transparent, rgba(249, 249, 249 ,0.7), transparent);
+    animation: moveLight 2s linear infinite;
+}
