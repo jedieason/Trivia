@@ -28,7 +28,6 @@ window.MathJax = {
         fontCache: 'global'
     }
 };
-document.querySelector('.quiz-title').innerText = `${fileName} Trivia`;// 初始化測驗
 async function initQuiz() {
     localStorage.removeItem('quizProgress');
     
